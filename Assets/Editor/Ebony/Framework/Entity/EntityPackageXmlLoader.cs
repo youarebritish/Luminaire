@@ -1031,15 +1031,16 @@ namespace Ebony.Framework.Entity
                 this.StartupUnloadObjectIndexes.Add(objectIndex);
             }
 
-            foreach (var entry in isNotStartupUnloadObjectTable)
+            /*foreach (var entry in isNotStartupUnloadObjectTable)
             {
                 if (entry.Value)
                 {
                     continue;
                 }
 
-                this.ObjectElementList.Remove(this.ObjectElementList[entry.Key]);
-            }
+                var objToRemove = this.ObjectElementList[entry.Key];
+                this.ObjectElementList.Remove(objToRemove);
+            }*/
         }
 
         /// <summary>
