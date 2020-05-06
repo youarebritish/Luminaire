@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Scriban;
 using static Luminous.Core.Object.Property;
 
 public static class ClassGenerator
@@ -39,6 +40,30 @@ public static class ClassGenerator
     public static void GenerateClasses(string schema, string template)
     {
         var objectTypes = JsonConvert.DeserializeObject<SerializedObjectType[]>(schema);
-        var five = 5;
+        var parsedTemplate = Template.Parse(template);
+
+        foreach (var objectTypeData in objectTypes)
+        {
+            var typeTokens = objectTypeData.name_.Split('.');
+            if (typeTokens.Length < 2)
+            {
+                continue;
+            }
+
+            var type = typeTokens[typeTokens.Length - 1];
+            var typeNamespace = string.Empty;
+            for(var i = 0; i < typeTokens.Length - 1; i++)
+            {
+                typeNamespace += typeTokens[i];
+
+                if (i != typeTokens.Length - 2)
+                {
+                    typeNamespace += ".";
+                }
+            }
+
+            var result = parsedTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.basetype, objectType = objectTypeData });
+            UnityEngine.Debug.Log(result);
+        }
     }
 }

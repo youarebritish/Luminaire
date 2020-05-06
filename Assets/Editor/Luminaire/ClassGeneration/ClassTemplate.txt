@@ -1,0 +1,42 @@
+namespace {{ name_space }}
+{
+    public partial class {{ type }} : {{ base_type }}
+    {
+        new public static ObjectType ObjectType { get; private set; }
+        private static PropertyContainer fieldProperties;
+        
+        new public static void SetupObjectType()
+        {
+            if (ObjectType != null)
+            {
+                return;
+            }
+
+            var dummy = new {{ type }}();
+            var properties = dummy.GetFieldProperties();
+
+            ObjectType = new ObjectType("{{ object_type.name_ }}", 0, {{ object_type.name_ }}.ObjectType, Construct, properties, {{ object_type.function_count_ }}, {{ object_type.object_size_ }});
+        }
+
+        public override ObjectType GetObjectType()
+        {
+            return ObjectType;
+        }
+
+        protected override PropertyContainer GetFieldProperties()
+        {
+            if (fieldProperties != null)
+            {
+                return fieldProperties;
+            }
+
+            fieldProperties = new PropertyContainer("{{ object_type.name_ }}", base.GetFieldProperties(), {{ object_type.property_container_.name_hash_code_ }}, {{ object_type.property_container_.version_hash_code_ }});
+            return fieldProperties;
+        }
+
+        private static BaseObject Construct()
+        {
+            return new {{ type }}();
+        }
+    }
+}
