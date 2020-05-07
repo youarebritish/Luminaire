@@ -41,6 +41,10 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveJobCommandStruct", null, 2144912215, -347845525);
             
+			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("exist", 456138012, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("exp", 1923516200, "int32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("level", 2610554845, "int32_t", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

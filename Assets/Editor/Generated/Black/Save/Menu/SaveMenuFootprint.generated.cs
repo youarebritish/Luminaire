@@ -39,6 +39,8 @@ namespace Black.Save.Menu
 
             fieldProperties = new PropertyContainer("Black.Save.Menu.SaveMenuFootprint", null, 136861587, 2044925645);
             
+			fieldProperties.AddProperty(new Property("id_", 2899315373, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bitset_", 4237905389, "SQEX.Ebony.Std.DynamicArray< Black.Save.Menu.SaveMenuFootprint.BitsetType >", 8, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			
 			
 			return fieldProperties;

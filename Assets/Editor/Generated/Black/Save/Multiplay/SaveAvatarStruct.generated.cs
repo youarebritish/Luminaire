@@ -39,6 +39,8 @@ namespace Black.Save.Multiplay
 
             fieldProperties = new PropertyContainer("Black.Save.Multiplay.SaveAvatarStruct", null, -1262150652, 2094231887);
             
+			fieldProperties.AddProperty(new Property("version", 1181855383, "int32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("avatar", 573852100, "Black.Save.Multiplay.SaveAvatarDataStruct", 4, 1668, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

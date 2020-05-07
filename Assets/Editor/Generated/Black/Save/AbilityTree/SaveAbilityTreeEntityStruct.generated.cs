@@ -39,6 +39,8 @@ namespace Black.Save.AbilityTree
 
             fieldProperties = new PropertyContainer("Black.Save.AbilityTree.SaveAbilityTreeEntityStruct", null, -396705802, -2091508941);
             
+			fieldProperties.AddProperty(new Property("enableAbilityTreeEntityId", 2698800794, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("abilityBankNumber", 194599050, "int", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

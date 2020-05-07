@@ -43,6 +43,12 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveEppStageScore", null, 1517503952, 2111343169);
             
+			fieldProperties.AddProperty(new Property("ResultTime", 2208428261, "int64_t", 0, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));
+			fieldProperties.AddProperty(new Property("CoinCount", 1465967411, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("CoinBonus", 2899958019, "int", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("KillCount", 3945868512, "int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("KillBonus", 1022453432, "int", 20, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("TotalBonus", 611686604, "int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

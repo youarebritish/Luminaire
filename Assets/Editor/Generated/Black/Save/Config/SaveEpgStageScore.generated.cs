@@ -44,6 +44,13 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveEpgStageScore", null, 1517485435, -1027956599);
             
+			fieldProperties.AddProperty(new Property("TotalScore", 2725963789, "int", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Point1", 1743797504, "int", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Point2", 1794130361, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Point3", 1777352742, "int", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Point4", 1827685599, "int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Point5", 1810907980, "int", 20, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Point6", 1861240837, "int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

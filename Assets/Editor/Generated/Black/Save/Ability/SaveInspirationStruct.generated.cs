@@ -39,6 +39,8 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveInspirationStruct", null, -343021462, 713393259);
             
+			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("exist", 456138012, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

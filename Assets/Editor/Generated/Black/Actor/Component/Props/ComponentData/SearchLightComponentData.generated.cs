@@ -38,6 +38,7 @@ namespace Black.Actor.Component.Props.ComponentData
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Props.ComponentData.SearchLightComponentData", base.GetFieldProperties(), -1458279179, -1012852168);
             
+			fieldProperties.AddProperty(new Property("lightOffset_", 1598213585, "Luminous.Math.VectorA", 64, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

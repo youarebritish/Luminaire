@@ -40,6 +40,9 @@ namespace Black.Actor.Component.Enemy.Individual.ComponentData
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Enemy.Individual.ComponentData.NiflSoldierWireArmIndividualComponentData", base.GetFieldProperties(), 1123837994, -731442856);
             
+			fieldProperties.AddProperty(new Property("wireWeaponSlot_", 210284845, "int32_t", 64, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("wireAttachJoint_", 1175607808, "SQEX.Ebony.Std.Fixid", 68, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("wireAttachRotation_", 466579672, "Luminous.Math.VectorA", 80, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

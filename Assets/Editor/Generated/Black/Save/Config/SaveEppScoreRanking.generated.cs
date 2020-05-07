@@ -39,6 +39,8 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveEppScoreRanking", null, -1583175797, -788938829);
             
+			fieldProperties.AddProperty(new Property("bestTime", 3618101878, "int64_t", 0, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));
+			fieldProperties.AddProperty(new Property("EppScoreRanking", 1606933620, "Black.Save.Config.SaveEppFinalScore", 8, 640, 10, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			
 			return fieldProperties;

@@ -40,6 +40,9 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveGameConfigNoxEPP", null, -1420705936, -1593875547);
             
+			fieldProperties.AddProperty(new Property("cleared", 3899202675, "bool", 0, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("played", 1117382050, "bool", 1, 4, 4, Property.PrimitiveType.Bool, 0, (char)8));
+			fieldProperties.AddProperty(new Property("EppScoreBoard", 1296817618, "Black.Save.Config.SaveEppScoreRanking", 8, 1944, 3, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			
 			return fieldProperties;

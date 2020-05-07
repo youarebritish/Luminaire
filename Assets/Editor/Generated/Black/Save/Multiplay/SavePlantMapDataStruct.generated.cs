@@ -39,6 +39,8 @@ namespace Black.Save.Multiplay
 
             fieldProperties = new PropertyContainer("Black.Save.Multiplay.SavePlantMapDataStruct", null, -751665946, -1251616530);
             
+			fieldProperties.AddProperty(new Property("isCompletedLesta_", 2026538682, "bool", 0, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("iconDataList_", 4202595757, "Black.Save.Multiplay.SavePlantMapDataStruct.IconDataStruct", 4, 4000, 500, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			
 			return fieldProperties;

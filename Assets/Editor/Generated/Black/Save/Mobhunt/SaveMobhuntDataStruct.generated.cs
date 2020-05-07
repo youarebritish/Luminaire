@@ -47,6 +47,16 @@ namespace Black.Save.Mobhunt
 
             fieldProperties = new PropertyContainer("Black.Save.Mobhunt.SaveMobhuntDataStruct", null, -2065400598, -1936981960);
             
+			fieldProperties.AddProperty(new Property("id_", 2899315373, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCleared_", 131525108, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isRecieved_", 2250648127, "bool", 5, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isReported_", 603207647, "bool", 6, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isKilledAll_", 821867844, "bool", 7, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isNew_", 3892239546, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("mobhuntVDataNewArray_", 1103071670, "SQEX.Ebony.Std.DynamicArray< Black.Save.Mobhunt.SaveMobhuntVDataStructNew >", 16, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("killCount0_", 1989168221, "uint8_t", 32, 1, 1, Property.PrimitiveType.Int8, 0, (char)0));
+			fieldProperties.AddProperty(new Property("killCount1_", 3063082932, "uint8_t", 33, 1, 1, Property.PrimitiveType.Int8, 0, (char)0));
+			fieldProperties.AddProperty(new Property("killCount2_", 3063230027, "uint8_t", 34, 1, 1, Property.PrimitiveType.Int8, 0, (char)0));
 			
 			
 			return fieldProperties;

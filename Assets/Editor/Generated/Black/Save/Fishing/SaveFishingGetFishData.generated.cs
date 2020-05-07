@@ -43,6 +43,12 @@ namespace Black.Save.Fishing
 
             fieldProperties = new PropertyContainer("Black.Save.Fishing.SaveFishingGetFishData", null, -512245723, 381596064);
             
+			fieldProperties.AddProperty(new Property("fishId_", 576713859, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("getMaxSize_", 496218955, "float", 4, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("getCount_", 1664279811, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lureId_Rec_", 851889856, "SQEX.Ebony.Std.Fixid", 12, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hour24_Rec_", 3890697697, "int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fishingSpotId_Rec_", 1059961026, "SQEX.Ebony.Std.Fixid", 20, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

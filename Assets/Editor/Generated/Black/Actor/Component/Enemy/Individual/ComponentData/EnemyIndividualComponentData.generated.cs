@@ -38,6 +38,7 @@ namespace Black.Actor.Component.Enemy.Individual.ComponentData
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Enemy.Individual.ComponentData.EnemyIndividualComponentData", base.GetFieldProperties(), 1200261717, 741176349);
             
+			fieldProperties.AddProperty(new Property("individualType", 2226370006, "Black.Actor.Component.Enemy.Individual.ENEMY_INDIVIDUALITY_TYPE", 64, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

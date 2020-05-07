@@ -40,6 +40,9 @@ namespace Black.Save.Item
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveMagicRecipeItemStruct", null, 377258242, -275558421);
             
+			fieldProperties.AddProperty(new Property("element", 1330461687, "Black.Actor.STATUS_ELEMENT", 0, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("item", 2671260646, "SQEX.Ebony.Std.Fixid", 4, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("amount", 4152741449, "int32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

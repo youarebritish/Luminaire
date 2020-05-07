@@ -39,6 +39,8 @@ namespace Black.Save.Multiplay
 
             fieldProperties = new PropertyContainer("Black.Save.Multiplay.SaveAvatarEquipmentStruct", null, 608778241, 395342048);
             
+			fieldProperties.AddProperty(new Property("weapon", 1865621569, "Black.Save.Equipment.SaveWeaponEquipmentStruct", 0, 64, 4, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("accessory", 1164796377, "Black.Save.Equipment.SaveWeaponEquipmentStruct", 64, 48, 3, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			
 			return fieldProperties;

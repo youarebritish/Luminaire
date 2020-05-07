@@ -41,6 +41,10 @@ namespace Black.Actor
 
             fieldProperties = new PropertyContainer("Black.Actor.ActorControl", base.GetFieldProperties(), 963296600, 1157335194);
             
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 7000, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("height_", 2527956647, "float", 7004, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("eyeHeight_", 2345981490, "float", 7008, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("eyeHeightRatio_", 966492061, "float", 7012, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

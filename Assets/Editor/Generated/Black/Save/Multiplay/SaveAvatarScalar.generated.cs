@@ -39,6 +39,8 @@ namespace Black.Save.Multiplay
 
             fieldProperties = new PropertyContainer("Black.Save.Multiplay.SaveAvatarScalar", null, -393543420, -958162168);
             
+			fieldProperties.AddProperty(new Property("Value", 3511155050, "float", 0, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("IsDefault", 101743630, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

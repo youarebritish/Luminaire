@@ -55,6 +55,24 @@ namespace Black.Save.Player
 
             fieldProperties = new PropertyContainer("Black.Save.Player.SavePlayerStruct", null, -937167067, 1560390726);
             
+			fieldProperties.AddProperty(new Property("object_entry_id", 868490063, "SQEX.Ebony.Std.Fixid", 4, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("character_entry_id", 216598113, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("default_character_entry_id", 3039116423, "SQEX.Ebony.Std.Fixid", 12, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("name", 2369371622, "char", 16, 128, 128, Property.PrimitiveType.Int8, 0, (char)8));
+			fieldProperties.AddProperty(new Property("name_id", 3355607158, "SQEX.Ebony.Std.Fixid", 144, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("status", 3125508079, "Black.Save.Player.SaveStatusStruct", 152, 1536, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("player_status", 96348663, "Black.Save.Player.SavePlayerStatusStruct", 1688, 140, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weapon_type", 1761553146, "Black.Actor.WEAPON_TYPE", 1828, 16, 4, Property.PrimitiveType.Enum, 0, (char)8));
+			fieldProperties.AddProperty(new Property("ability", 3471506833, "Black.Save.Ability.SaveAbilityStruct", 1844, 32228, 1151, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("ability_count", 1904179969, "Black.Save.Ability.SaveAbilityCountStruct", 34072, 8192, 2, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("ability_effect_count", 2728588471, "Black.Save.Ability.SaveAbilityEffectCountStruct", 42264, 2048, 2, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("weapon_ability", 2604204528, "Black.Save.Ability.SaveEnchantCountStruct", 44312, 80, 2, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("job_command", 2134253846, "Black.Save.Ability.SaveJobCommandStruct", 44392, 256, 16, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("inspiration", 3359413299, "Black.Save.Ability.SaveInspirationStruct", 44648, 2048, 256, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("inspiration_check", 2044175116, "Black.Save.Ability.SaveInspirationCheckStruct", 46696, 8192, 2048, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("inspiration_element_check", 863795739, "Black.Save.Ability.SaveInspirationElementCheckStruct", 54888, 256, 64, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("skill", 3390427190, "Black.Save.Ability.SaveSkillStruct", 55144, 16, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("position", 2471448074, "Black.Save.Player.SavePlayerPositionStruct", 55168, 64, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

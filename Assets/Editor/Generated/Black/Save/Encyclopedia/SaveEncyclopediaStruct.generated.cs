@@ -40,6 +40,9 @@ namespace Black.Save.Encyclopedia
 
             fieldProperties = new PropertyContainer("Black.Save.Encyclopedia.SaveEncyclopediaStruct", null, -1405097798, 304503494);
             
+			fieldProperties.AddProperty(new Property("enemy", 1776971179, "Black.Save.Encyclopedia.SaveEncyclopediaEnemyDataStruct", 0, 11988, 999, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("character", 2335876880, "Black.Save.Encyclopedia.SaveEncyclopediaCharacterDataStruct", 11988, 512, 64, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("archive", 2566783941, "Black.Save.Encyclopedia.SaveEncyclopediaArchiveDataStruct", 12500, 1024, 128, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			
 			return fieldProperties;

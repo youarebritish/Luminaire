@@ -39,6 +39,8 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveAbilityCountOneStruct", null, -952661298, -1206995692);
             
+			fieldProperties.AddProperty(new Property("count", 967958004, "int16_t", 0, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weapon_attack", 877449430, "uint16_t", 2, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
 			
 			
 			return fieldProperties;

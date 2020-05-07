@@ -39,6 +39,8 @@ namespace Black.Save.Common
 
             fieldProperties = new PropertyContainer("Black.Save.Common.SaveEpiScore", null, 862257242, -1995756868);
             
+			fieldProperties.AddProperty(new Property("chapter", 703916114, "Black.Save.Common.EPI_RESULT_SCENE", 0, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("score", 3526332565, "int32_t", 4, 384, 8, Property.PrimitiveType.Int32, 0, (char)8));
 			
 			
 			return fieldProperties;

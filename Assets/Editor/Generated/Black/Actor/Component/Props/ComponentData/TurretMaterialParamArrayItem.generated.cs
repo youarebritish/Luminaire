@@ -39,6 +39,8 @@ namespace Black.Actor.Component.Props.ComponentData
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Props.ComponentData.TurretMaterialParamArrayItem", base.GetFieldProperties(), 1709214244, -1022045204);
             
+			fieldProperties.AddProperty(new Property("MaterialName", 3232801059, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ParamName", 1533216953, "Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

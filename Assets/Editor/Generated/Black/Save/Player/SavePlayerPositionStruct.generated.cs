@@ -40,6 +40,9 @@ namespace Black.Save.Player
 
             fieldProperties = new PropertyContainer("Black.Save.Player.SavePlayerPositionStruct", null, -1276031611, -1240206129);
             
+			fieldProperties.AddProperty(new Property("available_", 3905236805, "bool", 0, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("double_vector_", 1533191671, "Luminous.Math.DoubleVector4", 8, 32, 1, Property.PrimitiveType.DoubleVector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 48, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

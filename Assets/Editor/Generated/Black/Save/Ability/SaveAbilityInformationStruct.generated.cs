@@ -41,6 +41,10 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveAbilityInformationStruct", null, -1934846915, 1997277333);
             
+			fieldProperties.AddProperty(new Property("effect", 1852738900, "Black.Actor.ABILITY_EFFECT", 0, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("value", 1113510858, "int32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("attack", 1167440125, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("condition", 3524459198, "Black.Actor.ABILITY_CONDITION", 12, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

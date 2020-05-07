@@ -42,6 +42,11 @@ namespace Black.Save.MemoryQuest
 
             fieldProperties = new PropertyContainer("Black.Save.MemoryQuest.SaveMemoryQuestStruct", null, -592928316, -461476628);
             
+			fieldProperties.AddProperty(new Property("version_", 2901812440, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isNowCurrent_", 1349301765, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isReturnCaem_", 4138090386, "bool", 5, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCanReturn_", 1721751472, "bool", 6, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("memoryQuestData", 919345968, "Black.Save.MemoryQuest.SaveMemoryQuestDataStruct", 16, 384, 4, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			
 			return fieldProperties;

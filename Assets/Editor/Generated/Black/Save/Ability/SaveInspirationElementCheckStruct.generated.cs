@@ -38,6 +38,7 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveInspirationElementCheckStruct", null, -1206440097, 1048210888);
             
+			fieldProperties.AddProperty(new Property("count", 967958004, "int32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

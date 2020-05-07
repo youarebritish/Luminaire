@@ -41,6 +41,10 @@ namespace Black.Save.Player
 
             fieldProperties = new PropertyContainer("Black.Save.Player.SaveDataStruct", null, 1286902868, 1307448055);
             
+			fieldProperties.AddProperty(new Property("gameVersion", 1162010473, "int32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("startTime", 178154766, "SQEX.Ebony.Base.Timer.TimeStamp", 8, 8, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("endTime", 3550905323, "SQEX.Ebony.Base.Timer.TimeStamp", 16, 8, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("player", 748274432, "Black.Save.Player.SavePlayerStruct", 32, 1049408, 19, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			
 			return fieldProperties;

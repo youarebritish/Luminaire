@@ -38,6 +38,7 @@ namespace Black.Save.Party
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SaveJobPlayerStruct", null, -1888185644, -147784034);
             
+			fieldProperties.AddProperty(new Property("level", 2610554845, "int32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

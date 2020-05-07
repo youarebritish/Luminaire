@@ -39,6 +39,8 @@ namespace Black.Save.Mobhunt
 
             fieldProperties = new PropertyContainer("Black.Save.Mobhunt.SaveMobhuntStruct", null, 886934223, -1667446612);
             
+			fieldProperties.AddProperty(new Property("dinnerId_", 1764431317, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("mobhuntData", 3154479004, "Black.Save.Mobhunt.SaveMobhuntDataStruct", 8, 2560, 64, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			
 			return fieldProperties;

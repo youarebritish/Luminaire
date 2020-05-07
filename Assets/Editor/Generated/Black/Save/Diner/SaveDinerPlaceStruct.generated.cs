@@ -41,6 +41,10 @@ namespace Black.Save.Diner
 
             fieldProperties = new PropertyContainer("Black.Save.Diner.SaveDinerPlaceStruct", null, 1016045616, 533842338);
             
+			fieldProperties.AddProperty(new Property("diner_id_", 3738171726, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("map_icon_id_", 1726061278, "SQEX.Ebony.Std.Fixid", 4, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("object_condition_", 248858581, "uint32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("icon_condition_", 3927538907, "uint32_t", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

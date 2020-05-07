@@ -38,6 +38,7 @@ namespace Black.Actor.Component.Enemy.Individual.ComponentData
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Enemy.Individual.ComponentData.NiflFlagSoldierIndividualComponentData", base.GetFieldProperties(), -546557796, 162449678);
             
+			fieldProperties.AddProperty(new Property("needTimeForCalling_", 627547566, "float", 64, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

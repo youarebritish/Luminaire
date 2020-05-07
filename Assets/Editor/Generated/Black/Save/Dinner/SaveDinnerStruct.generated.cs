@@ -39,6 +39,8 @@ namespace Black.Save.Dinner
 
             fieldProperties = new PropertyContainer("Black.Save.Dinner.SaveDinnerStruct", null, 204600937, -741481900);
             
+			fieldProperties.AddProperty(new Property("foodRecordId", 4085127365, "SQEX.Ebony.Std.Fixid", 0, 40, 10, Property.PrimitiveType.Fixid, 0, (char)8));
+			fieldProperties.AddProperty(new Property("recipe", 3967719375, "Black.Save.Dinner.SaveDinnerRecipeStruct", 40, 3072, 256, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			
 			return fieldProperties;

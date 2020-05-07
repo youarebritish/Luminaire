@@ -203,7 +203,7 @@ public static class ClassGenerator
         var objectTypes = JsonConvert.DeserializeObject<SerializedObjectType[]>(schema);
         var parsedTemplate = Template.Parse(template);
 
-        var depth = 100;
+        var depth = 200;
 
         foreach (var objectTypeData in objectTypes)
         {
@@ -212,7 +212,7 @@ public static class ClassGenerator
             {
                 return;
             }
-
+            
             if (objectTypeData.name_.Contains("SaveAvatarModDataStruct"))
             {
                 // Don't bother, causes some annoying compile errors and I don't think we can use it for anything useful anyway

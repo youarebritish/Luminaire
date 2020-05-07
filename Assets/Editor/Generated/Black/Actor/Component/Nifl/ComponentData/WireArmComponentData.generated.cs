@@ -39,6 +39,8 @@ namespace Black.Actor.Component.Nifl.ComponentData
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Nifl.ComponentData.WireArmComponentData", base.GetFieldProperties(), 783898617, 968478896);
             
+			fieldProperties.AddProperty(new Property("wireMoveSpeed_", 480392557, "float", 64, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("wireHomingAngle_", 1601032924, "float", 68, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

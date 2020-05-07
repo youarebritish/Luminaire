@@ -38,6 +38,7 @@ namespace Black.Save.Common
 
             fieldProperties = new PropertyContainer("Black.Save.Common.SaveFixidStruct", null, -2139253979, 1170161483);
             
+			fieldProperties.AddProperty(new Property("id_", 2899315373, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

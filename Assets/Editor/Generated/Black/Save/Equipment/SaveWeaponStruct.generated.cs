@@ -55,6 +55,24 @@ namespace Black.Save.Equipment
 
             fieldProperties = new PropertyContainer("Black.Save.Equipment.SaveWeaponStruct", null, -743336271, -1839223059);
             
+			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("reserve_flag", 3857446022, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("exist", 456138012, "bool", 5, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("new_flag", 1714979188, "bool", 6, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("equipment", 3463588087, "Black.Save.SAVE_PLAYER", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("equipment_weapon_bank_number", 175130021, "int32_t", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("name_id", 3355607158, "SQEX.Ebony.Std.Fixid", 16, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("type", 1361572173, "Black.Actor.WEAPON_TYPE", 20, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rank", 2895879719, "int32_t", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("strength", 3766098096, "int32_t", 28, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("vitality", 756208663, "int32_t", 32, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("critical", 1364460424, "int32_t", 36, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("recover_mp", 1250591417, "int32_t", 40, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("slot", 1888831345, "int32_t", 44, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ability", 3471506833, "Black.Save.Ability.SaveAbilityEquipmentStruct", 48, 16, 2, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("resident_ability", 1649238992, "Black.Save.Ability.SaveAbilityEquipmentStruct", 64, 8, 1, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("status_adjust", 3367186719, "int32_t", 72, 76, 19, Property.PrimitiveType.Int32, 0, (char)8));
+			fieldProperties.AddProperty(new Property("remodel_fail_count", 256344970, "int32_t", 148, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;
