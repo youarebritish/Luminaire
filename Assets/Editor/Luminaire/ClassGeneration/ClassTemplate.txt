@@ -1,6 +1,9 @@
+using Luminous.Core.Object;
+using System.Collections.Generic;
+
 namespace {{ name_space }}
 {
-    public partial class {{ type }} : {{ base_type }}
+    public partial class {{ type }}{{ if base_type }} : {{ base_type }}{{ end }}
     {
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
@@ -18,28 +21,30 @@ namespace {{ name_space }}
             var dummy = new {{ type }}();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("{{ object_type.name_ }}", 0, {{ object_type.name_ }}.ObjectType, Construct, properties, {{ object_type.function_count_ }}, {{ object_type.object_size_ }});
+            ObjectType = new ObjectType("{{ object_type.name_ }}", 0, {{ object_type.name_ }}.ObjectType, {{ if object_type.construct_function_ != 0 }}Construct{{ else }}null{{ end }}, properties, {{ object_type.function_count_ }}, {{ object_type.object_size_ }});
         }
-
-        public override ObjectType GetObjectType()
+		
+        public {{ if base_type }}override{{ end }} ObjectType GetObjectType()
         {
             return ObjectType;
         }
 
-        protected override PropertyContainer GetFieldProperties()
+        protected {{ if base_type }}override{{ end }} PropertyContainer GetFieldProperties()
         {
             if (fieldProperties != null)
             {
                 return fieldProperties;
             }
 
-            fieldProperties = new PropertyContainer("{{ object_type.name_ }}", base.GetFieldProperties(), {{ object_type.property_container_.name_hash_code_ }}, {{ object_type.property_container_.version_hash_code_ }});
+            fieldProperties = new PropertyContainer("{{ object_type.name_ }}", {{ if base_type }}base.GetFieldProperties(){{ else }}null{{ end }}, {{ object_type.property_container_.name_hash_code_ }}, {{ object_type.property_container_.version_hash_code_ }});
             return fieldProperties;
         }
 
+		{{ if object_type.construct_function_ != 0 }}
         private static BaseObject Construct()
         {
             return new {{ type }}();
         }
+		{{ end }}
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Scriban;
 using System;
+using System.IO;
 using static Luminous.Core.Object.Property;
 
 public static class ClassGenerator
@@ -140,13 +141,22 @@ public static class ClassGenerator
         var objectTypes = JsonConvert.DeserializeObject<SerializedObjectType[]>(schema);
         var parsedTemplate = Template.Parse(template);
 
+        var depth = 100;
+
         foreach (var objectTypeData in objectTypes)
         {
+            if (depth <= 0)
+            {
+                return;
+            }
+
             var typeTokens = objectTypeData.name_.Split('.');
             if (typeTokens.Length < 2)
             {
                 continue;
             }
+
+            depth--;
 
             var type = typeTokens[typeTokens.Length - 1];
             var typeNamespace = string.Empty;
@@ -160,8 +170,24 @@ public static class ClassGenerator
                 }
             }
 
+            if (string.IsNullOrEmpty(objectTypeData.basetype))
+            {
+                objectTypeData.basetype = null;
+            }
+
             var result = parsedTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.basetype, objectType = objectTypeData });
-            UnityEngine.Debug.Log(result);
+            var filePath = MakeOutputPath(type);
+
+            Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+            File.WriteAllText(filePath, result);
         }
+    }
+
+    private const string OutputDirectory = "/Assets/Editor/Generated/";
+
+    private static string MakeOutputPath(string typeName)
+    {
+        var filePath = typeName.Replace(".", "/");
+        return UnityEngine.Application.dataPath + OutputDirectory + filePath + ".generated.cs";
     }
 }
