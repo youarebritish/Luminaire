@@ -40,6 +40,8 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetMaterialParameterFloat", base.GetFieldProperties(), 1602564626, 1003789265);
             
+			
+			
 			fieldProperties.AddProperty(new Property("materialName_", 3099305108, "SQEX.Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("parameterName_", 2272229252, "SQEX.Ebony.Base.String", 40, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("parameterValue_", 1850310810, "float", 56, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

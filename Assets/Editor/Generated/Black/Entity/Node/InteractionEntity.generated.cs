@@ -37,6 +37,15 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.InteractionEntity", base.GetFieldProperties(), 1834943113, -177422420);
             
+			fieldProperties.AddIndirectlyProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 80, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("entitySearchLabelId_", 3840219358, "SQEX.Ebony.Std.Fixid", 112, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("interactionParamId_", 3572570526, "SQEX.Ebony.Std.Fixid", 264, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("interactionItemId_", 4287093562, "SQEX.Ebony.Std.Fixid", 268, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("interactionMaskOff_", 3728935017, "bool", 272, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("interactionUpdateOn_", 3839983444, "bool", 273, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			
+			
 			
 			
 			return fieldProperties;

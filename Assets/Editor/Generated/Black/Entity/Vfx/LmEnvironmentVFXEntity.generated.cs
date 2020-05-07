@@ -38,6 +38,8 @@ namespace Black.Entity.Vfx
 
             fieldProperties = new PropertyContainer("Black.Entity.Vfx.LmEnvironmentVFXEntity", base.GetFieldProperties(), -1969202926, -963177189);
             
+			
+			
 			fieldProperties.AddProperty(new Property("foliages_", 2396713178, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Vfx.LmEnvironmentVFXElement* >", 64, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			

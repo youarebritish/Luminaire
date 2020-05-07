@@ -218,6 +218,8 @@ namespace Black.Entity.Data.Physics
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.VehicleDataEntity", base.GetFieldProperties(), 739638239, 1992925650);
             
+			
+			
 			fieldProperties.AddProperty(new Property("entryId_", 3698228211, "SQEX.Ebony.Std.Fixid", 64, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("vehicleType_", 1194594424, "Black.Physics.Vehicle.VehicleType", 68, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("enginePeakTorque_", 4226057191, "float", 72, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

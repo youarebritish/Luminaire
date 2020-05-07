@@ -62,6 +62,11 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.ActorBindTrackItem", base.GetFieldProperties(), 630843904, -69983489);
             
+			fieldProperties.AddIndirectlyProperty(new Property("name_", 182823483, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("startTime_", 140908163, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("duration_", 1282328598, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("isCharCollisionDisable_", 1068324914, "bool", 88, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isBGCollisionDisable_", 934030259, "bool", 89, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("bgEnabledInterpolationTime_", 2832323711, "float", 92, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

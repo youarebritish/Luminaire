@@ -37,6 +37,11 @@ namespace Black.Entity
 
             fieldProperties = new PropertyContainer("Black.Entity.MergedStaticModelEntity", base.GetFieldProperties(), -1439379028, -1511476149);
             
+			fieldProperties.AddIndirectlyProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 80, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("entitySearchLabelId_", 3840219358, "SQEX.Ebony.Std.Fixid", 112, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			
+			
 			
 			
 			return fieldProperties;

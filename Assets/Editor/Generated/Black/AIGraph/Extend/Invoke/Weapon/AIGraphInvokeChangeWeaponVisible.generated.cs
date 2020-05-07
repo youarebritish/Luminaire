@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Weapon
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Weapon.AIGraphInvokeChangeWeaponVisible", base.GetFieldProperties(), 1663758556, -726826241);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isVisible_", 3195904618, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			

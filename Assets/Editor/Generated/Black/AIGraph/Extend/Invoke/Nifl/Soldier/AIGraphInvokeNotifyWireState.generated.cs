@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeNotifyWireState", base.GetFieldProperties(), 1289696582, -969070241);
             
+			
+			
 			fieldProperties.AddProperty(new Property("notifyInfoType_", 202194805, "Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeNotifyWireState.NOTIFY_INFORMATION_TYPE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			

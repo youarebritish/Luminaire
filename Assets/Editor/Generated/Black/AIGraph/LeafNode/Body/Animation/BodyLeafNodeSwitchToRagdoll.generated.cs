@@ -38,6 +38,15 @@ namespace Black.AIGraph.LeafNode.Body.Animation
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Animation.BodyLeafNodeSwitchToRagdoll", base.GetFieldProperties(), -2076830288, -1970832218);
             
+			fieldProperties.AddIndirectlyProperty(new Property("uid_", 2695886806, "int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("startNodeUid_", 2715036948, "int", 20, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("bDisable_", 54874740, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("bSkipblackBoardInitialization_", 1945287384, "bool", 25, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("ragdollRange_.propertyId_", 1833901073, "int", 64, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("ragdollRange_.indexOfLinkedProperty_", 675994786, "int", 68, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("ragdollRange_.value_", 3914847682, "int", 80, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("ragdollRange_", 675281190, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			

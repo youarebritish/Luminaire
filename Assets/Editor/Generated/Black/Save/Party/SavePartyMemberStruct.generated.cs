@@ -38,6 +38,8 @@ namespace Black.Save.Party
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SavePartyMemberStruct", null, 1072846272, 1655033737);
             
+			
+			
 			fieldProperties.AddProperty(new Property("save_bank_number", 1105146745, "Black.Save.SAVE_PLAYER", 0, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			

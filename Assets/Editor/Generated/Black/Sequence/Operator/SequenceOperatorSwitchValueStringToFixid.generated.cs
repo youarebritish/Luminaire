@@ -66,6 +66,35 @@ namespace Black.Sequence.Operator
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.SequenceOperatorSwitchValueStringToFixid", base.GetFieldProperties(), -681382879, -1894785155);
             
+			fieldProperties.AddIndirectlyProperty(new Property("refInPorts_", 1035088696, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin*, MEMORY_CATEGORY_FRAMEWORK >", 24, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
+			fieldProperties.AddIndirectlyProperty(new Property("refOutPorts_", 283683627, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin*, MEMORY_CATEGORY_FRAMEWORK >", 40, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
+			fieldProperties.AddIndirectlyProperty(new Property("inputValuePin_.pinName_", 3951781431, "Base.String", 144, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("inputValuePin_.name_", 3208503266, "Base.String", 160, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("inputValuePin_.connections_", 711615536, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 176, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("inputValuePin_.pinValueType_", 3717016939, "Base.String", 208, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("outputValue_.pinName_", 1332032657, "Base.String", 232, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("outputValue_.name_", 67830092, "Base.String", 248, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("outputValue_.connections_", 1068318418, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 264, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("outputValue_.pinValueType_", 2971852705, "Base.String", 296, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("next_.pinName_", 515319748, "Base.String", 320, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("next_.name_", 3298011871, "Base.String", 336, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("next_.connections_", 540653455, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 352, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("next_.pinValueType_", 1233410594, "Base.String", 384, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue1_.value_", 3431658791, "SQEX.Ebony.Std.Fixid", 616, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue2_.value_", 310858658, "SQEX.Ebony.Std.Fixid", 632, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue3_.value_", 4175683709, "SQEX.Ebony.Std.Fixid", 648, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue4_.value_", 459331928, "SQEX.Ebony.Std.Fixid", 664, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue5_.value_", 2948385683, "SQEX.Ebony.Std.Fixid", 680, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue6_.value_", 3475942350, "SQEX.Ebony.Std.Fixid", 696, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue7_.value_", 369929401, "SQEX.Ebony.Std.Fixid", 712, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue8_.value_", 523290948, "SQEX.Ebony.Std.Fixid", 728, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue9_.value_", 4261428143, "SQEX.Ebony.Std.Fixid", 744, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue10_.value_", 1125779679, "SQEX.Ebony.Std.Fixid", 760, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue11_.value_", 2417753332, "SQEX.Ebony.Std.Fixid", 776, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue12_.value_", 1291602965, "SQEX.Ebony.Std.Fixid", 792, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resultValue13_.value_", 4069186010, "SQEX.Ebony.Std.Fixid", 808, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("inputValuePin_", 235825496, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 136, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			fieldProperties.AddProperty(new Property("outputValue_", 232220166, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 224, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			fieldProperties.AddProperty(new Property("next_", 2858489621, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 312, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));

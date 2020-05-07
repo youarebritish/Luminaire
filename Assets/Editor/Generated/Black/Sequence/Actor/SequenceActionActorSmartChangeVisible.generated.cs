@@ -53,6 +53,53 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSmartChangeVisible", base.GetFieldProperties(), -19328962, -1654770613);
             
+			fieldProperties.AddIndirectlyProperty(new Property("refInPorts_", 1035088696, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin*, MEMORY_CATEGORY_FRAMEWORK >", 24, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
+			fieldProperties.AddIndirectlyProperty(new Property("refOutPorts_", 283683627, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin*, MEMORY_CATEGORY_FRAMEWORK >", 40, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
+			fieldProperties.AddIndirectlyProperty(new Property("triInPorts_", 291734708, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin*, MEMORY_CATEGORY_FRAMEWORK >", 96, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
+			fieldProperties.AddIndirectlyProperty(new Property("triOutPorts_", 3107891487, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin*, MEMORY_CATEGORY_FRAMEWORK >", 112, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
+			fieldProperties.AddIndirectlyProperty(new Property("Isolated_", 56305607, "bool", 168, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("activate_.pinName_", 1095108540, "Base.String", 192, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("activate_.name_", 3473723751, "Base.String", 208, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("activate_.connections_", 514218279, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 224, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("activate_.delayType_", 3958304609, "SQEX.Ebony.Framework.Node.GraphPin.DelayType", 256, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("activate_.delayTime_", 1544027094, "float", 260, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("activate_.delayMaxTime_", 341315452, "float", 264, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("deactivate_.pinName_", 2166768939, "Base.String", 288, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("deactivate_.name_", 750309030, "Base.String", 304, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("deactivate_.connections_", 2426731356, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 320, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("deactivate_.delayType_", 1688678802, "SQEX.Ebony.Framework.Node.GraphPin.DelayType", 352, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("deactivate_.delayTime_", 3960083093, "float", 356, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("deactivate_.delayMaxTime_", 708775601, "float", 360, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("on_.pinName_", 1658124892, "Base.String", 384, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("on_.name_", 3447644359, "Base.String", 400, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("on_.connections_", 2131790343, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 416, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("on_.delayType_", 2857527169, "SQEX.Ebony.Framework.Node.GraphPin.DelayType", 448, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("on_.delayTime_", 2590784886, "float", 452, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("on_.delayMaxTime_", 3473824604, "float", 456, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("off_.pinName_", 1144794266, "Base.String", 480, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("off_.name_", 3739626341, "Base.String", 496, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("off_.connections_", 1268199165, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 512, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("off_.delayType_", 1624880631, "SQEX.Ebony.Framework.Node.GraphPin.DelayType", 544, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("off_.delayTime_", 1356858420, "float", 548, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("off_.delayMaxTime_", 3575196750, "float", 552, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("out_.pinName_", 1137295951, "Base.String", 576, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("out_.name_", 2182257194, "Base.String", 592, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("out_.connections_", 2048532136, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 608, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("out_.delayType_", 124432558, "SQEX.Ebony.Framework.Node.GraphPin.DelayType", 640, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("out_.delayTime_", 3264366185, "float", 644, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("out_.delayMaxTime_", 456551125, "float", 648, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("finished_.pinName_", 649611931, "Base.String", 672, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("finished_.name_", 1803835094, "Base.String", 688, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("finished_.connections_", 2429315820, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 704, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("finished_.delayType_", 108840482, "SQEX.Ebony.Framework.Node.GraphPin.DelayType", 736, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("finished_.delayTime_", 3516349093, "float", 740, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("finished_.delayMaxTime_", 1581096321, "float", 744, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("inValue_.pinName_", 2599123119, "Base.String", 768, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("inValue_.name_", 1668691786, "Base.String", 784, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("inValue_.connections_", 1463894344, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin* >", 800, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("inValue_.pinValueType_", 727226451, "Base.String", 832, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("activate_", 3319663101, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			fieldProperties.AddProperty(new Property("deactivate_", 136354660, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			fieldProperties.AddProperty(new Property("on_", 2485575197, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 376, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));

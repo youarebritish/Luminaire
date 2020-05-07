@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.IK
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetLookAtIKEnable", base.GetFieldProperties(), -1643500849, -1366575335);
             
+			
+			
 			fieldProperties.AddProperty(new Property("lookAtSlot_", 3068853696, "Black.Actor.Component.IK.LOOKAT_SLOT", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

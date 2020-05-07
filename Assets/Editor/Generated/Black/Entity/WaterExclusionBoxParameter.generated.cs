@@ -39,6 +39,8 @@ namespace Black.Entity
 
             fieldProperties = new PropertyContainer("Black.Entity.WaterExclusionBoxParameter", base.GetFieldProperties(), -1818517810, -951594638);
             
+			
+			
 			fieldProperties.AddProperty(new Property("localPosition_", 355810764, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("scale_", 3252771946, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			

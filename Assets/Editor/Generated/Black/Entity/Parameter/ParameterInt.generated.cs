@@ -39,6 +39,8 @@ namespace Black.Entity.Parameter
 
             fieldProperties = new PropertyContainer("Black.Entity.Parameter.ParameterInt", base.GetFieldProperties(), -1283433872, 1429672875);
             
+			
+			
 			fieldProperties.AddProperty(new Property("name_", 182823483, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("value_", 273093519, "int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			

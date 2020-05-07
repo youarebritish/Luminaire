@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Nifl
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

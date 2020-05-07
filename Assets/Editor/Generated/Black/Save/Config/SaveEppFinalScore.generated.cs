@@ -44,6 +44,14 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveEppFinalScore", null, 1697672334, -1710360834);
             
+			fieldProperties.AddIndirectlyProperty(new Property("StageScore.ResultTime", 270721857, "int64_t", 32, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("StageScore.CoinCount", 2137343711, "int", 40, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("StageScore.CoinBonus", 3934397063, "int", 44, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("StageScore.KillCount", 2260555708, "int", 48, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("StageScore.KillBonus", 2906593356, "int", 52, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("StageScore.TotalBonus", 582258440, "int", 56, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("ClearedMDay", 3172167432, "char", 0, 1, 1, Property.PrimitiveType.Int8, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ClearedMonth", 3701886039, "char", 1, 1, 1, Property.PrimitiveType.Int8, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ClearedYear", 2473866390, "short", 2, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));

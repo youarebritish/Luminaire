@@ -53,6 +53,8 @@ namespace Black.Save.Equipment
 
             fieldProperties = new PropertyContainer("Black.Save.Equipment.SaveClothStruct", null, 147862299, -367713645);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("type", 1361572173, "SQEX.Ebony.Std.Fixid", 4, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("equipment", 3463588087, "Black.Save.SAVE_PLAYER", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));

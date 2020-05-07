@@ -48,6 +48,11 @@ namespace Black.Entity
 
             fieldProperties = new PropertyContainer("Black.Entity.ActorEntity", base.GetFieldProperties(), 1896381988, 1070462923);
             
+			fieldProperties.AddIndirectlyProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 80, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("entitySearchLabelId_", 3840219358, "SQEX.Ebony.Std.Fixid", 112, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("charaEntry_", 1111613605, "Ebony.Base.String", 256, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("setInactiveAtSpawn_", 2964083311, "bool", 272, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("setFadeAtSpawn_", 1788900928, "bool", 273, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

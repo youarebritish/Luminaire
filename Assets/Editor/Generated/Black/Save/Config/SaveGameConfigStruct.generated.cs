@@ -53,6 +53,8 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveGameConfigStruct", null, -967475886, 865735656);
             
+			
+			
 			fieldProperties.AddProperty(new Property("text_", 1384997555, "Luminous.GameFramework.Locale.LocaleCategory", 0, 4, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			fieldProperties.AddProperty(new Property("voice_", 2285793362, "Luminous.GameFramework.Locale.LocaleCategory", 4, 4, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			fieldProperties.AddProperty(new Property("brightness_", 2567634479, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

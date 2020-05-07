@@ -42,6 +42,8 @@ namespace Black.Entity.Data
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CollectVoiceEarcEntry", base.GetFieldProperties(), -1488683193, 2114445571);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id_", 2899315373, "SQEX.Ebony.Base.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("searchParamTable_", 1554872927, "SQEX.Ebony.Base.String", 80, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ebexPathKey_", 2142041700, "SQEX.Ebony.Base.String", 96, 16, 1, Property.PrimitiveType.String, 0, (char)0));

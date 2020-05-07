@@ -47,6 +47,8 @@ namespace Black.Save.Menu
 
             fieldProperties = new PropertyContainer("Black.Save.Menu.SaveMenuStruct", null, -578333456, -1940980057);
             
+			
+			
 			fieldProperties.AddProperty(new Property("version_", 2901812440, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("activeQuestId_", 2514697095, "SQEX.Ebony.Std.Fixid", 4, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("activeQuestDestId_", 3596301019, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));

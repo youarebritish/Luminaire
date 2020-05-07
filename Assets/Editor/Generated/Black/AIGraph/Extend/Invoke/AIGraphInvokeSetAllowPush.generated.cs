@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAllowPush", base.GetFieldProperties(), -763704609, -472972119);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isAllow_", 756260615, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			

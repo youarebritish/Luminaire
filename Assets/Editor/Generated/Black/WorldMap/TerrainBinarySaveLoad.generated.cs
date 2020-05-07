@@ -39,6 +39,8 @@ namespace Black.WorldMap
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

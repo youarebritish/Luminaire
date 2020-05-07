@@ -43,6 +43,11 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.CameraShakeTrackItem", base.GetFieldProperties(), 1620006752, 1349536931);
             
+			fieldProperties.AddIndirectlyProperty(new Property("name_", 182823483, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("startTime_", 140908163, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("duration_", 1282328598, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("shakeOffset_", 2638908511, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)1));
 			fieldProperties.AddProperty(new Property("rollZ_", 3949656233, "float", 112, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			fieldProperties.AddProperty(new Property("undampedDistance_", 2418328879, "float", 116, 4, 1, Property.PrimitiveType.Float, 0, (char)1));

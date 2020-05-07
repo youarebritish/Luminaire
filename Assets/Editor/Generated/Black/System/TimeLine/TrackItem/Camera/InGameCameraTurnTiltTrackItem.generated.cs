@@ -41,6 +41,26 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.InGameCameraTurnTiltTrackItem", base.GetFieldProperties(), 890368831, 1760918290);
             
+			fieldProperties.AddIndirectlyProperty(new Property("name_", 182823483, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("startTime_", 140908163, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("duration_", 1282328598, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.isUse_", 2992710000, "bool", 128, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.rotationUseValueTypeTilt_", 3715975330, "Black.Camera.RotationUseValueType", 132, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.isUseDefaultValueWhenBattleHybridAndOverride_", 4241513211, "bool", 136, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.turnInterpType_", 903898274, "Black.Camera.RotationInterpType", 140, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.turnTimeInterpMode_", 832028964, "Black.Camera.BlendModeType", 144, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.isUseAdjustAngle_", 1146449860, "bool", 152, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.isUpdateTurnEveryFrame_", 1074158991, "bool", 153, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.rotationSetAngleType_", 1435317018, "Black.Camera.SeamlessInGameSetAngleType", 156, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.turnInterpTimeTilt_", 4252847792, "float", 160, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.turnVelocityTilt_", 26693988, "float", 164, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.turnTilt_", 2801002817, "float", 168, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.isAllowUserControlTurn_", 2421530481, "bool", 172, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.stealingPlayerDirectionInterpType_", 401852092, "Black.Camera.StealingPlayerDirectionInterpType", 176, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("turnTiltData_.stealingPlayerDirectionInterpVelocity_", 1254507521, "float", 180, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("curveList_.propertyList_", 3952472237, "SQEX.Ebony.Std.DynamicArray< AnchorReferenceValue* >", 192, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			
+			
 			fieldProperties.AddProperty(new Property("tiltId_", 1232671724, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("tiltOffsetId_", 112790641, "Ebony.Base.String", 104, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("turnTiltData_", 79670634, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt", 120, 64, 1, Property.PrimitiveType.ClassField, 0, (char)0));

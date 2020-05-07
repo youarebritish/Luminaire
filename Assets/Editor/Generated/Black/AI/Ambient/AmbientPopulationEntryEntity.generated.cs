@@ -41,6 +41,8 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientPopulationEntryEntity", base.GetFieldProperties(), -161298330, -1882645470);
             
+			
+			
 			fieldProperties.AddProperty(new Property("population_", 341301527, "int", 64, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("id_", 2899315373, "SQEX.Ebony.Std.Fixid", 68, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("initScript_", 2532876081, "SQEX.Ebony.Std.Fixid", 72, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));

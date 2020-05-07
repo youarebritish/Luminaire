@@ -42,6 +42,8 @@ namespace SQEX.Ebony.Base.Serialization
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Base.Serialization.ExternalPointerInfo", base.GetFieldProperties(), -1426701892, -61620564);
             
+			
+			
 			fieldProperties.AddProperty(new Property("protocol_", 1241599838, "uint16_t", 8, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
 			fieldProperties.AddProperty(new Property("pointerAddress_", 1778064711, "void", 16, 8, 1, Property.PrimitiveType.Pointer, 0, (char)0));
 			fieldProperties.AddProperty(new Property("paramsBuffer_", 1733373602, "Memory.Buffer", 24, 24, 1, Property.PrimitiveType.Buffer, 0, (char)0));

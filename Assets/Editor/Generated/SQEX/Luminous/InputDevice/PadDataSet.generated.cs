@@ -38,6 +38,8 @@ namespace SQEX.Luminous.InputDevice
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.InputDevice.PadDataSet", null, -690713709, -1832572289);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Datas", 1691720066, "SQEX.Luminous.InputDevice.PadData", 0, 464, 4, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			

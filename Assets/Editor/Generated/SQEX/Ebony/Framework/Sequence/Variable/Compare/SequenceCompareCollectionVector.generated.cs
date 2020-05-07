@@ -38,6 +38,8 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Compare
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareCollectionVector", base.GetFieldProperties(), 1413803475, 1025951544);
             
+			
+			
 			fieldProperties.AddProperty(new Property("conditions_", 3387481400, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareVector* >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			

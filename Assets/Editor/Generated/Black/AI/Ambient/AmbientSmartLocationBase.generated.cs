@@ -63,6 +63,8 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSmartLocationBase", null, -2066062127, -1947466606);
             
+			
+			
 			fieldProperties.AddProperty(new Property("minCoolDown_", 4002648055, "int", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("maxCoolDown_", 1686966705, "int", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("triggerCooldownOnStartup_", 2352980045, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

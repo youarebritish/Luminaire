@@ -70,6 +70,8 @@ namespace Black.Save
 
             fieldProperties = new PropertyContainer("Black.Save.SaveInformation", null, 1449703829, 577117785);
             
+			
+			
 			fieldProperties.AddProperty(new Property("SaveType", 2069746464, "Black.Save.SAVE_TYPE", 20, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("AreaFilePath", 2918113105, "Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("PlayerRestartPointID", 2158275454, "SQEX.Ebony.Std.Fixid", 40, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));

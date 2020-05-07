@@ -50,6 +50,8 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientParameterSet", base.GetFieldProperties(), -1422824044, 288541398);
             
+			
+			
 			fieldProperties.AddProperty(new Property("chatterMaxActivationDistance_", 3407824396, "float", 64, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("chatterMinSustainDistance_", 2731205729, "float", 68, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("chatterCoolDown_", 3239235320, "float", 72, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

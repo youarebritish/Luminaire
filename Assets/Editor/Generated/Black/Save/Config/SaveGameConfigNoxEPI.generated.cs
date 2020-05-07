@@ -42,6 +42,8 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveGameConfigNoxEPI", null, -1422213264, 1745866340);
             
+			
+			
 			fieldProperties.AddProperty(new Property("cleared", 3899202675, "bool", 0, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("played", 1117382050, "bool", 1, 4, 4, Property.PrimitiveType.Bool, 0, (char)8));
 			fieldProperties.AddProperty(new Property("HiScore", 3456560864, "int32_t", 8, 32, 8, Property.PrimitiveType.Int32, 0, (char)8));

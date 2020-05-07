@@ -39,6 +39,8 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveEpiScoreRanking", null, -1578888346, 239009982);
             
+			
+			
 			fieldProperties.AddProperty(new Property("bestScore", 3526121467, "int64_t", 0, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));
 			fieldProperties.AddProperty(new Property("EpiScoreRanking", 3079212459, "Black.Save.Config.SaveEpiFinalScore", 8, 320, 10, Property.PrimitiveType.ClassField, 0, (char)8));
 			

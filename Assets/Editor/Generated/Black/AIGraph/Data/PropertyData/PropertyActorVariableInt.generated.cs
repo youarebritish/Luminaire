@@ -38,6 +38,11 @@ namespace Black.AIGraph.Data.PropertyData
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Data.PropertyData.PropertyActorVariableInt", base.GetFieldProperties(), -546121937, 1733263317);
             
+			fieldProperties.AddIndirectlyProperty(new Property("propertyId_", 487541182, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("indexOfLinkedProperty_", 4182715867, "int", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("targetType_", 4725453, "Black.AIGraph.TARGET_TYPE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("kind_", 3595366932, "Black.Sequence.Actor.SequenceVariableActorInt.ValueKind", 32, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			

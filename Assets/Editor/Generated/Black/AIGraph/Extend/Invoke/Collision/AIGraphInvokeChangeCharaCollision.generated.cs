@@ -43,6 +43,8 @@ namespace Black.AIGraph.Extend.Invoke.Collision
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Collision.AIGraphInvokeChangeCharaCollision", base.GetFieldProperties(), 364587207, -2097095197);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isChangeCharaCollision_", 436079729, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("charaCollisionID_", 2069960986, "SQEX.Ebony.Std.Fixid", 28, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isChangeBGCollision_", 2345286243, "bool", 32, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

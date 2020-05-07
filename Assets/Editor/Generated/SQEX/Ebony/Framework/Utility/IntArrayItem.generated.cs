@@ -38,6 +38,8 @@ namespace SQEX.Ebony.Framework.Utility
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Utility.IntArrayItem", base.GetFieldProperties(), 1559828410, -177632157);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Value", 3511155050, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			

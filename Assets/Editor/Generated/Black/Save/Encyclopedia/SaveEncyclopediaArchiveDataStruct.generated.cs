@@ -40,6 +40,8 @@ namespace Black.Save.Encyclopedia
 
             fieldProperties = new PropertyContainer("Black.Save.Encyclopedia.SaveEncyclopediaArchiveDataStruct", null, 1334094828, 1128659172);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isAddition", 4128803897, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isNew", 759762113, "bool", 5, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

@@ -38,6 +38,15 @@ namespace Black.AIGraph.LeafNode.Test
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeReloadTest", base.GetFieldProperties(), 1095435414, 2115217668);
             
+			fieldProperties.AddIndirectlyProperty(new Property("uid_", 2695886806, "int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("startNodeUid_", 2715036948, "int", 20, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("bDisable_", 54874740, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("bSkipblackBoardInitialization_", 1945287384, "bool", 25, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resourceType_.propertyId_", 3950775025, "int", 64, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resourceType_.indexOfLinkedProperty_", 3741189250, "int", 68, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("resourceType_.value_", 462141282, "Ebony.Base.String", 80, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("resourceType_", 3635199238, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString", 56, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			

@@ -39,6 +39,8 @@ namespace Black.Main.GameMode
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

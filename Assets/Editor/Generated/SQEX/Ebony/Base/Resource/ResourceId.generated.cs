@@ -41,6 +41,8 @@ namespace SQEX.Ebony.Base.Resource
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Base.Resource.ResourceId", null, 1301457576, 134283375);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Type", 3512062061, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("Primary", 3347218297, "uint32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("Secondary", 432906353, "uint32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

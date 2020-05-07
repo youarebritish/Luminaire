@@ -42,6 +42,8 @@ namespace Black.AIGraph.Extend.Invoke.Levia
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Levia.AIGraphInvokeCordAnimationEnable", base.GetFieldProperties(), 424330485, 227371910);
             
+			
+			
 			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("blendTime_", 2060561802, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isAnimationBlend_", 3389153757, "bool", 32, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

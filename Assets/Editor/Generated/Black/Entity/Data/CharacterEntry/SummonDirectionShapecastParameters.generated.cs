@@ -42,6 +42,8 @@ namespace Black.Entity.Data.CharacterEntry
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.SummonDirectionShapecastParameters", base.GetFieldProperties(), -578458331, 1379660639);
             
+			
+			
 			fieldProperties.AddProperty(new Property("halfLength_", 1556834741, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("translation_", 1340577545, "Luminous.Math.VectorA", 48, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));

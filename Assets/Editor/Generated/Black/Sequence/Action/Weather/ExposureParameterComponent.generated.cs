@@ -38,6 +38,11 @@ namespace Black.Sequence.Action.Weather
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.ExposureParameterComponent", base.GetFieldProperties(), -111571852, -619954316);
             
+			fieldProperties.AddIndirectlyProperty(new Property("operation_", 1684381467, "Black.Weather.WEATHER_PARAM_OPERATION", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("index_", 801737500, "uint32_t", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("value_", 273093519, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("category_", 1432694378, "Black.Sequence.Action.Weather.ExposureParameterComponent.EXPOSURE_PARAM_CATEGORY", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			

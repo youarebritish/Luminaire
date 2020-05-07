@@ -82,6 +82,8 @@ namespace Black.Save.Item
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveItemStruct", null, -1859753550, 830935564);
             
+			
+			
 			fieldProperties.AddProperty(new Property("battle_item", 4137442375, "Black.Save.Item.SaveItemDataStruct", 0, 512, 64, Property.PrimitiveType.ClassField, 0, (char)8));
 			fieldProperties.AddProperty(new Property("event_item", 2162826415, "Black.Save.Item.SaveItemDataStruct", 512, 2048, 256, Property.PrimitiveType.ClassField, 0, (char)8));
 			fieldProperties.AddProperty(new Property("food_item", 2147393465, "Black.Save.Item.SaveItemDataStruct", 2560, 2048, 256, Property.PrimitiveType.ClassField, 0, (char)8));

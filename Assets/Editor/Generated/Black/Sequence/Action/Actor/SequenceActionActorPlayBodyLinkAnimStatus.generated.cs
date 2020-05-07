@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorPlayBodyLinkAnimStatus", base.GetFieldProperties(), -536337515, -567630761);
             
+			
+			
 			fieldProperties.AddProperty(new Property("roleId", 373633532, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("status", 3125508079, "Black.Actor.Component.Body.Status", 12, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			

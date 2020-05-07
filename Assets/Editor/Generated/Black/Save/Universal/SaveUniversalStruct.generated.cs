@@ -38,6 +38,8 @@ namespace Black.Save.Universal
 
             fieldProperties = new PropertyContainer("Black.Save.Universal.SaveUniversalStruct", null, 980172648, -596095321);
             
+			
+			
 			fieldProperties.AddProperty(new Property("version", 1181855383, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			

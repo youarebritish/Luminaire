@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Status
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Status.AIGraphInvokeSetStatusFloat", base.GetFieldProperties(), 222225403, 406481842);
             
+			
+			
 			fieldProperties.AddProperty(new Property("changeStatusType", 2008198943, "Black.Actor.STATUS", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("statusValue", 1962074980, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			

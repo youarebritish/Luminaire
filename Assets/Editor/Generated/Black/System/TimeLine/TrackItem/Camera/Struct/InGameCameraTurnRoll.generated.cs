@@ -47,6 +47,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll", base.GetFieldProperties(), 197990924, -1802226242);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isUse_", 318966273, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("rotationUseValueTypeRoll_", 3247572957, "Black.Camera.RotationUseValueType", 12, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("turnInterpType_", 1040511941, "Black.Camera.RotationInterpType", 16, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));

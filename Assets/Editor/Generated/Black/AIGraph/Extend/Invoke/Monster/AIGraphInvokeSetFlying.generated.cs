@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetFlying", base.GetFieldProperties(), 1433811250, 956849108);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isFlying_", 1771329987, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("disableGravity_", 1366593580, "bool", 25, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

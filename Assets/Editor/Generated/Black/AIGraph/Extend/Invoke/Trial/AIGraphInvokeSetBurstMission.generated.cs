@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Trial
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeSetBurstMission", base.GetFieldProperties(), -1804814958, 1896828449);
             
+			
+			
 			fieldProperties.AddProperty(new Property("burstEventType", 77918499, "Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeSetBurstMission.BURST_MISSION_EVENT", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			

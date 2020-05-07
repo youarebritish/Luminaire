@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetForceTarget", base.GetFieldProperties(), -1926097644, 1670464350);
             
+			
+			
 			fieldProperties.AddProperty(new Property("label_", 3520738310, "SQEX.Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("targetSlotType", 999269404, "Black.AI.Recog.TARGET_SLOT_TYPE", 40, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			

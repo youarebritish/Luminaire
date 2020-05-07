@@ -39,6 +39,8 @@ namespace SQEX.Ebony.Framework.Sequence
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

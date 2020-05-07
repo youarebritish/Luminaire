@@ -40,6 +40,8 @@ namespace Black.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.Camera.Struct.CameraAngleLimit", base.GetFieldProperties(), -731158199, 589371655);
             
+			
+			
 			fieldProperties.AddProperty(new Property("tiltAngleLimitMode_", 1066266112, "Black.Camera.CameraAngleLimitMode", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("tiltAngleLimitMin_", 1467894045, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			fieldProperties.AddProperty(new Property("tiltAngleLimitMax_", 4037458655, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)1));

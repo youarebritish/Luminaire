@@ -41,6 +41,9 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.TimeLine", base.GetFieldProperties(), 1862539080, 1461767129);
             
+			fieldProperties.AddIndirectlyProperty(new Property("childTrackList_", 2693454425, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.TimeControl.TimeLine.Track* >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			
+			
 			fieldProperties.AddProperty(new Property("workAreaLeft_", 123503249, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("workAreaRight_", 1736467130, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("subTimeLineList_", 3072916375, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue* >", 32, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));

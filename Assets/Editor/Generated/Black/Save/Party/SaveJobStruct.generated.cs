@@ -42,6 +42,8 @@ namespace Black.Save.Party
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SaveJobStruct", null, -1410522127, 1609453875);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("save_bank_number", 1105146745, "Black.Save.SAVE_PLAYER", 4, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("name_id", 3355607158, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));

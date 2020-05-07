@@ -61,6 +61,8 @@ namespace Black.Sequence.Action.TimeLine.Render.Light.Struct
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData", base.GetFieldProperties(), -1869542781, -1078376669);
             
+			
+			
 			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
 			fieldProperties.AddProperty(new Property("diffuseOnly_", 1220725680, "bool", 9, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
 			fieldProperties.AddProperty(new Property("smoothFalloff_", 181256924, "bool", 10, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));

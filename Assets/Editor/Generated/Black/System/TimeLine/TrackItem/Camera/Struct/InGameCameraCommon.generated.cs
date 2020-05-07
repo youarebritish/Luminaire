@@ -49,6 +49,21 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCommon", base.GetFieldProperties(), 1242605330, 1235712562);
             
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.checkCollisionType_", 2966151751, "Black.Camera.CheckCollisionType", 32, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.isNeedCheckFocusFromPC_", 1664994796, "bool", 36, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.isNeedCheckAdjustPog_", 324970790, "bool", 37, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.isNeedCheckGroundHeight_", 2274167939, "bool", 38, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.groundCheckMarginHeight_", 3426369923, "float", 40, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.groundCheckMinimumHeight_", 3274022027, "float", 44, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.isEnableCharaFadeOutWhenCollidedByCamera_", 3731041159, "bool", 48, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.isEnablePCFadeWhenCollidedByCamera_", 2619458363, "bool", 49, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.isUsePCFaseFadeWhenCollidedByCamera_", 1318026544, "bool", 50, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.isUseAdjustFadeMinPowerWhenCollidedByCamera_", 4216956902, "bool", 51, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.charaFadeByCameraSphereRadius_", 3793053227, "float", 52, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.isEndBlendCheckCollision_", 1923790695, "bool", 56, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("collisionData_.endBlendCheckCollisionType_", 2147232235, "Black.Camera.CheckCollisionType", 60, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("mode", 3966689298, "Black.Camera.InGameSeamlessTargetMode", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("startEndBlendMode_", 723897861, "Black.Camera.SeamlessInGameSeparateStartEndBlendMode", 12, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isCheckCollision_", 1357258370, "bool", 16, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

@@ -50,6 +50,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCollision", base.GetFieldProperties(), -1975832595, 536296909);
             
+			
+			
 			fieldProperties.AddProperty(new Property("checkCollisionType_", 2944079722, "Black.Camera.CheckCollisionType", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isNeedCheckFocusFromPC_", 2865216757, "bool", 12, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isNeedCheckAdjustPog_", 2938502035, "bool", 13, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

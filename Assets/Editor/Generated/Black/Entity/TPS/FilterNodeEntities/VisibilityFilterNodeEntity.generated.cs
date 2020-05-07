@@ -41,6 +41,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.VisibilityFilterNodeEntity", base.GetFieldProperties(), 1350949947, 844019252);
             
+			
+			
 			fieldProperties.AddProperty(new Property("subject_", 3903058736, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.SubjectType", 304, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("visibilityType_", 1612482390, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.VisibilityType", 308, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("bgCheck_", 1971649659, "bool", 312, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

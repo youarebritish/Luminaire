@@ -39,6 +39,8 @@ namespace SQEX.Luminous.Core.Object
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

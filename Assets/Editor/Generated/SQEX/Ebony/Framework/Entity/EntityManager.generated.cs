@@ -38,6 +38,8 @@ namespace SQEX.Ebony.Framework.Entity
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Entity.EntityManager", null, 837810129, 529443608);
             
+			
+			
 			fieldProperties.AddProperty(new Property("updateEvent_", 2317821193, "Luminous.Std.EventHandler< float >", 848, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			

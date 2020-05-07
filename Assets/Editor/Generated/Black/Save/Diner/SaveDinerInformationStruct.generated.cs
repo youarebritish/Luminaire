@@ -40,6 +40,8 @@ namespace Black.Save.Diner
 
             fieldProperties = new PropertyContainer("Black.Save.Diner.SaveDinerInformationStruct", null, 111743731, -1325551365);
             
+			
+			
 			fieldProperties.AddProperty(new Property("informationId_", 791571453, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("unlock_", 214097086, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("check_", 2467248584, "bool", 5, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

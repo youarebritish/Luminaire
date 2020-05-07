@@ -39,6 +39,8 @@ namespace Black.Viewer
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

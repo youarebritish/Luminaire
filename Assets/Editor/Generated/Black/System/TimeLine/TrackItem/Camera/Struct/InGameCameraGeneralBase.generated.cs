@@ -53,6 +53,29 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralBase", base.GetFieldProperties(), -1360307711, 882167849);
             
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessCloneData_.backToSeamlessCloneReleasePreset_", 3120552147, "Black.Camera.SeamlessCloneReleasePreset", 64, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessCloneData_.backToNormalCoordInterpType_", 3403636263, "Black.Camera.CoordInterpType", 68, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessCloneData_.backToNormalInterpTime_", 4144128153, "float", 72, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessCloneData_.backToNormalCameraTime1_", 3160556957, "float", 76, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessCloneData_.backToNormalCameraTime2_", 3161101410, "float", 80, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessCloneData_.backToNormalCameraAccel_", 3622663437, "float", 84, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessCloneData_.backToNormalInterpBlendMode_", 2898852708, "SQEX.Ebony.Framework.TimeControl.InterpMode", 88, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.mode", 2681368415, "Black.Camera.Struct.CameraControlTurnMode", 112, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.isUseAutoAdjustMode_", 611056217, "bool", 116, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.isUseAutoAdjustAngleMode_", 605917074, "bool", 117, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.isUseDefaultBrakeParam_", 548349285, "bool", 118, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.controlTurnVelocity_", 704547078, "float", 120, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.backToDefaultTurnVelocity_", 751408456, "float", 124, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.yawMin_", 2430385706, "float", 128, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.yawMax_", 4157068320, "float", 132, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.tiltMin_", 476074694, "float", 136, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.tiltMax_", 1933546388, "float", 140, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.brakeAngleYaw_", 2349836770, "float", 144, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.brakePowerYaw_", 3596967148, "float", 148, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.brakeAngleTilt_", 2040184334, "float", 152, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddIndirectlyProperty(new Property("seamlessInterpCloneControlTurn_.brakePowerTilt_", 4278192792, "float", 156, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			
+			
 			fieldProperties.AddProperty(new Property("filterLevel_", 124193320, "Black.Camera.CameraFilterLevel", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("seamlessGroupId_", 119581881, "SQEX.Ebony.Std.Fixid", 12, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("seamlessId_", 845162028, "Ebony.Base.String", 16, 16, 1, Property.PrimitiveType.String, 0, (char)0));

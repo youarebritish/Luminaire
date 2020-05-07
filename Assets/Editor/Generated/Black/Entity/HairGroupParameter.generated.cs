@@ -49,6 +49,8 @@ namespace Black.Entity
 
             fieldProperties = new PropertyContainer("Black.Entity.HairGroupParameter", base.GetFieldProperties(), 766625306, -2137803352);
             
+			
+			
 			fieldProperties.AddProperty(new Property("groupName1_", 459041159, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("groupName2_", 3680093744, "Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("groupName3_", 458746969, "Ebony.Base.String", 40, 16, 1, Property.PrimitiveType.String, 0, (char)0));

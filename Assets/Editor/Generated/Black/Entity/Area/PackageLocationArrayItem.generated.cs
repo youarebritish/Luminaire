@@ -38,6 +38,8 @@ namespace Black.Entity.Area
 
             fieldProperties = new PropertyContainer("Black.Entity.Area.PackageLocationArrayItem", base.GetFieldProperties(), -1967355551, 354001948);
             
+			
+			
 			fieldProperties.AddProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			

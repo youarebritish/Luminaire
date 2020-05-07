@@ -42,6 +42,8 @@ namespace Black.Entity.Sound
 
             fieldProperties = new PropertyContainer("Black.Entity.Sound.StaticMenuSoundEntity", base.GetFieldProperties(), 371678761, 554121147);
             
+			
+			
 			fieldProperties.AddProperty(new Property("soundVolume_", 3806088475, "float", 64, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("idxFilePath_", 3786101086, "Ebony.Base.String", 72, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("soundNumber_", 3157878542, "int", 88, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

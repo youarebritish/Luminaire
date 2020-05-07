@@ -53,6 +53,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYaw", base.GetFieldProperties(), 205736526, -2080539401);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isUse_", 318966273, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("rotationUseValueTypeYaw_", 1145603407, "Black.Camera.RotationUseValueType", 12, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isNotControllingYawWhenBattleHybridAndOverride_", 3150554520, "bool", 16, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

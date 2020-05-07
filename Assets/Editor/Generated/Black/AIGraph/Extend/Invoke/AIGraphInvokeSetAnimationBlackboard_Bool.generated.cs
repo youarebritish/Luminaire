@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAnimationBlackboard_Bool", base.GetFieldProperties(), 620284469, -794126500);
             
+			
+			
 			fieldProperties.AddProperty(new Property("paramLabel", 2926021544, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("paramValue", 1307501435, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

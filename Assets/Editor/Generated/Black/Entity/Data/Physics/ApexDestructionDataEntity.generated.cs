@@ -83,6 +83,8 @@ namespace Black.Entity.Data.Physics
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.ApexDestructionDataEntity", base.GetFieldProperties(), 1908653875, 1645597304);
             
+			
+			
 			fieldProperties.AddProperty(new Property("destructionId_", 3960157027, "SQEX.Ebony.Std.Fixid", 64, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 72, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("density_", 1564742540, "float", 88, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

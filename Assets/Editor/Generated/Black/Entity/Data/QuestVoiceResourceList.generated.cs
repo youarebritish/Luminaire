@@ -41,6 +41,8 @@ namespace Black.Entity.Data
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.QuestVoiceResourceList", base.GetFieldProperties(), -2062167101, -2113436535);
             
+			
+			
 			fieldProperties.AddProperty(new Property("searchParamTable_", 1554872927, "Ebony.Base.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("questActionType_", 1036139840, "Ebony.Base.String", 80, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("eventScriptKey_", 823990584, "Ebony.Base.String", 96, 16, 1, Property.PrimitiveType.String, 0, (char)0));

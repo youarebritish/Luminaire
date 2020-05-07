@@ -44,6 +44,8 @@ namespace Black.Entity.Data.AI
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.AI.TacticsDefineDataEntity", base.GetFieldProperties(), -795094482, -305559889);
             
+			
+			
 			fieldProperties.AddProperty(new Property("name_", 182823483, "Ebony.Base.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("role1_", 820126437, "Ebony.Base.String", 80, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("num1_", 3346845947, "int", 96, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

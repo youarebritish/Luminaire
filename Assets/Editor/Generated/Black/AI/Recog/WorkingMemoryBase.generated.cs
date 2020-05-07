@@ -39,6 +39,8 @@ namespace Black.AI.Recog
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

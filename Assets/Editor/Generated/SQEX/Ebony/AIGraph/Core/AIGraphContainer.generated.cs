@@ -43,6 +43,8 @@ namespace SQEX.Ebony.AIGraph.Core
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Core.AIGraphContainer", base.GetFieldProperties(), -1622162244, 1428221721);
             
+			
+			
 			fieldProperties.AddProperty(new Property("entryPoint_", 2166272460, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint*, MEMORY_CATEGORY_AI_GRAPH >", 80, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			fieldProperties.AddProperty(new Property("trays_", 1952740799, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.AIGraph.Tray.AIGraphTrayBase*, MEMORY_CATEGORY_AI_GRAPH >", 96, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
 			fieldProperties.AddProperty(new Property("leafs_", 1592513527, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafBase*, MEMORY_CATEGORY_AI_GRAPH >", 112, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));

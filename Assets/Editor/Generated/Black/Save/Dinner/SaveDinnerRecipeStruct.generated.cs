@@ -40,6 +40,8 @@ namespace Black.Save.Dinner
 
             fieldProperties = new PropertyContainer("Black.Save.Dinner.SaveDinnerRecipeStruct", null, 1733885035, -53797648);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("exist", 456138012, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("count", 967958004, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

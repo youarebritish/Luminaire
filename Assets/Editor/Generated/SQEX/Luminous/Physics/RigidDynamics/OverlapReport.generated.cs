@@ -39,6 +39,8 @@ namespace SQEX.Luminous.Physics.RigidDynamics
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

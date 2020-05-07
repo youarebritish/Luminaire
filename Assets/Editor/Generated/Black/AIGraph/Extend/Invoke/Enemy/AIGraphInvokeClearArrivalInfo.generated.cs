@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

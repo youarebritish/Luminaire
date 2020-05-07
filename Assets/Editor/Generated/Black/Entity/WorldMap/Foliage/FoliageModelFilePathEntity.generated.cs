@@ -45,6 +45,8 @@ namespace Black.Entity.WorldMap.Foliage
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.Foliage.FoliageModelFilePathEntity", base.GetFieldProperties(), -1290797530, 1679866869);
             
+			
+			
 			fieldProperties.AddProperty(new Property("foliageModelFilePath_", 298963345, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("foliageHighModelFilePath_", 16683725, "Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("foliageCollisionFilePath_", 3855733126, "Ebony.Base.String", 40, 16, 1, Property.PrimitiveType.String, 0, (char)0));

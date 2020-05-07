@@ -53,6 +53,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovNew", base.GetFieldProperties(), -1371394372, -91568415);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isUse_", 318966273, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("fovCurveDegree_", 464058604, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			fieldProperties.AddProperty(new Property("fovUseValueType_", 1033794689, "Black.Camera.FovUseValueType", 16, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));

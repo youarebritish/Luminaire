@@ -96,6 +96,8 @@ namespace Black.Sequence.ScreenEffect
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.VWColorFilterSequenceData", base.GetFieldProperties(), -1923130469, 1173334696);
             
+			
+			
 			fieldProperties.AddProperty(new Property("prop_enabled_", 3261870259, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
 			fieldProperties.AddProperty(new Property("enableWeather_", 1384777099, "bool", 9, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
 			fieldProperties.AddProperty(new Property("prop_CAT_", 1913099272, "bool", 10, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));

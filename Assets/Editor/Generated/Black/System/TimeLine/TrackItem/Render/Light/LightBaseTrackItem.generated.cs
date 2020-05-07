@@ -47,6 +47,11 @@ namespace Black.System.TimeLine.TrackItem.Render.Light
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.Light.LightBaseTrackItem", base.GetFieldProperties(), -1400246217, -1495463701);
             
+			fieldProperties.AddIndirectlyProperty(new Property("name_", 182823483, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("startTime_", 140908163, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("duration_", 1282328598, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("intensity_", 1363281103, "float", 88, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 92, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("range_", 1969734135, "float", 96, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

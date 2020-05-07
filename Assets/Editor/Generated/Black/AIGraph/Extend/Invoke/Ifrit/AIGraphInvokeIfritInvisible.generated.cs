@@ -45,6 +45,8 @@ namespace Black.AIGraph.Extend.Invoke.Ifrit
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Ifrit.AIGraphInvokeIfritInvisible", base.GetFieldProperties(), -505476122, 1501487113);
             
+			
+			
 			fieldProperties.AddProperty(new Property("invisible", 2519057040, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("fadeTime", 608006698, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("linkageCharaCollision", 3786588113, "bool", 32, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

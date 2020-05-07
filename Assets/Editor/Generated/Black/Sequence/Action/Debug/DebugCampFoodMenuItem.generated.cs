@@ -38,6 +38,8 @@ namespace Black.Sequence.Action.Debug
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.DebugCampFoodMenuItem", base.GetFieldProperties(), 1829675181, 582608255);
             
+			
+			
 			fieldProperties.AddProperty(new Property("campScriptItemList_", 3569564637, "SQEX.Ebony.Std.DynamicArray< Black.Sequence.Action.Debug.DebugCampScriptItem* >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			

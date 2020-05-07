@@ -41,6 +41,8 @@ namespace Black.Save.Diner
 
             fieldProperties = new PropertyContainer("Black.Save.Diner.SaveDinerDataStruct", null, 1534455472, 2101519689);
             
+			
+			
 			fieldProperties.AddProperty(new Property("dinerId_", 2323040863, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("updateInformation_", 2201075559, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("updateMobHunt_", 274527588, "bool", 5, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

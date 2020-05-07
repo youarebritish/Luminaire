@@ -39,6 +39,8 @@ namespace Black.Save.Mobhunt
 
             fieldProperties = new PropertyContainer("Black.Save.Mobhunt.SaveMobhuntPartsDataStruct", null, -1866012259, -601970424);
             
+			
+			
 			fieldProperties.AddProperty(new Property("partsId_", 3706929901, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isDestructed_", 2320221771, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

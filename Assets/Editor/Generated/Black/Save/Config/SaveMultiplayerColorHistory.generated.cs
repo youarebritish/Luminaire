@@ -42,6 +42,8 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveMultiplayerColorHistory", null, -1885755440, -345733712);
             
+			
+			
 			fieldProperties.AddProperty(new Property("ItemID", 1006361435, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("Index", 2932321867, "uint8_t", 4, 1, 1, Property.PrimitiveType.Int8, 0, (char)0));
 			fieldProperties.AddProperty(new Property("R", 3607893173, "uint8_t", 5, 1, 1, Property.PrimitiveType.Int8, 0, (char)0));

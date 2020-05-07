@@ -41,6 +41,8 @@ namespace Black.AIGraph.Extend.Invoke.Status
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Status.AIGraphInvokeSuicide", base.GetFieldProperties(), 1184732927, -509484312);
             
+			
+			
 			fieldProperties.AddProperty(new Property("canGetExp", 588097902, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("changeHPZero", 3748971083, "bool", 25, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isPlayVFX", 2310592313, "bool", 26, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

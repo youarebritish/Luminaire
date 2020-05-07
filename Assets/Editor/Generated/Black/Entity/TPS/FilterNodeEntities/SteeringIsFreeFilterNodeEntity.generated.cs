@@ -38,6 +38,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.SteeringIsFreeFilterNodeEntity", base.GetFieldProperties(), -1550546901, -1262783535);
             
+			
+			
 			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 304, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			

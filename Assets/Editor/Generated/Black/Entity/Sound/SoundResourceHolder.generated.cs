@@ -38,6 +38,8 @@ namespace Black.Entity.Sound
 
             fieldProperties = new PropertyContainer("Black.Entity.Sound.SoundResourceHolder", base.GetFieldProperties(), -14311357, -73321725);
             
+			
+			
 			fieldProperties.AddProperty(new Property("materialKindList_", 3388246931, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Sound.SoundResourceMaterialKindItem* >", 64, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			

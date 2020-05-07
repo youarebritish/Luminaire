@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Collision
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Collision.AIGraphInvokeSetCollisionPushState", base.GetFieldProperties(), -594747642, -514284590);
             
+			
+			
 			fieldProperties.AddProperty(new Property("collisionName_", 1337935241, "SQEX.Ebony.Std.Fixid", 28, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("bEnable", 3380529358, "bool", 32, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

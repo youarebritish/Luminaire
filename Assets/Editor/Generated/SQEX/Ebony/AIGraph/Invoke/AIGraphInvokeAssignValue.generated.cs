@@ -38,6 +38,8 @@ namespace SQEX.Ebony.AIGraph.Invoke
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeAssignValue", base.GetFieldProperties(), -696634918, 430917582);
             
+			
+			
 			fieldProperties.AddProperty(new Property("compiledExpression_", 1854894313, "SQEX.Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			

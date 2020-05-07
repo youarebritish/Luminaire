@@ -44,6 +44,8 @@ namespace Black.Save.Summon
 
             fieldProperties = new PropertyContainer("Black.Save.Summon.SaveSummonStruct", null, -1607095546, 1589964428);
             
+			
+			
 			fieldProperties.AddProperty(new Property("summon_amount", 4211785611, "int32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("year", 2927578396, "uint16_t", 4, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
 			fieldProperties.AddProperty(new Property("month", 3598321157, "uint8_t", 6, 1, 1, Property.PrimitiveType.Int8, 0, (char)0));

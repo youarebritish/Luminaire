@@ -43,6 +43,8 @@ namespace Black.Sequence.Action.Level
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.DungeonLevelItem", base.GetFieldProperties(), 1497696508, -1699292372);
             
+			
+			
 			fieldProperties.AddProperty(new Property("level_", 1967616422, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("offset_", 1294275471, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("filePath_", 956091201, "Ebony.Base.String", 32, 16, 1, Property.PrimitiveType.String, 0, (char)0));

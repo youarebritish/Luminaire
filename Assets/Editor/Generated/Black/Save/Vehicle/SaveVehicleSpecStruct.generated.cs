@@ -38,6 +38,8 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleSpecStruct", null, 127341726, 1188331087);
             
+			
+			
 			fieldProperties.AddProperty(new Property("level_", 1967616422, "int", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			

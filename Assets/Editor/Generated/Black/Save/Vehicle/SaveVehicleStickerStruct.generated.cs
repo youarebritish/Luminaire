@@ -42,6 +42,8 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleStickerStruct", null, -915118157, -1588153568);
             
+			
+			
 			fieldProperties.AddProperty(new Property("stickerId_", 704769322, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("texturePath_", 2768224660, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("rotate_", 2510998735, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

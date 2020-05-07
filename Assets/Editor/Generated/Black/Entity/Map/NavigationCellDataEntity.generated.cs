@@ -42,6 +42,8 @@ namespace Black.Entity.Map
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationCellDataEntity", base.GetFieldProperties(), -1493950434, -1360890813);
             
+			
+			
 			fieldProperties.AddProperty(new Property("x_", 845366280, "int", 64, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("z_", 1919428086, "int", 68, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("navigationContext_", 953131567, "SQEX.Ebony.Base.String", 72, 16, 1, Property.PrimitiveType.String, 0, (char)0));

@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeTension", base.GetFieldProperties(), 2013642753, 1272030583);
             
+			
+			
 			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			

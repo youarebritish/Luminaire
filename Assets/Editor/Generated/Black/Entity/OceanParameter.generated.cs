@@ -43,6 +43,8 @@ namespace Black.Entity
 
             fieldProperties = new PropertyContainer("Black.Entity.OceanParameter", base.GetFieldProperties(), 432306394, -698696659);
             
+			
+			
 			fieldProperties.AddProperty(new Property("waveIntensityLevel_", 1325417958, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("fftOctave0Params0_", 2539591154, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("fftOctave0Params1_", 2539444059, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));

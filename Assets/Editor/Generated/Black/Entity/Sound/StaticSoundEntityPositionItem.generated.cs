@@ -38,6 +38,8 @@ namespace Black.Entity.Sound
 
             fieldProperties = new PropertyContainer("Black.Entity.Sound.StaticSoundEntityPositionItem", base.GetFieldProperties(), 1010059924, 526759248);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Value", 3511155050, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			

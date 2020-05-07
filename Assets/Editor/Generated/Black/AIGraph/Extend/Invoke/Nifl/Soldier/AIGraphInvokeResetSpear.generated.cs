@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

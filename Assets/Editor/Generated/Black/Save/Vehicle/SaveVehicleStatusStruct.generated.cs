@@ -52,6 +52,8 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleStatusStruct", null, -948430382, -183003168);
             
+			
+			
 			fieldProperties.AddProperty(new Property("rideStatus_", 951484946, "int32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("pos_", 1659354338, "double", 8, 24, 3, Property.PrimitiveType.Double, 0, (char)8));
 			fieldProperties.AddProperty(new Property("rotate_", 2510998735, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));

@@ -40,6 +40,8 @@ namespace Black.Save.Mobhunt
 
             fieldProperties = new PropertyContainer("Black.Save.Mobhunt.SaveMobhuntVDataStructNew", null, -89854037, -814090212);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id_", 2899315373, "int", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("elementId_", 1896981983, "SQEX.Ebony.Std.Fixid", 4, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("partsDataArray_", 2733104507, "Black.Save.Mobhunt.SaveMobhuntPartsDataStruct", 8, 80, 10, Property.PrimitiveType.ClassField, 0, (char)8));

@@ -38,6 +38,8 @@ namespace SQEX.Ebony.Framework.Data
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Data.DataTable", base.GetFieldProperties(), -1886813126, -170157882);
             
+			
+			
 			fieldProperties.AddProperty(new Property("dataRowList_", 3762650612, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Data.DataRow* >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			

@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeRegisterAIMessage", base.GetFieldProperties(), 1259217477, 1117884147);
             
+			
+			
 			fieldProperties.AddProperty(new Property("messageId", 448907337, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("bOneshot", 1215410415, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

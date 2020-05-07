@@ -41,6 +41,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPogStart", base.GetFieldProperties(), -882241743, -1469675481);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isUse_", 318966273, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isUpdateXEveryFrame_", 3087219209, "bool", 9, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isUpdateYEveryFrame__", 4146338457, "bool", 10, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

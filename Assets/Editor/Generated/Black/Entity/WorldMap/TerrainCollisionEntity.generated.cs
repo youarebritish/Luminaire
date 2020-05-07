@@ -38,6 +38,8 @@ namespace Black.Entity.WorldMap
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.TerrainCollisionEntity", base.GetFieldProperties(), -326060606, -454681332);
             
+			
+			
 			fieldProperties.AddProperty(new Property("authoringFilePath_", 2904939276, "Ebony.Base.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			

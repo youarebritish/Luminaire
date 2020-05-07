@@ -45,6 +45,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.Distance2DTrapezoidFilterNodeEntity", base.GetFieldProperties(), -880825879, 1533398134);
             
+			
+			
 			fieldProperties.AddProperty(new Property("subject_", 3903058736, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.SubjectType", 304, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("useWeightFlag_", 4027223091, "bool", 308, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("weight_", 3537511442, "float", 312, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

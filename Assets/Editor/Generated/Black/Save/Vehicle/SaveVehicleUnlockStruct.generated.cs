@@ -39,6 +39,8 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleUnlockStruct", null, 588810530, -458630081);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id_", 2899315373, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isNew_", 3892239546, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

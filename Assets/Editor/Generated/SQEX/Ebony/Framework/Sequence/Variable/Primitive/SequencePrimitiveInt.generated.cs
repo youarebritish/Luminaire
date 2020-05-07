@@ -38,6 +38,9 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveInt", base.GetFieldProperties(), -165573378, -265700163);
             
+			fieldProperties.AddIndirectlyProperty(new Property("pDependencyPin_", 1541179946, "void", 8, 8, 1, Property.PrimitiveType.Pointer, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("value_", 273093519, "int", 72, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			

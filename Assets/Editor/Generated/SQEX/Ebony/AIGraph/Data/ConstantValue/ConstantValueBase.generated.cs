@@ -39,6 +39,8 @@ namespace SQEX.Ebony.AIGraph.Data.ConstantValue
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

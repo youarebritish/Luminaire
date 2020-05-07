@@ -39,6 +39,8 @@ namespace Black.Save.Item
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveItemDataStruct", null, 761373400, 1053302904);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("amount", 4152741449, "int32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			

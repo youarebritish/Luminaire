@@ -38,6 +38,8 @@ namespace Black.Entity.Data.CharacterEntry
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem", base.GetFieldProperties(), 125147900, 955080891);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Value", 3511155050, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			

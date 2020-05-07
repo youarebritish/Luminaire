@@ -38,6 +38,8 @@ namespace Black.Entity.Data.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Menu.SwfFixidArrayItem", base.GetFieldProperties(), -635191017, 289266767);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Value", 3511155050, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			

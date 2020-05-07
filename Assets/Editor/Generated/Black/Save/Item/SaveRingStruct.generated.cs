@@ -48,6 +48,8 @@ namespace Black.Save.Item
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveRingStruct", null, -936898956, 675455084);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("exist", 456138012, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("new_flag", 1714979188, "bool", 5, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

@@ -51,6 +51,8 @@ namespace Black.Save.Item
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveMagicBottleStruct", null, 30528138, -1863939665);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("amount", 4152741449, "int32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("new_flag", 1714979188, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

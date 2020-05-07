@@ -87,6 +87,8 @@ namespace Black.WorldMap
 
             fieldProperties = new PropertyContainer("Black.WorldMap.TerrainCurveMeshData", base.GetFieldProperties(), -642649408, 1722043615);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Magic_", 1161525257, "unsigned int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("Version_", 319222456, "unsigned int", 20, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("MeshCount_", 1283188948, "unsigned int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

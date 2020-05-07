@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Combat
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetDamageDirection", base.GetFieldProperties(), -658351862, 494371970);
             
+			
+			
 			fieldProperties.AddProperty(new Property("targetType", 414363200, "Black.AI.Recog.TARGET_SLOT_TYPE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			

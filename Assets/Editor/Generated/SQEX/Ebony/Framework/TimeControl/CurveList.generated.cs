@@ -38,6 +38,8 @@ namespace SQEX.Ebony.Framework.TimeControl
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.CurveList", base.GetFieldProperties(), -883513503, -1765705590);
             
+			
+			
 			fieldProperties.AddProperty(new Property("propertyList_", 781166973, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.TimeControl.AnchorReferenceValue* >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			

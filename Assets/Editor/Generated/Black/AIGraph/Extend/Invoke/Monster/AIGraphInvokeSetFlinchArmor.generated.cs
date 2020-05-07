@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetFlinchArmor", base.GetFieldProperties(), 92477379, -527992192);
             
+			
+			
 			fieldProperties.AddProperty(new Property("armorLv_", 3300367391, "int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			

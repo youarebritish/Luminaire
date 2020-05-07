@@ -40,6 +40,8 @@ namespace Black.Sequence.Action.Weather
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.ParameterComponentBase", base.GetFieldProperties(), 700409412, -597937554);
             
+			
+			
 			fieldProperties.AddProperty(new Property("operation_", 1684381467, "Black.Weather.WEATHER_PARAM_OPERATION", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("index_", 801737500, "uint32_t", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

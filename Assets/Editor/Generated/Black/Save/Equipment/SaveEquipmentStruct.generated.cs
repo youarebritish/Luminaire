@@ -41,6 +41,8 @@ namespace Black.Save.Equipment
 
             fieldProperties = new PropertyContainer("Black.Save.Equipment.SaveEquipmentStruct", null, 1708704790, -1832760777);
             
+			
+			
 			fieldProperties.AddProperty(new Property("weapon", 1865621569, "Black.Save.Equipment.SaveWeaponStruct", 0, 153824, 1012, Property.PrimitiveType.ClassField, 0, (char)8));
 			fieldProperties.AddProperty(new Property("phantom_sword", 1002990004, "Black.Save.Equipment.SaveWeaponStruct", 153824, 3952, 26, Property.PrimitiveType.ClassField, 0, (char)8));
 			fieldProperties.AddProperty(new Property("accessory", 1164796377, "Black.Save.Equipment.SaveWeaponStruct", 157776, 153824, 1012, Property.PrimitiveType.ClassField, 0, (char)8));

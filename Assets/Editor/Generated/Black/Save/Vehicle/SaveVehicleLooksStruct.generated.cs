@@ -42,6 +42,8 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleLooksStruct", null, 1576290877, -580518508);
             
+			
+			
 			fieldProperties.AddProperty(new Property("material_", 1026806573, "SQEX.Ebony.Std.DynamicArray< Black.Save.Vehicle.SaveVehicleMaterialStruct >", 0, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			fieldProperties.AddProperty(new Property("colorId_", 1217984206, "SQEX.Ebony.Std.Fixid", 16, 12, 3, Property.PrimitiveType.Fixid, 0, (char)8));
 			fieldProperties.AddProperty(new Property("setStickerId_", 1622061076, "SQEX.Ebony.Std.Fixid", 28, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));

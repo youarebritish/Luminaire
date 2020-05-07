@@ -38,6 +38,8 @@ namespace Black.Entity.Data.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Menu.SwfStringArrayItem", base.GetFieldProperties(), 98320589, -398879377);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Value", 3511155050, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			

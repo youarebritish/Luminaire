@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetForceEmotion", base.GetFieldProperties(), -1751885236, -193782961);
             
+			
+			
 			fieldProperties.AddProperty(new Property("emotion", 1337504642, "int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("duration_time", 3065736271, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			

@@ -59,6 +59,8 @@ namespace Black.Entity.Data.Physics
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.FurDataEntity", base.GetFieldProperties(), -421536977, -70824769);
             
+			
+			
 			fieldProperties.AddProperty(new Property("furType_", 3203267351, "Black.Entity.Data.Physics.FurDataEntity.eFURTYPE", 64, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("furCurvePaths_", 387965792, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem* >", 72, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			fieldProperties.AddProperty(new Property("maskTexturePath_", 585615376, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));

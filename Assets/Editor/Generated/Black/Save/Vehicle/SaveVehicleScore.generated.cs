@@ -38,6 +38,8 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleScore", null, 395341569, 1132226786);
             
+			
+			
 			fieldProperties.AddProperty(new Property("jumpScore_", 1518353510, "int", 0, 12, 3, Property.PrimitiveType.Int32, 0, (char)8));
 			
 			

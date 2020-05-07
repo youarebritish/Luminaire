@@ -41,6 +41,10 @@ namespace Black.Save.Chocobo
 
             fieldProperties = new PropertyContainer("Black.Save.Chocobo.SaveChocoboStruct", null, 423255878, 1837290904);
             
+			fieldProperties.AddIndirectlyProperty(new Property("multiChocoboData_.chocoboNum_", 3243644902, "uint32_t", 768, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("multiChocoboData_.chocoboDataList_", 3768421264, "Black.Save.Multiplay.SaveChocoboDataStruct.ChocoboDataStruct", 772, 924, 11, Property.PrimitiveType.ClassField, 0, (char)8));
+			
+			
 			fieldProperties.AddProperty(new Property("name_", 182823483, "char", 0, 256, 256, Property.PrimitiveType.Int8, 0, (char)8));
 			fieldProperties.AddProperty(new Property("flag_", 2154253848, "uint32_t", 256, 512, 128, Property.PrimitiveType.Int32, 0, (char)8));
 			fieldProperties.AddProperty(new Property("multiChocoboData_", 3709650808, "Black.Save.Multiplay.SaveChocoboDataStruct", 768, 928, 1, Property.PrimitiveType.ClassField, 0, (char)0));

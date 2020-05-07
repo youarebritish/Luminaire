@@ -42,6 +42,8 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientGroupDescriptionEntity", base.GetFieldProperties(), -115744571, -825519210);
             
+			
+			
 			fieldProperties.AddProperty(new Property("memberDescriptions_", 2932430281, "SQEX.Ebony.Std.DynamicArray< Black.AI.Ambient.AmbientGroupMemberDescription* >", 64, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			fieldProperties.AddProperty(new Property("maxMembers_", 250297609, "int", 80, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("maxCount_", 3764251533, "int", 84, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

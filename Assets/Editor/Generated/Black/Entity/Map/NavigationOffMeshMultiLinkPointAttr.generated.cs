@@ -39,6 +39,8 @@ namespace Black.Entity.Map
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationOffMeshMultiLinkPointAttr", base.GetFieldProperties(), 182335450, 1841283140);
             
+			
+			
 			fieldProperties.AddProperty(new Property("start_", 3266844032, "SQEX.Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("end_", 3007557807, "SQEX.Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			

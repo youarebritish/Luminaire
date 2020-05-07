@@ -44,6 +44,12 @@ namespace Black.Save.Common
 
             fieldProperties = new PropertyContainer("Black.Save.Common.SaveCommonStruct", null, -1051156837, 1652488587);
             
+			fieldProperties.AddIndirectlyProperty(new Property("plantMapData_.isCompletedLesta_", 3246911394, "bool", 612, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("plantMapData_.iconDataList_", 3893701621, "Black.Save.Multiplay.SavePlantMapDataStruct.IconDataStruct", 616, 4000, 500, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddIndirectlyProperty(new Property("ignis_.chapter", 3094383061, "Black.Save.Common.EPI_RESULT_SCENE", 4616, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("ignis_.score", 1269919122, "int32_t", 4620, 384, 8, Property.PrimitiveType.Int32, 0, (char)8));
+			
+			
 			fieldProperties.AddProperty(new Property("presenceId_", 3492320450, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("forbidSaveAnywhereFlag_", 3485292166, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("reserved_", 2083388678, "int", 8, 200, 50, Property.PrimitiveType.Int32, 0, (char)8));

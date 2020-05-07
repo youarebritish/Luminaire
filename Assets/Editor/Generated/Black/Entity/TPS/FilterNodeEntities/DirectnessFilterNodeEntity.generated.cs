@@ -44,6 +44,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.DirectnessFilterNodeEntity", base.GetFieldProperties(), 208047056, -1409879559);
             
+			
+			
 			fieldProperties.AddProperty(new Property("subject_", 3903058736, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.SubjectType", 304, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("maxDirectness_", 1732991060, "float", 308, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("minDirectness_", 2509013422, "float", 312, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

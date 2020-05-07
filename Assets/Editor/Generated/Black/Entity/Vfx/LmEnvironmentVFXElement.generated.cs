@@ -43,6 +43,8 @@ namespace Black.Entity.Vfx
 
             fieldProperties = new PropertyContainer("Black.Entity.Vfx.LmEnvironmentVFXElement", base.GetFieldProperties(), -1572810957, 41920177);
             
+			
+			
 			fieldProperties.AddProperty(new Property("target_", 1693858869, "Ebony.Base.String", 16, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("path_", 167697483, "Ebony.Base.String", 32, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("rate_", 4046384168, "float", 48, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

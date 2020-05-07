@@ -61,6 +61,8 @@ namespace Black.Sequence.ScreenEffect
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.VWGlareFilterSequenceData", base.GetFieldProperties(), 2008622319, -20028584);
             
+			
+			
 			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
 			fieldProperties.AddProperty(new Property("enableWeather_", 1384777099, "bool", 9, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
 			fieldProperties.AddProperty(new Property("gammaSpace_", 1317534113, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)1));

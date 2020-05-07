@@ -40,6 +40,8 @@ namespace Black.Entity.Data.CharacterEntry
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters", base.GetFieldProperties(), 686008555, -57269070);
             
+			
+			
 			fieldProperties.AddProperty(new Property("src_", 517414690, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("tgt_", 4226382741, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("score_", 2866867710, "float", 48, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

@@ -37,6 +37,9 @@ namespace SQEX.Ebony.Framework.Entity
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Entity.EntityPackageSharedRefItem", base.GetFieldProperties(), -1944373656, 165318264);
             
+			fieldProperties.AddIndirectlyProperty(new Property("refPackagePath_", 1870477538, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			
+			
 			
 			
 			return fieldProperties;

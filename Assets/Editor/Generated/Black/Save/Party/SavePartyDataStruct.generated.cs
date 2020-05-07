@@ -85,6 +85,8 @@ namespace Black.Save.Party
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SavePartyDataStruct", null, 1403872290, 2094854431);
             
+			
+			
 			fieldProperties.AddProperty(new Property("usercontrol_player_save_number", 24324069, "Black.Save.SAVE_PLAYER", 0, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("chapter", 703916114, "int32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("gil", 1546307843, "int32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

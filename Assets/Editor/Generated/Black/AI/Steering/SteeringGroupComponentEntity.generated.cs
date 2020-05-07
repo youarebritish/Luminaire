@@ -53,6 +53,8 @@ namespace Black.AI.Steering
 
             fieldProperties = new PropertyContainer("Black.AI.Steering.SteeringGroupComponentEntity", base.GetFieldProperties(), 1152478087, 479315012);
             
+			
+			
 			fieldProperties.AddProperty(new Property("type_", 3554705238, "Black.AI.Steering.SteeringGroupComponentEntity.ComponentType", 64, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("maxSpeed_", 3235919937, "float", 68, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("speed_", 1253745677, "float", 72, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

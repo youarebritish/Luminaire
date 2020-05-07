@@ -47,6 +47,8 @@ namespace Black.Save.Mobhunt
 
             fieldProperties = new PropertyContainer("Black.Save.Mobhunt.SaveMobhuntDataStruct", null, -2065400598, -1936981960);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id_", 2899315373, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isCleared_", 131525108, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isRecieved_", 2250648127, "bool", 5, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

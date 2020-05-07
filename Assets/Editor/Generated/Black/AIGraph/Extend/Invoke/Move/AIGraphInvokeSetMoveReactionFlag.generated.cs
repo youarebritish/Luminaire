@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Move
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeSetMoveReactionFlag", base.GetFieldProperties(), -486348449, -146791689);
             
+			
+			
 			fieldProperties.AddProperty(new Property("setReactionFlagType_", 2729921063, "Black.AIGraph.Extend.Invoke.INVOKE_MOVE_REACTION_FLAG", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isReactionEnable_", 3814533410, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

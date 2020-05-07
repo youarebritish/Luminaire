@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeFreezeAnimation", base.GetFieldProperties(), -887253331, 891815976);
             
+			
+			
 			fieldProperties.AddProperty(new Property("blendTime_", 2060561802, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			

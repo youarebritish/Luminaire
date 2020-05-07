@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Camera
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Camera.AIGraphInvokeCallCameraSequence", base.GetFieldProperties(), -1915245376, 507434564);
             
+			
+			
 			fieldProperties.AddProperty(new Property("functionId_", 1155714377, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isStart_", 1043629584, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

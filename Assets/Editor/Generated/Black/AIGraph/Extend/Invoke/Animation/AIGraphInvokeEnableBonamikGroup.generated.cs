@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Animation
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeEnableBonamikGroup", base.GetFieldProperties(), 1681547666, 1230161761);
             
+			
+			
 			fieldProperties.AddProperty(new Property("groupTag_", 3374256257, "Black.AIGraph.Extend.Invoke.Animation.BonamikGroup", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

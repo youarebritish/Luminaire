@@ -38,6 +38,8 @@ namespace SQEX.Ebony.Framework.Utility
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Utility.SerializableStringArrayItem", base.GetFieldProperties(), 1375311518, 820944579);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Value", 3511155050, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			

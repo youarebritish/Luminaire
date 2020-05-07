@@ -41,6 +41,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.FrequencyFilterNodeEntity", base.GetFieldProperties(), -931543048, 647696509);
             
+			
+			
 			fieldProperties.AddProperty(new Property("subject_", 3903058736, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.SubjectType", 304, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("frequency_", 1962256378, "float", 308, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("filterWeight_", 4281585124, "float", 312, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

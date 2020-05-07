@@ -41,6 +41,11 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MenuEffectEntity", base.GetFieldProperties(), -389312733, -266655220);
             
+			fieldProperties.AddIndirectlyProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 80, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("entitySearchLabelId_", 3840219358, "SQEX.Ebony.Std.Fixid", 112, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("drawType_", 3084439868, "Black.Entity.Menu.MenuEffectEntity.EFFECTDRAW_TYPES", 256, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("drawLayer_", 573159033, "Black.Entity.Menu.MenuEffectEntity.EFFECTDRAW_LAYERS", 260, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("vfxPath_", 801799013, "Ebony.Base.String", 264, 16, 1, Property.PrimitiveType.String, 0, (char)0));

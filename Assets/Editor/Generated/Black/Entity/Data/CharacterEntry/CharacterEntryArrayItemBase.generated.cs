@@ -39,6 +39,8 @@ namespace Black.Entity.Data.CharacterEntry
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

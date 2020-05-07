@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Inertia
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Inertia.AIGraphInvokeSetGravityState", base.GetFieldProperties(), 1634830778, 1677937428);
             
+			
+			
 			fieldProperties.AddProperty(new Property("bEnable", 3380529358, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			

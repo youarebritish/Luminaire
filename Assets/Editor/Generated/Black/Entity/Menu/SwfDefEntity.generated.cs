@@ -45,6 +45,8 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.SwfDefEntity", base.GetFieldProperties(), 781947166, -274688800);
             
+			
+			
 			fieldProperties.AddProperty(new Property("filePath_", 956091201, "Ebony.Base.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("swfType_", 1307622244, "Black.Entity.Menu.SwfDefEntity.SWF_TYPE", 80, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("directionType_", 2678399151, "Black.Entity.Menu.SwfDefEntity.DIRECTION_TYPE", 84, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));

@@ -39,6 +39,8 @@ namespace Black.Sequence
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

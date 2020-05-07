@@ -38,6 +38,8 @@ namespace Black.Save.Snapshot
 
             fieldProperties = new PropertyContainer("Black.Save.Snapshot.SaveSnapshotImageInfoContainerStruct", null, -294219470, -338428046);
             
+			
+			
 			fieldProperties.AddProperty(new Property("snapshots_", 3838243167, "Luminous.Std.DynamicArray< Black.Save.Snapshot.SaveSnapshotImageInfoStruct >", 0, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			
 			

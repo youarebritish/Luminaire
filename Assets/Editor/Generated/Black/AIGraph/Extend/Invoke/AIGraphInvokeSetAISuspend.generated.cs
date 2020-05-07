@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAISuspend", base.GetFieldProperties(), -387738175, -201607500);
             
+			
+			
 			fieldProperties.AddProperty(new Property("bSuspend_", 1554959220, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("flagLayer_", 1493902821, "Black.AI.Common.LAYERED_FLAG_TYPE", 28, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			

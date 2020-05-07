@@ -39,6 +39,8 @@ namespace Black.Sequence.Control.Struct
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.Struct.ConditionData", base.GetFieldProperties(), -1453046010, 871669093);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Operator", 568678429, "Black.Sequence.Control.Struct.ConditionData.OperatorType", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("expression_", 3005454428, "Ebony.Base.String", 16, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			

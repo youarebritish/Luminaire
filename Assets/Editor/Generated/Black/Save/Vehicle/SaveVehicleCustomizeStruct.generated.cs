@@ -57,6 +57,8 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleCustomizeStruct", null, -1995153951, 1857417584);
             
+			
+			
 			fieldProperties.AddProperty(new Property("unlockedBodyColor_", 3917115184, "SQEX.Ebony.Std.DynamicArray< Black.Save.Vehicle.SaveVehicleColorStruct >", 0, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			fieldProperties.AddProperty(new Property("unlockedInteriorColor_", 2201831860, "SQEX.Ebony.Std.DynamicArray< Black.Save.Vehicle.SaveVehicleColorStruct >", 16, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			fieldProperties.AddProperty(new Property("unlockedTireColor_", 524124462, "SQEX.Ebony.Std.DynamicArray< Black.Save.Vehicle.SaveVehicleColorStruct >", 32, 16, 1, Property.PrimitiveType.Array, 0, (char)0));

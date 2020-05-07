@@ -40,6 +40,8 @@ namespace Black.Entity.Data.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Menu.SwfLabelAccessoryArrayItem", base.GetFieldProperties(), 83842092, 2015568544);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Label", 2664231581, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("Sound", 3016399412, "SQEX.Ebony.Framework.Entity.Entity", 16, 8, 1, Property.PrimitiveType.Pointer, 0, (char)0));
 			fieldProperties.AddProperty(new Property("Vfx", 3972225919, "SQEX.Ebony.Framework.Entity.Entity", 24, 8, 1, Property.PrimitiveType.Pointer, 0, (char)0));

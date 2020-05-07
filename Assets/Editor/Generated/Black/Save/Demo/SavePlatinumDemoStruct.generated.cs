@@ -40,6 +40,8 @@ namespace Black.Save.Demo
 
             fieldProperties = new PropertyContainer("Black.Save.Demo.SavePlatinumDemoStruct", null, -1620242067, -1914306695);
             
+			
+			
 			fieldProperties.AddProperty(new Property("carbuncleName_", 4137410360, "char", 0, 256, 256, Property.PrimitiveType.Int8, 0, (char)8));
 			fieldProperties.AddProperty(new Property("isClear_", 3723232503, "bool", 256, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("total_seconds", 443148979, "int64_t", 264, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));

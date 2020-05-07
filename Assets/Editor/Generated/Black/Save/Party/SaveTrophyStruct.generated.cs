@@ -39,6 +39,8 @@ namespace Black.Save.Party
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SaveTrophyStruct", null, 116537585, 896139733);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("exist", 456138012, "bool", 4, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

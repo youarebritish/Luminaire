@@ -51,6 +51,8 @@ namespace Black.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.Camera.Struct.CameraControlTurn", base.GetFieldProperties(), -1676972646, 589691802);
             
+			
+			
 			fieldProperties.AddProperty(new Property("mode", 3966689298, "Black.Camera.Struct.CameraControlTurnMode", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isUseAutoAdjustMode_", 1766698032, "bool", 12, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isUseAutoAdjustAngleMode_", 3828156189, "bool", 13, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

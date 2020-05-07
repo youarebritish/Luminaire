@@ -38,6 +38,8 @@ namespace Black.Save.Party
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SaveSystemToggleStruct", null, -1858495276, -1510530142);
             
+			
+			
 			fieldProperties.AddProperty(new Property("flag", 3186272471, "bool", 0, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			

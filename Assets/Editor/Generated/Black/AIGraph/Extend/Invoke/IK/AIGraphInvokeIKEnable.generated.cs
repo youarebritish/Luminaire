@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.IK
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeIKEnable", base.GetFieldProperties(), -719429828, -987306063);
             
+			
+			
 			fieldProperties.AddProperty(new Property("ikType", 328253877, "Black.AIGraph.Extend.Invoke.IK.IKType", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			

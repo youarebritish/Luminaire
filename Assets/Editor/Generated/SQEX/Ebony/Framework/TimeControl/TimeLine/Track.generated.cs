@@ -46,6 +46,9 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.Track", base.GetFieldProperties(), -632846832, -830786190);
             
+			fieldProperties.AddIndirectlyProperty(new Property("childTrackList_", 2693454425, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.TimeControl.TimeLine.Track* >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			
+			
 			fieldProperties.AddProperty(new Property("name_", 182823483, "Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("trackType_", 16036337, "SQEX.Ebony.Framework.TimeControl.TimeLine.TrackType", 40, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("groupType_", 2996798561, "SQEX.Ebony.Framework.TimeControl.TimeLine.GroupType", 44, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));

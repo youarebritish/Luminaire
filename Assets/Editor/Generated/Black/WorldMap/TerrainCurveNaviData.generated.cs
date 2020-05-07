@@ -77,6 +77,8 @@ namespace Black.WorldMap
 
             fieldProperties = new PropertyContainer("Black.WorldMap.TerrainCurveNaviData", base.GetFieldProperties(), -865080503, 826699559);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Magic_", 1161525257, "unsigned int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("Version_", 319222456, "unsigned int", 20, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("CurveCount_", 1067008252, "SQEX.Ebony.Std.DynamicArray< unsigned int, MEMORY_CATEGORY_MAP_CURVE >", 24, 16, 1, Property.PrimitiveType.Array, 0, (char)0));

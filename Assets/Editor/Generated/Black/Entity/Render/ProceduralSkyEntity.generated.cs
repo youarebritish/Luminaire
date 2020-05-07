@@ -78,6 +78,8 @@ namespace Black.Entity.Render
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.ProceduralSkyEntity", base.GetFieldProperties(), 503171251, -1505870931);
             
+			
+			
 			fieldProperties.AddProperty(new Property("enableSky_", 882296488, "bool", 64, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("enableObjects_", 90900479, "bool", 65, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("enableCloud_", 3609682428, "bool", 66, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

@@ -44,6 +44,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.HeatmapFilterNodeEntity", base.GetFieldProperties(), 1210240270, 1579852038);
             
+			
+			
 			fieldProperties.AddProperty(new Property("influenceMapFixId_", 3752198897, "SQEX.Ebony.Std.Fixid", 304, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("maxHeat_", 3197836872, "float", 308, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("minHeat_", 68616198, "float", 312, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

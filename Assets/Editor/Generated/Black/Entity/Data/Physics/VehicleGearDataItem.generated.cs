@@ -40,6 +40,8 @@ namespace Black.Entity.Data.Physics
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.VehicleGearDataItem", base.GetFieldProperties(), 1369837609, -1973854972);
             
+			
+			
 			fieldProperties.AddProperty(new Property("gearRatio_", 407705662, "float", 8, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("autoGearUpRotateRatio_", 2630530267, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("autoGearDownRotateRatio_", 195831318, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

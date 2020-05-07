@@ -61,6 +61,11 @@ namespace Black.Entity.Level
 
             fieldProperties = new PropertyContainer("Black.Entity.Level.RangedWindBase", base.GetFieldProperties(), -1439393236, -646339722);
             
+			fieldProperties.AddIndirectlyProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 80, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("entitySearchLabelId_", 3840219358, "SQEX.Ebony.Std.Fixid", 112, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("m_Enabled", 2851480862, "bool", 257, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("m_MayaLightDirection", 3208406760, "bool", 258, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("m_VolumeType", 3825660439, "Black.Entity.Level.RangedWindBase.VOLUMETYPE", 260, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));

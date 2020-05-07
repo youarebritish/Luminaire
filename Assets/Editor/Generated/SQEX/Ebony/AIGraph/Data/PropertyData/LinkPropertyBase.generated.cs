@@ -37,6 +37,10 @@ namespace SQEX.Ebony.AIGraph.Data.PropertyData
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.PropertyData.LinkPropertyBase", base.GetFieldProperties(), 1006713530, -171767373);
             
+			fieldProperties.AddIndirectlyProperty(new Property("propertyId_", 487541182, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("indexOfLinkedProperty_", 4182715867, "int", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			
+			
 			
 			
 			return fieldProperties;

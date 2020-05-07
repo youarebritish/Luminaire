@@ -38,6 +38,8 @@ namespace Black.Entity.Nav
 
             fieldProperties = new PropertyContainer("Black.Entity.Nav.SmartWaypointEntity", base.GetFieldProperties(), -713741991, 1436506583);
             
+			
+			
 			fieldProperties.AddProperty(new Property("sourceFileName_", 1506120470, "SQEX.Ebony.Base.String", 144, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			

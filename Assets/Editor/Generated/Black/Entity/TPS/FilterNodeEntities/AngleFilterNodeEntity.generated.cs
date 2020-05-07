@@ -44,6 +44,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.AngleFilterNodeEntity", base.GetFieldProperties(), 524752354, 1796900860);
             
+			
+			
 			fieldProperties.AddProperty(new Property("maxAngle_", 1202300433, "float", 304, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("minAngle_", 3235953939, "float", 308, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("filterWeight_", 4281585124, "float", 312, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

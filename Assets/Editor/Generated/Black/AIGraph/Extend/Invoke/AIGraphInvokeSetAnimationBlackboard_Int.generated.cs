@@ -42,6 +42,8 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAnimationBlackboard_Int", base.GetFieldProperties(), 2133410845, -1149200383);
             
+			
+			
 			fieldProperties.AddProperty(new Property("paramType_", 2933674535, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("paramValue_", 3541012908, "int", 28, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isRandom_", 2467781335, "bool", 32, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

@@ -41,6 +41,8 @@ namespace Black.Save.Quest
 
             fieldProperties = new PropertyContainer("Black.Save.Quest.SaveQuestDataStruct", null, -131684063, -1259688754);
             
+			
+			
 			fieldProperties.AddProperty(new Property("saveVersion", 2514249556, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("gameInformationCount", 3400456362, "uint32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("gameInformationList", 799146595, "SQEX.Ebony.Std.DynamicArray< Black.Save.Quest.SaveQuestGameInformationStruct >", 8, 16, 1, Property.PrimitiveType.Array, 0, (char)0));

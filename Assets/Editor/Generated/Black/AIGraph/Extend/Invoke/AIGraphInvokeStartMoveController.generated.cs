@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeStartMoveController", base.GetFieldProperties(), 152099996, 13582829);
             
+			
+			
 			fieldProperties.AddProperty(new Property("controllerType_", 3222919810, "Black.Actor.Move.ControllerType", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			

@@ -63,6 +63,8 @@ namespace Black.Save.Config
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveGraphicsConfigMain", null, 1128139620, 60261537);
             
+			
+			
 			fieldProperties.AddProperty(new Property("displayResolutionWidth_", 328975530, "int", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("displayResolutionHeight_", 4012122509, "int", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("currentDisplay_", 504104205, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

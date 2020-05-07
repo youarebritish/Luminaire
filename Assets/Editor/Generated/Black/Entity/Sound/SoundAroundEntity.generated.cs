@@ -45,6 +45,8 @@ namespace Black.Entity.Sound
 
             fieldProperties = new PropertyContainer("Black.Entity.Sound.SoundAroundEntity", base.GetFieldProperties(), -397116247, -2134374313);
             
+			
+			
 			fieldProperties.AddProperty(new Property("fadeTime_", 2176527919, "float", 64, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("fadeInTime_", 46563890, "float", 68, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("fadeOutTime_", 2822800001, "float", 72, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

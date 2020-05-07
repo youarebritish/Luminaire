@@ -56,6 +56,11 @@ namespace Black.Entity.Actor
 
             fieldProperties = new PropertyContainer("Black.Entity.Actor.HeightFieldEntity", base.GetFieldProperties(), -1070235521, -52094853);
             
+			fieldProperties.AddIndirectlyProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 80, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("entitySearchLabelId_", 3840219358, "SQEX.Ebony.Std.Fixid", 112, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 256, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("sourcePathHighSpec_", 1009877713, "Ebony.Base.String", 272, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("materialPalettePath_", 1719454245, "Ebony.Base.String", 288, 16, 1, Property.PrimitiveType.String, 0, (char)0));

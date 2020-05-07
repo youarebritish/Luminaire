@@ -37,6 +37,10 @@ namespace SQEX.Ebony.Framework.Sequence.Operator
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Operator.SequenceOperator", base.GetFieldProperties(), -1070006612, 169436699);
             
+			fieldProperties.AddIndirectlyProperty(new Property("refInPorts_", 1035088696, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin*, MEMORY_CATEGORY_FRAMEWORK >", 24, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
+			fieldProperties.AddIndirectlyProperty(new Property("refOutPorts_", 283683627, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Node.GraphPin*, MEMORY_CATEGORY_FRAMEWORK >", 40, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
+			
+			
 			
 			
 			return fieldProperties;

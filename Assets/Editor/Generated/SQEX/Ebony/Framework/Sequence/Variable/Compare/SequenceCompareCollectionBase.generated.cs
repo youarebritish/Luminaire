@@ -39,6 +39,8 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Compare
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

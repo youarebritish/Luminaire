@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Trial
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeNotifyToMeta", base.GetFieldProperties(), 789665391, 925394343);
             
+			
+			
 			fieldProperties.AddProperty(new Property("noticeType", 3145351289, "Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeNotifyToMeta.NOTICE_TYPE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			

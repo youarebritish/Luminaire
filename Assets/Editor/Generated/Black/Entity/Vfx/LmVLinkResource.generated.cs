@@ -39,6 +39,8 @@ namespace Black.Entity.Vfx
 
             fieldProperties = new PropertyContainer("Black.Entity.Vfx.LmVLinkResource", base.GetFieldProperties(), -908487107, 155910222);
             
+			
+			
 			fieldProperties.AddProperty(new Property("VlinkPathList", 1223459594, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem* >", 64, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			fieldProperties.AddProperty(new Property("priorityType_", 1626042234, "Black.Entity.Vfx.LmVLinkResource.PRIORITY_TYPE", 80, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			

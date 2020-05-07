@@ -45,6 +45,8 @@ namespace Black.Entity.Data.Area
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.AreaStartPointItem", base.GetFieldProperties(), -420074028, -164583431);
             
+			
+			
 			fieldProperties.AddProperty(new Property("areaStartPosition_", 2565057324, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("memo_", 3571411732, "Ebony.Base.String", 32, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("labelName_", 2707696659, "Ebony.Base.String", 48, 16, 1, Property.PrimitiveType.String, 0, (char)0));

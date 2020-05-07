@@ -50,6 +50,8 @@ namespace Black.Entity.Data
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.WeatherDataEntity", base.GetFieldProperties(), -1036387836, -442917900);
             
+			
+			
 			fieldProperties.AddProperty(new Property("weatherTransitionTime_", 4249573478, "float", 64, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("skyFilePath_", 1621698040, "Ebony.Base.String", 72, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("reloadSky_", 608769770, "bool", 88, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

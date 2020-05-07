@@ -39,6 +39,12 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleStruct2", null, 2068116943, 391953859);
             
+			fieldProperties.AddIndirectlyProperty(new Property("status_.regaliaType_", 2751495280, "int", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("status_.spare_pos_", 2076954725, "double", 8, 24, 3, Property.PrimitiveType.Double, 0, (char)8));
+			fieldProperties.AddIndirectlyProperty(new Property("status_.spare_rotate_", 1690189802, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("scores_.jumpScore_", 2383416348, "int", 48, 12, 3, Property.PrimitiveType.Int32, 0, (char)8));
+			
+			
 			fieldProperties.AddProperty(new Property("status_", 4107102736, "Black.Save.Vehicle.SaveVehicleStatusStruct2", 0, 48, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			fieldProperties.AddProperty(new Property("scores_", 1633445687, "Black.Save.Vehicle.SaveVehicleScore", 48, 12, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			

@@ -38,6 +38,12 @@ namespace Black.Save.Quest
 
             fieldProperties = new PropertyContainer("Black.Save.Quest.SaveQuestStruct", null, 418251789, -1400173965);
             
+			fieldProperties.AddIndirectlyProperty(new Property("quest_data.saveVersion", 1385026567, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("quest_data.gameInformationCount", 3925774403, "uint32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("quest_data.gameInformationList", 325008100, "SQEX.Ebony.Std.DynamicArray< Black.Save.Quest.SaveQuestGameInformationStruct >", 8, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("quest_data.acceptQuestIdList_", 3819905960, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Std.Fixid >", 24, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("quest_data", 4011775558, "Black.Save.Quest.SaveQuestDataStruct", 0, 40, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			

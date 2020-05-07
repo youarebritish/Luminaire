@@ -45,6 +45,8 @@ namespace SQEX.Ebony.Framework.TimeControl
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.AnchorReferenceValue", base.GetFieldProperties(), 1694444979, 411824244);
             
+			
+			
 			fieldProperties.AddProperty(new Property("valueType_", 1693725455, "SQEX.Ebony.Framework.Sequence.SequenceValue.ValueType", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("dependencyProperty_", 1510119278, "void", 16, 8, 1, Property.PrimitiveType.Pointer, 0, (char)0));
 			fieldProperties.AddProperty(new Property("dependencyPropertyEnable_", 3822694307, "bool", 24, 8, 1, Property.PrimitiveType.Pointer, 0, (char)0));

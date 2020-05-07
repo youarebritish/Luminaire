@@ -39,6 +39,8 @@ namespace SQEX.Luminous.GameFramework
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

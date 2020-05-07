@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeEventScriptSetActionRecord", base.GetFieldProperties(), -1108547880, -2060113100);
             
+			
+			
 			fieldProperties.AddProperty(new Property("slotType_", 1228886674, "Black.AI.Recog.TARGET_SLOT_TYPE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("actionType_", 3416588776, "Black.Event.Script.ActionType", 28, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			

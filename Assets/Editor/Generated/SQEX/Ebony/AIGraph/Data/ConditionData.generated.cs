@@ -43,6 +43,8 @@ namespace SQEX.Ebony.AIGraph.Data
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.ConditionData", base.GetFieldProperties(), 286990604, 480872431);
             
+			
+			
 			fieldProperties.AddProperty(new Property("type_", 3554705238, "SQEX.Ebony.AIGraph.Data.CONDITION_TYPE", 16, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("condition_", 2497769523, "Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("compiledCondition_", 2239119596, "Ebony.Base.String", 40, 16, 1, Property.PrimitiveType.String, 0, (char)0));

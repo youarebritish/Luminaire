@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Math
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

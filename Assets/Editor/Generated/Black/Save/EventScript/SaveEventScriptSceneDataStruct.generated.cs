@@ -39,6 +39,8 @@ namespace Black.Save.EventScript
 
             fieldProperties = new PropertyContainer("Black.Save.EventScript.SaveEventScriptSceneDataStruct", null, -1839855270, 1790015476);
             
+			
+			
 			fieldProperties.AddProperty(new Property("sceneId", 3867899902, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("lastElapsedGameTime", 2241986172, "int64_t", 8, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));
 			

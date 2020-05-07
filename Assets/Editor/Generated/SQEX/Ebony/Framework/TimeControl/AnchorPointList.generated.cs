@@ -38,6 +38,8 @@ namespace SQEX.Ebony.Framework.TimeControl
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.AnchorPointList", base.GetFieldProperties(), -267642899, -503632649);
             
+			
+			
 			fieldProperties.AddProperty(new Property("anchorPoints_", 2050525420, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.TimeControl.AnchorPoint* >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			

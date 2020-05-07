@@ -41,6 +41,8 @@ namespace Black.Save.TimedQuest
 
             fieldProperties = new PropertyContainer("Black.Save.TimedQuest.SaveTimedQuestStruct", null, -527920294, 1761120603);
             
+			
+			
 			fieldProperties.AddProperty(new Property("version", 1181855383, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("title", 2556802313, "Black.Save.TimedQuest.SaveTimedQuestTitleStruct", 4, 6144, 256, Property.PrimitiveType.ClassField, 0, (char)8));
 			fieldProperties.AddProperty(new Property("point", 414084241, "Black.Save.TimedQuest.SaveTimedQuestPointStruct", 6152, 192, 8, Property.PrimitiveType.ClassField, 0, (char)8));

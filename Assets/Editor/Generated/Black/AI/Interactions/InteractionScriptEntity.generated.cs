@@ -38,6 +38,8 @@ namespace Black.AI.Interactions
 
             fieldProperties = new PropertyContainer("Black.AI.Interactions.InteractionScriptEntity", base.GetFieldProperties(), 1889800525, 1610400213);
             
+			
+			
 			fieldProperties.AddProperty(new Property("interactionFile_", 1831334318, "SQEX.Ebony.Base.String", 112, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			

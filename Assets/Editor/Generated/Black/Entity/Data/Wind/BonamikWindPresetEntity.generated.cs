@@ -58,6 +58,8 @@ namespace Black.Entity.Data.Wind
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Wind.BonamikWindPresetEntity", base.GetFieldProperties(), -1668337179, -1898511682);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isEnable_", 4253513587, "bool", 64, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("bnmwnd0Id", 827056940, "SQEX.Ebony.Std.Fixid", 68, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("bnmwnd0Path", 519152018, "Ebony.Base.String", 72, 16, 1, Property.PrimitiveType.String, 0, (char)0));

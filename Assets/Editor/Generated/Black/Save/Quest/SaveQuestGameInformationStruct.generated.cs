@@ -41,6 +41,8 @@ namespace Black.Save.Quest
 
             fieldProperties = new PropertyContainer("Black.Save.Quest.SaveQuestGameInformationStruct", null, 1530412544, 512366402);
             
+			
+			
 			fieldProperties.AddProperty(new Property("questId", 3161124712, "Black.Save.Quest.SaveQuestGameInformationStruct.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("progressHistoryList", 821551226, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Std.Fixid >", 8, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			fieldProperties.AddProperty(new Property("conditionWork", 4251185987, "QuestSaveInformation.ConditionWork", 24, 32, 4, Property.PrimitiveType.ClassField, 0, (char)8));

@@ -38,6 +38,9 @@ namespace Black.Entity.Data.Area
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.PackageLoadAreaUnloadArrayItem", base.GetFieldProperties(), -1921538945, -628571222);
             
+			fieldProperties.AddIndirectlyProperty(new Property("Id_", 3478900877, "uint32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("filePath_", 956091201, "Ebony.Base.String", 16, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			

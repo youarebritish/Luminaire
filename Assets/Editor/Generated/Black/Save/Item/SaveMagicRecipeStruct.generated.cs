@@ -48,6 +48,8 @@ namespace Black.Save.Item
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveMagicRecipeStruct", null, 1819852741, -155607518);
             
+			
+			
 			fieldProperties.AddProperty(new Property("favorite", 748762573, "bool", 0, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("disable", 3454897251, "bool", 1, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("disable_level", 1575933130, "int8_t", 2, 1, 1, Property.PrimitiveType.Int8, 0, (char)0));

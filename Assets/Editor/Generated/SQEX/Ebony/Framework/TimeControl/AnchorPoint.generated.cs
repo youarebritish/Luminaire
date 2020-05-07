@@ -48,6 +48,8 @@ namespace SQEX.Ebony.Framework.TimeControl
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.AnchorPoint", base.GetFieldProperties(), 1092863664, 891530735);
             
+			
+			
 			fieldProperties.AddProperty(new Property("time_", 2171152225, "float", 8, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ySplit_", 4033478601, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

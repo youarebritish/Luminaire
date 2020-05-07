@@ -38,6 +38,8 @@ namespace Black.Entity.Sound
 
             fieldProperties = new PropertyContainer("Black.Entity.Sound.StaticSoundPositionArrayItem", base.GetFieldProperties(), -237893668, 990950760);
             
+			
+			
 			fieldProperties.AddProperty(new Property("entityPointer_", 3527687820, "Black.Entity.Sound.StaticSoundEntitySourcePoint", 8, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
 			
 			

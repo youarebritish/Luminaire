@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyBodyAttackNotification", base.GetFieldProperties(), 1266971849, -1462689074);
             
+			
+			
 			fieldProperties.AddProperty(new Property("bAttackStartOrFinish_", 1181802242, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			

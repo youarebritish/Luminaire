@@ -38,6 +38,8 @@ namespace Black.AIGraph.Extend.Invoke.Animation
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeSwitchToRagdoll", base.GetFieldProperties(), -654877692, -235418668);
             
+			
+			
 			fieldProperties.AddProperty(new Property("ragdollRange_", 675281190, "int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			

@@ -41,6 +41,8 @@ namespace Black.AIGraph.Extend.Invoke.Layer
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Layer.AIGraphInvokeKillLayer", base.GetFieldProperties(), 684639665, -940964855);
             
+			
+			
 			fieldProperties.AddProperty(new Property("animLayer", 382561877, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isWaitAnimFinish", 3704641122, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("animMsg", 2005261249, "SQEX.Ebony.Std.Fixid", 32, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));

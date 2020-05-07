@@ -45,6 +45,8 @@ namespace SQEX.Luminous.InputDevice
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.InputDevice.GyroData", null, -169428647, -1346235963);
             
+			
+			
 			fieldProperties.AddProperty(new Property("Valid", 3529904145, "bool", 0, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("PadGyro", 377198981, "bool", 1, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("Position", 3799987242, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));

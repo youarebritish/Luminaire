@@ -94,6 +94,11 @@ namespace Black.System.TimeLine.TrackItem.Render.PostProcess
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.PostProcess.VWColorFilterTrackItem", base.GetFieldProperties(), 731056422, -1217140648);
             
+			fieldProperties.AddIndirectlyProperty(new Property("name_", 182823483, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("startTime_", 140908163, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("duration_", 1282328598, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("propCAT_", 1436489273, "bool", 88, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("propsRGBGamma_", 1923425970, "bool", 89, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("propDither_", 1027854365, "bool", 90, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

@@ -49,6 +49,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.QueryDistanceFilterNodeEntity", base.GetFieldProperties(), 1037075594, 1325439846);
             
+			
+			
 			fieldProperties.AddProperty(new Property("subject_", 3903058736, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.SubjectType", 304, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("useRadius_", 1483850511, "bool", 308, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("allowAIGraphOverride_", 2548859529, "Black.Entity.TPS.FilterDescriptorNodeEntity.OverrideableInAIGraph", 312, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));

@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.VFX
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.VFX.AIGraphInvokePlayLuminousVFX", base.GetFieldProperties(), 1093475309, -2037500446);
             
+			
+			
 			fieldProperties.AddProperty(new Property("VlinkID", 241610760, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("WeaponOption", 1785740048, "Black.AIGraph.Extend.Invoke.VFX.AIGraphInvokePlayLuminousVFX.WEAPON_VFX_TYPE", 28, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			

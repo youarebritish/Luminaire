@@ -39,6 +39,8 @@ namespace Black.Save.Item
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveMagicRecipeListStruct", null, 944515684, 768846293);
             
+			
+			
 			fieldProperties.AddProperty(new Property("magic_recipe_amount", 1280676424, "int32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("magic_recipe", 1185871091, "Black.Save.Item.SaveMagicRecipeStruct", 4, 1520, 20, Property.PrimitiveType.ClassField, 0, (char)8));
 			

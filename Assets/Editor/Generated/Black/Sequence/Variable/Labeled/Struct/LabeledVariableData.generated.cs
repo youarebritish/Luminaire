@@ -39,6 +39,8 @@ namespace Black.Sequence.Variable.Labeled.Struct
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.Labeled.Struct.LabeledVariableData", base.GetFieldProperties(), -2121011631, 655723835);
             
+			
+			
 			fieldProperties.AddProperty(new Property("label_", 3520738310, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("labelType_", 3504579550, "SQEX.Ebony.Framework.Sequence.SequenceValue.ValueType", 12, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			

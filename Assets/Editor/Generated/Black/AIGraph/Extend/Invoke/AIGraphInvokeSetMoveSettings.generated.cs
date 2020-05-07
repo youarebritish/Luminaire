@@ -46,6 +46,8 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetMoveSettings", base.GetFieldProperties(), -634439761, -448546467);
             
+			
+			
 			fieldProperties.AddProperty(new Property("validateGear_", 489100521, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("maxVelocity_", 4144162499, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("minVelocity_", 959955709, "float", 32, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

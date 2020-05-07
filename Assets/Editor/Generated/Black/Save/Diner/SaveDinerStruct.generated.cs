@@ -41,6 +41,8 @@ namespace Black.Save.Diner
 
             fieldProperties = new PropertyContainer("Black.Save.Diner.SaveDinerStruct", null, -1730978843, -1347547320);
             
+			
+			
 			fieldProperties.AddProperty(new Property("currentDinerId_", 3144816060, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("dataLists_", 1324438219, "SQEX.Ebony.Std.DynamicArray< Black.Save.Diner.SaveDinerDataStruct >", 8, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			fieldProperties.AddProperty(new Property("informationLists_", 3101435611, "SQEX.Ebony.Std.DynamicArray< Black.Save.Diner.SaveDinerInformationStruct >", 24, 16, 1, Property.PrimitiveType.Array, 0, (char)0));

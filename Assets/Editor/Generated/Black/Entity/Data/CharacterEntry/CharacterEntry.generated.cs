@@ -123,6 +123,8 @@ namespace Black.Entity.Data.CharacterEntry
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.CharacterEntry", base.GetFieldProperties(), 1243728343, 1220872069);
             
+			
+			
 			fieldProperties.AddProperty(new Property("EntryId", 349772766, "SQEX.Ebony.Std.Fixid", 64, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("DisplayName", 4176258230, "Ebony.Base.String", 72, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("IsVisible", 1619861713, "bool", 88, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

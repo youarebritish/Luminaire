@@ -41,6 +41,8 @@ namespace Black.Save.Multiplay
 
             fieldProperties = new PropertyContainer("Black.Save.Multiplay.SaveAvatarColor", null, -1901913412, -169482275);
             
+			
+			
 			fieldProperties.AddProperty(new Property("R", 3607893173, "float", 0, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("G", 3255563174, "float", 4, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("B", 3339451269, "float", 8, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

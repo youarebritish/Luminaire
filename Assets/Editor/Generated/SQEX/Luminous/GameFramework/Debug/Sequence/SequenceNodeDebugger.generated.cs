@@ -39,6 +39,8 @@ namespace SQEX.Luminous.GameFramework.Debug.Sequence
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

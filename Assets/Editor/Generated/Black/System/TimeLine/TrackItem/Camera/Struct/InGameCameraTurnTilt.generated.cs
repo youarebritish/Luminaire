@@ -51,6 +51,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt", base.GetFieldProperties(), 978977602, 215167140);
             
+			
+			
 			fieldProperties.AddProperty(new Property("isUse_", 318966273, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("rotationUseValueTypeTilt_", 2593353221, "Black.Camera.RotationUseValueType", 12, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("isUseDefaultValueWhenBattleHybridAndOverride_", 3949753756, "bool", 16, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

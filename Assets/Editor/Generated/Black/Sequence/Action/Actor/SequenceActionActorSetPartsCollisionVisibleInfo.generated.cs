@@ -38,6 +38,8 @@ namespace Black.Sequence.Action.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorSetPartsCollisionVisibleInfo", base.GetFieldProperties(), 629861336, 1123971312);
             
+			
+			
 			fieldProperties.AddProperty(new Property("partsID_", 2627939405, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			

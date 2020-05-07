@@ -44,6 +44,8 @@ namespace Black.Entity.Render
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.LightMapBakeEntity", base.GetFieldProperties(), -921493706, -1709025812);
             
+			
+			
 			fieldProperties.AddProperty(new Property("saveFolder_", 2684985225, "SQEX.Luminous.Core.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("uvSaveFolder_", 358983676, "SQEX.Luminous.Core.String", 80, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("texelPerMeter_", 2267198880, "float", 96, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

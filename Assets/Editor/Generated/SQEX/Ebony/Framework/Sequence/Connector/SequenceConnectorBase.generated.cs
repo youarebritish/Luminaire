@@ -38,6 +38,8 @@ namespace SQEX.Ebony.Framework.Sequence.Connector
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Connector.SequenceConnectorBase", base.GetFieldProperties(), -923848887, 390017147);
             
+			
+			
 			fieldProperties.AddProperty(new Property("connectorNo_", 3734612560, "int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			

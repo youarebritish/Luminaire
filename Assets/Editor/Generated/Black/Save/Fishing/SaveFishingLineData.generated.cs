@@ -39,6 +39,8 @@ namespace Black.Save.Fishing
 
             fieldProperties = new PropertyContainer("Black.Save.Fishing.SaveFishingLineData", null, 4823593, -1631486267);
             
+			
+			
 			fieldProperties.AddProperty(new Property("lineId_", 470507407, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("remainStammina_", 617779628, "float", 4, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			

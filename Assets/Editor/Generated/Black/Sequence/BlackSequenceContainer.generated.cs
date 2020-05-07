@@ -37,6 +37,9 @@ namespace Black.Sequence
 
             fieldProperties = new PropertyContainer("Black.Sequence.BlackSequenceContainer", base.GetFieldProperties(), -1269676789, -1741686273);
             
+			fieldProperties.AddIndirectlyProperty(new Property("nodes_", 61650911, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Sequence.SequenceNode* >", 80, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
+			
+			
 			
 			
 			return fieldProperties;

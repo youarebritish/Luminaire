@@ -40,6 +40,8 @@ namespace SQEX.Luminous.InputDevice
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.InputDevice.PadData", null, -551833698, -692203151);
             
+			
+			
 			fieldProperties.AddProperty(new Property("PushMap", 939908201, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ButtonValue", 1864406462, "float", 4, 96, 24, Property.PrimitiveType.Float, 0, (char)8));
 			fieldProperties.AddProperty(new Property("Stick", 2393108199, "float", 100, 16, 4, Property.PrimitiveType.Float, 0, (char)8));

@@ -46,6 +46,8 @@ namespace Black.Save.Summon
 
             fieldProperties = new PropertyContainer("Black.Save.Summon.SaveSummonDataStruct", null, 1657258019, -42884446);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "Black.Save.SAVE_SUMMON", 0, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("name", 2369371622, "char", 4, 128, 128, Property.PrimitiveType.Int8, 0, (char)8));
 			fieldProperties.AddProperty(new Property("name_id", 3355607158, "SQEX.Ebony.Std.Fixid", 132, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));

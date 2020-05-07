@@ -42,6 +42,8 @@ namespace Black.Save.Party
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SaveMoveDistanceStruct", null, 386749652, -1450391842);
             
+			
+			
 			fieldProperties.AddProperty(new Property("flag", 3186272471, "bool", 0, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			fieldProperties.AddProperty(new Property("distance", 783488098, "double", 8, 8, 1, Property.PrimitiveType.Double, 0, (char)0));
 			fieldProperties.AddProperty(new Property("position", 2471448074, "Luminous.Math.DoubleVector4", 16, 32, 1, Property.PrimitiveType.DoubleVector4, 0, (char)0));
