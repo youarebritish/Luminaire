@@ -138,6 +138,10 @@ public static class ClassGenerator
             {
                 return "object";
             }
+            else if (type == "Luminous.Std.EventHandler< float >")
+            {
+                return "object";
+            }
             else if (type.EndsWith(".String"))
             {
                 return "string";
@@ -207,6 +211,17 @@ public static class ClassGenerator
                 continue;
             }
 
+            if (objectTypeData.name_.Contains("IconDataStruct"))
+            {
+                // These two are annoying edge cases of inner classes and it's too annoying to handle them with the template, so I've implemented them manually.
+                continue;
+            }
+
+            if (objectTypeData.name_.Contains("ChocoboDataStruct"))
+            {
+                continue;
+            }
+
             var typeTokens = objectTypeData.name_.Split('.');
             if (typeTokens.Length < 2)
             {
@@ -238,7 +253,7 @@ public static class ClassGenerator
         }
     }
 
-    private const string OutputDirectory = "/Assets/Editor/Generated/";
+    private const string OutputDirectory = "/Editor/Generated/";
 
     private static string MakeOutputPath(string typeName)
     {

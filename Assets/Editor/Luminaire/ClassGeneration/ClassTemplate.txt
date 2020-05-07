@@ -1,4 +1,4 @@
-using Luminous.Core.Object;
+using SQEX.Luminous.Core.Object;
 using System.Collections.Generic;
 
 namespace {{ name_space }}

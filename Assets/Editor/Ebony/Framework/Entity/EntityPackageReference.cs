@@ -2,8 +2,8 @@
 
 namespace SQEX.Ebony.Framework.Entity
 {
-    public class EntityPackageReference : EntityGroup
-    {
+    public partial class EntityPackageReference : EntityGroup
+    {/*
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 
@@ -57,6 +57,6 @@ namespace SQEX.Ebony.Framework.Entity
         private static BaseObject Construct()
         {
             return new EntityPackageReference();
-        }
+        }*/
     }
 }

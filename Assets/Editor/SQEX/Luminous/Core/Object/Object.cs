@@ -2,7 +2,7 @@
 {
     [System.Serializable]
     public partial class Object : BaseObject
-    {
+    {/*
         public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 
@@ -33,6 +33,6 @@
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.Core.Object.Object", base.GetFieldProperties(), 254102316, 1792615884);
             return fieldProperties;
-        }
+        }*/
     }
 }

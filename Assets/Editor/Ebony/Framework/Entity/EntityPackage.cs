@@ -4,18 +4,13 @@ using System.Collections.Generic;
 namespace SQEX.Ebony.Framework.Entity
 {
     [System.Serializable]
-    public class EntityPackage : EntityPackageReference
+    public partial class EntityPackage : EntityPackageReference
     {
+        public string simpleName_;
+        /*
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
-
-        /*public string simpleName_ { get; set; }
-        public List<Luminous.Core.Object.Object> loadedObjects_ { get; set; } = new List<Luminous.Core.Object.Object>();
-        public List<string> loadedObjectNames_ { get; } = new List<string>();
-        public List<string> loadedObjectPaths_ { get; } = new List<string>();
-        public int sequenceUpdateOrderPreset_ { get; set; }
-        public ushort sequenceUpdateOrderDirect_ { get; set; }*/
-
+        
         public string simpleName_;
         public List<Luminous.Core.Object.Object> loadedObjects_ = new List<Luminous.Core.Object.Object>();
         public List<string> loadedObjectNames_ = new List<string>();
@@ -34,14 +29,7 @@ namespace SQEX.Ebony.Framework.Entity
             var properties = dummy.GetFieldProperties();
 
             ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.EntityPackage", 0, EntityPackageReference.ObjectType, Construct, properties, 8, 592);
-        }
-
-        public void AddLoadedObject(Luminous.Core.Object.Object obj, string loadedObjectName, string loadedObjectPath)
-        {
-            this.loadedObjects_.Add(obj);
-            this.loadedObjectNames_.Add(loadedObjectName);
-            this.loadedObjectPaths_.Add(loadedObjectPath);
-        }
+        }        
 
         public override ObjectType GetObjectType()
         {
@@ -86,11 +74,19 @@ namespace SQEX.Ebony.Framework.Entity
         {
             return new EntityPackage();
         }
+        */
+
+        public void AddLoadedObject(Luminous.Core.Object.Object obj, string loadedObjectName, string loadedObjectPath)
+        {
+            this.loadedObjects_.Add(obj);
+            this.loadedObjectNames_.Add(loadedObjectName);
+            this.loadedObjectPaths_.Add(loadedObjectPath);
+        }
 
         public IDictionary<string, Object> GetLoadedObjectsAndNames()
         {
             var result = new Dictionary<string, Object>();
-            for(var i = 0; i < this.loadedObjects_.Count; i++)
+            for (var i = 0; i < this.loadedObjects_.Count; i++)
             {
                 // FIXME why does this happen?
                 if (result.ContainsKey(this.loadedObjectNames_[i]))

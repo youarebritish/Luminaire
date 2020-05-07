@@ -3,8 +3,8 @@ using SQEX.Luminous.Core.Object;
 
 namespace SQEX.Ebony.Framework.Entity
 {
-    public class EntityGroup : Entity
-    {
+    public partial class EntityGroup : Entity
+    {/*
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 
@@ -53,6 +53,6 @@ namespace SQEX.Ebony.Framework.Entity
         private static BaseObject Construct()
         {
             return new EntityGroup();
-        }
+        }*/
     }
 }

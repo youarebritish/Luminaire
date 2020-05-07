@@ -3,7 +3,7 @@
 namespace SQEX.Ebony.Framework.Entity
 {
     public partial class Entity : SQEX.Luminous.Core.Object.Object
-    {
+    {/*
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 
@@ -38,6 +38,6 @@ namespace SQEX.Ebony.Framework.Entity
         private static BaseObject Construct()
         {
             return new Entity();
-        }
+        }*/
     }
 }
