@@ -36,7 +36,10 @@ namespace Black.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sound.NoiseManager", null, 308007531, -317991199);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

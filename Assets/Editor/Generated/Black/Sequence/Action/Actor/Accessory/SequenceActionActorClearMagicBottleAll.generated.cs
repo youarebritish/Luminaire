@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorClearMagicBottleAll", base.GetFieldProperties(), -36629628, 28865530);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sound.Bgm", null, 1007061168, -528153608);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

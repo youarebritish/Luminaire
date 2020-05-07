@@ -39,7 +39,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeChangeWeapon", base.GetFieldProperties(), -617617159, -438185669);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

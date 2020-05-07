@@ -44,7 +44,10 @@ namespace Black.Entity.WorldMap.Foliage
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.Foliage.FoliageModelFilePathEntity", base.GetFieldProperties(), -1290797530, 1679866869);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

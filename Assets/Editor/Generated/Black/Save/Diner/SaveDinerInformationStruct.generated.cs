@@ -39,7 +39,10 @@ namespace Black.Save.Diner
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Diner.SaveDinerInformationStruct", null, 111743731, -1325551365);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

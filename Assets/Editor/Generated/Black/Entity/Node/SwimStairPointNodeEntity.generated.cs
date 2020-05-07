@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.SwimStairPointNodeEntity", base.GetFieldProperties(), 1022488916, 245441788);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

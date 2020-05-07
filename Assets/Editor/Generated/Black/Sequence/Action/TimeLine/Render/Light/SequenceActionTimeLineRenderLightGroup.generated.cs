@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.TimeLine.Render.Light
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.Light.SequenceActionTimeLineRenderLightGroup", base.GetFieldProperties(), -731531015, -773683700);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

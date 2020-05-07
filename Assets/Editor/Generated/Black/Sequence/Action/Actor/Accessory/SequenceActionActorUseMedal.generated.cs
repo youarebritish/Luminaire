@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorUseMedal", base.GetFieldProperties(), -790528959, 1672360685);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

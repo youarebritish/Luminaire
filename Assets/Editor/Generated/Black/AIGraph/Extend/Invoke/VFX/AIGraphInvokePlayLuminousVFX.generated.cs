@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.VFX
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.VFX.AIGraphInvokePlayLuminousVFX", base.GetFieldProperties(), 1093475309, -2037500446);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

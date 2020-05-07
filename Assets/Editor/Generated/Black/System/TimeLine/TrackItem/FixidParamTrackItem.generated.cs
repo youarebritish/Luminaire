@@ -37,7 +37,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.FixidParamTrackItem", base.GetFieldProperties(), 477617740, 624256397);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -41,7 +41,10 @@ namespace Black.Sequence.Action
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.SequenceActionDebugStartJobCommandNOX", base.GetFieldProperties(), 915869185, 1146942950);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

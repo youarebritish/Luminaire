@@ -40,7 +40,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.FrequencyFilterNodeEntity", base.GetFieldProperties(), -931543048, 647696509);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

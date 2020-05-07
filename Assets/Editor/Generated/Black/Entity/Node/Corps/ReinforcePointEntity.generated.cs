@@ -40,7 +40,10 @@ namespace Black.Entity.Node.Corps
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.Corps.ReinforcePointEntity", base.GetFieldProperties(), 135583237, 1046699419);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

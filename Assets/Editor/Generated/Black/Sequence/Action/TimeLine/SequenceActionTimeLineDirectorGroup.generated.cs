@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.TimeLine
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineDirectorGroup", base.GetFieldProperties(), -60594892, 1119455047);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

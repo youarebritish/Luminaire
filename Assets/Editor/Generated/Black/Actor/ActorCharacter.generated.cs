@@ -36,7 +36,10 @@ namespace Black.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.ActorCharacter", base.GetFieldProperties(), -1296431993, -1538686833);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

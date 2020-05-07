@@ -43,7 +43,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventRectangleTrigger", base.GetFieldProperties(), -791579074, 1065401547);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

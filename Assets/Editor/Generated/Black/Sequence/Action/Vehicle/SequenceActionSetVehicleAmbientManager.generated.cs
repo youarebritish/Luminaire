@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionSetVehicleAmbientManager", base.GetFieldProperties(), 492403941, 1998045293);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

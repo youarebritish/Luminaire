@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Math
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Math.AIGraphExpressionInvokeGetDistance2D", base.GetFieldProperties(), -1228829058, -14548109);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

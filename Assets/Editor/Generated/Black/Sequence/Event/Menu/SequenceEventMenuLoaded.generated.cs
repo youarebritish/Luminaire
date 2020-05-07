@@ -37,7 +37,10 @@ namespace Black.Sequence.Event.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceEventMenuLoaded", base.GetFieldProperties(), 488118844, 870791327);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionExitGame", base.GetFieldProperties(), 492905712, -2114538523);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

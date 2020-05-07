@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.TimeLine.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraAttachTrack", base.GetFieldProperties(), 1343354770, 874754858);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

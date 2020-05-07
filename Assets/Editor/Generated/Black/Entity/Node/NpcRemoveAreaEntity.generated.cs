@@ -41,7 +41,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.NpcRemoveAreaEntity", base.GetFieldProperties(), 1559917339, -261014510);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

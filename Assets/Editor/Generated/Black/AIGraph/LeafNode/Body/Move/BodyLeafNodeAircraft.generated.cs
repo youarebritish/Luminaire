@@ -43,7 +43,10 @@ namespace Black.AIGraph.LeafNode.Body.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Move.BodyLeafNodeAircraft", base.GetFieldProperties(), -846461479, -593490724);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

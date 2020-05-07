@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorClearInspirationCounter", base.GetFieldProperties(), 6633940, 1474508127);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.AI.Interactions
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Interactions.InteractionScriptEntity", base.GetFieldProperties(), 1889800525, 1610400213);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.IK
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeIKEnable", base.GetFieldProperties(), -719429828, -987306063);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

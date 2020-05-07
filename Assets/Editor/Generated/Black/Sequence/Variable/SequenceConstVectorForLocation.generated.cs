@@ -36,7 +36,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstVectorForLocation", base.GetFieldProperties(), 144690666, -1877410178);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

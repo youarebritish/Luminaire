@@ -38,7 +38,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.BokehIrisTextureEntity", base.GetFieldProperties(), -1207968520, -2081084607);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

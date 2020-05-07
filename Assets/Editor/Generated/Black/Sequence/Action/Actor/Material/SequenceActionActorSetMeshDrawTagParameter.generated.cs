@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.Material
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Material.SequenceActionActorSetMeshDrawTagParameter", base.GetFieldProperties(), -845232998, -373838826);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

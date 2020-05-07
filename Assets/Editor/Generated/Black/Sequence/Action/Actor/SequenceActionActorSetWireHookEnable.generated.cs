@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorSetWireHookEnable", base.GetFieldProperties(), 322433684, 499386725);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

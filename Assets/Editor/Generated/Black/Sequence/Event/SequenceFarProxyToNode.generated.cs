@@ -37,7 +37,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceFarProxyToNode", base.GetFieldProperties(), -123837267, -65131912);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

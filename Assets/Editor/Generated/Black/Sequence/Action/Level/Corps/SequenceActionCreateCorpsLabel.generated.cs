@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Level.Corps
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Corps.SequenceActionCreateCorpsLabel", base.GetFieldProperties(), 1561825520, 669537590);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

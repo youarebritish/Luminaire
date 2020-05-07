@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.TimerEntityEPG", base.GetFieldProperties(), 1055625668, 1333314449);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

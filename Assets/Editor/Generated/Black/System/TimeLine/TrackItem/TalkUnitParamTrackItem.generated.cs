@@ -37,7 +37,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.TalkUnitParamTrackItem", base.GetFieldProperties(), 785216015, -1188259725);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

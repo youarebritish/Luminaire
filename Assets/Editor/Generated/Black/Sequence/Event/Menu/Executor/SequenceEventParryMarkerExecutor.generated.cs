@@ -37,7 +37,10 @@ namespace Black.Sequence.Event.Menu.Executor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventParryMarkerExecutor", base.GetFieldProperties(), -417014564, -867177878);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

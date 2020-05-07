@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetGambitFinTime", base.GetFieldProperties(), -969668923, -619984883);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

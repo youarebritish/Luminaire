@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugSetFrameRateMode", base.GetFieldProperties(), -1630627456, 567420351);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

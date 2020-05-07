@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetCombatMode", base.GetFieldProperties(), 1727893477, -238675487);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Mobhunt
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntChangeColor", base.GetFieldProperties(), -1724593293, -1627617740);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

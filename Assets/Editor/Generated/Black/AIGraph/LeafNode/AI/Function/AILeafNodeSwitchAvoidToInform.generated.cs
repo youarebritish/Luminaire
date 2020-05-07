@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeSwitchAvoidToInform", base.GetFieldProperties(), 237172114, -366259202);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

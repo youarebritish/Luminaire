@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Enemy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Enemy.AILeafNodeEnemyJoinBattle", base.GetFieldProperties(), -1700146201, 647223415);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

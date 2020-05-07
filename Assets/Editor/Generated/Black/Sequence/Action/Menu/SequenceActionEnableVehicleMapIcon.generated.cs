@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionEnableVehicleMapIcon", base.GetFieldProperties(), 1499963459, 2092224203);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -65,7 +65,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerAccessChocoboBattleData", base.GetFieldProperties(), 474444024, -1558396104);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

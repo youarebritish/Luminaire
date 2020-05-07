@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Actor.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorAddBuff", base.GetFieldProperties(), -1695372550, 1791307310);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

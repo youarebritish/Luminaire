@@ -60,7 +60,10 @@ namespace Black.Entity.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Level.RangedWindBase", base.GetFieldProperties(), -1439393236, -646339722);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

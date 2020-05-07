@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor.Material
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Material.SequenceActionActorWetPlaneControl", base.GetFieldProperties(), 737701214, 1046630963);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

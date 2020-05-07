@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase.AILeafNodeLocateCautionTargetPoint", base.GetFieldProperties(), -1721927619, 407982526);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

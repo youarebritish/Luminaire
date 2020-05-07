@@ -39,7 +39,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.UnknownResource", base.GetFieldProperties(), -1264348575, 1940781165);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

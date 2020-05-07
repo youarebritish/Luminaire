@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Physics.SequenceActionActorSetSamePhysicsGroup", base.GetFieldProperties(), 604191450, 1857084304);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

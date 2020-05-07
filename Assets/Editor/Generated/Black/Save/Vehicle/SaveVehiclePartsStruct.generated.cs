@@ -39,7 +39,10 @@ namespace Black.Save.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehiclePartsStruct", null, 973556526, -94502456);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

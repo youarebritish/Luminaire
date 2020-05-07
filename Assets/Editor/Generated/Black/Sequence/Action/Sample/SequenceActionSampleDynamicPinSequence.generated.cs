@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Sample
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sample.SequenceActionSampleDynamicPinSequence", base.GetFieldProperties(), 919194324, -665355383);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetTeamActor", base.GetFieldProperties(), -1091549623, -2067457154);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -48,7 +48,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionSetLensFilter", base.GetFieldProperties(), 465790916, -870564998);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

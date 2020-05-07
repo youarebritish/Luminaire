@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetTravelMapKind", base.GetFieldProperties(), 1317873248, -1244301861);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

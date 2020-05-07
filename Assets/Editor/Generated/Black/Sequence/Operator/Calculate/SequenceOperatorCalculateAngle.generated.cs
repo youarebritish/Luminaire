@@ -43,7 +43,10 @@ namespace Black.Sequence.Operator.Calculate
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.Calculate.SequenceOperatorCalculateAngle", base.GetFieldProperties(), -370665664, 333799765);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

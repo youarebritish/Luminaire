@@ -37,7 +37,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetLODScale", base.GetFieldProperties(), 963732819, 887297673);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

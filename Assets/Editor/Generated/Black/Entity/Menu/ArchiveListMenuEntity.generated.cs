@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.ArchiveListMenuEntity", base.GetFieldProperties(), -1479690119, -1018347198);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

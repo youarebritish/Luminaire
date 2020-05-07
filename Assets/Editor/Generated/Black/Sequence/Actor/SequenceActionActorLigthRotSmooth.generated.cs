@@ -42,7 +42,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorLigthRotSmooth", base.GetFieldProperties(), -1093511984, 2057669882);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

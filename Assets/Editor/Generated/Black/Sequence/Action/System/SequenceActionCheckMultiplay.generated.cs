@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionCheckMultiplay", base.GetFieldProperties(), 544920729, -538014484);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

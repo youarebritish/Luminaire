@@ -38,7 +38,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSequenceAttachSmartLocation", base.GetFieldProperties(), -1921863517, 996488078);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

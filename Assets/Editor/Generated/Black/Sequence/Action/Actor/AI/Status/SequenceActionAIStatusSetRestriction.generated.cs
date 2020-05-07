@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Actor.AI.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Status.SequenceActionAIStatusSetRestriction", base.GetFieldProperties(), 682448260, 1393645482);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetFoodInfoMultiplayer", base.GetFieldProperties(), 826461155, 62283636);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

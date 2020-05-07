@@ -39,7 +39,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariablePlayTime", base.GetFieldProperties(), 320853923, -1976797203);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

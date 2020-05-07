@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraEndSequence", base.GetFieldProperties(), -193274784, 1632046131);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

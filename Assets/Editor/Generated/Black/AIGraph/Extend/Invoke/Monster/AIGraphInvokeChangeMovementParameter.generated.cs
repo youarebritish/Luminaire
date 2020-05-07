@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeMovementParameter", base.GetFieldProperties(), 47533380, 1982259779);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

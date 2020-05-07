@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Party.SequenceActionGetPartyMembersPreset", base.GetFieldProperties(), -579894463, 1856783034);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

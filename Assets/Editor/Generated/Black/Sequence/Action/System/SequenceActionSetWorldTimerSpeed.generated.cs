@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetWorldTimerSpeed", base.GetFieldProperties(), -194537832, 530515869);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

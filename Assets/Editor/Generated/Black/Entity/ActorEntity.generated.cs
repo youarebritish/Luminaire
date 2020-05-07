@@ -47,7 +47,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.ActorEntity", base.GetFieldProperties(), 1896381988, 1070462923);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

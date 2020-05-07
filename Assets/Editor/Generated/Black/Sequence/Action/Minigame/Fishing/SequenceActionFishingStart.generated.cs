@@ -231,7 +231,10 @@ namespace Black.Sequence.Action.Minigame.Fishing
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Minigame.Fishing.SequenceActionFishingStart", base.GetFieldProperties(), -1655370534, -825985161);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

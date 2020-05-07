@@ -42,7 +42,10 @@ namespace Black.Entity.InfluenceMap
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.InfluenceMap.InfluenceMapNodeEntity", base.GetFieldProperties(), -644769796, 196132152);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

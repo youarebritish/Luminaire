@@ -51,7 +51,10 @@ namespace Black.Sequence.Action.Actor.AI.Recognition
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAICheckVisibilityFromAllEnemies", base.GetFieldProperties(), 422856061, -194041053);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

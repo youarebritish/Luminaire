@@ -38,7 +38,10 @@ namespace Black.Save.Common
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Common.SaveEpiScore", null, 862257242, -1995756868);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

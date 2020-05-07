@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Mission.Titan
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Mission.Titan.SequenceActionSetupJumpingStrongpoint", base.GetFieldProperties(), 850208677, 2089034784);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -44,7 +44,10 @@ namespace Black.Save.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SavePartyStruct", null, -1047436391, -1064039247);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

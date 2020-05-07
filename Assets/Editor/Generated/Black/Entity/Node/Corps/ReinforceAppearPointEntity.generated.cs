@@ -45,7 +45,10 @@ namespace Black.Entity.Node.Corps
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.Corps.ReinforceAppearPointEntity", base.GetFieldProperties(), -325723361, 1477425493);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

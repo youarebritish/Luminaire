@@ -41,7 +41,10 @@ namespace Black.Entity.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Sound.StaticMenuSoundEntity", base.GetFieldProperties(), 371678761, 554121147);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

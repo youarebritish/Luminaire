@@ -43,7 +43,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionSetVWSharpen", base.GetFieldProperties(), -1592681769, 229842924);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

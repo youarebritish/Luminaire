@@ -37,7 +37,10 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Composite
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.Composite.AIGraphNodeBTCompositeForceSequence", base.GetFieldProperties(), -1854407412, -1477465581);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

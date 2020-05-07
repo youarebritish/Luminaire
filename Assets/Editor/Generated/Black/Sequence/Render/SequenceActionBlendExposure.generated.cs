@@ -39,7 +39,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionBlendExposure", base.GetFieldProperties(), 1294729820, -1702129729);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

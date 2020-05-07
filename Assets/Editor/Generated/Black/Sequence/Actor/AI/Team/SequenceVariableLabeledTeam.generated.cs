@@ -38,7 +38,10 @@ namespace Black.Sequence.Actor.AI.Team
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Team.SequenceVariableLabeledTeam", base.GetFieldProperties(), -571505507, -352363585);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

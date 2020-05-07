@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModePlayMotion", base.GetFieldProperties(), 347331577, 435579830);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

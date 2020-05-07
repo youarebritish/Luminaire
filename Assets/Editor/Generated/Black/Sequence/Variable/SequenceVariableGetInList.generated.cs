@@ -43,7 +43,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableGetInList", base.GetFieldProperties(), -82188156, 1547002315);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

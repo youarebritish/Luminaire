@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Level.Battle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Battle.SequenceActionPlayMagic", base.GetFieldProperties(), -1304119235, -1193002946);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

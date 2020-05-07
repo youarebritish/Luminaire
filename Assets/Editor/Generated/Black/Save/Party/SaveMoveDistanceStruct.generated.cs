@@ -10,7 +10,7 @@ namespace Black.Save.Party
 		
 		public bool flag;
 		public double distance;
-		public double[] position;
+		public SQEX.Luminous.Math.DoubleVector4 position;
 		public double distance_ability_point;
 		public double distance_exp;
 		
@@ -41,7 +41,10 @@ namespace Black.Save.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SaveMoveDistanceStruct", null, 386749652, -1450391842);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

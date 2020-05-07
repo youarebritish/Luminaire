@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.MiniGame.Colosseum
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.MiniGame.Colosseum.SequenceActionRepayBetMedal", base.GetFieldProperties(), -1013330769, 1423403225);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

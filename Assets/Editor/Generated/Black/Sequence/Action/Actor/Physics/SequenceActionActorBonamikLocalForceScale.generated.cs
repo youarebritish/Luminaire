@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Actor.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikLocalForceScale", base.GetFieldProperties(), -1440814070, -2024669374);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

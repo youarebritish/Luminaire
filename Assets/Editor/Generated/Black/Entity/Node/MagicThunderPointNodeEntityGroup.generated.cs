@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.MagicThunderPointNodeEntityGroup", base.GetFieldProperties(), 1886119746, 623526271);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

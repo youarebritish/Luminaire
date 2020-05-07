@@ -43,7 +43,10 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraSeamlessClone", base.GetFieldProperties(), 1348943769, -1858667549);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

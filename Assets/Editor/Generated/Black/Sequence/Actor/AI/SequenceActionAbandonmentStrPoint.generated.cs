@@ -38,7 +38,10 @@ namespace Black.Sequence.Actor.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAbandonmentStrPoint", base.GetFieldProperties(), 299967603, -213131884);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

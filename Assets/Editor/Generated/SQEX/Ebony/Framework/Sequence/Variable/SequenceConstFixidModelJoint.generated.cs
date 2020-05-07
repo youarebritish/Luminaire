@@ -39,7 +39,10 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstFixidModelJoint", base.GetFieldProperties(), -2117976983, 1948908925);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

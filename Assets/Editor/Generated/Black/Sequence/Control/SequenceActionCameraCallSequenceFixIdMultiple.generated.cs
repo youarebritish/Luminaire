@@ -43,7 +43,10 @@ namespace Black.Sequence.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionCameraCallSequenceFixIdMultiple", base.GetFieldProperties(), -805886038, 830375286);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

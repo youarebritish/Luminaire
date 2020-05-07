@@ -36,7 +36,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientRegionSeedPointEntity", base.GetFieldProperties(), -793669915, -211085194);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

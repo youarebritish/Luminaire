@@ -37,7 +37,10 @@ namespace SQEX.Ebony.AIGraph.Node
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint", base.GetFieldProperties(), 1361212580, -1755612763);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

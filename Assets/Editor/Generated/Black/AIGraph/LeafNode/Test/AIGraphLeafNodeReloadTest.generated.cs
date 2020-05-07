@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.Test
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeReloadTest", base.GetFieldProperties(), 1095435414, 2115217668);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

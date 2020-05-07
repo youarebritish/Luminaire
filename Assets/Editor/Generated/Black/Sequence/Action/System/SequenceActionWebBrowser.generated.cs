@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionWebBrowser", base.GetFieldProperties(), -2056276128, -646640351);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

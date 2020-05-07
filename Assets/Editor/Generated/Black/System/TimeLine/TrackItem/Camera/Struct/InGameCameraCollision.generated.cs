@@ -49,7 +49,10 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCollision", base.GetFieldProperties(), -1975832595, 536296909);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

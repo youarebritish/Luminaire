@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionSaveBenchScore", base.GetFieldProperties(), -1743935859, 84720615);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

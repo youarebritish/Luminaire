@@ -46,7 +46,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.MapLodEntity", base.GetFieldProperties(), -1286050958, -897659782);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

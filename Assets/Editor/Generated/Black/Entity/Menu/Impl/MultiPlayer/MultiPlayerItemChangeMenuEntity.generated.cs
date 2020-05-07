@@ -36,7 +36,10 @@ namespace Black.Entity.Menu.Impl.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerItemChangeMenuEntity", base.GetFieldProperties(), 286032881, 2019607186);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

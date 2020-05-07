@@ -39,7 +39,10 @@ namespace Black.AIGraph.Extend.Invoke.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeSettingBurstLimitTime", base.GetFieldProperties(), -1275145301, 1786139246);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

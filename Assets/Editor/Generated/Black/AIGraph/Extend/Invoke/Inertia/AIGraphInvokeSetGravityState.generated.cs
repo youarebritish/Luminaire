@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Inertia
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Inertia.AIGraphInvokeSetGravityState", base.GetFieldProperties(), 1634830778, 1677937428);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

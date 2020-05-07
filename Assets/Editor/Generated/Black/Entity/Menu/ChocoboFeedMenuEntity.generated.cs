@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.ChocoboFeedMenuEntity", base.GetFieldProperties(), -1399761743, -394695504);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

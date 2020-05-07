@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Event.SequenceActionEventWaitResourceUnused", base.GetFieldProperties(), 535750199, -1760866478);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

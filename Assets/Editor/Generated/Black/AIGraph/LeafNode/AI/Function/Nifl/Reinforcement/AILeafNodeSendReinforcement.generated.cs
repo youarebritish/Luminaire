@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement.AILeafNodeSendReinforcement", base.GetFieldProperties(), 1565194248, -1390293419);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

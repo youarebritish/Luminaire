@@ -36,7 +36,10 @@ namespace Black.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.WorldShareCreateManager", base.GetFieldProperties(), -1863721645, 1799903960);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

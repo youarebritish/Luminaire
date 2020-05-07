@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetWorldTimerDayNightRatio", base.GetFieldProperties(), 1628989194, 1183112369);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

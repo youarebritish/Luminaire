@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetCurrentQuestTargetPointEntity", base.GetFieldProperties(), 1800031053, -713769876);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

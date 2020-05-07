@@ -36,7 +36,10 @@ namespace Black.AIGraph.DecoratorNode.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.DecoratorNode.Nifl.AIGraphNodeBTDecoratorCanSpecialAttack", base.GetFieldProperties(), -502160621, -417598771);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

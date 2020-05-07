@@ -38,7 +38,10 @@ namespace Black.Sequence.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.AI.SetSteeringTestMode", base.GetFieldProperties(), -172602881, -465105809);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

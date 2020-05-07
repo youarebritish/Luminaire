@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetUseWeaponNo", base.GetFieldProperties(), 1193441256, -1835843040);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

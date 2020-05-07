@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Base
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Base.SequenceActionRaycastBase", base.GetFieldProperties(), 103817465, -63470716);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

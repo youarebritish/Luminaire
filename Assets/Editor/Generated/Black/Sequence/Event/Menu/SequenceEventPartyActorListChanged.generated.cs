@@ -38,7 +38,10 @@ namespace Black.Sequence.Event.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceEventPartyActorListChanged", base.GetFieldProperties(), 352209020, 1668361046);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

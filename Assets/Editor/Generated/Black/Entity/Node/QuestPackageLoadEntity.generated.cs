@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.QuestPackageLoadEntity", base.GetFieldProperties(), 1037784461, -288819758);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

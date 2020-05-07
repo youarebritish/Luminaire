@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Quest.SequenceActionQuestStateRollback", base.GetFieldProperties(), -173155931, -1423662672);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

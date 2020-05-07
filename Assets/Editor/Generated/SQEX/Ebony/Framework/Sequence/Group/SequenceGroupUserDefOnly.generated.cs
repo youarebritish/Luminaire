@@ -36,7 +36,10 @@ namespace SQEX.Ebony.Framework.Sequence.Group
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Group.SequenceGroupUserDefOnly", base.GetFieldProperties(), -2017124847, -1586746641);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

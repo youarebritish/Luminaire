@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.ArmedformAwakeningMenuEntity", base.GetFieldProperties(), -200984738, 1571032743);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

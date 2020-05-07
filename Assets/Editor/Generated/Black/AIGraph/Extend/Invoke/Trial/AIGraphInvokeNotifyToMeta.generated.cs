@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Trial
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeNotifyToMeta", base.GetFieldProperties(), 789665391, 925394343);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -45,7 +45,10 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetVariableIncrement", base.GetFieldProperties(), 1560248701, 219381274);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

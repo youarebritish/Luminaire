@@ -36,7 +36,10 @@ namespace Black.Entity.Corps
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Corps.CorpsPackage", base.GetFieldProperties(), -66811024, 939804726);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.ActorPrefab", base.GetFieldProperties(), 498160382, 2119300324);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

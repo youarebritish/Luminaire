@@ -40,7 +40,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.ActorMovementNewTrackItem", base.GetFieldProperties(), 648796226, -13755118);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

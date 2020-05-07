@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeChangeCoverState", base.GetFieldProperties(), 1002762847, 353574388);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

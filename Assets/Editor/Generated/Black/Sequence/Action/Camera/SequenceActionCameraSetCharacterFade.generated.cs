@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraSetCharacterFade", base.GetFieldProperties(), 870227965, -1858744460);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

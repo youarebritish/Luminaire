@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionEnableMapIcon", base.GetFieldProperties(), -2030572798, 1371982070);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

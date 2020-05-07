@@ -78,7 +78,10 @@ namespace Black.Save.Config
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveGameConfigMain", null, -1990184729, 1757269977);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

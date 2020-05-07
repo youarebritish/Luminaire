@@ -41,7 +41,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariablePlayerVehicleDrive", base.GetFieldProperties(), 1073923321, -755756087);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeIsPlayersFallStart", base.GetFieldProperties(), 1473246709, 1749281867);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

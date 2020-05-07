@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.Reinforcement
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Reinforcement.SequenceActionGetRandomNiflShipInfo", base.GetFieldProperties(), 373943708, -41421354);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.AIGraph.Extend.Invoke.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Menu.AIGraphInvokeNotifyParryMarkerToMenu", base.GetFieldProperties(), 1112391870, -807911555);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

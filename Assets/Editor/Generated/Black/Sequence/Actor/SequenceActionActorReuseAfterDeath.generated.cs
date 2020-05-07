@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorReuseAfterDeath", base.GetFieldProperties(), -460983302, -1890764280);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

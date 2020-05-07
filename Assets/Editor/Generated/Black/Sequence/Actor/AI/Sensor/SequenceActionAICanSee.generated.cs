@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor.AI.Sensor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Sensor.SequenceActionAICanSee", base.GetFieldProperties(), 348731181, 1532309737);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineRenderBokehFilterTrack", base.GetFieldProperties(), 1099745544, -1767578279);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

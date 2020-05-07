@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorAllowPush", base.GetFieldProperties(), 251713619, 1935949256);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

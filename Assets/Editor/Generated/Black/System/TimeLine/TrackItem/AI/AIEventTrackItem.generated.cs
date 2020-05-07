@@ -37,7 +37,10 @@ namespace Black.System.TimeLine.TrackItem.AI
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.AI.AIEventTrackItem", base.GetFieldProperties(), 57390232, -1535780636);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

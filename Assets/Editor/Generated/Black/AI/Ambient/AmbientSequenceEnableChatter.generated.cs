@@ -37,7 +37,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSequenceEnableChatter", base.GetFieldProperties(), 1091845955, 900782703);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

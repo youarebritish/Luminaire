@@ -37,7 +37,10 @@ namespace SQEX.Ebony.AIGraph.Data.ConstantValue
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueBool", base.GetFieldProperties(), 177610597, 464964607);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

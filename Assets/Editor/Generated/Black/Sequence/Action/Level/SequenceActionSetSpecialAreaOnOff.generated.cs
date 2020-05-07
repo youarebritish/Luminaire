@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetSpecialAreaOnOff", base.GetFieldProperties(), -1828366721, -1078475335);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

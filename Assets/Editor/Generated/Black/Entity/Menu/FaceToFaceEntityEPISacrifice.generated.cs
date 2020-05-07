@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.FaceToFaceEntityEPISacrifice", base.GetFieldProperties(), 2120095085, 1586431950);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

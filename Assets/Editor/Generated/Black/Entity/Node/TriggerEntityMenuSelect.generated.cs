@@ -39,7 +39,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.TriggerEntityMenuSelect", base.GetFieldProperties(), -710780406, -1870404225);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.PostEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.PostEffect.SequenceActionSetLowRes", base.GetFieldProperties(), -872896867, 298560122);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

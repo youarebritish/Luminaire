@@ -41,7 +41,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventFishingBattleFishHpTriggered", base.GetFieldProperties(), -1168398017, 136040200);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

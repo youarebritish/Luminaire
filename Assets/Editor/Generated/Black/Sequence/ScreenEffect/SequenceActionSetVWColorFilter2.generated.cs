@@ -98,7 +98,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionSetVWColorFilter2", base.GetFieldProperties(), 29141481, -1809260725);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

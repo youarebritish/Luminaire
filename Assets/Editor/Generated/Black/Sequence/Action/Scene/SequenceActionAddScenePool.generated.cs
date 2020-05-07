@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Scene
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Scene.SequenceActionAddScenePool", base.GetFieldProperties(), -559465007, 253819801);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleSetSound", base.GetFieldProperties(), -967906080, 1155087162);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

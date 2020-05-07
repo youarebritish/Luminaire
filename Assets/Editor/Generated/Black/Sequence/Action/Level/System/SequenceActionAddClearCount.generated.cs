@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionAddClearCount", base.GetFieldProperties(), 972843746, 2025025618);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

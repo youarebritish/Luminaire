@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineDiffuseLightProbesTrack", base.GetFieldProperties(), 1490173091, 1369031378);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

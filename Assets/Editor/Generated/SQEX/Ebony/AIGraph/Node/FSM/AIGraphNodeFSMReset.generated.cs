@@ -36,7 +36,10 @@ namespace SQEX.Ebony.AIGraph.Node.FSM
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMReset", base.GetFieldProperties(), 724210700, 1288043948);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

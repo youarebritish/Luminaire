@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorWarpDetach", base.GetFieldProperties(), -363674712, 57521153);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

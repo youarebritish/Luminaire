@@ -53,7 +53,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.CameraCCFTrackItem", base.GetFieldProperties(), -2039134296, -1030576884);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeReleaseAttackReservation", base.GetFieldProperties(), 105842332, 440126007);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -48,7 +48,10 @@ namespace Black.Sequence.Pad
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Pad.SequenceActionVibration", base.GetFieldProperties(), -1976311806, 827248163);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.LightMapBakeEntity", base.GetFieldProperties(), -921493706, -1709025812);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

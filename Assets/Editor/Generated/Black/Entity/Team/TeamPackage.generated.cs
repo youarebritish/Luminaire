@@ -36,7 +36,10 @@ namespace Black.Entity.Team
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Team.TeamPackage", base.GetFieldProperties(), 2048862112, 886629852);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

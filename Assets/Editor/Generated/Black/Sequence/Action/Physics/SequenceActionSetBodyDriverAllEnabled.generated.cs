@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Physics.SequenceActionSetBodyDriverAllEnabled", base.GetFieldProperties(), 1844590881, 2024591562);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

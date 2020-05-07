@@ -57,7 +57,10 @@ namespace Black.Sequence.Action.Level.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Party.SequenceActionCheckParty", base.GetFieldProperties(), 280313634, 1842573798);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

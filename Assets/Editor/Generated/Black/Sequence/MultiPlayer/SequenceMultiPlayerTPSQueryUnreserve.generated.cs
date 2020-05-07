@@ -38,7 +38,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerTPSQueryUnreserve", base.GetFieldProperties(), -1411564808, -1348937191);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

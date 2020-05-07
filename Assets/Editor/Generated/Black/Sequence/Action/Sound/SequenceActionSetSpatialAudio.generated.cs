@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sound.SequenceActionSetSpatialAudio", base.GetFieldProperties(), -441483664, 49200488);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

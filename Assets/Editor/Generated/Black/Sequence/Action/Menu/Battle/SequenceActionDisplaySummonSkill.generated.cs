@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Menu.Battle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.Battle.SequenceActionDisplaySummonSkill", base.GetFieldProperties(), 1798901580, 2024972157);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

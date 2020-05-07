@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeDrivingTriggerPoint", base.GetFieldProperties(), -1349485686, 535687512);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

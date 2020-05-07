@@ -40,7 +40,10 @@ namespace Black.AIGraph.LeafNode.Body.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Function.BodyLeafNodeShotProjectile", base.GetFieldProperties(), -501115536, -142222817);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

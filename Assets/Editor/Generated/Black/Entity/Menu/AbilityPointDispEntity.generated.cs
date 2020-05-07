@@ -37,7 +37,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.AbilityPointDispEntity", base.GetFieldProperties(), -247870289, -1381300568);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorSetMaterialState", base.GetFieldProperties(), 1919698316, 1903056458);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

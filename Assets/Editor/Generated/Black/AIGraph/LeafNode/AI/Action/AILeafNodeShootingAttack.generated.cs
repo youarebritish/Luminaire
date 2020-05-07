@@ -43,7 +43,10 @@ namespace Black.AIGraph.LeafNode.AI.Action
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeShootingAttack", base.GetFieldProperties(), 2007572756, 1092845544);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

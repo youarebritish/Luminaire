@@ -41,7 +41,10 @@ namespace Black.Save.Config
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveMultiplayerColorHistory", null, -1885755440, -345733712);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

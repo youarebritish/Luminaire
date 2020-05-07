@@ -39,7 +39,10 @@ namespace Black.Sequence.MultiPlayer.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.System.SequenceMultiPlayerVoiceChatOnOff", base.GetFieldProperties(), -1983054716, -397805751);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

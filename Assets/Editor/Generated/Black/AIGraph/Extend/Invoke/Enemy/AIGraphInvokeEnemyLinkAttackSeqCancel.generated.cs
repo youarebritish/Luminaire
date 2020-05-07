@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyLinkAttackSeqCancel", base.GetFieldProperties(), 780335766, 526817526);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

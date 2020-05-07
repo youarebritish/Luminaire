@@ -45,7 +45,10 @@ namespace Black.Sequence.Actor.AI.Corps
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Corps.SequenceActionAIGetCreatablePropsList", base.GetFieldProperties(), 173410630, 1338149341);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableMenuEffectEntity", base.GetFieldProperties(), 1519857976, 166334062);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

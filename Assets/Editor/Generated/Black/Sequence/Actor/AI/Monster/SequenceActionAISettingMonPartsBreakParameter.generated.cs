@@ -58,7 +58,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionAISettingMonPartsBreakParameter", base.GetFieldProperties(), -311562754, -2035449609);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

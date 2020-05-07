@@ -36,7 +36,10 @@ namespace SQEX.Ebony.Framework.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Event.SequenceEventPadInputProduction", base.GetFieldProperties(), -1522255945, -833794091);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

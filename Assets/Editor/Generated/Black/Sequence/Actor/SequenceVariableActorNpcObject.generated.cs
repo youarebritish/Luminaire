@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceVariableActorNpcObject", base.GetFieldProperties(), -1249247380, 668088710);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

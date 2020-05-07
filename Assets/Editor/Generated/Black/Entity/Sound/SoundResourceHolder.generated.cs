@@ -37,7 +37,10 @@ namespace Black.Entity.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Sound.SoundResourceHolder", base.GetFieldProperties(), -14311357, -73321725);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

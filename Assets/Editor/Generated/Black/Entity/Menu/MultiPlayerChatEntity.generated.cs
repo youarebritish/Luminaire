@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MultiPlayerChatEntity", base.GetFieldProperties(), 2136492520, 108462358);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

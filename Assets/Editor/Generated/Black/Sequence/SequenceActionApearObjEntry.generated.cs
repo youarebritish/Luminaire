@@ -43,7 +43,10 @@ namespace Black.Sequence
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.SequenceActionApearObjEntry", base.GetFieldProperties(), -87571097, -174124199);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

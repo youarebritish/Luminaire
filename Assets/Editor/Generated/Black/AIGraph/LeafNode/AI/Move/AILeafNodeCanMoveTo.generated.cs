@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeCanMoveTo", base.GetFieldProperties(), -114466320, 2133586563);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

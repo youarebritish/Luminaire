@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetBattleAreaEncountGage", base.GetFieldProperties(), 1592732593, -130319030);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

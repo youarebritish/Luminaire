@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetLightEntityBase", base.GetFieldProperties(), 1105875588, 1742242556);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

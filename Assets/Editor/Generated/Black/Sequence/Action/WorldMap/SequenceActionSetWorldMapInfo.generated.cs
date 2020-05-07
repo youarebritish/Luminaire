@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.WorldMap.SequenceActionSetWorldMapInfo", base.GetFieldProperties(), -2050867022, 589856415);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

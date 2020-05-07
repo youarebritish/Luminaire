@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.TPS
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.TPS.AIGraphInvokeStopTPSValidation", base.GetFieldProperties(), 373183233, 1486329963);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

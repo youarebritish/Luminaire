@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Physics.SequenceActionSetWorldGravity", base.GetFieldProperties(), -1950641000, 2133486478);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

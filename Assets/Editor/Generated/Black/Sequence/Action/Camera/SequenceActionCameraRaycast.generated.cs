@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraRaycast", base.GetFieldProperties(), 1291924627, -1364189864);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

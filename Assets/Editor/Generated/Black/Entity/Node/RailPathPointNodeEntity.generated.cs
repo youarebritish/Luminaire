@@ -37,7 +37,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.RailPathPointNodeEntity", base.GetFieldProperties(), 1540364974, 835259377);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

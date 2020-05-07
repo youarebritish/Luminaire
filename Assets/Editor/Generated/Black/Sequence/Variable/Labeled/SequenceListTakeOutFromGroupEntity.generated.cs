@@ -39,7 +39,10 @@ namespace Black.Sequence.Variable.Labeled
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.Labeled.SequenceListTakeOutFromGroupEntity", base.GetFieldProperties(), 1238437352, 1690042285);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

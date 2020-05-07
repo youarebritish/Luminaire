@@ -43,7 +43,10 @@ namespace Black.Sequence.Actor.AI.Animal
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Animal.SequenceActionSetRoute", base.GetFieldProperties(), -135639737, -45261083);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

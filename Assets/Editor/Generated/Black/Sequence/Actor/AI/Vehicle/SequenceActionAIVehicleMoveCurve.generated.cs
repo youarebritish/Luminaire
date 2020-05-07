@@ -47,7 +47,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleMoveCurve", base.GetFieldProperties(), 1880233177, 70230451);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

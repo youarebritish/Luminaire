@@ -37,7 +37,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.LmVFXTrackItemActor", base.GetFieldProperties(), 1744334617, -1504432410);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.TimedQuestHudMenuEntity", base.GetFieldProperties(), -1300074836, 981726719);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

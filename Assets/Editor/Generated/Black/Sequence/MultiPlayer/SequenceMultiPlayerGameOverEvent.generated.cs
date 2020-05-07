@@ -36,7 +36,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerGameOverEvent", base.GetFieldProperties(), -200899254, 2120087648);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

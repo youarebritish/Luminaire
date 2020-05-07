@@ -36,7 +36,10 @@ namespace SQEX.Luminous.GameFramework
             }
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.GameFramework.Logger", null, -1234622737, -1221753625);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

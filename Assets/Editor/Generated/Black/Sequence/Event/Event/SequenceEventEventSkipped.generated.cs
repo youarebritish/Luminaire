@@ -38,7 +38,10 @@ namespace Black.Sequence.Event.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Event.SequenceEventEventSkipped", base.GetFieldProperties(), -2114202857, 1543968829);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

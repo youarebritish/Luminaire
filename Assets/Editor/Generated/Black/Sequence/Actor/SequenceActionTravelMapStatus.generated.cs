@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionTravelMapStatus", base.GetFieldProperties(), -366415186, -1729320791);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

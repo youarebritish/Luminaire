@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetSpecularLightProbeEntity", base.GetFieldProperties(), 1218876072, 1409283760);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

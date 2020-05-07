@@ -36,7 +36,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.ResourceTrackItemBase", base.GetFieldProperties(), -1428674296, 661308614);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

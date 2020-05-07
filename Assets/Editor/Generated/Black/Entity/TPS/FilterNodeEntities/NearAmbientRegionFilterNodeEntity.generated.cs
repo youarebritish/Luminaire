@@ -38,7 +38,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.NearAmbientRegionFilterNodeEntity", base.GetFieldProperties(), 940961709, 277887175);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

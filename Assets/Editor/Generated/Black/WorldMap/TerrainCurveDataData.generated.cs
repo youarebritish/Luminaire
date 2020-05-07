@@ -104,7 +104,10 @@ namespace Black.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.WorldMap.TerrainCurveDataData", base.GetFieldProperties(), 1536142193, -947275664);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

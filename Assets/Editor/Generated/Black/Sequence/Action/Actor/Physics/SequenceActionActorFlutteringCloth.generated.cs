@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Physics.SequenceActionActorFlutteringCloth", base.GetFieldProperties(), -331395338, 501349454);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

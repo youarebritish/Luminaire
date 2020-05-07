@@ -65,7 +65,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetOceanIndividualSetting", base.GetFieldProperties(), -1019367152, 1982178230);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

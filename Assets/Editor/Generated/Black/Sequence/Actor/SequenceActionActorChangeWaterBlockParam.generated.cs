@@ -45,7 +45,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorChangeWaterBlockParam", base.GetFieldProperties(), -501496327, -1470628807);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

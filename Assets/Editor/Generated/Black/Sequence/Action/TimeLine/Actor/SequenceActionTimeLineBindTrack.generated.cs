@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.TimeLine.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineBindTrack", base.GetFieldProperties(), 1721947959, -1508183663);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

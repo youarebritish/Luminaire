@@ -38,7 +38,10 @@ namespace Black.Entity.Parameter
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Parameter.ParameterFloat", base.GetFieldProperties(), 547622597, -1639696390);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

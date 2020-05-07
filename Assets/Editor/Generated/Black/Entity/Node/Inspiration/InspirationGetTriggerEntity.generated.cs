@@ -37,7 +37,10 @@ namespace Black.Entity.Node.Inspiration
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.Inspiration.InspirationGetTriggerEntity", base.GetFieldProperties(), -1678184742, -636121227);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

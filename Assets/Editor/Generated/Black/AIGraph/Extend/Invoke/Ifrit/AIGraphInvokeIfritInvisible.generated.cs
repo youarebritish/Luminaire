@@ -44,7 +44,10 @@ namespace Black.AIGraph.Extend.Invoke.Ifrit
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Ifrit.AIGraphInvokeIfritInvisible", base.GetFieldProperties(), -505476122, 1501487113);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

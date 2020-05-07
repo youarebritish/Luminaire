@@ -39,7 +39,10 @@ namespace Black.Save.Mobhunt
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Mobhunt.SaveMobhuntVDataStructNew", null, -89854037, -814090212);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

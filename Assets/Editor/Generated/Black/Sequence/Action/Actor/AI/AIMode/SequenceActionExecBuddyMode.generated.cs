@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecBuddyMode", base.GetFieldProperties(), 782913758, 329606152);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.AIGraphExpressionInvokeIsExecutingStrategyID", base.GetFieldProperties(), 619602589, 1334194218);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

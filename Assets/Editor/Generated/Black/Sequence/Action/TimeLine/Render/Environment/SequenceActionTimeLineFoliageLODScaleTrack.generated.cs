@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.TimeLine.Render.Environment
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.Environment.SequenceActionTimeLineFoliageLODScaleTrack", base.GetFieldProperties(), 1705621267, -321974600);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetTriangleCulling", base.GetFieldProperties(), 722645083, -496501692);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

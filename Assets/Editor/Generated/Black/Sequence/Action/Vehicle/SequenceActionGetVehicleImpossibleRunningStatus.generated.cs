@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionGetVehicleImpossibleRunningStatus", base.GetFieldProperties(), 1734364911, -1628166973);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

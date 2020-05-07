@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeRotateToCameraInVehicle", base.GetFieldProperties(), 1473783212, 1338595106);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

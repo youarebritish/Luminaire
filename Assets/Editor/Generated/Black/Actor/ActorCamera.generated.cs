@@ -36,7 +36,10 @@ namespace Black.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.ActorCamera", base.GetFieldProperties(), 796586449, 1045221963);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

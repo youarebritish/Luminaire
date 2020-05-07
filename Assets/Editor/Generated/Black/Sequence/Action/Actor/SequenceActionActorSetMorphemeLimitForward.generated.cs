@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorSetMorphemeLimitForward", base.GetFieldProperties(), 351123319, -1159187247);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

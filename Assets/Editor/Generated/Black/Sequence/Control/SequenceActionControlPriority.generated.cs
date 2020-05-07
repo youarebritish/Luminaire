@@ -38,7 +38,10 @@ namespace Black.Sequence.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlPriority", base.GetFieldProperties(), -859236538, 2021764538);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

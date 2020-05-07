@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.TriggerNodeEntity", base.GetFieldProperties(), -40990747, 344615159);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionSearchNoctis", base.GetFieldProperties(), 1748438526, -1289853653);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

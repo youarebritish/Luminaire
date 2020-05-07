@@ -42,7 +42,10 @@ namespace SQEX.Ebony.Framework.Entity
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Entity.EntityGroup", base.GetFieldProperties(), -19257582, -76626717);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

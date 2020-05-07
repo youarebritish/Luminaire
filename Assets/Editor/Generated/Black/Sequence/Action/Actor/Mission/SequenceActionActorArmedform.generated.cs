@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.Mission
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Mission.SequenceActionActorArmedform", base.GetFieldProperties(), -312014289, -2107769245);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

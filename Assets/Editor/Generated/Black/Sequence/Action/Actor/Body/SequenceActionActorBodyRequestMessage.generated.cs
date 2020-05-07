@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.Actor.Body
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Body.SequenceActionActorBodyRequestMessage", base.GetFieldProperties(), -1365763752, -1668309380);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

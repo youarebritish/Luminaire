@@ -41,7 +41,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerSetPlantMapData", base.GetFieldProperties(), 698150486, 639153204);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

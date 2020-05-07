@@ -37,7 +37,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.PackageUnloadEntity", base.GetFieldProperties(), -1966069553, 1506896903);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

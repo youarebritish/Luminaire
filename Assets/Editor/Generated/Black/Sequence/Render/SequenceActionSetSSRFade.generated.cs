@@ -42,7 +42,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetSSRFade", base.GetFieldProperties(), 1757093129, 1273543304);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

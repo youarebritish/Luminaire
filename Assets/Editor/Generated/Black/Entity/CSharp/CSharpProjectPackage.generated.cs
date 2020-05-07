@@ -37,7 +37,10 @@ namespace Black.Entity.CSharp
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.CSharp.CSharpProjectPackage", base.GetFieldProperties(), -549068082, 206443784);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

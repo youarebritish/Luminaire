@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetDynamicBattleAreaDelete", base.GetFieldProperties(), -1671272087, -1609140921);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

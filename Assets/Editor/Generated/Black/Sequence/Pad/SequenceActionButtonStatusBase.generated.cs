@@ -36,7 +36,10 @@ namespace Black.Sequence.Pad
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Pad.SequenceActionButtonStatusBase", base.GetFieldProperties(), -953247538, -358203213);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

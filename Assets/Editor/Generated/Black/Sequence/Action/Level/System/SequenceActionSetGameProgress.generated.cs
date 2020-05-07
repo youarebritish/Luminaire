@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionSetGameProgress", base.GetFieldProperties(), -909174382, 1490341939);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

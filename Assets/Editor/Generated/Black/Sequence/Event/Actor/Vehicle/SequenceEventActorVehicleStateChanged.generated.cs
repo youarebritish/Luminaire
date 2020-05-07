@@ -41,7 +41,10 @@ namespace Black.Sequence.Event.Actor.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleStateChanged", base.GetFieldProperties(), -1950462685, 783406195);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

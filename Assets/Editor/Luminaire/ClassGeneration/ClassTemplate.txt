@@ -37,7 +37,12 @@ namespace {{ name_space }}
             }
 
             fieldProperties = new PropertyContainer("{{ object_type.name_ }}", {{ if base_type }}base.GetFieldProperties(){{ else }}null{{ end }}, {{ object_type.property_container_.name_hash_code_ }}, {{ object_type.property_container_.version_hash_code_ }});
-            return fieldProperties;
+            
+			{{ for property in object_type.property_container_.my_properties}}
+			fieldProperties.AddProperty(new Property("{{ property.valid_name }}", {{ property.name_hash_ }}, "{{ property.type_name_ }}", {{ property.offset_ }}, {{ property.size_ }}, {{ property.item_count_ }}, Property.PrimitiveType.{{ property.primitive_type_name }}, 0, (char){{ property.attr_ }}));
+			{{ end }}
+			
+			return fieldProperties;
         }
 
 		{{ if object_type.construct_function_ != 0 }}

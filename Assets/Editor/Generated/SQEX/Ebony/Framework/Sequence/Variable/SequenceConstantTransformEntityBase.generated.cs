@@ -37,7 +37,10 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstantTransformEntityBase", base.GetFieldProperties(), -272368646, 1216403353);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

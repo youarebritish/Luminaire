@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetGaugeUi", base.GetFieldProperties(), -1727826261, -149165570);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -41,7 +41,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetOceanDistanceField", base.GetFieldProperties(), -173775376, 1222790205);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

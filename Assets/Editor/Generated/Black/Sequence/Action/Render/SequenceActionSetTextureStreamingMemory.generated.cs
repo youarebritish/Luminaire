@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetTextureStreamingMemory", base.GetFieldProperties(), -802502463, 1429948150);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

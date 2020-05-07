@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetHeightFieldAltitude", base.GetFieldProperties(), 427268417, -868529332);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

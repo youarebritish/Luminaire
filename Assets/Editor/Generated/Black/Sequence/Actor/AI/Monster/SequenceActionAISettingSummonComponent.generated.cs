@@ -46,7 +46,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionAISettingSummonComponent", base.GetFieldProperties(), 201588686, 252105503);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

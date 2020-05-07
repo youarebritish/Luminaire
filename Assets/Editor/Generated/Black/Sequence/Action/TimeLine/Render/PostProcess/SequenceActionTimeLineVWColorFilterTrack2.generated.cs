@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVWColorFilterTrack2", base.GetFieldProperties(), 937415091, -392516244);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

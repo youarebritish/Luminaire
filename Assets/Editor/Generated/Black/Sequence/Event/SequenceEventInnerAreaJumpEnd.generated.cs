@@ -37,7 +37,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventInnerAreaJumpEnd", base.GetFieldProperties(), -1780522435, -196967832);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

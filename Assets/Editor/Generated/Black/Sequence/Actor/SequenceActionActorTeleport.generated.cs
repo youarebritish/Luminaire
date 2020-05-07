@@ -43,7 +43,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorTeleport", base.GetFieldProperties(), 868405527, 814373991);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

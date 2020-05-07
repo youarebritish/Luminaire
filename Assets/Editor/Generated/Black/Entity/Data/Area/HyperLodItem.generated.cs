@@ -38,7 +38,10 @@ namespace Black.Entity.Data.Area
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.HyperLodItem", base.GetFieldProperties(), 1121485182, 605620577);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

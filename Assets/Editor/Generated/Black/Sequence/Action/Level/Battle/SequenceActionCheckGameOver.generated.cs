@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Level.Battle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Battle.SequenceActionCheckGameOver", base.GetFieldProperties(), 1955728257, 1445827375);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

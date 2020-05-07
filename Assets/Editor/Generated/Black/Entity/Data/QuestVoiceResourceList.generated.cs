@@ -40,7 +40,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.QuestVoiceResourceList", base.GetFieldProperties(), -2062167101, -2113436535);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

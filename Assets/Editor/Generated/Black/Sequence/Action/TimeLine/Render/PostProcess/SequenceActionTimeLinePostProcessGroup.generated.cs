@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLinePostProcessGroup", base.GetFieldProperties(), -513996495, -611578156);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

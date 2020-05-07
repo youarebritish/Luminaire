@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.EnemyHPGaugeMenuEntity", base.GetFieldProperties(), 51342939, -250969557);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

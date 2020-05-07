@@ -41,7 +41,10 @@ namespace Black.Sequence.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Sound.SequenceActionPlayJingle", base.GetFieldProperties(), 445613590, 158749608);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

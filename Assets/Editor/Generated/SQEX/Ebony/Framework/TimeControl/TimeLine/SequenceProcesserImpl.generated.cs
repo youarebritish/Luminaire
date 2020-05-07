@@ -36,7 +36,10 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.SequenceProcesserImpl", null, -1990955905, -584417642);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

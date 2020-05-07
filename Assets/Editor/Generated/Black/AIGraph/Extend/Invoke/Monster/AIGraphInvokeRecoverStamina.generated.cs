@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeRecoverStamina", base.GetFieldProperties(), -1640786273, -185863942);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

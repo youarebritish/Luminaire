@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetElementPowerValue", base.GetFieldProperties(), -464363617, -1419455029);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

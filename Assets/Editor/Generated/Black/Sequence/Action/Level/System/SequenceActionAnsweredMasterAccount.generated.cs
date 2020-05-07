@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionAnsweredMasterAccount", base.GetFieldProperties(), -240208396, -2032294329);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

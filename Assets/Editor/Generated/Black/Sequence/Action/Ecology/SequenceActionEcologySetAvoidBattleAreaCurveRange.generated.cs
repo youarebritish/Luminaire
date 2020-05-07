@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologySetAvoidBattleAreaCurveRange", base.GetFieldProperties(), 2135250794, -2132763145);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

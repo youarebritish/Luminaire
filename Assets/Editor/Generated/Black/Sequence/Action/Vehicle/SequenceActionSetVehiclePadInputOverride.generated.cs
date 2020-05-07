@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionSetVehiclePadInputOverride", base.GetFieldProperties(), -892540178, 948949228);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

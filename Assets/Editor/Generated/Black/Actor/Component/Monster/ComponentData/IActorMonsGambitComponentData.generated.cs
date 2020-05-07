@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Monster.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Monster.ComponentData.IActorMonsGambitComponentData", base.GetFieldProperties(), 1573238755, -778912207);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

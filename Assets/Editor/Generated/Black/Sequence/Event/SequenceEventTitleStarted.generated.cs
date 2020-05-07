@@ -38,7 +38,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventTitleStarted", base.GetFieldProperties(), 238106700, 1321696748);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

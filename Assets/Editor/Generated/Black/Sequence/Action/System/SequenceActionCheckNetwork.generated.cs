@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionCheckNetwork", base.GetFieldProperties(), 845798190, 718836046);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

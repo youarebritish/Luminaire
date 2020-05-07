@@ -39,7 +39,10 @@ namespace Black.Save.Snapshot
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Snapshot.SaveSnapshotImageBinaryLinkContainerStruct", null, -1450283648, -1718522279);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

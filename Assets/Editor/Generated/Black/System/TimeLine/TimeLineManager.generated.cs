@@ -36,7 +36,10 @@ namespace Black.System.TimeLine
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TimeLineManager", null, 1563634383, 368507401);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -49,7 +49,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionAIStartGroupRouteMove", base.GetFieldProperties(), 590524373, -1947872739);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -80,7 +80,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.DiffuseLightProbesEntity", base.GetFieldProperties(), 528912217, -1016881177);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologyNotification", base.GetFieldProperties(), -227970735, -558459953);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

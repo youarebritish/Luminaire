@@ -50,7 +50,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionGetExeInfomation", base.GetFieldProperties(), 1691006831, 907264568);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

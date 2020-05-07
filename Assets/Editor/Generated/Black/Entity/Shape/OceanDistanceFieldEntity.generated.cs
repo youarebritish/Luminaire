@@ -45,7 +45,10 @@ namespace Black.Entity.Shape
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Shape.OceanDistanceFieldEntity", base.GetFieldProperties(), -1985771429, 557519241);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

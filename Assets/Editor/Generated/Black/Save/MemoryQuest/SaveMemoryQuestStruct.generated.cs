@@ -41,7 +41,10 @@ namespace Black.Save.MemoryQuest
             }
 
             fieldProperties = new PropertyContainer("Black.Save.MemoryQuest.SaveMemoryQuestStruct", null, -592928316, -461476628);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

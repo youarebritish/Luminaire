@@ -60,7 +60,10 @@ namespace Black.Sequence.Action.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Event.SequenceActionPlayMovie", base.GetFieldProperties(), -362818226, -2140049990);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

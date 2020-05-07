@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetMenuMaskState", base.GetFieldProperties(), 677170959, -1608526966);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

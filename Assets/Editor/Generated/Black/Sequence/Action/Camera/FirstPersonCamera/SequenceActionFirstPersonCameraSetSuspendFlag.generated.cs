@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Camera.FirstPersonCamera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.FirstPersonCamera.SequenceActionFirstPersonCameraSetSuspendFlag", base.GetFieldProperties(), 1676414094, -1593189313);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

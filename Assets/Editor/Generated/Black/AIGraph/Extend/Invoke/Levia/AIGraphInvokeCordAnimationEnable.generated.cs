@@ -41,7 +41,10 @@ namespace Black.AIGraph.Extend.Invoke.Levia
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Levia.AIGraphInvokeCordAnimationEnable", base.GetFieldProperties(), 424330485, 227371910);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

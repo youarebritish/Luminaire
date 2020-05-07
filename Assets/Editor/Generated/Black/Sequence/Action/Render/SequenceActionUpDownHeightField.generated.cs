@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionUpDownHeightField", base.GetFieldProperties(), -344213967, 478979189);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

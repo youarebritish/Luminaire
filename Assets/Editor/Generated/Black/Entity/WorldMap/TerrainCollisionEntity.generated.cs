@@ -37,7 +37,10 @@ namespace Black.Entity.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.TerrainCollisionEntity", base.GetFieldProperties(), -326060606, -454681332);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

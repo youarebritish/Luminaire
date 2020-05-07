@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetScrollBarTransformSwfEntity", base.GetFieldProperties(), -1784146732, 877094484);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

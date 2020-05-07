@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleAircraftGetStatus", base.GetFieldProperties(), -1261382419, 375560328);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

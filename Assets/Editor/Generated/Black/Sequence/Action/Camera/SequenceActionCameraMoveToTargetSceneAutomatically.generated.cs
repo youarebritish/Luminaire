@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraMoveToTargetSceneAutomatically", base.GetFieldProperties(), 2042711923, 964786518);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

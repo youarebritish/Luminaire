@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetLODDistance", base.GetFieldProperties(), -2077003161, 1286468640);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

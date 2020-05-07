@@ -40,7 +40,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.VisibilityFilterNodeEntity", base.GetFieldProperties(), 1350949947, 844019252);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

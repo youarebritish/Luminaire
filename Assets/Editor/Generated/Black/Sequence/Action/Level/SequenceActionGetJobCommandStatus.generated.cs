@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetJobCommandStatus", base.GetFieldProperties(), -990035554, -1289988387);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.DataPackage", base.GetFieldProperties(), -1292775820, 1010883810);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

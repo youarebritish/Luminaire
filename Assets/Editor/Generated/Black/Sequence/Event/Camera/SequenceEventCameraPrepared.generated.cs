@@ -37,7 +37,10 @@ namespace Black.Sequence.Event.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Camera.SequenceEventCameraPrepared", base.GetFieldProperties(), 1324342452, -1589920560);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

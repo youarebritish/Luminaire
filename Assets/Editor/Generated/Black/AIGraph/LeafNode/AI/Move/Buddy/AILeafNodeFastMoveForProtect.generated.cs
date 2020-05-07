@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Move.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeFastMoveForProtect", base.GetFieldProperties(), 1573168182, -10279742);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

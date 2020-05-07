@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetRecipe", base.GetFieldProperties(), -1846209297, 1267281914);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

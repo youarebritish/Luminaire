@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.TimeLine.Actor.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Animation.SequenceActionTimeLineLmAnimationTrack", base.GetFieldProperties(), 1611077512, 45794267);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

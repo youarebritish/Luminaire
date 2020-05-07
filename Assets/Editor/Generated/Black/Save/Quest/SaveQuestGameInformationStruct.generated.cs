@@ -40,7 +40,10 @@ namespace Black.Save.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Quest.SaveQuestGameInformationStruct", null, 1530412544, 512366402);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

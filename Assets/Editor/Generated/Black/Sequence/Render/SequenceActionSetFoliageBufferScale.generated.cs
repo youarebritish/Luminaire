@@ -39,7 +39,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetFoliageBufferScale", base.GetFieldProperties(), 1905445331, 1513020);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -53,7 +53,10 @@ namespace Black.Sequence.Action.Actor.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikWindPresetControl", base.GetFieldProperties(), -1598495682, 110508497);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

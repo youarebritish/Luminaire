@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorIgnoreEventPriorityCollision", base.GetFieldProperties(), 354166290, -928715611);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

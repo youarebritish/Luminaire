@@ -36,7 +36,10 @@ namespace Black.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sound.DSPManager", null, -2089887614, -1852228760);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

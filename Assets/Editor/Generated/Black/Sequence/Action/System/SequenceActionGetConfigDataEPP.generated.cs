@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGetConfigDataEPP", base.GetFieldProperties(), 63117968, 781616006);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

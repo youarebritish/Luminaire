@@ -37,7 +37,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.EarcExternalListEntity", base.GetFieldProperties(), -1268370426, -228412249);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

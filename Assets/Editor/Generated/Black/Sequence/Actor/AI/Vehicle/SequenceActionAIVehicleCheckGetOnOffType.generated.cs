@@ -43,7 +43,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleCheckGetOnOffType", base.GetFieldProperties(), 1078318505, -718428037);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -48,7 +48,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraRotation", base.GetFieldProperties(), 593366555, 63131260);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Multiplayer.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Multiplayer.Quest.SequenceMultiPlayerEndQuest", base.GetFieldProperties(), 1967504727, -1254916779);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

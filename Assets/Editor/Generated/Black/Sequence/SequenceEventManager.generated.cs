@@ -36,7 +36,10 @@ namespace Black.Sequence
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.SequenceEventManager", null, -1733087755, -559394380);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

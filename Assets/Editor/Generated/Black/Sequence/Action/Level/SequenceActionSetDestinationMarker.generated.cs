@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetDestinationMarker", base.GetFieldProperties(), -1023459483, 587725597);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

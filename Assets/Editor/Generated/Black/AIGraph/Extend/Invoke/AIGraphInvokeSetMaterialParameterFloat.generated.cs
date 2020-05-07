@@ -39,7 +39,10 @@ namespace Black.AIGraph.Extend.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetMaterialParameterFloat", base.GetFieldProperties(), 1602564626, 1003789265);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

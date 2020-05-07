@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetAllMaterialParameter", base.GetFieldProperties(), 145347592, 163225156);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

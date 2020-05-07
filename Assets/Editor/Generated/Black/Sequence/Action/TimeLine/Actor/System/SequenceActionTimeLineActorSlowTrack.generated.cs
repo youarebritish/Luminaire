@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.TimeLine.Actor.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.System.SequenceActionTimeLineActorSlowTrack", base.GetFieldProperties(), -250377019, -1154883901);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

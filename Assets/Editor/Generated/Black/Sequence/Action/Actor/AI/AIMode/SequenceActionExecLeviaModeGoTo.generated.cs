@@ -66,7 +66,10 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecLeviaModeGoTo", base.GetFieldProperties(), 1896495122, 1906994913);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

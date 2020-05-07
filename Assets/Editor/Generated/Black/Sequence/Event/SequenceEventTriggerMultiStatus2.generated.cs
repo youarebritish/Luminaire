@@ -40,7 +40,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventTriggerMultiStatus2", base.GetFieldProperties(), -216561193, 1251124514);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

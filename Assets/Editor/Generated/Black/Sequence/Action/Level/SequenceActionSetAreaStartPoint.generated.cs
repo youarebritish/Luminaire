@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetAreaStartPoint", base.GetFieldProperties(), 531256077, -1787894250);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

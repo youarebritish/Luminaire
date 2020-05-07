@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.Body.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Move.BodyLeafNodeMoveStopForce", base.GetFieldProperties(), -81718666, -224390061);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

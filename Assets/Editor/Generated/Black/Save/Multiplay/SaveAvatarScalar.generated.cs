@@ -38,7 +38,10 @@ namespace Black.Save.Multiplay
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Multiplay.SaveAvatarScalar", null, -393543420, -958162168);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

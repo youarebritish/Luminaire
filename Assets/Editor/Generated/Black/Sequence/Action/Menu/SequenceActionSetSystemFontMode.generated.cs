@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetSystemFontMode", base.GetFieldProperties(), 1278192543, 22243749);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.StuckPointNodeEntity", base.GetFieldProperties(), -1093128358, -91775790);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

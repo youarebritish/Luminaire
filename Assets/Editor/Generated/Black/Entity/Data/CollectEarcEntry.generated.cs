@@ -40,7 +40,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CollectEarcEntry", base.GetFieldProperties(), -1932515064, -2142229580);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

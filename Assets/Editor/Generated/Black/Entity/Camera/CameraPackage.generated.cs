@@ -36,7 +36,10 @@ namespace Black.Entity.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Camera.CameraPackage", base.GetFieldProperties(), 1059313535, 1284708448);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

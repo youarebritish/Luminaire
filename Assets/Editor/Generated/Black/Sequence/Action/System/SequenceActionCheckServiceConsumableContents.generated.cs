@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionCheckServiceConsumableContents", base.GetFieldProperties(), 901214731, -1973153000);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

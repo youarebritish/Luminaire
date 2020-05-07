@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionCarbuncleNamePD", base.GetFieldProperties(), -749614301, 261704999);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

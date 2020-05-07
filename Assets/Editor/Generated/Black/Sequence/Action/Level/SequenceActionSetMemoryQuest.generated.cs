@@ -51,7 +51,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetMemoryQuest", base.GetFieldProperties(), 900820320, 1545541376);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

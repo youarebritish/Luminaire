@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableDeltaTime", base.GetFieldProperties(), 1649924829, 982168678);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

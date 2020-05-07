@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionFinishScoreStageNOX", base.GetFieldProperties(), 505464340, 679068199);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

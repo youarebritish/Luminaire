@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetSkyEntity", base.GetFieldProperties(), 720649112, 590984997);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

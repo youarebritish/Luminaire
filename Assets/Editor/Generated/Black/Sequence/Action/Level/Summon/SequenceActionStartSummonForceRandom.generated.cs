@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Summon
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Summon.SequenceActionStartSummonForceRandom", base.GetFieldProperties(), 427258088, -261811884);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

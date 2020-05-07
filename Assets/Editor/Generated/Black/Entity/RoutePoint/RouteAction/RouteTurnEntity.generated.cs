@@ -38,7 +38,10 @@ namespace Black.Entity.RoutePoint.RouteAction
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.RoutePoint.RouteAction.RouteTurnEntity", base.GetFieldProperties(), -677580183, -760934552);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

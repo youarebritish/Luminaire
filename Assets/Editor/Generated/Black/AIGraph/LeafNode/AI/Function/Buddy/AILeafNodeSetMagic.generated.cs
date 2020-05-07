@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetMagic", base.GetFieldProperties(), 1149490679, 581646045);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

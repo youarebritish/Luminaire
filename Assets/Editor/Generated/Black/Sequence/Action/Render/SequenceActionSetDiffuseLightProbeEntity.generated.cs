@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetDiffuseLightProbeEntity", base.GetFieldProperties(), 1467366838, 698772414);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

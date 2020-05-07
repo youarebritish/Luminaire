@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionRefreshFriendList", base.GetFieldProperties(), -1876994907, -1679653487);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

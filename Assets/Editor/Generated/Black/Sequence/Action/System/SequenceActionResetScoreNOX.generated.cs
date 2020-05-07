@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionResetScoreNOX", base.GetFieldProperties(), 177973336, -584606730);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

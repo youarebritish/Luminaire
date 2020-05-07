@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.TimeLine.Actor.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Animation.SequenceActionTimeLineActorMotionPlaybackRateScaleTrack", base.GetFieldProperties(), 1547406559, 1429282288);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

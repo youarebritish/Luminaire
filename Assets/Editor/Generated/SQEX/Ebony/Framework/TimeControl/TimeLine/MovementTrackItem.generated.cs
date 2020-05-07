@@ -41,7 +41,10 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.MovementTrackItem", base.GetFieldProperties(), -589142396, -1738022656);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

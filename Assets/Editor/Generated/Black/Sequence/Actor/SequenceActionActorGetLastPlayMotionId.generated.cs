@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorGetLastPlayMotionId", base.GetFieldProperties(), 1929745935, 1168512405);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Angle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Angle.SequenceActionSeamlessInGameTransformActorFromVector", base.GetFieldProperties(), 1019405556, 2045158666);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

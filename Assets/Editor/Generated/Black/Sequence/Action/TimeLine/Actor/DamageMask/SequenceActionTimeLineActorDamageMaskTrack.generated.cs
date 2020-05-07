@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.TimeLine.Actor.DamageMask
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.DamageMask.SequenceActionTimeLineActorDamageMaskTrack", base.GetFieldProperties(), -1246048972, -136049654);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

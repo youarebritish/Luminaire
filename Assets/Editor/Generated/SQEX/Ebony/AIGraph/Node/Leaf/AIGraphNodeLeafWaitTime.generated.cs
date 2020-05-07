@@ -38,7 +38,10 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafWaitTime", base.GetFieldProperties(), -1879145519, -297681796);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

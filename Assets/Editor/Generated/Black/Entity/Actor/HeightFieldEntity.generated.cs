@@ -55,7 +55,10 @@ namespace Black.Entity.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Actor.HeightFieldEntity", base.GetFieldProperties(), -1070235521, -52094853);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

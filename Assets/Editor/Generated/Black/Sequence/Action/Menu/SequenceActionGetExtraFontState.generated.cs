@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionGetExtraFontState", base.GetFieldProperties(), -1009377581, 2079395990);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

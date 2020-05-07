@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetCampReturnDisable", base.GetFieldProperties(), 1687878871, 1732133194);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

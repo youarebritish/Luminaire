@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorSetLockPower", base.GetFieldProperties(), -135563237, 1542226865);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Event.Trigger
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Trigger.SequenceRemoteEventTrigger", base.GetFieldProperties(), 18218225, -1579272896);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

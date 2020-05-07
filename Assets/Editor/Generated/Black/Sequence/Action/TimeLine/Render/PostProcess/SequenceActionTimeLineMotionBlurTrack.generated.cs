@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineMotionBlurTrack", base.GetFieldProperties(), 1662017199, 742792715);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

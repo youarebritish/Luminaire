@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorAddMoveTranslation", base.GetFieldProperties(), -523123665, 1815830122);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

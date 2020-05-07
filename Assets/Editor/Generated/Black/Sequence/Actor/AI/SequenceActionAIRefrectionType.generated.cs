@@ -49,7 +49,10 @@ namespace Black.Sequence.Actor.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAIRefrectionType", base.GetFieldProperties(), 1863088712, 1553970942);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

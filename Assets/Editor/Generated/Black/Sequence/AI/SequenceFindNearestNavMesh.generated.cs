@@ -43,7 +43,10 @@ namespace Black.Sequence.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.AI.SequenceFindNearestNavMesh", base.GetFieldProperties(), 380447505, -29099089);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

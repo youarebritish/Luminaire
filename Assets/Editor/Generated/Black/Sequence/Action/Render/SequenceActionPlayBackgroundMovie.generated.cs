@@ -48,7 +48,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionPlayBackgroundMovie", base.GetFieldProperties(), 1986118353, -2006676571);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

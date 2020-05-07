@@ -43,7 +43,10 @@ namespace Black.AIGraph.LeafNode.AI.TPS
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.TPS.AILeafNodeTPSOrbit", base.GetFieldProperties(), -1420431087, 595362249);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

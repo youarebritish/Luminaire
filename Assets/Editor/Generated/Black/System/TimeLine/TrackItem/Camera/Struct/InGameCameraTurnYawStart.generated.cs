@@ -38,7 +38,10 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYawStart", base.GetFieldProperties(), -294711340, -891664818);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

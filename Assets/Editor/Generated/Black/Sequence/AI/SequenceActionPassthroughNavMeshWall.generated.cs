@@ -39,7 +39,10 @@ namespace Black.Sequence.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.AI.SequenceActionPassthroughNavMeshWall", base.GetFieldProperties(), 683462896, -330601244);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

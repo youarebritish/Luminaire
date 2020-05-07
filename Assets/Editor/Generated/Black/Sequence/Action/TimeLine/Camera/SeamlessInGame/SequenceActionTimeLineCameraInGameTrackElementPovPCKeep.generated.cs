@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementPovPCKeep", base.GetFieldProperties(), -1979764609, -211907203);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

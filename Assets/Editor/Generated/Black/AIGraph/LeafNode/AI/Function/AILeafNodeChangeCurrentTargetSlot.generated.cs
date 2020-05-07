@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeChangeCurrentTargetSlot", base.GetFieldProperties(), -1678913563, 1933717960);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

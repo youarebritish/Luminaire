@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.InteractionCursorEntity", base.GetFieldProperties(), -1795022859, -175357727);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

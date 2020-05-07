@@ -48,7 +48,10 @@ namespace Black.AIGraph.LeafNode.Body.Layer
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Layer.BodyLeafNodeActivateLayerAnimation", base.GetFieldProperties(), -1151088719, 419368791);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

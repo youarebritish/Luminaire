@@ -36,7 +36,10 @@ namespace Black.Entity.Menu.Impl.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerChocoboBattleMenuEntity", base.GetFieldProperties(), -659527662, 203519969);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.AI.Recog
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Recog.WorkingMemoryBase", base.GetFieldProperties(), -490584834, -2052246125);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

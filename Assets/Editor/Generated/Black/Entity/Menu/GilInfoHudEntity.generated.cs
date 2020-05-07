@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.GilInfoHudEntity", base.GetFieldProperties(), 1730109822, -306144330);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

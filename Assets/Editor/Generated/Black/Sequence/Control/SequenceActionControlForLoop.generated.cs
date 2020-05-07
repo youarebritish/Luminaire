@@ -45,7 +45,10 @@ namespace Black.Sequence.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlForLoop", base.GetFieldProperties(), 719679234, -356961030);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.Distance3DTrapezoidFilterNodeEntity", base.GetFieldProperties(), -40457486, 1645671081);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

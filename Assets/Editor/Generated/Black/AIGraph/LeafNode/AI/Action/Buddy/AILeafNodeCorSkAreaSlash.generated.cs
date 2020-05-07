@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeCorSkAreaSlash", base.GetFieldProperties(), 1119512329, -1258636969);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

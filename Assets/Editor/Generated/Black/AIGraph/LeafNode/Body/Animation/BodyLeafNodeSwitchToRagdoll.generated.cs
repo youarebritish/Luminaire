@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.Body.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Animation.BodyLeafNodeSwitchToRagdoll", base.GetFieldProperties(), -2076830288, -1970832218);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

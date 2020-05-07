@@ -38,7 +38,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.FadeTrackItem", base.GetFieldProperties(), -1860969093, -5766227);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

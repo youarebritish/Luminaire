@@ -36,7 +36,10 @@ namespace Black.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Camera.CameraManager", null, -772205967, 1037830273);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Camera.AIGraphInvokeCallCameraSequence", base.GetFieldProperties(), -1915245376, 507434564);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

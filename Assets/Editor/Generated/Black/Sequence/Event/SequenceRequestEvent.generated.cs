@@ -40,7 +40,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceRequestEvent", base.GetFieldProperties(), 153738896, -745576570);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

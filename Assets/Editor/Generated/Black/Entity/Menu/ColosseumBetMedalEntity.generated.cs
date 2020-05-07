@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.ColosseumBetMedalEntity", base.GetFieldProperties(), 610087510, 779256523);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

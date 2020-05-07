@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetTerrainGI", base.GetFieldProperties(), -1435570000, -2091689959);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

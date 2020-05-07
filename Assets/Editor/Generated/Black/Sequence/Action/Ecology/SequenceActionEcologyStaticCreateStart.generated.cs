@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologyStaticCreateStart", base.GetFieldProperties(), 1269939963, -524177973);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

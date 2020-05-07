@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeNonWetArea", base.GetFieldProperties(), 1081834959, -45199662);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

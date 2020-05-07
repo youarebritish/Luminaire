@@ -82,7 +82,10 @@ namespace Black.Sequence.PostEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.PostEffect.SequenceActionSetFogFilter", base.GetFieldProperties(), 1771367630, -1383292135);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

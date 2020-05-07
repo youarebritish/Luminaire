@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologyStaticShowLottery", base.GetFieldProperties(), 1898162710, -1031589339);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

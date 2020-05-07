@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetPositionIndexSwfEntity", base.GetFieldProperties(), -1057857815, -60120656);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

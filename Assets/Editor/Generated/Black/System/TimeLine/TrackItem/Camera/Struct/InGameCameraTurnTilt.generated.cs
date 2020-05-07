@@ -50,7 +50,10 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt", base.GetFieldProperties(), 978977602, 215167140);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

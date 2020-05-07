@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGetKeyboardIconLabel", base.GetFieldProperties(), 411515614, -1529870628);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

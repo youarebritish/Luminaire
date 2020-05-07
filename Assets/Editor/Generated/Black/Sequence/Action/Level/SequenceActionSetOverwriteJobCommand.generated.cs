@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetOverwriteJobCommand", base.GetFieldProperties(), 2098040410, 2073353427);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

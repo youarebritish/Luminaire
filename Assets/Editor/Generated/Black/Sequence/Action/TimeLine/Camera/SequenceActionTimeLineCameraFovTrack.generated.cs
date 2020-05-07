@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.TimeLine.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraFovTrack", base.GetFieldProperties(), 455788731, -271809517);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -46,7 +46,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.SuppressionAreaEntity", base.GetFieldProperties(), -621542782, -43807298);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

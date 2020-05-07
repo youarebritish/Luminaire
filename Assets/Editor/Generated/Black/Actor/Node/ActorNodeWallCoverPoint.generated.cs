@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeWallCoverPoint", base.GetFieldProperties(), 774348088, -789048660);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

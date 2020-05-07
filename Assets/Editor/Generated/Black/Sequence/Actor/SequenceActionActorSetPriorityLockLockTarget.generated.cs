@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetPriorityLockLockTarget", base.GetFieldProperties(), 2037463968, -2081596876);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

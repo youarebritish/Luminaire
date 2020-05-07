@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeNotifyWireState", base.GetFieldProperties(), 1289696582, -969070241);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

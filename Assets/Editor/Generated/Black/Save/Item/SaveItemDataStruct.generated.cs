@@ -38,7 +38,10 @@ namespace Black.Save.Item
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveItemDataStruct", null, 761373400, 1053302904);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

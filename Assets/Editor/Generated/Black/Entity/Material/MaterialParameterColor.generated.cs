@@ -39,7 +39,10 @@ namespace Black.Entity.Material
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Material.MaterialParameterColor", base.GetFieldProperties(), 876329529, -1699221965);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

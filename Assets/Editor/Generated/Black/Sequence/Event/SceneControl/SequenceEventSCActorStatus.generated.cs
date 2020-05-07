@@ -46,7 +46,10 @@ namespace Black.Sequence.Event.SceneControl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SceneControl.SequenceEventSCActorStatus", base.GetFieldProperties(), 329517466, -1624087371);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

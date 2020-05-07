@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.XPEC
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.XPEC.AIGraphNodeLeafResetToPlayerControl", base.GetFieldProperties(), 1516939300, 1633800790);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

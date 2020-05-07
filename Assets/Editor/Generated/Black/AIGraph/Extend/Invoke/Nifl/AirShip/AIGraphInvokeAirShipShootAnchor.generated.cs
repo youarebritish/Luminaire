@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.AirShip
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.AirShip.AIGraphInvokeAirShipShootAnchor", base.GetFieldProperties(), 1339628195, 1833003750);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Event.World
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.World.SequenceObjectRangeEventTrigger", base.GetFieldProperties(), 1677478524, 1752794828);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

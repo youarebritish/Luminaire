@@ -41,7 +41,10 @@ namespace Black.AI.Interactions
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Interactions.SequenceActionIsInAIInteraction", base.GetFieldProperties(), -1458601551, 1720953835);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

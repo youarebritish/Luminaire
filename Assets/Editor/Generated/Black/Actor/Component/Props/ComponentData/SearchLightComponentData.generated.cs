@@ -37,7 +37,10 @@ namespace Black.Actor.Component.Props.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Props.ComponentData.SearchLightComponentData", base.GetFieldProperties(), -1458279179, -1012852168);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

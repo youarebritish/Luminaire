@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MultiPlayerShiftLinkEntity", base.GetFieldProperties(), -718764043, 812261834);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

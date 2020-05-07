@@ -85,7 +85,10 @@ namespace Black.Sequence.Action.Actor.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikControl", base.GetFieldProperties(), -1248098145, 813145794);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

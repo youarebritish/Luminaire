@@ -42,7 +42,10 @@ namespace Black.Sequence.Control.GameFlag
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.GameFlag.SequenceActionControlIfGameFlagFixId", base.GetFieldProperties(), 660903000, -87704184);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

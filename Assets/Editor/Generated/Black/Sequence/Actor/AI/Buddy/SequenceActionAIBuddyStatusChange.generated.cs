@@ -56,7 +56,10 @@ namespace Black.Sequence.Actor.AI.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddyStatusChange", base.GetFieldProperties(), 770899852, -256569106);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

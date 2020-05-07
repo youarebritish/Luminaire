@@ -38,7 +38,10 @@ namespace Black.Sequence.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlSetGameFlag", base.GetFieldProperties(), 1873810190, 2113320766);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.Entity.Data.Area
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.SetAreaReStartItem", base.GetFieldProperties(), 1314747049, 1195327480);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

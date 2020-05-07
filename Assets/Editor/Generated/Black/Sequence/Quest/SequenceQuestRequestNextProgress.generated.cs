@@ -44,7 +44,10 @@ namespace Black.Sequence.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Quest.SequenceQuestRequestNextProgress", base.GetFieldProperties(), -1555520987, 1315398627);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

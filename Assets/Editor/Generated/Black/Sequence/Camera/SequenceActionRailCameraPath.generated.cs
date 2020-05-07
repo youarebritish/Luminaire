@@ -48,7 +48,10 @@ namespace Black.Sequence.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Camera.SequenceActionRailCameraPath", base.GetFieldProperties(), -1130546026, 402737076);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

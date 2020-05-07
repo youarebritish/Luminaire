@@ -77,7 +77,10 @@ namespace Black.Sequence.Action.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionCreateVehicleAsync", base.GetFieldProperties(), 202349935, 79500297);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

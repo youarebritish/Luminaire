@@ -42,7 +42,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSortListWithDistance", base.GetFieldProperties(), 411961860, 850386936);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

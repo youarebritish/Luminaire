@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionWorldTimeWatch", base.GetFieldProperties(), -248212418, 94209232);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

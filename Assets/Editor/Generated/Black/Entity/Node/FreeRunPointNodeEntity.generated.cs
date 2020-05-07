@@ -38,7 +38,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.FreeRunPointNodeEntity", base.GetFieldProperties(), -1164094976, 1215159360);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

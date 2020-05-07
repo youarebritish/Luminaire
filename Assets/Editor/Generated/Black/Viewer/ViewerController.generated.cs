@@ -36,7 +36,10 @@ namespace Black.Viewer
             }
 
             fieldProperties = new PropertyContainer("Black.Viewer.ViewerController", null, -1105698993, 1061482596);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

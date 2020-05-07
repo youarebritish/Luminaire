@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGetUsedDeviceLatest", base.GetFieldProperties(), -1382083262, -522527776);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

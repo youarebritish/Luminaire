@@ -44,7 +44,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableSwfDefEntity", base.GetFieldProperties(), -101153703, -981291477);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

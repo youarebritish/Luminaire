@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MedalInfoHudEntity", base.GetFieldProperties(), 1532604797, 5167864);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

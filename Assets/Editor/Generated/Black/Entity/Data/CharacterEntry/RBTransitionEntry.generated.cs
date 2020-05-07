@@ -38,7 +38,10 @@ namespace Black.Entity.Data.CharacterEntry
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.RBTransitionEntry", base.GetFieldProperties(), -843370241, 711716121);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Actor.Component.Material.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem", base.GetFieldProperties(), 367803582, -85005402);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

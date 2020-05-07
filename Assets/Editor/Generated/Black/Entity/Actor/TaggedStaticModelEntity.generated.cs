@@ -37,7 +37,10 @@ namespace Black.Entity.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Actor.TaggedStaticModelEntity", base.GetFieldProperties(), 1484455732, -2113033516);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

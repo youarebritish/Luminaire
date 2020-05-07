@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologyReinForceCreateTeam", base.GetFieldProperties(), -1201745788, 1236715443);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

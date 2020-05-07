@@ -44,7 +44,10 @@ namespace Black.Sequence.Event.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceEventUiEntityInputBase", base.GetFieldProperties(), 2110746992, 1607532894);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

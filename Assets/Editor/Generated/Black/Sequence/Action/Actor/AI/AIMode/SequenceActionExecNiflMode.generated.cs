@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecNiflMode", base.GetFieldProperties(), -2141213156, -1050630737);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

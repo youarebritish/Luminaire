@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeInheritVelocity", base.GetFieldProperties(), 1033848328, -849315088);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

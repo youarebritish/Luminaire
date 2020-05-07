@@ -48,7 +48,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetGameModeStatus", base.GetFieldProperties(), -664053467, 2115837605);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

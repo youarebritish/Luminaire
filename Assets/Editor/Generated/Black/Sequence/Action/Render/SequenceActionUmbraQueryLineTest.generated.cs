@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionUmbraQueryLineTest", base.GetFieldProperties(), -182616901, 842153925);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

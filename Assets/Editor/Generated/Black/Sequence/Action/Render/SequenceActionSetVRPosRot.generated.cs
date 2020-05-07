@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetVRPosRot", base.GetFieldProperties(), 774413008, 823487287);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

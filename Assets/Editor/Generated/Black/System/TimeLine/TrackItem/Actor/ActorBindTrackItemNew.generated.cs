@@ -37,7 +37,10 @@ namespace Black.System.TimeLine.TrackItem.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Actor.ActorBindTrackItemNew", base.GetFieldProperties(), 803518617, -1344907505);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionJoinAtCampMessage", base.GetFieldProperties(), -1964041460, 350707959);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

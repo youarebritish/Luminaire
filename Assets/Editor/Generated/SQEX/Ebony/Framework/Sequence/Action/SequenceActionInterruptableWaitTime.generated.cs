@@ -45,7 +45,10 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Action.SequenceActionInterruptableWaitTime", base.GetFieldProperties(), -1404548683, 1059776588);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

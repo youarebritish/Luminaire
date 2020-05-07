@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Monster.ActorMonFormationGroupComponent", null, -365117766, -1108516568);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.AIGraph.Data.PropertyData
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Data.PropertyData.PropertyMemoryVariableString", base.GetFieldProperties(), 634156360, 1587298464);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

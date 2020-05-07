@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MapIconThumbnailMenuEntity", base.GetFieldProperties(), 1098459614, -658403606);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

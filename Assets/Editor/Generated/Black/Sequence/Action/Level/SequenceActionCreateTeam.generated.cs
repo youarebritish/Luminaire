@@ -52,7 +52,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionCreateTeam", base.GetFieldProperties(), 1028846188, 1224629157);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

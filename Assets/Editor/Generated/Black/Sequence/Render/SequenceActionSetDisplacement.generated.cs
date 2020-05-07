@@ -39,7 +39,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetDisplacement", base.GetFieldProperties(), -1737413451, -1470472580);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

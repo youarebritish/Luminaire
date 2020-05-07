@@ -48,7 +48,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.VehiclePointNodeEntity", base.GetFieldProperties(), 1104864131, -735842491);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.Sequence.Event.Actor.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleAmbientDaytimeChanged", base.GetFieldProperties(), 730599904, -170434445);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

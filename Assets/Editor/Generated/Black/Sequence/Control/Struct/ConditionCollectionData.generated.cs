@@ -37,7 +37,10 @@ namespace Black.Sequence.Control.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.Struct.ConditionCollectionData", base.GetFieldProperties(), -1792705838, -1012876471);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

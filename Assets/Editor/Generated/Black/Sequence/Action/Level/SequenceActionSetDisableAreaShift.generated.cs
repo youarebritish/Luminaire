@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetDisableAreaShift", base.GetFieldProperties(), 256392769, -2089226192);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

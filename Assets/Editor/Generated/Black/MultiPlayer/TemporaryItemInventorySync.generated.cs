@@ -36,7 +36,10 @@ namespace Black.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.TemporaryItemInventorySync", base.GetFieldProperties(), 2102699033, 706069090);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

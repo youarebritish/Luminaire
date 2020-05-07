@@ -37,7 +37,10 @@ namespace Black.Entity.Data.Area
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.MapLodItem", base.GetFieldProperties(), 1578319109, -472174340);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

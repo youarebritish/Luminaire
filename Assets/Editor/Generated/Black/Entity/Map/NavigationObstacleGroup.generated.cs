@@ -36,7 +36,10 @@ namespace Black.Entity.Map
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationObstacleGroup", base.GetFieldProperties(), -826487971, 1554012182);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

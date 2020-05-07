@@ -50,7 +50,10 @@ namespace Black.Sequence.Actor.AI.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Nifl.SequenceActionAISetAirCraft", base.GetFieldProperties(), 621371625, 2119710555);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

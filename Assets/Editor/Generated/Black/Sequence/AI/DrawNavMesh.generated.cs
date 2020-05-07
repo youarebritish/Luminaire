@@ -40,7 +40,10 @@ namespace Black.Sequence.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.AI.DrawNavMesh", base.GetFieldProperties(), -2102502050, 170827171);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

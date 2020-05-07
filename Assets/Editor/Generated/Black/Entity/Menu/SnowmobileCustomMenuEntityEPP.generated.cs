@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.SnowmobileCustomMenuEntityEPP", base.GetFieldProperties(), 2004620779, -887367220);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

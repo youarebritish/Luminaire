@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.ColosseumChangeVuvuzelaEntity", base.GetFieldProperties(), 1938518557, 243084841);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace SQEX.Ebony.AIGraph
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.AIGraphRunnableBase", base.GetFieldProperties(), -1596447987, 509830927);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

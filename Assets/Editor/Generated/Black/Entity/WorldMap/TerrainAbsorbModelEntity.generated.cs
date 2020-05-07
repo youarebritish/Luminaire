@@ -43,7 +43,10 @@ namespace Black.Entity.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.TerrainAbsorbModelEntity", base.GetFieldProperties(), 1093032320, 2027689440);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

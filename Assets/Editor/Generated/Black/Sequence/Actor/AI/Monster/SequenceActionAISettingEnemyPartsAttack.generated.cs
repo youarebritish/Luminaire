@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionAISettingEnemyPartsAttack", base.GetFieldProperties(), -1444353858, 630374097);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

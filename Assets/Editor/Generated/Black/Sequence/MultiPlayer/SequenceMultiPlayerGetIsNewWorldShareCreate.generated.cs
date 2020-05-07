@@ -37,7 +37,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetIsNewWorldShareCreate", base.GetFieldProperties(), -591035059, -83560260);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

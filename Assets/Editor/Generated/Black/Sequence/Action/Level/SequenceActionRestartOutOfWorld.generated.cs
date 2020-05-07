@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionRestartOutOfWorld", base.GetFieldProperties(), 705764839, -1863462541);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

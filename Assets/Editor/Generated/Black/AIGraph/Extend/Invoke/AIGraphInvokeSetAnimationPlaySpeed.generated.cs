@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAnimationPlaySpeed", base.GetFieldProperties(), -857537525, 1345895954);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

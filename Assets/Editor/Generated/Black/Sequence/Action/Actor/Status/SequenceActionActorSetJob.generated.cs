@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorSetJob", base.GetFieldProperties(), -248219194, -951281655);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

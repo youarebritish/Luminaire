@@ -41,7 +41,10 @@ namespace Black.AIGraph.LeafNode.AI.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeHeatMapMove", base.GetFieldProperties(), -1444460825, 261695548);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

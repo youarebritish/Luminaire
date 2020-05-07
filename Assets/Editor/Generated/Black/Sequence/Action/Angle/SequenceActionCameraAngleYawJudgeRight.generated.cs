@@ -60,7 +60,10 @@ namespace Black.Sequence.Action.Angle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Angle.SequenceActionCameraAngleYawJudgeRight", base.GetFieldProperties(), 800784702, -2118788773);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

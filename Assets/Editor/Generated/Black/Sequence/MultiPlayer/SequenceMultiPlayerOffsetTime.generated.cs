@@ -45,7 +45,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerOffsetTime", base.GetFieldProperties(), -1529187382, -304776486);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

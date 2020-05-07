@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionChangeCharaName", base.GetFieldProperties(), -533724695, -152849310);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

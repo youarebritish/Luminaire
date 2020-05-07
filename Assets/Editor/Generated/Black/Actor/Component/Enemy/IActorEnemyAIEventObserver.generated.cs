@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Enemy
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Enemy.IActorEnemyAIEventObserver", null, -63101790, 1099158262);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

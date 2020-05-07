@@ -43,7 +43,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionInterpolateOceanMaterialParameter", base.GetFieldProperties(), -1002212364, -1962380178);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetGraphicsLODScale", base.GetFieldProperties(), -1370085987, 921101738);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -138,7 +138,10 @@ namespace Black.Save.Player
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Player.SaveStatusStruct", null, -1930500420, -1712780495);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

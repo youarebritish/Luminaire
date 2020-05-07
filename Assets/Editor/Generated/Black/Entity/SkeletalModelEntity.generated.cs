@@ -57,7 +57,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.SkeletalModelEntity", base.GetFieldProperties(), -2047471063, -1432273448);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

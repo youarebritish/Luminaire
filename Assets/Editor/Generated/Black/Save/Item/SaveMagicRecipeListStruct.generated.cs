@@ -38,7 +38,10 @@ namespace Black.Save.Item
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveMagicRecipeListStruct", null, 944515684, 768846293);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

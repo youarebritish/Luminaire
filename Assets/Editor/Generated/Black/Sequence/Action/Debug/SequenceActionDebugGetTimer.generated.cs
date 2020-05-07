@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugGetTimer", base.GetFieldProperties(), 126130888, 847761828);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

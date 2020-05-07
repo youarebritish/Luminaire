@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.TimeLine.Render.Light
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.Light.SequenceActionTimeLineRenderLightColorTrack", base.GetFieldProperties(), 1188247303, 892032255);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

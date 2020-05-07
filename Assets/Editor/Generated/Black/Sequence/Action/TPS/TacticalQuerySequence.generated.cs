@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.TPS
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TPS.TacticalQuerySequence", base.GetFieldProperties(), 2051108257, -816480767);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

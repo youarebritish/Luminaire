@@ -39,7 +39,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableGetFoodOrderCount", base.GetFieldProperties(), -1737777806, -1075418708);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

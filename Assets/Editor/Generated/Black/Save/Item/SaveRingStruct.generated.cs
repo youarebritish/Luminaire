@@ -47,7 +47,10 @@ namespace Black.Save.Item
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Item.SaveRingStruct", null, -936898956, 675455084);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

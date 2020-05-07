@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionCanHDRMode", base.GetFieldProperties(), 2109003374, 18636693);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

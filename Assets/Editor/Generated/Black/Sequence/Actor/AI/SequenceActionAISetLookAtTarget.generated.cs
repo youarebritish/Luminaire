@@ -43,7 +43,10 @@ namespace Black.Sequence.Actor.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAISetLookAtTarget", base.GetFieldProperties(), 1637402012, 2013436026);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

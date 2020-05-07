@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAIRegisterNoctisGetOffRoutePoint", base.GetFieldProperties(), 1291811588, 1421098716);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

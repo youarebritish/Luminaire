@@ -47,7 +47,10 @@ namespace Black.Save.Config
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveEpgFinalScore", null, 1697653825, 1318909800);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

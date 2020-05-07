@@ -122,7 +122,10 @@ namespace Black.Entity.Data.CharacterEntry
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.CharacterEntry", base.GetFieldProperties(), 1243728343, 1220872069);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

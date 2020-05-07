@@ -39,7 +39,10 @@ namespace Black.AI.StrongPoint
             }
 
             fieldProperties = new PropertyContainer("Black.AI.StrongPoint.StrongPointArrayItem", base.GetFieldProperties(), -397032856, -1760687817);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

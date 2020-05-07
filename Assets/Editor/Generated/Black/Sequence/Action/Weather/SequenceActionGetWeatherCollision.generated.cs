@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Weather
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.SequenceActionGetWeatherCollision", base.GetFieldProperties(), 2128450710, 707910743);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

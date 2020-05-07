@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Event.SequenceActionReleaseCCFSeamlessEvent", base.GetFieldProperties(), 701799567, 1675190357);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.Action
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.SequenceActionSetRepressionInfoNOX", base.GetFieldProperties(), 1631953689, -907352845);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

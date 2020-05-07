@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Light
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Light.SequenceActionLightIntensity", base.GetFieldProperties(), 1051682925, -519667897);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

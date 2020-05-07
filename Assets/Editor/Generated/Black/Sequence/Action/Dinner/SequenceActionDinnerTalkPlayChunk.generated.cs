@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Dinner
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Dinner.SequenceActionDinnerTalkPlayChunk", base.GetFieldProperties(), 28071210, -347652521);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

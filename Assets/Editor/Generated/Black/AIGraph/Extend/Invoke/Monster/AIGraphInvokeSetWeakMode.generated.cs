@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetWeakMode", base.GetFieldProperties(), -663268436, 384417747);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

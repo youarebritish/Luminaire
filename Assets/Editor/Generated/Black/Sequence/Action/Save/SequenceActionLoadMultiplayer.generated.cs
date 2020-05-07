@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionLoadMultiplayer", base.GetFieldProperties(), -1301454247, 94899178);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

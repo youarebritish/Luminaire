@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.ScoreRankingMenuEntityEPI", base.GetFieldProperties(), 1008451893, 626875181);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

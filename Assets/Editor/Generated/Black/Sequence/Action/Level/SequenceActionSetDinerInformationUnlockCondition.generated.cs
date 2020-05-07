@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetDinerInformationUnlockCondition", base.GetFieldProperties(), -696881644, -101113476);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

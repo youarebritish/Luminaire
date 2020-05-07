@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Action
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeTeleportToTargetStance", base.GetFieldProperties(), -2071450811, -264712143);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

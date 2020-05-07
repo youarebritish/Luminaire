@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableMenuSoundEntityReference", base.GetFieldProperties(), -103860600, 218312925);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.MemoryQuest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.MemoryQuest.SequenceActionMemoryQuestLoad", base.GetFieldProperties(), 375102399, -443546808);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

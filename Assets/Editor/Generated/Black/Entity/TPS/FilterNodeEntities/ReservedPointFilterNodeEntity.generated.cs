@@ -38,7 +38,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.ReservedPointFilterNodeEntity", base.GetFieldProperties(), 800179499, -373719365);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

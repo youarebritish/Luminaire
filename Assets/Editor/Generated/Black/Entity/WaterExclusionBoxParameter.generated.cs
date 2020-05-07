@@ -38,7 +38,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.WaterExclusionBoxParameter", base.GetFieldProperties(), -1818517810, -951594638);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

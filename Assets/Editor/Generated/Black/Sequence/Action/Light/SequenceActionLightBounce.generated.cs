@@ -52,7 +52,10 @@ namespace Black.Sequence.Action.Light
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Light.SequenceActionLightBounce", base.GetFieldProperties(), -517340037, 197658324);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.AIGraph.DecoratorNode.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.DecoratorNode.Nifl.AIGraphNodeBTDecoratorCanShootWire", base.GetFieldProperties(), -204456453, 1560551489);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Corps
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Corps.SequenceActionIncorporateTeam", base.GetFieldProperties(), 569282412, -745901099);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

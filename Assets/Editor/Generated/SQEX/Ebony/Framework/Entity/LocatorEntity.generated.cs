@@ -36,7 +36,10 @@ namespace SQEX.Ebony.Framework.Entity
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Entity.LocatorEntity", base.GetFieldProperties(), -1895549217, 1787369224);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

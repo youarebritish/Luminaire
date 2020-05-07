@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetPauseCounter", base.GetFieldProperties(), -610950245, -1481423665);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

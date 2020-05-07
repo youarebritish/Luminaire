@@ -39,7 +39,10 @@ namespace Black.Sequence.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Menu.SequenceActionCooperationIcon", base.GetFieldProperties(), 502827115, 1738034497);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

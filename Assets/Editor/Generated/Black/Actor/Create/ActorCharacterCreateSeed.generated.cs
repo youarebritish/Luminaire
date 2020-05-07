@@ -36,7 +36,10 @@ namespace Black.Actor.Create
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Create.ActorCharacterCreateSeed", base.GetFieldProperties(), 761794273, -493929363);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateFootIK", base.GetFieldProperties(), 1102726995, 1953906574);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

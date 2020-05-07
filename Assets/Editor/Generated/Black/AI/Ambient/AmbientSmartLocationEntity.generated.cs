@@ -43,7 +43,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSmartLocationEntity", base.GetFieldProperties(), -2019663088, -1469277910);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

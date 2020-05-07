@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeFreeRunPoint", base.GetFieldProperties(), 1254372563, -2073892910);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

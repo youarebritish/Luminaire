@@ -41,7 +41,10 @@ namespace Black.Entity.Vfx
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Vfx.LmVFXEntityBase", base.GetFieldProperties(), 771960598, -524534967);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

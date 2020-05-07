@@ -37,7 +37,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.SteeringIsFreeFilterNodeEntity", base.GetFieldProperties(), -1550546901, -1262783535);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

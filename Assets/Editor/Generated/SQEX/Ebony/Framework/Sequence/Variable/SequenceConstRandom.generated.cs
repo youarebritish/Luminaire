@@ -42,7 +42,10 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstRandom", base.GetFieldProperties(), -1249500682, 787712409);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

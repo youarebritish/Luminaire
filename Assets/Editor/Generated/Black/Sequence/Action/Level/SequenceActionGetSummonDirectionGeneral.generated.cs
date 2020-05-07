@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetSummonDirectionGeneral", base.GetFieldProperties(), 1327066909, 1648563292);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

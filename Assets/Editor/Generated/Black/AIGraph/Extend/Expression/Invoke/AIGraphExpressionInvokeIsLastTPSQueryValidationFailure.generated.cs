@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.AIGraphExpressionInvokeIsLastTPSQueryValidationFailure", base.GetFieldProperties(), -545535685, 2044117980);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

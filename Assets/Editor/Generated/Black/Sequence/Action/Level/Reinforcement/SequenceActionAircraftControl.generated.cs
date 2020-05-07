@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Level.Reinforcement
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Reinforcement.SequenceActionAircraftControl", base.GetFieldProperties(), -816149772, -1852308777);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Actor.Body
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Body.SequenceActionActorChangeBodyGraph", base.GetFieldProperties(), 87327808, 936599437);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

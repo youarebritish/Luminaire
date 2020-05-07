@@ -40,7 +40,10 @@ namespace Black.AIGraph.LeafNode.AI.Action
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeSetLinkAnim", base.GetFieldProperties(), 335528762, 1606250074);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

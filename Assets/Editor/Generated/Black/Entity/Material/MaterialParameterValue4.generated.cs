@@ -39,7 +39,10 @@ namespace Black.Entity.Material
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Material.MaterialParameterValue4", base.GetFieldProperties(), 960157968, -1213824064);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -44,7 +44,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerSlotLoaderUpdate", base.GetFieldProperties(), -1307891864, 708458707);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -44,7 +44,10 @@ namespace Black.Sequence.Actor.AI.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddySetIdleVariation", base.GetFieldProperties(), -1757180541, 1313254190);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

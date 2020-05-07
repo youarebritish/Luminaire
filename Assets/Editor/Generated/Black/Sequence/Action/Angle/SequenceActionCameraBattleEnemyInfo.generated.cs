@@ -51,7 +51,10 @@ namespace Black.Sequence.Action.Angle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Angle.SequenceActionCameraBattleEnemyInfo", base.GetFieldProperties(), -1409304765, -864302090);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

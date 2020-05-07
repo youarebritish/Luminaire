@@ -36,7 +36,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSequenceReset", base.GetFieldProperties(), 965227551, -1432102878);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

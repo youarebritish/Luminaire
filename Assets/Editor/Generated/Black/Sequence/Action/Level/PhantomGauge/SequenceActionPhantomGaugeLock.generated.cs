@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level.PhantomGauge
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.PhantomGauge.SequenceActionPhantomGaugeLock", base.GetFieldProperties(), -425312444, -885068503);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

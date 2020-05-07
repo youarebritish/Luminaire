@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Enemy.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Enemy.ComponentData.EnemyPartsAttackComponentData", base.GetFieldProperties(), 1194559947, -457334712);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

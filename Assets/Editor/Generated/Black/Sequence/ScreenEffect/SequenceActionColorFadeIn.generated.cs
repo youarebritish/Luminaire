@@ -44,7 +44,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionColorFadeIn", base.GetFieldProperties(), -1970201010, 402644758);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

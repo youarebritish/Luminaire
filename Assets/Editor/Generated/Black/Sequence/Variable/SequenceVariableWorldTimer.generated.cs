@@ -48,7 +48,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableWorldTimer", base.GetFieldProperties(), 1453084361, 2015127957);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

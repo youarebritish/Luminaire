@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionInteractionAbsorptionCheck", base.GetFieldProperties(), -530598607, 351066827);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

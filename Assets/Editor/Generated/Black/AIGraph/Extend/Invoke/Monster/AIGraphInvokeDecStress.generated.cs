@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeDecStress", base.GetFieldProperties(), -1052159460, 1384666719);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

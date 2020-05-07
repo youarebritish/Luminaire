@@ -63,7 +63,10 @@ namespace Black.Sequence.Action.Actor.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Animation.SequenceActionActorActivateLipSyncAnim", base.GetFieldProperties(), 342617665, -579427884);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace SQEX.Luminous.GameFramework.Debug.Sequence
             }
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.GameFramework.Debug.Sequence.SequenceNodeDebugger", null, -1884911257, 1018576002);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

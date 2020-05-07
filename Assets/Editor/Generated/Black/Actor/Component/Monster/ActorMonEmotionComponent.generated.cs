@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Monster.ActorMonEmotionComponent", null, -810175155, -1297368379);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologyCrowdDelete", base.GetFieldProperties(), -1741306519, 771889791);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

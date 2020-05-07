@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor.AI.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Buddy.SequenceActionActorAIBuddyCanUseColorCorrection", base.GetFieldProperties(), 108955819, -599644988);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

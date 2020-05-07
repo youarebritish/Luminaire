@@ -37,7 +37,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetMovingFloorJumpType", base.GetFieldProperties(), 271346134, -1896144633);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

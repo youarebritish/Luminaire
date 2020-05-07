@@ -41,7 +41,10 @@ namespace Black.Sequence.Variable.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.AI.SequenceVariableCheckEnemyClass", base.GetFieldProperties(), -1974816668, 1226830256);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

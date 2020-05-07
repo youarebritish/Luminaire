@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Dinner
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Dinner.SequenceActionDinnerStateChange", base.GetFieldProperties(), -268921284, -690194139);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

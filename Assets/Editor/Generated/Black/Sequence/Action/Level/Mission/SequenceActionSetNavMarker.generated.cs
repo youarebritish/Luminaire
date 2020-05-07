@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level.Mission
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Mission.SequenceActionSetNavMarker", base.GetFieldProperties(), 627601432, -145003846);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

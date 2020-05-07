@@ -39,7 +39,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerSetNPCTarget", base.GetFieldProperties(), 1619773675, 260060849);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

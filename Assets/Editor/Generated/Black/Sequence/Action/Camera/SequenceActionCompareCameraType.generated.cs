@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCompareCameraType", base.GetFieldProperties(), 24636487, -1496538761);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

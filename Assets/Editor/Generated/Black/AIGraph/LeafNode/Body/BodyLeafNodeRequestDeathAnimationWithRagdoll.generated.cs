@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.Body
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimationWithRagdoll", base.GetFieldProperties(), 268588646, 630281544);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

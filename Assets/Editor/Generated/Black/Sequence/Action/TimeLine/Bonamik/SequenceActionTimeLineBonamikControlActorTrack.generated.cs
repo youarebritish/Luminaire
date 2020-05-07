@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.TimeLine.Bonamik
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Bonamik.SequenceActionTimeLineBonamikControlActorTrack", base.GetFieldProperties(), -589532759, -1288724911);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

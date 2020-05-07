@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Menu.AIGraphInvokeMultiplayChatMsg", base.GetFieldProperties(), -870793499, 970426235);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

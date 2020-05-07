@@ -36,7 +36,10 @@ namespace SQEX.Ebony.Framework.Sequence.Tray
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Tray.MenuLogicTray", base.GetFieldProperties(), -1188443922, -1883148188);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

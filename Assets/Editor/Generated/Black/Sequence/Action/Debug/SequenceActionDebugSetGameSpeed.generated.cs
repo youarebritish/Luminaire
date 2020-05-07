@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugSetGameSpeed", base.GetFieldProperties(), -1496552690, -150131488);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

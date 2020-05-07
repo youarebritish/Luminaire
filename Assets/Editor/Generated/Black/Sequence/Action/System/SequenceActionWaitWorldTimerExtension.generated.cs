@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionWaitWorldTimerExtension", base.GetFieldProperties(), 1351221605, 1504646491);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

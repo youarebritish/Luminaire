@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionCheckCooperationCount", base.GetFieldProperties(), -686077181, 1849650600);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

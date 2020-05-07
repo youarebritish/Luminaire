@@ -40,7 +40,10 @@ namespace Black.Save.Multiplay
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Multiplay.SaveAvatarColor", null, -1901913412, -169482275);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

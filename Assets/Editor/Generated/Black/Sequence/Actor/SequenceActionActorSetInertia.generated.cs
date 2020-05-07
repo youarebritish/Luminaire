@@ -42,7 +42,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetInertia", base.GetFieldProperties(), -2111259632, 2099625350);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

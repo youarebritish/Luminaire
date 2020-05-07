@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetKeyConfigForTutorial", base.GetFieldProperties(), -1324108624, 515258298);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

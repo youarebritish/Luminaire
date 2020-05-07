@@ -58,7 +58,10 @@ namespace Black.Sequence.Action.Angle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Angle.SequenceActionCameraAngleCrossDirection", base.GetFieldProperties(), -428476733, 1967878863);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

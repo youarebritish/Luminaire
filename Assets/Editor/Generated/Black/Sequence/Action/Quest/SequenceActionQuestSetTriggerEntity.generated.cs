@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Quest.SequenceActionQuestSetTriggerEntity", base.GetFieldProperties(), -76038346, -1313735117);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

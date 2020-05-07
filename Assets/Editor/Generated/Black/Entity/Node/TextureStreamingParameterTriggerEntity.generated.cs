@@ -38,7 +38,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.TextureStreamingParameterTriggerEntity", base.GetFieldProperties(), 1397865198, -348859942);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

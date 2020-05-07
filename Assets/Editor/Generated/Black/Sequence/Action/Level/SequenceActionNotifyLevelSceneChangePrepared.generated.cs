@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionNotifyLevelSceneChangePrepared", base.GetFieldProperties(), -846651497, 1280625409);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -41,7 +41,10 @@ namespace Black.AIGraph.CondNode.AI
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.CondNode.AI.AICondNodeTargetAngle", base.GetFieldProperties(), 2083356863, -1108957010);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionSetNavSoundEnable", base.GetFieldProperties(), -1183192668, 440596022);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

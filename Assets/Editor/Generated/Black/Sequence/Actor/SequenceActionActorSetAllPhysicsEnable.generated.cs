@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetAllPhysicsEnable", base.GetFieldProperties(), -1750561909, -1203470015);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

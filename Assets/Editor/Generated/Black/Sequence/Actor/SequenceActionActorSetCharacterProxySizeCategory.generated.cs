@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetCharacterProxySizeCategory", base.GetFieldProperties(), 534639520, -596823322);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

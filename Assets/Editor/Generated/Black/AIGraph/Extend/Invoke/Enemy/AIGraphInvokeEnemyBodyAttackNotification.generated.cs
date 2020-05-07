@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyBodyAttackNotification", base.GetFieldProperties(), 1266971849, -1462689074);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

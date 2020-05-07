@@ -46,7 +46,10 @@ namespace Black.Save.Ability
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveAbilityStruct", null, -681977700, 78742591);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

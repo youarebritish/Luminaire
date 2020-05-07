@@ -41,7 +41,10 @@ namespace Black.Sequence.Variable.Labeled
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.Labeled.SequenceVariableLabeledCommonBase", base.GetFieldProperties(), -1130013867, 166230714);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

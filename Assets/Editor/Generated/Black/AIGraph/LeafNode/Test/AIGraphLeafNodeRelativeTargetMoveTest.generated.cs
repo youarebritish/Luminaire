@@ -43,7 +43,10 @@ namespace Black.AIGraph.LeafNode.Test
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeRelativeTargetMoveTest", base.GetFieldProperties(), -1899808779, -1188885355);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

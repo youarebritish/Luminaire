@@ -40,7 +40,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.WeatherData2Entity", base.GetFieldProperties(), 864614679, 1804167017);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

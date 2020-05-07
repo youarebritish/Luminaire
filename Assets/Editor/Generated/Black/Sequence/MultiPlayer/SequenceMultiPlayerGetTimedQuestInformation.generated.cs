@@ -50,7 +50,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetTimedQuestInformation", base.GetFieldProperties(), -2142966217, 758995474);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.System.TimeLine.TrackItem.Render
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.SpotLightTrackItem", base.GetFieldProperties(), -1300881162, 715311173);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

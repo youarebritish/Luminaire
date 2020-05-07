@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.AirShip
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.AirShip.AIGraphInvokeStopAircraftMoveNoise", base.GetFieldProperties(), -942215201, 291377707);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

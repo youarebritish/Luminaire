@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Actor.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorSetSortie", base.GetFieldProperties(), -2058090514, -1411917171);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

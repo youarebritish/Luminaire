@@ -40,7 +40,10 @@ namespace Black.AIGraph.LeafNode.AI.Move.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Nifl.AILeafNodeFlyRetreat", base.GetFieldProperties(), 599278891, -35487988);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Monster.AIGraphExpressionInvokeGetElapsedTimeFromDestruction", base.GetFieldProperties(), -614494025, 405609354);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

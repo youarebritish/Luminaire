@@ -36,7 +36,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstReinforcePointEntity", base.GetFieldProperties(), -797792353, -862930949);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Physics.BgCollision", null, 150801921, 553557005);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

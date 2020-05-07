@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Light
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Light.SequenceActionSwitchPlayerLight", base.GetFieldProperties(), -599637354, 2119778087);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

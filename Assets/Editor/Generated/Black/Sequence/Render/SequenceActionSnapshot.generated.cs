@@ -45,7 +45,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSnapshot", base.GetFieldProperties(), 925472905, -628505529);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

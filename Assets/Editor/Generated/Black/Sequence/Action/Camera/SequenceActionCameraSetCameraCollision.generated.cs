@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraSetCameraCollision", base.GetFieldProperties(), 760341741, 1368440393);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

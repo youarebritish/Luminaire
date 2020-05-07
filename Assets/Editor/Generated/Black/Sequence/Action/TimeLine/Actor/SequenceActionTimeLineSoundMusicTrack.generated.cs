@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.TimeLine.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundMusicTrack", base.GetFieldProperties(), 207382691, 246687362);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeFreezeAnimation", base.GetFieldProperties(), -887253331, 891815976);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

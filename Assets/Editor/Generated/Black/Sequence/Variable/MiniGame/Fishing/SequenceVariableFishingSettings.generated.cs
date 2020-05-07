@@ -118,7 +118,10 @@ namespace Black.Sequence.Variable.Minigame.Fishing
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.Minigame.Fishing.SequenceVariableFishingSettings", base.GetFieldProperties(), -1239572252, 15521117);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

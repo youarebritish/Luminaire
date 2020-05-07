@@ -36,7 +36,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.MergedStaticModelEntity", base.GetFieldProperties(), -1439379028, -1511476149);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

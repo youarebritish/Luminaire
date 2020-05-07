@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Minigame.ChocoboRace
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Minigame.ChocoboRace.SequenceActionChocoboRaceTipster", base.GetFieldProperties(), -1140543375, 1230194946);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

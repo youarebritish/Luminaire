@@ -38,7 +38,10 @@ namespace Black.Sequence.Actor.AI.StrongPoint
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.StrongPoint.SequenceVariableAIStrongPoint", base.GetFieldProperties(), -674069201, 1698672718);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

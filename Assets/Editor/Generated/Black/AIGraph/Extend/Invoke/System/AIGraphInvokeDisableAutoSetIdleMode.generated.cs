@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.System
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeDisableAutoSetIdleMode", base.GetFieldProperties(), -816689491, -2015377760);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MarkerInfoEntityEPI", base.GetFieldProperties(), 1733259195, 1424705957);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

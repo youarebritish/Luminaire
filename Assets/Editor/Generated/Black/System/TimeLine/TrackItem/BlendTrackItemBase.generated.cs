@@ -40,7 +40,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.BlendTrackItemBase", base.GetFieldProperties(), -1381974853, 224980518);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.FaceToFaceEntityEPI", base.GetFieldProperties(), -1108217775, 4878454);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

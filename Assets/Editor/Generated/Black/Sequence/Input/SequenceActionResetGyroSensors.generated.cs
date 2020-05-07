@@ -38,7 +38,10 @@ namespace Black.Sequence.Input
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Input.SequenceActionResetGyroSensors", base.GetFieldProperties(), -980007841, 178723841);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

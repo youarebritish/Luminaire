@@ -36,7 +36,10 @@ namespace Black.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.ActorDiffuseLightProbe", base.GetFieldProperties(), -167287041, 1486271940);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

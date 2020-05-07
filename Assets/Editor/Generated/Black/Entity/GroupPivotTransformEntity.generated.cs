@@ -36,7 +36,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.GroupPivotTransformEntity", base.GetFieldProperties(), 1797966677, 87987938);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

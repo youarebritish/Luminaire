@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionGetClearFlag", base.GetFieldProperties(), 311797124, -996751094);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

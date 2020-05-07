@@ -37,7 +37,10 @@ namespace Black.Actor.Component.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Sound.CharacterCryClipComponentData", base.GetFieldProperties(), -205557197, -992620204);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

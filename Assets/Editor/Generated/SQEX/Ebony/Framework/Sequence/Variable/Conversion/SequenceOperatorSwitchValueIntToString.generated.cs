@@ -60,7 +60,10 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Conversion
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceOperatorSwitchValueIntToString", base.GetFieldProperties(), -1756623990, 68268498);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

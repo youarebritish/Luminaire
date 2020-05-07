@@ -37,7 +37,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MainParamGaugeEntity", base.GetFieldProperties(), 542773348, 1101245062);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

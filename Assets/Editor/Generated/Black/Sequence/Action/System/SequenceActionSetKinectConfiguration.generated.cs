@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetKinectConfiguration", base.GetFieldProperties(), 1228777233, 2006046824);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

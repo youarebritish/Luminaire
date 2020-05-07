@@ -58,7 +58,10 @@ namespace Black.Sequence.Actor.AI.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Nifl.SequenceActionAISettingPartsBreakParameter", base.GetFieldProperties(), -1232637512, -244202149);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

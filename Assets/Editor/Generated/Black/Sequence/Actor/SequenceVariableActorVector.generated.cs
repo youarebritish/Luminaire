@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceVariableActorVector", base.GetFieldProperties(), 1145273089, 412994880);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

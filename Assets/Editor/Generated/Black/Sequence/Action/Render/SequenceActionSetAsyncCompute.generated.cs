@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetAsyncCompute", base.GetFieldProperties(), -1758270951, 1237158230);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

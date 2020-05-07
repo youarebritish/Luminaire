@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.DebugCampScriptItem", base.GetFieldProperties(), 593959274, -1807307266);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.NaviCurveProgressPointEntity", base.GetFieldProperties(), 1073746251, -75145605);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

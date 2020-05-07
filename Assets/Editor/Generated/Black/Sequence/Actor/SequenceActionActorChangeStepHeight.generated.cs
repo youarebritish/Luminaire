@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorChangeStepHeight", base.GetFieldProperties(), 729412642, 1025649688);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

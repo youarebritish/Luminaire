@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodePrepareJobCommand", base.GetFieldProperties(), 1979324715, 1060578645);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -66,7 +66,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.HairModelEntity", base.GetFieldProperties(), 1852397041, 1825241041);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetTestKitTemporalModePD", base.GetFieldProperties(), -937809320, 1569489459);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

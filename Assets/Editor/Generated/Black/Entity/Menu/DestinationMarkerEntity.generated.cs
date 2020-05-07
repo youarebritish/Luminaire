@@ -39,7 +39,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.DestinationMarkerEntity", base.GetFieldProperties(), 1705843083, -199364736);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

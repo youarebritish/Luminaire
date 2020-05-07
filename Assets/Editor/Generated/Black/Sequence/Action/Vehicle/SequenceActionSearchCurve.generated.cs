@@ -67,7 +67,10 @@ namespace Black.Sequence.Action.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionSearchCurve", base.GetFieldProperties(), -196027678, -1652073502);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

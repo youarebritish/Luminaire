@@ -37,7 +37,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.SpawnBoxNodeEntity", base.GetFieldProperties(), -1778734175, -798560391);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable.Labeled.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.Labeled.Struct.LabeledVariableData", base.GetFieldProperties(), -2121011631, 655723835);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

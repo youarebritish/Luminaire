@@ -40,7 +40,10 @@ namespace Black.Sequence.Event.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceEventMenuInputNOX", base.GetFieldProperties(), -1527116788, -1927687753);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

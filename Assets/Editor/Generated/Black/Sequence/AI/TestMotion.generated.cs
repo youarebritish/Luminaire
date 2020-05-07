@@ -42,7 +42,10 @@ namespace Black.Sequence.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.AI.TestMotion", base.GetFieldProperties(), 10342235, 1374231438);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

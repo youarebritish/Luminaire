@@ -44,7 +44,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionColorFadeOut", base.GetFieldProperties(), -820306363, 684348872);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

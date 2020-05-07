@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.CrosshairSpinerRifleEntityEPP", base.GetFieldProperties(), 1377238484, -16781087);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

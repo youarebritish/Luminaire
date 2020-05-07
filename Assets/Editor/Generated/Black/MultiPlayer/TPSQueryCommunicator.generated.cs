@@ -36,7 +36,10 @@ namespace Black.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.TPSQueryCommunicator", base.GetFieldProperties(), 1118640307, -386692731);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

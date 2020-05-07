@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Actor.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Animation.SequenceActionActorAutoNeckRotation", base.GetFieldProperties(), -305392936, 1855013820);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

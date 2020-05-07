@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionSetupNiflBaseSoldier", base.GetFieldProperties(), -624662653, -301415401);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

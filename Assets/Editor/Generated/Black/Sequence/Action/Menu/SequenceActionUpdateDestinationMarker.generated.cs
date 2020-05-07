@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionUpdateDestinationMarker", base.GetFieldProperties(), -2003277152, 1125529974);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.TubeLightEntity", base.GetFieldProperties(), 1955393733, -1741382911);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

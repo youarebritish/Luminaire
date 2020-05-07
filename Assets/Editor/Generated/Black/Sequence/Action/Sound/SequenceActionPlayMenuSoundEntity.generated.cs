@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sound.SequenceActionPlayMenuSoundEntity", base.GetFieldProperties(), -1390912998, 761316501);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

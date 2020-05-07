@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionLoadOnlineContentSchedule", base.GetFieldProperties(), 1565354593, 771609664);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

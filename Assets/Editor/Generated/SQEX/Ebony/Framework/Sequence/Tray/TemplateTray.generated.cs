@@ -37,7 +37,10 @@ namespace SQEX.Ebony.Framework.Sequence.Tray
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Tray.TemplateTray", base.GetFieldProperties(), 1866763753, 940885419);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

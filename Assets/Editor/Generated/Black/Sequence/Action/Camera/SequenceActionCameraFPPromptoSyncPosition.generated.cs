@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraFPPromptoSyncPosition", base.GetFieldProperties(), 1064393654, -364752013);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

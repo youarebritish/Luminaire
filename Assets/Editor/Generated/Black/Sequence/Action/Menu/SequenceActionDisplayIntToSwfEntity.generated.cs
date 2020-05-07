@@ -50,7 +50,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionDisplayIntToSwfEntity", base.GetFieldProperties(), -951917984, 1308230651);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.PostEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.PostEffect.SequenceActionSetSSR", base.GetFieldProperties(), -587831579, -1928589114);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

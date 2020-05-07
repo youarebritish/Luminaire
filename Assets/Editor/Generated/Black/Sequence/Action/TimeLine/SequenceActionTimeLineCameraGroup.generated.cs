@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.TimeLine
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineCameraGroup", base.GetFieldProperties(), 99242256, -1020291260);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

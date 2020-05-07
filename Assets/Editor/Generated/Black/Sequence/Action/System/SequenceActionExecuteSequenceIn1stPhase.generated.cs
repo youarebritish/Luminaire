@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionExecuteSequenceIn1stPhase", base.GetFieldProperties(), 734124107, 2008882364);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

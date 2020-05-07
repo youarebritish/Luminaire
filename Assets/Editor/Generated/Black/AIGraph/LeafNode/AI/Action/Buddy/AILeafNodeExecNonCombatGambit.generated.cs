@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeExecNonCombatGambit", base.GetFieldProperties(), 551277590, -787795431);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

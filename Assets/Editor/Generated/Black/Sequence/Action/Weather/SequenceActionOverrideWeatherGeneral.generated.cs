@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Weather
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.SequenceActionOverrideWeatherGeneral", base.GetFieldProperties(), -837106037, -1122405066);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

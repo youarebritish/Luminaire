@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.PhotoModeMenuEntity", base.GetFieldProperties(), -669407760, 827983498);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

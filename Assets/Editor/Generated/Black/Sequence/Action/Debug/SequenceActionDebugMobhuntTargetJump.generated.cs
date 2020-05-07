@@ -50,7 +50,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugMobhuntTargetJump", base.GetFieldProperties(), -195049386, 1062605403);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

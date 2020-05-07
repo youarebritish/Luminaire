@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.FishingReelSelectMenuEntity", base.GetFieldProperties(), 920021210, 1611859402);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

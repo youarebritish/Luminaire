@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeClimateChangeArea", base.GetFieldProperties(), 1623906063, -289481725);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

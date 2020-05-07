@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeRequestRemoteEvent", base.GetFieldProperties(), 1601970780, 1009575940);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

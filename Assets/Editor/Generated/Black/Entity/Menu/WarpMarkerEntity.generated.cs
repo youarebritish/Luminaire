@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.WarpMarkerEntity", base.GetFieldProperties(), -1446589765, -2135998832);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.TimeLine.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraShakeTrackNormalCurve", base.GetFieldProperties(), -371611817, -1786498253);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.SuppressionInfoMenuEntityEPI", base.GetFieldProperties(), -200678124, 711820912);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

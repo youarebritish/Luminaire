@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugSetAutoBattleMode", base.GetFieldProperties(), -537341071, -1111153242);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

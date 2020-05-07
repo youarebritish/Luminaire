@@ -39,7 +39,10 @@ namespace Black.Sequence.Operator
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.SequenceOperatorScreenPositionAlign", base.GetFieldProperties(), 980604949, 449822137);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

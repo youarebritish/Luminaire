@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionCreateAvoidArea", base.GetFieldProperties(), -1688314260, 164482235);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

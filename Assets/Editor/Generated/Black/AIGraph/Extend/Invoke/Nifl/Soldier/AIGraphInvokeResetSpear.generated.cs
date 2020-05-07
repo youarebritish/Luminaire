@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeResetSpear", base.GetFieldProperties(), -1531285527, 1684607757);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

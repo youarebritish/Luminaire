@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologySetDynamicCreateProgressTime", base.GetFieldProperties(), -1287661037, 1619479599);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

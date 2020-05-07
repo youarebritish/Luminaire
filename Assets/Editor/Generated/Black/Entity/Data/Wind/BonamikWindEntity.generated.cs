@@ -85,7 +85,10 @@ namespace Black.Entity.Data.Wind
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Wind.BonamikWindEntity", base.GetFieldProperties(), -1920326348, -65371055);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

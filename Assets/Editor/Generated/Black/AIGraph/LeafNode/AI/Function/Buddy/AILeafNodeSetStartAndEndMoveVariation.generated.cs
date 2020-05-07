@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetStartAndEndMoveVariation", base.GetFieldProperties(), -587906037, -8205382);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

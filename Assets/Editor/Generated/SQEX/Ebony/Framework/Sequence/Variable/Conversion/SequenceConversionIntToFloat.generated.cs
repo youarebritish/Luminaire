@@ -38,7 +38,10 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Conversion
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceConversionIntToFloat", base.GetFieldProperties(), 308718720, 1960031087);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

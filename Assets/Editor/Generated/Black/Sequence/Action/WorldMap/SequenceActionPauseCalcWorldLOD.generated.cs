@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.WorldMap.SequenceActionPauseCalcWorldLOD", base.GetFieldProperties(), -1088674536, -2069613891);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

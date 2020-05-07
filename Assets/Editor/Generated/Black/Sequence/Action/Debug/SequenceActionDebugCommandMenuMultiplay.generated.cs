@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugCommandMenuMultiplay", base.GetFieldProperties(), -69529912, -1489660349);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

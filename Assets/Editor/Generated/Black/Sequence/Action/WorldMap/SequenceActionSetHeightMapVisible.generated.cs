@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.WorldMap.SequenceActionSetHeightMapVisible", base.GetFieldProperties(), -707122739, 224525487);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

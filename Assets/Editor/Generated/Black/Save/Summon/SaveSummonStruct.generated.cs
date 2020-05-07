@@ -43,7 +43,10 @@ namespace Black.Save.Summon
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Summon.SaveSummonStruct", null, -1607095546, 1589964428);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

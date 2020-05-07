@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Level.Mission.Titan
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Mission.Titan.SequenceActionRideSpearParry", base.GetFieldProperties(), -1207211838, 1719116248);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

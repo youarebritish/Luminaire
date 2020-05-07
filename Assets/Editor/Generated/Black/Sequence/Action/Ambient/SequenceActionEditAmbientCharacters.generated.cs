@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ambient.SequenceActionEditAmbientCharacters", base.GetFieldProperties(), -1745115188, -1047383602);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

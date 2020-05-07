@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionBetsukodoQuest", base.GetFieldProperties(), 1040509445, 1387893044);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.WeaponMenuEntityForMulti", base.GetFieldProperties(), 326897877, -1203859313);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

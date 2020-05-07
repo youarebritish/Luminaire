@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetForceEmotion", base.GetFieldProperties(), -1751885236, -193782961);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

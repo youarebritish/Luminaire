@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifySoldierDropOff", base.GetFieldProperties(), -665642188, -737349388);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Area
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Area.RotateMapPackage", base.GetFieldProperties(), -1315725765, -347266662);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

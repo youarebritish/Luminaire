@@ -38,7 +38,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetGameState", base.GetFieldProperties(), -1574877924, -1290241808);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Shop
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Shop.SequenceActionShop", base.GetFieldProperties(), 1895481347, -667512516);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

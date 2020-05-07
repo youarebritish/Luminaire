@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Actor.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Animation.SequenceActionActorPlayAlembicAnimation", base.GetFieldProperties(), 528217069, 1617325687);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Enemy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Enemy.AIGraphExpressionInvokeIsEnemyPartsOnGround", base.GetFieldProperties(), -419164251, 277917568);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

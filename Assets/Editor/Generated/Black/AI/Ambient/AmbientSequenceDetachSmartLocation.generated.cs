@@ -37,7 +37,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSequenceDetachSmartLocation", base.GetFieldProperties(), -581090854, -6959548);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

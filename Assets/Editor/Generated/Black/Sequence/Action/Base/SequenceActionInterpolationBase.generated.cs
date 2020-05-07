@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Base
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Base.SequenceActionInterpolationBase", base.GetFieldProperties(), -948426119, -1510371568);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

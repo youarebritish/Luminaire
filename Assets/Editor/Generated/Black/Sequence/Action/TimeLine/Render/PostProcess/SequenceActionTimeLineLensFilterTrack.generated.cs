@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineLensFilterTrack", base.GetFieldProperties(), -1836745835, -1497349158);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

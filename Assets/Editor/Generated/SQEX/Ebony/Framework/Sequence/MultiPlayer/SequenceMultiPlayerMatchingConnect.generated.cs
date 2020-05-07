@@ -42,7 +42,10 @@ namespace SQEX.Ebony.Framework.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.MultiPlayer.SequenceMultiPlayerMatchingConnect", base.GetFieldProperties(), 1915313511, 1962601577);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

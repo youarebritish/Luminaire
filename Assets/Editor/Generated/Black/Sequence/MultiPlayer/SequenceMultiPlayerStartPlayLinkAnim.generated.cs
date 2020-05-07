@@ -40,7 +40,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerStartPlayLinkAnim", base.GetFieldProperties(), -1699787818, -1194752029);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

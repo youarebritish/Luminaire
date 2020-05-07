@@ -39,7 +39,10 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnBlendBase", base.GetFieldProperties(), -1195701191, 769138181);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

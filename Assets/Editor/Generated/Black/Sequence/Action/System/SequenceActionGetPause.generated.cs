@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGetPause", base.GetFieldProperties(), 1521665525, -195503130);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

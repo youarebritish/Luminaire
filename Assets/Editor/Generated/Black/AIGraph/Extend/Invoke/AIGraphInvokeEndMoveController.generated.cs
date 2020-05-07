@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeEndMoveController", base.GetFieldProperties(), 1435434379, 1400552730);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

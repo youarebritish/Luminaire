@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionChangeAirCraftState", base.GetFieldProperties(), -375764255, 460671430);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

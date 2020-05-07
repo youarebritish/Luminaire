@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraResetRightStickInput", base.GetFieldProperties(), -48183287, 635092628);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionAddJobCommandGaugeLevel", base.GetFieldProperties(), -1053641797, -287988202);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

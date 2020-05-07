@@ -63,7 +63,10 @@ namespace Black.Sequence.Action.Weather
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.SequenceActionTimeOfDay", base.GetFieldProperties(), 1371863222, -1288463538);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

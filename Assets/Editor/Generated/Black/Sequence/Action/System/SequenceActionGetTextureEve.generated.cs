@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGetTextureEve", base.GetFieldProperties(), 1916018801, -883233123);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

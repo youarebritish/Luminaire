@@ -76,7 +76,10 @@ namespace Black.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.WorldMap.TerrainCurveNaviData", base.GetFieldProperties(), -865080503, 826699559);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

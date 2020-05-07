@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetFlinchArmor", base.GetFieldProperties(), 92477379, -527992192);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

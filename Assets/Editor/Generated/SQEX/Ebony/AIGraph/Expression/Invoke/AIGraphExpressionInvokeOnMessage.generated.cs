@@ -36,7 +36,10 @@ namespace SQEX.Ebony.AIGraph.Expression.Invoke
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Expression.Invoke.AIGraphExpressionInvokeOnMessage", base.GetFieldProperties(), -1469959673, 735262562);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

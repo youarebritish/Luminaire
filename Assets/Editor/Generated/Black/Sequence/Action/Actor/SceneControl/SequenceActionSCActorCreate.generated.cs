@@ -81,7 +81,10 @@ namespace Black.Sequence.Action.Actor.SceneControl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SceneControl.SequenceActionSCActorCreate", base.GetFieldProperties(), 860672597, -1426692639);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

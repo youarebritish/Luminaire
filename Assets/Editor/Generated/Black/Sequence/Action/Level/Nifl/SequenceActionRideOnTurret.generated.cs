@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionRideOnTurret", base.GetFieldProperties(), -694646721, -2034980541);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

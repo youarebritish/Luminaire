@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugCampFoodMenuSelect", base.GetFieldProperties(), -665629029, -1403294304);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

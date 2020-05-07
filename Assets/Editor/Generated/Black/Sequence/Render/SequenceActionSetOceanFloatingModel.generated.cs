@@ -41,7 +41,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetOceanFloatingModel", base.GetFieldProperties(), 473098897, 2132595270);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

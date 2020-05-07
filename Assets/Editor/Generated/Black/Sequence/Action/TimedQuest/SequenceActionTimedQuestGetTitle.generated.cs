@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.TimedQuest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimedQuest.SequenceActionTimedQuestGetTitle", base.GetFieldProperties(), 271695840, 300168005);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafClearInterrupt", base.GetFieldProperties(), 1922569935, 2111059546);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

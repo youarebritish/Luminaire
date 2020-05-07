@@ -39,7 +39,10 @@ namespace Black.Sequence.Control.StartSequence
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.StartSequence.SequenceConstStartSequenceCommand", base.GetFieldProperties(), -1222941898, 1335775209);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

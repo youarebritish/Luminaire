@@ -44,7 +44,10 @@ namespace Black.Sequence.Train
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Train.SequenceActionTrainChangeVelocity", base.GetFieldProperties(), 1673274698, -1808263512);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

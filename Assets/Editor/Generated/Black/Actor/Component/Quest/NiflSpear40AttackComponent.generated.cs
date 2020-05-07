@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Quest.NiflSpear40AttackComponent", null, 1937573592, 1588451978);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

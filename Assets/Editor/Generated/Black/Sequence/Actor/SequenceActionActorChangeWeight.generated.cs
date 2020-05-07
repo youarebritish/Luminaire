@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorChangeWeight", base.GetFieldProperties(), -1616567262, -865857036);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

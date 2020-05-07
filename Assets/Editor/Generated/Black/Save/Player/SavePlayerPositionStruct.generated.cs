@@ -9,7 +9,7 @@ namespace Black.Save.Player
         private static PropertyContainer fieldProperties;
 		
 		public bool available_;
-		public double[] double_vector_;
+		public SQEX.Luminous.Math.DoubleVector4 double_vector_;
 		public UnityEngine.Vector4 rotation_;
 		
         
@@ -39,7 +39,10 @@ namespace Black.Save.Player
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Player.SavePlayerPositionStruct", null, -1276031611, -1240206129);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

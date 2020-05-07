@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.StatusPanelIgnisMenuEntity", base.GetFieldProperties(), 1112248508, 462765370);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

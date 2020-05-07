@@ -41,7 +41,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableEncycloArchiveAdditionalRate", base.GetFieldProperties(), 915725436, 1452787688);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -74,7 +74,10 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstDataGrid", base.GetFieldProperties(), -553805739, 1052445092);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

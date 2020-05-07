@@ -41,7 +41,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetOceanLocalizedWave", base.GetFieldProperties(), -880848153, -578721032);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

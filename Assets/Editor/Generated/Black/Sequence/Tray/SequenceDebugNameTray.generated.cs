@@ -37,7 +37,10 @@ namespace Black.Sequence.Tray
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Tray.SequenceDebugNameTray", base.GetFieldProperties(), -1337604035, -1624576292);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

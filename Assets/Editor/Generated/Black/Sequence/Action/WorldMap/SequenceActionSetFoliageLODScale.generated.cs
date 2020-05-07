@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.WorldMap.SequenceActionSetFoliageLODScale", base.GetFieldProperties(), 2124139937, -1611897732);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

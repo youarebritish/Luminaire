@@ -36,7 +36,10 @@ namespace Black.AIGraph.CondNode.AI
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.CondNode.AI.AICondNodeCheckGlideLanding", base.GetFieldProperties(), -1840980939, -1910603433);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

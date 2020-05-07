@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeTransitPartsState", base.GetFieldProperties(), -431262220, -823226679);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

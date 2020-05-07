@@ -52,7 +52,10 @@ namespace Black.Save.Config
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveGameConfigStruct", null, -967475886, 865735656);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level.Battle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Battle.SequenceActionGetDeathCount", base.GetFieldProperties(), -865331135, 371629534);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

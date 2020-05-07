@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.TimeLine.Actor.Material
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialVectorTrack", base.GetFieldProperties(), -1726964693, -1208146226);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

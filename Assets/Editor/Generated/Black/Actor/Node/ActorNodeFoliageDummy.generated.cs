@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeFoliageDummy", base.GetFieldProperties(), -46465890, -2042515221);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

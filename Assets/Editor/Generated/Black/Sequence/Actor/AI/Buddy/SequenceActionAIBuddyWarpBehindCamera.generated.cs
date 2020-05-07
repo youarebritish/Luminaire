@@ -42,7 +42,10 @@ namespace Black.Sequence.Actor.AI.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddyWarpBehindCamera", base.GetFieldProperties(), -1202231046, -395100361);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

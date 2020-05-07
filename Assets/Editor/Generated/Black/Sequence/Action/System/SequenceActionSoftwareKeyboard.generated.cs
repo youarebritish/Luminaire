@@ -48,7 +48,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSoftwareKeyboard", base.GetFieldProperties(), 1535937367, 73626891);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

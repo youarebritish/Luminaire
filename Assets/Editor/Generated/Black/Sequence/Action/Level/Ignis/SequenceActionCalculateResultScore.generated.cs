@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level.Ignis
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Ignis.SequenceActionCalculateResultScore", base.GetFieldProperties(), 67363775, 726029513);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Action
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeReturnToTerritory", base.GetFieldProperties(), -887909349, -989084252);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

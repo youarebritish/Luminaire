@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.Body.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Nifl.BodyLeafNodeBeginNiflBurst", base.GetFieldProperties(), 415570332, 1879103086);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

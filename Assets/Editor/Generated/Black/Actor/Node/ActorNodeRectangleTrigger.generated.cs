@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeRectangleTrigger", base.GetFieldProperties(), 1778063453, 651491117);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

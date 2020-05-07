@@ -43,7 +43,10 @@ namespace Black.Actor.Component.SpecialAnim.CordAnim
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.SpecialAnim.CordAnim.CordAnimationComponentData", base.GetFieldProperties(), 1394393593, 1203659094);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

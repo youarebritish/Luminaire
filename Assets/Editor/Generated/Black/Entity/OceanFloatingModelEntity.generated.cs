@@ -40,7 +40,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.OceanFloatingModelEntity", base.GetFieldProperties(), -2129348248, -834126960);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionNiflBaseAIManagerStart", base.GetFieldProperties(), -1016139953, 1424694952);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

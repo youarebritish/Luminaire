@@ -40,7 +40,10 @@ namespace Black.Sequence.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlLabeledSequence", base.GetFieldProperties(), 739400600, 1870408840);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

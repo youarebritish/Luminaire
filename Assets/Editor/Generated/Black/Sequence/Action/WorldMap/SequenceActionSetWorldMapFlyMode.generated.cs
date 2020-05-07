@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.WorldMap.SequenceActionSetWorldMapFlyMode", base.GetFieldProperties(), -137834510, 285565605);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.AI.EnableNavOffMeshLink", base.GetFieldProperties(), 1216148477, -1732751228);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

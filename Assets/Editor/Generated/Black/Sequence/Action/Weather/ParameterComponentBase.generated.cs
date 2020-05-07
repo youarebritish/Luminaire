@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Weather
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.ParameterComponentBase", base.GetFieldProperties(), 700409412, -597937554);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

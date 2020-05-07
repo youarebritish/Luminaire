@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Action
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeExecActionLODProtected", base.GetFieldProperties(), -99006998, -1939048822);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

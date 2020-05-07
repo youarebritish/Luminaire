@@ -40,7 +40,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeSetEmotion", base.GetFieldProperties(), 1684818850, -1163409848);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

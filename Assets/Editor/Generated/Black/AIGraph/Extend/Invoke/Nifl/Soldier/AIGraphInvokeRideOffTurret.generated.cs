@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeRideOffTurret", base.GetFieldProperties(), 632072255, -525944347);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -69,7 +69,10 @@ namespace Black.Sequence.PostEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.PostEffect.SequenceActionSetVolLightFilter2", base.GetFieldProperties(), 1656465513, -1985204164);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

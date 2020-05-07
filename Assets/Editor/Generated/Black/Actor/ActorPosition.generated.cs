@@ -9,7 +9,7 @@ namespace Black.Actor
         private static PropertyContainer fieldProperties;
 		
 		public float baseScale_;
-		public double[] worldPosition_;
+		public SQEX.Luminous.Math.DoubleVector4 worldPosition_;
 		public UnityEngine.Vector4 rotation_;
 		public UnityEngine.Vector4 scaling_;
 		public Black.Actor.Actor.ConstraintInfo constraintInfo_;
@@ -41,7 +41,10 @@ namespace Black.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.ActorPosition", base.GetFieldProperties(), 1292519168, -705325875);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

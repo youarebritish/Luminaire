@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionSetTurretHeatParams", base.GetFieldProperties(), -2007649561, -1666062147);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

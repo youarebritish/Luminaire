@@ -42,7 +42,10 @@ namespace Black.Entity.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.WorldMapPackageInfo", base.GetFieldProperties(), -115184380, 1089834305);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

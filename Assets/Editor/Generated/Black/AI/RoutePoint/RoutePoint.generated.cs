@@ -36,7 +36,10 @@ namespace Black.AI.RoutePoint
             }
 
             fieldProperties = new PropertyContainer("Black.AI.RoutePoint.RoutePoint", base.GetFieldProperties(), 1622111573, -774833011);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

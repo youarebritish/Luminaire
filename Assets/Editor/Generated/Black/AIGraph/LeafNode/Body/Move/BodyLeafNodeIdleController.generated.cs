@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.Body.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Move.BodyLeafNodeIdleController", base.GetFieldProperties(), 1637769271, 1864145323);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

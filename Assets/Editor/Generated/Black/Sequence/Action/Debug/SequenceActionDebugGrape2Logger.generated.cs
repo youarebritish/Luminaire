@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugGrape2Logger", base.GetFieldProperties(), 1295497221, 666170496);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

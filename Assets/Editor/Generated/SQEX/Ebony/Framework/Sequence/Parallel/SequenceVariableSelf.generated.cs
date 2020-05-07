@@ -37,7 +37,10 @@ namespace SQEX.Ebony.Framework.Sequence.Parallel
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Parallel.SequenceVariableSelf", base.GetFieldProperties(), 113781260, -351102592);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

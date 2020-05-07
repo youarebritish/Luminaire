@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaProgress", base.GetFieldProperties(), -2111490433, -1695153001);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

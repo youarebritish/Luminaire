@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.ColosseumExchangeCoinEntity", base.GetFieldProperties(), -89866845, -1722499886);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

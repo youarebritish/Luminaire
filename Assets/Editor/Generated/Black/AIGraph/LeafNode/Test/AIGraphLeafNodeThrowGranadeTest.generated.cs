@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.Test
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeThrowGranadeTest", base.GetFieldProperties(), -2055239737, 663437621);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

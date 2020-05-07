@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeCheckBurstAttackHit", base.GetFieldProperties(), 1291950560, -1887665411);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

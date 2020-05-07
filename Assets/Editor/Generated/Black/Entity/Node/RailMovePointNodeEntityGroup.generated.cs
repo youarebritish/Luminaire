@@ -40,7 +40,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.RailMovePointNodeEntityGroup", base.GetFieldProperties(), 1510819898, 198280633);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

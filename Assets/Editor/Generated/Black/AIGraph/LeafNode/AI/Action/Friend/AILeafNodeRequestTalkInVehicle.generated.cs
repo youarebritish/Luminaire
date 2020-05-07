@@ -41,7 +41,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Friend
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeRequestTalkInVehicle", base.GetFieldProperties(), 372766507, -1376750631);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

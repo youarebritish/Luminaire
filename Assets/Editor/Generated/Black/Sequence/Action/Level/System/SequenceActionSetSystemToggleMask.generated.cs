@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionSetSystemToggleMask", base.GetFieldProperties(), 603722762, 1026040037);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

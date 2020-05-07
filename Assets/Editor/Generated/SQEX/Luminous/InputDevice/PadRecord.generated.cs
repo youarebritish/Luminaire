@@ -37,7 +37,10 @@ namespace SQEX.Luminous.InputDevice
             }
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.InputDevice.PadRecord", null, -828597274, -106467037);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

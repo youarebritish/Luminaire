@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeEnableBonamikGroup", base.GetFieldProperties(), 1681547666, 1230161761);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

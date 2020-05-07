@@ -43,7 +43,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.AOLightEntity", base.GetFieldProperties(), 1384017094, 1529272373);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

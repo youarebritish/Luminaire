@@ -48,7 +48,10 @@ namespace Black.AIGraph.LeafNode.AI.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeWarpToTarget", base.GetFieldProperties(), 415373291, 1099973546);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

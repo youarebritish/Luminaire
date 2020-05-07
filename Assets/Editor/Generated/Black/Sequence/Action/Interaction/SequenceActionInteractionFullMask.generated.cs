@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Interaction
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Interaction.SequenceActionInteractionFullMask", base.GetFieldProperties(), -1991880698, 1849065412);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

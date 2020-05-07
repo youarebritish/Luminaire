@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Camera.AILeafNodeReserveCameraSequenceEvent", base.GetFieldProperties(), -1336443069, -88808366);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

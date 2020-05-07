@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionUpdateDinerMapIcon", base.GetFieldProperties(), -103166647, -281961013);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

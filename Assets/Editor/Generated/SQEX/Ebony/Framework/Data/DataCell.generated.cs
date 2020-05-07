@@ -38,7 +38,10 @@ namespace SQEX.Ebony.Framework.Data
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Data.DataCell", base.GetFieldProperties(), -1821825133, 1720487193);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

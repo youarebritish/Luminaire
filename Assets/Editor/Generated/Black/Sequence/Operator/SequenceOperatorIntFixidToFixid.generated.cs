@@ -38,7 +38,10 @@ namespace Black.Sequence.Operator
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.SequenceOperatorIntFixidToFixid", base.GetFieldProperties(), 1861914757, -77064345);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

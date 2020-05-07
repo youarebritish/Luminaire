@@ -36,7 +36,10 @@ namespace Black.Main.GameMode
             }
 
             fieldProperties = new PropertyContainer("Black.Main.GameMode.FieldMode", null, -1920176986, 809589677);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

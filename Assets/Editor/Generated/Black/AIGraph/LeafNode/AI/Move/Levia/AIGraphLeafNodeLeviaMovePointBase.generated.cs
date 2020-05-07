@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Move.Levia
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Levia.AIGraphLeafNodeLeviaMovePointBase", base.GetFieldProperties(), -1829191978, -1301353059);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

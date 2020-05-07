@@ -51,7 +51,10 @@ namespace Black.Sequence.Actor.AI.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddyCheckSubLocation", base.GetFieldProperties(), 2040144236, -572741183);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

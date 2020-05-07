@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetTitleHighlightFlag", base.GetFieldProperties(), 912389470, -1323653267);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

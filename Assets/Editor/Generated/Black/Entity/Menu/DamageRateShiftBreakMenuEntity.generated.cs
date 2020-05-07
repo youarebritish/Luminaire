@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.DamageRateShiftBreakMenuEntity", base.GetFieldProperties(), -764048142, -515351029);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

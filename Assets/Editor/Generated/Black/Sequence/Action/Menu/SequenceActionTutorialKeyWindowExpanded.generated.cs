@@ -73,7 +73,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded", base.GetFieldProperties(), 1137473737, 1507390830);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

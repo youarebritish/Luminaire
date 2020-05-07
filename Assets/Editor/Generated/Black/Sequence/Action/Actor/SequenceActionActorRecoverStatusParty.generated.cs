@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorRecoverStatusParty", base.GetFieldProperties(), 1216958326, -42305638);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

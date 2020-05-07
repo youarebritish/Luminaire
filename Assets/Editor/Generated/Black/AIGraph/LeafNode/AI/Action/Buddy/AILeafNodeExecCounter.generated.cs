@@ -40,7 +40,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeExecCounter", base.GetFieldProperties(), -484423472, 1328062685);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

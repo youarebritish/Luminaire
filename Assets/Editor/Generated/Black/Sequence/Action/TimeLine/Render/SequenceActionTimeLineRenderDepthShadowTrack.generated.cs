@@ -73,7 +73,10 @@ namespace Black.Sequence.Action.TimeLine.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineRenderDepthShadowTrack", base.GetFieldProperties(), 1968293322, -617474687);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

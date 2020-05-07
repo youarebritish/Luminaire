@@ -48,7 +48,10 @@ namespace Black.Entity.Ocean
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Ocean.OceanLocalizedWaveEntity", base.GetFieldProperties(), 736611447, -276032441);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

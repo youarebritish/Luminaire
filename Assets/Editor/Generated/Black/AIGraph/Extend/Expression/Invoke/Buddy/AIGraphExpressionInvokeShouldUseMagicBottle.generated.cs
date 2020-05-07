@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeShouldUseMagicBottle", base.GetFieldProperties(), 83655731, 691660840);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

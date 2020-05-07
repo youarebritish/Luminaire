@@ -36,7 +36,10 @@ namespace Black.Actor.Component.PadControl
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.PadControl.IActorPadControl", null, 111289812, 1382251678);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

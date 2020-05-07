@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionGetNewGamePlusFlag", base.GetFieldProperties(), 1409142971, 595658200);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

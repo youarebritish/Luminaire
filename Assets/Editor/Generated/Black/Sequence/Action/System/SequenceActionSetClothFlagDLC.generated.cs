@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetClothFlagDLC", base.GetFieldProperties(), 934708747, -575645953);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

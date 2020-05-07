@@ -60,7 +60,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.VWGlareFilterSequenceData", base.GetFieldProperties(), 2008622319, -20028584);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

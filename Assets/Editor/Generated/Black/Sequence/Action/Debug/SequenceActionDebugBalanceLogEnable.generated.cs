@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugBalanceLogEnable", base.GetFieldProperties(), -1067731627, -1775265664);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

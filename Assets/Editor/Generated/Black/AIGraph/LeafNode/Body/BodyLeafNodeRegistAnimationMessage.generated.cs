@@ -39,7 +39,10 @@ namespace Black.AIGraph.LeafNode.Body
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.BodyLeafNodeRegistAnimationMessage", base.GetFieldProperties(), 1887157848, 1001175757);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

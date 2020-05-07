@@ -36,7 +36,10 @@ namespace SQEX.Ebony.Framework.Entity.Prefab
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Entity.Prefab.Prefab", base.GetFieldProperties(), 773884001, -1826627268);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

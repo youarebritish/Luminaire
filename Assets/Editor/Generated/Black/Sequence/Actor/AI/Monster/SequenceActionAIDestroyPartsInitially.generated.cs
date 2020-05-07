@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionAIDestroyPartsInitially", base.GetFieldProperties(), 454590290, -1059506537);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

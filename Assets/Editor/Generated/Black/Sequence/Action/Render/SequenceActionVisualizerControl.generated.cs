@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionVisualizerControl", base.GetFieldProperties(), -1599364316, -408569985);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

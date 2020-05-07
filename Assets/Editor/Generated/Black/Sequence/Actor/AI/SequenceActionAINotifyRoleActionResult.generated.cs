@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAINotifyRoleActionResult", base.GetFieldProperties(), 863205724, 1128359728);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

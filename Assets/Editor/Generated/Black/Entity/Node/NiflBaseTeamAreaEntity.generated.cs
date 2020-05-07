@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.NiflBaseTeamAreaEntity", base.GetFieldProperties(), 483211751, -323960091);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

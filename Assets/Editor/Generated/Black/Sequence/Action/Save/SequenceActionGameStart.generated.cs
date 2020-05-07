@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionGameStart", base.GetFieldProperties(), 141376520, -1885042972);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

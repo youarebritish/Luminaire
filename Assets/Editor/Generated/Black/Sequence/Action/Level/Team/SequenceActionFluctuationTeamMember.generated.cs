@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.Team
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Team.SequenceActionFluctuationTeamMember", base.GetFieldProperties(), 1148841415, -1560785249);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

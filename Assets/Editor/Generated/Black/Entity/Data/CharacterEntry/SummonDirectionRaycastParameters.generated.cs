@@ -39,7 +39,10 @@ namespace Black.Entity.Data.CharacterEntry
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters", base.GetFieldProperties(), 686008555, -57269070);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

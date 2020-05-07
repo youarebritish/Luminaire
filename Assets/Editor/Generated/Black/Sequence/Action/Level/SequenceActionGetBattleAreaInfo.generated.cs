@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetBattleAreaInfo", base.GetFieldProperties(), -648226596, -1566751290);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

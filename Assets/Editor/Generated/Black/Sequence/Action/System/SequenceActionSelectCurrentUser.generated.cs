@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSelectCurrentUser", base.GetFieldProperties(), -863541144, -1795572321);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

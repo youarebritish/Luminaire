@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.StatusGrow
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorGetLevel", base.GetFieldProperties(), -759572761, 1288954678);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Sequence.Event.Labeled
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Labeled.SequenceEventOnchangedLabeledVariableFixId", base.GetFieldProperties(), 584263652, -248131269);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetNoncombatGambit", base.GetFieldProperties(), -70914640, 911047762);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

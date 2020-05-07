@@ -48,7 +48,10 @@ namespace Black.Sequence.Action.TimeLine.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineExposureTrack", base.GetFieldProperties(), 613391715, -1635142565);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Sequence.Actor.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAIGetAroundActorCount", base.GetFieldProperties(), -1281663718, 1653449027);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

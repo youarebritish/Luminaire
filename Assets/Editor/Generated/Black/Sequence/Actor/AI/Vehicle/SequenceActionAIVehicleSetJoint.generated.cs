@@ -46,7 +46,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleSetJoint", base.GetFieldProperties(), -2077261431, -1609847225);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

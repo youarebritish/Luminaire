@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionAddSuppressionAreaEnemy", base.GetFieldProperties(), -1339079033, 292832458);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetChatInfo", base.GetFieldProperties(), 1953055066, -1703074087);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

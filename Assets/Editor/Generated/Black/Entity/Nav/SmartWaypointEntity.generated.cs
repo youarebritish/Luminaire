@@ -37,7 +37,10 @@ namespace Black.Entity.Nav
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Nav.SmartWaypointEntity", base.GetFieldProperties(), -713741991, 1436506583);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

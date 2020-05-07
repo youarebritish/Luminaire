@@ -42,7 +42,10 @@ namespace Black.Entity.Map
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationPylonEntity", base.GetFieldProperties(), 1872146967, -828872621);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugActorStatusGauge", base.GetFieldProperties(), 1677611312, 895138378);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

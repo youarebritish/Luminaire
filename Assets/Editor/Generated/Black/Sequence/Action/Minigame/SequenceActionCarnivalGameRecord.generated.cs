@@ -48,7 +48,10 @@ namespace Black.Sequence.Action.MiniGame
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.MiniGame.SequenceActionCarnivalGameRecord", base.GetFieldProperties(), 30283874, -93550211);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -44,7 +44,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionSetBlurGBuffer", base.GetFieldProperties(), 1764341121, 1896623955);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

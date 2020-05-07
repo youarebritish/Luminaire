@@ -42,7 +42,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.MeshCoillisionEntity", base.GetFieldProperties(), -1132459727, -260558039);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -41,7 +41,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharaEntryIDResourceFileList", base.GetFieldProperties(), 1191484260, -1315451441);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorAddWeaponLevel", base.GetFieldProperties(), 2102725045, 393436991);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

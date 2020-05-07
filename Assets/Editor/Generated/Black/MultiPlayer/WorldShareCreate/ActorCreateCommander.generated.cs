@@ -36,7 +36,10 @@ namespace Black.MultiPlayer.WorldShareCreate
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.WorldShareCreate.ActorCreateCommander", null, -824808292, 1466748182);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

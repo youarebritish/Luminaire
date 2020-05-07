@@ -46,7 +46,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSpearNiflControl", base.GetFieldProperties(), -605829677, 34198362);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

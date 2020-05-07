@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.TimeLine.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraSlowTrack", base.GetFieldProperties(), -1085339045, -295065675);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -67,7 +67,10 @@ namespace Black.Sequence.Action.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Physics.SequenceActionSetWorldWind", base.GetFieldProperties(), -641858047, -203421025);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

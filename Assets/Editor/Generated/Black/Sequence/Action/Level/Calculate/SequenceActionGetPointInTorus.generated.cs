@@ -59,7 +59,10 @@ namespace Black.Sequence.Action.Level.Calculate
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Calculate.SequenceActionGetPointInTorus", base.GetFieldProperties(), -1673037003, 187844336);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

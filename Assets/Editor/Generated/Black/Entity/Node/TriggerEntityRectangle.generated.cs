@@ -43,7 +43,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.TriggerEntityRectangle", base.GetFieldProperties(), 1764847104, 668050477);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

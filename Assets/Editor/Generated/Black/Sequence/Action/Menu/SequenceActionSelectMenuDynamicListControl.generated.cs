@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSelectMenuDynamicListControl", base.GetFieldProperties(), -618532242, -1522347144);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

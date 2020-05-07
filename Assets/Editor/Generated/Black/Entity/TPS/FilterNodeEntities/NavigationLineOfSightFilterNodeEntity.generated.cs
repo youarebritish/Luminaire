@@ -40,7 +40,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.NavigationLineOfSightFilterNodeEntity", base.GetFieldProperties(), 1622417658, 6289858);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

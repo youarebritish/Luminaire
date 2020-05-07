@@ -41,7 +41,10 @@ namespace Black.AIGraph.Extend.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAnimationBlackboard_Int", base.GetFieldProperties(), 2133410845, -1149200383);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

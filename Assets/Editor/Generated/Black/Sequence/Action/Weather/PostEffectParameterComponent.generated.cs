@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Weather
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.PostEffectParameterComponent", base.GetFieldProperties(), 147704615, 545920894);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

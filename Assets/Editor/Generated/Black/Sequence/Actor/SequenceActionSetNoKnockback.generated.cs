@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionSetNoKnockback", base.GetFieldProperties(), -1141603334, 1667964622);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

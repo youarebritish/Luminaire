@@ -41,7 +41,10 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorTerritoryGate", base.GetFieldProperties(), 713232689, 1021477227);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

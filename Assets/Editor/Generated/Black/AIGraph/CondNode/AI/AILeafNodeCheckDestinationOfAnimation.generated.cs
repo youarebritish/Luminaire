@@ -37,7 +37,10 @@ namespace Black.AIGraph.CondNode.AI
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.CondNode.AI.AILeafNodeCheckDestinationOfAnimation", base.GetFieldProperties(), 461853756, -1676742277);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionNiflBaseDecoy", base.GetFieldProperties(), 1964697866, -602692694);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

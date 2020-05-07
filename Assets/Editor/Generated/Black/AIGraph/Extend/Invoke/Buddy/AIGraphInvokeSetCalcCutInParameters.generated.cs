@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetCalcCutInParameters", base.GetFieldProperties(), 1321575796, -2141246255);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

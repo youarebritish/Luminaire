@@ -82,7 +82,10 @@ namespace Black.Entity.Data.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.ApexDestructionDataEntity", base.GetFieldProperties(), 1908653875, 1645597304);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

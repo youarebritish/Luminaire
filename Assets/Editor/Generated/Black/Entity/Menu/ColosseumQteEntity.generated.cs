@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.ColosseumQteEntity", base.GetFieldProperties(), 1242164076, 431852003);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

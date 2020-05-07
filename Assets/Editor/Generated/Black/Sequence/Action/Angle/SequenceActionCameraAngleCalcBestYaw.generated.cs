@@ -66,7 +66,10 @@ namespace Black.Sequence.Action.Angle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Angle.SequenceActionCameraAngleCalcBestYaw", base.GetFieldProperties(), 1851781962, -1145413443);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

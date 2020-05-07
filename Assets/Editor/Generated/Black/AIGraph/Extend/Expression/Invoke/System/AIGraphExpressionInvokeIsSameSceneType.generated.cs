@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.System
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.System.AIGraphExpressionInvokeIsSameSceneType", base.GetFieldProperties(), -366525772, 196026956);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

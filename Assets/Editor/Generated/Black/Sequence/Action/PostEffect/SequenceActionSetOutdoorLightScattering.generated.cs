@@ -50,7 +50,10 @@ namespace Black.Sequence.Action.PostEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.PostEffect.SequenceActionSetOutdoorLightScattering", base.GetFieldProperties(), 1736632942, -727044626);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

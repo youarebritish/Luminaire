@@ -41,7 +41,10 @@ namespace SQEX.Ebony.Base.Serialization
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Base.Serialization.ExternalPointerInfo", base.GetFieldProperties(), -1426701892, -61620564);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

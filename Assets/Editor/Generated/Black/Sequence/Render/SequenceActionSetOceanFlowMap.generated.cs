@@ -41,7 +41,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetOceanFlowMap", base.GetFieldProperties(), 1004123525, 734726751);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.DisplacementAreaEntity", base.GetFieldProperties(), 1441212106, -284999849);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

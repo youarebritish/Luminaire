@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Actor.Online
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Online.SequenceActionActorSyncCreate", base.GetFieldProperties(), -2124469281, 2084849295);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

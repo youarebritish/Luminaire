@@ -40,7 +40,10 @@ namespace Black.AIGraph.Extend.Invoke.Layer
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Layer.AIGraphInvokeKillLayer", base.GetFieldProperties(), 684639665, -940964855);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

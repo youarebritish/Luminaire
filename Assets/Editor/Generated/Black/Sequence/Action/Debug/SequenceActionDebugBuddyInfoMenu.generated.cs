@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugBuddyInfoMenu", base.GetFieldProperties(), 1355462174, 187443001);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

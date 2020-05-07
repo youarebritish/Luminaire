@@ -36,7 +36,10 @@ namespace SQEX.Luminous.Core.Component
             }
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.Core.Component.ComponentContainer", base.GetFieldProperties(), -1081009144, 1781957579);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

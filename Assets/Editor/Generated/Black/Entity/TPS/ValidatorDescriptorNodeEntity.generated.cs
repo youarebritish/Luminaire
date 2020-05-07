@@ -36,7 +36,10 @@ namespace Black.Entity.TPS
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.ValidatorDescriptorNodeEntity", base.GetFieldProperties(), -981519553, 492803345);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

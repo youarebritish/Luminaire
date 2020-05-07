@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionSetNewGameArea", base.GetFieldProperties(), -787770103, 1868320842);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

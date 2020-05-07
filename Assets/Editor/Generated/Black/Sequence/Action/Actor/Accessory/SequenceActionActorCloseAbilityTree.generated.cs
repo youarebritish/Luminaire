@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorCloseAbilityTree", base.GetFieldProperties(), -2069116646, 217210793);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

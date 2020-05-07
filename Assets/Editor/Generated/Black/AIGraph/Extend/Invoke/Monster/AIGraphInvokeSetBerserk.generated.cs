@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetBerserk", base.GetFieldProperties(), 2045797917, 673746214);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

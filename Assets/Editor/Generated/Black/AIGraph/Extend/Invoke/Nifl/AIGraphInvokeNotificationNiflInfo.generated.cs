@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeNotificationNiflInfo", base.GetFieldProperties(), -157360492, 1067207656);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

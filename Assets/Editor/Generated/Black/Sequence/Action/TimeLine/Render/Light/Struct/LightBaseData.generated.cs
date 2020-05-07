@@ -60,7 +60,10 @@ namespace Black.Sequence.Action.TimeLine.Render.Light.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData", base.GetFieldProperties(), -1869542781, -1078376669);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

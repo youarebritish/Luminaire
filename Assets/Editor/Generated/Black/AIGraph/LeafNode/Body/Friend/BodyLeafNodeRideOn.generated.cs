@@ -46,7 +46,10 @@ namespace Black.AIGraph.LeafNode.Body.Friend
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Friend.BodyLeafNodeRideOn", base.GetFieldProperties(), 90723706, -1257680806);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

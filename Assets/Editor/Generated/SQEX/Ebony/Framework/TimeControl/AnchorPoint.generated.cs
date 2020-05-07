@@ -47,7 +47,10 @@ namespace SQEX.Ebony.Framework.TimeControl
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.AnchorPoint", base.GetFieldProperties(), 1092863664, 891530735);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

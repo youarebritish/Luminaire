@@ -71,7 +71,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionSetBokeh", base.GetFieldProperties(), -1520417657, -787462767);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

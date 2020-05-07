@@ -36,7 +36,10 @@ namespace Black.System.Labeled
             }
 
             fieldProperties = new PropertyContainer("Black.System.Labeled.LabeledVariableManager", null, 1341383050, 1921283349);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

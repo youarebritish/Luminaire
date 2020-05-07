@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.TacticalOperationMenuEntity", base.GetFieldProperties(), -1417680938, -1120254284);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

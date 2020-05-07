@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeTriggerBase", base.GetFieldProperties(), 185383491, 2126071981);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Weather
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.CameraLightParameterComponent", base.GetFieldProperties(), 1607401127, 1115526627);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

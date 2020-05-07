@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableRemoteCondition", base.GetFieldProperties(), -1942178771, 333942715);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

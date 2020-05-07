@@ -42,7 +42,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionAISetEmotion", base.GetFieldProperties(), 487619496, -2052434795);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

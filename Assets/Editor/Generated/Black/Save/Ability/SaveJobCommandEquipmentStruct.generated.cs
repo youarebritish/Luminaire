@@ -38,7 +38,10 @@ namespace Black.Save.Ability
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveJobCommandEquipmentStruct", null, 989104410, 808046986);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

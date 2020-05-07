@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionSetGameMode", base.GetFieldProperties(), -343424902, -1486724798);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

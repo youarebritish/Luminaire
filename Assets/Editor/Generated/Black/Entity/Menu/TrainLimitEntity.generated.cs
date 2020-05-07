@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.TrainLimitEntity", base.GetFieldProperties(), 470841054, -1611598563);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

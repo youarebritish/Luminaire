@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionChangeLODMode", base.GetFieldProperties(), 373697761, 1129924491);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

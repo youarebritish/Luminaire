@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeResetAllowPush", base.GetFieldProperties(), -520158261, -1693591231);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

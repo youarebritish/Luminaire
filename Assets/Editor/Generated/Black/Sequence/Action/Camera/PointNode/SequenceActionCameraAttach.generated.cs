@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Camera.PointNode
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.PointNode.SequenceActionCameraAttach", base.GetFieldProperties(), 1094955004, 435355192);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

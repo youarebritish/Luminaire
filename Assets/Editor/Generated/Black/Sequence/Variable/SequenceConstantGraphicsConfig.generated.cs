@@ -41,7 +41,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstantGraphicsConfig", base.GetFieldProperties(), -1886865888, -2106962103);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

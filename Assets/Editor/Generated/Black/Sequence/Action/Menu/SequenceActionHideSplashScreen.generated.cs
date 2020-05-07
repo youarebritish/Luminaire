@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionHideSplashScreen", base.GetFieldProperties(), 2117658727, 2065808017);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

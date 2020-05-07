@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Minigame.Fishing
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Minigame.Fishing.SequenceActionFishingCheckFishTag", base.GetFieldProperties(), -1721060198, -752899656);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionPlayerVehicleNearestParkingPoint", base.GetFieldProperties(), -350275847, -2037131417);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

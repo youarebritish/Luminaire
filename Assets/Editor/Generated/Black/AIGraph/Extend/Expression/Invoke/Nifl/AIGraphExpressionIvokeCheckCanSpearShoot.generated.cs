@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Nifl.AIGraphExpressionIvokeCheckCanSpearShoot", base.GetFieldProperties(), -719462738, -1466213000);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

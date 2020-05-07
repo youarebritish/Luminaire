@@ -36,7 +36,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TransformEntity", base.GetFieldProperties(), -643749313, -785702422);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

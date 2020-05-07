@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeSetFlagSoldierState", base.GetFieldProperties(), -1262252880, 1106061411);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sound.SequenceActionSetCategoryVolume", base.GetFieldProperties(), -443821439, -1212150112);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

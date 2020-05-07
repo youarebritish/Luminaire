@@ -40,7 +40,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.InteractionEntityBase", null, 238982855, -1398268471);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

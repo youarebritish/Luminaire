@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetClothFlagEPG", base.GetFieldProperties(), -1021344225, -1095730192);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientGroupMemberDescription", base.GetFieldProperties(), -258765934, -1717931853);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

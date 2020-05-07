@@ -36,7 +36,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TransformGroupEntity", base.GetFieldProperties(), 834742717, 1752160595);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

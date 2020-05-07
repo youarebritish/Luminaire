@@ -44,7 +44,10 @@ namespace Black.Entity.Node.NiflBase
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.NiflBase.NiflBaseNotifyCautionInfoEntity", base.GetFieldProperties(), 1197222885, -962120352);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

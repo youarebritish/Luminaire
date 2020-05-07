@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionProfanityFilter", base.GetFieldProperties(), -767870316, 640162806);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

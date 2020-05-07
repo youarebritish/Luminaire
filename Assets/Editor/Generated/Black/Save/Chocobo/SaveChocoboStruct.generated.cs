@@ -40,7 +40,10 @@ namespace Black.Save.Chocobo
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Chocobo.SaveChocoboStruct", null, 423255878, 1837290904);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

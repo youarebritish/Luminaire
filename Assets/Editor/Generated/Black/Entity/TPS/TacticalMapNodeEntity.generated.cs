@@ -37,7 +37,10 @@ namespace Black.Entity.TPS
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.TacticalMapNodeEntity", base.GetFieldProperties(), 528553514, 1573120945);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Entity.Node.MilitaryFacility
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.MilitaryFacility.MilitaryFacilityNodeEntity", base.GetFieldProperties(), 1021056588, -940286409);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

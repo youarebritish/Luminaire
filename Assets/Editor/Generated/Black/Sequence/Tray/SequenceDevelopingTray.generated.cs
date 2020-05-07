@@ -39,7 +39,10 @@ namespace Black.Sequence.Tray
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Tray.SequenceDevelopingTray", base.GetFieldProperties(), -1688579127, -284018473);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

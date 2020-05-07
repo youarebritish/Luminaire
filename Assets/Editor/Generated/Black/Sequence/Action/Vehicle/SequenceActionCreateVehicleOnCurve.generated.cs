@@ -57,7 +57,10 @@ namespace Black.Sequence.Action.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionCreateVehicleOnCurve", base.GetFieldProperties(), -1273437222, 421048229);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

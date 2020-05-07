@@ -37,7 +37,10 @@ namespace Black.Sequence.Event.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceEventInteractionSubCursorChanged", base.GetFieldProperties(), -1096626814, 243020945);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

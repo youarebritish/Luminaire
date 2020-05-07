@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetUmbraShadowCullingByEntity", base.GetFieldProperties(), -1441429505, -780321020);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

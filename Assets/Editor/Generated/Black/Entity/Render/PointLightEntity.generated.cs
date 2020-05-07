@@ -36,7 +36,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.PointLightEntity", base.GetFieldProperties(), -1728761560, 49542277);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

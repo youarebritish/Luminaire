@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.RefuelGaugeEntity", base.GetFieldProperties(), 1084960264, -150427888);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

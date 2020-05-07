@@ -39,7 +39,10 @@ namespace Black.Sequence.Operator
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.SequenceOperatorGetDigitValueByIndexNOX", base.GetFieldProperties(), -2113221983, 199365275);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

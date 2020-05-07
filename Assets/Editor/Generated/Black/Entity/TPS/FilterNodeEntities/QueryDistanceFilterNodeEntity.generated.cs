@@ -48,7 +48,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.QueryDistanceFilterNodeEntity", base.GetFieldProperties(), 1037075594, 1325439846);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

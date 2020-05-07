@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Parts
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Parts.AIGraphInvokeSetWeakpointRevealState", base.GetFieldProperties(), 511491536, -988440372);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

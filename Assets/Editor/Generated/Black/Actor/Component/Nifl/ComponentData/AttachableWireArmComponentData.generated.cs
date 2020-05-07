@@ -38,7 +38,10 @@ namespace Black.Actor.Component.Nifl.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Nifl.ComponentData.AttachableWireArmComponentData", base.GetFieldProperties(), -1674853302, 1802615736);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

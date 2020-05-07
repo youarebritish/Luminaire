@@ -36,7 +36,10 @@ namespace SQEX.Ebony.Framework.Sequence
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.LabeledVariableManagerBase", null, 824993167, -1466391622);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

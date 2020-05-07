@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetNVShadowLib", base.GetFieldProperties(), -157819741, 1113334612);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

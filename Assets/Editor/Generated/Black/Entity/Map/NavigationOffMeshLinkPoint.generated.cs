@@ -36,7 +36,10 @@ namespace Black.Entity.Map
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationOffMeshLinkPoint", base.GetFieldProperties(), 89705713, -525694403);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

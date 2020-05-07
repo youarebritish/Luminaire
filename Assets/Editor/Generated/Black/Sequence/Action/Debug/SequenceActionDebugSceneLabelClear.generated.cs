@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugSceneLabelClear", base.GetFieldProperties(), 1559146792, 1204948318);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

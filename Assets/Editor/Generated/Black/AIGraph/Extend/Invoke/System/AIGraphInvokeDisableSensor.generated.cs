@@ -40,7 +40,10 @@ namespace Black.AIGraph.Extend.Invoke.System
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeDisableSensor", base.GetFieldProperties(), 630484606, 1380139906);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

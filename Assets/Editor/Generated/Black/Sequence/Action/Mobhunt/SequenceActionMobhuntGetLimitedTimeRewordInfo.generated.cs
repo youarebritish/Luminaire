@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Mobhunt
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntGetLimitedTimeRewordInfo", base.GetFieldProperties(), -158330646, 1943516203);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

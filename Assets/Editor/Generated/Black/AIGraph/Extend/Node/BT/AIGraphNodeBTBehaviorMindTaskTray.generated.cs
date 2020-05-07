@@ -39,7 +39,10 @@ namespace Black.AIGraph.Extend.Node.BT
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Node.BT.AIGraphNodeBTBehaviorMindTaskTray", base.GetFieldProperties(), 406068198, 209540399);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

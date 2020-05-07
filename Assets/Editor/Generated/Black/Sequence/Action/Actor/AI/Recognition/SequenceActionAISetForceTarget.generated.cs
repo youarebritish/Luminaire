@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Actor.AI.Recognition
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAISetForceTarget", base.GetFieldProperties(), 1251040516, -750183759);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

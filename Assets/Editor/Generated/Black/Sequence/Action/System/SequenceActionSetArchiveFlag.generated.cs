@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetArchiveFlag", base.GetFieldProperties(), -297875984, 1303957606);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

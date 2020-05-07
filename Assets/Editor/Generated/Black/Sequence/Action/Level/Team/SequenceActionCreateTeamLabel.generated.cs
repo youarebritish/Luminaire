@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.Level.Team
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Team.SequenceActionCreateTeamLabel", base.GetFieldProperties(), 1707968873, 2131105249);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

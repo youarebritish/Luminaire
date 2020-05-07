@@ -41,7 +41,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.DynamicWeatherEntity", base.GetFieldProperties(), 1129578747, 593791143);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

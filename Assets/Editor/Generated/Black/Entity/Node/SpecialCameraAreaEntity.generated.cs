@@ -37,7 +37,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.SpecialCameraAreaEntity", base.GetFieldProperties(), 1178769517, 843940752);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

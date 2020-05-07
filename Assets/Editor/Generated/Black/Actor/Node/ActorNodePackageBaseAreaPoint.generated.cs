@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodePackageBaseAreaPoint", base.GetFieldProperties(), 68865991, 571771199);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

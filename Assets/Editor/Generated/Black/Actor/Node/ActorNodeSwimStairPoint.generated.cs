@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeSwimStairPoint", base.GetFieldProperties(), 420016241, 175902194);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

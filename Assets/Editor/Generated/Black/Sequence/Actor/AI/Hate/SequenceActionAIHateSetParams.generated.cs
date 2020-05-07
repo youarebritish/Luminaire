@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor.AI.Hate
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Hate.SequenceActionAIHateSetParams", base.GetFieldProperties(), 2143929197, 73604498);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

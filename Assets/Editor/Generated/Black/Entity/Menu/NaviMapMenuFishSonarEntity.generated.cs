@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.NaviMapMenuFishSonarEntity", base.GetFieldProperties(), -1598834348, -1395279335);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

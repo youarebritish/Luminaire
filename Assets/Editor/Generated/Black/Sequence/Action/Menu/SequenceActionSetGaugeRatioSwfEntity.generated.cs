@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetGaugeRatioSwfEntity", base.GetFieldProperties(), 1085188060, 1811453639);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

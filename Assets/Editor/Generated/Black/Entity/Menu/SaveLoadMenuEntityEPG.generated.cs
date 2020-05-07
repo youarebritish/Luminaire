@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.SaveLoadMenuEntityEPG", base.GetFieldProperties(), -992808316, -146211996);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

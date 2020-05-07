@@ -44,7 +44,10 @@ namespace SQEX.Luminous.InputDevice
             }
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.InputDevice.GyroData", null, -169428647, -1346235963);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaAutoDetermine", base.GetFieldProperties(), 958334875, -191023260);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

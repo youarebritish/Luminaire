@@ -38,7 +38,10 @@ namespace Black.System.TimeLine.TrackItem.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.InGameCameraTrackItem", base.GetFieldProperties(), -209185905, 2050174665);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

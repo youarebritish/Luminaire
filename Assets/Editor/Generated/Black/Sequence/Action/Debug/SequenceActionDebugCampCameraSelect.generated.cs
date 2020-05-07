@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugCampCameraSelect", base.GetFieldProperties(), 808458774, 341502699);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

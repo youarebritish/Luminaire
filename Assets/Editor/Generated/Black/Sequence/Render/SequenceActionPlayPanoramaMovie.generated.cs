@@ -48,7 +48,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionPlayPanoramaMovie", base.GetFieldProperties(), -236724193, -1523226129);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.EscapeQteEntity", base.GetFieldProperties(), -26281566, 36117130);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

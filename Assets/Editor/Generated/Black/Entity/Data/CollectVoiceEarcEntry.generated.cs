@@ -41,7 +41,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CollectVoiceEarcEntry", base.GetFieldProperties(), -1488683193, 2114445571);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

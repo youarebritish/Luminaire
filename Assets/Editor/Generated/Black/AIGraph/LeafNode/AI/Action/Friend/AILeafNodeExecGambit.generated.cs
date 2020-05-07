@@ -44,7 +44,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Friend
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeExecGambit", base.GetFieldProperties(), -2041570298, 414688347);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

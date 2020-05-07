@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugSetTotalDistance", base.GetFieldProperties(), -1728102110, -1712221990);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

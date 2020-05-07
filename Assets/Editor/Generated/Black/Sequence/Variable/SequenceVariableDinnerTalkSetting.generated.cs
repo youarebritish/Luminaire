@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableDinnerTalkSetting", base.GetFieldProperties(), 833456172, 118766454);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

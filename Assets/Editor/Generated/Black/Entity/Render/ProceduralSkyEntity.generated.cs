@@ -77,7 +77,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.ProceduralSkyEntity", base.GetFieldProperties(), 503171251, -1505870931);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

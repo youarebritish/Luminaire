@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Math
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Math.AIGraphExpressionInvokeExistWithinNavimeshDistance", base.GetFieldProperties(), -661314921, 1567361057);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

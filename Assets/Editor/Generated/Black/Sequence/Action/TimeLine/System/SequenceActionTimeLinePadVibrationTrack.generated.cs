@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.TimeLine.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.System.SequenceActionTimeLinePadVibrationTrack", base.GetFieldProperties(), 847056273, -2121389008);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

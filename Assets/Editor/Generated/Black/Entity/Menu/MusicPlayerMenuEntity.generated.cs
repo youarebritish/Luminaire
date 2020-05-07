@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MusicPlayerMenuEntity", base.GetFieldProperties(), 1105834840, 71648913);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

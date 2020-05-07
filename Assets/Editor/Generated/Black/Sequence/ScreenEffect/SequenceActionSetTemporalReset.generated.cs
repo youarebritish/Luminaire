@@ -42,7 +42,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionSetTemporalReset", base.GetFieldProperties(), 1901646081, 272837364);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

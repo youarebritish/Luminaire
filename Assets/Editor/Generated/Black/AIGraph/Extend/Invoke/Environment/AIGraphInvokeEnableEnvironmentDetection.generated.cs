@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Environment
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Environment.AIGraphInvokeEnableEnvironmentDetection", base.GetFieldProperties(), 1080681592, 1638970279);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

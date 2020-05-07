@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionLoadingAfterReturnCamp", base.GetFieldProperties(), -1838482863, 984847527);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

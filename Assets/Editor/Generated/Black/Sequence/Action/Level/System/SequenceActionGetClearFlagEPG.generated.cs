@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionGetClearFlagEPG", base.GetFieldProperties(), 1296956745, 120712884);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

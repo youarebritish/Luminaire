@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetPlayedFlagEPG", base.GetFieldProperties(), 923256733, 1338013140);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

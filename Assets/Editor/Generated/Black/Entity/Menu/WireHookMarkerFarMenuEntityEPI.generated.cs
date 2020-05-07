@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.WireHookMarkerFarMenuEntityEPI", base.GetFieldProperties(), 1440801529, -1266058638);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Node
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Node.AIGraphNodeMindTaskEntryPoint", base.GetFieldProperties(), 1162833676, -1592462670);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

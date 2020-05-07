@@ -44,7 +44,10 @@ namespace Black.Entity.Data.Area
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.AreaStartPointItem", base.GetFieldProperties(), -420074028, -164583431);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

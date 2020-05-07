@@ -42,7 +42,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.WaterInteractionEntity", base.GetFieldProperties(), -373394928, 1273585722);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

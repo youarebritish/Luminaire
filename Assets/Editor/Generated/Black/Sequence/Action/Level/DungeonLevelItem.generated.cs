@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.DungeonLevelItem", base.GetFieldProperties(), 1497696508, -1699292372);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

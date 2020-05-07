@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeWireHookPoint", base.GetFieldProperties(), 1961181321, -844739045);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

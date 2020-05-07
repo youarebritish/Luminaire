@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.StatusPanelGladioMenuEntity", base.GetFieldProperties(), 18548915, 847984181);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

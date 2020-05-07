@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Vfx
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vfx.SequenceActionLmVFXReviathanTornadeControl", base.GetFieldProperties(), -1728426826, -2014070639);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetGuestJobCommand", base.GetFieldProperties(), -851245923, 602323491);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

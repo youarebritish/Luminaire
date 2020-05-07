@@ -38,7 +38,10 @@ namespace Black.Save.Multiplay
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Multiplay.SavePlantMapDataStruct", null, -751665946, -1251616530);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

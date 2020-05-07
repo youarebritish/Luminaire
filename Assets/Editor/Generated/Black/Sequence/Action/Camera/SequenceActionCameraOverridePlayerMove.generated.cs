@@ -56,7 +56,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraOverridePlayerMove", base.GetFieldProperties(), 398938600, 36329137);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

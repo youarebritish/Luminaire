@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionWeaponSetVisible", base.GetFieldProperties(), 1004008425, 866761595);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

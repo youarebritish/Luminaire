@@ -38,7 +38,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.IBLTextureEntity", base.GetFieldProperties(), -264360728, -559985071);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

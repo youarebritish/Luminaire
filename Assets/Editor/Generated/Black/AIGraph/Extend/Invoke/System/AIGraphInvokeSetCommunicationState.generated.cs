@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.System
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeSetCommunicationState", base.GetFieldProperties(), -398506514, 478410909);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

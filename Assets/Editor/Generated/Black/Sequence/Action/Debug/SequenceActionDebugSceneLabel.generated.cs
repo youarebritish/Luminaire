@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugSceneLabel", base.GetFieldProperties(), 804963120, 357625542);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

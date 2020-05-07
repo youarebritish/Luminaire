@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Mobhunt
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntMultiEnabledDebug", base.GetFieldProperties(), 443669267, 1651868361);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

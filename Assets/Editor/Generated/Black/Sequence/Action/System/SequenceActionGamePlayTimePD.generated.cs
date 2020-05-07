@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGamePlayTimePD", base.GetFieldProperties(), 237758868, -1901122596);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

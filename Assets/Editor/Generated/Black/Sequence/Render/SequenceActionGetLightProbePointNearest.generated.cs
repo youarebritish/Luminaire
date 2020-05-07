@@ -41,7 +41,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionGetLightProbePointNearest", base.GetFieldProperties(), 1899666682, -1790226402);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

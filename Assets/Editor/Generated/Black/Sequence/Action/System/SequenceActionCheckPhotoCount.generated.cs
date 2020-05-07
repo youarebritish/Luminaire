@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionCheckPhotoCount", base.GetFieldProperties(), 1414717023, -251996694);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

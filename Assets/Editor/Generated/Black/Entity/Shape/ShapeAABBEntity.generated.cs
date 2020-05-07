@@ -37,7 +37,10 @@ namespace Black.Entity.Shape
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Shape.ShapeAABBEntity", base.GetFieldProperties(), 953238852, -1928205221);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

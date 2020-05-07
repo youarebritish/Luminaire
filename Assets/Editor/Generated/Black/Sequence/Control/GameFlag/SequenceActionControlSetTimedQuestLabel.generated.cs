@@ -40,7 +40,10 @@ namespace Black.Sequence.Control.GameFlag
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.GameFlag.SequenceActionControlSetTimedQuestLabel", base.GetFieldProperties(), 745839553, -321124148);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MovieSkipEntity", base.GetFieldProperties(), -1669600059, 1731389199);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeSwitchToRagdoll", base.GetFieldProperties(), -654877692, -235418668);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

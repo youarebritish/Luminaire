@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.WireHookPointNodeEntity", base.GetFieldProperties(), 519157867, -1312740544);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

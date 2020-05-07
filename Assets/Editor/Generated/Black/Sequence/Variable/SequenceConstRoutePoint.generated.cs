@@ -37,7 +37,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstRoutePoint", base.GetFieldProperties(), -1144727544, 779522057);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

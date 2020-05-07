@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Team
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Team.SequenceActionSetTeamTactics", base.GetFieldProperties(), -39948143, -1959313814);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

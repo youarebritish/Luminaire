@@ -37,7 +37,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.PlatformGroup", base.GetFieldProperties(), -1318752093, 57364046);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

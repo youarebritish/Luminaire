@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugSetActorInvincible", base.GetFieldProperties(), 74834627, -1654524811);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

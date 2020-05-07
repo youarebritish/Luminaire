@@ -39,7 +39,10 @@ namespace Black.Sequence.Event.Actor.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleInteractDestination", base.GetFieldProperties(), 1730680423, -1149941204);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

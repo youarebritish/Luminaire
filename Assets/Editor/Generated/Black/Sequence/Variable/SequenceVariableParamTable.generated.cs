@@ -46,7 +46,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableParamTable", base.GetFieldProperties(), -1385974330, -1815547541);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

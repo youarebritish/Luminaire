@@ -44,7 +44,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorCloneCreate", base.GetFieldProperties(), -37826848, 1916406726);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

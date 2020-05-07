@@ -39,7 +39,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.StrongPointNodeEntity", base.GetFieldProperties(), 807806307, 319793502);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

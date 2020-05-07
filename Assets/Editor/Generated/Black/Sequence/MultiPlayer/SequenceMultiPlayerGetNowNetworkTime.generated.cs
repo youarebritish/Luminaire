@@ -43,7 +43,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetNowNetworkTime", base.GetFieldProperties(), -1929633700, 622981554);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

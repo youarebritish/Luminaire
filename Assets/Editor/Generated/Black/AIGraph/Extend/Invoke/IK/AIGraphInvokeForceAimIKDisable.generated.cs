@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.IK
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeForceAimIKDisable", base.GetFieldProperties(), -1594723098, -714505150);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetRevengeGaugeGuard", base.GetFieldProperties(), -127132226, -267960163);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

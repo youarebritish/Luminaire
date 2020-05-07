@@ -145,7 +145,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetProceduralSky", base.GetFieldProperties(), 374908728, 1957126268);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

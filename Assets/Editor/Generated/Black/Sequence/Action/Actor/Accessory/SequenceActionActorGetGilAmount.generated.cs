@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetGilAmount", base.GetFieldProperties(), 1687130069, -1217593027);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

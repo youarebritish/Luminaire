@@ -36,7 +36,10 @@ namespace Black.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.RemoteEventCommunicator", base.GetFieldProperties(), -824275007, -1672594363);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

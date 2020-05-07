@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraSetSceneMergeParameter", base.GetFieldProperties(), 679871617, 2034487845);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

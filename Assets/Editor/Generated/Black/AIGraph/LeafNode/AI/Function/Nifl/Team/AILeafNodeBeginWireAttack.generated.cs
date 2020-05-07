@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Team
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Nifl.Team.AILeafNodeBeginWireAttack", base.GetFieldProperties(), -622892062, 665031006);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

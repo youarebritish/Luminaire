@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Event.SequenceActionEventPriorityListEvent", base.GetFieldProperties(), 1333187795, 1223019326);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.InCameraViewFilterNodeEntity", base.GetFieldProperties(), 1786273945, 13710194);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerSetVehicleCameraCollision", base.GetFieldProperties(), 1485634976, -31339144);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

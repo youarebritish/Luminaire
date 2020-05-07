@@ -40,7 +40,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableMenuTexture", base.GetFieldProperties(), 1893598741, 1112635716);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

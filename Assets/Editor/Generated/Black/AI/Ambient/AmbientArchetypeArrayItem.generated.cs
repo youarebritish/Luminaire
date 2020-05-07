@@ -37,7 +37,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientArchetypeArrayItem", base.GetFieldProperties(), 1059735888, -991852443);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

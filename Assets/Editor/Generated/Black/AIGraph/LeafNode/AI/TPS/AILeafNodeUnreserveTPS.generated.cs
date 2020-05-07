@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.TPS
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.TPS.AILeafNodeUnreserveTPS", base.GetFieldProperties(), -1099784301, -808186394);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Camera.ObjectiveCamera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraMawarikomi", base.GetFieldProperties(), 568815738, 873724914);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

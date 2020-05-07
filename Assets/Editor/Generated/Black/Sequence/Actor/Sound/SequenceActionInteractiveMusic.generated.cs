@@ -46,7 +46,10 @@ namespace Black.Sequence.Actor.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.Sound.SequenceActionInteractiveMusic", base.GetFieldProperties(), 1040868347, -374188401);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

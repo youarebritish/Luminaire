@@ -37,7 +37,10 @@ namespace Black.Sequence.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlFallBackable", base.GetFieldProperties(), -401905152, 1290438515);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

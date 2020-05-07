@@ -80,7 +80,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.VolLightFilterSequenceData", base.GetFieldProperties(), 149068108, -1426137195);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

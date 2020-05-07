@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeNothing", base.GetFieldProperties(), 549843141, -525904742);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

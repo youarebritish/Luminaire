@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorRaycastPosition", base.GetFieldProperties(), 275022870, -160855532);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

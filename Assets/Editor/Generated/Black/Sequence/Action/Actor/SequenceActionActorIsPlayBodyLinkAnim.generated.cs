@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorIsPlayBodyLinkAnim", base.GetFieldProperties(), 350072902, -952251276);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

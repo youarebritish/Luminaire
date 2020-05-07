@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeCameraPoint", base.GetFieldProperties(), -2076899227, -1186267241);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

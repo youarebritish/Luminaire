@@ -12,7 +12,7 @@ namespace Black.Save.Snapshot
 		public IList<uint> attributes_;
 		public long time_;
 		public uint photoLayerId_;
-		public double[] worldPosition_;
+		public SQEX.Luminous.Math.DoubleVector4 worldPosition_;
 		public sbyte importantType_;
 		public sbyte phaseType_;
 		public bool isMarked_;
@@ -46,7 +46,10 @@ namespace Black.Save.Snapshot
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Snapshot.SaveSnapshotImageInfoStruct", null, -299908639, -1229791341);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

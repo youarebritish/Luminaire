@@ -36,7 +36,10 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Composite
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.Composite.AIGraphNodeBTCompositeParallel", base.GetFieldProperties(), -2084129462, 617502009);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

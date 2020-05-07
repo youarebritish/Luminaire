@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionRequestForcePlayerChange", base.GetFieldProperties(), 454251644, 1521118083);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -45,7 +45,10 @@ namespace Black.Sequence.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Quest.SequenceQuestCheckProgressInterval", base.GetFieldProperties(), 1405432782, 626682183);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

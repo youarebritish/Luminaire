@@ -42,7 +42,10 @@ namespace Black.Entity.Minigame.Fishing
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Minigame.Fishing.FishingFishSpawnEntity", base.GetFieldProperties(), -1492454248, 2089582880);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

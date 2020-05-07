@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.GondolaMenuEntity", base.GetFieldProperties(), 1202193127, 1370976788);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

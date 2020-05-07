@@ -39,7 +39,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.NiflBase
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.NiflBase.AILeafNodeTurretAimControl", base.GetFieldProperties(), -1136497463, 2137831947);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

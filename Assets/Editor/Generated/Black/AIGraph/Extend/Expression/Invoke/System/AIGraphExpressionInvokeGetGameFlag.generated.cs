@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.System
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.System.AIGraphExpressionInvokeGetGameFlag", base.GetFieldProperties(), -1412135698, 1581157331);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

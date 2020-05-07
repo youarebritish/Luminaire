@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeRemoveAreaPoint", base.GetFieldProperties(), 1510193657, 494967824);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

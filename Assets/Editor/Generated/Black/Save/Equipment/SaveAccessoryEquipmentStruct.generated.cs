@@ -39,7 +39,10 @@ namespace Black.Save.Equipment
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Equipment.SaveAccessoryEquipmentStruct", null, 493965487, 1982791408);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

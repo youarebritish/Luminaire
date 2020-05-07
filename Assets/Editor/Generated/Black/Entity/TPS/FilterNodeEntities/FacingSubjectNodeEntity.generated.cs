@@ -41,7 +41,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.FacingSubjectNodeEntity", base.GetFieldProperties(), -1684805408, -182465009);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

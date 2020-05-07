@@ -37,7 +37,10 @@ namespace Black.Save.Ability
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveAbilityEquipmentMenuStruct", null, -114321493, 564120299);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

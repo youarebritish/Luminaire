@@ -37,7 +37,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.DriveMapMenuEntity", base.GetFieldProperties(), -1659704508, 1971672598);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

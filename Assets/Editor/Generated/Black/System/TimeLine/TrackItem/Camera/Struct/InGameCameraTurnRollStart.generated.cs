@@ -38,7 +38,10 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRollStart", base.GetFieldProperties(), 1091189618, 2145218507);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

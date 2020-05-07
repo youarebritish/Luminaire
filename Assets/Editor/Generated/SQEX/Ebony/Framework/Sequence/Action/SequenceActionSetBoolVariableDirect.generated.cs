@@ -40,7 +40,10 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetBoolVariableDirect", base.GetFieldProperties(), 973808927, 319771732);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

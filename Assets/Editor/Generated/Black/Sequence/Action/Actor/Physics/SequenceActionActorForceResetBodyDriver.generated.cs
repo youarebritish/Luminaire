@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Physics.SequenceActionActorForceResetBodyDriver", base.GetFieldProperties(), 387846521, -192638386);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

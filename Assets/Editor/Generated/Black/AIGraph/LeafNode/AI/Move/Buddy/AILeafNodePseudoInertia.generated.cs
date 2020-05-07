@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Move.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodePseudoInertia", base.GetFieldProperties(), -2098539722, -1559506100);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

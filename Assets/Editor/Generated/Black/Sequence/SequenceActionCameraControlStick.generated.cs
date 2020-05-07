@@ -41,7 +41,10 @@ namespace Black.Sequence
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.SequenceActionCameraControlStick", base.GetFieldProperties(), -811629945, 1132462290);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

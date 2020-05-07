@@ -37,7 +37,10 @@ namespace Black.Save.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SaveSystemToggleStruct", null, -1858495276, -1510530142);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

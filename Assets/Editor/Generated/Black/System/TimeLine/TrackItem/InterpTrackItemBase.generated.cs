@@ -40,7 +40,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.InterpTrackItemBase", base.GetFieldProperties(), -1845352241, 1422797203);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

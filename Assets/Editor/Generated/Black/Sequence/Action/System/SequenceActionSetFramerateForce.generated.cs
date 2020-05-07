@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetFramerateForce", base.GetFieldProperties(), 1995320594, -1182530425);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

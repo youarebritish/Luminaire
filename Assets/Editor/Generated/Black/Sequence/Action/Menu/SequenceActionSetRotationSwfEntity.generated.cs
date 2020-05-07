@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetRotationSwfEntity", base.GetFieldProperties(), -1557845757, -310171684);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

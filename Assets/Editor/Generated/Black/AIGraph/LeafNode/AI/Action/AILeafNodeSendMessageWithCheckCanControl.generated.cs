@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Action
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeSendMessageWithCheckCanControl", base.GetFieldProperties(), 1846643940, -559865169);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

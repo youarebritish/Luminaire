@@ -76,7 +76,10 @@ namespace Black.Sequence.Action.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionSetVehicleParam", base.GetFieldProperties(), 1933791690, -1436126389);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

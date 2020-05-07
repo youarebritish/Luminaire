@@ -90,7 +90,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSelectRolesControl", base.GetFieldProperties(), 1653901104, 367657963);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

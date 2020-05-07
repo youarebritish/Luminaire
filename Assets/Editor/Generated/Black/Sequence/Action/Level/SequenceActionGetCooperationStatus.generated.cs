@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetCooperationStatus", base.GetFieldProperties(), -358813384, 625731279);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Move.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Nifl.AILeafNodeApproachMoveToTeam", base.GetFieldProperties(), 686164123, -1055991062);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

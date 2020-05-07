@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionVolatileFlag", base.GetFieldProperties(), -2090441931, -278962534);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

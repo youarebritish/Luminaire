@@ -42,7 +42,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorChangeCharacterCollision", base.GetFieldProperties(), -598634211, -1027788611);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

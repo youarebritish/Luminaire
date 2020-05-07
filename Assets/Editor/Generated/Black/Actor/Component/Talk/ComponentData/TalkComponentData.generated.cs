@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Talk.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Talk.ComponentData.TalkComponentData", base.GetFieldProperties(), 1611417691, -466879592);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -63,7 +63,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerMatching", base.GetFieldProperties(), -1520664721, 1173485957);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

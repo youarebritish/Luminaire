@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetUmbraGateState", base.GetFieldProperties(), -1300917278, -504164217);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

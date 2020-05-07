@@ -50,7 +50,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorRotate", base.GetFieldProperties(), 1491383605, -1547809163);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

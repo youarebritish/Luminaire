@@ -37,7 +37,10 @@ namespace Black.AIGraph.Data.PropertyData
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Data.PropertyData.PropertyActorVariableFloat", base.GetFieldProperties(), 242738156, 1284875572);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

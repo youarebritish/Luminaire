@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionCompareCampPoint", base.GetFieldProperties(), 1061290946, -1591118917);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

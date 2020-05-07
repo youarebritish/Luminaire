@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Monster.ActorBreakComponent", null, -571260864, 753866773);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

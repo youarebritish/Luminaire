@@ -36,7 +36,10 @@ namespace SQEX.Ebony.Framework.Sequence.Action.TimeLine.TrackElement
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Action.TimeLine.TrackElement.SequenceActionTimeLineSetBaseParamTrackElement", base.GetFieldProperties(), 1715023943, 1171376220);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

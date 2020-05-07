@@ -37,7 +37,10 @@ namespace Black.Sequence
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.SequenceActionSetCameraFov", base.GetFieldProperties(), -1076849471, -1707395436);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

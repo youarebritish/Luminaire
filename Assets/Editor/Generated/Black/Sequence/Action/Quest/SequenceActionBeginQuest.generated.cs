@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Quest.SequenceActionBeginQuest", base.GetFieldProperties(), -23250114, -174017564);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

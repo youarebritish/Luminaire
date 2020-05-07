@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Party.SequenceActionRecoverParty", base.GetFieldProperties(), -1196693384, 404262672);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

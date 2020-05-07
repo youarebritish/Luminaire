@@ -37,7 +37,10 @@ namespace Black.Entity.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Monster.MonsWallWarpEntityGroup", base.GetFieldProperties(), 1433611499, -1296477873);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

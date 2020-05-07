@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorSetDeath", base.GetFieldProperties(), -204066918, 1354119625);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

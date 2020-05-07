@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MultiPlayerMatchRoomEntity", base.GetFieldProperties(), 2050730230, -283880272);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

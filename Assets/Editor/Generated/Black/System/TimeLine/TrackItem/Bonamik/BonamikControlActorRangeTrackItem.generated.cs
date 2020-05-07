@@ -53,7 +53,10 @@ namespace Black.System.TimeLine.TrackItem.Bonamik
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Bonamik.BonamikControlActorRangeTrackItem", base.GetFieldProperties(), 1107179332, -390636217);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

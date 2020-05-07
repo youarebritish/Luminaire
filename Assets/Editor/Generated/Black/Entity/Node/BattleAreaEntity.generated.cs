@@ -69,7 +69,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.BattleAreaEntity", base.GetFieldProperties(), -1056227527, -31039531);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

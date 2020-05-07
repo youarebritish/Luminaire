@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.Body
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.BodyLeafNodeStatusChange", base.GetFieldProperties(), -979155659, 218353026);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

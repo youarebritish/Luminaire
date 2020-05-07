@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Nifl.AIGraphExpressionInvokeCanFallingForReinforce", base.GetFieldProperties(), 34859020, -1009254362);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

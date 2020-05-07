@@ -48,7 +48,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.HairGroupParameter", base.GetFieldProperties(), 766625306, -2137803352);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.Level.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Control.SequenceActionTimer", base.GetFieldProperties(), -2134528798, -683608468);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

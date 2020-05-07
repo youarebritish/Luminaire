@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorSetWireCollisionMode", base.GetFieldProperties(), 453414065, -714681343);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.IngredientInteractionEntity", base.GetFieldProperties(), -1239592843, 686299568);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

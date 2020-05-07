@@ -41,7 +41,10 @@ namespace Black.Sequence.Train
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Train.SequenceActionTrainBindActors", base.GetFieldProperties(), 764596007, -112794723);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

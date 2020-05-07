@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeResetGambActFlag", base.GetFieldProperties(), -480446578, 1371481684);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

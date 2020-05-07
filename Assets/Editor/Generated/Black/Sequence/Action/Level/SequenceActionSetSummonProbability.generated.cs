@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetSummonProbability", base.GetFieldProperties(), -410687836, -1555699706);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

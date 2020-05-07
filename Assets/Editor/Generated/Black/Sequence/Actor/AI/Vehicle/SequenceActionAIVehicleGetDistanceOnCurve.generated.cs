@@ -43,7 +43,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleGetDistanceOnCurve", base.GetFieldProperties(), -951589205, 490800783);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

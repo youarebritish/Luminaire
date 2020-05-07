@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorCreateProjectileAttack", base.GetFieldProperties(), 1784284252, -1935292064);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

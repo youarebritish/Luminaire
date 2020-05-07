@@ -48,7 +48,10 @@ namespace Black.Sequence.Action.Level.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Party.SequenceActionChangePlayerSearch", base.GetFieldProperties(), 1609977900, -1128497474);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

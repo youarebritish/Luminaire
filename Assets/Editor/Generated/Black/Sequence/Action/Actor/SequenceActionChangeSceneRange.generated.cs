@@ -51,7 +51,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionChangeSceneRange", base.GetFieldProperties(), 1540690398, 429478708);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

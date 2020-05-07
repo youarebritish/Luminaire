@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sound.SequenceActionSetNoiseParameter", base.GetFieldProperties(), -1143489311, -257280931);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

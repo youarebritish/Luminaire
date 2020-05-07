@@ -44,7 +44,10 @@ namespace Black.Entity.Area
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Area.WorldPackage", base.GetFieldProperties(), 283728812, 1428133429);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugNiflReinforceMenu", base.GetFieldProperties(), -2018013322, -327631234);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -46,7 +46,10 @@ namespace Black.Entity.RoutePoint
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.RoutePoint.RoutePointEntity", base.GetFieldProperties(), -1043113076, -1150238731);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

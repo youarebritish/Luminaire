@@ -37,7 +37,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MenuVFXEntity", base.GetFieldProperties(), -645669704, 135925916);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

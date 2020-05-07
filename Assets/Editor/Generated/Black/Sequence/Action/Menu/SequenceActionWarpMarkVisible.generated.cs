@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionWarpMarkVisible", base.GetFieldProperties(), -670387361, 158160798);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

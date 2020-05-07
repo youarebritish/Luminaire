@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionDebugSetNoctisMoveSpeed", base.GetFieldProperties(), 67860169, 1507952743);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

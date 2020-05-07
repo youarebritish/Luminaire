@@ -40,7 +40,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.EarcResourceList", base.GetFieldProperties(), -2101560215, 335287790);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

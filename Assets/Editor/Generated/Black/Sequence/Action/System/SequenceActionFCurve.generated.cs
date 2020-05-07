@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionFCurve", base.GetFieldProperties(), -336600050, -807570690);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

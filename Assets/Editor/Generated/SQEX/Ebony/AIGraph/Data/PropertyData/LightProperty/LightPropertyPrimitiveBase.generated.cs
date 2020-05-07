@@ -36,7 +36,10 @@ namespace SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty.LightPropertyPrimitiveBase", base.GetFieldProperties(), 2147455658, -989594745);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

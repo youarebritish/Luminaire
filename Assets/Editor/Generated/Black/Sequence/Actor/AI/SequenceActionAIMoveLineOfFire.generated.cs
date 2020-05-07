@@ -46,7 +46,10 @@ namespace Black.Sequence.Actor.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAIMoveLineOfFire", base.GetFieldProperties(), -633688306, 793507035);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

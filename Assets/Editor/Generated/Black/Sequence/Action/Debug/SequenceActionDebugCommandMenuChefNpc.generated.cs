@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugCommandMenuChefNpc", base.GetFieldProperties(), 1789297768, 1468215474);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

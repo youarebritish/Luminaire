@@ -10,7 +10,7 @@ namespace Black.Save.MemoryQuest
 		
 		public long worldTime_;
 		public string areaFilePath;
-		public double[] playerWorldPos;
+		public SQEX.Luminous.Math.DoubleVector4 playerWorldPos;
 		public UnityEngine.Vector4 playerRotation;
 		public int weatherType_;
 		public uint campPoint_;
@@ -42,7 +42,10 @@ namespace Black.Save.MemoryQuest
             }
 
             fieldProperties = new PropertyContainer("Black.Save.MemoryQuest.SaveMemoryQuestDataStruct", null, 1223645893, 1185758535);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.WorldMap.TerrainBinarySaveLoad", null, 1165873332, -1764372086);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

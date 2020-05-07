@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Level.Mission
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Mission.SequenceActionParryQte", base.GetFieldProperties(), -949193908, -244145929);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

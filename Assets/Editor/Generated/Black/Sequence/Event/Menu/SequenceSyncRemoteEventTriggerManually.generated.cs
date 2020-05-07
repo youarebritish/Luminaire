@@ -41,7 +41,10 @@ namespace Black.Sequence.Event.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceSyncRemoteEventTriggerManually", base.GetFieldProperties(), -1470859218, 565404075);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

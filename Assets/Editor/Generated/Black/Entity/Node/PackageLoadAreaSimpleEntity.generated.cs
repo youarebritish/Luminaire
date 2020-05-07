@@ -44,7 +44,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.PackageLoadAreaSimpleEntity", base.GetFieldProperties(), 540167991, 774288417);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

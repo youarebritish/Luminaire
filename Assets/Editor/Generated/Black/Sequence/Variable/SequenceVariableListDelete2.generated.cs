@@ -41,7 +41,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableListDelete2", base.GetFieldProperties(), -528486785, -311384165);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

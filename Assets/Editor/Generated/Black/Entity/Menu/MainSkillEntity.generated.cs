@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MainSkillEntity", base.GetFieldProperties(), -1312116626, 2060963960);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

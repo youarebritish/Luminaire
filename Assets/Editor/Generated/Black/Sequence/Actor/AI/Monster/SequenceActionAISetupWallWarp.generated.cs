@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionAISetupWallWarp", base.GetFieldProperties(), -255845589, 1026045442);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

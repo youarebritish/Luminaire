@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionDelete", base.GetFieldProperties(), 905703042, -820800722);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Camera.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.Camera.Struct.CameraAngleLimit", base.GetFieldProperties(), -731158199, 589371655);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

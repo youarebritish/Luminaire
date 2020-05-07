@@ -43,7 +43,10 @@ namespace Black.AIGraph.LeafNode.AI.Action
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeMeleeAttack", base.GetFieldProperties(), 127072209, -396267751);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

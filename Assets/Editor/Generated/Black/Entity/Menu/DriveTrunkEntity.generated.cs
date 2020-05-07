@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.DriveTrunkEntity", base.GetFieldProperties(), 2013974409, 703981173);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionSetWaterTemporalAA", base.GetFieldProperties(), -1336290774, -285177697);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

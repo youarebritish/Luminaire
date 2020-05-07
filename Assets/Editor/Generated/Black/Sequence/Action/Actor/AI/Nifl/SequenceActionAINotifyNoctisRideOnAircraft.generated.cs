@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifyNoctisRideOnAircraft", base.GetFieldProperties(), -265918434, 963828403);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

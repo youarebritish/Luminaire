@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVWSharpenFilterTrack", base.GetFieldProperties(), 1927752686, -1085295527);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

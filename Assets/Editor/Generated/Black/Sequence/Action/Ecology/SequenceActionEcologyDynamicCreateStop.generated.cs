@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologyDynamicCreateStop", base.GetFieldProperties(), -1443700989, 962997658);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetPlayerResult", base.GetFieldProperties(), -1174050639, -1716685205);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

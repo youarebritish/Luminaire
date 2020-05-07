@@ -40,7 +40,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.SwfEntity", base.GetFieldProperties(), 842429234, 1289699279);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

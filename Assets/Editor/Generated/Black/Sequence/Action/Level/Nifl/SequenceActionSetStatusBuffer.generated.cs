@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionSetStatusBuffer", base.GetFieldProperties(), 1117964402, 1723156327);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

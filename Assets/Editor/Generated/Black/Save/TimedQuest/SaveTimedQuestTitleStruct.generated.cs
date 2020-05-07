@@ -40,7 +40,10 @@ namespace Black.Save.TimedQuest
             }
 
             fieldProperties = new PropertyContainer("Black.Save.TimedQuest.SaveTimedQuestTitleStruct", null, 397842070, 121823900);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

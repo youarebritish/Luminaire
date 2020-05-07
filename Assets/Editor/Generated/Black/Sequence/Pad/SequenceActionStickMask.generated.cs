@@ -40,7 +40,10 @@ namespace Black.Sequence.Pad
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Pad.SequenceActionStickMask", base.GetFieldProperties(), -1496629379, -684365579);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

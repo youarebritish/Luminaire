@@ -56,7 +56,10 @@ namespace Black.Sequence.Action.Dinner
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Dinner.SequenceActionDinnerGetStayInnGil", base.GetFieldProperties(), 234691197, -700676608);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerPhantomDisplaySetting", base.GetFieldProperties(), -862854372, 1179722060);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

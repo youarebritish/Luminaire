@@ -36,7 +36,10 @@ namespace Black.AI.NihilSystem.MilitaryFacility.Node
             }
 
             fieldProperties = new PropertyContainer("Black.AI.NihilSystem.MilitaryFacility.Node.ActorMilitaryFacility", base.GetFieldProperties(), 2095195517, 1814525174);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

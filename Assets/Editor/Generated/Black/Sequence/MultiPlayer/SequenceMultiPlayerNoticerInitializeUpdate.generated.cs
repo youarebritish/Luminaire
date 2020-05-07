@@ -47,7 +47,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerNoticerInitializeUpdate", base.GetFieldProperties(), 370306430, -570536771);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

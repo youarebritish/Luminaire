@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Nifl.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Nifl.ComponentData.WeaponFlagComponentData", base.GetFieldProperties(), -1933672356, 498616703);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

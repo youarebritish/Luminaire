@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGetCarnivalType", base.GetFieldProperties(), 232885115, -65833067);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

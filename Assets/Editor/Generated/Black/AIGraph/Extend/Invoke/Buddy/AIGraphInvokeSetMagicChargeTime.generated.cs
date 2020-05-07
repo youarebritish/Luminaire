@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetMagicChargeTime", base.GetFieldProperties(), -1715690869, 2026351748);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

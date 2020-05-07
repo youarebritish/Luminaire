@@ -45,7 +45,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.LightProbeEntityBase", base.GetFieldProperties(), 1380648887, -675135130);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

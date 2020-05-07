@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeQuestDestinationPoint", base.GetFieldProperties(), -1079193565, -824754257);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

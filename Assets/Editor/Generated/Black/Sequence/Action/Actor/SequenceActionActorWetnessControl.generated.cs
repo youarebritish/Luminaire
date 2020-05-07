@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorWetnessControl", base.GetFieldProperties(), -1052279145, -1265896995);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

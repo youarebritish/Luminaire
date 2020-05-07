@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Body
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Body.ActorEnvironmentDetectionComponent", null, -153285116, -367153589);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

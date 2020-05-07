@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Actor.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Animation.SequenceActionActorSetBlackBoardParameter", base.GetFieldProperties(), -1194373752, 971070537);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

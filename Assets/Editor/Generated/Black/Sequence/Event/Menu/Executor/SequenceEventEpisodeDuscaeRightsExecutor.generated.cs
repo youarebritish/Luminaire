@@ -41,7 +41,10 @@ namespace Black.Sequence.Event.Menu.Executor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventEpisodeDuscaeRightsExecutor", base.GetFieldProperties(), 26641139, 339148922);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

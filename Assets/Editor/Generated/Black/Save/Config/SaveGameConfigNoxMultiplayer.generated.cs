@@ -43,7 +43,10 @@ namespace Black.Save.Config
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveGameConfigNoxMultiplayer", null, -1227007735, 922351310);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

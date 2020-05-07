@@ -42,7 +42,10 @@ namespace Black.Sequence.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlObserve", base.GetFieldProperties(), 477812982, -828821250);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

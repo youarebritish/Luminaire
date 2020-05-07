@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.System
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeSyncIdleMode", base.GetFieldProperties(), 1201911701, -658845441);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

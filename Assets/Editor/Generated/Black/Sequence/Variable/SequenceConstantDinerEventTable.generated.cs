@@ -40,7 +40,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstantDinerEventTable", base.GetFieldProperties(), 2091444737, -1971236772);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

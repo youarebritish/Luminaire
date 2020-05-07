@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableChocoboRaceFriendPoint", base.GetFieldProperties(), 51397132, -632849541);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

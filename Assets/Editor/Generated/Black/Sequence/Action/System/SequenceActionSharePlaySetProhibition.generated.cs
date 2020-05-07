@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSharePlaySetProhibition", base.GetFieldProperties(), -1980138892, -916523102);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

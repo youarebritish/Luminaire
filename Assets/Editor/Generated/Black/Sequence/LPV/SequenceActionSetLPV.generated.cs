@@ -84,7 +84,10 @@ namespace Black.Sequence.LPV
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.LPV.SequenceActionSetLPV", base.GetFieldProperties(), -1122550160, -2022821942);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

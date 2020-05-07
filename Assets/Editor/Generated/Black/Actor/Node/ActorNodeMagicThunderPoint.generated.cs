@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeMagicThunderPoint", base.GetFieldProperties(), -915560489, -927569221);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

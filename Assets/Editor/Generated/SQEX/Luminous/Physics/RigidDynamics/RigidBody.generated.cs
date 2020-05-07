@@ -36,7 +36,10 @@ namespace SQEX.Luminous.Physics.RigidDynamics
             }
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.Physics.RigidDynamics.RigidBody", base.GetFieldProperties(), -1044887331, -1732245857);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

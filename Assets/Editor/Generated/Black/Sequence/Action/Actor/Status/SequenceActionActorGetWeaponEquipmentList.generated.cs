@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Actor.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorGetWeaponEquipmentList", base.GetFieldProperties(), 1588270101, 860629089);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

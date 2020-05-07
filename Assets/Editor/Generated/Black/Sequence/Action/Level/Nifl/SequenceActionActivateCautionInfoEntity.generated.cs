@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionActivateCautionInfoEntity", base.GetFieldProperties(), 1758387121, 419157176);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

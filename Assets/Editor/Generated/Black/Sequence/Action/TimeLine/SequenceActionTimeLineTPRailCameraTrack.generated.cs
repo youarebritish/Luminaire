@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.TimeLine
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineTPRailCameraTrack", base.GetFieldProperties(), 1616473513, 926193808);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

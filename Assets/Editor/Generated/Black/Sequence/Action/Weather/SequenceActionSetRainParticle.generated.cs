@@ -96,7 +96,10 @@ namespace Black.Sequence.Action.Weather
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.SequenceActionSetRainParticle", base.GetFieldProperties(), -1550555019, 1455511672);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

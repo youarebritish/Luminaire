@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeShiftBreak", base.GetFieldProperties(), -1251663803, 1536268423);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

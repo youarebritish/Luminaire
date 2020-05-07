@@ -56,7 +56,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.SpecularLightProbeEntity", base.GetFieldProperties(), -123102586, 996350082);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

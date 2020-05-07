@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.PDCoinInfoEntity", base.GetFieldProperties(), 1995421469, 361020542);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

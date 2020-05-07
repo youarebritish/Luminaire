@@ -40,7 +40,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiplayerNotifiyIngredientInfo", base.GetFieldProperties(), -930225760, 597836233);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

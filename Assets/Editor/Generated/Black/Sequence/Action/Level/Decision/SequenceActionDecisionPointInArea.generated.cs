@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Level.Decision
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Decision.SequenceActionDecisionPointInArea", base.GetFieldProperties(), -902795351, 794370782);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionShowWindowsPasswordUI", base.GetFieldProperties(), -240417154, 1907090228);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

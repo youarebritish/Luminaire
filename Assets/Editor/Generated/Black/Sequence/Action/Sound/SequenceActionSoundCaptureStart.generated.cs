@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sound.SequenceActionSoundCaptureStart", base.GetFieldProperties(), -1602051422, -482294919);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

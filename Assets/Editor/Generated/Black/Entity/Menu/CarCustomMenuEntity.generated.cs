@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.CarCustomMenuEntity", base.GetFieldProperties(), 988670013, 803578850);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

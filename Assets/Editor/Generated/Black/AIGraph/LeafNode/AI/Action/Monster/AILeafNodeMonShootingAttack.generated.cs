@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Monster.AILeafNodeMonShootingAttack", base.GetFieldProperties(), -477336185, 2145255272);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

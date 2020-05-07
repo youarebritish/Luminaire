@@ -37,7 +37,10 @@ namespace SQEX.Ebony.Framework.TimeControl
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.CurveList", base.GetFieldProperties(), -883513503, -1765705590);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

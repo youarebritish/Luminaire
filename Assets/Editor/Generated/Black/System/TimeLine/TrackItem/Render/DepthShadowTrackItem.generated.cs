@@ -36,7 +36,10 @@ namespace Black.System.TimeLine.TrackItem.Render
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.DepthShadowTrackItem", base.GetFieldProperties(), -1569389104, -2111288505);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

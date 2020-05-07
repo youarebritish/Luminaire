@@ -48,7 +48,10 @@ namespace Black.Sequence.Operator
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.SequenceOperatorCalculateFloatExpression", base.GetFieldProperties(), -1075364160, 557865350);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

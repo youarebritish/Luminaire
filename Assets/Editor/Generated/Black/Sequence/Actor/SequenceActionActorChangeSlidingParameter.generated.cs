@@ -73,7 +73,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorChangeSlidingParameter", base.GetFieldProperties(), -122323283, -717373188);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

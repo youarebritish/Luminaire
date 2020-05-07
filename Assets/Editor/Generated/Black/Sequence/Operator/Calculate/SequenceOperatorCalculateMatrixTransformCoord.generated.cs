@@ -43,7 +43,10 @@ namespace Black.Sequence.Operator.Calculate
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.Calculate.SequenceOperatorCalculateMatrixTransformCoord", base.GetFieldProperties(), 2068505923, -394840808);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

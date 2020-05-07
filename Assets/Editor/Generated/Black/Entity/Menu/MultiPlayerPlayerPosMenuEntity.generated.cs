@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MultiPlayerPlayerPosMenuEntity", base.GetFieldProperties(), -1606630106, -207303918);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

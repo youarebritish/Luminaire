@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.EventScript
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.EventScript.SequenceActionEventScriptPostFaceToFaceFixid", base.GetFieldProperties(), -741373633, -961046506);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

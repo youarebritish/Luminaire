@@ -38,7 +38,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.RandomFilterNodeEntity", base.GetFieldProperties(), -511448825, 554380462);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

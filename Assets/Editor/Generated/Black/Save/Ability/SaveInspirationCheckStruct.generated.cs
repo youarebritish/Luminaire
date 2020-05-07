@@ -37,7 +37,10 @@ namespace Black.Save.Ability
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveInspirationCheckStruct", null, -301287938, 1502723717);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

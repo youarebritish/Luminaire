@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor.Body
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Body.SequenceActionActorBodyRequestDeathMessage", base.GetFieldProperties(), 530929551, 1608471650);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

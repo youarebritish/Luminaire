@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.AIGraphExpressionInvokeGetStatusTarget", base.GetFieldProperties(), -1373617692, -1665349140);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -46,7 +46,10 @@ namespace Black.Sequence.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.AI.CheckNavMeshRayCast", base.GetFieldProperties(), -76369796, 1867526570);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

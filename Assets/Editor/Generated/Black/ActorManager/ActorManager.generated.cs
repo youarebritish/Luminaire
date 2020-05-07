@@ -36,7 +36,10 @@ namespace Black.ActorManager
             }
 
             fieldProperties = new PropertyContainer("Black.ActorManager.ActorManager", null, -2057450186, 1959963856);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

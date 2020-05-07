@@ -74,7 +74,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetMainLight", base.GetFieldProperties(), -193703253, -320638784);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

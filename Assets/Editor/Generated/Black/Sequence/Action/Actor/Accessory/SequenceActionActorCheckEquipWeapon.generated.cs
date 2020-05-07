@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorCheckEquipWeapon", base.GetFieldProperties(), 241915718, -208456008);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionVideoRecordingSetInfo", base.GetFieldProperties(), -73551557, 546188183);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

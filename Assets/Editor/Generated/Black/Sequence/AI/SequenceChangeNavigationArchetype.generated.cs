@@ -40,7 +40,10 @@ namespace Black.Sequence.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.AI.SequenceChangeNavigationArchetype", base.GetFieldProperties(), 1264916244, -1794838633);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

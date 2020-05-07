@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Vfx
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vfx.SequenceActionActorLmVFXPlay", base.GetFieldProperties(), 1539449747, -1483684952);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

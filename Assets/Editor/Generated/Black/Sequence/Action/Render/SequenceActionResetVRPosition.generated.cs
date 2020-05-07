@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionResetVRPosition", base.GetFieldProperties(), -405792838, 143242196);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

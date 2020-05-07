@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionSetAIBattleMode", base.GetFieldProperties(), 675300671, -1693125592);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

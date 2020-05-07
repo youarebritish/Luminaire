@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionSetSystemToggle", base.GetFieldProperties(), 2125521623, -1148487271);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

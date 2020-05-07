@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Nifl.AIGraphExpressionInvokeCanBeginWireAttack", base.GetFieldProperties(), 1937849719, 1923833208);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

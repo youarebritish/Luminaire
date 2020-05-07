@@ -37,7 +37,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerNoReturnableDeathEvent", base.GetFieldProperties(), 1673182369, 1663953466);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

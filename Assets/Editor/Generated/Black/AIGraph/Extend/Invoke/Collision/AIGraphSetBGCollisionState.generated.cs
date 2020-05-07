@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Collision
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Collision.AIGraphSetBGCollisionState", base.GetFieldProperties(), -530452056, -1316084301);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

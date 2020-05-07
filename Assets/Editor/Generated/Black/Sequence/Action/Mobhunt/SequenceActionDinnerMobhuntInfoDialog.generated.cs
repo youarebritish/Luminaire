@@ -48,7 +48,10 @@ namespace Black.Sequence.Action.Mobhunt
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Mobhunt.SequenceActionDinnerMobhuntInfoDialog", base.GetFieldProperties(), 829500598, 111606990);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.Event.Menu.Executor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventPlayEndCreditForEpD", base.GetFieldProperties(), 1862729669, -2033195807);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

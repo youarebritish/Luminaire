@@ -36,7 +36,10 @@ namespace Black.Entity.TPS
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterDescriptorNodeEntity", base.GetFieldProperties(), -1658954863, 1319693311);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetSubdivConfiguration", base.GetFieldProperties(), -937630141, 973175560);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

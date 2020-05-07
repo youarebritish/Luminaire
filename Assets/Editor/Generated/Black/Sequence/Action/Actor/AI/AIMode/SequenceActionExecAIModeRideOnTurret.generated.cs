@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeRideOnTurret", base.GetFieldProperties(), 521288689, 1072432612);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Scene
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Scene.SequenceActionDebugDisableSceneTransform", base.GetFieldProperties(), -491691313, -612461632);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -44,7 +44,10 @@ namespace Black.Sequence.Actor.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAIMoveOffMeshLink", base.GetFieldProperties(), -1669295898, -501222727);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

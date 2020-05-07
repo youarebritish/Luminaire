@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.AI.SequenceVariableAITargetActorObject", base.GetFieldProperties(), 917336394, -901309237);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

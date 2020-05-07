@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorUseCloth", base.GetFieldProperties(), 1245066768, 2065963932);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

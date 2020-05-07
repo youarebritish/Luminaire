@@ -42,7 +42,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.SpecialSnapshotAreaEntity", base.GetFieldProperties(), -509382138, -964367156);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

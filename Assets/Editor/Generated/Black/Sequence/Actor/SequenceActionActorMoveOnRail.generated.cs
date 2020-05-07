@@ -64,7 +64,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorMoveOnRail", base.GetFieldProperties(), -1524574949, -2111661878);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionInteractionFriendMask", base.GetFieldProperties(), 908267187, -169338470);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

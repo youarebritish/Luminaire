@@ -39,7 +39,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeSetRotation", base.GetFieldProperties(), 1647178812, -1715829696);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

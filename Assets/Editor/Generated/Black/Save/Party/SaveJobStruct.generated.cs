@@ -41,7 +41,10 @@ namespace Black.Save.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SaveJobStruct", null, -1410522127, 1609453875);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

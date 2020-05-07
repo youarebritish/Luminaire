@@ -36,7 +36,10 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Action.SequenceActionWaitTimeInner", base.GetFieldProperties(), -857268917, 1319962965);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

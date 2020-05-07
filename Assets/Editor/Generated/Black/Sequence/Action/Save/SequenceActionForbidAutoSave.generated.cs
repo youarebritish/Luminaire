@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionForbidAutoSave", base.GetFieldProperties(), -598847051, 1012250788);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

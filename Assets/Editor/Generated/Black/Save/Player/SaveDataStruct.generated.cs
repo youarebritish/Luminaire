@@ -40,7 +40,10 @@ namespace Black.Save.Player
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Player.SaveDataStruct", null, 1286902868, 1307448055);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

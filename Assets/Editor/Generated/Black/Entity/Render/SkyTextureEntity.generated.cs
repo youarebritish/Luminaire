@@ -43,7 +43,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.SkyTextureEntity", base.GetFieldProperties(), -1970827573, 55039101);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

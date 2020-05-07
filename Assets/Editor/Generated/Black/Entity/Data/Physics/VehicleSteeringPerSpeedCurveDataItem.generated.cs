@@ -38,7 +38,10 @@ namespace Black.Entity.Data.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.VehicleSteeringPerSpeedCurveDataItem", base.GetFieldProperties(), -1270981475, -244614919);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

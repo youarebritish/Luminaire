@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionDialogClose", base.GetFieldProperties(), 1268665294, -1843873492);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

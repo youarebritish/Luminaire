@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeIsExecutingJobCommand", base.GetFieldProperties(), 1025584401, 657084046);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Ambient.AILeafNodeJoinAmbientGroup", base.GetFieldProperties(), -1459395724, 265630914);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

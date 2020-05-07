@@ -40,7 +40,10 @@ namespace Black.Entity.Shape
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Shape.OceanPatchEntity", base.GetFieldProperties(), -697080834, -2059229619);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

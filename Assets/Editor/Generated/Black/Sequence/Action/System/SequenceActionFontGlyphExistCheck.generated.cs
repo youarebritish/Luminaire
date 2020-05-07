@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionFontGlyphExistCheck", base.GetFieldProperties(), 432542782, 2142052226);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

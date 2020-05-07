@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.Mission
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Mission.SequenceActionActorGetTargetPoint", base.GetFieldProperties(), -1114360341, 521716056);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

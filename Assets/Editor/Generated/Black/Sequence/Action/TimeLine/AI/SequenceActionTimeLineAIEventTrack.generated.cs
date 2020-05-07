@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.TimeLine.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.AI.SequenceActionTimeLineAIEventTrack", base.GetFieldProperties(), 1882296852, 2054787898);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

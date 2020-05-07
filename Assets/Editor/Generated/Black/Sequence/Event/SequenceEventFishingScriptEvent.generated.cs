@@ -64,7 +64,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventFishingScriptEvent", base.GetFieldProperties(), 1639559776, 1492443489);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

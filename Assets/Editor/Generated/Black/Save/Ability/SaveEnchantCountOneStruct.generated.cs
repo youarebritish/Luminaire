@@ -41,7 +41,10 @@ namespace Black.Save.Ability
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveEnchantCountOneStruct", null, 206926160, -406515321);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

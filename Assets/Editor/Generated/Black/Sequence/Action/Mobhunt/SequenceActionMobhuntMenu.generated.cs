@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Mobhunt
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntMenu", base.GetFieldProperties(), -157026487, -1373261951);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

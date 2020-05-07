@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Minigame.ChocoboRace
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Minigame.ChocoboRace.SequenceActionChocoboRaceSetRace", base.GetFieldProperties(), -2096559452, 153419927);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

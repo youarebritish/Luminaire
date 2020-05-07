@@ -36,7 +36,10 @@ namespace Black.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.OwnershipSync", base.GetFieldProperties(), 1185326739, -1709098466);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeSpawnBox", base.GetFieldProperties(), 715895777, -1451368028);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

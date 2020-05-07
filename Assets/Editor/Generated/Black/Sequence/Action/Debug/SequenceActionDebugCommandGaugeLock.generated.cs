@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugCommandGaugeLock", base.GetFieldProperties(), -455328225, 632057980);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

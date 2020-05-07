@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetPackageTriggerOnOff", base.GetFieldProperties(), -1071618047, 1081783335);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

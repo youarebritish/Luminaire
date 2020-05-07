@@ -41,7 +41,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerSetArrangementFlag", base.GetFieldProperties(), 205602646, 807206089);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

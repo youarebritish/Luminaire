@@ -37,7 +37,10 @@ namespace Black.Save.Universal
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Universal.SaveUniversalStruct", null, 980172648, -596095321);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

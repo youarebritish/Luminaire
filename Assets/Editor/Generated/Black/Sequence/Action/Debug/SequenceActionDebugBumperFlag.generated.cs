@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugBumperFlag", base.GetFieldProperties(), 1435851565, -2117171676);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

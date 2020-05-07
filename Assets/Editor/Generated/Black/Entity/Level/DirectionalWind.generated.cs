@@ -36,7 +36,10 @@ namespace Black.Entity.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Level.DirectionalWind", base.GetFieldProperties(), 426729066, -829948568);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

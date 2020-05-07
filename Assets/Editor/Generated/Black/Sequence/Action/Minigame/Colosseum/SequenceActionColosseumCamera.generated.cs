@@ -37,7 +37,10 @@ namespace Black.Sequence.Action.MiniGame.Colosseum
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.MiniGame.Colosseum.SequenceActionColosseumCamera", base.GetFieldProperties(), -609496794, -664608638);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

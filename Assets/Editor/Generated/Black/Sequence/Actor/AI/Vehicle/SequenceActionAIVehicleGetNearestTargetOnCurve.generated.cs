@@ -48,7 +48,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleGetNearestTargetOnCurve", base.GetFieldProperties(), 182647031, -75686933);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

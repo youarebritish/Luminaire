@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable.MiniGame.Colosseum
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.MiniGame.Colosseum.SequenceVariableBetMedal", base.GetFieldProperties(), 930038787, 250359591);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

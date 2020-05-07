@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeTensionSpd", base.GetFieldProperties(), -2113247506, 273017185);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

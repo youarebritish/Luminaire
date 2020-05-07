@@ -36,7 +36,10 @@ namespace Black.Entity.Shape
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Shape.OceanFlowMapEntity", base.GetFieldProperties(), 1871898013, 1586447435);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

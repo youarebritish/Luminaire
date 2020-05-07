@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Weapon
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Weapon.AIGraphInvokeChangeWeaponVisible", base.GetFieldProperties(), 1663758556, -726826241);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

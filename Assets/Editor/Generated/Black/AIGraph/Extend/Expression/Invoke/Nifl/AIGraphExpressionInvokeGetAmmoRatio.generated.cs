@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Nifl.AIGraphExpressionInvokeGetAmmoRatio", base.GetFieldProperties(), 1546198663, 1371063347);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

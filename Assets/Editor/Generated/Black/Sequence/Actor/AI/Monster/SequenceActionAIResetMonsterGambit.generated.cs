@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionAIResetMonsterGambit", base.GetFieldProperties(), 50678671, -1253891320);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

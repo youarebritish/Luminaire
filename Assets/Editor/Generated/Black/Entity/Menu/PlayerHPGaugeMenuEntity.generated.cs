@@ -38,7 +38,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.PlayerHPGaugeMenuEntity", base.GetFieldProperties(), -1842106067, -1023257330);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

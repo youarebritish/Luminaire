@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Math
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Math.AIGraphExpressionInvokeGetHeatCost", base.GetFieldProperties(), -1383466003, -1550300715);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventLevelSceneChangeBefore", base.GetFieldProperties(), -1438417053, 1111758416);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

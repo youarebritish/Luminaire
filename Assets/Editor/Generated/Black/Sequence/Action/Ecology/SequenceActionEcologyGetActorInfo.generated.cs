@@ -50,7 +50,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologyGetActorInfo", base.GetFieldProperties(), -23242846, -474285916);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

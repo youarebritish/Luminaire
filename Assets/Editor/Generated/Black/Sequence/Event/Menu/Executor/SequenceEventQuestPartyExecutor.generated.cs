@@ -36,7 +36,10 @@ namespace Black.Sequence.Event.Menu.Executor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventQuestPartyExecutor", base.GetFieldProperties(), -321071146, 1260489154);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionSaveDataBackupCarnival", base.GetFieldProperties(), -1782215704, 689782120);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

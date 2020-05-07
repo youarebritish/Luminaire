@@ -36,7 +36,10 @@ namespace Black.MultiPlayer.WorldShareCreate
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.WorldShareCreate.WorldShareSyncContainer", null, -1723140811, 457010697);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

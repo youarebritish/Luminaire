@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.System
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnoreWarpShadow", base.GetFieldProperties(), 1731459421, 270772005);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

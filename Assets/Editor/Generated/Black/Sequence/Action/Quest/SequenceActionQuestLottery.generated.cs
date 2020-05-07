@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Quest.SequenceActionQuestLottery", base.GetFieldProperties(), 1260927175, 256344108);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

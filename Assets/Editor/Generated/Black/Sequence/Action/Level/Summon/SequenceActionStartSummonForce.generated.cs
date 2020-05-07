@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Level.Summon
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Summon.SequenceActionStartSummonForce", base.GetFieldProperties(), 1747144737, -12398318);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

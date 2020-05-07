@@ -37,7 +37,10 @@ namespace Black.Entity.Map
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationWorldTreeEntity", base.GetFieldProperties(), 1561791932, 1869642715);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

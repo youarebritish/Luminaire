@@ -38,7 +38,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.PillarHPGaugeMenuEntityEPG", base.GetFieldProperties(), -1430409779, -768291371);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

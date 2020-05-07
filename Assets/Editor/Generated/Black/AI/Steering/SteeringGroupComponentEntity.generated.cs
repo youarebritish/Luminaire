@@ -52,7 +52,10 @@ namespace Black.AI.Steering
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Steering.SteeringGroupComponentEntity", base.GetFieldProperties(), 1152478087, 479315012);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -48,7 +48,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.BonamikWindTrackItem", base.GetFieldProperties(), -1405187234, -528592524);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

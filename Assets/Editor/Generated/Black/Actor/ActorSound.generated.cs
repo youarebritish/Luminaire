@@ -36,7 +36,10 @@ namespace Black.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.ActorSound", base.GetFieldProperties(), -462546591, -2145521776);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

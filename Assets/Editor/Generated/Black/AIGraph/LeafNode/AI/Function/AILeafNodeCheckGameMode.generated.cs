@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeCheckGameMode", base.GetFieldProperties(), -1166058597, 1229117658);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

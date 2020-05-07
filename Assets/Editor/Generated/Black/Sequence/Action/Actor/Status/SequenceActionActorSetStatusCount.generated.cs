@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorSetStatusCount", base.GetFieldProperties(), -1747161918, 1817061036);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

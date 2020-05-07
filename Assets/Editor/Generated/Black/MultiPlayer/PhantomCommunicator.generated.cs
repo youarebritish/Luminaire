@@ -36,7 +36,10 @@ namespace Black.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.PhantomCommunicator", base.GetFieldProperties(), -1575474024, -1296719178);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

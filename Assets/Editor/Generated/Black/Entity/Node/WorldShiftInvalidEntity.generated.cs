@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.WorldShiftInvalidEntity", base.GetFieldProperties(), -176517502, 1589968784);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

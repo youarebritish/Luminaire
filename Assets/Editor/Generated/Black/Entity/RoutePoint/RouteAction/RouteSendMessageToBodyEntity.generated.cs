@@ -37,7 +37,10 @@ namespace Black.Entity.RoutePoint.RouteAction
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.RoutePoint.RouteAction.RouteSendMessageToBodyEntity", base.GetFieldProperties(), 991000237, 927701066);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

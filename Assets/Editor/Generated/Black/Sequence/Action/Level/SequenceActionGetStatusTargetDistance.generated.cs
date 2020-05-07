@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetStatusTargetDistance", base.GetFieldProperties(), 1495148947, -1009985704);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

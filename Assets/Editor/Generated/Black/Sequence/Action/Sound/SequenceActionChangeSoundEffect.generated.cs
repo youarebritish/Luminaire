@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sound.SequenceActionChangeSoundEffect", base.GetFieldProperties(), -157653463, 1575831127);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

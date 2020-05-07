@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionFrameCounter", base.GetFieldProperties(), 493866520, 1754939569);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

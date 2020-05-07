@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Level.Reinforcement
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Reinforcement.SequenceActionPrepareReinforcement", base.GetFieldProperties(), -1638960699, -1855010843);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeNoctisContinuousShiftBreak", base.GetFieldProperties(), 944381958, -1936139195);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

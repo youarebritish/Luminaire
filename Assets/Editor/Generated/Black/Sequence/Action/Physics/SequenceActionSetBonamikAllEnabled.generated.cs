@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Physics.SequenceActionSetBonamikAllEnabled", base.GetFieldProperties(), -1507753280, 333204364);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.Save.Multiplay
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Multiplay.SaveAvatarEquipmentStruct", null, 608778241, 395342048);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

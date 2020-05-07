@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeClearArrivalInfo", base.GetFieldProperties(), 1553607905, -1392523214);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

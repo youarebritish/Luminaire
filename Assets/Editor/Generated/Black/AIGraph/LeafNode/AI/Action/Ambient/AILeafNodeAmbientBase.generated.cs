@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Action.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Ambient.AILeafNodeAmbientBase", base.GetFieldProperties(), 373214632, 974688430);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

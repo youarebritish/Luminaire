@@ -41,7 +41,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.PointMoveNodeEntity", base.GetFieldProperties(), -1285261840, -1677668715);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

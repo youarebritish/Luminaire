@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Corps
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Corps.SequenceActionDeleteCorps", base.GetFieldProperties(), -215542279, 2131221387);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

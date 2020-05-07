@@ -39,7 +39,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeChangeIdleAnimationType", base.GetFieldProperties(), -1715213104, -5065480);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

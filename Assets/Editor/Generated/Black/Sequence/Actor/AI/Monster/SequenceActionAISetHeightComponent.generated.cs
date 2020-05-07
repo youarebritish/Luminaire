@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionAISetHeightComponent", base.GetFieldProperties(), -1774685920, 1279712459);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

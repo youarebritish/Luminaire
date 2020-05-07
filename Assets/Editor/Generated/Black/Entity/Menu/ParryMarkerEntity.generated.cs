@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.ParryMarkerEntity", base.GetFieldProperties(), 352710254, 1600627113);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventOnNetworkDisconnected", base.GetFieldProperties(), -1560982834, 1480100229);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

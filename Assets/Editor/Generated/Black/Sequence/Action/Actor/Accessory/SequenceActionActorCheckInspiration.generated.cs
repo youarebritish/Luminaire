@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorCheckInspiration", base.GetFieldProperties(), -80646258, 1990767591);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

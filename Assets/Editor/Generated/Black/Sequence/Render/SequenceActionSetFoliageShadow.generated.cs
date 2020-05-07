@@ -39,7 +39,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetFoliageShadow", base.GetFieldProperties(), -588486782, -1599484587);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

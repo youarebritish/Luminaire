@@ -36,7 +36,10 @@ namespace Black.Sequence.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Quest.SequenceEventQuestEndProgress", base.GetFieldProperties(), 1063791238, 573346243);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIChocoboGetStatus", base.GetFieldProperties(), 223948166, 1862390001);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

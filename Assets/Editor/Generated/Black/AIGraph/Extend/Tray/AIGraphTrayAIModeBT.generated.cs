@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Tray
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Tray.AIGraphTrayAIModeBT", base.GetFieldProperties(), 899296779, 643128411);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

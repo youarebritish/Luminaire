@@ -43,7 +43,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.DirectnessFilterNodeEntity", base.GetFieldProperties(), 208047056, -1409879559);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

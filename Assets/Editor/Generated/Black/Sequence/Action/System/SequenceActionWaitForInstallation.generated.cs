@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionWaitForInstallation", base.GetFieldProperties(), 423118145, 915525461);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

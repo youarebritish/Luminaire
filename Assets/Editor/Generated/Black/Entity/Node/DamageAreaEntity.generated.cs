@@ -39,7 +39,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.DamageAreaEntity", base.GetFieldProperties(), -1100432944, -1197750371);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

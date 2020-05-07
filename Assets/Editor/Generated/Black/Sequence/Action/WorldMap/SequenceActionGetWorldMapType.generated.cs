@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.WorldMap.SequenceActionGetWorldMapType", base.GetFieldProperties(), 439827388, 1521971426);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

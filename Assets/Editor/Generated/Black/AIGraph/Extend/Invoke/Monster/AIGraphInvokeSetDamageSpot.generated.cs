@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetDamageSpot", base.GetFieldProperties(), -246744185, -728807261);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

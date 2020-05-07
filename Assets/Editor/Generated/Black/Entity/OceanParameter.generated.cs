@@ -42,7 +42,10 @@ namespace Black.Entity
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.OceanParameter", base.GetFieldProperties(), 432306394, -698696659);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

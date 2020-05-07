@@ -40,7 +40,10 @@ namespace Black.Sequence.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Quest.SequenceQuestChangeCurrentMenu", base.GetFieldProperties(), -1135217505, 332396168);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

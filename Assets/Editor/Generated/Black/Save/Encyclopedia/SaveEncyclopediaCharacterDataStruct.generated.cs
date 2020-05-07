@@ -39,7 +39,10 @@ namespace Black.Save.Encyclopedia
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Encyclopedia.SaveEncyclopediaCharacterDataStruct", null, 286701721, 538982530);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

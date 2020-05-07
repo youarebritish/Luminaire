@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Trial
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeSetBurstMission", base.GetFieldProperties(), -1804814958, 1896828449);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.WeaponMenuEntityForGladiolus", base.GetFieldProperties(), -331298562, -890220276);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

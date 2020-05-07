@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionTryDinerFirstTimeCondition", base.GetFieldProperties(), -388789525, 607777187);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -59,7 +59,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequneceActionActorSetMaterialFloatParameter", base.GetFieldProperties(), -350090819, 195217920);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

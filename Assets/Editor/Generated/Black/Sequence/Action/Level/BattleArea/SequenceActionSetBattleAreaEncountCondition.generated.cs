@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Level.BattleArea
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.BattleArea.SequenceActionSetBattleAreaEncountCondition", base.GetFieldProperties(), -599566247, -1670541530);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

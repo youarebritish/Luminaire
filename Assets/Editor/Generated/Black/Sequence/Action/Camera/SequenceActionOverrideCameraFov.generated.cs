@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionOverrideCameraFov", base.GetFieldProperties(), 210903516, 180846493);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

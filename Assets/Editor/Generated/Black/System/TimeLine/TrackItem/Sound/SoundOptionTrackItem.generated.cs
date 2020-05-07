@@ -37,7 +37,10 @@ namespace Black.System.TimeLine.TrackItem.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Sound.SoundOptionTrackItem", base.GetFieldProperties(), -1611913649, -1993744803);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

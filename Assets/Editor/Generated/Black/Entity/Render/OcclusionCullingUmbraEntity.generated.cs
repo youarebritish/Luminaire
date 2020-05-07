@@ -59,7 +59,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.OcclusionCullingUmbraEntity", base.GetFieldProperties(), 684501425, 887228038);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

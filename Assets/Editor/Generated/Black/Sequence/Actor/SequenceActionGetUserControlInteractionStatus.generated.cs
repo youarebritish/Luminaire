@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionGetUserControlInteractionStatus", base.GetFieldProperties(), 1949830994, 74445386);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

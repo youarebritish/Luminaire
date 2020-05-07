@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionDownloadedAppContents", base.GetFieldProperties(), -736239362, 433584869);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

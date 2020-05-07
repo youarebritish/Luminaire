@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Combat
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetCalcTargetAngleV", base.GetFieldProperties(), 1731535061, -1538107805);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

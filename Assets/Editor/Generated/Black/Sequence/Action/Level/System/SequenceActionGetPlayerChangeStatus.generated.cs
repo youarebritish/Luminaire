@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionGetPlayerChangeStatus", base.GetFieldProperties(), 1049395414, 424790442);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

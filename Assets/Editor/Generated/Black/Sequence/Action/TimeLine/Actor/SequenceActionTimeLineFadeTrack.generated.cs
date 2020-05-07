@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.TimeLine.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineFadeTrack", base.GetFieldProperties(), -1543057372, -339414781);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

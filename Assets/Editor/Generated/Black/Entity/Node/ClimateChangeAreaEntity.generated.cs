@@ -45,7 +45,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.ClimateChangeAreaEntity", base.GetFieldProperties(), 1001642552, 1716286985);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

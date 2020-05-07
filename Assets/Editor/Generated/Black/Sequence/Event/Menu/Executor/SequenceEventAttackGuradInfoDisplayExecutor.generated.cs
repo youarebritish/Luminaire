@@ -36,7 +36,10 @@ namespace Black.Sequence.Event.Menu.Executor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventAttackGuradInfoDisplayExecutor", base.GetFieldProperties(), -894087962, -112464460);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

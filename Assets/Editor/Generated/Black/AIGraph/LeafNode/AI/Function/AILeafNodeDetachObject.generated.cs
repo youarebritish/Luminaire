@@ -40,7 +40,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeDetachObject", base.GetFieldProperties(), 276922715, -1340899740);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

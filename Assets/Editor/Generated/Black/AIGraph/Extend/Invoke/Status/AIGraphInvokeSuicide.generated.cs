@@ -40,7 +40,10 @@ namespace Black.AIGraph.Extend.Invoke.Status
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Status.AIGraphInvokeSuicide", base.GetFieldProperties(), 1184732927, -509484312);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

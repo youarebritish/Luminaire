@@ -50,7 +50,10 @@ namespace Black.Sequence.PostEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.PostEffect.SequenceActionSetMotionBlur", base.GetFieldProperties(), -725579449, 1138465563);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

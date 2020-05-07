@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Actor.Accessory
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorDeleteClothAll", base.GetFieldProperties(), -1008543462, 1258231038);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

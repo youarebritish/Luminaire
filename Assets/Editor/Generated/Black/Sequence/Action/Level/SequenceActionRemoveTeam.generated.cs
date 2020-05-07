@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionRemoveTeam", base.GetFieldProperties(), 151170175, 1670005503);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

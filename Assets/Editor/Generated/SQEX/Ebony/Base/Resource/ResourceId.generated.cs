@@ -40,7 +40,10 @@ namespace SQEX.Ebony.Base.Resource
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Base.Resource.ResourceId", null, 1301457576, 134283375);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

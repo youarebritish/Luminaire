@@ -39,7 +39,10 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeEventScriptStart", base.GetFieldProperties(), 560428077, -1719315143);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

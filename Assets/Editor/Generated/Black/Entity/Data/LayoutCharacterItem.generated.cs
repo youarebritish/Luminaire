@@ -40,7 +40,10 @@ namespace Black.Entity.Data
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.LayoutCharacterItem", base.GetFieldProperties(), 2035770701, 932965407);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

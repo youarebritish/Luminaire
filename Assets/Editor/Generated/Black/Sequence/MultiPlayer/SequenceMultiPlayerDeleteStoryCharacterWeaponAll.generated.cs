@@ -38,7 +38,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerDeleteStoryCharacterWeaponAll", base.GetFieldProperties(), -1868577665, 550437693);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

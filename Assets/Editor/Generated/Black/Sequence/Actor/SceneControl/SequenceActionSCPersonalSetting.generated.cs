@@ -57,7 +57,10 @@ namespace Black.Sequence.Actor.SceneControl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SceneControl.SequenceActionSCPersonalSetting", base.GetFieldProperties(), -849926598, -390443165);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

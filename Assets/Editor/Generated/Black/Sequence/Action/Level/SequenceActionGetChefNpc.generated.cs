@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetChefNpc", base.GetFieldProperties(), 919454948, -150764013);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

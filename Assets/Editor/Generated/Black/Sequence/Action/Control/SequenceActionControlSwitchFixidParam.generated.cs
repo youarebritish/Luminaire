@@ -56,7 +56,10 @@ namespace Black.Sequence.Action.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Control.SequenceActionControlSwitchFixidParam", base.GetFieldProperties(), -1680758712, -4791471);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

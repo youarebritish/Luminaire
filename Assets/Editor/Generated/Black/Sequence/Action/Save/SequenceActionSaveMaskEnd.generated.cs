@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionSaveMaskEnd", base.GetFieldProperties(), 1662533430, 957653091);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

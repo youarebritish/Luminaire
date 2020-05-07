@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Monster.AIGraphExpressionInvokeIsMonsPartsDestroyed", base.GetFieldProperties(), -948401791, 1707791083);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -43,7 +43,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.RelativeAngleTrapezoidFilterNodeEntity", base.GetFieldProperties(), 1669994350, 201639167);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

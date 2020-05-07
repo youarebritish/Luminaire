@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugColosseumShowStats", base.GetFieldProperties(), -1148314754, 45167000);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

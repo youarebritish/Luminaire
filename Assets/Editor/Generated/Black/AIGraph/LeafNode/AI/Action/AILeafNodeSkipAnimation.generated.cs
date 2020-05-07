@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Action
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeSkipAnimation", base.GetFieldProperties(), -518176789, -1935533041);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

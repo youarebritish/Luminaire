@@ -40,7 +40,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.NaviMapMenuEntity", base.GetFieldProperties(), 713013883, -1302053610);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

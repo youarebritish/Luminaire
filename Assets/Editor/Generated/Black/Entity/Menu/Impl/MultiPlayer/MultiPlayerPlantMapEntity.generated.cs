@@ -36,7 +36,10 @@ namespace Black.Entity.Menu.Impl.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerPlantMapEntity", base.GetFieldProperties(), 1388472182, -293971438);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.BattleSync", base.GetFieldProperties(), 1403569589, 1998389357);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

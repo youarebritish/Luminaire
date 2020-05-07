@@ -39,7 +39,10 @@ namespace Black.AIGraph.Extend.Node.FSM
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Node.FSM.AIGraphNodeFSMStateMindTaskTray", base.GetFieldProperties(), -1453576406, -1568714731);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

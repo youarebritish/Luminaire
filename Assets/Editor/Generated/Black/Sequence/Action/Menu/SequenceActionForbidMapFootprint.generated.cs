@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionForbidMapFootprint", base.GetFieldProperties(), 294890373, 1160063687);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

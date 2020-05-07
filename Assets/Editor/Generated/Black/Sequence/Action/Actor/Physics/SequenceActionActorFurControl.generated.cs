@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Physics.SequenceActionActorFurControl", base.GetFieldProperties(), 1136441909, -1547696004);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

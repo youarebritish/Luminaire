@@ -43,7 +43,10 @@ namespace Black.Sequence.Actor.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAIStrongPointMove", base.GetFieldProperties(), 923251673, 1836994667);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

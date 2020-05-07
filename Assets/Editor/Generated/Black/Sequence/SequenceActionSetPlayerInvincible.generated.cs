@@ -42,7 +42,10 @@ namespace Black.Sequence
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.SequenceActionSetPlayerInvincible", base.GetFieldProperties(), 1870122419, -1747032344);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

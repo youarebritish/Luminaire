@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Actor.StatusGrow
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorSetHomeTown", base.GetFieldProperties(), -1107364337, -254476429);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

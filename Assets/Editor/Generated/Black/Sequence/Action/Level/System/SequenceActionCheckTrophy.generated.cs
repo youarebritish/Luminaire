@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionCheckTrophy", base.GetFieldProperties(), 885114667, -1050699375);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

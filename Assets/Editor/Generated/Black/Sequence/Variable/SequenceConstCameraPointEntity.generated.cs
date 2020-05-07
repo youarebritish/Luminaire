@@ -37,7 +37,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstCameraPointEntity", base.GetFieldProperties(), 1683907167, 1823157702);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

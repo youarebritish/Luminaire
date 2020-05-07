@@ -37,7 +37,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.HyperLowPackageEntity", base.GetFieldProperties(), 928284002, -1993952591);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

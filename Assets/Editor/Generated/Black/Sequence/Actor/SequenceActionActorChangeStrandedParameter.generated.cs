@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorChangeStrandedParameter", base.GetFieldProperties(), 104810893, 414559689);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

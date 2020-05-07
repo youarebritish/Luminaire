@@ -53,7 +53,10 @@ namespace Black.Sequence.ScreenEffect
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.SequenceActionSetVWVignette", base.GetFieldProperties(), 953834213, 839510471);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

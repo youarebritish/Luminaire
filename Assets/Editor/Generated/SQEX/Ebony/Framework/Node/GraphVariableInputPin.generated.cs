@@ -37,7 +37,10 @@ namespace SQEX.Ebony.Framework.Node
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Node.GraphVariableInputPin", base.GetFieldProperties(), -1698830909, 277083611);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Menu.Battle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.Battle.SequenceActionCombatCommandAccessBase", base.GetFieldProperties(), -1067546999, -1366991007);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

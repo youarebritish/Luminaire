@@ -38,7 +38,10 @@ namespace Black.Entity.Map
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationDataSplitterEntity", base.GetFieldProperties(), 1481966789, 1028107364);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

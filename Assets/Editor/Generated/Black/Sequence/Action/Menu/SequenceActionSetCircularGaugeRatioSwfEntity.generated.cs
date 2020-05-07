@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetCircularGaugeRatioSwfEntity", base.GetFieldProperties(), -1439165217, 988479151);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

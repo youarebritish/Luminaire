@@ -37,7 +37,10 @@ namespace SQEX.Ebony.Framework.Entity
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Entity.ScenePackage", base.GetFieldProperties(), -904565201, 1930709289);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

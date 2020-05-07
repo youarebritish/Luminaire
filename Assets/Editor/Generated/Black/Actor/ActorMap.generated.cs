@@ -36,7 +36,10 @@ namespace Black.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.ActorMap", base.GetFieldProperties(), 978879235, -1421936932);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

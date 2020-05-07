@@ -37,7 +37,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.OccluderEntity", base.GetFieldProperties(), 907776244, -499107977);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

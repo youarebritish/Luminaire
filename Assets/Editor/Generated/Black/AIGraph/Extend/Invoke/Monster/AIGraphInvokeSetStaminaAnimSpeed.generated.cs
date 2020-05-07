@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetStaminaAnimSpeed", base.GetFieldProperties(), 1484787145, 1459394444);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

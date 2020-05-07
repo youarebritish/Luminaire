@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.EventScript
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.EventScript.SequenceActionEventScriptStop", base.GetFieldProperties(), -1396014665, 1589523885);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

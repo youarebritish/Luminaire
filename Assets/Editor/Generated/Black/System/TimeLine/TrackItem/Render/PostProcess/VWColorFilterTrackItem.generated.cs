@@ -93,7 +93,10 @@ namespace Black.System.TimeLine.TrackItem.Render.PostProcess
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.PostProcess.VWColorFilterTrackItem", base.GetFieldProperties(), 731056422, -1217140648);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

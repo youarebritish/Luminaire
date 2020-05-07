@@ -46,7 +46,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorTriggerDynamicsComponentTransition", base.GetFieldProperties(), 2013198221, -1870725620);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

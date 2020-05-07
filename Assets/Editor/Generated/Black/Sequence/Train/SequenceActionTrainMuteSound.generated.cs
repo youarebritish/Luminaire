@@ -40,7 +40,10 @@ namespace Black.Sequence.Train
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Train.SequenceActionTrainMuteSound", base.GetFieldProperties(), 913732540, 51953553);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

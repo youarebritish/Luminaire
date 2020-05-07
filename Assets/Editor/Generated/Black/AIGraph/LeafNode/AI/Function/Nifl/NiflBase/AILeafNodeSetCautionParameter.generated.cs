@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase.AILeafNodeSetCautionParameter", base.GetFieldProperties(), -230136727, 256902498);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

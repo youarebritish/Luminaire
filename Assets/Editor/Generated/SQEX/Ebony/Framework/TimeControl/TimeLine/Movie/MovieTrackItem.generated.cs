@@ -41,7 +41,10 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine.Movie
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.Movie.MovieTrackItem", base.GetFieldProperties(), 1357203848, -203323235);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

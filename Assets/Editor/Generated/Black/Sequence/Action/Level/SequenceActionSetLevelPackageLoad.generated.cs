@@ -56,7 +56,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetLevelPackageLoad", base.GetFieldProperties(), 1591238457, 27143554);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

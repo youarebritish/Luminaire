@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorSetPlayerMoveSpeed", base.GetFieldProperties(), 642818309, 1476551801);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.FishingLureSelectMenuEntity", base.GetFieldProperties(), -844868474, 737016350);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

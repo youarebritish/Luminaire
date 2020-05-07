@@ -41,7 +41,10 @@ namespace Black.Sequence.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Quest.SequenceQuestGetQuestActor", base.GetFieldProperties(), 1729264090, -1323789208);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

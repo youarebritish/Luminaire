@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionOverrideSpecialAreaType", base.GetFieldProperties(), 89076739, -414642149);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

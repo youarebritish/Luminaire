@@ -43,7 +43,10 @@ namespace Black.Entity.Data.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.AI.RoleDefineDataEntity", base.GetFieldProperties(), -1563992405, -542564075);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

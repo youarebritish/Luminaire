@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionMergeTeam", base.GetFieldProperties(), -892782161, 649413300);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

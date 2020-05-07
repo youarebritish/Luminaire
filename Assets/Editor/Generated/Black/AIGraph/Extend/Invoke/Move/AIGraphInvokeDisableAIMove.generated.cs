@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeDisableAIMove", base.GetFieldProperties(), 31998513, 24481091);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

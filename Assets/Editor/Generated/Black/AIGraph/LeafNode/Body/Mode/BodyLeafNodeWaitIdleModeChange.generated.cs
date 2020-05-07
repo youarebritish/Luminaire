@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.Body.Mode
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Mode.BodyLeafNodeWaitIdleModeChange", base.GetFieldProperties(), 1260397245, 1028866443);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

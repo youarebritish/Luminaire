@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.System
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnorePinning", base.GetFieldProperties(), 84393432, 933003087);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

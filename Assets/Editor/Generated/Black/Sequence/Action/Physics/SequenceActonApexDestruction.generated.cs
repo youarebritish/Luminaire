@@ -47,7 +47,10 @@ namespace Black.Sequence.Action.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Physics.SequenceActonApexDestruction", base.GetFieldProperties(), -449481306, 817252273);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

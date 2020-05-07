@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeOverrideFaction", base.GetFieldProperties(), 1045773633, 619846007);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

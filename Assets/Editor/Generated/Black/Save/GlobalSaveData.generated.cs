@@ -37,7 +37,10 @@ namespace Black.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Save.GlobalSaveData", base.GetFieldProperties(), 1394919505, 1056218891);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugSetPackageUnloadMode", base.GetFieldProperties(), -334150982, 1842197105);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

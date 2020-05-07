@@ -36,7 +36,10 @@ namespace Black.Sequence.Event.Menu.Executor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventShiftBreakInfoDisplayExecutor", base.GetFieldProperties(), 308333231, -2126116602);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

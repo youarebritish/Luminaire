@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionBrowseNVIDIAHighlights", base.GetFieldProperties(), -2019818686, -140055504);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -45,7 +45,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.AreaStartPointEntity", base.GetFieldProperties(), 867666509, 1639945546);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

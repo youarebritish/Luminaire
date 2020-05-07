@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeRequestTPSQuerySpecifiedCenter", base.GetFieldProperties(), -1044370077, -1435813197);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

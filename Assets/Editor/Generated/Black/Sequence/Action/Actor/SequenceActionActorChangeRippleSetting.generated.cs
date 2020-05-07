@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorChangeRippleSetting", base.GetFieldProperties(), 910201805, 40318153);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

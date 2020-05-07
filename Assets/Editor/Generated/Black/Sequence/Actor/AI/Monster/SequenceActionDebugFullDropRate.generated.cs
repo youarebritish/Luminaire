@@ -37,7 +37,10 @@ namespace Black.Sequence.Actor.AI.Monster
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionDebugFullDropRate", base.GetFieldProperties(), 1500396115, -1654441450);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

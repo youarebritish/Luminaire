@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeUpdateHate", base.GetFieldProperties(), -596811022, 1246288526);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

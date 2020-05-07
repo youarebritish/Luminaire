@@ -37,7 +37,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Buddy.Vehicle.AILeafNodeChangeVehicleStatus", base.GetFieldProperties(), 1237688002, -1229785877);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

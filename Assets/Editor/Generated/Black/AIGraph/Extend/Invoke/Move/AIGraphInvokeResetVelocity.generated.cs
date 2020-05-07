@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeResetVelocity", base.GetFieldProperties(), 139393491, -2118750591);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace SQEX.Luminous.Physics.RigidDynamics
             }
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.Physics.RigidDynamics.OverlapReport", null, -331564633, 922702881);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

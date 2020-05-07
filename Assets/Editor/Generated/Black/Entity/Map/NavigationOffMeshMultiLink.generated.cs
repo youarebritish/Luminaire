@@ -51,7 +51,10 @@ namespace Black.Entity.Map
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationOffMeshMultiLink", base.GetFieldProperties(), 816126815, -2023226518);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

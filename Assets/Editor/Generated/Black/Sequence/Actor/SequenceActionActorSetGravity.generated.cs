@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetGravity", base.GetFieldProperties(), -1750734547, -322213932);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

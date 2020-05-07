@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Event.SequenceActionDisableDefaultDeathEvent", base.GetFieldProperties(), -1569090793, -1836688271);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

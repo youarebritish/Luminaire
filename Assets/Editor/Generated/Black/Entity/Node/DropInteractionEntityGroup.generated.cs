@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.DropInteractionEntityGroup", base.GetFieldProperties(), -551141996, -1283444892);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

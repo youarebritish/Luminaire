@@ -42,7 +42,10 @@ namespace Black.Entity.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.TerrainCurveModelFilePath", base.GetFieldProperties(), -755224478, -1009095835);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

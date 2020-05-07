@@ -62,7 +62,10 @@ namespace Black.Save.Config
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Config.SaveGraphicsConfigMain", null, 1128139620, 60261537);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

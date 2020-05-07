@@ -57,7 +57,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionWorldTimerCompare", base.GetFieldProperties(), -408551304, -814545103);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

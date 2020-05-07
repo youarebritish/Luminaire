@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Mission
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Mission.SequenceActionSetJamFight", base.GetFieldProperties(), 403038437, 1046200274);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

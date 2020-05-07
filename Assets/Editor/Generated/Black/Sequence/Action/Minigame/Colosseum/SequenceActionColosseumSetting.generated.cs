@@ -70,7 +70,10 @@ namespace Black.Sequence.Action.Minigame.Colosseum
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSetting", base.GetFieldProperties(), 492070213, -1972100393);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

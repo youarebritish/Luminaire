@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Combat
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetDamageDirection", base.GetFieldProperties(), -658351862, 494371970);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

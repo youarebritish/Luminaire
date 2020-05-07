@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Status
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Status.AIGraphInvokeSetStatusFloat", base.GetFieldProperties(), 222225403, 406481842);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

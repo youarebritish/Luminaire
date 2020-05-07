@@ -36,7 +36,10 @@ namespace Black.Actor.Component.Nifl.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Nifl.ComponentData.GuardNiflBaseComponentData", base.GetFieldProperties(), 801886968, 707822489);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -53,7 +53,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionSetupSearchLight", base.GetFieldProperties(), -330960430, -268148957);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

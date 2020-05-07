@@ -40,7 +40,10 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetCurrentStageScoreNOX", base.GetFieldProperties(), 816067590, -1857959456);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

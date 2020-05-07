@@ -41,7 +41,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.SpawnPointNodeEntity", base.GetFieldProperties(), -64380948, 1282674613);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

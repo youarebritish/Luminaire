@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionCreateTeamMonsterForTest", base.GetFieldProperties(), -2041045480, -2068294163);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

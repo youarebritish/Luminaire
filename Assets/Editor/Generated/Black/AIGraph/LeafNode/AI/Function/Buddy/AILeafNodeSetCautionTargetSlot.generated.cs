@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetCautionTargetSlot", base.GetFieldProperties(), 307421132, 1181555992);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

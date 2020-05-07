@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Minigame.Colosseum
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSetVuvuzela", base.GetFieldProperties(), 469351578, -1370670601);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

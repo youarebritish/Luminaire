@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Sound
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sound.SequenceActionVolumeLink", base.GetFieldProperties(), 739077517, -1843427821);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

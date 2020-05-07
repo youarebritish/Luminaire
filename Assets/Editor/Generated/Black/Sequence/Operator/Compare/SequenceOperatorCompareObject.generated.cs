@@ -41,7 +41,10 @@ namespace Black.Sequence.Operator.Compare
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.Compare.SequenceOperatorCompareObject", base.GetFieldProperties(), 434109155, 1371085686);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

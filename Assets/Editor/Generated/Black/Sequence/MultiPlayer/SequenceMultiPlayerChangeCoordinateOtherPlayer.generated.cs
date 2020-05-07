@@ -44,7 +44,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerChangeCoordinateOtherPlayer", base.GetFieldProperties(), -1664244840, -1231101207);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

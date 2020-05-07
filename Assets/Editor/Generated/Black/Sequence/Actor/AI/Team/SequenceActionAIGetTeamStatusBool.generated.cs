@@ -38,7 +38,10 @@ namespace Black.Sequence.Actor.AI.Team
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Team.SequenceActionAIGetTeamStatusBool", base.GetFieldProperties(), 2120110760, 818027119);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

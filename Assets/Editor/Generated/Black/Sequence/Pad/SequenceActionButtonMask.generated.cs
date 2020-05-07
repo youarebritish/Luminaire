@@ -40,7 +40,10 @@ namespace Black.Sequence.Pad
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Pad.SequenceActionButtonMask", base.GetFieldProperties(), 82956380, 533880708);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

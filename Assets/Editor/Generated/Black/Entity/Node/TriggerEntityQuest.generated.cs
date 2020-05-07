@@ -36,7 +36,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.TriggerEntityQuest", base.GetFieldProperties(), 1839297667, -1651735708);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

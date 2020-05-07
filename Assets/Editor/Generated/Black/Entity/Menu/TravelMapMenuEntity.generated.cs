@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.TravelMapMenuEntity", base.GetFieldProperties(), 1935984485, 153642355);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

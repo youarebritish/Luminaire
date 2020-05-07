@@ -38,7 +38,10 @@ namespace Black.Entity.Data.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.VehicleTorqueCurveDataItem", base.GetFieldProperties(), -268383522, 1866220751);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

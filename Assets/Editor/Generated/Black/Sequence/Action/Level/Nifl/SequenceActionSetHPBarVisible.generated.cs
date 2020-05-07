@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionSetHPBarVisible", base.GetFieldProperties(), 788090775, -1313313911);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

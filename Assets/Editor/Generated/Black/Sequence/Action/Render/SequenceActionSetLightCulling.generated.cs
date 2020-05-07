@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetLightCulling", base.GetFieldProperties(), -1096156356, -1626999519);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

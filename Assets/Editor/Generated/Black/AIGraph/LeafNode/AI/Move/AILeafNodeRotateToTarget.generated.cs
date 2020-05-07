@@ -49,7 +49,10 @@ namespace Black.AIGraph.LeafNode.AI.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeRotateToTarget", base.GetFieldProperties(), 896777924, 1084456385);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

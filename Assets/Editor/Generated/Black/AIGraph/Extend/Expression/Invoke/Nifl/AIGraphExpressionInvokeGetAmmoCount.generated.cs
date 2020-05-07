@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Nifl.AIGraphExpressionInvokeGetAmmoCount", base.GetFieldProperties(), 127711988, -2069735509);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

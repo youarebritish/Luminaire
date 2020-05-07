@@ -37,7 +37,10 @@ namespace SQEX.Ebony.Framework.Sequence
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.SequenceContainer", base.GetFieldProperties(), -1479187013, -131109069);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

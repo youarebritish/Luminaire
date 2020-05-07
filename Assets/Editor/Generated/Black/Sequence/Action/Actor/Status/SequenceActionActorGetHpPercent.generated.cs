@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Actor.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorGetHpPercent", base.GetFieldProperties(), 580125662, -291438619);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

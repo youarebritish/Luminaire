@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCameraLightAutoCompositionTalk", base.GetFieldProperties(), -1149227208, -2017374137);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

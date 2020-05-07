@@ -38,7 +38,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.NonWetAreaEntity", base.GetFieldProperties(), -1360305127, -809284065);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.PeriodMobhuntInfoMenuEntity", base.GetFieldProperties(), -1733175577, -832424264);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

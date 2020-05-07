@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Combat
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeReloadAmmo", base.GetFieldProperties(), 1606303758, -821101273);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

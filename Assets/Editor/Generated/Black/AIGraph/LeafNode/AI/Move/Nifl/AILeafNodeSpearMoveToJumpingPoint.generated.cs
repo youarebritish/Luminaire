@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Move.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Nifl.AILeafNodeSpearMoveToJumpingPoint", base.GetFieldProperties(), -1321802890, -1286338287);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

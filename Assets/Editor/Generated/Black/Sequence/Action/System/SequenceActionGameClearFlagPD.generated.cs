@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGameClearFlagPD", base.GetFieldProperties(), 1434760782, -1087478013);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AIGraphNodeLeafBattleStatusEPI", base.GetFieldProperties(), -1721833372, 2048155544);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

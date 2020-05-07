@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeSetMoveReactionFlag", base.GetFieldProperties(), -486348449, -146791689);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

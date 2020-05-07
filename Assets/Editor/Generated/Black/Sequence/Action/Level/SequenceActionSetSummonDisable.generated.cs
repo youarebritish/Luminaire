@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetSummonDisable", base.GetFieldProperties(), 1785270411, -1208361570);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionDebugSetPlayTime", base.GetFieldProperties(), -1388984389, 943002729);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

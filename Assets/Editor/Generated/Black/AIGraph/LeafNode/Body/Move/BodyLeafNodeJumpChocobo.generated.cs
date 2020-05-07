@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.Body.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Move.BodyLeafNodeJumpChocobo", base.GetFieldProperties(), -1320386390, -501880596);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

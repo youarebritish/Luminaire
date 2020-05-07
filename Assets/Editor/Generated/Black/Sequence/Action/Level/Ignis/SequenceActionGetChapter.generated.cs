@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Level.Ignis
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Ignis.SequenceActionGetChapter", base.GetFieldProperties(), -2244667, -203732411);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

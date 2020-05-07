@@ -41,7 +41,10 @@ namespace SQEX.Ebony.Framework.Sequence.Event
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Event.SequenceEventWorldTimerUpdated", base.GetFieldProperties(), 2078042126, 379598608);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

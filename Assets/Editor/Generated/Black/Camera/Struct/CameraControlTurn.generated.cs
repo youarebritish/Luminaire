@@ -50,7 +50,10 @@ namespace Black.Camera.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.Camera.Struct.CameraControlTurn", base.GetFieldProperties(), -1676972646, 589691802);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

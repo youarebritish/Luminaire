@@ -39,7 +39,10 @@ namespace Black.Actor.Component.Props.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Props.ComponentData.OilComponentData", base.GetFieldProperties(), -1842449721, 410629496);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

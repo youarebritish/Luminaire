@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Quest.SequenceActionQuestCheckClear", base.GetFieldProperties(), 430530894, -1819775142);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

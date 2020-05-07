@@ -38,7 +38,10 @@ namespace Black.Save.EventScript
             }
 
             fieldProperties = new PropertyContainer("Black.Save.EventScript.SaveEventScriptSceneDataStruct", null, -1839855270, 1790015476);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -11,7 +11,7 @@ namespace Black.Save
 		public int SaveType;
 		public string AreaFilePath;
 		public uint PlayerRestartPointID;
-		public double[] PlayerWorldPos;
+		public SQEX.Luminous.Math.DoubleVector4 PlayerWorldPos;
 		public UnityEngine.Vector4 PlayerRotation;
 		public uint ActiveQuestFixID;
 		public int SlotNo;
@@ -69,7 +69,10 @@ namespace Black.Save
             }
 
             fieldProperties = new PropertyContainer("Black.Save.SaveInformation", null, 1449703829, 577117785);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

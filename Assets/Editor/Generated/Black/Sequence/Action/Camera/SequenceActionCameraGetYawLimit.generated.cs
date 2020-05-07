@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraGetYawLimit", base.GetFieldProperties(), 2077768065, 1229177465);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

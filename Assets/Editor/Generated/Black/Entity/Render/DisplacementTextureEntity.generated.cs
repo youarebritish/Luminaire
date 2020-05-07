@@ -67,7 +67,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.DisplacementTextureEntity", base.GetFieldProperties(), -1673306602, 1966880369);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

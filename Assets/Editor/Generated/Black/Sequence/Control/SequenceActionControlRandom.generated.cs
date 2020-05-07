@@ -56,7 +56,10 @@ namespace Black.Sequence.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlRandom", base.GetFieldProperties(), -1580435457, -1664490678);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

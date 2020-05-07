@@ -37,7 +37,10 @@ namespace Black.Entity.Map
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationShapeEntity", base.GetFieldProperties(), -1206478483, -948810568);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

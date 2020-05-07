@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Actor.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorSetCrashRateOffset", base.GetFieldProperties(), -1606501676, 1318592017);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

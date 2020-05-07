@@ -36,7 +36,10 @@ namespace Black.Entity.Event
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Event.EventPackage", base.GetFieldProperties(), -1258667656, 1888334421);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

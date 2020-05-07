@@ -57,7 +57,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetProceduralSkyMulMap", base.GetFieldProperties(), 1141004260, 1875361245);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

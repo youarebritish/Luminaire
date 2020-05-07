@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Interaction
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Interaction.SequenceActionInteractionOverrideId", base.GetFieldProperties(), 596987156, -1623911745);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

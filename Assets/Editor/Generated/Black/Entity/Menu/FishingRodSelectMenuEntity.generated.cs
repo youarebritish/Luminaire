@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.FishingRodSelectMenuEntity", base.GetFieldProperties(), 2146739531, 1355416433);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

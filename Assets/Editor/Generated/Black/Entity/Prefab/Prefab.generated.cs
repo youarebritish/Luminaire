@@ -37,7 +37,10 @@ namespace Black.Entity.Prefab
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Prefab.Prefab", base.GetFieldProperties(), -898387587, -1994132092);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

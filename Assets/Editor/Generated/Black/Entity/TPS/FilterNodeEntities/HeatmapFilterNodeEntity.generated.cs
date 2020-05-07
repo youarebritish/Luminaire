@@ -43,7 +43,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.HeatmapFilterNodeEntity", base.GetFieldProperties(), 1210240270, 1579852038);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

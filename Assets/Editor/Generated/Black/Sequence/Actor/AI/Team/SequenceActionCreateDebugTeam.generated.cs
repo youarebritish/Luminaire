@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor.AI.Team
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Team.SequenceActionCreateDebugTeam", base.GetFieldProperties(), 1772295266, -1090062160);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

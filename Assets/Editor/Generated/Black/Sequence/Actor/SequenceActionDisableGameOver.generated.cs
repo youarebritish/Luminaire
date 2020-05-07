@@ -40,7 +40,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionDisableGameOver", base.GetFieldProperties(), 1380336431, 914029122);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

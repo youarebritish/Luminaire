@@ -44,10 +44,10 @@ namespace Black.Save.Party
 		public Black.Save.Party.SaveMoveDistanceStruct move;
 		public int battle_result_rank;
 		public int battle_result_count;
-		public double[] camp_point_;
-		public double[] before_camp_point_;
-		public double[] loopDungeonBasePoint_;
-		public double[] loopDungeonCampPoint_;
+		public SQEX.Luminous.Math.DoubleVector4 camp_point_;
+		public SQEX.Luminous.Math.DoubleVector4 before_camp_point_;
+		public SQEX.Luminous.Math.DoubleVector4 loopDungeonBasePoint_;
+		public SQEX.Luminous.Math.DoubleVector4 loopDungeonCampPoint_;
 		public int reserve1;
 		public int reserve2;
 		public int reserve3;
@@ -84,7 +84,10 @@ namespace Black.Save.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SavePartyDataStruct", null, 1403872290, 2094854431);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Weather
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.SequenceActionDebugOverrideWeatherSlider", base.GetFieldProperties(), -1111330858, -1615131487);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

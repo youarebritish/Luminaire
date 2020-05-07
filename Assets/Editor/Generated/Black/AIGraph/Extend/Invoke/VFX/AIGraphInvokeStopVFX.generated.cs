@@ -39,7 +39,10 @@ namespace Black.AIGraph.Extend.Invoke.VFX
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.VFX.AIGraphInvokeStopVFX", base.GetFieldProperties(), -236255206, 1874979613);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

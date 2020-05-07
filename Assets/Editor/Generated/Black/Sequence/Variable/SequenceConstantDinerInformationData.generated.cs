@@ -39,7 +39,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstantDinerInformationData", base.GetFieldProperties(), -1511542270, 1709076822);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

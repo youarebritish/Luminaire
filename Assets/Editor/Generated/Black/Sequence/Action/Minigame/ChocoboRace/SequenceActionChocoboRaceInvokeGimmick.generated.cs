@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Minigame.ChocoboRace
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Minigame.ChocoboRace.SequenceActionChocoboRaceInvokeGimmick", base.GetFieldProperties(), -154778989, -982156429);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeDisplacementArea", base.GetFieldProperties(), 1899830321, -1342884195);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

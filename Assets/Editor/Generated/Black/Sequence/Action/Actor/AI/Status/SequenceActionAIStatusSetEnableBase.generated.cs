@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor.AI.Status
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Status.SequenceActionAIStatusSetEnableBase", base.GetFieldProperties(), -1488363538, 326666860);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

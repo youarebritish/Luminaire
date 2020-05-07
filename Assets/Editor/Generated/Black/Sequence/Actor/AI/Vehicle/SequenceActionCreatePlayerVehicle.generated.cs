@@ -53,7 +53,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionCreatePlayerVehicle", base.GetFieldProperties(), 1034165509, -1145636349);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

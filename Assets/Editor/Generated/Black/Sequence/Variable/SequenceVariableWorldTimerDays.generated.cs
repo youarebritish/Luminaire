@@ -38,7 +38,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableWorldTimerDays", base.GetFieldProperties(), 879947375, 192432116);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

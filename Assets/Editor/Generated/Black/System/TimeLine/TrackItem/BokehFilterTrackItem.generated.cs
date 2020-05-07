@@ -44,7 +44,10 @@ namespace Black.System.TimeLine.TrackItem
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.BokehFilterTrackItem", base.GetFieldProperties(), 1069025879, -616207110);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -47,7 +47,10 @@ namespace Black.Sequence.MultiPlayer.WorldShareCreate
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.WorldShareCreate.SequenceMultiPlayerSyncFixidValue", base.GetFieldProperties(), 555831877, 695123296);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

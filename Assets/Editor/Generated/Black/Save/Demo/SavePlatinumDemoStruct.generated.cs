@@ -39,7 +39,10 @@ namespace Black.Save.Demo
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Demo.SavePlatinumDemoStruct", null, -1620242067, -1914306695);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

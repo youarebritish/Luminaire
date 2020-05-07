@@ -37,7 +37,10 @@ namespace Black.Save.Party
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Party.SavePartyMemberStruct", null, 1072846272, 1655033737);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

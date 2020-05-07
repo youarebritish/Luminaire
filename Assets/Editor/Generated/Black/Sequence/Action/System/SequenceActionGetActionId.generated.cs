@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGetActionId", base.GetFieldProperties(), -1135339031, -258783825);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

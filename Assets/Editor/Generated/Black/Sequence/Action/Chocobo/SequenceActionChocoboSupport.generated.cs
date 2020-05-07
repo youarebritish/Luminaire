@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Chocobo
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Chocobo.SequenceActionChocoboSupport", base.GetFieldProperties(), -283848557, 1306492729);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

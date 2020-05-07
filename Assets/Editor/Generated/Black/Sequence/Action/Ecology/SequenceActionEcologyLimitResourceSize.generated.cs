@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Ecology
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Ecology.SequenceActionEcologyLimitResourceSize", base.GetFieldProperties(), -432808160, -911464502);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

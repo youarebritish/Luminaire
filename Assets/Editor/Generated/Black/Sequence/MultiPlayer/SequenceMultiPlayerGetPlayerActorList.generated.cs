@@ -41,7 +41,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetPlayerActorList", base.GetFieldProperties(), 486315804, -1362950699);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

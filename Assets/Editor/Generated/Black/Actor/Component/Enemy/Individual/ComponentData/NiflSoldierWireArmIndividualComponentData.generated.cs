@@ -39,7 +39,10 @@ namespace Black.Actor.Component.Enemy.Individual.ComponentData
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Enemy.Individual.ComponentData.NiflSoldierWireArmIndividualComponentData", base.GetFieldProperties(), 1123837994, -731442856);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

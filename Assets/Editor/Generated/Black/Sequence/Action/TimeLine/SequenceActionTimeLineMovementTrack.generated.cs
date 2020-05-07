@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.TimeLine
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineMovementTrack", base.GetFieldProperties(), 842961962, -1277047053);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

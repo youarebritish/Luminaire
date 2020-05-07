@@ -43,7 +43,10 @@ namespace Black.Sequence.Operator
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.SequenceOperatorCalculateString", base.GetFieldProperties(), 163034519, 822217972);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

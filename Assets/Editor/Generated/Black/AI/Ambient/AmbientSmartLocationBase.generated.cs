@@ -62,7 +62,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSmartLocationBase", null, -2066062127, -1947466606);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

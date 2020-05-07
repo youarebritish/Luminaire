@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MultiPlayerCampSettingEntity", base.GetFieldProperties(), 1480241240, 425444121);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

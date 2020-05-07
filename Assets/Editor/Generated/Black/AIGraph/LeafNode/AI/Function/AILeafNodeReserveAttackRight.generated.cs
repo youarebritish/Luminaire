@@ -39,7 +39,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeReserveAttackRight", base.GetFieldProperties(), -2054730509, 475026401);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

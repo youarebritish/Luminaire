@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionGetVRMode", base.GetFieldProperties(), -1402660370, 471393709);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

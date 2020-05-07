@@ -40,7 +40,10 @@ namespace Black.Entity.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Level.CylinderWind", base.GetFieldProperties(), -753304651, 2062873200);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

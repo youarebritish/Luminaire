@@ -37,7 +37,10 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Compare
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareBool", base.GetFieldProperties(), -1852690355, -14739614);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

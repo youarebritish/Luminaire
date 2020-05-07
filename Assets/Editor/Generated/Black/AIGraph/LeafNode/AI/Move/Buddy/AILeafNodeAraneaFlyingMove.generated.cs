@@ -50,7 +50,10 @@ namespace Black.AIGraph.LeafNode.AI.Move.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeAraneaFlyingMove", base.GetFieldProperties(), -310476700, 1497241839);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

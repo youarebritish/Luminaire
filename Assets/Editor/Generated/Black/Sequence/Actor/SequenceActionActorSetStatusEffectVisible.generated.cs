@@ -38,7 +38,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetStatusEffectVisible", base.GetFieldProperties(), 1955469811, 147625512);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

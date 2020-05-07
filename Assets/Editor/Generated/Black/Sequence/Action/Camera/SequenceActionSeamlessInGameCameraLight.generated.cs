@@ -55,7 +55,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCameraLight", base.GetFieldProperties(), -464393529, 910045975);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

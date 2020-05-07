@@ -43,7 +43,10 @@ namespace Black.Sequence.Action.Vfx
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vfx.SequenceActionActorAddVLinkResource", base.GetFieldProperties(), -1595374710, -1503237917);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

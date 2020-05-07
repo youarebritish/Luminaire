@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Level.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionAnsweredQuestionnaire", base.GetFieldProperties(), 2059046599, -290928767);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

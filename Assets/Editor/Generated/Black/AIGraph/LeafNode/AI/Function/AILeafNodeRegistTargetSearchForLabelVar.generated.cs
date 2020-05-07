@@ -39,7 +39,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeRegistTargetSearchForLabelVar", base.GetFieldProperties(), -1984535158, -1539127279);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -58,7 +58,10 @@ namespace Black.Entity.Data.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.FurDataEntity", base.GetFieldProperties(), -421536977, -70824769);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorChangeToMassiveMode", base.GetFieldProperties(), -241118722, 1573760999);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

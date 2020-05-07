@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionVerifyTwitchPrimeAccount", base.GetFieldProperties(), -1133298493, 1411094834);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

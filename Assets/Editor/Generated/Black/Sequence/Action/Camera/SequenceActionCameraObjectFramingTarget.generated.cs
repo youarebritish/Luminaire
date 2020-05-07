@@ -49,7 +49,10 @@ namespace Black.Sequence.Action.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraObjectFramingTarget", base.GetFieldProperties(), 488605631, -883895308);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

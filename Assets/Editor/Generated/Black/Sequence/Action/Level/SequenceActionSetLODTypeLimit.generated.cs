@@ -44,7 +44,10 @@ namespace Black.Sequence.Action.Level
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetLODTypeLimit", base.GetFieldProperties(), 486023021, 510484174);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

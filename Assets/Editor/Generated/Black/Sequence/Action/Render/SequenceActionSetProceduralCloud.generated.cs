@@ -145,7 +145,10 @@ namespace Black.Sequence.Action.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetProceduralCloud", base.GetFieldProperties(), -1683402606, 416072340);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor.AI.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleChangeToOppsiteLane", base.GetFieldProperties(), -918760740, -1471486499);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

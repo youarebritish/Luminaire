@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyLinkCameraCancel", base.GetFieldProperties(), 2055310165, 1968283604);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

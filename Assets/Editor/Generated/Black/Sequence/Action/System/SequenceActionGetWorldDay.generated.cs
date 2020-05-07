@@ -48,7 +48,10 @@ namespace Black.Sequence.Action.System
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGetWorldDay", base.GetFieldProperties(), -1544190838, 1870987113);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

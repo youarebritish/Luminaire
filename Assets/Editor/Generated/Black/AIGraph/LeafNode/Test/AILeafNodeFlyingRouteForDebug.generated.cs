@@ -36,7 +36,10 @@ namespace Black.AIGraph.LeafNode.Test
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Test.AILeafNodeFlyingRouteForDebug", base.GetFieldProperties(), -598326805, -1884042923);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

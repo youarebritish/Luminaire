@@ -41,7 +41,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerDevideTime", base.GetFieldProperties(), 1018948722, -1375985337);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

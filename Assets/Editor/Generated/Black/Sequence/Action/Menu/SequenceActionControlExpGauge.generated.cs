@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionControlExpGauge", base.GetFieldProperties(), 1616218214, -265979963);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

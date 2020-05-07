@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionSetVisibleContinueSave", base.GetFieldProperties(), -916201218, 143866152);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

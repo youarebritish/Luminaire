@@ -49,7 +49,10 @@ namespace Black.Sequence.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerChocoboClosseumCamera", base.GetFieldProperties(), -548013418, 360447602);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

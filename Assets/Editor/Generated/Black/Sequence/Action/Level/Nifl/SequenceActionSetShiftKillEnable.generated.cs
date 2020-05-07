@@ -39,7 +39,10 @@ namespace Black.Sequence.Action.Level.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Nifl.SequenceActionSetShiftKillEnable", base.GetFieldProperties(), -1572507148, 144560206);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

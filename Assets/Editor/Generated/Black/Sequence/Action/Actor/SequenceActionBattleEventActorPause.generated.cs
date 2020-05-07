@@ -46,7 +46,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionBattleEventActorPause", base.GetFieldProperties(), -1348531756, 1068896548);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

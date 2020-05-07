@@ -40,7 +40,10 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovEnd", base.GetFieldProperties(), -987091949, 385589290);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

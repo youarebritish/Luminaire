@@ -36,7 +36,10 @@ namespace Black.AI.Corps.Reinforce
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Corps.Reinforce.ActorNodeReinforceAppearPoint", base.GetFieldProperties(), 100300084, -50421444);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

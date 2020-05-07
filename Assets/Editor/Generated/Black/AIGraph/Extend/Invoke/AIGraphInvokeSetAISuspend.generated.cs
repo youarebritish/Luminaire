@@ -38,7 +38,10 @@ namespace Black.AIGraph.Extend.Invoke
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAISuspend", base.GetFieldProperties(), -387738175, -201607500);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

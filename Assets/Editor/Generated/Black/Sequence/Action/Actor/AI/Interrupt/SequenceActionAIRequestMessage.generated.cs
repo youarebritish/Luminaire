@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Actor.AI.Interrupt
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Interrupt.SequenceActionAIRequestMessage", base.GetFieldProperties(), -414482573, -881090026);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

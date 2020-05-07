@@ -37,7 +37,10 @@ namespace Black.Entity.Map
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationStreamingEntity", base.GetFieldProperties(), -1121948132, -459585507);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

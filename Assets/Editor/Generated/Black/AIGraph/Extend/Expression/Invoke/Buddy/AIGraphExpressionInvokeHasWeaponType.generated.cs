@@ -36,7 +36,10 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Buddy
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeHasWeaponType", base.GetFieldProperties(), -1575276269, -846026103);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

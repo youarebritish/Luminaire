@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Team
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Team.SequenceActionSetTeamStrongPoint", base.GetFieldProperties(), 1003815, -2041962833);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

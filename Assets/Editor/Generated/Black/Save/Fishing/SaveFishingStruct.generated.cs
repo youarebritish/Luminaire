@@ -42,7 +42,10 @@ namespace Black.Save.Fishing
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Fishing.SaveFishingStruct", null, 770892388, -283988830);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

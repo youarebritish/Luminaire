@@ -45,7 +45,10 @@ namespace Black.Sequence.Action.Actor.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikCollision", base.GetFieldProperties(), 1852728982, 1265434576);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

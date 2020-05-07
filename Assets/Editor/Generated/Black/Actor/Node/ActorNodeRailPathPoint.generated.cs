@@ -36,7 +36,10 @@ namespace Black.Actor.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Actor.Node.ActorNodeRailPathPoint", base.GetFieldProperties(), 848164921, 1124108722);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

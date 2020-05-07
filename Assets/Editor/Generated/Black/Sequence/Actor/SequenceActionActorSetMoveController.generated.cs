@@ -41,7 +41,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetMoveController", base.GetFieldProperties(), -2141785226, 1055017110);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

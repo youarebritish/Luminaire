@@ -72,7 +72,10 @@ namespace Black.Sequence.Action.Sample
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sample.SequenceActionSamplePropertySequence", base.GetFieldProperties(), 816959911, 1668750301);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

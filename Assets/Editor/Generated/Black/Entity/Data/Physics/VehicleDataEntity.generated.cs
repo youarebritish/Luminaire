@@ -217,7 +217,10 @@ namespace Black.Entity.Data.Physics
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.VehicleDataEntity", base.GetFieldProperties(), 739638239, 1992925650);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

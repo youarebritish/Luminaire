@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.TimeLine.Camera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraNearFarTrack", base.GetFieldProperties(), 152329263, 1473779521);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

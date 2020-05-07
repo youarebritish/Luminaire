@@ -53,7 +53,10 @@ namespace Black.Sequence.Action.Minigame.Bumper
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Minigame.Bumper.SequenceActionBumperStart", base.GetFieldProperties(), -1492506076, 98225638);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

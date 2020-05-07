@@ -54,7 +54,10 @@ namespace Black.Sequence.Action.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionToggleMenuNOX", base.GetFieldProperties(), -1626555324, 471423118);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

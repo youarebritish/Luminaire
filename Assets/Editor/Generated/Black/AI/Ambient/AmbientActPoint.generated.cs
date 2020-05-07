@@ -37,7 +37,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientActPoint", base.GetFieldProperties(), 1505127081, -545290217);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

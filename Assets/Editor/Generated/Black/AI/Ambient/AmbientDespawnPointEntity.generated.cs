@@ -37,7 +37,10 @@ namespace Black.AI.Ambient
             }
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientDespawnPointEntity", base.GetFieldProperties(), 1951790322, -2072022482);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

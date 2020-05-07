@@ -37,7 +37,10 @@ namespace Black.AIGraph.Extend.Invoke.Animation
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateBonamikFloorContact", base.GetFieldProperties(), 1308685966, 1571621021);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

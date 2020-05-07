@@ -41,7 +41,10 @@ namespace Black.Entity.Data.CharacterEntry
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.CharaEntryPackage", base.GetFieldProperties(), 746367485, -1612267195);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

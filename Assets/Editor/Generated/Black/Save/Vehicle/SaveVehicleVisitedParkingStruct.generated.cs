@@ -37,7 +37,10 @@ namespace Black.Save.Vehicle
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleVisitedParkingStruct", null, -314104966, 1157777415);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

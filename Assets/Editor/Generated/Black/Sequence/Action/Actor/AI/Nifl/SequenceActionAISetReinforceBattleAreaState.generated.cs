@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAISetReinforceBattleAreaState", base.GetFieldProperties(), -2052834354, 1223502463);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

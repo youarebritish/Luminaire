@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.TimeLine.Actor.Material
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialTrackCommon", base.GetFieldProperties(), 1683437901, -1563059511);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

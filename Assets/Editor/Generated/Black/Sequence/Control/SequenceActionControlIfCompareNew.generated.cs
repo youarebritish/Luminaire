@@ -39,7 +39,10 @@ namespace Black.Sequence.Control
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlIfCompareNew", base.GetFieldProperties(), -1744682622, -678556455);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

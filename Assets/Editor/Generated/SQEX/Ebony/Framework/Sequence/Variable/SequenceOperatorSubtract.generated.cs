@@ -39,7 +39,10 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.SequenceOperatorSubtract", base.GetFieldProperties(), 1648128350, -833787465);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

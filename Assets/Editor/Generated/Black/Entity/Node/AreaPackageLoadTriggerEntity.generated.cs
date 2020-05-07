@@ -38,7 +38,10 @@ namespace Black.Entity.Node
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.AreaPackageLoadTriggerEntity", base.GetFieldProperties(), 909082020, -998769290);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

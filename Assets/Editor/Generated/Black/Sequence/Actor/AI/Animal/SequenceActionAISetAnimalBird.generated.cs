@@ -51,7 +51,10 @@ namespace Black.Sequence.Actor.AI.Animal
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Animal.SequenceActionAISetAnimalBird", base.GetFieldProperties(), 22580362, -1960246406);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

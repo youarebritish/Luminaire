@@ -39,7 +39,10 @@ namespace Black.Sequence.Actor.AI
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAIResetThink", base.GetFieldProperties(), 2094114282, 241370320);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

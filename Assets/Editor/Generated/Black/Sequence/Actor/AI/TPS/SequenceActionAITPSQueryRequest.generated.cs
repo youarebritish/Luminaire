@@ -54,7 +54,10 @@ namespace Black.Sequence.Actor.AI.TPS
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.TPS.SequenceActionAITPSQueryRequest", base.GetFieldProperties(), 1162646592, -1739270704);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

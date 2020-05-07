@@ -36,7 +36,10 @@ namespace Black.Entity.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.RifleGunSightMenuEntity", base.GetFieldProperties(), -93177971, -1662167909);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

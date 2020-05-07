@@ -46,7 +46,10 @@ namespace Black.Entity.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.SpotLightEntity", base.GetFieldProperties(), -1821147364, -99869089);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

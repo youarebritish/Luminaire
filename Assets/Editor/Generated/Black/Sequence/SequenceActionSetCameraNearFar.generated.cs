@@ -40,7 +40,10 @@ namespace Black.Sequence
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.SequenceActionSetCameraNearFar", base.GetFieldProperties(), 1838439964, 2083033206);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

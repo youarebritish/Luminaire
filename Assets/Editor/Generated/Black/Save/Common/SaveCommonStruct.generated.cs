@@ -43,7 +43,10 @@ namespace Black.Save.Common
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Common.SaveCommonStruct", null, -1051156837, 1652488587);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -36,7 +36,10 @@ namespace Black.MultiPlayer
             }
 
             fieldProperties = new PropertyContainer("Black.MultiPlayer.QuestProgressSync", base.GetFieldProperties(), -1990658973, -1103731040);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -42,7 +42,10 @@ namespace Black.Sequence.Action.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorSetStaticModelVisible", base.GetFieldProperties(), -32365328, -783754963);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

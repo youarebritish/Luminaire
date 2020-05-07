@@ -37,7 +37,10 @@ namespace Black.System.TimeLine.TrackItem.Render.Environment.Struct
             }
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.Environment.Struct.InGameFoliageLODScale", base.GetFieldProperties(), -1963424266, 868408913);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -50,7 +50,10 @@ namespace Black.Sequence.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorFakeAttach", base.GetFieldProperties(), 954327611, 334506469);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -38,7 +38,10 @@ namespace Black.Sequence.Action.Debug
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugToggleRingMagicAlternaAlwaysHit", base.GetFieldProperties(), 474088012, -559759520);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

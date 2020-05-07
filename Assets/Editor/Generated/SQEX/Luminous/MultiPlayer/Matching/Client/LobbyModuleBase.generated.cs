@@ -36,7 +36,10 @@ namespace SQEX.Luminous.MultiPlayer.Matching.Client
             }
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.MultiPlayer.Matching.Client.LobbyModuleBase", base.GetFieldProperties(), 208366774, -1031848151);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

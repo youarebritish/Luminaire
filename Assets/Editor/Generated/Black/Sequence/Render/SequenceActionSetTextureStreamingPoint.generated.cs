@@ -41,7 +41,10 @@ namespace Black.Sequence.Render
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetTextureStreamingPoint", base.GetFieldProperties(), 350139415, -493694550);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

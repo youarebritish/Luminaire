@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.Quest
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Quest.SequenceVariableQuestActiveState", base.GetFieldProperties(), 1616628545, 1963957617);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

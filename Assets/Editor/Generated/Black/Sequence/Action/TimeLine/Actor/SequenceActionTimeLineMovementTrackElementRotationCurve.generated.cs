@@ -36,7 +36,10 @@ namespace Black.Sequence.Action.TimeLine.Actor
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineMovementTrackElementRotationCurve", base.GetFieldProperties(), 1015931632, -509098253);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

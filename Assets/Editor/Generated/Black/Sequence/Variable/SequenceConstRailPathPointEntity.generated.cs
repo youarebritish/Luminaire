@@ -36,7 +36,10 @@ namespace Black.Sequence.Variable
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstRailPathPointEntity", base.GetFieldProperties(), 1143620461, -1566977465);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

@@ -41,7 +41,10 @@ namespace Black.Sequence.Action.Camera.ObjectiveCamera
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraSetMode", base.GetFieldProperties(), 1912583230, 780474109);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

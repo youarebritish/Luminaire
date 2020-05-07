@@ -38,7 +38,10 @@ namespace Black.AIGraph.LeafNode.AI.Move
             }
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeEnterCover", base.GetFieldProperties(), 519818612, 443316422);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

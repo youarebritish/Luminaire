@@ -69,7 +69,10 @@ namespace Black.WorldMap
             }
 
             fieldProperties = new PropertyContainer("Black.WorldMap.TerrainCurveCollisionData", base.GetFieldProperties(), -430888362, 1158521870);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

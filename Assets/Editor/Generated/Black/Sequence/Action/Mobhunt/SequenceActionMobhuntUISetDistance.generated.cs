@@ -40,7 +40,10 @@ namespace Black.Sequence.Action.Mobhunt
             }
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntUISetDistance", base.GetFieldProperties(), 1605470389, 2041068221);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		

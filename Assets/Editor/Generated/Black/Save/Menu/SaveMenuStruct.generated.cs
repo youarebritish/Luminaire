@@ -15,7 +15,7 @@ namespace Black.Save.Menu
 		public IList<Black.Save.Menu.SaveMenuFootprint> footPrints_;
 		public int userDestType_;
 		public uint userDestId_;
-		public double[] userDestLocation_;
+		public SQEX.Luminous.Math.DoubleVector4 userDestLocation_;
 		public int visibleFlag_;
 		public IList<uint> battleItemOrderList_;
 		
@@ -46,7 +46,10 @@ namespace Black.Save.Menu
             }
 
             fieldProperties = new PropertyContainer("Black.Save.Menu.SaveMenuStruct", null, -578333456, -1940980057);
-            return fieldProperties;
+            
+			
+			
+			return fieldProperties;
         }
 
 		
