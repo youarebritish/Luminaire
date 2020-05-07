@@ -1,6 +1,6 @@
-﻿using Luminous.Core.Object;
+﻿using SQEX.Luminous.Core.Object;
 
-namespace Ebony.Framework.Entity
+namespace SQEX.Ebony.Framework.Entity
 {
     public class EntityPackageReference : EntityGroup
     {

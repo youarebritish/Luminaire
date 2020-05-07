@@ -1,9 +1,9 @@
-﻿using Luminous.Core.Object;
+﻿using SQEX.Luminous.Core.Object;
 
 namespace Black.Entity.Actor
 {
-    public class CharacterPackage : Black.Entity.Actor.ActorPackageBase
-    {
+    public partial class CharacterPackage : Black.Entity.Actor.ActorPackageBase
+    {/*
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 
@@ -39,6 +39,6 @@ namespace Black.Entity.Actor
         private static BaseObject Construct()
         {
             return new ActorPackageBase();
-        }
+        }*/
     }
 }

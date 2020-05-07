@@ -1,6 +1,6 @@
 ﻿using Ebony.Base.Serialization;
 using Luminous.Core;
-using Luminous.Core.Object;
+using SQEX.Luminous.Core.Object;
 using Luminous.Xml;
 using System;
 using System.Collections;
@@ -9,7 +9,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 
-namespace Ebony.Framework.Entity
+namespace SQEX.Ebony.Framework.Entity
 {
     public class EntityPackageXmlLoader
     {
@@ -24,7 +24,7 @@ namespace Ebony.Framework.Entity
         /// <summary>
         /// The loaded objects.
         /// </summary>
-        private IList<Luminous.Core.Object.Object> Objects { get; } = new List<Luminous.Core.Object.Object>();
+        private IList<SQEX.Luminous.Core.Object.Object> Objects { get; } = new List<SQEX.Luminous.Core.Object.Object>();
 
         /// <summary>
         /// Maps an object's objectIndex to its index into ObjectElementList.
@@ -225,7 +225,7 @@ namespace Ebony.Framework.Entity
             return result;
         }
 
-        private Luminous.Core.Object.Object ReadObject(Xmb2Element element, out bool through)
+        private SQEX.Luminous.Core.Object.Object ReadObject(Xmb2Element element, out bool through)
         {
             through = false;
             string typeFullName = null;
@@ -247,7 +247,7 @@ namespace Ebony.Framework.Entity
                 return null;
             }*/
 
-            var instance = type.ConstructFunction2() as Luminous.Core.Object.Object;
+            var instance = type.ConstructFunction2() as SQEX.Luminous.Core.Object.Object;
             if (instance != null)
             {
                 through = true;
@@ -256,7 +256,7 @@ namespace Ebony.Framework.Entity
             return instance;
         }
 
-        private void ReadField(Luminous.Core.Object.BaseObject obj, Xmb2Element parentElement, uint hashedParentName, BaseObject objOffset)
+        private void ReadField(SQEX.Luminous.Core.Object.BaseObject obj, Xmb2Element parentElement, uint hashedParentName, BaseObject objOffset)
         {
             if (objOffset != null)
             {
@@ -1070,10 +1070,10 @@ namespace Ebony.Framework.Entity
 
             if (parentPackage != null)
             {
-                return Luminous.Core.IO.Path.ResolveRelativePath(parentPackage.sourcePath_, sourcePath);
+                return SQEX.Luminous.Core.IO.Path.ResolveRelativePath(parentPackage.sourcePath_, sourcePath);
             }
 
-            return Luminous.Core.IO.Path.ResolveRelativePath(this.SourcePath, sourcePath);
+            return SQEX.Luminous.Core.IO.Path.ResolveRelativePath(this.SourcePath, sourcePath);
         }
     }
 }

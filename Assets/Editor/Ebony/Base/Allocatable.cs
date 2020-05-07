@@ -1,4 +1,4 @@
-﻿namespace Ebony.Base
+﻿namespace SQEX.Ebony.Base
 {
     public class Allocatable
     {

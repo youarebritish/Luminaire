@@ -2,5 +2,5 @@
 
 public class EntityPackageAsset : ScriptableObject
 {
-    public Ebony.Framework.Entity.EntityPackage Package;
+    public SQEX.Ebony.Framework.Entity.EntityPackage Package;
 }

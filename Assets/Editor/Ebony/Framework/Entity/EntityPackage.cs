@@ -1,7 +1,7 @@
-﻿using Luminous.Core.Object;
+﻿using SQEX.Luminous.Core.Object;
 using System.Collections.Generic;
 
-namespace Ebony.Framework.Entity
+namespace SQEX.Ebony.Framework.Entity
 {
     [System.Serializable]
     public class EntityPackage : EntityPackageReference

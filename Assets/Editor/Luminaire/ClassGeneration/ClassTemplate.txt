@@ -8,7 +8,7 @@ namespace {{ name_space }}
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		{{ for property in object_type.property_container_.my_properties_ }}public {{ property.target_type_name }} {{ property.name_ }};
+		{{ for property in object_type.property_container_.my_properties_ }}public {{ property.target_type_name }} {{ property.valid_name }};
 		{{ end }}
         
         new public static void SetupObjectType()

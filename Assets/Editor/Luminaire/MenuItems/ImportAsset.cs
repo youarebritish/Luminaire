@@ -1,9 +1,5 @@
 ﻿using Black.Entity.Actor;
-using Black.Sequence.Action.Actor;
-using Ebony.Framework.Entity;
-using Ebony.Framework.Node;
-using Ebony.Framework.Sequence;
-using Ebony.Framework.Sequence.Event;
+using SQEX.Ebony.Framework.Entity;
 using System.IO;
 using System.Text;
 using UnityEditor;
@@ -36,21 +32,12 @@ public static class ImportAsset
         }
 
         // TODO refactor
-        Luminous.Core.Object.Object.SetupObjectType();
-        Ebony.Framework.Entity.Entity.SetupObjectType();
+        SQEX.Luminous.Core.Object.Object.SetupObjectType();
+        SQEX.Ebony.Framework.Entity.Entity.SetupObjectType();
         EntityGroup.SetupObjectType();
         EntityPackageReference.SetupObjectType();
         EntityPackage.SetupObjectType();
         CharacterPackage.SetupObjectType();
-        GraphNode.SetupObjectType();
-        SequenceNode.SetupObjectType();
-        SequenceActivatableNode.SetupObjectType();
-        SequenceEventSequenceStarted.SetupObjectType();
-        SequenceEvent.SetupObjectType();
-        SequneceActionActorSetMaterialFloatParameter.SetupObjectType();
-        GraphTriggerInputPin.SetupObjectType();
-        GraphVariableInputPin.SetupObjectType();
-        GraphTriggerOutputPin.SetupObjectType();
 
         var fileContent = File.ReadAllBytes(assetPath);
         var loader = new EntityPackageXmlLoader();

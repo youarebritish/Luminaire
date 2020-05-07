@@ -1,7 +1,7 @@
 ﻿using Ebony.Base.Serialization;
 using System.Collections.Generic;
 
-namespace Ebony.Framework.Entity
+namespace SQEX.Ebony.Framework.Entity
 {
     public class EntityPackageCreatingResult
     {

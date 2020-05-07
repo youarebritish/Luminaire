@@ -1,8 +1,8 @@
-﻿using Luminous.Core.Object;
+﻿using SQEX.Luminous.Core.Object;
 
-namespace Ebony.Framework.Entity
+namespace SQEX.Ebony.Framework.Entity
 {
-    public class Entity : Luminous.Core.Object.Object
+    public partial class Entity : SQEX.Luminous.Core.Object.Object
     {
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;

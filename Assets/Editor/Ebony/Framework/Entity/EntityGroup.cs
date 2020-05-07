@@ -1,7 +1,7 @@
-﻿using Luminous.Core.Object;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using SQEX.Luminous.Core.Object;
 
-namespace Ebony.Framework.Entity
+namespace SQEX.Ebony.Framework.Entity
 {
     public class EntityGroup : Entity
     {

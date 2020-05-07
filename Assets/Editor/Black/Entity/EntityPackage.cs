@@ -1,9 +1,9 @@
-﻿using Luminous.Core.Object;
+﻿using SQEX.Luminous.Core.Object;
 
 namespace Black.Entity
 {
-    public class EntityPackage : Ebony.Framework.Entity.EntityPackage
-    {
+    public partial class EntityPackage : SQEX.Ebony.Framework.Entity.EntityPackage
+    {/*
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
         
@@ -39,6 +39,6 @@ namespace Black.Entity
         private static BaseObject Construct()
         {
             return new EntityPackage();
-        }
+        }*/
     }
 }
