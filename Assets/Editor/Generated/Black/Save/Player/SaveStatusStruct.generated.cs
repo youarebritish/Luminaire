@@ -139,6 +139,10 @@ namespace Black.Save.Player
 
             fieldProperties = new PropertyContainer("Black.Save.Player.SaveStatusStruct", null, -1930500420, -1712780495);
             
+			fieldProperties.AddIndirectlyProperty(new Property("job_command.id", 547597205, "SQEX.Ebony.Std.Fixid", 1432, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("job_command.bank_number", 3319982122, "int", 1436, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("party_index", 1869290068, "int32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("join", 3374496889, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));

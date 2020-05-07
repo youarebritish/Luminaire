@@ -39,6 +39,8 @@ namespace Black.Save.Player
 
             fieldProperties = new PropertyContainer("Black.Save.Player.SaveBuffStruct", null, 432806241, -1052676411);
             
+			
+			
 			fieldProperties.AddProperty(new Property("buff", 1244307660, "Black.Actor.BUFF", 0, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("level", 2610554845, "int", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			

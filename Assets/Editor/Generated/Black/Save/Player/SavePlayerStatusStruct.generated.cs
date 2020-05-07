@@ -60,6 +60,15 @@ namespace Black.Save.Player
 
             fieldProperties = new PropertyContainer("Black.Save.Player.SavePlayerStatusStruct", null, -748940090, 114902487);
             
+			fieldProperties.AddIndirectlyProperty(new Property("invincible_suits_date.year", 2015842733, "int", 80, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("invincible_suits_date.month", 2556338386, "int", 84, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("invincible_suits_date.day", 541405382, "int", 88, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("invincible_suits_date.weekDay", 584337098, "int", 92, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("invincible_suits_date.hour", 3814561378, "int", 96, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("invincible_suits_date.minute", 4193472876, "int", 100, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("invincible_suits_date.second", 2524175832, "int", 104, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("exp", 1923516200, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("exp_total", 888894381, "uint32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ability_point", 3378042268, "int32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

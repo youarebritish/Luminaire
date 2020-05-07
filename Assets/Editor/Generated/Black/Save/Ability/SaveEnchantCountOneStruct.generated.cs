@@ -42,6 +42,10 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveEnchantCountOneStruct", null, 206926160, -406515321);
             
+			fieldProperties.AddIndirectlyProperty(new Property("ability.count", 970159372, "int16_t", 8, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
+			fieldProperties.AddIndirectlyProperty(new Property("ability.weapon_attack", 2274627758, "uint16_t", 10, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
+			
+			
 			fieldProperties.AddProperty(new Property("ability_id", 1929600199, "Black.Actor.ABILITY", 0, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ability_effect", 1637282071, "Black.Actor.ABILITY_EFFECT", 4, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ability", 3471506833, "Black.Save.Ability.SaveAbilityCountOneStruct", 8, 4, 1, Property.PrimitiveType.ClassField, 0, (char)0));

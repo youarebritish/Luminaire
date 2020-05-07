@@ -47,6 +47,8 @@ namespace Black.Save.Snapshot
 
             fieldProperties = new PropertyContainer("Black.Save.Snapshot.SaveSnapshotImageInfoStruct", null, -299908639, -1229791341);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id_", 2899315373, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			fieldProperties.AddProperty(new Property("attributes_", 2428960913, "Luminous.Std.DynamicArray< SQEX.Ebony.Std.Fixid >", 8, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			fieldProperties.AddProperty(new Property("time_", 2171152225, "int64_t", 24, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));

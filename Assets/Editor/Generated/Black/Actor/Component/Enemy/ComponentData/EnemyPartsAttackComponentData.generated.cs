@@ -39,6 +39,8 @@ namespace Black.Actor.Component.Enemy.ComponentData
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

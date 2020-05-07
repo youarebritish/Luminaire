@@ -41,6 +41,8 @@ namespace Black.Actor.Component.Material.ComponentData
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem", base.GetFieldProperties(), 367803582, -85005402);
             
+			
+			
 			fieldProperties.AddProperty(new Property("MaterialName", 3232801059, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ParamName", 1533216953, "Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			fieldProperties.AddProperty(new Property("MinValue", 2602075852, "float", 40, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

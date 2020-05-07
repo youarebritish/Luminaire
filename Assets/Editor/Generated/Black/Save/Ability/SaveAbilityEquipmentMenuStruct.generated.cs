@@ -38,6 +38,8 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveAbilityEquipmentMenuStruct", null, -114321493, 564120299);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			

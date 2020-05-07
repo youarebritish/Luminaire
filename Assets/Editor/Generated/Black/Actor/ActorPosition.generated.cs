@@ -42,6 +42,8 @@ namespace Black.Actor
 
             fieldProperties = new PropertyContainer("Black.Actor.ActorPosition", base.GetFieldProperties(), 1292519168, -705325875);
             
+			
+			
 			fieldProperties.AddProperty(new Property("baseScale_", 776470431, "float", 576, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("worldPosition_", 1278966829, "Black.Actor.Actor.DoubleVector4", 584, 32, 1, Property.PrimitiveType.DoubleVector4, 0, (char)0));
 			fieldProperties.AddProperty(new Property("rotation_", 36328192, "Black.Actor.Actor.VectorA", 624, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));

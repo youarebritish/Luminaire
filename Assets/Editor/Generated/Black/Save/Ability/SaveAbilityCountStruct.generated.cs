@@ -38,6 +38,8 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveAbilityCountStruct", null, 1177427798, 352458684);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "Black.Save.Ability.SaveAbilityCountOneStruct", 0, 4096, 1024, Property.PrimitiveType.ClassField, 0, (char)8));
 			
 			

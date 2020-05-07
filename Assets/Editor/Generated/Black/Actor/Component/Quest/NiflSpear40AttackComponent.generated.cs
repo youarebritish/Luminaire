@@ -39,6 +39,8 @@ namespace Black.Actor.Component.Quest
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

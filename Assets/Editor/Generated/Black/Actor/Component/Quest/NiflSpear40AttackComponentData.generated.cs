@@ -42,6 +42,8 @@ namespace Black.Actor.Component.Quest
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Quest.NiflSpear40AttackComponentData", base.GetFieldProperties(), 1041022517, -1500853164);
             
+			
+			
 			fieldProperties.AddProperty(new Property("velocity_", 3653812119, "float", 64, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("velocityOffset_", 3598638398, "float", 68, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("waitSecond_", 55112537, "float", 72, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

@@ -55,6 +55,8 @@ namespace Black.Actor.Component.Props.ComponentData
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Props.ComponentData.TurretComponentData", base.GetFieldProperties(), 1051950933, -227847231);
             
+			
+			
 			fieldProperties.AddProperty(new Property("pitchBaseJoint_", 3624203653, "SQEX.Ebony.Std.Fixid", 64, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("turnLimitHorizonal_", 610763514, "float", 68, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			fieldProperties.AddProperty(new Property("turnLimitVerticalUpper_", 1036559970, "float", 72, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

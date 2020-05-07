@@ -2,6 +2,8 @@
 using Scriban;
 using System;
 using System.IO;
+using System.Linq;
+using System.Collections.Generic;
 using static SQEX.Luminous.Core.Object.Property;
 
 public static class ClassGenerator
@@ -25,6 +27,10 @@ public static class ClassGenerator
         public int versionHashCode_ { get; set; }
         public ushort allPropertiesClassFieldCount_ { get; set; }
         public SerializedProperty[] myProperties_ { get; set; }
+        public SerializedProperty[] allProperties_ { get; set; }
+        public IEnumerable<SerializedProperty> InheritedProperties => from property in allProperties_
+                                                                      where !myProperties_.Any(myProperty => myProperty.name_ == property.name_)
+                                                                      select property;
     }
 
     private class SerializedProperty
@@ -202,9 +208,16 @@ public static class ClassGenerator
     {
         var objectTypes = JsonConvert.DeserializeObject<SerializedObjectType[]>(schema);
         var parsedTemplate = Template.Parse(template);
-        
+
+        var depth = 100;
         foreach (var objectTypeData in objectTypes)
         {
+            depth--;
+            if (depth <= 0)
+            {
+                return;
+            }
+
             if (objectTypeData.name_.Contains("SaveAvatarModDataStruct"))
             {
                 // Don't bother, causes some annoying compile errors and I don't think we can use it for anything useful anyway

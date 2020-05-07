@@ -39,6 +39,8 @@ namespace Black.Actor.Component.Nifl.ComponentData
             
 			
 			
+			
+			
 			return fieldProperties;
         }
 

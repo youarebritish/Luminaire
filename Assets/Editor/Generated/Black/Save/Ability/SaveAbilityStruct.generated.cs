@@ -47,6 +47,8 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveAbilityStruct", null, -681977700, 78742591);
             
+			
+			
 			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			fieldProperties.AddProperty(new Property("ability_id", 1929600199, "Black.Actor.ABILITY", 4, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("level", 2610554845, "int32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));

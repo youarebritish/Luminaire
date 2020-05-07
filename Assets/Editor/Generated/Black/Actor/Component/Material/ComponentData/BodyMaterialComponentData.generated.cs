@@ -44,6 +44,8 @@ namespace Black.Actor.Component.Material.ComponentData
 
             fieldProperties = new PropertyContainer("Black.Actor.Component.Material.ComponentData.BodyMaterialComponentData", base.GetFieldProperties(), 354323975, 27954390);
             
+			
+			
 			fieldProperties.AddProperty(new Property("createComponentType_", 789823869, "Black.Actor.Component.Material.ComponentData.BodyMaterialComponentData.CREATE_TYPE", 64, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			fieldProperties.AddProperty(new Property("materials_", 3391624578, "SQEX.Ebony.Std.DynamicArray< Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem* >", 72, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			fieldProperties.AddProperty(new Property("dirtyPowerByMoving_", 2645395828, "float", 88, 4, 1, Property.PrimitiveType.Float, 0, (char)0));

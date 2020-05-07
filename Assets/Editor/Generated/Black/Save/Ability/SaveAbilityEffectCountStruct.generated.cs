@@ -38,6 +38,8 @@ namespace Black.Save.Ability
 
             fieldProperties = new PropertyContainer("Black.Save.Ability.SaveAbilityEffectCountStruct", null, 849545190, 1025381661);
             
+			
+			
 			fieldProperties.AddProperty(new Property("count", 967958004, "int32_t", 0, 1024, 256, Property.PrimitiveType.Int32, 0, (char)8));
 			
 			
