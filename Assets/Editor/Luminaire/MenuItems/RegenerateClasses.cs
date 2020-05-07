@@ -2,11 +2,11 @@
 using UnityEditor;
 using UnityEngine;
 
-public static class RegenerateClasses
+public class RegenerateClasses
 {
     private const string SchemaPath = "/Editor/Luminaire/ClassGeneration/ObjectTypes.json";
     private const string TemplatePath = "/Editor/Luminaire/ClassGeneration/ClassTemplate.txt";
-
+    
     [MenuItem("Luminaire/Developer/Regenerate Classes")]
     private static void OnRegenerateClasses()
     {

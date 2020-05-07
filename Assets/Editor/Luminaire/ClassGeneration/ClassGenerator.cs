@@ -76,25 +76,21 @@ public static class ClassGenerator
                 case PrimitiveType.PointerArray:
                     return MakePointerArrayTargetTypeName();
                 case PrimitiveType.Fixid:
-                    // Should this be a string?
                     return "uint";
                 case PrimitiveType.Vector4:
-                    // TODO
-                    return "object";
+                    return "UnityEngine.Vector4";
                 case PrimitiveType.Color:
-                    // TODO
-                    return "object";
+                    return "UnityEngine.Color";
                 case PrimitiveType.Buffer:
                     return "object";
                 case PrimitiveType.Enum:
                     // TODO
                     return "int";
                 case PrimitiveType.IntrusivePointerArray:
-                    // TODO
-                    return "object";
+                    return MakeArrayTargetTypeName();
                 case PrimitiveType.DoubleVector4:
-                    // TODO
-                    return "object";
+                    // TODO this sucks, make it an actual struct
+                    return "double[]";
                 default:
                     throw new NotImplementedException();
             }
@@ -141,7 +137,7 @@ public static class ClassGenerator
         var objectTypes = JsonConvert.DeserializeObject<SerializedObjectType[]>(schema);
         var parsedTemplate = Template.Parse(template);
 
-        var depth = 100;
+        var depth = 200;
 
         foreach (var objectTypeData in objectTypes)
         {
