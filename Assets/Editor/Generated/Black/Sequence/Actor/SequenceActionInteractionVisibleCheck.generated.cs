@@ -42,6 +42,11 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionInteractionVisibleCheck", base.GetFieldProperties(), 1374775350, -242314735);
             
+			fieldProperties.AddProperty(new Property("stop_", 3454812878, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 480, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("on_", 2485575197, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 576, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("off_", 3794256847, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 672, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("updateStatusFlag_", 3717561245, "bool", 768, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("changeActivate_", 624234277, "bool", 769, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -49,6 +49,18 @@ namespace Black.Sequence.Action.System
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetGameModeStatus", base.GetFieldProperties(), -664053467, 2115837605);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inNewGame_", 1823560959, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 368, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inLoadGame_", 523748433, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 456, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inGameOver_", 4106227323, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 544, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inCamp_", 395096968, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 632, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inRegistCar_", 3934317155, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 720, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inMemoryQuest_", 3879353386, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 808, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inDebugMenu_", 2436645651, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 896, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inChapterSelect_", 502495024, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 984, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isReset_", 3065551933, "bool", 1072, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isResetNotFlowBootNormal_", 3452285403, "bool", 1073, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

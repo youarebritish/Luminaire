@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Action.SequenceActionTimeLineEventTrack", base.GetFieldProperties(), 389046668, -1271625879);
             
+			fieldProperties.AddProperty(new Property("callBackOutputPin_", 3544662299, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

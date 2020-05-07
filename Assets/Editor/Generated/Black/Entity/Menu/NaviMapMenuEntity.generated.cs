@@ -41,6 +41,10 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.NaviMapMenuEntity", base.GetFieldProperties(), 713013883, -1302053610);
             
+			fieldProperties.AddProperty(new Property("timeMorning_", 1913114393, "float", 496, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeNoon_", 1078946483, "float", 500, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeEvening_", 2057905941, "float", 504, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeNight_", 3786577743, "float", 508, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

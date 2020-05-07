@@ -43,6 +43,12 @@ namespace Black.Sequence.Action.System
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionSetWorldTimerValue", base.GetFieldProperties(), 523945577, 571904085);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hour_", 3607020016, "uint32_t", 376, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("minute_", 3384603138, "uint32_t", 380, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("second_", 985041062, "uint32_t", 384, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("varSet_", 3811999867, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 392, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

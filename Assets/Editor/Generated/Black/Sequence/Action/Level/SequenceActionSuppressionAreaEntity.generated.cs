@@ -43,6 +43,12 @@ namespace Black.Sequence.Action.Level
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSuppressionAreaEntity", base.GetFieldProperties(), -464940982, 1732895603);
             
+			fieldProperties.AddProperty(new Property("entityPointer_", 3527687820, "Black.Entity.Node.SuppressionAreaEntity", 176, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
+			fieldProperties.AddProperty(new Property("entityOut_", 549713923, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 184, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("activeMessageOut_", 3335436887, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 272, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("suppressedMessageOut_", 3778338271, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 360, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("determineStatusOut_", 2380942249, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 448, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("progressOut_", 2318921551, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 536, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -48,6 +48,17 @@ namespace Black.Sequence.Action.Physics
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Physics.SequenceActonApexDestruction", base.GetFieldProperties(), -449481306, 817252273);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("success_", 867838301, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("failed_", 2601209585, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 464, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor_", 3434601855, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 560, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inPosition_", 1536149490, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 648, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inDirection_", 1322649716, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 736, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inPower_", 200221520, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 824, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 912, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("direction_", 4006647919, "Luminous.Math.VectorA", 928, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("power_", 1150566491, "float", 944, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

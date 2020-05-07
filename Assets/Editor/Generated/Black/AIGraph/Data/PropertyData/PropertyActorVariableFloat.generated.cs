@@ -38,6 +38,7 @@ namespace Black.AIGraph.Data.PropertyData
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Data.PropertyData.PropertyActorVariableFloat", base.GetFieldProperties(), 242738156, 1284875572);
             
+			fieldProperties.AddProperty(new Property("kind_", 3595366932, "Black.Sequence.Actor.SequenceVariableActorFloat.ValueKind", 32, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -40,6 +40,9 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.TargetPointNodeEntity", base.GetFieldProperties(), -937987484, -353920426);
             
+			fieldProperties.AddProperty(new Property("priority_", 3125928034, "int", 288, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableShortRangeAttack_", 617538862, "bool", 292, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("paramId_", 69034432, "SQEX.Ebony.Std.Fixid", 296, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

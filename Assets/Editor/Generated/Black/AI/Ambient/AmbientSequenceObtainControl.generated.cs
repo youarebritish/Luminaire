@@ -42,6 +42,11 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSequenceObtainControl", base.GetFieldProperties(), 673267353, -1995593162);
             
+			fieldProperties.AddProperty(new Property("id_", 2899315373, "SQEX.Ebony.Std.Fixid", 376, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fail_", 4018000822, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 384, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor_", 3434601855, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 480, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inputActor_", 3844931549, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 568, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("suspend_", 3260889972, "bool", 656, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

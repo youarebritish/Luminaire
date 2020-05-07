@@ -39,6 +39,8 @@ namespace Black.Entity.RoutePoint.RouteAction
 
             fieldProperties = new PropertyContainer("Black.Entity.RoutePoint.RouteAction.RouteTurnEntity", base.GetFieldProperties(), -677580183, -760934552);
             
+			fieldProperties.AddProperty(new Property("offsetAngle_", 992823330, "float", 304, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("turningMessage_", 139250542, "SQEX.Ebony.Std.Fixid", 308, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

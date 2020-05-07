@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeShiftBreak", base.GetFieldProperties(), -1251663803, 1536268423);
             
+			fieldProperties.AddProperty(new Property("bCheckMPBurst", 1254554576, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 320, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

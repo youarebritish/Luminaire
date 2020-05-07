@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.Actor.Accessory
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorOpenAbilityTree", base.GetFieldProperties(), 1219490407, 1939663561);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("abilityTreeEntityId_", 3001555444, "Black.Sequence.Action.Actor.Accessory.SequenceActionActorOpenAbilityTree.Fixid", 368, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCheckAbilityTreeFirst_", 4138941140, "bool", 372, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

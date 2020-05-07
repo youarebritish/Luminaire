@@ -53,6 +53,22 @@ namespace Black.Sequence.Action.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCameraLightSeparate", base.GetFieldProperties(), -1930168271, 117481781);
             
+			fieldProperties.AddProperty(new Property("endBlendTimePin_", 472028264, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2400, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("endBlendCutChangePin_", 3368437951, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2488, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("startBlendTimePin_", 2612906267, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2576, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("startBlendCutChangePin_", 2511695770, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2664, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lastKeepPin_", 1115254540, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2752, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fovPin_", 1724197964, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2840, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("turnRollPlusSignPin_", 872753220, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2928, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("turnRollPin_", 101198145, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 3016, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("relativeTargetPin_", 3876791728, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 3104, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("povOffsetPin_", 847391761, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 3192, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("povMatrixPin_", 3033582619, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 3280, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("povTargetPin_", 4172336751, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 3368, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pogSignPin_", 357292196, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 3456, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pogOffsetPin_", 317626922, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 3544, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pogMatrixPin_", 3731826716, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 3632, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pogTargetPin_", 3524659752, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 3720, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

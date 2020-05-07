@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetCautionTargetSlot", base.GetFieldProperties(), 307421132, 1181555992);
             
+			fieldProperties.AddProperty(new Property("isReset", 2171784368, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("slot", 1888831345, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

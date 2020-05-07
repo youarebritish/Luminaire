@@ -39,6 +39,8 @@ namespace Black.Sequence.Event.Event
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Event.SequenceEventEventFinished", base.GetFieldProperties(), -2065507782, -1792826598);
             
+			fieldProperties.AddProperty(new Property("eventId_", 548562519, "SQEX.Ebony.Std.Fixid", 176, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

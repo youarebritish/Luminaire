@@ -41,6 +41,10 @@ namespace Black.Entity.Vfx
 
             fieldProperties = new PropertyContainer("Black.Entity.Vfx.VLeafEntity", base.GetFieldProperties(), 712700505, 151073385);
             
+			fieldProperties.AddProperty(new Property("baseScaling_", 1550308934, "float", 256, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 260, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("vleafPath_", 3664795167, "Ebony.Base.String", 264, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("leafId_", 2513060509, "SQEX.Ebony.Std.Fixid", 280, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

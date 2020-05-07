@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraFovTrack", base.GetFieldProperties(), 455788731, -271809517);
             
+			fieldProperties.AddProperty(new Property("fovFlag_", 2648559131, "bool", 352, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("masterTrackItem_", 1305972098, "SQEX.Ebony.Framework.TimeControl.TimeLine.CameraFovTrackItem", 368, 160, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

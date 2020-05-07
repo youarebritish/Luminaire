@@ -42,6 +42,11 @@ namespace Black.Sequence.Control
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlGameFlagBase", base.GetFieldProperties(), 2127300228, 246116894);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("category_", 1432694378, "Black.Sequence.Control.SequenceActionControlGameFlagBase.CATEGORY", 368, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelName_", 2707696659, "String", 376, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelNames_", 1562242968, "String", 392, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

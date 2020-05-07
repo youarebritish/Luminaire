@@ -44,6 +44,13 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraSeamlessClone", base.GetFieldProperties(), 1348943769, -1858667549);
             
+			fieldProperties.AddProperty(new Property("backToSeamlessCloneReleasePreset_", 322051202, "Black.Camera.SeamlessCloneReleasePreset", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("backToNormalCoordInterpType_", 3566273640, "Black.Camera.CoordInterpType", 12, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("backToNormalInterpTime_", 381639208, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("backToNormalCameraTime1_", 2883680934, "float", 20, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("backToNormalCameraTime2_", 3957007265, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("backToNormalCameraAccel_", 1107066602, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("backToNormalInterpBlendMode_", 3356501455, "SQEX.Ebony.Framework.TimeControl.InterpMode", 32, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

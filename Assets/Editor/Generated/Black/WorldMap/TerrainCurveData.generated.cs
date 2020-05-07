@@ -54,6 +54,23 @@ namespace Black.WorldMap
 
             fieldProperties = new PropertyContainer("Black.WorldMap.TerrainCurveData", base.GetFieldProperties(), -557088140, 1693118458);
             
+			fieldProperties.AddProperty(new Property("ModelSetCount_", 2776012714, "unsigned int", 1072, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ModelName_", 3715820698, "SQEX.Ebony.Std.DynamicArray< char*, MEMORY_CATEGORY_MAP_CURVE >", 1080, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ModelIndex0_", 1895086943, "SQEX.Ebony.Std.DynamicArray< unsigned int, MEMORY_CATEGORY_MAP_CURVE >", 1096, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ModelIndex1_", 2969001654, "SQEX.Ebony.Std.DynamicArray< unsigned int, MEMORY_CATEGORY_MAP_CURVE >", 1112, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ModelIndex2_", 2968560369, "SQEX.Ebony.Std.DynamicArray< unsigned int, MEMORY_CATEGORY_MAP_CURVE >", 1128, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ModelIndex0Count_", 3133217290, "SQEX.Ebony.Std.DynamicArray< unsigned int, MEMORY_CATEGORY_MAP_CURVE >", 1144, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ModelLength0_", 1087526319, "SQEX.Ebony.Std.DynamicArray< float, MEMORY_CATEGORY_MAP_CURVE >", 1160, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ModelLength1_", 1087673414, "SQEX.Ebony.Std.DynamicArray< float, MEMORY_CATEGORY_MAP_CURVE >", 1176, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ModelLength2_", 13464513, "SQEX.Ebony.Std.DynamicArray< float, MEMORY_CATEGORY_MAP_CURVE >", 1192, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("OffsetX_", 4261284939, "SQEX.Ebony.Std.DynamicArray< float, MEMORY_CATEGORY_MAP_CURVE >", 1208, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("OffsetY_", 3187664418, "SQEX.Ebony.Std.DynamicArray< float, MEMORY_CATEGORY_MAP_CURVE >", 1224, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("IsCollision_", 1592173312, "SQEX.Ebony.Std.DynamicArray< bool, MEMORY_CATEGORY_MAP_CURVE >", 1240, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("IsTransForm_", 1576752156, "SQEX.Ebony.Std.DynamicArray< bool, MEMORY_CATEGORY_MAP_CURVE >", 1256, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("IsStraight_", 1828070936, "SQEX.Ebony.Std.DynamicArray< bool, MEMORY_CATEGORY_MAP_CURVE >", 1272, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("IsYRotationOnly_", 3921939649, "SQEX.Ebony.Std.DynamicArray< bool, MEMORY_CATEGORY_MAP_CURVE >", 1288, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("IsForInstancing_", 81608569, "SQEX.Ebony.Std.DynamicArray< bool, MEMORY_CATEGORY_MAP_CURVE >", 1304, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ModelSelectRate0_", 3626567629, "SQEX.Ebony.Std.DynamicArray< unsigned int, MEMORY_CATEGORY_MAP_CURVE >", 1320, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			
 			
 			return fieldProperties;

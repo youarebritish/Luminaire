@@ -46,6 +46,15 @@ namespace Black.Sequence.Action.Level
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetSummonDirectionGeneral", base.GetFieldProperties(), 1327066909, 1648563292);
             
+			fieldProperties.AddProperty(new Property("finished_", 3052293812, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 480, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("failed_", 2601209585, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 576, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("baseActorPin_", 1474720149, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 672, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bestYawAnglePin_", 3581419917, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 760, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bestScorePin_", 620201783, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 848, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("parameterList_", 1949686437, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.SummonDirectionShapecastParameters* >", 936, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("parameterRayList_", 1561994073, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters* >", 952, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("spawnPointPin_", 1892548174, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 968, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("checkAngleNum_", 4155186779, "int", 1056, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

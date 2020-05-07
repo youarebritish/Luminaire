@@ -39,6 +39,8 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.CameraFovTrackItem", base.GetFieldProperties(), 304819135, -1370326126);
             
+			fieldProperties.AddProperty(new Property("fov_", 308377913, "float", 88, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("interpMode_", 1180138017, "SQEX.Ebony.Framework.TimeControl.InterpMode", 92, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

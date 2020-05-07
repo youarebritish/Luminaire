@@ -39,6 +39,8 @@ namespace Black.Sequence.Control
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlPriority", base.GetFieldProperties(), -859236538, 2021764538);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 208, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 304, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

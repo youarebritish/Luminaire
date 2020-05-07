@@ -41,6 +41,10 @@ namespace Black.Sequence.MultiPlayer
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerSyncEventBase", base.GetFieldProperties(), -1787154787, -878252170);
             
+			fieldProperties.AddProperty(new Property("wakeUp_", 1545670293, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("options_", 1990430094, "Black.Sequence.MultiPlayer.SequenceMultiPlayerSyncEventBase.sendOption", 272, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("forCreateOnlyFixid_", 1127113041, "SQEX.Ebony.Std.Fixid", 276, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isOutputLog_", 3733482875, "bool", 280, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

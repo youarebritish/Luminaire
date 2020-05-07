@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecNiflMode", base.GetFieldProperties(), -2141213156, -1050630737);
             
+			fieldProperties.AddProperty(new Property("aiSubModeId_", 4193448170, "SQEX.Ebony.Std.Fixid", 1224, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

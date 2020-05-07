@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Event
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Event.SequenceActionDisableDefaultDeathEvent", base.GetFieldProperties(), -1569090793, -1836688271);
             
+			fieldProperties.AddProperty(new Property("enableInputPin_", 3236827234, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("disableInputPin_", 214485757, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outPin_", 2732252299, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

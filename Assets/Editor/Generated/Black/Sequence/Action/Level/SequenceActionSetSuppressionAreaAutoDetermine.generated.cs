@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Level
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaAutoDetermine", base.GetFieldProperties(), 958334875, -191023260);
             
+			fieldProperties.AddProperty(new Property("autoDetermineStatus_", 1797401618, "bool", 624, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

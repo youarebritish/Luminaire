@@ -39,6 +39,8 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorGetBodyLinkAnimRoleActor", base.GetFieldProperties(), -1176705911, -224066841);
             
+			fieldProperties.AddProperty(new Property("roleActorOPin_", 2433503847, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 232, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("linkAnimRoleId_", 1761263946, "SQEX.Ebony.Std.Fixid", 320, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

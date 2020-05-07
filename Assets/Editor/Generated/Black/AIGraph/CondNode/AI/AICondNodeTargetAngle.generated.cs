@@ -42,6 +42,11 @@ namespace Black.AIGraph.CondNode.AI
 
             fieldProperties = new PropertyContainer("Black.AIGraph.CondNode.AI.AICondNodeTargetAngle", base.GetFieldProperties(), 2083356863, -1108957010);
             
+			fieldProperties.AddProperty(new Property("targetSlotType_", 102733177, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 344, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("compareType_", 1545781657, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 376, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dir4Type_", 357450325, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 408, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dirLRType_", 1639992547, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 440, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Not_", 977337647, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 472, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

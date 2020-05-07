@@ -39,6 +39,8 @@ namespace Black.Sequence.MultiPlayer
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetGameState", base.GetFieldProperties(), -1574877924, -1290241808);
             
+			fieldProperties.AddProperty(new Property("judgePin_", 955830756, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("judgeType_", 2142418729, "Black.Sequence.MultiPlayer.SequenceMultiPlayerGetGameState.MultiplayJudgeType", 176, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

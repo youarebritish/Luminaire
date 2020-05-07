@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Actor.Status
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorSetStatusParameter", base.GetFieldProperties(), -1159201278, 1673484494);
             
+			fieldProperties.AddProperty(new Property("fixid_", 3588511438, "SQEX.Ebony.Std.Fixid", 480, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("overwriteParamID_", 3951513091, "SQEX.Ebony.Std.Fixid", 484, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("is_recover_", 151251775, "bool", 488, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

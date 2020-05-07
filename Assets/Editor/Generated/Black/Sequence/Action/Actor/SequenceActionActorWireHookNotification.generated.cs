@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorWireHookNotification", base.GetFieldProperties(), -1755081692, 1908609407);
             
+			fieldProperties.AddProperty(new Property("statusPin_", 1960700123, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 480, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("notificationOut_", 2019094863, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 568, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("status_", 4107102736, "bool", 664, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

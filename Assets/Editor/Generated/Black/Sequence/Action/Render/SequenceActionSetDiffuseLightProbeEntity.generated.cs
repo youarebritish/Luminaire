@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Render
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetDiffuseLightProbeEntity", base.GetFieldProperties(), 1467366838, 698772414);
             
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 456, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

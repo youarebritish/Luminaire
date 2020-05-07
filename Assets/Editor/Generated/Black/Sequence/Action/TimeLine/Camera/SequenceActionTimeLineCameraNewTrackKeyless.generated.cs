@@ -43,6 +43,12 @@ namespace Black.Sequence.Action.TimeLine.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraNewTrackKeyless", base.GetFieldProperties(), 2136033729, -601213507);
             
+			fieldProperties.AddProperty(new Property("pogFlag_", 2150968024, "bool", 336, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("povFlag_", 3063830905, "bool", 337, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fovFlag_", 2648559131, "bool", 338, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rollFlag_", 3475138109, "bool", 339, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("controlTurn_", 764311870, "Black.Camera.Struct.CameraControlTurn", 344, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("masterTrackItem_", 1305972098, "Black.System.TimeLine.TrackItem.Camera.CameraNewTrackItem", 416, 144, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

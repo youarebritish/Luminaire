@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.LmVFXTrackItemActor", base.GetFieldProperties(), 1744334617, -1504432410);
             
+			fieldProperties.AddProperty(new Property("vlinkId_", 4206120437, "SQEX.Ebony.Std.Fixid", 144, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

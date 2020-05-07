@@ -39,6 +39,8 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Conversion
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceConversionIntToFloat", base.GetFieldProperties(), 308718720, 1960031087);
             
+			fieldProperties.AddProperty(new Property("v_", 843688994, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("o_", 842261971, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

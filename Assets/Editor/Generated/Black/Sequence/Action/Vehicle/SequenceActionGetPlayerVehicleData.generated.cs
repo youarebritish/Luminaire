@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionGetPlayerVehicleData", base.GetFieldProperties(), 1519832248, -1629519079);
             
+			fieldProperties.AddProperty(new Property("target_", 1693858869, "Black.Sequence.Action.Vehicle.SequenceActionGetPlayerVehicleData.Target", 176, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("intPin_", 2077177726, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 184, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.EventTrackItem", base.GetFieldProperties(), -231476009, 1619016765);
             
+			fieldProperties.AddProperty(new Property("eventName_", 4275928665, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pinActivateTiming_", 173705176, "SQEX.Ebony.Framework.TimeControl.TimeLine.PIN_ACTIVATE_TIMING", 104, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

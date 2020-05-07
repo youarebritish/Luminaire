@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetDamageSpot", base.GetFieldProperties(), -246744185, -728807261);
             
+			fieldProperties.AddProperty(new Property("damageSpotID_", 834305678, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isEnable_", 4253513587, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

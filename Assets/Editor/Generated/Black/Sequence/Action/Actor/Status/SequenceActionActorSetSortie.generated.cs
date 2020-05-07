@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Actor.Status
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorSetSortie", base.GetFieldProperties(), -2058090514, -1411917171);
             
+			fieldProperties.AddProperty(new Property("status_", 4107102736, "Black.Actor.SORTIE_STATUS", 480, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

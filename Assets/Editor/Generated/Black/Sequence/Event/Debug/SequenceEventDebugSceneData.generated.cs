@@ -46,6 +46,15 @@ namespace Black.Sequence.Event.Debug
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Debug.SequenceEventDebugSceneData", base.GetFieldProperties(), -1253432496, 559170495);
             
+			fieldProperties.AddProperty(new Property("titleName_", 3590458215, "Ebony.Base.String", 176, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("filePath_", 956091201, "Ebony.Base.String", 192, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("stringColor_", 204434128, "Luminous.RenderInterface.Color", 208, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Jump_", 2897820790, "bool", 224, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Line_", 1847186632, "bool", 225, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 232, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 320, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelName_", 2707696659, "Ebony.Base.String", 408, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelFixId_", 4273961350, "SQEX.Ebony.Std.Fixid", 424, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

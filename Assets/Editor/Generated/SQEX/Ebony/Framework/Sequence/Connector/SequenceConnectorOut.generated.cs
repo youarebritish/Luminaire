@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Connector
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Connector.SequenceConnectorOut", base.GetFieldProperties(), 1585141211, -477669998);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 24, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

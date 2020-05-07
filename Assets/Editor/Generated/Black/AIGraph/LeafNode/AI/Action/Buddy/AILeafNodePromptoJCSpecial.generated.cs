@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodePromptoJCSpecial", base.GetFieldProperties(), -2146393876, 329444269);
             
+			fieldProperties.AddProperty(new Property("attackNum_", 445655500, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 224, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

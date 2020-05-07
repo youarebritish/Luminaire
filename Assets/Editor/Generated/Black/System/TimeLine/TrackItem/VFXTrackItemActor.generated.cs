@@ -41,6 +41,10 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.VFXTrackItemActor", base.GetFieldProperties(), 1895306180, 1687832900);
             
+			fieldProperties.AddProperty(new Property("joint_", 603379448, "SQEX.Ebony.Std.Fixid", 160, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offset_", 1294275471, "Luminous.Math.VectorA", 176, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 192, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("localRotationFlag_", 1404997709, "bool", 208, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

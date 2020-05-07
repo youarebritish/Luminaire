@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.Level.Status
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Status.SequenceActionSetBattleStrategy", base.GetFieldProperties(), 630268662, 2011721623);
             
+			fieldProperties.AddProperty(new Property("inPin_", 3408135614, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outPin_", 2732252299, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeOutPin_", 1344171016, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("strategyType_", 23346089, "Black.Actor.BATTLE_STRATEGY", 464, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeout_", 269585269, "float", 468, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

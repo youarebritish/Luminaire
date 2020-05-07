@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.MiniGame.Fishing
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.MiniGame.Fishing.SequenceActionSetFishRadar", base.GetFieldProperties(), 347548688, 421074088);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("target_", 1693858869, "Black.Sequence.Action.MiniGame.Fishing.SequenceActionSetFishRadar.Target", 368, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -43,6 +43,12 @@ namespace Black.Entity.Minigame.Fishing
 
             fieldProperties = new PropertyContainer("Black.Entity.Minigame.Fishing.FishingFishSpawnEntity", base.GetFieldProperties(), -1492454248, 2089582880);
             
+			fieldProperties.AddProperty(new Property("spawnAreaType_", 2251559410, "Black.Entity.Minigame.Fishing.FishingFishSpawnEntity.AREA_TYPE", 256, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("boxEllipseWidth_", 2631172881, "float", 260, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("boxEllipseDepth_", 3548261702, "float", 264, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("circleRadius_", 3455069560, "float", 268, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("spawnLevel_", 1360392611, "Black.Entity.Minigame.Fishing.FishingFishSpawnEntity.AREA_LEVEL", 272, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("spawnMaxCount_", 464903854, "int", 276, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

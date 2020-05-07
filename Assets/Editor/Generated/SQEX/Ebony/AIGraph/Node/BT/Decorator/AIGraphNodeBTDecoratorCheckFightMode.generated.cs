@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorCheckFightMode", base.GetFieldProperties(), 1505826406, 216406340);
             
+			fieldProperties.AddProperty(new Property("isDefend_", 640551914, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 200, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetLODScale", base.GetFieldProperties(), 963732819, 887297673);
             
+			fieldProperties.AddProperty(new Property("scale_", 3252771946, "float", 480, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

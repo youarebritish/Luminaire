@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.Debug
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugCampMenu", base.GetFieldProperties(), -1234604547, -507030759);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("menuExit_", 1872607415, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("areaPosition_", 4165177176, "Luminous.Math.VectorA", 464, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("campItemList_", 1250649956, "SQEX.Ebony.Std.DynamicArray< Black.Sequence.Action.Debug.DebugCampMenuItem* >", 480, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

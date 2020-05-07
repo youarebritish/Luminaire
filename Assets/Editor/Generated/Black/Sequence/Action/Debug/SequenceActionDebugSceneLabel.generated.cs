@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Debug
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugSceneLabel", base.GetFieldProperties(), 804963120, 357625542);
             
+			fieldProperties.AddProperty(new Property("stringValue_", 169166658, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fixidValue_", 2648994959, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

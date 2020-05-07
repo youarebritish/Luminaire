@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTRoot", base.GetFieldProperties(), -1401632846, 1194387278);
             
+			fieldProperties.AddProperty(new Property("blockTreeDebugLogs", 428688786, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 208, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

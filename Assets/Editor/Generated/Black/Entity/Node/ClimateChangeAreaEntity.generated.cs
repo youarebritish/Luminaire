@@ -46,6 +46,15 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.ClimateChangeAreaEntity", base.GetFieldProperties(), 1001642552, 1716286985);
             
+			fieldProperties.AddProperty(new Property("enableTrigger_", 1936258923, "bool", 256, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 272, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("insideFixId_", 3509828470, "SQEX.Ebony.Std.Fixid", 288, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("exposureId_", 4215095654, "int16_t", 292, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
+			fieldProperties.AddProperty(new Property("postEffectId_", 276526160, "int16_t", 294, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cameraLightId_", 2320497760, "int16_t", 296, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
+			fieldProperties.AddProperty(new Property("priorityLevel_", 3014990202, "int16_t", 298, 2, 1, Property.PrimitiveType.Int16, 0, (char)0));
+			fieldProperties.AddProperty(new Property("transitionTime_", 897948532, "float", 300, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("memo_", 3571411732, "Ebony.Base.String", 304, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -46,6 +46,15 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.SwfPlayerEntity", base.GetFieldProperties(), -1560917038, 183693272);
             
+			fieldProperties.AddProperty(new Property("filePath_", 956091201, "Ebony.Base.String", 320, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAbsoluteOffset_", 1306687096, "bool", 336, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isSetOffset_", 654696109, "bool", 337, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offset_", 1294275471, "Luminous.Math.VectorA", 352, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isSetTextFieldConfig_", 2984682235, "bool", 368, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("textFieldConfigList_", 2113406281, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Menu.SwfPlayerTextFieldConfigArrayItem* >", 376, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			fieldProperties.AddProperty(new Property("isClearAlphaMask_", 365892183, "bool", 392, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("clearAlphaMaskValue_", 2590776636, "float", 396, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isStopWhileGamePause_", 4164262803, "bool", 400, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

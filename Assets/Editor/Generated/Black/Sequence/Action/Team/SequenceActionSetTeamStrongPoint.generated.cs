@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.Team
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Team.SequenceActionSetTeamStrongPoint", base.GetFieldProperties(), 1003815, -2041962833);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("strPoint_", 3281455643, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 376, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("teamName_", 420023592, "Ebony.Base.String", 464, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

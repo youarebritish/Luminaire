@@ -44,6 +44,13 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeGoTo", base.GetFieldProperties(), -1204277086, -243042483);
             
+			fieldProperties.AddProperty(new Property("speedRatePin_", 1014264626, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 1224, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("target_", 1693858869, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 1312, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("movement_", 1839887621, "Black.AI.Move.AIMovement", 1400, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("speedRate_", 3062039623, "float", 1404, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeout_", 269585269, "float", 1408, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bCorrectionOfcoordinates_", 3783242252, "bool", 1412, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("arrivalDistance_", 1191306130, "float", 1416, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventItemListExecutor", base.GetFieldProperties(), -1855487066, 1852888640);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 1088, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Sound
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Sound.SequenceActionTimeLineSoundTrackCommon", base.GetFieldProperties(), -820778015, 255486051);
             
+			fieldProperties.AddProperty(new Property("volume_", 2605093488, "float", 400, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

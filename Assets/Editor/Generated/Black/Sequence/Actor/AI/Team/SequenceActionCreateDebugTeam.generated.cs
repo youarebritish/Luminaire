@@ -40,6 +40,9 @@ namespace Black.Sequence.Actor.AI.Team
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Team.SequenceActionCreateDebugTeam", base.GetFieldProperties(), 1772295266, -1090062160);
             
+			fieldProperties.AddProperty(new Property("outputTeamPin_", 4147520497, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 264, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 360, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

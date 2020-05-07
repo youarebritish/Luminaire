@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.AI.Move.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodePseudoInertia", base.GetFieldProperties(), -2098539722, -1559506100);
             
+			fieldProperties.AddProperty(new Property("bEnable_", 3281370179, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("airResistance_", 741352331, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

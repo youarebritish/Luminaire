@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorChangeRippleSetting", base.GetFieldProperties(), 910201805, 40318153);
             
+			fieldProperties.AddProperty(new Property("reset_", 2999468877, "bool", 480, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rippleId_", 3105718399, "SQEX.Ebony.Std.Fixid", 484, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rippleVfxId_", 3925486973, "SQEX.Ebony.Std.Fixid", 488, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rippleSoundId_", 539089860, "SQEX.Ebony.Std.Fixid", 492, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableFootStepSE_", 163991061, "bool", 496, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

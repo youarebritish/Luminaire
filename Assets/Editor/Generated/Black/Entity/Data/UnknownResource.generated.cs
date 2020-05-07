@@ -40,6 +40,9 @@ namespace Black.Entity.Data
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.UnknownResource", base.GetFieldProperties(), -1264348575, 1940781165);
             
+			fieldProperties.AddProperty(new Property("filePath_", 956091201, "Ebony.Base.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isExternal_", 911942623, "bool", 80, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAutoLoad_", 2729930715, "bool", 81, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

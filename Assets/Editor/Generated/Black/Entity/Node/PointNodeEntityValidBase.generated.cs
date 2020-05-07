@@ -39,6 +39,8 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.PointNodeEntityValidBase", base.GetFieldProperties(), 1134171484, 1118535626);
             
+			fieldProperties.AddProperty(new Property("normal_", 4207323255, "Luminous.Math.VectorA", 288, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("angle_", 581401541, "float", 304, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

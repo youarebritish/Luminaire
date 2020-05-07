@@ -38,6 +38,7 @@ namespace Black.Entity.TPS
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.QueryDescriptorNodeEntity", base.GetFieldProperties(), -1289000621, 847451784);
             
+			fieldProperties.AddProperty(new Property("fixId_", 861493870, "SQEX.Ebony.Std.Fixid", 256, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

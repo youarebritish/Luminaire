@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionEnterVehicle", base.GetFieldProperties(), 1136987764, 1875262605);
             
+			fieldProperties.AddProperty(new Property("reqSwitchCamera_", 989998433, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 1736, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cameraSwitched_", 584101976, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1832, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1928, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("end_", 3007557807, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2024, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("reqCamera_", 1810327217, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2120, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

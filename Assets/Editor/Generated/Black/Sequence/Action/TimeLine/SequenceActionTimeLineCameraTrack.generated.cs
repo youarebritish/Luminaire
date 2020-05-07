@@ -48,6 +48,17 @@ namespace Black.Sequence.Action.TimeLine
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineCameraTrack", base.GetFieldProperties(), -1128376734, 1007610312);
             
+			fieldProperties.AddProperty(new Property("pogFlag_", 2150968024, "bool", 416, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("povFlag_", 3063830905, "bool", 417, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rollFlag_", 3475138109, "bool", 418, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("controlTurn_", 764311870, "Black.Camera.Struct.CameraControlTurn", 424, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypePogX_", 2727825411, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineCameraTrack.UseType", 484, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypePogY_", 3801740122, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineCameraTrack.UseType", 488, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypePogZ_", 3801195669, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineCameraTrack.UseType", 492, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypePovX_", 2165447464, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineCameraTrack.UseType", 496, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypePovY_", 1091532753, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineCameraTrack.UseType", 500, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypePovZ_", 1092077206, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineCameraTrack.UseType", 504, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("masterTrackItem_", 1305972098, "SQEX.Ebony.Framework.TimeControl.TimeLine.CameraTrackItem", 512, 224, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

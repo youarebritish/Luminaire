@@ -49,6 +49,18 @@ namespace Black.Sequence.Action.TimeLine
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineBlack", base.GetFieldProperties(), -1885454668, 1182788593);
             
+			fieldProperties.AddProperty(new Property("playRateActorInputPin_", 2278438602, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 1504, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("preparedFadeInFrame_", 3246864503, "int", 1596, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("preparedFadeInColor_", 366423137, "Luminous.RenderInterface.Color", 1600, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fadeOutFrame_", 3184309659, "int", 1616, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fadeOutColor_", 3998816037, "Luminous.RenderInterface.Color", 1632, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fadeInFrame_", 3674210006, "int", 1648, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fadeInColor_", 4214166776, "Luminous.RenderInterface.Color", 1664, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
+			fieldProperties.AddProperty(new Property("eventSkipFadeOutFrame_", 278089992, "int", 1684, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("eventSkipFadeOutColor_", 160398290, "Luminous.RenderInterface.Color", 1696, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
+			fieldProperties.AddProperty(new Property("eventSkipFadeInFrame_", 2183039299, "int", 1712, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("eventSkipFadeInColor_", 3771857421, "Luminous.RenderInterface.Color", 1728, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
+			fieldProperties.AddProperty(new Property("eventSkipUseCharaRelativeCameraTrack_", 3270596885, "bool", 1744, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

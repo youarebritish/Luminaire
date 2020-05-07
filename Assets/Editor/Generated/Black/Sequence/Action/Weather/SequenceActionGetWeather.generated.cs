@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Weather
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.SequenceActionGetWeather", base.GetFieldProperties(), -125440612, 740984613);
             
+			fieldProperties.AddProperty(new Property("getWeatherType_", 89012946, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

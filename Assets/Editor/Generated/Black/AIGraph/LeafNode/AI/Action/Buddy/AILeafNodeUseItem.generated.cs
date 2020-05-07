@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeUseItem", base.GetFieldProperties(), -501003054, 1672610888);
             
+			fieldProperties.AddProperty(new Property("itemId_", 2463901516, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 400, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bConsume_", 3783788730, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 432, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

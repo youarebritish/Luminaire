@@ -41,6 +41,10 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventEncountGaugeExecutor", base.GetFieldProperties(), 116588667, 1834846368);
             
+			fieldProperties.AddProperty(new Property("pin8_", 187790337, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 1088, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offTimeAfterEncount_", 4248896092, "float", 1176, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("posYRate_", 1287277239, "float", 1180, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("posXOffset_", 2216784285, "float", 1184, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

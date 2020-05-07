@@ -40,6 +40,9 @@ namespace Black.Sequence.Actor.AI
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAISearchCompareBase", base.GetFieldProperties(), 106046069, 1057957585);
             
+			fieldProperties.AddProperty(new Property("immutable_", 2752482336, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 560, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("change_", 1328150214, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 656, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("failure_", 3824596522, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 752, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

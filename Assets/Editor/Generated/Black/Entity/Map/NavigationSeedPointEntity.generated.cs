@@ -39,6 +39,8 @@ namespace Black.Entity.Map
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationSeedPointEntity", base.GetFieldProperties(), 1891450319, -2086386151);
             
+			fieldProperties.AddProperty(new Property("isDebugDraw_", 1140229391, "bool", 256, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDisabled_", 1469758718, "bool", 257, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

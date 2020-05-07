@@ -51,6 +51,20 @@ namespace Black.Sequence.Action.Angle
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Angle.SequenceActionCameraBattleMultiTargetInfo", base.GetFieldProperties(), -34829617, -649240472);
             
+			fieldProperties.AddProperty(new Property("judgePin_", 955830756, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 1176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("clearPin_", 2510457522, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 1272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outPin_", 2732252299, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fovPin_", 1724197964, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 1464, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("heightPin_", 4097229010, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1552, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("radiusPin_", 3597423711, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1640, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("centerPosPin_", 918523598, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1728, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("heightOffsetPin_", 3512995345, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1816, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("distancePin_", 3376150770, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1904, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("autoCompositionBaseType_", 1030842770, "Black.Camera.AutoCompositionBaseType", 1992, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fovDegree_", 834457457, "float", 1996, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("marginDistance_", 608826577, "float", 2000, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("minDistance_", 462922493, "float", 2004, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maxDistance_", 2164793323, "float", 2008, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

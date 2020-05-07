@@ -38,6 +38,7 @@ namespace Black.Entity.RoutePoint.RouteAction
 
             fieldProperties = new PropertyContainer("Black.Entity.RoutePoint.RouteAction.RouteSendMessageToBodyEntity", base.GetFieldProperties(), 991000237, 927701066);
             
+			fieldProperties.AddProperty(new Property("message_", 3825450593, "SQEX.Ebony.Std.Fixid", 304, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

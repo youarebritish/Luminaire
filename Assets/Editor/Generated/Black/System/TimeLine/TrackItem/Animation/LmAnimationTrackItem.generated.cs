@@ -53,6 +53,22 @@ namespace Black.System.TimeLine.TrackItem.Animation
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Animation.LmAnimationTrackItem", base.GetFieldProperties(), -622285299, 1163326657);
             
+			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 176, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("totalBaseFrame_", 296522182, "float", 192, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("speed_", 1253745677, "float", 196, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isLoop_", 2814623788, "bool", 200, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("startFrame_", 4140515073, "float", 204, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("endFrame_", 616391468, "float", 208, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isMirrored_", 3685461044, "bool", 212, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("matchTrigger_", 4001753971, "Black.Motion.LmAnimation.MatchTriggerType", 216, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rootRotationType_", 739220712, "Black.Motion.LmAnimation.TransitionRootRotationType", 220, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rootTranslationType_", 3221812513, "Black.Motion.LmAnimation.TransitionRootTranslationType", 224, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("freezeSource_", 3813934752, "bool", 228, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("freezeTarget_", 38250036, "bool", 229, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("noAnimFacingRecompute_", 3561541146, "bool", 230, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("noAnimOriginRecompute_", 3545419306, "bool", 231, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lockAnimFacing_", 4015675870, "bool", 232, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lockAnimOrigin_", 4232392878, "bool", 233, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

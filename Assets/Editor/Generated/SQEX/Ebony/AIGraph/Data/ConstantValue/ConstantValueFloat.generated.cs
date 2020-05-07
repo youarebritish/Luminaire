@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Data.ConstantValue
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueFloat", base.GetFieldProperties(), 1826674779, 804675479);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 8, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

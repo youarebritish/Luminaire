@@ -39,6 +39,8 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.PillarHPGaugeMenuEntityEPG", base.GetFieldProperties(), -1430409779, -768291371);
             
+			fieldProperties.AddProperty(new Property("offset3d_", 1591663190, "Luminous.Math.VectorA", 496, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offset2d_", 838353761, "Luminous.Math.VectorA", 512, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.PackageUnloadEntity", base.GetFieldProperties(), -1966069553, 1506896903);
             
+			fieldProperties.AddProperty(new Property("unloadItemList_", 832443902, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Area.PackageLoadAreaUnloadArrayItem* >", 416, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.Vfx
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vfx.SequenceActionLmVFXReviathanTornadeControl", base.GetFieldProperties(), -1728426826, -2014070639);
             
+			fieldProperties.AddProperty(new Property("start_", 3266844032, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("stop_", 3454812878, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("tornadoActorPin_", 1255261591, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 368, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("tornadoRadius_", 3477316341, "float", 456, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("tornadoHeight_", 2694912642, "float", 460, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

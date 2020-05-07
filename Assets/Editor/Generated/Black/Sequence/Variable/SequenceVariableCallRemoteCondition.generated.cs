@@ -39,6 +39,8 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableCallRemoteCondition", base.GetFieldProperties(), 84741648, -1387710086);
             
+			fieldProperties.AddProperty(new Property("get_", 1475015064, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("label_", 3520738310, "Ebony.Base.String", 176, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

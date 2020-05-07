@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.Test
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeActionUseBodyTest", base.GetFieldProperties(), 826883146, 929377461);
             
+			fieldProperties.AddProperty(new Property("targetSlotType_", 102733177, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 216, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bodyMsg", 2105664466, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 248, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

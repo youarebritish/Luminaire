@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Save
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Save.SequenceActionDebugSetNoctisMoveSpeed", base.GetFieldProperties(), 67860169, 1507952743);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 272, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

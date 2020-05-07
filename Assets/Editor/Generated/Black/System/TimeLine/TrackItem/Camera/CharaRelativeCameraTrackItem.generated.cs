@@ -48,6 +48,17 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.CharaRelativeCameraTrackItem", base.GetFieldProperties(), 209008462, -1315130045);
             
+			fieldProperties.AddProperty(new Property("isAddPog_", 3699576207, "bool", 344, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAddPov_", 3702386326, "bool", 345, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAddUp_", 3544180066, "bool", 346, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("baseElementId_", 630624006, "SQEX.Ebony.Std.Fixid", 348, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCalcTilt_", 3159764420, "bool", 352, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCalcRoll_", 4201800344, "bool", 353, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bIsAttach_", 3675418929, "bool", 354, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("relativeOffset_", 2366110807, "SQEX.Luminous.Math.VectorA", 368, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("relativeRotation_", 1396190808, "SQEX.Luminous.Math.VectorA", 384, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCheckCollision_", 1357258370, "bool", 400, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("collisionOpt_", 2405266377, "Black.System.TimeLine.TrackItem.Camera.Struct.CharaRelativeCameraCollision", 408, 24, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

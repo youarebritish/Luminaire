@@ -40,6 +40,9 @@ namespace Black.AIGraph.Extend.Invoke.Menu
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Menu.AIGraphInvokeNotifyParryMarkerToMenu", base.GetFieldProperties(), 1112391870, -807911555);
             
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("attackParamId_", 2832968744, "SQEX.Ebony.Std.Fixid", 28, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("targetSlotType_", 102733177, "Black.AI.Recog.TARGET_SLOT_TYPE", 32, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

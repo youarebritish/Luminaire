@@ -39,6 +39,8 @@ namespace Black.Sequence.Actor.AI.Team
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Team.SequenceVariableLabeledTeam", base.GetFieldProperties(), -571505507, -352363585);
             
+			fieldProperties.AddProperty(new Property("leader_", 455491169, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 960, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("memberCount_", 865408551, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1048, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

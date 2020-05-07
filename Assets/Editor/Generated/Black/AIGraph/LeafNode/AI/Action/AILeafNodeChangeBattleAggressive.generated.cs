@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Action
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeChangeBattleAggressive", base.GetFieldProperties(), 741395951, 1989898457);
             
+			fieldProperties.AddProperty(new Property("battleAggressive", 3618056555, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

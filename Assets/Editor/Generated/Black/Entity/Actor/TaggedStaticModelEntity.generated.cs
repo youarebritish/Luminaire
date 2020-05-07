@@ -38,6 +38,7 @@ namespace Black.Entity.Actor
 
             fieldProperties = new PropertyContainer("Black.Entity.Actor.TaggedStaticModelEntity", base.GetFieldProperties(), 1484455732, -2113033516);
             
+			fieldProperties.AddProperty(new Property("tags_", 1058374253, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem* >", 416, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			
 			return fieldProperties;

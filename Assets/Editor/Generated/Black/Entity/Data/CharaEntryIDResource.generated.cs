@@ -42,6 +42,11 @@ namespace Black.Entity.Data
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharaEntryIDResource", base.GetFieldProperties(), -1939571237, -2141369144);
             
+			fieldProperties.AddProperty(new Property("id_", 2899315373, "Ebony.Base.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("searchParamTable_", 1554872927, "Ebony.Base.String", 80, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ebexPathKey_", 2142041700, "Ebony.Base.String", 96, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("idKey_", 1661218624, "Ebony.Base.String", 112, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAutoLoad_", 2729930715, "bool", 128, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

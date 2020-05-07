@@ -39,6 +39,8 @@ namespace Black.Sequence.Event
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventLevelSceneChangeBefore", base.GetFieldProperties(), -1438417053, 1111758416);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isNeedWaitLevel_", 1798531155, "bool", 272, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

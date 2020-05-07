@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstFCurve", base.GetFieldProperties(), -815234146, 2040108459);
             
+			fieldProperties.AddProperty(new Property("valuePin_", 3489737834, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 296, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.SetBaseParamTrackItem", base.GetFieldProperties(), 1408240878, 983128427);
             
+			fieldProperties.AddProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 112, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

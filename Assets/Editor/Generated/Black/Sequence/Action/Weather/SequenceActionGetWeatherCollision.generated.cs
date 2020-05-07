@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Weather
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.SequenceActionGetWeatherCollision", base.GetFieldProperties(), 2128450710, 707910743);
             
+			fieldProperties.AddProperty(new Property("getWeatherID_", 2080079233, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weatherKey_", 1274001839, "SQEX.Ebony.Base.String", 264, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

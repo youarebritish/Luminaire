@@ -40,6 +40,9 @@ namespace Black.Entity.RoutePoint
 
             fieldProperties = new PropertyContainer("Black.Entity.RoutePoint.RouteEntity", base.GetFieldProperties(), -335218778, 804024380);
             
+			fieldProperties.AddProperty(new Property("routeId_", 1540478228, "SQEX.Ebony.Std.Fixid", 232, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bLoop_", 2585352668, "bool", 236, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("routeMoveType_", 3503421764, "Black.Entity.RoutePoint.RouteEntity.ROUTEMOVE_TYPE", 240, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

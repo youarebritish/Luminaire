@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Node
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint", base.GetFieldProperties(), 1361212580, -1755612763);
             
+			fieldProperties.AddProperty(new Property("trayIndex_", 3648500452, "int", 160, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

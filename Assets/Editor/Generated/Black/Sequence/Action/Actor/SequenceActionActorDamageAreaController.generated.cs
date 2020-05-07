@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorDamageAreaController", base.GetFieldProperties(), -820785448, 1051973203);
             
+			fieldProperties.AddProperty(new Property("playPin_", 1036284367, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("stopPin_", 2226130577, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("damageAreaPin_", 1050937253, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 368, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

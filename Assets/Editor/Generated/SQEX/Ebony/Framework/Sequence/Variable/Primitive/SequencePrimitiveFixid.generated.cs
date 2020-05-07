@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveFixid", base.GetFieldProperties(), -523969553, -1785725128);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData", 72, 16, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

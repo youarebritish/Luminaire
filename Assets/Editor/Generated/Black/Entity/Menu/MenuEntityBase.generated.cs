@@ -38,6 +38,7 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MenuEntityBase", base.GetFieldProperties(), 1643950536, 2024200428);
             
+			fieldProperties.AddProperty(new Property("menuFixID_", 107051205, "SQEX.Ebony.Std.Fixid", 256, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

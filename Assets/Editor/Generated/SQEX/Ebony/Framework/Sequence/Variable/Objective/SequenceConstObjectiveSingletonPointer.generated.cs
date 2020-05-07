@@ -39,6 +39,8 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Objective
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Objective.SequenceConstObjectiveSingletonPointer", base.GetFieldProperties(), -100524641, 1726061204);
             
+			fieldProperties.AddProperty(new Property("className_", 1577679929, "Luminous.Core.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 104, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

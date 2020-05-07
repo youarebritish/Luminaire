@@ -43,6 +43,12 @@ namespace Black.Sequence.Action.Render
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetSkyEntity", base.GetFieldProperties(), 720649112, 590984997);
             
+			fieldProperties.AddProperty(new Property("entityPointer_", 3527687820, "Black.Entity.Render.SkyTextureEntity", 176, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
+			fieldProperties.AddProperty(new Property("skyEntity_", 1097449230, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 184, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weight_", 3537511442, "float", 464, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weightPin_", 2865910693, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 472, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

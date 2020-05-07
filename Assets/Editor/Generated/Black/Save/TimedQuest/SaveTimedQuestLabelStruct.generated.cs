@@ -39,6 +39,8 @@ namespace Black.Save.TimedQuest
 
             fieldProperties = new PropertyContainer("Black.Save.TimedQuest.SaveTimedQuestLabelStruct", null, 1208322621, -572757269);
             
+			fieldProperties.AddProperty(new Property("labelId", 3903604776, "SQEX.Luminous.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("var", 2317739966, "int32_t", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetBuddyInteractionMarker", base.GetFieldProperties(), 177446038, -1743617826);
             
+			fieldProperties.AddProperty(new Property("state", 2016490230, "Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetBuddyInteractionMarker.MARKER_STATE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("delayTime", 2552527825, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -40,6 +40,9 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.StrongPointNodeEntity", base.GetFieldProperties(), 807806307, 319793502);
             
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 288, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hasActorType_", 2472413981, "bool", 292, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 293, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

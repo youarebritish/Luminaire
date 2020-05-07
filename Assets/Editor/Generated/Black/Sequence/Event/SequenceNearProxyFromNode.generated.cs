@@ -40,6 +40,9 @@ namespace Black.Sequence.Event
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceNearProxyFromNode", base.GetFieldProperties(), -1340958385, 115866774);
             
+			fieldProperties.AddProperty(new Property("ToExecAtSameFrame_", 3988814304, "bool", 176, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("targetNodePointer_", 2675873222, "SQEX.Ebony.Framework.Sequence.SequenceActivatableNode", 280, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
 			
 			
 			return fieldProperties;

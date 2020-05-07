@@ -41,6 +41,10 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.InGameCameraTurnRollTrackItem", base.GetFieldProperties(), -478964514, 828812245);
             
+			fieldProperties.AddProperty(new Property("rollId_", 1658634004, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rollSignId_", 1026060891, "Ebony.Base.String", 104, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("turnRollData_", 1042086494, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll", 120, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("curveList_", 1657928633, "SQEX.Ebony.Framework.TimeControl.CurveList", 176, 24, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

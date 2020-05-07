@@ -45,6 +45,14 @@ namespace Black.Sequence.Action.TimeLine.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineMotionTrack", base.GetFieldProperties(), -1910248416, 1201788451);
             
+			fieldProperties.AddProperty(new Property("stopMorpheme_", 2642509163, "bool", 400, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isRestartMorphemeWhenFinished_", 2075719798, "bool", 401, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isResetTransOrigin_", 13159593, "bool", 402, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUseCutSceneMotion_", 3163354819, "bool", 403, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isWarpZeroFrame_", 2865453559, "bool", 404, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isIgnoreBaseScale_", 173090201, "bool", 405, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isResetPhysics_", 1526292362, "bool", 406, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("idleMotionSourcePath_", 464281836, "Ebony.Base.String", 408, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

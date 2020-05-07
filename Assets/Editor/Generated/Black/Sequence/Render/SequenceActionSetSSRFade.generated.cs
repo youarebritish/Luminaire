@@ -43,6 +43,12 @@ namespace Black.Sequence.Render
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetSSRFade", base.GetFieldProperties(), 1757093129, 1273543304);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableWeather_", 1384777099, "bool", 272, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("waterSSRStrength_", 3684245430, "float", 276, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("waterSSRZFadeStrength_", 161081134, "float", 280, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("waterSSRZFadeStart_", 1541580765, "float", 284, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("waterSSRZFadeEnd_", 3276355786, "float", 288, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -40,6 +40,9 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableQuestActiveInstance", base.GetFieldProperties(), -2113729847, -1289586356);
             
+			fieldProperties.AddProperty(new Property("entryId_", 3698228211, "SQEX.Ebony.Std.Fixid", 88, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("activeType_", 4025484152, "Black.System.Quest.QuestInstanceActiveType", 92, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outActiveStatusValue_", 756664525, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 96, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

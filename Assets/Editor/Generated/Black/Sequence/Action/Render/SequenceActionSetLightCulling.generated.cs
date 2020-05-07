@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Render
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetLightCulling", base.GetFieldProperties(), -1096156356, -1626999519);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("zFar_pin_", 2629069015, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 272, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("zFar_", 2124336315, "float", 360, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

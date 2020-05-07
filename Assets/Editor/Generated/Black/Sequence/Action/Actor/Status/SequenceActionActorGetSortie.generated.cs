@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Actor.Status
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorGetSortie", base.GetFieldProperties(), -1185882694, 180675089);
             
+			fieldProperties.AddProperty(new Property("sortie_", 1792570424, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 480, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("wait_", 4074976621, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 576, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

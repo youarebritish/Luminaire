@@ -39,6 +39,8 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafWaitTime", base.GetFieldProperties(), -1879145519, -297681796);
             
+			fieldProperties.AddProperty(new Property("waitTime_", 1163163026, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("waitTimeMax_", 2816574326, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

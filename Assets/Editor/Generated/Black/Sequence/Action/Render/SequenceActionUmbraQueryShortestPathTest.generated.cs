@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Render
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionUmbraQueryShortestPathTest", base.GetFieldProperties(), -2072058499, -364342269);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("start_point_entity_", 2671454993, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 272, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("end_point_entity_", 2352946564, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 360, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

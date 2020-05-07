@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.Event
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Event.SequenceActionEventPriorityKick", base.GetFieldProperties(), 1446702496, -1604409174);
             
+			fieldProperties.AddProperty(new Property("kick_", 506613184, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeoutCheck_", 3455729693, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fixIDPin_", 1552509905, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 464, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

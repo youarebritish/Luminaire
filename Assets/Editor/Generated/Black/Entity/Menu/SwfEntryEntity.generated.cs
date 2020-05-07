@@ -38,6 +38,7 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.SwfEntryEntity", base.GetFieldProperties(), -1169533680, 1828379287);
             
+			fieldProperties.AddProperty(new Property("swfEntryPackagePath_", 3946372377, "Ebony.Base.String", 272, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

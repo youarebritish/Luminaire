@@ -39,6 +39,8 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.PackageLoadAreaEntity", base.GetFieldProperties(), -24334414, 1227325303);
             
+			fieldProperties.AddProperty(new Property("loadItemList_", 1464061907, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Area.PackageLoadAreaArrayItem* >", 416, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("unloadItemList_", 832443902, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Area.PackageLoadAreaUnloadArrayItem* >", 432, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

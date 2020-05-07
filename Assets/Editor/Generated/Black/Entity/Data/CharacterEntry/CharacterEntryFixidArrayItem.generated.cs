@@ -38,6 +38,7 @@ namespace Black.Entity.Data.CharacterEntry
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem", base.GetFieldProperties(), -206593153, -307287917);
             
+			fieldProperties.AddProperty(new Property("Value", 3511155050, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

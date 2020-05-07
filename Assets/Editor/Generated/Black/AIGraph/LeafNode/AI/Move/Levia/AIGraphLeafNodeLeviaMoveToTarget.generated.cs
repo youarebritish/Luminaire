@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.AI.Move.Levia
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Levia.AIGraphLeafNodeLeviaMoveToTarget", base.GetFieldProperties(), -2064381751, -997776712);
             
+			fieldProperties.AddProperty(new Property("targetSlotType_", 102733177, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 1048, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("heightOffset_", 749277518, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 1080, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

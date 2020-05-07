@@ -38,6 +38,7 @@ namespace Black.Entity.Map
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationWorldTreeEntity", base.GetFieldProperties(), 1561791932, 1869642715);
             
+			fieldProperties.AddProperty(new Property("packageName_", 1687318477, "SQEX.Luminous.Core.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -41,6 +41,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeAreaSearch", base.GetFieldProperties(), -781361834, -1406616210);
             
+			fieldProperties.AddProperty(new Property("startPoint_", 3190872664, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyVector", 64, 64, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("endPoint_", 3329959993, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyVector", 128, 64, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 192, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("searchTimeMax_", 1734607299, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 224, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

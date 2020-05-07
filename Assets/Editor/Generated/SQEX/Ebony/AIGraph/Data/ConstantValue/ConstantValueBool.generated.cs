@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Data.ConstantValue
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueBool", base.GetFieldProperties(), 177610597, 464964607);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

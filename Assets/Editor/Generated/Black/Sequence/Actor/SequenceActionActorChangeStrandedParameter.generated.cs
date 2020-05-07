@@ -40,6 +40,9 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorChangeStrandedParameter", base.GetFieldProperties(), 104810893, 414559689);
             
+			fieldProperties.AddProperty(new Property("searchLength_", 2190359402, "float", 480, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("footLowHighRate_", 1107197520, "float", 484, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("proxyFootPlaneRate_", 835748618, "float", 488, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

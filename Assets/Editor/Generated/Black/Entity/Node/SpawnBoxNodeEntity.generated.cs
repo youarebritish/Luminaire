@@ -38,6 +38,7 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.SpawnBoxNodeEntity", base.GetFieldProperties(), -1778734175, -798560391);
             
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 352, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

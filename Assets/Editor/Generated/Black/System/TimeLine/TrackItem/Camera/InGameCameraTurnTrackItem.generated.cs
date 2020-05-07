@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.InGameCameraTurnTrackItem", base.GetFieldProperties(), -855874924, 57542421);
             
+			fieldProperties.AddProperty(new Property("turnData_", 3671100655, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurn", 88, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

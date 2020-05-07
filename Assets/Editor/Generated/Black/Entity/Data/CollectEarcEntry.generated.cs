@@ -41,6 +41,10 @@ namespace Black.Entity.Data
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CollectEarcEntry", base.GetFieldProperties(), -1932515064, -2142229580);
             
+			fieldProperties.AddProperty(new Property("isAutoLoad_", 2729930715, "bool", 64, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isEarcExternal_", 1772276072, "bool", 65, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isEventScriptVoiceAll_", 2740753874, "bool", 66, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isVoiceAll_", 1887125053, "bool", 67, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

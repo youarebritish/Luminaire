@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Combat
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetCalcTargetAngleV", base.GetFieldProperties(), 1731535061, -1538107805);
             
+			fieldProperties.AddProperty(new Property("bOn", 2065055696, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

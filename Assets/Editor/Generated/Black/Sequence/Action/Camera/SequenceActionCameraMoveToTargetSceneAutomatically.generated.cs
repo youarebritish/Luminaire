@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraMoveToTargetSceneAutomatically", base.GetFieldProperties(), 2042711923, 964786518);
             
+			fieldProperties.AddProperty(new Property("isAutomatically_", 3208901415, "bool", 480, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("changePositionAutomatically_", 1307806136, "bool", 481, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

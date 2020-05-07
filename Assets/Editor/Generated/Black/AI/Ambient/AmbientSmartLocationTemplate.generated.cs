@@ -38,6 +38,7 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSmartLocationTemplate", base.GetFieldProperties(), 1528184899, 527442079);
             
+			fieldProperties.AddProperty(new Property("archeType_", 2117969097, "SQEX.Ebony.Std.Fixid", 208, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

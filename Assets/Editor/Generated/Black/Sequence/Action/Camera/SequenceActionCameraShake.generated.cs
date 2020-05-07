@@ -54,6 +54,23 @@ namespace Black.Sequence.Action.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionCameraShake", base.GetFieldProperties(), 217117542, -3787018);
             
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("disable_", 1760805492, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 464, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 560, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("finished_", 3052293812, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 656, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cameraActorPin_", 1707765395, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 752, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sourceActorPin_", 3706314901, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 840, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableRandomShakeOffset_", 2141515243, "bool", 928, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shakeRandomFactorRangeMode_", 3554902946, "Black.System.TimeLine.TrackItem.Camera.CameraShakeTrackItem.RandomRangeFactorMode", 932, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableRandomRollZ_", 3790358621, "bool", 936, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rollZRandomFactorRangeMode_", 2285221795, "Black.System.TimeLine.TrackItem.Camera.CameraShakeTrackItem.RandomRangeFactorMode", 940, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableRandomUndampedDistance_", 1957369555, "bool", 944, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("undampedDistanceRandomFactorRangeMode_", 3310127673, "Black.System.TimeLine.TrackItem.Camera.CameraShakeTrackItem.RandomRangeFactorMode", 948, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableRandomEndAttenuationDistance_", 3566532670, "bool", 952, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("endAttenuationDistanceRandomFactorRangeMode_", 109627262, "Black.System.TimeLine.TrackItem.Camera.CameraShakeTrackItem.RandomRangeFactorMode", 956, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("activeTime_", 3298494899, "float", 960, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableRandomShakeTimeWidth_", 3135282409, "bool", 964, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shakeParameter_", 1134684621, "Black.System.TimeLine.TrackItem.Camera.CameraShakeNodeTrackItem", 976, 144, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

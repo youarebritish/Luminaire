@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraNearFarTrack", base.GetFieldProperties(), 152329263, 1473779521);
             
+			fieldProperties.AddProperty(new Property("nearValue_", 1790229121, "float", 320, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("farValue_", 2880097680, "float", 324, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

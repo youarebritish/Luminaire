@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem.Render.Light
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.Light.LightColorTrackItem", base.GetFieldProperties(), -1446376772, 1360457418);
             
+			fieldProperties.AddProperty(new Property("color_", 3572781317, "Luminous.RenderInterface.Color", 96, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
 			
 			
 			return fieldProperties;

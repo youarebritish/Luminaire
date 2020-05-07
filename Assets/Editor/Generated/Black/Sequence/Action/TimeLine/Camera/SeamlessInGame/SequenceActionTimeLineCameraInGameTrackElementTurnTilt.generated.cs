@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementTurnTilt", base.GetFieldProperties(), -1532327292, -491736930);
             
+			fieldProperties.AddProperty(new Property("masterTiltData_", 3458949385, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt", 400, 64, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

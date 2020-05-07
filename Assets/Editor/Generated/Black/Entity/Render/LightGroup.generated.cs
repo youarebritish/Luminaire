@@ -38,6 +38,7 @@ namespace Black.Entity.Render
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.LightGroup", base.GetFieldProperties(), -1141545011, -2098519276);
             
+			fieldProperties.AddProperty(new Property("shadowShareFlag_", 4055597843, "bool", 208, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

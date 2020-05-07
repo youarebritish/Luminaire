@@ -44,6 +44,13 @@ namespace Black.Sequence.Event.Labeled
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Labeled.SequenceEventOnchangedLabeledVariableFixId", base.GetFieldProperties(), 584263652, -248131269);
             
+			fieldProperties.AddProperty(new Property("reRegister_", 1075713906, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 248, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("wakeUp_", 1545670293, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 344, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("prefixType_", 3044571194, "Black.Sequence.Event.Labeled.SequenceEventOnchangedLabeledVariableFixId.PREFIX_TYPE", 440, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labeledVarId_", 2608703597, "SQEX.Ebony.Std.Fixid", 444, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("globalLabelId_", 65495522, "SQEX.Ebony.Std.Fixid", 448, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelScope_", 12303572, "Black.System.Labeled.LabeledVariableManager.LabeledScope", 452, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("conditions_", 3387481400, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareCollectionBase* >", 456, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

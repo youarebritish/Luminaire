@@ -38,6 +38,7 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.AbilityPointDispEntity", base.GetFieldProperties(), -247870289, -1381300568);
             
+			fieldProperties.AddProperty(new Property("offset2d_", 838353761, "Luminous.Math.VectorA", 496, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

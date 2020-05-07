@@ -41,6 +41,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeAIInteractionNotifyTarget", base.GetFieldProperties(), 788309914, -493751425);
             
+			fieldProperties.AddProperty(new Property("predicate_", 506888531, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 64, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("targetSlotType_", 102733177, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 96, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("add_", 1708628401, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 128, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("removePrior_", 990578304, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 160, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

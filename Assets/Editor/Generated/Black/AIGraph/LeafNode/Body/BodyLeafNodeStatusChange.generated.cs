@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.Body
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.BodyLeafNodeStatusChange", base.GetFieldProperties(), -979155659, 218353026);
             
+			fieldProperties.AddProperty(new Property("status", 3125508079, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

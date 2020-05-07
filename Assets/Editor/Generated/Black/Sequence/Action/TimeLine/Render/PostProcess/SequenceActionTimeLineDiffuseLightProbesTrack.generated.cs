@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineDiffuseLightProbesTrack", base.GetFieldProperties(), 1490173091, 1369031378);
             
+			fieldProperties.AddProperty(new Property("enablePRT_", 2194915905, "bool", 336, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
+			fieldProperties.AddProperty(new Property("enableIrradiance_", 1180802057, "bool", 337, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
+			fieldProperties.AddProperty(new Property("intensity_", 1363281103, "float", 340, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("irradIntensity_", 838981167, "float", 344, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("irradColor_", 1646083173, "Luminous.RenderInterface.Color", 352, 16, 1, Property.PrimitiveType.Color, 0, (char)1));
 			
 			
 			return fieldProperties;

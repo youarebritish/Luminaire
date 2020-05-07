@@ -40,6 +40,9 @@ namespace Black.AIGraph.LeafNode.Body.Move
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Move.BodyLeafNodeIdle", base.GetFieldProperties(), -1416090386, 740873848);
             
+			fieldProperties.AddProperty(new Property("timeForMaskingNextTurn", 480647563, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeForMaskingMove", 2652107848, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("thresholdMoveBeginVelocity", 452706093, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 120, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

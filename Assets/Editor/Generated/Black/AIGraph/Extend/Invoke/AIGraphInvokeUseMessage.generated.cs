@@ -40,6 +40,9 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeUseMessage", base.GetFieldProperties(), -373726904, 122819316);
             
+			fieldProperties.AddProperty(new Property("messageUseType", 1700213783, "Black.AIGraph.Extend.Invoke.AIGraphInvokeUseMessage.MESSAGE_USE_TYPE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageId", 448907337, "SQEX.Ebony.Std.Fixid", 28, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTagId", 2373760689, "SQEX.Ebony.Std.Fixid", 32, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

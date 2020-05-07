@@ -39,6 +39,8 @@ namespace SQEX.Luminous.InputDevice
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.InputDevice.PadRecordItem", base.GetFieldProperties(), -1870458987, 459145793);
             
+			fieldProperties.AddProperty(new Property("delta_", 4049009242, "int32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dataSet_", 1168001940, "SQEX.Luminous.InputDevice.PadDataSet", 12, 464, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

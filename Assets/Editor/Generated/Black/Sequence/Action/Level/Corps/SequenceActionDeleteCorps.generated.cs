@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.Level.Corps
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Corps.SequenceActionDeleteCorps", base.GetFieldProperties(), -215542279, 2131221387);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("corps_", 3585202015, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 376, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("corpsName_", 1343961722, "Ebony.Base.String", 464, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

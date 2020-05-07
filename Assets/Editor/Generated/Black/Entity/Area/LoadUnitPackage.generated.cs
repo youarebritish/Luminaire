@@ -39,6 +39,8 @@ namespace Black.Entity.Area
 
             fieldProperties = new PropertyContainer("Black.Entity.Area.LoadUnitPackage", base.GetFieldProperties(), 609042719, -1283553562);
             
+			fieldProperties.AddProperty(new Property("min_", 1418308504, "Luminous.Math.VectorA", 608, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("max_", 3144402738, "Luminous.Math.VectorA", 624, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -41,6 +41,10 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.LmVFXTrackItem", base.GetFieldProperties(), 468898260, -992625350);
             
+			fieldProperties.AddProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 144, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 160, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 176, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("vlinkPath_", 984252915, "Ebony.Base.String", 192, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

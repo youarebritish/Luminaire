@@ -40,6 +40,9 @@ namespace Black.AIGraph.Extend.Node.BT
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Node.BT.AIGraphNodeBTBehaviorMindTaskTray", base.GetFieldProperties(), 406068198, 209540399);
             
+			fieldProperties.AddProperty(new Property("id", 926444256, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 200, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("nodeIndex_", 207217860, "int", 232, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("layer_", 3015166475, "SQEX.Ebony.AIGraph.AIGRAPH_LAYER", 236, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

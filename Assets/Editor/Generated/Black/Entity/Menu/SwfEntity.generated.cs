@@ -41,6 +41,10 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.SwfEntity", base.GetFieldProperties(), 842429234, 1289699279);
             
+			fieldProperties.AddProperty(new Property("swfEntry_", 2733109022, "Ebony.Base.String", 256, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("drawType_", 3084439868, "Black.Entity.Menu.SwfEntity.SWFDRAW_TYPES", 272, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("drawLayer_", 573159033, "Black.Menu.SWFDRAW_LAYERS", 276, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAutoPlay_", 3558891461, "bool", 280, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

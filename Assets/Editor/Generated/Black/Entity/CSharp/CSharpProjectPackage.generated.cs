@@ -38,6 +38,7 @@ namespace Black.Entity.CSharp
 
             fieldProperties = new PropertyContainer("Black.Entity.CSharp.CSharpProjectPackage", base.GetFieldProperties(), -549068082, 206443784);
             
+			fieldProperties.AddProperty(new Property("CSharpReferencePathList", 3635259704, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem* >", 608, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			
 			return fieldProperties;

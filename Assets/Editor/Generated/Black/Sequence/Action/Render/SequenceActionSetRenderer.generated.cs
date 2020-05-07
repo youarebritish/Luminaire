@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Render
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetRenderer", base.GetFieldProperties(), -521503134, -885933158);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maxAniso_", 1018191660, "uint32_t", 272, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

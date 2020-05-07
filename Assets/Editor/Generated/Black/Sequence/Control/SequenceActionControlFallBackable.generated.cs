@@ -38,6 +38,7 @@ namespace Black.Sequence.Control
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.SequenceActionControlFallBackable", base.GetFieldProperties(), -401905152, 1290438515);
             
+			fieldProperties.AddProperty(new Property("bAutoFallBack_", 1920353097, "bool", 176, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

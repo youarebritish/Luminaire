@@ -43,6 +43,12 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSpawnPointEntity", base.GetFieldProperties(), 2066299506, -1684836506);
             
+			fieldProperties.AddProperty(new Property("archeType_", 2117969097, "SQEX.Ebony.Std.Fixid", 304, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("additionalArchetypes_", 716462357, "SQEX.Ebony.Std.DynamicArray< Black.AI.Ambient.AmbientArchetypeArrayItem* >", 312, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			fieldProperties.AddProperty(new Property("initScript_", 2532876081, "SQEX.Ebony.Std.Fixid", 328, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("spawnInCamera_", 683679205, "bool", 332, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("priority_", 3125928034, "Black.AI.Ambient.SpawnPriority", 336, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actorMode_", 1880764250, "Black.AI.Ambient.AmbientSpawnPointActorMode", 340, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

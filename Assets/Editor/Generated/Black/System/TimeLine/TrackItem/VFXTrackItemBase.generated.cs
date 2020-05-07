@@ -39,6 +39,8 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.VFXTrackItemBase", base.GetFieldProperties(), 563820447, 1545010098);
             
+			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 136, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("leafId_", 2513060509, "SQEX.Ebony.Std.Fixid", 152, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

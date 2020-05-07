@@ -38,6 +38,7 @@ namespace Black.Save.Quest
 
             fieldProperties = new PropertyContainer("Black.Save.Quest.SaveQuestStruct", null, 418251789, -1400173965);
             
+			fieldProperties.AddProperty(new Property("quest_data", 4011775558, "Black.Save.Quest.SaveQuestDataStruct", 0, 40, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

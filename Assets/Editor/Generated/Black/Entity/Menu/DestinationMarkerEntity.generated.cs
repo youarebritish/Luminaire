@@ -40,6 +40,9 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.DestinationMarkerEntity", base.GetFieldProperties(), 1705843083, -199364736);
             
+			fieldProperties.AddProperty(new Property("defaultPixOffset_", 3315227405, "int", 496, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lineScalingDistanceFar_", 778108317, "int", 500, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lineScalingDistanceNear_", 3231604998, "int", 504, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

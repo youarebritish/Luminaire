@@ -40,6 +40,9 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.CharaRelativeCameraCollision", base.GetFieldProperties(), -1599446275, -964893496);
             
+			fieldProperties.AddProperty(new Property("rayLength_", 1607612880, "float", 8, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rayOptionalFov_", 67344411, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rayOptionalY_", 2801917791, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

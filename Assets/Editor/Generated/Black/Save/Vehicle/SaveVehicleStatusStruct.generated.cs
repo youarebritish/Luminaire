@@ -52,6 +52,21 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleStatusStruct", null, -948430382, -183003168);
             
+			fieldProperties.AddProperty(new Property("rideStatus_", 951484946, "int32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pos_", 1659354338, "double", 8, 24, 3, Property.PrimitiveType.Double, 0, (char)8));
+			fieldProperties.AddProperty(new Property("rotate_", 2510998735, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("restFuel_", 3309956636, "float", 48, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("totalDistance_", 1765595455, "float", 52, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hp_", 429453646, "int", 56, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maxHp_", 3632677602, "int", 60, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("roofState_", 1595411341, "int", 64, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("visitedParkingList_", 2921630232, "SQEX.Ebony.Std.DynamicArray< Black.Save.Vehicle.SaveVehicleVisitedParkingStruct >", 72, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isFreeSelectDriveMode_", 2312816435, "bool", 88, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("specLevel_", 2424419865, "SQEX.Ebony.Std.DynamicArray< Black.Save.Vehicle.SaveVehicleSpecStruct >", 96, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
+			fieldProperties.AddProperty(new Property("looks_", 341651552, "Black.Save.Vehicle.SaveVehicleLooksStruct", 112, 840, 3, Property.PrimitiveType.ClassField, 0, (char)8));
+			fieldProperties.AddProperty(new Property("isAirCraft_", 3856634868, "bool", 952, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("albumId_", 1059704378, "SQEX.Ebony.Std.Fixid", 956, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("musicId_", 1892219602, "SQEX.Ebony.Std.Fixid", 960, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

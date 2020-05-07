@@ -41,6 +41,10 @@ namespace Black.Entity
 
             fieldProperties = new PropertyContainer("Black.Entity.OceanFloatingModelEntity", base.GetFieldProperties(), -2129348248, -834126960);
             
+			fieldProperties.AddProperty(new Property("followOceanSurface_", 26947686, "bool", 440, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("followOceanNormal_", 3447629734, "bool", 441, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("damping_", 3302352382, "float", 444, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("waterExclusionBoxParams_", 616124268, "SQEX.Ebony.Std.DynamicArray< Black.Entity.WaterExclusionBoxParameter*, MEMORY_CATEGORY_OCEAN >", 448, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

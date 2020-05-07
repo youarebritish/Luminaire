@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraAttachTrack", base.GetFieldProperties(), 1343354770, 874754858);
             
+			fieldProperties.AddProperty(new Property("targetActor_", 2552160338, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 336, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

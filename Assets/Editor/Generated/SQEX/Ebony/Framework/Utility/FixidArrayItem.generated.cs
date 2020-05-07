@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Utility
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Utility.FixidArrayItem", base.GetFieldProperties(), 888898005, 1243622095);
             
+			fieldProperties.AddProperty(new Property("Value", 3511155050, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

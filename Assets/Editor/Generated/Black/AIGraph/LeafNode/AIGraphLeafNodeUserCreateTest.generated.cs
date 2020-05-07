@@ -43,6 +43,12 @@ namespace Black.AIGraph.LeafNode
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AIGraphLeafNodeUserCreateTest", base.GetFieldProperties(), -1915527401, -1917051943);
             
+			fieldProperties.AddProperty(new Property("time", 1564253156, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("atkType", 1740275313, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("questId", 3161124712, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 120, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("animBBParam", 2906189981, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 152, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bodyMessage", 1019129940, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 184, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("runStatus_", 2145749809, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 216, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetShadowCast", base.GetFieldProperties(), -1799618203, 1950714799);
             
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 480, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

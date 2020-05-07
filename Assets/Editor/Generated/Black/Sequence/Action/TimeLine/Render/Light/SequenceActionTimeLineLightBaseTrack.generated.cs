@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Render.Light
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.Light.SequenceActionTimeLineLightBaseTrack", base.GetFieldProperties(), 1719503952, 454026431);
             
+			fieldProperties.AddProperty(new Property("masterData_", 2084001356, "Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData", 336, 112, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isLightDisableWhenSkip_", 3662769999, "bool", 477, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

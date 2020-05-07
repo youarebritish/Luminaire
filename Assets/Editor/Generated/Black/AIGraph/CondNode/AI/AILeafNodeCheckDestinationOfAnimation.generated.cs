@@ -38,6 +38,7 @@ namespace Black.AIGraph.CondNode.AI
 
             fieldProperties = new PropertyContainer("Black.AIGraph.CondNode.AI.AILeafNodeCheckDestinationOfAnimation", base.GetFieldProperties(), 461853756, -1676742277);
             
+			fieldProperties.AddProperty(new Property("animClipRowID_", 898197256, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 344, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

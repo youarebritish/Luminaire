@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorGroupBase", base.GetFieldProperties(), 1775991577, -2026473363);
             
+			fieldProperties.AddProperty(new Property("actorPin_", 3381458010, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 320, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("entityPointer_", 3527687820, "SQEX.Ebony.Framework.Entity.TransformEntity", 408, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
 			
 			
 			return fieldProperties;

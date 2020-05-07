@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.WorldMap
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.WorldMap.SequenceActionWaitTerrainLoading", base.GetFieldProperties(), -541931302, 377921389);
             
+			fieldProperties.AddProperty(new Property("waitCurve_", 3261432876, "bool", 176, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("waitFoliage_", 3790009156, "bool", 177, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("waitPackages_", 3206645906, "bool", 178, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("finished_", 3052293812, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementTurnRoll", base.GetFieldProperties(), 2138629554, -453073668);
             
+			fieldProperties.AddProperty(new Property("masterRollData_", 1368624945, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll", 400, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

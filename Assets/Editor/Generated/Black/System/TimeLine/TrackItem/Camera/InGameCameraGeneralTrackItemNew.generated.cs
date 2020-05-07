@@ -39,6 +39,8 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.InGameCameraGeneralTrackItemNew", base.GetFieldProperties(), 1472060458, -2078175781);
             
+			fieldProperties.AddProperty(new Property("lastViewKeepId_", 3613130477, "Ebony.Base.String", 128, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("generalData_", 3152804964, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralNew", 144, 568, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

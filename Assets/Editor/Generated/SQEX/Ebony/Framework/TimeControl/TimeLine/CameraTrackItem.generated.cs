@@ -43,6 +43,12 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.CameraTrackItem", base.GetFieldProperties(), -1547832897, 1130687551);
             
+			fieldProperties.AddProperty(new Property("pog_", 2731150478, "Luminous.Math.VectorA", 144, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pov_", 1659795623, "Luminous.Math.VectorA", 160, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("roll_", 1959619923, "float", 176, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rollDirection_", 3423543028, "SQEX.Ebony.Framework.TimeControl.RotationDirection", 180, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("interpMode_", 1180138017, "SQEX.Ebony.Framework.TimeControl.InterpMode", 184, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUseCurrentCameraPosition_", 1107821086, "bool", 188, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

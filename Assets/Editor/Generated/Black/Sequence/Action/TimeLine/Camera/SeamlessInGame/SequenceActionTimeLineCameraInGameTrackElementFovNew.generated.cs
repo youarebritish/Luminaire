@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementFovNew", base.GetFieldProperties(), 434061148, -1056742007);
             
+			fieldProperties.AddProperty(new Property("masterFovData_", 2516935639, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovNew", 400, 72, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isSupportEndFov_", 1861804209, "bool", 472, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

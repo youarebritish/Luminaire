@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorPlayBodyLinkAnimTransitionTime", base.GetFieldProperties(), -318128749, 474417698);
             
+			fieldProperties.AddProperty(new Property("roleId", 373633532, "SQEX.Ebony.Std.Fixid", 8, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("transitionTime", 2749362019, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.Actor.Status
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorSetAbilityPoint", base.GetFieldProperties(), 1301952247, -108499938);
             
+			fieldProperties.AddProperty(new Property("setAbilityPoint_", 169827640, "int", 480, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("drawMenu_", 686659905, "bool", 484, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("randomPlayer_", 3768619596, "bool", 485, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("menu_finish_", 2805651557, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 488, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

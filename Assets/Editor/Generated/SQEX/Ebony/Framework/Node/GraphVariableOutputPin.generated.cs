@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Node
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Node.GraphVariableOutputPin", base.GetFieldProperties(), 282268994, 770550894);
             
+			fieldProperties.AddProperty(new Property("pinValueType_", 2503725294, "Base.String", 72, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

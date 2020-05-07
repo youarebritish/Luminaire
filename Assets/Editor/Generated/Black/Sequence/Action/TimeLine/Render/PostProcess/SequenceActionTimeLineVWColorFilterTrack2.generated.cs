@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVWColorFilterTrack2", base.GetFieldProperties(), 937415091, -392516244);
             
+			fieldProperties.AddProperty(new Property("masterData_", 2084001356, "Black.Sequence.ScreenEffect.VWColorFilterSequenceData", 320, 232, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

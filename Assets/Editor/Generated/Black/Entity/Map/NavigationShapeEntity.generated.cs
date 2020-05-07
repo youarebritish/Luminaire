@@ -38,6 +38,7 @@ namespace Black.Entity.Map
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationShapeEntity", base.GetFieldProperties(), -1206478483, -948810568);
             
+			fieldProperties.AddProperty(new Property("shapeSize_", 1096532104, "SQEX.Luminous.Math.VectorA", 256, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

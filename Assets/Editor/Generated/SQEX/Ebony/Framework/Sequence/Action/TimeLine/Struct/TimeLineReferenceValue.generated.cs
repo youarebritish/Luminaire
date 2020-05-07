@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue", base.GetFieldProperties(), 1718095360, 1670567748);
             
+			fieldProperties.AddProperty(new Property("dependencyProperty_", 1510119278, "SQEX.Ebony.Framework.TimeControl.TimeLine.TimeLine", 8, 8, 1, Property.PrimitiveType.Pointer, 0, (char)0));
 			
 			
 			return fieldProperties;

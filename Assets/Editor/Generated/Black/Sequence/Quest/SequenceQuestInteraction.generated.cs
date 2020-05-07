@@ -38,6 +38,7 @@ namespace Black.Sequence.Quest
 
             fieldProperties = new PropertyContainer("Black.Sequence.Quest.SequenceQuestInteraction", base.GetFieldProperties(), 779352215, 611231396);
             
+			fieldProperties.AddProperty(new Property("entityLabelId_", 2257765222, "Black.Sequence.Quest.SequenceQuestInteraction.Fixid", 1200, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

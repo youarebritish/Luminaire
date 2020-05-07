@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.ActiveTrackItem", base.GetFieldProperties(), 606221309, 326435373);
             
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 88, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

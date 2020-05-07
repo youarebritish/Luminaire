@@ -40,6 +40,9 @@ namespace Black.Sequence.Variable.AI
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.AI.SequenceVariableAITaskProperty", base.GetFieldProperties(), 1702198440, 1091620802);
             
+			fieldProperties.AddProperty(new Property("inputPin_", 724407991, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outputPin_", 2856911940, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("propertyId_", 487541182, "SQEX.Ebony.Std.Fixid", 264, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

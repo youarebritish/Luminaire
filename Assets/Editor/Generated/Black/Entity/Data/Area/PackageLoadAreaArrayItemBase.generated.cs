@@ -38,6 +38,7 @@ namespace Black.Entity.Data.Area
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.PackageLoadAreaArrayItemBase", base.GetFieldProperties(), -232094109, -1545906488);
             
+			fieldProperties.AddProperty(new Property("Id_", 3478900877, "uint32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

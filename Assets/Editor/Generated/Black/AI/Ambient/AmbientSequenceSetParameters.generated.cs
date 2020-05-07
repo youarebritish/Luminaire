@@ -39,6 +39,8 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSequenceSetParameters", base.GetFieldProperties(), -727482591, -731925045);
             
+			fieldProperties.AddProperty(new Property("parameterEntity_", 2046547388, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 376, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("error_", 3860306698, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 464, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

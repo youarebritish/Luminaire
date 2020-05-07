@@ -38,6 +38,7 @@ namespace Black.Entity.Data
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.EarcExternalListEntity", base.GetFieldProperties(), -1268370426, -228412249);
             
+			fieldProperties.AddProperty(new Property("earcExternalFileList_", 2621453982, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem* >", 64, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

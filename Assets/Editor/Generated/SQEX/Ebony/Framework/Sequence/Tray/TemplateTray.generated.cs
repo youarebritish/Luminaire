@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Tray
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Tray.TemplateTray", base.GetFieldProperties(), 1866763753, 940885419);
             
+			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 240, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

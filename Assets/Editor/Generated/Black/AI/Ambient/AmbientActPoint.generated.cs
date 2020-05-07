@@ -38,6 +38,7 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientActPoint", base.GetFieldProperties(), 1505127081, -545290217);
             
+			fieldProperties.AddProperty(new Property("tags_", 1058374253, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem* >", 288, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			
 			return fieldProperties;

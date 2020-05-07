@@ -43,6 +43,12 @@ namespace Black.Entity.Minigame.Fishing
 
             fieldProperties = new PropertyContainer("Black.Entity.Minigame.Fishing.FishingWaterWeedEntity", base.GetFieldProperties(), -225016400, -705707179);
             
+			fieldProperties.AddProperty(new Property("shapeType_", 520548747, "Black.Entity.Minigame.Fishing.FishingWaterWeedEntity.SHAPE_TYPE", 256, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("boxEllipseWidth_", 2631172881, "float", 260, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("boxEllipseDepth_", 3548261702, "float", 264, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("circleRadius_", 3455069560, "float", 268, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("height_", 2527956647, "float", 272, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sinkLureSuppressAppendRadius_", 4066406130, "float", 276, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

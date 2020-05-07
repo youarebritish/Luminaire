@@ -39,6 +39,8 @@ namespace Black.Entity.Data.CharacterEntry
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.RBTransitionEntry", base.GetFieldProperties(), -843370241, 711716121);
             
+			fieldProperties.AddProperty(new Property("name", 2369371622, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("transitionType", 1469367826, "Black.Entity.Data.CharacterEntry.TransitionType", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

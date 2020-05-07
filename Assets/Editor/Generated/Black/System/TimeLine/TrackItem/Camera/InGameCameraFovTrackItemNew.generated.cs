@@ -39,6 +39,8 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.InGameCameraFovTrackItemNew", base.GetFieldProperties(), -836947333, 1403933992);
             
+			fieldProperties.AddProperty(new Property("fovId_", 944640490, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fovData_", 3792695137, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovNew", 104, 72, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

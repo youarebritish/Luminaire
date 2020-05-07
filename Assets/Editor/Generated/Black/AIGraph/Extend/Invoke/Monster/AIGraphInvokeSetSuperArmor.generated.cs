@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetSuperArmor", base.GetFieldProperties(), 366657268, -1895626900);
             
+			fieldProperties.AddProperty(new Property("isSuperArmer_", 2537145266, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

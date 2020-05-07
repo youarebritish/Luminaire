@@ -39,6 +39,8 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableSwfEntryEntity", base.GetFieldProperties(), -907477833, -82747681);
             
+			fieldProperties.AddProperty(new Property("outValue_", 2704623729, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 3456, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("entityPointer_", 3527687820, "SQEX.Ebony.Framework.Entity.TransformEntity", 3544, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
 			
 			
 			return fieldProperties;

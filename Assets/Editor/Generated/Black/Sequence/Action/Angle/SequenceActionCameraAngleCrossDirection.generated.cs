@@ -59,6 +59,28 @@ namespace Black.Sequence.Action.Angle
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Angle.SequenceActionCameraAngleCrossDirection", base.GetFieldProperties(), -428476733, 1967878863);
             
+			fieldProperties.AddProperty(new Property("calcPin_", 3721465300, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 1176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("clearPin_", 2510457522, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 1272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("preOutPin_", 1744652298, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outPin_", 2732252299, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1464, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("leftOutPin_", 3180113460, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1560, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rightOutPin_", 3192523915, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1656, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor1NearOutPin_", 3482450457, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1752, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor1FarOutPin_", 2220642430, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1848, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor1NearRightOutPin_", 740630861, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1944, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor1NearLeftOutPin_", 1751319062, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2040, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor1FarRightOutPin_", 1125737484, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2136, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor1FarLeftOutPin_", 2867879077, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2232, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("targetPin_", 4111270248, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2328, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor2Pin_", 3478505912, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2416, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor1Pin_", 2407986413, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2504, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actorsDirectionPin_", 3116697156, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 2592, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("crossDirectionPin_", 3969681556, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 2680, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isRightPin_", 3549614369, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 2768, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("nearActorPin_", 2995072428, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 2856, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("farActorPin_", 4094454259, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 2944, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUseBasePC_", 583811197, "bool", 3032, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUseTargetPCTarget_", 351944606, "bool", 3033, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.NonWetAreaEntity", base.GetFieldProperties(), -1360305127, -809284065);
             
+			fieldProperties.AddProperty(new Property("enableTrigger_", 1936258923, "bool", 256, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 272, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

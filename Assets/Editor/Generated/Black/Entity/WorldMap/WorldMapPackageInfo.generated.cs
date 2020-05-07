@@ -43,6 +43,12 @@ namespace Black.Entity.WorldMap
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.WorldMapPackageInfo", base.GetFieldProperties(), -115184380, 1089834305);
             
+			fieldProperties.AddProperty(new Property("CellSizeX_", 1465403481, "float", 608, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("CellSizeZ_", 1465697671, "float", 612, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("CellCountX_", 695016913, "int", 616, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("CellCountZ_", 1769078719, "int", 620, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("LodDistance_", 3626182916, "float", 624, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("mapIDFilePath_", 1148020522, "Ebony.Base.String", 632, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

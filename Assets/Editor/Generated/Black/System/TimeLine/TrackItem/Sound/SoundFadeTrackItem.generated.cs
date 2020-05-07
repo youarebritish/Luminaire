@@ -39,6 +39,8 @@ namespace Black.System.TimeLine.TrackItem.Sound
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Sound.SoundFadeTrackItem", base.GetFieldProperties(), 697063061, -961462805);
             
+			fieldProperties.AddProperty(new Property("volume_", 2605093488, "float", 88, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("curveList_", 1657928633, "SQEX.Ebony.Framework.TimeControl.CurveList", 96, 24, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

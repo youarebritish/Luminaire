@@ -38,6 +38,7 @@ namespace Black.Sequence.Event
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventInnerAreaJumpEnd", base.GetFieldProperties(), -1780522435, -196967832);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Variable.Labeled
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.Labeled.SequenceVariableLabeledFixIdBase", base.GetFieldProperties(), -1780176326, -355773798);
             
+			fieldProperties.AddProperty(new Property("label_", 3520738310, "SQEX.Ebony.Std.Fixid", 132, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

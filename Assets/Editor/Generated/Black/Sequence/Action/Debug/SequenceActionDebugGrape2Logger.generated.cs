@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Debug
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugGrape2Logger", base.GetFieldProperties(), 1295497221, 666170496);
             
+			fieldProperties.AddProperty(new Property("logCategory_", 3997912182, "SQEX.Luminous.GameFramework.Logger.LoggerCategory", 480, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

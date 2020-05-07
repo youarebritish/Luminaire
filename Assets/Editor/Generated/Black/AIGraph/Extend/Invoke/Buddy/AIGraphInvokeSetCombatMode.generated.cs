@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetCombatMode", base.GetFieldProperties(), 1727893477, -238675487);
             
+			fieldProperties.AddProperty(new Property("combatMode_", 1914106387, "Black.Actor.Component.Buddy.BUDDY_COMBAT_MODE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -58,6 +58,27 @@ namespace Black.Entity.Data.Wind
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Wind.BonamikWindPresetEntity", base.GetFieldProperties(), -1668337179, -1898511682);
             
+			fieldProperties.AddProperty(new Property("isEnable_", 4253513587, "bool", 64, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd0Id", 827056940, "SQEX.Ebony.Std.Fixid", 68, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd0Path", 519152018, "Ebony.Base.String", 72, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd1Id", 3579113195, "SQEX.Ebony.Std.Fixid", 88, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd1Path", 99444797, "Ebony.Base.String", 96, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd2Id", 2322181006, "SQEX.Ebony.Std.Fixid", 112, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd2Path", 1175553636, "Ebony.Base.String", 120, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd3Id", 528953389, "SQEX.Ebony.Std.Fixid", 136, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd3Path", 742851031, "Ebony.Base.String", 144, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd4Id", 64085840, "SQEX.Ebony.Std.Fixid", 160, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd4Path", 3662795238, "Ebony.Base.String", 168, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd5Id", 2565825519, "SQEX.Ebony.Std.Fixid", 184, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd5Path", 4142667969, "Ebony.Base.String", 192, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd6Id", 790238018, "SQEX.Ebony.Std.Fixid", 208, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd6Path", 3445464712, "Ebony.Base.String", 216, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd7Id", 3023535793, "SQEX.Ebony.Std.Fixid", 232, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd7Path", 3017881819, "Ebony.Base.String", 240, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd8Id", 3366553812, "SQEX.Ebony.Std.Fixid", 256, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd8Path", 3062294106, "Ebony.Base.String", 264, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd9Id", 765440627, "SQEX.Ebony.Std.Fixid", 280, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bnmwnd9Path", 1314845893, "Ebony.Base.String", 288, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

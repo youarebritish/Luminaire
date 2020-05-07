@@ -39,6 +39,8 @@ namespace Black.Sequence.Event.Trigger
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Trigger.SequenceRemoteEventTriggerWithMatching", base.GetFieldProperties(), 483763238, -2032179872);
             
+			fieldProperties.AddProperty(new Property("labelId_", 3191214933, "SQEX.Ebony.Std.Fixid", 320, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("matchingId_", 455640344, "SQEX.Ebony.Std.Fixid", 324, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

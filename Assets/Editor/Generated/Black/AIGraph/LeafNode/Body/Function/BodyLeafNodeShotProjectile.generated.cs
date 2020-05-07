@@ -41,6 +41,10 @@ namespace Black.AIGraph.LeafNode.Body.Function
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Function.BodyLeafNodeShotProjectile", base.GetFieldProperties(), -501115536, -142222817);
             
+			fieldProperties.AddProperty(new Property("attackID", 3386253000, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUseMessage", 322328995, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUseRecoiling", 3232321390, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 120, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("recoilAimControlID_", 385632873, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 152, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.Sequence.Event.Menu
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceEventInteractionCursorChanged", base.GetFieldProperties(), -881714743, -1965588235);
             
+			fieldProperties.AddProperty(new Property("targetActorOutput_", 294074749, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 296, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("interactionTypeOutput_", 44472131, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 384, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetEventScriptExecutable", base.GetFieldProperties(), -1209602279, 1737787274);
             
+			fieldProperties.AddProperty(new Property("isExecutable_", 552110374, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

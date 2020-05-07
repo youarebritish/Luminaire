@@ -39,6 +39,8 @@ namespace Black.Sequence.Event.Menu
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceEventPartyActorListChanged", base.GetFieldProperties(), 352209020, 1668361046);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("partyActorListPin_", 3083666140, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 272, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Environment
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Environment.AIGraphInvokeEnableEnvironmentDetection", base.GetFieldProperties(), 1080681592, 1638970279);
             
+			fieldProperties.AddProperty(new Property("activate_", 3319663101, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

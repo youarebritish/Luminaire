@@ -38,6 +38,7 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MainParamGaugeEntity", base.GetFieldProperties(), 542773348, 1101245062);
             
+			fieldProperties.AddProperty(new Property("target_", 1693858869, "Black.Entity.Menu.TargetCharacter", 448, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

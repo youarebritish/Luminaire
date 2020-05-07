@@ -44,6 +44,13 @@ namespace Black.Entity.Map
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationMarkerEntity", base.GetFieldProperties(), -953315506, -36853962);
             
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 256, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDebugDraw_", 1140229391, "bool", 272, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDynamic_", 1685415699, "bool", 273, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCollisionType_", 711473640, "bool", 274, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("navMaterialType_", 2688349408, "Black.Entity.Map.NavigationMarkerEntity.MaterialType", 276, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shapeType_", 520548747, "Black.Entity.Map.NavigationMarkerEntity.ShapeType", 280, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDisabled_", 1469758718, "bool", 284, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

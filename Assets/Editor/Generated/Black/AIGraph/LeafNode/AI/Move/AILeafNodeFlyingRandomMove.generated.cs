@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.AI.Move
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeFlyingRandomMove", base.GetFieldProperties(), -1350268240, 208495156);
             
+			fieldProperties.AddProperty(new Property("maxAltitude_", 3726422252, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 768, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("minAltitude_", 3404475618, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 800, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

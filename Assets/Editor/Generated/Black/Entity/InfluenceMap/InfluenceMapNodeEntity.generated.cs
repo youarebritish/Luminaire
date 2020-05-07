@@ -43,6 +43,12 @@ namespace Black.Entity.InfluenceMap
 
             fieldProperties = new PropertyContainer("Black.Entity.InfluenceMap.InfluenceMapNodeEntity", base.GetFieldProperties(), -644769796, 196132152);
             
+			fieldProperties.AddProperty(new Property("fixId_", 861493870, "SQEX.Ebony.Std.Fixid", 208, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("decayType_", 1306619198, "Black.Entity.InfluenceMap.InfluenceMapNodeEntity.DecayType", 212, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("subject_", 3903058736, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.SubjectType", 216, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("CellsPerAxis", 3797297648, "uint32_t", 220, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("CellSize", 149408908, "float", 224, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("DecayRate", 436311455, "float", 228, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Camera.FirstPersonCamera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.FirstPersonCamera.SequenceActionFirstPersonCameraSetSuspendFlag", base.GetFieldProperties(), 1676414094, -1593189313);
             
+			fieldProperties.AddProperty(new Property("suspend_", 3260889972, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("resume_", 4240174191, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

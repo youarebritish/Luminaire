@@ -43,6 +43,12 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventEnemyHPBarExecutor", base.GetFieldProperties(), 1959069515, -1156144885);
             
+			fieldProperties.AddProperty(new Property("maxCount_", 3764251533, "unsigned int", 1088, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("displayTime_", 3650405489, "float", 1092, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offsetX_", 1096147371, "float", 1096, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offsetY_", 2170062082, "float", 1100, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("damageGaugeSpeedRatio_", 4223863726, "float", 1104, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("finishTime_", 2625246532, "float", 1108, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

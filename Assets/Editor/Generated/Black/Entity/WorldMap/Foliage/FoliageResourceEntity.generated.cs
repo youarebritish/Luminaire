@@ -42,6 +42,11 @@ namespace Black.Entity.WorldMap.Foliage
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.Foliage.FoliageResourceEntity", base.GetFieldProperties(), 15273958, -1769805089);
             
+			fieldProperties.AddProperty(new Property("foliageModelFilePaths_", 462606478, "SQEX.Ebony.Std.DynamicArray< Black.Entity.WorldMap.Foliage.FoliageModelFilePathEntity*, MEMORY_CATEGORY_WORLDMAP >", 64, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("decorationSetFilePath_", 145970333, "Ebony.Base.String", 80, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("decorationSetHighFilePath_", 2978482941, "Ebony.Base.String", 96, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 112, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("loadWhenFly_", 3269848743, "bool", 116, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

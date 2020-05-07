@@ -38,6 +38,7 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstPointEntityBase", base.GetFieldProperties(), 2145426006, -2095755802);
             
+			fieldProperties.AddProperty(new Property("pointNodeActorVarOutPin_", 530706849, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 96, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -40,6 +40,9 @@ namespace Black.Sequence.Event.Quest
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Quest.SequenceEventQuestStateEnter", base.GetFieldProperties(), -1497073700, -1203300997);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("entryId_", 3698228211, "SQEX.Ebony.Std.Fixid", 280, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("stateId_", 1740928988, "SQEX.Ebony.Std.Fixid", 284, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Entity.Render
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.TubeLightEntity", base.GetFieldProperties(), 1955393733, -1741382911);
             
+			fieldProperties.AddProperty(new Property("tubeWidth_", 4081876266, "float", 832, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

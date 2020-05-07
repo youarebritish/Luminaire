@@ -45,6 +45,14 @@ namespace Black.Sequence.ScreenEffect
 
             fieldProperties = new PropertyContainer("Black.Sequence.ScreenEffect.VWVignetteFilterSequenceData", base.GetFieldProperties(), 1418410879, 587992316);
             
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
+			fieldProperties.AddProperty(new Property("enableWeather_", 1384777099, "bool", 9, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
+			fieldProperties.AddProperty(new Property("amount_", 3181604002, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("yScale_", 1129676355, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("cornerAttenuation_", 1529557157, "float", 20, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("corner_r_", 505060422, "float", 24, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("corner_g_", 3728084483, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("corner_b_", 507620278, "float", 32, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

@@ -40,6 +40,9 @@ namespace Black.Entity.WorldMap
 
             fieldProperties = new PropertyContainer("Black.Entity.WorldMap.TerrainCurveDataEntity", base.GetFieldProperties(), 1070906061, -180620989);
             
+			fieldProperties.AddProperty(new Property("curveDataFilePath_", 3013718162, "Ebony.Base.String", 384, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("curveCategory_", 1060782121, "Black.Entity.WorldMap.TerrainCurveDataEntity.CURVE_CATEGORY", 400, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAbsorbable_", 653953453, "bool", 404, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

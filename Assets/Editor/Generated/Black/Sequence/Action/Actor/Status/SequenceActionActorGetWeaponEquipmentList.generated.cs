@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Actor.Status
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorGetWeaponEquipmentList", base.GetFieldProperties(), 1588270101, 860629089);
             
+			fieldProperties.AddProperty(new Property("weaponElemIdListPin_", 1116293823, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 480, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weaponTypeIdListPin_", 2930118932, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 568, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -43,6 +43,12 @@ namespace Black.AIGraph.LeafNode.AI.Move
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeApproachPoint", base.GetFieldProperties(), -392406948, 1209729843);
             
+			fieldProperties.AddProperty(new Property("targetPoint", 4163298814, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyVector", 576, 64, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("arrivalDistance", 1703907641, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 640, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("failedDistance", 3021369375, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 672, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("moveSpeed", 1157950271, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 704, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ignoreRadiusForArrival", 2200509057, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 736, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("checkVisiblityClearingForArrival", 3183002531, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 768, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

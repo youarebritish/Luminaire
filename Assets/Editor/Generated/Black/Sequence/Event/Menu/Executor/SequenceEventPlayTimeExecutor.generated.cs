@@ -40,6 +40,9 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventPlayTimeExecutor", base.GetFieldProperties(), -2141203748, -1997236166);
             
+			fieldProperties.AddProperty(new Property("txtPlayTimeHeader_", 2661929410, "SQEX.Ebony.Std.Fixid", 1088, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("txtPlayTimeFormat_", 3971331280, "SQEX.Ebony.Std.Fixid", 1092, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("strPlayTimeFormat_", 2590617529, "Ebony.Base.String", 1096, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -41,6 +41,10 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.BlendTrackItemBaseNoResource", base.GetFieldProperties(), -2140247100, 428329883);
             
+			fieldProperties.AddProperty(new Property("blendRate_", 930283391, "float", 88, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("startInterpTime_", 1816728177, "float", 92, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("endInterpTime_", 654645938, "float", 96, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("curveList_", 1657928633, "SQEX.Ebony.Framework.TimeControl.CurveList", 104, 24, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

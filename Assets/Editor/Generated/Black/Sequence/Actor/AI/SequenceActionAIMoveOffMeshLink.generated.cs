@@ -45,6 +45,14 @@ namespace Black.Sequence.Actor.AI
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.SequenceActionAIMoveOffMeshLink", base.GetFieldProperties(), -1669295898, -501222727);
             
+			fieldProperties.AddProperty(new Property("entityPointer_", 3527687820, "SQEX.Ebony.Framework.Entity.EntityGroup", 232, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
+			fieldProperties.AddProperty(new Property("arrivedPin_", 214469358, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 240, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("releaseTurnstilePin_", 2070920038, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 336, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("activatedPin_", 473133676, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 432, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("oppositeSideActivatedPin_", 1714636638, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 528, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("finishedPin_", 1775979791, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 624, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actor_", 3434601855, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 720, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isActive_", 4051442688, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 808, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

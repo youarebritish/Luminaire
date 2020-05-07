@@ -38,6 +38,7 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.LocationAreaEntity", base.GetFieldProperties(), 562095683, -1220606668);
             
+			fieldProperties.AddProperty(new Property("priority_", 3125928034, "int", 448, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

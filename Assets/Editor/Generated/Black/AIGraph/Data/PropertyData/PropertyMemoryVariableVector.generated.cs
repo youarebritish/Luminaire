@@ -38,6 +38,7 @@ namespace Black.AIGraph.Data.PropertyData
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Data.PropertyData.PropertyMemoryVariableVector", base.GetFieldProperties(), -173183743, -710138511);
             
+			fieldProperties.AddProperty(new Property("kind_", 3595366932, "Black.AI.Recog.TargetMemoryAccessor.ValueKindVector", 32, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

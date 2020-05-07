@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraCCFTrackBase", base.GetFieldProperties(), -1541172107, -359501517);
             
+			fieldProperties.AddProperty(new Property("controlTurn_", 764311870, "Black.Camera.Struct.CameraControlTurn", 400, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

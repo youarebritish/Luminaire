@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Level
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaEnable", base.GetFieldProperties(), -476459369, 596720728);
             
+			fieldProperties.AddProperty(new Property("enableIn_", 2101072106, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 624, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 712, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

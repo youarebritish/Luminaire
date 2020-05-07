@@ -39,6 +39,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.RandomFilterNodeEntity", base.GetFieldProperties(), -511448825, 554380462);
             
+			fieldProperties.AddProperty(new Property("filterWeight_", 4281585124, "float", 304, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useWeightFlag_", 4027223091, "bool", 308, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.Dinner
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Dinner.SequenceActionDinnerStateChange", base.GetFieldProperties(), -268921284, -690194139);
             
+			fieldProperties.AddProperty(new Property("inPin_", 3408135614, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outPin_", 2732252299, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("state_", 3732062219, "Black.Sequence.Action.Dinner.SequenceActionDinnerStateChange.DINNER_STATE", 368, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dinnerType_", 3079842398, "Black.AI.Buddy.DINNER_TYPE", 372, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

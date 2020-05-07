@@ -39,6 +39,8 @@ namespace Black.Entity.Level
 
             fieldProperties = new PropertyContainer("Black.Entity.Level.BoxWind", base.GetFieldProperties(), -1729368663, 747926542);
             
+			fieldProperties.AddProperty(new Property("m_Range", 2502804050, "Luminous.Math.VectorA", 448, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("m_InterpolationRange", 1782058698, "Luminous.Math.VectorA", 464, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

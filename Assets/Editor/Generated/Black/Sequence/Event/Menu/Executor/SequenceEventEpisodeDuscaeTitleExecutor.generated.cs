@@ -44,6 +44,13 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventEpisodeDuscaeTitleExecutor", base.GetFieldProperties(), -596657853, 1137664461);
             
+			fieldProperties.AddProperty(new Property("open_", 1412397090, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 1088, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("closed_", 36233838, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("new_", 935828682, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("newplus_", 625146618, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1376, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("continue_", 1916568705, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1472, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("option_", 3542630545, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1568, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("debug_", 3991031877, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1664, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

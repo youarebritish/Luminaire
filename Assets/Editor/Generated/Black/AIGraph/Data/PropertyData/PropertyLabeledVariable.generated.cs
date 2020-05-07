@@ -47,6 +47,16 @@ namespace Black.AIGraph.Data.PropertyData
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Data.PropertyData.PropertyLabeledVariable", base.GetFieldProperties(), 1442468422, 1049825635);
             
+			fieldProperties.AddProperty(new Property("label_", 3520738310, "Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelId_", 3191214933, "SQEX.Ebony.Std.Fixid", 40, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("valueType_", 1693725455, "SQEX.Ebony.Framework.Sequence.SequenceValue.ValueType", 44, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scope_", 295543900, "Black.System.Labeled.LabeledVariableManager.LabeledScope", 48, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCreateWhenNotFound_", 1149358935, "bool", 52, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTimer_", 599243182, "bool", 53, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timerType_", 1026330487, "Black.System.Labeled.LabeledVariableManager.TimerType", 56, 4, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("stopTimerValue_", 1198246908, "float", 60, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bBindAnimationBlackBoard_", 530520710, "bool", 64, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("animationBlackBoardId_", 633310322, "SQEX.Ebony.Std.Fixid", 68, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

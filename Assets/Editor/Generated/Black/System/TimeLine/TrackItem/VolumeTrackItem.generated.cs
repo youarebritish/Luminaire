@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.VolumeTrackItem", base.GetFieldProperties(), -1190182259, 66693461);
             
+			fieldProperties.AddProperty(new Property("volume_", 2605093488, "float", 88, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

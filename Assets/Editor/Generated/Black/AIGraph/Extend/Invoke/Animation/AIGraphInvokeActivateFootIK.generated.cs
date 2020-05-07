@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Animation
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateFootIK", base.GetFieldProperties(), 1102726995, 1953906574);
             
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

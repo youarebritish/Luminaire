@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem.Sound
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Sound.MusicTrackItem", base.GetFieldProperties(), 270654198, 1557943549);
             
+			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 208, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

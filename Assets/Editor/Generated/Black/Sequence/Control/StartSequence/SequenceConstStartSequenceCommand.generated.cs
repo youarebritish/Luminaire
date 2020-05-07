@@ -40,6 +40,9 @@ namespace Black.Sequence.Control.StartSequence
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.StartSequence.SequenceConstStartSequenceCommand", base.GetFieldProperties(), -1222941898, 1335775209);
             
+			fieldProperties.AddProperty(new Property("commandPin_", 2859629442, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("commandId_", 997319488, "SQEX.Ebony.Std.Fixid", 176, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 180, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

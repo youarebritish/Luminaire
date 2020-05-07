@@ -39,6 +39,8 @@ namespace SQEX.Ebony.AIGraph.Tray
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Tray.AIGraphTrayFSM", base.GetFieldProperties(), 1210509326, 842769728);
             
+			fieldProperties.AddProperty(new Property("transits_", 3559974222, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.AIGraph.Data.TransitionData*, MEMORY_CATEGORY_AI_GRAPH >", 160, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			fieldProperties.AddProperty(new Property("rootNodes_", 509121599, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMRoot*, MEMORY_CATEGORY_AI_GRAPH >", 176, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Node.FSM
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMEnd", base.GetFieldProperties(), -688769894, 1759618768);
             
+			fieldProperties.AddProperty(new Property("endStatus_", 569053841, "SQEX.Ebony.AIGraph.Node.FSM.END_STATUS", 192, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

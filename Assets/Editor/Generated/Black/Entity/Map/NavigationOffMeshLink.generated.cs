@@ -51,6 +51,20 @@ namespace Black.Entity.Map
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationOffMeshLink", base.GetFieldProperties(), -1541157720, 762140961);
             
+			fieldProperties.AddProperty(new Property("isBidirectional_", 3856910237, "bool", 208, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("linkUser_", 2656796139, "Black.Entity.Map.LinkUser", 212, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("archetype_", 2517067113, "SQEX.Ebony.Std.Fixid", 216, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("linkType_", 2979162330, "Black.Recast.NavOffMeshLinkData.LinkType", 220, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDebugDraw_", 1140229391, "bool", 224, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDisabled_", 1469758718, "bool", 225, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("message_", 3825450593, "SQEX.Ebony.Std.Fixid", 228, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("oppositeMessage_", 2179951696, "SQEX.Ebony.Std.Fixid", 232, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableID_", 1020507492, "SQEX.Ebony.Std.Fixid", 236, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hasTimeScale_", 4033564093, "bool", 240, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("speedScale_", 2243301447, "float", 244, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("blackUniqueKeyFixUp_", 3415231837, "uint32_t", 248, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isArrivalSpeedSet_", 2930709604, "bool", 252, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("arrivalSpeed_", 2124291374, "float", 256, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -45,6 +45,14 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableSwfDefEntity", base.GetFieldProperties(), -101153703, -981291477);
             
+			fieldProperties.AddProperty(new Property("outValue_", 2704623729, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 3456, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("entityPointer_", 3527687820, "SQEX.Ebony.Framework.Entity.Entity", 3544, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
+			fieldProperties.AddProperty(new Property("isSetTextFieldConfig_", 2984682235, "bool", 3552, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isSetLabelSound_", 2439029007, "bool", 3553, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("textFiledConfigList_", 3885649187, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Menu.SwfTextFieldConfigArrayItem* >", 3560, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			fieldProperties.AddProperty(new Property("labelAccessoryList_", 2486815510, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Menu.SwfLabelAccessoryArrayItem* >", 3576, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			fieldProperties.AddProperty(new Property("nameList_", 1377118711, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Menu.SwfStringArrayItem* >", 3592, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			fieldProperties.AddProperty(new Property("fixidList_", 4122648698, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Menu.SwfFixidArrayItem* >", 3608, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			
 			return fieldProperties;

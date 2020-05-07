@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeOverrideFaction", base.GetFieldProperties(), 1045773633, 619846007);
             
+			fieldProperties.AddProperty(new Property("overrideFactionID_", 1634928019, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

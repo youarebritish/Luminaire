@@ -38,6 +38,7 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorChangeLODCategory", base.GetFieldProperties(), 907239115, 1072828399);
             
+			fieldProperties.AddProperty(new Property("category_", 1432694378, "SQEX.Ebony.Std.Fixid", 480, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -42,6 +42,11 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.PointMoveNodeEntity", base.GetFieldProperties(), -1285261840, -1677668715);
             
+			fieldProperties.AddProperty(new Property("aniPath_", 739332467, "Ebony.Base.String", 288, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("motionId_", 2892861327, "SQEX.Ebony.Std.Fixid", 304, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useRotateTrigger_", 1306404134, "bool", 308, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableMotionYscale_", 364913664, "bool", 309, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scaledAnimPlaybackSpeed_", 2498786051, "float", 312, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventAbilitySelectExecutor", base.GetFieldProperties(), -1066519360, 1339711587);
             
+			fieldProperties.AddProperty(new Property("displayTimeMax_", 1990102727, "float", 1088, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -46,6 +46,15 @@ namespace Black.Entity.Shape
 
             fieldProperties = new PropertyContainer("Black.Entity.Shape.OceanDistanceFieldEntity", base.GetFieldProperties(), -1985771429, 557519241);
             
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 288, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bakeDistanceField_", 1062452846, "bool", 304, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sourceDirectory_", 2687263660, "Ebony.Base.String", 312, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sourceFileName_", 1506120470, "Ebony.Base.String", 328, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lengthPerTexel_", 3230849793, "float", 344, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maxShoreDistance_", 663759230, "float", 348, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("distanceFieldEnabled_", 3681441476, "bool", 352, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("falloffStart_", 137593952, "Luminous.Math.VectorA", 368, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("intensityScale_", 255415341, "float", 384, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

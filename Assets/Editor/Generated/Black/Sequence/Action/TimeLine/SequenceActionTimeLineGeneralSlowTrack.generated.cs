@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineGeneralSlowTrack", base.GetFieldProperties(), 457849602, -1948405690);
             
+			fieldProperties.AddProperty(new Property("taskTimeRateLevel_", 3739561040, "Black.Base.Task.BlackTaskTimeRateLevel", 320, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeRate_", 1909836107, "float", 324, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

@@ -41,6 +41,10 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.InGameCameraPovTrackItem", base.GetFieldProperties(), 1126762313, 398545447);
             
+			fieldProperties.AddProperty(new Property("povId_", 555659408, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("povMatrixId_", 948652967, "Ebony.Base.String", 104, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("povOffsetId_", 3312465453, "Ebony.Base.String", 120, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("povData_", 1033385879, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov", 144, 128, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

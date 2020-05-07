@@ -47,6 +47,16 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeFollow", base.GetFieldProperties(), -1017410623, 1992179424);
             
+			fieldProperties.AddProperty(new Property("walkSpeedRatePin_", 3600108445, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 1224, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("runSpeedRatePin_", 2185054075, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 1312, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("target_", 1693858869, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 1400, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("movementNearTarget_", 3029695500, "Black.AI.Move.AIMovement", 1488, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("walkSpeedRate_", 4153805498, "float", 1492, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("movementFarTarget_", 3387188729, "Black.AI.Move.AIMovement", 1496, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("runSpeedRate_", 3923921264, "float", 1500, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("arrivalInnerDistance_", 3761081506, "float", 1504, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("arrivalOuterDistance_", 185253379, "float", 1508, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("walkingAreaRadius_", 2639287024, "float", 1512, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

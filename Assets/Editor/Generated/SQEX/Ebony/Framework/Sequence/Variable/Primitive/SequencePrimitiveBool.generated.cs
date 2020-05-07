@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBool", base.GetFieldProperties(), 256269532, 858223952);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "bool", 72, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Actor.Material
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialBoolTrack", base.GetFieldProperties(), -268829013, -1581687174);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "bool", 416, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem.AI
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.AI.AIEventTrackItem", base.GetFieldProperties(), 57390232, -1535780636);
             
+			fieldProperties.AddProperty(new Property("isIgnoreAIEventSystem_", 1170964603, "bool", 88, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

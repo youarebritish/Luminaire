@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.Level.Mission
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Mission.SequenceActionSetJamFight", base.GetFieldProperties(), 403038437, 1046200274);
             
+			fieldProperties.AddProperty(new Property("jamFightType_", 2889839764, "Black.Actor.Component.AIComponent.IActorAIStatus.JAM_FIGHT_TYPE", 176, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("start_", 3266844032, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("stop_", 3454812878, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 376, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

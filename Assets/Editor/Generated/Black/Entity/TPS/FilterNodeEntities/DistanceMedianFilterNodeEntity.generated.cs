@@ -41,6 +41,10 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.DistanceMedianFilterNodeEntity", base.GetFieldProperties(), 408295224, -1361564868);
             
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 304, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("filterWeight_", 4281585124, "float", 308, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useWeightFlag_", 4027223091, "bool", 312, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("subject_", 3903058736, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.SubjectType", 316, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

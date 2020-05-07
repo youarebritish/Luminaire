@@ -39,6 +39,8 @@ namespace Black.Sequence.Event.Actor.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleHeadLightStateChanged", base.GetFieldProperties(), 791183447, 816365338);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 200, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("signalType_", 1651651706, "Black.Physics.Vehicle.AI.HeadlightSignalType", 296, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

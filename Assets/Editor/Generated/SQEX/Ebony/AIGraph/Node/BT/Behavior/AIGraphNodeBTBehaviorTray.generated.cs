@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Behavior
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.Behavior.AIGraphNodeBTBehaviorTray", base.GetFieldProperties(), -963842594, 62843782);
             
+			fieldProperties.AddProperty(new Property("trayIndex_", 3648500452, "int", 216, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

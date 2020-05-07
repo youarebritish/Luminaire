@@ -39,6 +39,8 @@ namespace Black.Entity.Data.CharacterEntry
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.BuddyCharacterEntry", base.GetFieldProperties(), -1711343228, 1608548161);
             
+			fieldProperties.AddProperty(new Property("drivingCarVlinkPathList", 2784765687, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem* >", 1128, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
+			fieldProperties.AddProperty(new Property("rideOnChocoboVlinkPathList", 4203102472, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem* >", 1144, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			
 			return fieldProperties;

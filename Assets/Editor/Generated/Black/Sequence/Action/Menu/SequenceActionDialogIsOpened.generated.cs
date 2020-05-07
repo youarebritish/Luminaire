@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Menu
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionDialogIsOpened", base.GetFieldProperties(), 417450983, -2146956812);
             
+			fieldProperties.AddProperty(new Property("isOpened_", 733797373, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

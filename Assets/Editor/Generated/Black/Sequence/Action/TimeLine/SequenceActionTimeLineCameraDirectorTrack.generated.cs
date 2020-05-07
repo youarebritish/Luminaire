@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineCameraDirectorTrack", base.GetFieldProperties(), -1369991775, 558603532);
             
+			fieldProperties.AddProperty(new Property("isBackToGameCameraWhenDeactivated_", 1099250781, "bool", 400, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isNeedResetCameraWhenBackingToGameCamera_", 2576398941, "bool", 401, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

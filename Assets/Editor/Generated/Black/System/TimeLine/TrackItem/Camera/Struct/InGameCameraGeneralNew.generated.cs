@@ -39,6 +39,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralNew", base.GetFieldProperties(), 1199235667, 1048778738);
             
+			fieldProperties.AddProperty(new Property("startData_", 2680278824, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralStart", 176, 184, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("endData_", 1827778047, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralEnd", 360, 208, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

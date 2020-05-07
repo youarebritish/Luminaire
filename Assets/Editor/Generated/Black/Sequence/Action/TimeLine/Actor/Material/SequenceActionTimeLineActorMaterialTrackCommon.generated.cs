@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Actor.Material
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialTrackCommon", base.GetFieldProperties(), 1683437901, -1563059511);
             
+			fieldProperties.AddProperty(new Property("materialName_", 3099305108, "Ebony.Base.String", 336, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("parameterName_", 2272229252, "Ebony.Base.String", 352, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

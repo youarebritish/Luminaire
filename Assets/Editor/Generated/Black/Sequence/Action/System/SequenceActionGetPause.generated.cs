@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.System
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionGetPause", base.GetFieldProperties(), 1521665525, -195503130);
             
+			fieldProperties.AddProperty(new Property("isPaused_pin_", 3427520540, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

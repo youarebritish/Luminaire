@@ -41,6 +41,10 @@ namespace Black.Entity.Shape
 
             fieldProperties = new PropertyContainer("Black.Entity.Shape.OceanPatchEntity", base.GetFieldProperties(), -697080834, -2059229619);
             
+			fieldProperties.AddProperty(new Property("useNonuniformScale_", 4431550, "bool", 440, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("nonuniformScale_", 3202151619, "Luminous.Math.VectorA", 448, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("excludeWater_", 1818039297, "bool", 464, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("swimmable_", 2158095701, "bool", 465, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

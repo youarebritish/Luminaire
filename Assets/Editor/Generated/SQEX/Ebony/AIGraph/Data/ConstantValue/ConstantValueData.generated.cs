@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Data.ConstantValue
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueData", base.GetFieldProperties(), -1383737248, 319549414);
             
+			fieldProperties.AddProperty(new Property("values_", 2956804460, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueBase*, MEMORY_CATEGORY_AI_GRAPH >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

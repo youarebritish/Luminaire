@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementTurnYaw", base.GetFieldProperties(), -1392529664, 1179574517);
             
+			fieldProperties.AddProperty(new Property("masterYawData_", 3416927491, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYaw", 400, 72, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

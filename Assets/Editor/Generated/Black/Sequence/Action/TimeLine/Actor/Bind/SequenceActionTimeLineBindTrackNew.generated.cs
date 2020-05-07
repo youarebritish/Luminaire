@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Actor.Bind
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Bind.SequenceActionTimeLineBindTrackNew", base.GetFieldProperties(), -90308278, 1586244729);
             
+			fieldProperties.AddProperty(new Property("filterLevel_", 124193320, "Black.Event.ActorBindFilterLevel", 400, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

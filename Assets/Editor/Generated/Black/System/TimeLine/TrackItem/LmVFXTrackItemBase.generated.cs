@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.LmVFXTrackItemBase", base.GetFieldProperties(), -863045138, 1676087884);
             
+			fieldProperties.AddProperty(new Property("stopType_", 2005460566, "Black.System.TimeLine.TrackItem.LmVFXTrackItemBase.StopType", 136, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

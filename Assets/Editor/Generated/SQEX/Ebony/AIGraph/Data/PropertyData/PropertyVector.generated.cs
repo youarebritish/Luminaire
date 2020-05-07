@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Data.PropertyData
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.PropertyData.PropertyVector", base.GetFieldProperties(), 331827515, -2039299747);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

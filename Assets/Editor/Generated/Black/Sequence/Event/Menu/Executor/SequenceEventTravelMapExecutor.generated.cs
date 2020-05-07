@@ -41,6 +41,10 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventTravelMapExecutor", base.GetFieldProperties(), -1934883124, -698229403);
             
+			fieldProperties.AddProperty(new Property("timeMorning_", 1913114393, "float", 1092, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeNoon_", 1078946483, "float", 1096, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeEvening_", 2057905941, "float", 1100, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeNight_", 3786577743, "float", 1104, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

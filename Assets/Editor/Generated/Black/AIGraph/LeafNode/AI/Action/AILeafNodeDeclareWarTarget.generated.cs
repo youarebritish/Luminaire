@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Action
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeDeclareWarTarget", base.GetFieldProperties(), -491075888, 1654043919);
             
+			fieldProperties.AddProperty(new Property("warTargetSlotType", 365205372, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

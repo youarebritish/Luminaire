@@ -40,6 +40,9 @@ namespace Black.AIGraph.LeafNode.AI.Move
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeSlideToPosition", base.GetFieldProperties(), -633063186, 1938960205);
             
+			fieldProperties.AddProperty(new Property("slideTime", 1569697823, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 592, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("targetSlotType", 999269404, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 624, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rotateActor", 3663372251, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 656, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

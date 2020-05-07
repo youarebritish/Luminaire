@@ -57,6 +57,26 @@ namespace Black.Entity.Render
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.SpecularLightProbeEntity", base.GetFieldProperties(), -123102586, 996350082);
             
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 368, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("boxShape_", 4075282224, "bool", 369, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useNewFadingControl_", 1413719157, "bool", 370, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("power_", 1150566491, "float", 372, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("renderDebug_", 4286953853, "bool", 376, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("renderInfluence_", 1055556861, "bool", 377, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("detatchCaptureBox_", 1668914652, "bool", 378, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("captureRadius_", 2011779488, "float", 380, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("captureBoxPosition_", 2996234786, "LM_NS_MATH.VectorA", 384, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("captureBoxRotation_", 3090160369, "LM_NS_MATH.VectorA", 400, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("captureBoxScale_", 1079105865, "LM_NS_MATH.VectorA", 416, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("setCaptureToInfluence_", 3490831602, "bool", 432, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useDirLightShadow_", 1513720650, "float", 436, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sourceDirectory_", 2687263660, "Ebony.Base.String", 440, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sourceFileName_", 1506120470, "Ebony.Base.String", 456, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("captureZNear_", 228627148, "float", 472, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("captureZFar_", 2498364095, "float", 476, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("capturingOption_", 737721064, "Black.Entity.Render.SpecularLightProbeEntity.CAPTURE_OPTION", 480, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("captureAmbientScale_", 2690275888, "float", 484, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("captureNow_", 91214628, "bool", 488, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

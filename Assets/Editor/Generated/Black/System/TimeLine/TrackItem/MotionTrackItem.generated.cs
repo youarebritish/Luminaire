@@ -43,6 +43,12 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.MotionTrackItem", base.GetFieldProperties(), -396048944, 572889126);
             
+			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 136, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("totalBaseFrame_", 296522182, "float", 152, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isLoop_", 2814623788, "bool", 156, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("speed_", 1253745677, "float", 160, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("startFrame_", 4140515073, "float", 164, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("endFrame_", 616391468, "float", 168, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem.Render.Environment.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.Environment.Struct.InGameFoliageLODScale", base.GetFieldProperties(), -1963424266, 868408913);
             
+			fieldProperties.AddProperty(new Property("lodScale_", 2867814239, "float", 8, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

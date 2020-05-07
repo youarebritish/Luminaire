@@ -52,6 +52,21 @@ namespace Black.System.TimeLine.TrackItem.Render
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.LightTrackItemBase", base.GetFieldProperties(), 1554071351, 2022202923);
             
+			fieldProperties.AddProperty(new Property("mayaLightDirection_", 670431381, "bool", 136, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 144, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 160, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("color_", 3572781317, "Luminous.RenderInterface.Color", 176, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
+			fieldProperties.AddProperty(new Property("intensity_", 1363281103, "float", 192, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 196, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("range_", 1969734135, "float", 200, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowEnabled_", 3882039727, "bool", 204, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowResolution_", 1208541428, "int", 208, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowZNear_", 2446145452, "float", 212, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowSlopeBias_", 2830696338, "float", 216, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowZBias_", 2446539005, "float", 220, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowPower_", 2925680519, "float", 224, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("chrOnlyShadow_", 75793315, "bool", 228, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("projectionSourcePath_", 4247085131, "Ebony.Base.String", 232, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

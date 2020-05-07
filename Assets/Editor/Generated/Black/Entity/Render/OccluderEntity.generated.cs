@@ -38,6 +38,7 @@ namespace Black.Entity.Render
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.OccluderEntity", base.GetFieldProperties(), 907776244, -499107977);
             
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 224, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

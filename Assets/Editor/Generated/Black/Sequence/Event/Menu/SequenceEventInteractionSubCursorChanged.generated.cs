@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceEventInteractionSubCursorChanged", base.GetFieldProperties(), -1096626814, 243020945);
             
+			fieldProperties.AddProperty(new Property("targetActorListPin_", 3635765969, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 296, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

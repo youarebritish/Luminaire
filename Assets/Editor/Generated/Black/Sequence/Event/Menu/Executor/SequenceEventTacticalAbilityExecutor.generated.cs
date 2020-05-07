@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventTacticalAbilityExecutor", base.GetFieldProperties(), -1788553635, 313286807);
             
+			fieldProperties.AddProperty(new Property("tacticalTextDisplayTime_", 3775309295, "float", 1088, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

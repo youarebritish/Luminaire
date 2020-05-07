@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetPartyState", base.GetFieldProperties(), 429211179, 783201450);
             
+			fieldProperties.AddProperty(new Property("state", 2016490230, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

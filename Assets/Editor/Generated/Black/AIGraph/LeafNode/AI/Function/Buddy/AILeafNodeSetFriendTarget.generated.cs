@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetFriendTarget", base.GetFieldProperties(), 1848381574, -925954796);
             
+			fieldProperties.AddProperty(new Property("autoSet", 537388814, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("target", 845187144, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

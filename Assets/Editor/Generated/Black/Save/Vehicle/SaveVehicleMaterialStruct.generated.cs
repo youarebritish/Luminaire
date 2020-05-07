@@ -39,6 +39,8 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleMaterialStruct", null, -1935882286, 1900126300);
             
+			fieldProperties.AddProperty(new Property("materialId_", 3076764230, "SQEX.Ebony.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("currentValue_", 2785564692, "float", 4, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

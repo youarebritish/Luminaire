@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Entity
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Entity.ScenePackage2", base.GetFieldProperties(), -1746335318, -1488130148);
             
+			fieldProperties.AddProperty(new Property("sceneTypeData_", 3401823108, "SQEX.Ebony.Framework.Entity.SceneType", 208, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

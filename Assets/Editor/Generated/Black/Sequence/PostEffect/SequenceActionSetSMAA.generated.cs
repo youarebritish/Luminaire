@@ -43,6 +43,12 @@ namespace Black.Sequence.PostEffect
 
             fieldProperties = new PropertyContainer("Black.Sequence.PostEffect.SequenceActionSetSMAA", base.GetFieldProperties(), 535504536, 103440272);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 368, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("temporalMode_", 132832185, "Black.Sequence.PostEffect.SequenceActionSetSMAA.eTemporalMode", 372, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("edgeMode_", 2593616608, "Black.Sequence.PostEffect.SequenceActionSetSMAA.eEdgeMode", 376, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("debugMode_", 2053894076, "Black.Sequence.PostEffect.SequenceActionSetSMAA.eDebugMode", 380, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

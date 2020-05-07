@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Level.Reinforcement
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Reinforcement.SequenceActionGetReinforcementInfo", base.GetFieldProperties(), -821819164, -2064553855);
             
+			fieldProperties.AddProperty(new Property("inReinforceID_", 2344448179, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outIsExistReinforcement_", 1527578988, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

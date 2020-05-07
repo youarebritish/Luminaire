@@ -46,6 +46,15 @@ namespace Black.Entity.Node.Corps
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.Corps.ReinforceAppearPointEntity", base.GetFieldProperties(), -325723361, 1477425493);
             
+			fieldProperties.AddProperty(new Property("appearWaitMessage", 857092468, "SQEX.Ebony.Std.Fixid", 224, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("appearSortieMessage", 2118578833, "SQEX.Ebony.Std.Fixid", 228, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("appearSpotNo_", 39315804, "int32_t", 232, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("appearLineNo_", 791590510, "int32_t", 236, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("appearProductionType_", 3307353368, "int32_t", 240, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("reinforceGroup_", 2242466742, "Black.AI.NihilSystem.Reinforcement.REINFORCEMENT_GENERATE_CATEGORY", 244, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("generatePriority", 3757563654, "uint32_t", 248, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("generateSpan_", 1909728471, "float", 252, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("appearRoutePointEntity_", 2802277375, "Black.Entity.RoutePoint.RouteEntity", 256, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
 			
 			
 			return fieldProperties;

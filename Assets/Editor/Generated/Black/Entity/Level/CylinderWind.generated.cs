@@ -41,6 +41,10 @@ namespace Black.Entity.Level
 
             fieldProperties = new PropertyContainer("Black.Entity.Level.CylinderWind", base.GetFieldProperties(), -753304651, 2062873200);
             
+			fieldProperties.AddProperty(new Property("m_Radius", 2086339891, "float", 448, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("m_Length", 4067487381, "float", 452, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("m_InterpolationRadius", 301171355, "float", 456, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("m_InterpolationLength", 1714064029, "float", 460, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

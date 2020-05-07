@@ -38,6 +38,7 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MenuVFXEntity", base.GetFieldProperties(), -645669704, 135925916);
             
+			fieldProperties.AddProperty(new Property("vlinkPath_", 984252915, "Ebony.Base.String", 448, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

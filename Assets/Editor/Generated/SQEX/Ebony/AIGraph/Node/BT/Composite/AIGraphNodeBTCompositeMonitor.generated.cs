@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Composite
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.Composite.AIGraphNodeBTCompositeMonitor", base.GetFieldProperties(), 330807477, 1548674114);
             
+			fieldProperties.AddProperty(new Property("runChildIndex_", 2750656073, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 208, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

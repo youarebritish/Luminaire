@@ -41,6 +41,10 @@ namespace Black.AIGraph.LeafNode.AI.Move.Levia
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Levia.AIGraphLeafNodeLeviaMoveToRandom", base.GetFieldProperties(), 1993238195, -1078501750);
             
+			fieldProperties.AddProperty(new Property("randRadiusInner_", 3955115281, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 1048, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("randRadiusOuter_", 2601551056, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 1080, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("randHeightMin_", 2377517776, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 1112, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("randHeightMax_", 650835162, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 1144, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

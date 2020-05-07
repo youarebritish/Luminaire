@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Camera
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Camera.AIGraphInvokeFirstPersonCameraSetSuspendFlag", base.GetFieldProperties(), 2024554677, 743410612);
             
+			fieldProperties.AddProperty(new Property("flag_", 2154253848, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

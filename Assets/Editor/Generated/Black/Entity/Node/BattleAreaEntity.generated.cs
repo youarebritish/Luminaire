@@ -70,6 +70,39 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.BattleAreaEntity", base.GetFieldProperties(), -1056227527, -31039531);
             
+			fieldProperties.AddProperty(new Property("isEnable_", 4253513587, "bool", 288, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("teritoryFixId_", 3292314088, "SQEX.Ebony.Std.Fixid", 292, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("seedPointFixid_", 2881638477, "SQEX.Ebony.Std.Fixid", 296, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("areaType_", 3864051017, "Black.Map.AreaManager.AREA_TYPE", 300, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("groupNo_", 2485363612, "int", 304, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("battleAreaConditionFixId_", 2580641448, "SQEX.Ebony.Std.Fixid", 308, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAutoMakeBattleTeritory_", 2788297645, "bool", 312, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("triggerType_", 1915532364, "Black.Actor.Node.ActorNodeTriggerBase.TriggerType", 316, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("seedCollisionType_", 3070728201, "Black.Entity.Node.BattleAreaEntity.SeedColisionType", 320, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 336, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 352, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("color_", 3572781317, "Luminous.RenderInterface.Color", 368, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonSuccessRate_", 2983557424, "float", 384, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonIfritLot_", 850861736, "int", 388, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonIfritDirection_", 1093583618, "int", 392, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonSivaLot_", 423400443, "int", 396, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonSivaDirection_", 1789900713, "int", 400, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonRamuhLot_", 2973537487, "int", 404, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonRamuhDirection_", 3329554685, "int", 408, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonTitanLot_", 2970879300, "int", 412, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonTitanDirection_", 804743598, "int", 416, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonLeviathanLot_", 2468751780, "int", 420, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonLeviathanDirection_", 1330203790, "int", 424, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonBahamutLot_", 2402337574, "int", 428, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("summonBahamutDirection_", 2006009012, "int", 432, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("elementFirePower_", 525835457, "int", 436, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("elementIcePower_", 3720344572, "int", 440, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("elementThunderPower_", 2214451285, "int", 444, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("elementEarthPower_", 2289391671, "int", 448, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("elementWaterPower_", 2488812968, "int", 452, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("elementLightPower_", 1332086167, "int", 456, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("elementDarkPower_", 4225378317, "int", 460, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAreaInfoRelease_", 4169979054, "bool", 464, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

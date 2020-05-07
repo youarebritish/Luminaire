@@ -41,6 +41,10 @@ namespace Black.Sequence.Action
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.SequenceActionSetRepressionInfoNOX", base.GetFieldProperties(), 1631953689, -907352845);
             
+			fieldProperties.AddProperty(new Property("messageType_", 4171584617, "Black.Sequence.Action.NoxRepressionType", 176, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageId_", 890108578, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 376, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVWSharpenFilterTrack", base.GetFieldProperties(), 1927752686, -1085295527);
             
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 320, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
+			fieldProperties.AddProperty(new Property("amount_", 3181604002, "float", 324, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Node
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Node.AIGraphNodeMindTaskEntryPoint", base.GetFieldProperties(), 1162833676, -1592462670);
             
+			fieldProperties.AddProperty(new Property("mindTaskId_", 856628894, "SQEX.Ebony.Std.Fixid", 176, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("mindTaskNodeIndex_", 4269713693, "int", 180, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

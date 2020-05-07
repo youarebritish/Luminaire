@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.Actor.Material
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Material.SequenceActionActorSetMeshDrawTagParameter", base.GetFieldProperties(), -845232998, -373838826);
             
+			fieldProperties.AddProperty(new Property("inPin_", 3408135614, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actorPin_", 3381458010, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 280, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outPin_", 2732252299, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("parameterType_", 668146725, "Black.Sequence.Action.Actor.Material.SequenceActionActorSetMeshDrawTagParameter.ParameterType", 464, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("setValueInt_", 395540810, "int", 468, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

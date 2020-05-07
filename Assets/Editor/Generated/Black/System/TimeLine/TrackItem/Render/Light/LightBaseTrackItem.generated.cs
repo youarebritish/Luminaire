@@ -47,6 +47,16 @@ namespace Black.System.TimeLine.TrackItem.Render.Light
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.Light.LightBaseTrackItem", base.GetFieldProperties(), -1400246217, -1495463701);
             
+			fieldProperties.AddProperty(new Property("intensity_", 1363281103, "float", 88, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 92, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("range_", 1969734135, "float", 96, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowEnabled_", 3882039727, "bool", 100, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowResolution_", 1208541428, "int", 104, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowZNear_", 2446145452, "float", 108, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowSlopeBias_", 2830696338, "float", 112, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowZBias_", 2446539005, "float", 116, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowPower_", 2925680519, "float", 120, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("chrOnlyShadow_", 75793315, "bool", 124, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

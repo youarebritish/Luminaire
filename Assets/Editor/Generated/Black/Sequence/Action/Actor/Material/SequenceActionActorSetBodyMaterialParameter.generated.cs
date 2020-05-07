@@ -44,6 +44,13 @@ namespace Black.Sequence.Action.Actor.Material
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Material.SequenceActionActorSetBodyMaterialParameter", base.GetFieldProperties(), -1619525775, -1801893056);
             
+			fieldProperties.AddProperty(new Property("inPin_", 3408135614, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actorPin_", 3381458010, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 280, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outPin_", 2732252299, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 368, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("materialType_", 2843965141, "Black.Actor.Component.Material.MATERIAL_TYPE", 464, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("setType_", 3260085068, "Black.Sequence.Action.Actor.Material.SequenceActionActorSetBodyMaterialParameter.SET_TYPE", 468, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("setValue_", 2849925741, "float", 472, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("controlType_", 3130654579, "Black.Sequence.Action.Actor.Material.SequenceActionActorSetBodyMaterialParameter.CONTROL_TYPE", 476, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

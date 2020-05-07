@@ -39,6 +39,8 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.ReservedPointFilterNodeEntity", base.GetFieldProperties(), 800179499, -373719365);
             
+			fieldProperties.AddProperty(new Property("reserveType_", 1294159556, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.ReserveType", 304, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useFlag_", 273879107, "bool", 308, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

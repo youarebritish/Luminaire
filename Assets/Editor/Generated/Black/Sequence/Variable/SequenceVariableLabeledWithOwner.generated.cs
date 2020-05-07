@@ -38,6 +38,7 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableLabeledWithOwner", base.GetFieldProperties(), -1824740054, 559573123);
             
+			fieldProperties.AddProperty(new Property("ownerActorPin_", 2285688393, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 872, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

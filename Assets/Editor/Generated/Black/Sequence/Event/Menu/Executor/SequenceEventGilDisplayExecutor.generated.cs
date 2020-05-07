@@ -40,6 +40,9 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventGilDisplayExecutor", base.GetFieldProperties(), -941161609, 944719841);
             
+			fieldProperties.AddProperty(new Property("timeLongAnime_", 3687357807, "float", 1088, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeGilGetStopAnimeWait_", 2243553490, "float", 1092, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeShortAnime_", 2332611067, "float", 1096, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

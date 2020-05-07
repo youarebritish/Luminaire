@@ -39,6 +39,8 @@ namespace Black.Sequence.Variable.AI
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.AI.SequenceVariableAITargetActorObject", base.GetFieldProperties(), 917336394, -901309237);
             
+			fieldProperties.AddProperty(new Property("targetSlot_", 3879515025, "Black.AI.Recog.TARGET_SLOT_TYPE", 232, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outActor_", 2552209097, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 240, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

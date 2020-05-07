@@ -46,6 +46,15 @@ namespace Black.Entity.Sound
 
             fieldProperties = new PropertyContainer("Black.Entity.Sound.SoundEntity", base.GetFieldProperties(), 181377603, -1924626573);
             
+			fieldProperties.AddProperty(new Property("soundID_", 3702141362, "SeadSoundID", 256, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundFixID_", 538830631, "SQEX.Ebony.Std.Fixid", 260, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundVolume_", 3806088475, "float", 264, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundFadeInTime_", 3231179193, "float", 268, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundFadeOutTime_", 2411077440, "float", 272, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundVisibleFlag_", 1228729957, "bool", 276, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundLoopFlag_", 3533601233, "bool", 277, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundVisibleDistanceFlag_", 923289280, "bool", 278, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundVisibleDistance_", 3797863174, "float", 280, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

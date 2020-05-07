@@ -56,6 +56,25 @@ namespace Black.Entity.Actor
 
             fieldProperties = new PropertyContainer("Black.Entity.Actor.HeightFieldEntity", base.GetFieldProperties(), -1070235521, -52094853);
             
+			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 256, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sourcePathHighSpec_", 1009877713, "Ebony.Base.String", 272, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("materialPalettePath_", 1719454245, "Ebony.Base.String", 288, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("heightMapPath_", 1876232188, "Ebony.Base.String", 304, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("heightMapHighSpecPath_", 2967590121, "Ebony.Base.String", 320, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("additionalDisplacementTextureFilePath_", 909069144, "Ebony.Base.String", 336, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "float", 352, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("visible_", 3296750298, "bool", 356, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("forMulti_", 1739446222, "bool", 357, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cellX_", 3189742680, "int", 360, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cellZ_", 4263804486, "int", 364, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maxLODBinLevel_", 19312022, "int", 368, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("minAltitude_", 3404475618, "float", 372, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maxAltitude_", 3726422252, "float", 376, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useMeshCollision_", 468627668, "bool", 380, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lodMeshCollision_", 2108312696, "int", 384, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("normalPowerPerMeter_", 500297076, "float", 388, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isSea_", 4101159321, "bool", 392, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("seaHeightMapPath_", 113663893, "Ebony.Base.String", 400, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

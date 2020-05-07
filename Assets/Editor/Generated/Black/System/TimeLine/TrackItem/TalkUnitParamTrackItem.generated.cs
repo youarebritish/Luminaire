@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.TalkUnitParamTrackItem", base.GetFieldProperties(), 785216015, -1188259725);
             
+			fieldProperties.AddProperty(new Property("fixidParam_", 3674017431, "SQEX.Ebony.Std.Fixid", 136, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

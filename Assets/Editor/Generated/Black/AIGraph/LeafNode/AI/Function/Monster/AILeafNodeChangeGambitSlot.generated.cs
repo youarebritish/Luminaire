@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeChangeGambitSlot", base.GetFieldProperties(), -1583913774, 1942273228);
             
+			fieldProperties.AddProperty(new Property("gambitSlot_", 61393520, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

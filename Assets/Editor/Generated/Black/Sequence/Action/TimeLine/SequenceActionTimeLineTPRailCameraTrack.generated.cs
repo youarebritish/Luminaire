@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.TimeLine
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineTPRailCameraTrack", base.GetFieldProperties(), 1616473513, 926193808);
             
+			fieldProperties.AddProperty(new Property("interpSpeedFromGameCamera_", 3084207648, "float", 352, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUseEachKeyRailValidAreaWidth_", 2954507046, "bool", 356, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("railValidAreaWidth_", 848066077, "float", 360, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("controlTurn_", 764311870, "Black.Camera.Struct.CameraControlTurn", 368, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

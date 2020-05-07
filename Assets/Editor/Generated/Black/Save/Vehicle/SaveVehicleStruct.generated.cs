@@ -41,6 +41,10 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleStruct", null, 129730024, 1459156238);
             
+			fieldProperties.AddProperty(new Property("version_", 2901812440, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("status_", 4107102736, "Black.Save.Vehicle.SaveVehicleStatusStruct", 16, 976, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("customize_", 902257093, "Black.Save.Vehicle.SaveVehicleCustomizeStruct", 992, 200, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("reserve_", 3115688060, "SQEX.Ebony.Std.DynamicArray< int >", 1192, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			
 			
 			return fieldProperties;

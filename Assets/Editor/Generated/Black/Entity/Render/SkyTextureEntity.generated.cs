@@ -44,6 +44,13 @@ namespace Black.Entity.Render
 
             fieldProperties = new PropertyContainer("Black.Entity.Render.SkyTextureEntity", base.GetFieldProperties(), -1970827573, 55039101);
             
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 64, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 72, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("intensity_", 1363281103, "float", 88, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weight_", 3537511442, "float", 92, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useIBL_", 3522516546, "bool", 96, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowPower_", 2925680519, "float", 100, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shadowColor_", 386002209, "Luminous.RenderInterface.Color", 112, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
 			
 			
 			return fieldProperties;

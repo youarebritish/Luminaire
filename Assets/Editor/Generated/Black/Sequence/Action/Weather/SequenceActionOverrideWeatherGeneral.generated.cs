@@ -46,6 +46,15 @@ namespace Black.Sequence.Action.Weather
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.SequenceActionOverrideWeatherGeneral", base.GetFieldProperties(), -837106037, -1122405066);
             
+			fieldProperties.AddProperty(new Property("inStart_", 3384800707, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inEnd_", 745478220, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("transitionTime_", 897948532, "float", 368, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("transitionTimeEnd_", 4134954301, "float", 372, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weatherParameterComponents_", 2249715571, "SQEX.Ebony.Std.DynamicArray< Black.Sequence.Action.Weather.WeatherParameterComponent* >", 376, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("exposureParameterComponents_", 1099372364, "SQEX.Ebony.Std.DynamicArray< Black.Sequence.Action.Weather.ExposureParameterComponent* >", 392, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("postEffectParameterComponents_", 168693074, "SQEX.Ebony.Std.DynamicArray< Black.Sequence.Action.Weather.PostEffectParameterComponent* >", 408, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cameraLightParameterComponents_", 3675590370, "SQEX.Ebony.Std.DynamicArray< Black.Sequence.Action.Weather.CameraLightParameterComponent* >", 424, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 440, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

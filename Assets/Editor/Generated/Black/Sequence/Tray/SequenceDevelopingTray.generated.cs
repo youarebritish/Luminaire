@@ -40,6 +40,9 @@ namespace Black.Sequence.Tray
 
             fieldProperties = new PropertyContainer("Black.Sequence.Tray.SequenceDevelopingTray", base.GetFieldProperties(), -1688579127, -284018473);
             
+			fieldProperties.AddProperty(new Property("startDebugPin_", 1286317534, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 264, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("startReplayPin_", 4178776488, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 360, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("valuePins_", 2792121211, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 456, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

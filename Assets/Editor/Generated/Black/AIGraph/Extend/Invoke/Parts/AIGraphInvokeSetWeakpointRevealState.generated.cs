@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Parts
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Parts.AIGraphInvokeSetWeakpointRevealState", base.GetFieldProperties(), 511491536, -988440372);
             
+			fieldProperties.AddProperty(new Property("partsId", 1048344864, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isWeakpointReveal", 1113501280, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

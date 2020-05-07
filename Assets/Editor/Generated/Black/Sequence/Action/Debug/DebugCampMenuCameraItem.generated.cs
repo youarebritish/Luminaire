@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Debug
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.DebugCampMenuCameraItem", base.GetFieldProperties(), -646081986, 1803396255);
             
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

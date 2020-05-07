@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeCheckGameMode", base.GetFieldProperties(), -1166058597, 1229117658);
             
+			fieldProperties.AddProperty(new Property("gameMode_", 36591373, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

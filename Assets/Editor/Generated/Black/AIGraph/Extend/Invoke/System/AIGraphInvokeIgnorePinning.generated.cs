@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.System
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnorePinning", base.GetFieldProperties(), 84393432, 933003087);
             
+			fieldProperties.AddProperty(new Property("ignorePinning_", 1579375369, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

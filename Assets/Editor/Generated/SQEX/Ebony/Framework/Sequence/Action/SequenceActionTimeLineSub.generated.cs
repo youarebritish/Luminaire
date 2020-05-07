@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Action.SequenceActionTimeLineSub", base.GetFieldProperties(), 942623753, 1030050209);
             
+			fieldProperties.AddProperty(new Property("stopSyncParentEventId_", 2433370132, "SQEX.Ebony.Std.Fixid", 392, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

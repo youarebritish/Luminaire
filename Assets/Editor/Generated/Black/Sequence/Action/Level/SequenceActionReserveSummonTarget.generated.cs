@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Level
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionReserveSummonTarget", base.GetFieldProperties(), 770804224, -1462199161);
             
+			fieldProperties.AddProperty(new Property("reserveThis_", 1477806612, "bool", 480, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

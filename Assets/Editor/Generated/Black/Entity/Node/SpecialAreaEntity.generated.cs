@@ -39,6 +39,8 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.SpecialAreaEntity", base.GetFieldProperties(), 854408411, 1120165204);
             
+			fieldProperties.AddProperty(new Property("areaType_", 3864051017, "Black.Map.AreaManager.SPECIAL_AREA_TYPE", 448, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isKillActorInAvoidArea_", 2987841704, "bool", 452, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

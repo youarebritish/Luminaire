@@ -38,6 +38,7 @@ namespace Black.Entity.Monster
 
             fieldProperties = new PropertyContainer("Black.Entity.Monster.MonsWallWarpEntityGroup", base.GetFieldProperties(), 1433611499, -1296477873);
             
+			fieldProperties.AddProperty(new Property("wallWarpSetID_", 3497949741, "SQEX.Ebony.Std.Fixid", 208, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

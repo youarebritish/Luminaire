@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Level.LevelMode
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.LevelMode.SequenceActionSetLevelModeBase", base.GetFieldProperties(), 1573284643, 108755938);
             
+			fieldProperties.AddProperty(new Property("blackLevelMode_", 806625594, "Black.Main.GameMode.FieldMode.BlackLevelMode", 176, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

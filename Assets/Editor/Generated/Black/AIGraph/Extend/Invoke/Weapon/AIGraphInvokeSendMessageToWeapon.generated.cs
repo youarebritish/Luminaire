@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Weapon
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Weapon.AIGraphInvokeSendMessageToWeapon", base.GetFieldProperties(), -640709422, 669528891);
             
+			fieldProperties.AddProperty(new Property("animMsg", 2005261249, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sendMessageAnySide", 232889723, "Black.AIGraph.Extend.Invoke.Weapon.AIGraphInvokeSendMessageToWeapon.SEND_MESSAGE_SIDE", 28, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

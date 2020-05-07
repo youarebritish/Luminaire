@@ -44,6 +44,13 @@ namespace Black.Sequence.Action.TimeLine.Actor.DamageMask
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.DamageMask.SequenceActionTimeLineActorDamageMaskTrack", base.GetFieldProperties(), -1246048972, -136049654);
             
+			fieldProperties.AddProperty(new Property("type_", 3554705238, "Black.Sequence.Action.TimeLine.Actor.DamageMask.SequenceActionTimeLineActorDamageMaskTrack.DamageMaskType", 400, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("contiuousTime_", 93596058, "float", 404, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fadeoutTime_", 3863122145, "float", 408, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 412, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("power_", 1150566491, "float", 416, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("concentration_", 529123403, "float", 420, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("damageSpherePosPin_", 25802229, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 424, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

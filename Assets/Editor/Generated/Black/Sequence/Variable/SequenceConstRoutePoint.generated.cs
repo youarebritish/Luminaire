@@ -38,6 +38,7 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstRoutePoint", base.GetFieldProperties(), -1144727544, 779522057);
             
+			fieldProperties.AddProperty(new Property("outEntityGroup_", 1463262364, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 184, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

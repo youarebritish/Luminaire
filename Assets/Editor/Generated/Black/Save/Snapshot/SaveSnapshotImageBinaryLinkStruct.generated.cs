@@ -39,6 +39,8 @@ namespace Black.Save.Snapshot
 
             fieldProperties = new PropertyContainer("Black.Save.Snapshot.SaveSnapshotImageBinaryLinkStruct", null, 1492917409, 776405512);
             
+			fieldProperties.AddProperty(new Property("id_", 2899315373, "uint32_t", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("referenceSources_", 25548601, "Luminous.Std.DynamicArray< uint32_t >", 8, 16, 1, Property.PrimitiveType.Array, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecMonsterModeForceGambit", base.GetFieldProperties(), 1518069789, 194539686);
             
+			fieldProperties.AddProperty(new Property("gambitTagFixid_", 1737989522, "SQEX.Ebony.Std.Fixid", 1224, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

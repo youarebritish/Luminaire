@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Actor.Accessory
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Accessory.SequenceActionActorBuddySetPreset", base.GetFieldProperties(), -409095380, 1475756012);
             
+			fieldProperties.AddProperty(new Property("presetIdPin_", 2219561135, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 464, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("presetId_", 1322640148, "SQEX.Luminous.Std.Fixid", 552, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

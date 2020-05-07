@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.Test
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeReloadTest", base.GetFieldProperties(), 1095435414, 2115217668);
             
+			fieldProperties.AddProperty(new Property("resourceType_", 3635199238, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString", 56, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

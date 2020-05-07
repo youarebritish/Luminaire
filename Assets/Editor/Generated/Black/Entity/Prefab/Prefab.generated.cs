@@ -38,6 +38,7 @@ namespace Black.Entity.Prefab
 
             fieldProperties = new PropertyContainer("Black.Entity.Prefab.Prefab", base.GetFieldProperties(), -898387587, -1994132092);
             
+			fieldProperties.AddProperty(new Property("sourcePathForDrop_", 938786944, "Ebony.Base.String", 592, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

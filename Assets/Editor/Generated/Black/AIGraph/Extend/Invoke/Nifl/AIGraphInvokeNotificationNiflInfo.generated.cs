@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Nifl
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeNotificationNiflInfo", base.GetFieldProperties(), -157360492, 1067207656);
             
+			fieldProperties.AddProperty(new Property("notifyInfoType_", 202194805, "Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeNotificationNiflInfo.INFO_TYPE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

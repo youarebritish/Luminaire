@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveVector", base.GetFieldProperties(), 1079121219, 341181017);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "Luminous.Math.VectorA", 80, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

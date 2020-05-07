@@ -38,6 +38,7 @@ namespace Black.Entity.Shape
 
             fieldProperties = new PropertyContainer("Black.Entity.Shape.ShapeAABBEntity", base.GetFieldProperties(), 953238852, -1928205221);
             
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 256, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

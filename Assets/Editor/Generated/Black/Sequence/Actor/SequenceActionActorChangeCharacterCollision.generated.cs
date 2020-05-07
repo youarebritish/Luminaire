@@ -43,6 +43,12 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorChangeCharacterCollision", base.GetFieldProperties(), -598634211, -1027788611);
             
+			fieldProperties.AddProperty(new Property("isChangeCharCollision_", 996091488, "bool", 480, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("charaColID_", 4216622028, "SQEX.Ebony.Std.Fixid", 484, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isChangeBGCollision_", 2345286243, "bool", 488, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bgColID_", 3182673650, "SQEX.Ebony.Std.Fixid", 492, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isChangeVsLimsCollision_", 4224326828, "bool", 496, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("vsLimsColID_", 3825007141, "SQEX.Ebony.Std.Fixid", 500, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

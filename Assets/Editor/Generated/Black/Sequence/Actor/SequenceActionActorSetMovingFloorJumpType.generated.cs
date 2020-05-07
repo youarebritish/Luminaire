@@ -38,6 +38,7 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorSetMovingFloorJumpType", base.GetFieldProperties(), 271346134, -1896144633);
             
+			fieldProperties.AddProperty(new Property("jumpType_", 767828238, "Black.Actor.Move.Controller.MovingFloorJumpVelocityType", 480, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

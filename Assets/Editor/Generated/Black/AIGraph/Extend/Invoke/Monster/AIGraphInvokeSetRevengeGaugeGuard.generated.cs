@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetRevengeGaugeGuard", base.GetFieldProperties(), -127132226, -267960163);
             
+			fieldProperties.AddProperty(new Property("bEnable_", 3281370179, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("flagLayer", 1616692728, "Black.AI.Common.LAYERED_FLAG_TYPE", 28, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

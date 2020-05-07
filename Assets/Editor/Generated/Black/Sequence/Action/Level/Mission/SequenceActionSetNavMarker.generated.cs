@@ -43,6 +43,12 @@ namespace Black.Sequence.Action.Level.Mission
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Mission.SequenceActionSetNavMarker", base.GetFieldProperties(), 627601432, -145003846);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("positionTargetPin_", 201543495, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 272, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 360, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 456, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("changePosition_", 1992265271, "bool", 457, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("entityPointer_", 3527687820, "Black.Entity.Map.NavigationMarkerEntity", 464, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
 			
 			
 			return fieldProperties;

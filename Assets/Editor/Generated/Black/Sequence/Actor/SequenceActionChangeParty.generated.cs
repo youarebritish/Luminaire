@@ -41,6 +41,10 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionChangeParty", base.GetFieldProperties(), 1267161734, 1473227576);
             
+			fieldProperties.AddProperty(new Property("drawMenu_", 686659905, "bool", 896, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("toReleasePartyOverride_", 2199256996, "bool", 897, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("joinToBattle_", 2664531895, "bool", 898, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("noRefreshParty_", 3631983732, "bool", 899, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

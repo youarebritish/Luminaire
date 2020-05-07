@@ -43,6 +43,12 @@ namespace Black.Sequence.Actor.Sound
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.Sound.SequenceActionInitializeActorNoise", base.GetFieldProperties(), 499851514, -1919843268);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("base_", 3913142405, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 376, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("objectType_", 805331935, "Black.Sequence.Actor.Sound.SequenceActionInitializeActorNoise.OBJECT_TYPE", 464, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fadeTime_", 2176527919, "float", 468, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fileName_", 76436437, "SQEX.Ebony.Base.String", 472, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

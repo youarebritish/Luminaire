@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Move.Levia
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Levia.AIGraphLeafNodeLeviaMovePointBase", base.GetFieldProperties(), -1829191978, -1301353059);
             
+			fieldProperties.AddProperty(new Property("limitTerritoryEnable_", 36466554, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 1016, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

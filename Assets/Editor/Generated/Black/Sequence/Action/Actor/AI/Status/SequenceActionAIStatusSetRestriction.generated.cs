@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Actor.AI.Status
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.AI.Status.SequenceActionAIStatusSetRestriction", base.GetFieldProperties(), 682448260, 1393645482);
             
+			fieldProperties.AddProperty(new Property("restrictionType_", 4268891310, "Black.AI.Common.AI_RESTRICTION_TYPE", 768, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

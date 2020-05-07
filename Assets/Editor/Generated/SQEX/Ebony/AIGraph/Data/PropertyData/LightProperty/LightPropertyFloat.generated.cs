@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty.LightPropertyFloat", base.GetFieldProperties(), -1641990589, -587546967);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

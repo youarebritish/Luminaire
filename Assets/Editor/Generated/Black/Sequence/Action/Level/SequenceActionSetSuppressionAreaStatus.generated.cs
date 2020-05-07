@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Level
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaStatus", base.GetFieldProperties(), -326118978, -925975322);
             
+			fieldProperties.AddProperty(new Property("status_", 4107102736, "Black.Entity.Node.SuppressionAreaEntity.STATUS", 624, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

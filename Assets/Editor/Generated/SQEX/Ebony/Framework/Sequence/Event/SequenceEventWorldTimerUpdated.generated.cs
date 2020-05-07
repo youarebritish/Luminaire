@@ -42,6 +42,11 @@ namespace SQEX.Ebony.Framework.Sequence.Event
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Event.SequenceEventWorldTimerUpdated", base.GetFieldProperties(), 2078042126, 379598608);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("wakeUpTimeType_", 1114413826, "SQEX.Ebony.Framework.Sequence.Event.SequenceEventWorldTimerUpdated.TimeType", 272, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hour_", 3607020016, "int", 276, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("minute_", 3384603138, "int", 280, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("second_", 985041062, "int", 284, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

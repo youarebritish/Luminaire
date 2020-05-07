@@ -38,6 +38,7 @@ namespace Black.Sequence.Actor.AI.Monster
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Monster.SequenceActionDebugFullDropRate", base.GetFieldProperties(), 1500396115, -1654441450);
             
+			fieldProperties.AddProperty(new Property("trigger_", 4053944020, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

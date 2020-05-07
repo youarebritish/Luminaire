@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraTPFovTrack", base.GetFieldProperties(), 743406196, 1610576946);
             
+			fieldProperties.AddProperty(new Property("filterLevel_", 124193320, "Black.Camera.CameraFilterLevel", 400, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("masterFovData_", 2516935639, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFov", 408, 128, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Save.Snapshot
 
             fieldProperties = new PropertyContainer("Black.Save.Snapshot.SaveSnapshotImageBinaryStruct", null, -1374712103, -1529955191);
             
+			fieldProperties.AddProperty(new Property("binary_", 1544160409, "Luminous.Core.Memory.Buffer", 0, 24, 1, Property.PrimitiveType.Buffer, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeSetFlagSoldierState", base.GetFieldProperties(), -1262252880, 1106061411);
             
+			fieldProperties.AddProperty(new Property("isCallingEnable_", 3735399517, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

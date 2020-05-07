@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.AI.Function.Enemy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Enemy.AILeafNodeEnemyJoinBattle", base.GetFieldProperties(), -1700146201, 647223415);
             
+			fieldProperties.AddProperty(new Property("isJoinBattle", 1373322187, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("battleTargetSlotType", 3390933566, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

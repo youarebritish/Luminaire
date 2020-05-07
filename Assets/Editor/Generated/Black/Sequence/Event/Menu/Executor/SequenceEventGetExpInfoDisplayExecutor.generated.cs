@@ -39,6 +39,8 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventGetExpInfoDisplayExecutor", base.GetFieldProperties(), -1699753635, -1720975208);
             
+			fieldProperties.AddProperty(new Property("timeRandAnimation_", 1746103948, "float", 1088, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeStopAnimeWait_", 914274390, "float", 1092, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

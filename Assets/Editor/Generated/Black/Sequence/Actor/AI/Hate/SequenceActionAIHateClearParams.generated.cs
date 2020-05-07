@@ -39,6 +39,8 @@ namespace Black.Sequence.Actor.AI.Hate
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Hate.SequenceActionAIHateClearParams", base.GetFieldProperties(), 1551630956, 1088009370);
             
+			fieldProperties.AddProperty(new Property("inPin_", 3408135614, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("selectParam_", 1555092575, "Black.Sequence.Actor.AI.Hate.SequenceActionAIHateClearParams.eSELECTPARAM", 280, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

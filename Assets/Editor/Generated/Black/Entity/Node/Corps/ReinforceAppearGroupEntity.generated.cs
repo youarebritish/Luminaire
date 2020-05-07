@@ -38,6 +38,7 @@ namespace Black.Entity.Node.Corps
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.Corps.ReinforceAppearGroupEntity", base.GetFieldProperties(), -135403001, -1875477536);
             
+			fieldProperties.AddProperty(new Property("priority", 2498028297, "uint32_t", 224, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

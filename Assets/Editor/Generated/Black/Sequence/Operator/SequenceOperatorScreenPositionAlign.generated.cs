@@ -40,6 +40,9 @@ namespace Black.Sequence.Operator
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.SequenceOperatorScreenPositionAlign", base.GetFieldProperties(), 980604949, 449822137);
             
+			fieldProperties.AddProperty(new Property("inputValuePin_", 235825496, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 136, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outputValue_", 232220166, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 224, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("align_", 3873481747, "Black.Sequence.Operator.SequenceOperatorScreenPositionAlign.ScreenPositionAlign", 312, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

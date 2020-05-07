@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement.AILeafNodeSendReinforcement", base.GetFieldProperties(), 1565194248, -1390293419);
             
+			fieldProperties.AddProperty(new Property("reinforceLabel", 86690688, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 64, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

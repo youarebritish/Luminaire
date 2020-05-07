@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventParryMarkerExecutor", base.GetFieldProperties(), -417014564, -867177878);
             
+			fieldProperties.AddProperty(new Property("markerCountMax_", 428155933, "int", 1088, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

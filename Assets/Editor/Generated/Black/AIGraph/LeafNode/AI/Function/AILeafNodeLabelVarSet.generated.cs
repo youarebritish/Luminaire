@@ -46,6 +46,15 @@ namespace Black.AIGraph.LeafNode.AI.Function
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeLabelVarSet", base.GetFieldProperties(), -1258204231, 789660566);
             
+			fieldProperties.AddProperty(new Property("assignType_", 3103415457, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("targetSlotType", 999269404, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelName_", 2707696659, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString", 120, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("valueType_", 1693725455, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 176, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("valueBool_", 4048015259, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 208, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("valueFixid_", 1565226005, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 240, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("valueInt_", 1741106596, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 272, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("valueFloat_", 1357052645, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 304, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("valueString_", 4239990676, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString", 336, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

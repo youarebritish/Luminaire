@@ -41,6 +41,10 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionActorRecoverStatus", base.GetFieldProperties(), 1694980862, 460891635);
             
+			fieldProperties.AddProperty(new Property("target_", 1693858869, "Black.Actor.TARGET", 480, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("recoverDeath_", 2289469424, "bool", 484, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("recoverAll_", 2561925363, "bool", 485, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("notRecoverStatusEffect_", 1505923594, "bool", 486, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence
 
             fieldProperties = new PropertyContainer("Black.Sequence.SequenceActionSetCameraFov", base.GetFieldProperties(), -1076849471, -1707395436);
             
+			fieldProperties.AddProperty(new Property("isOverrideFOVMode_", 4085968232, "Black.Camera.CameraManager.OffsetSettingMode", 912, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

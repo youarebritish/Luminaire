@@ -39,6 +39,8 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleStruct2", null, 2068116943, 391953859);
             
+			fieldProperties.AddProperty(new Property("status_", 4107102736, "Black.Save.Vehicle.SaveVehicleStatusStruct2", 0, 48, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scores_", 1633445687, "Black.Save.Vehicle.SaveVehicleScore", 48, 12, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.Entity.Level
 
             fieldProperties = new PropertyContainer("Black.Entity.Level.PointWind", base.GetFieldProperties(), 1940173458, 1733529070);
             
+			fieldProperties.AddProperty(new Property("m_Radius", 2086339891, "float", 448, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("m_InterpolationRadius", 301171355, "float", 452, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

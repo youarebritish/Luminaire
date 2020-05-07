@@ -41,6 +41,10 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MenuEffectEntity", base.GetFieldProperties(), -389312733, -266655220);
             
+			fieldProperties.AddProperty(new Property("drawType_", 3084439868, "Black.Entity.Menu.MenuEffectEntity.EFFECTDRAW_TYPES", 256, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("drawLayer_", 573159033, "Black.Entity.Menu.MenuEffectEntity.EFFECTDRAW_LAYERS", 260, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("vfxPath_", 801799013, "Ebony.Base.String", 264, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAutoPlay_", 3558891461, "bool", 280, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

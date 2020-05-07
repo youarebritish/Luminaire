@@ -42,6 +42,11 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.MessageTrackItem", base.GetFieldProperties(), 854769513, 685855418);
             
+			fieldProperties.AddProperty(new Property("messageNameString_", 3949127887, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageDialogString_", 1677182078, "Ebony.Base.String", 104, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageNameFixId_", 4231557896, "SQEX.Ebony.Std.Fixid", 120, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageDialogFixId_", 3795538503, "SQEX.Ebony.Std.Fixid", 124, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageType_", 4171584617, "Black.Sequence.Action.Menu.SequenceActionDialogOpenBase.MessageSpecificationType", 128, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

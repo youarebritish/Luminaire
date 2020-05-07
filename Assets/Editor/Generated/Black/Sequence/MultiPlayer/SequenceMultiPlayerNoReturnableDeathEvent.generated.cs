@@ -38,6 +38,7 @@ namespace Black.Sequence.MultiPlayer
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerNoReturnableDeathEvent", base.GetFieldProperties(), 1673182369, 1663953466);
             
+			fieldProperties.AddProperty(new Property("timeOPin_", 1266781005, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 296, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

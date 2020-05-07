@@ -38,6 +38,7 @@ namespace Black.Sequence.MultiPlayer
 
             fieldProperties = new PropertyContainer("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetIsNewWorldShareCreate", base.GetFieldProperties(), -591035059, -83560260);
             
+			fieldProperties.AddProperty(new Property("IsUse_", 2562609313, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

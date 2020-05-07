@@ -42,6 +42,11 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine.Movie
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.Movie.MovieTrackItem", base.GetFieldProperties(), 1357203848, -203323235);
             
+			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("label_", 3520738310, "SQEX.Ebony.Std.Fixid", 104, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pathType_", 2928032635, "SQEX.Ebony.Framework.TimeControl.TimeLine.Movie.MovieTrackItem.MoviePathType", 108, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("voiceMatching_", 3948532819, "SQEX.Ebony.Framework.TimeControl.TimeLine.Movie.MovieTrackItem.MOVIE_VOICE_MATCHING", 112, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useLocalizeFile_", 3398091906, "bool", 116, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

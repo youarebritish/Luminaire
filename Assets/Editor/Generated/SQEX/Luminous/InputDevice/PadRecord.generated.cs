@@ -38,6 +38,7 @@ namespace SQEX.Luminous.InputDevice
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.InputDevice.PadRecord", null, -828597274, -106467037);
             
+			fieldProperties.AddProperty(new Property("items_", 3704393840, "Std.DynamicArray< SQEX.Luminous.InputDevice.PadRecordItem* >", 0, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			
 			return fieldProperties;

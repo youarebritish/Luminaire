@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeRequestSequenceEvent", base.GetFieldProperties(), -384732947, 1759459759);
             
+			fieldProperties.AddProperty(new Property("eventId", 2402751218, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

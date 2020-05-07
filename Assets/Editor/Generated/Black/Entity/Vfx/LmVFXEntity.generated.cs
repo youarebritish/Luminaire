@@ -38,6 +38,7 @@ namespace Black.Entity.Vfx
 
             fieldProperties = new PropertyContainer("Black.Entity.Vfx.LmVFXEntity", base.GetFieldProperties(), -1300824572, -284399154);
             
+			fieldProperties.AddProperty(new Property("vfxPath_", 801799013, "Ebony.Base.String", 360, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -45,6 +45,14 @@ namespace Black.Entity.Node.NiflBase
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.NiflBase.NiflBaseNotifyCautionInfoEntity", base.GetFieldProperties(), 1197222885, -962120352);
             
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 256, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cautionInfoLevel_", 4229934305, "Black.AI.NihilSystem.NIFL_CAUTION_TARGET_LEVEL", 260, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDefaultEnable_", 1227285302, "bool", 264, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enableTimer_", 813744752, "float", 268, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDebugDraw_", 1140229391, "bool", 272, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("minArrivalDistance_", 3057363872, "float", 276, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maxArrivalDistance_", 4173785806, "float", 280, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("waitTimeOnArrival_", 1669379530, "float", 284, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

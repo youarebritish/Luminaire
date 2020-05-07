@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Combat
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeReloadAmmo", base.GetFieldProperties(), 1606303758, -821101273);
             
+			fieldProperties.AddProperty(new Property("magazineIndex_", 1148858898, "int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("reloadCount_", 2200192996, "int", 28, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

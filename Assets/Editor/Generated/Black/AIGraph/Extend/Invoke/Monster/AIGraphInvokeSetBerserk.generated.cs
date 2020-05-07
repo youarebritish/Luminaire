@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetBerserk", base.GetFieldProperties(), 2045797917, 673746214);
             
+			fieldProperties.AddProperty(new Property("bEnable_", 3281370179, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

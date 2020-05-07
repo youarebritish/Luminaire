@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementPov", base.GetFieldProperties(), -1473635411, -458239149);
             
+			fieldProperties.AddProperty(new Property("masterPovData_", 1457572513, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov", 400, 128, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

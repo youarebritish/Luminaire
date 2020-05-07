@@ -38,6 +38,7 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.DriveMapMenuEntity", base.GetFieldProperties(), -1659704508, 1971672598);
             
+			fieldProperties.AddProperty(new Property("viewMode_", 2475779612, "Black.Entity.Menu.ViewMode", 2296, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

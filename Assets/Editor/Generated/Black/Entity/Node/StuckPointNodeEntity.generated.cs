@@ -38,6 +38,7 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.StuckPointNodeEntity", base.GetFieldProperties(), -1093128358, -91775790);
             
+			fieldProperties.AddProperty(new Property("weakPoint_", 2923564430, "bool", 288, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

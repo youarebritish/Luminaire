@@ -44,6 +44,13 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSmartLocationEntity", base.GetFieldProperties(), -2019663088, -1469277910);
             
+			fieldProperties.AddProperty(new Property("useSpawnActivator_", 2594788995, "bool", 384, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("spawnActivatorPeriod_", 1515667367, "int", 388, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scheduleBeginHour_", 2870462092, "int", 392, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scheduleBeginMinute_", 1209861062, "int", 396, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scheduleEndHour_", 3524998012, "int", 400, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("scheduleEndMinute_", 3609975158, "int", 404, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("debugDraw_", 677324959, "bool", 408, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

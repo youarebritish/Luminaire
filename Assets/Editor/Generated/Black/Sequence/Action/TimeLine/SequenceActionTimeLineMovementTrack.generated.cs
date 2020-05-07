@@ -47,6 +47,16 @@ namespace Black.Sequence.Action.TimeLine
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineMovementTrack", base.GetFieldProperties(), 842961962, -1277047053);
             
+			fieldProperties.AddProperty(new Property("isUseSetPos_", 2014981483, "bool", 416, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUnableBeforeFirstKey_", 1025057297, "bool", 417, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUnableAfterLastKey_", 146225908, "bool", 418, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("moveType_", 2401107961, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineMovementTrack.MoveType", 420, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypePosX_", 546332383, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineMovementTrack.UseType", 432, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypePosY_", 1620247094, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineMovementTrack.UseType", 436, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypePosZ_", 1619805809, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineMovementTrack.UseType", 440, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypeRotYaw_", 389436033, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineMovementTrack.UseType", 444, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypeRotTilt_", 253738591, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineMovementTrack.UseType", 448, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useTypeRotRoll_", 629149911, "Black.Sequence.Action.TimeLine.SequenceActionTimeLineMovementTrack.UseType", 452, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

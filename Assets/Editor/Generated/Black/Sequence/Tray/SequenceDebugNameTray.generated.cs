@@ -38,6 +38,7 @@ namespace Black.Sequence.Tray
 
             fieldProperties = new PropertyContainer("Black.Sequence.Tray.SequenceDebugNameTray", base.GetFieldProperties(), -1337604035, -1624576292);
             
+			fieldProperties.AddProperty(new Property("debugName_", 1453532172, "Ebony.Base.String", 240, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

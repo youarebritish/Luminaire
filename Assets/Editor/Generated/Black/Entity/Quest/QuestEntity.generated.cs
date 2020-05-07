@@ -38,6 +38,7 @@ namespace Black.Entity.Quest
 
             fieldProperties = new PropertyContainer("Black.Entity.Quest.QuestEntity", base.GetFieldProperties(), -1868982302, -1976271842);
             
+			fieldProperties.AddProperty(new Property("questId_", 3545666453, "Black.Entity.Quest.QuestEntity.Fixid", 64, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

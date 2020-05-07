@@ -39,6 +39,8 @@ namespace Black.Entity.Data.Physics
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Physics.VehicleTorqueCurveDataItem", base.GetFieldProperties(), -268383522, 1866220751);
             
+			fieldProperties.AddProperty(new Property("rotateRatio_", 3419586930, "float", 8, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("torqueRatio_", 2161074619, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

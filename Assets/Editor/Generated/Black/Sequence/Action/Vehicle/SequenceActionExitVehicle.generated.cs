@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Vehicle.SequenceActionExitVehicle", base.GetFieldProperties(), 1972032654, 1912808392);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1736, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("end_", 3007557807, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1832, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

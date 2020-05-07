@@ -43,6 +43,12 @@ namespace Black.System.TimeLine.TrackItem.Render
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Render.SpotLightTrackItem", base.GetFieldProperties(), -1300881162, 715311173);
             
+			fieldProperties.AddProperty(new Property("coneAngle_", 588901954, "float", 256, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("penumbraAngle_", 2459240153, "float", 260, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("torchIntensity_", 2204807115, "float", 264, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("torchFalloff_", 1306520098, "float", 268, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("torchNoiseFrequency_", 453149298, "float", 272, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("torchNoiseVariance_", 4038779579, "float", 276, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

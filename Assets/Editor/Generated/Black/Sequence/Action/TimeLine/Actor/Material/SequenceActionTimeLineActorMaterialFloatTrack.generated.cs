@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Actor.Material
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialFloatTrack", base.GetFieldProperties(), -244702696, 565251097);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 416, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

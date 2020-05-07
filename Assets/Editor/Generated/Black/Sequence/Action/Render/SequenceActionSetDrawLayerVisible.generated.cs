@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Render
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Render.SequenceActionSetDrawLayerVisible", base.GetFieldProperties(), 1230025821, -871920863);
             
+			fieldProperties.AddProperty(new Property("visible_", 3296750298, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("invisible_", 745647069, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("drawLayer_", 573159033, "Black.Sequence.Action.Render.SequenceActionSetDrawLayerVisible.DRAWLAYER", 368, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

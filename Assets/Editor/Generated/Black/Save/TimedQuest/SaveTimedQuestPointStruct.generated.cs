@@ -40,6 +40,9 @@ namespace Black.Save.TimedQuest
 
             fieldProperties = new PropertyContainer("Black.Save.TimedQuest.SaveTimedQuestPointStruct", null, 2068533484, -1811781727);
             
+			fieldProperties.AddProperty(new Property("scheduleId", 2178565857, "SQEX.Luminous.Std.Fixid", 0, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("acquisition", 583627844, "int64_t", 8, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));
+			fieldProperties.AddProperty(new Property("consumption", 722593332, "int64_t", 16, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));
 			
 			
 			return fieldProperties;

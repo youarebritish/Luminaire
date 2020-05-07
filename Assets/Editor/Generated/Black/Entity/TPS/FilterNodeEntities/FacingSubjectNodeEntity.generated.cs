@@ -42,6 +42,11 @@ namespace Black.Entity.TPS.FilterNodeEntities
 
             fieldProperties = new PropertyContainer("Black.Entity.TPS.FilterNodeEntities.FacingSubjectNodeEntity", base.GetFieldProperties(), -1684805408, -182465009);
             
+			fieldProperties.AddProperty(new Property("subject_", 3903058736, "Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.SubjectType", 304, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maxFacing_", 4002364492, "float", 308, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("minFacing_", 3874380370, "float", 312, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useMaxFlag_", 4190036249, "bool", 316, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("useMinFlag_", 2328612815, "bool", 317, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

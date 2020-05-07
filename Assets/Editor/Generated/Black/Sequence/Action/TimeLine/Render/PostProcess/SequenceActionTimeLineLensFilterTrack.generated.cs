@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineLensFilterTrack", base.GetFieldProperties(), -1836745835, -1497349158);
             
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 320, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
+			fieldProperties.AddProperty(new Property("centerX_", 135308113, "float", 324, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("centerY_", 1209222824, "float", 328, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("screenScale_", 1710475854, "float", 332, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("lensScale_", 1682753106, "float", 336, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.AI.Move
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeFlyingApproachMove", base.GetFieldProperties(), -304386129, 705458077);
             
+			fieldProperties.AddProperty(new Property("targetDiffHeight", 3600505152, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 832, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lowAltitudeLimit", 3139377566, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 864, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

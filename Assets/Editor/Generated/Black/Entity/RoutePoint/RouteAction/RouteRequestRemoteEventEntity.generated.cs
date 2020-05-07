@@ -38,6 +38,7 @@ namespace Black.Entity.RoutePoint.RouteAction
 
             fieldProperties = new PropertyContainer("Black.Entity.RoutePoint.RouteAction.RouteRequestRemoteEventEntity", base.GetFieldProperties(), -1368158737, 216356177);
             
+			fieldProperties.AddProperty(new Property("eventId_", 548562519, "SQEX.Ebony.Std.Fixid", 304, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

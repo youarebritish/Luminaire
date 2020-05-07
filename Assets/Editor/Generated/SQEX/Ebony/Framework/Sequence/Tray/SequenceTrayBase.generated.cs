@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Tray
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Tray.SequenceTrayBase", base.GetFieldProperties(), 71106638, 1546088567);
             
+			fieldProperties.AddProperty(new Property("nodes_", 61650911, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.Framework.Sequence.SequenceNode* >", 184, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)4));
 			
 			
 			return fieldProperties;

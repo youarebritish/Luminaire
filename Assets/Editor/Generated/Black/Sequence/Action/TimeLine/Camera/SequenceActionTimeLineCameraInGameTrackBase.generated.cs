@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraInGameTrackBase", base.GetFieldProperties(), 424336452, 176967902);
             
+			fieldProperties.AddProperty(new Property("turnDirectionPin_", 1770360715, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 400, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUseEndReserve_", 1132012408, "bool", 488, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

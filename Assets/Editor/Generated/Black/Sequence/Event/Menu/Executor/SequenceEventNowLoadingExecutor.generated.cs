@@ -41,6 +41,10 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventNowLoadingExecutor", base.GetFieldProperties(), 1959148519, -1840514075);
             
+			fieldProperties.AddProperty(new Property("nowLoadingMsgId_", 79533716, "SQEX.Ebony.Std.Fixid", 1088, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("headLineMsgId_", 3519527124, "SQEX.Ebony.Std.Fixid", 1092, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bodyMsgId_", 409750240, "SQEX.Ebony.Std.Fixid", 1096, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maxloadedMegaByte_", 3529952333, "unsigned int", 1100, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Node.FSM
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMStateLeaf", base.GetFieldProperties(), 1053349719, 1980581615);
             
+			fieldProperties.AddProperty(new Property("leafIndex_", 2052148300, "int", 208, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

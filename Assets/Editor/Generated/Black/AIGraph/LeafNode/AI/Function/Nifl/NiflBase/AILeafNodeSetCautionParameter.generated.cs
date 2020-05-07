@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase.AILeafNodeSetCautionParameter", base.GetFieldProperties(), -230136727, 256902498);
             
+			fieldProperties.AddProperty(new Property("cautionSlotType", 1772592466, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

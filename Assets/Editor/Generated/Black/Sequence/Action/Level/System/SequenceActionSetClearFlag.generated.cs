@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Level.System
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.System.SequenceActionSetClearFlag", base.GetFieldProperties(), 1108452717, 1605523995);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("clearFlag_", 1446975321, "bool", 368, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

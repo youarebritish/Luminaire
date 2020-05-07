@@ -40,6 +40,9 @@ namespace Black.Save.Vehicle
 
             fieldProperties = new PropertyContainer("Black.Save.Vehicle.SaveVehicleStatusStruct2", null, 839695116, -2128697379);
             
+			fieldProperties.AddProperty(new Property("regaliaType_", 3669224035, "int", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("spare_pos_", 3549010666, "double", 8, 24, 3, Property.PrimitiveType.Double, 0, (char)8));
+			fieldProperties.AddProperty(new Property("spare_rotate_", 3512842023, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

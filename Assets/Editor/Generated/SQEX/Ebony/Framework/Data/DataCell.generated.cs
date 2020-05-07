@@ -39,6 +39,8 @@ namespace SQEX.Ebony.Framework.Data
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Data.DataCell", base.GetFieldProperties(), -1821825133, 1720487193);
             
+			fieldProperties.AddProperty(new Property("type_", 3554705238, "SQEX.Ebony.Framework.Sequence.SequenceValue.ValueType", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("value_", 273093519, "Base.String", 16, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

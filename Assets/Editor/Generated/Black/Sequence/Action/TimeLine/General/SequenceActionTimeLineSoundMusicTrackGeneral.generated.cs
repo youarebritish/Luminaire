@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.General
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.General.SequenceActionTimeLineSoundMusicTrackGeneral", base.GetFieldProperties(), 2122652970, -763658366);
             
+			fieldProperties.AddProperty(new Property("isMovieValid_", 4172948412, "bool", 424, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

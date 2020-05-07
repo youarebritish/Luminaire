@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.TimeLine.General
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.General.SequenceActionTimeLineSoundDialogTrackGeneral", base.GetFieldProperties(), -116949843, -1362738138);
             
+			fieldProperties.AddProperty(new Property("voiceLanguage_", 1015926640, "Black.Sequence.Action.TimeLine.General.SequenceActionTimeLineSoundDialogTrackGeneral.Voice_Language", 424, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("forceDialogOff_", 2948129458, "bool", 428, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isMute_", 438913665, "bool", 429, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDialogStop_", 2680193298, "bool", 430, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

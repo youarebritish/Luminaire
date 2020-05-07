@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Parallel
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Parallel.SequenceVariableGetSelf", base.GetFieldProperties(), 1441898736, 736834527);
             
+			fieldProperties.AddProperty(new Property("get_", 1475015064, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 168, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

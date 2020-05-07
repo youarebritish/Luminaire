@@ -39,6 +39,8 @@ namespace Black.Sequence.Variable.MiniGame.Colosseum
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.MiniGame.Colosseum.SequenceVariableBetMedal", base.GetFieldProperties(), 930038787, 250359591);
             
+			fieldProperties.AddProperty(new Property("medalPin_", 1948639516, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("setMedalPin_", 3359924214, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

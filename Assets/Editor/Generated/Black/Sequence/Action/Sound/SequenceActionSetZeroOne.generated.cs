@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.Sound
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Sound.SequenceActionSetZeroOne", base.GetFieldProperties(), 1390918695, 1298135960);
             
+			fieldProperties.AddProperty(new Property("on_", 2485575197, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("entityPointer_", 3527687820, "Black.Entity.Sound.SoundAroundEntity", 368, 8, 1, Property.PrimitiveType.Pointer, 0, (char)1));
+			fieldProperties.AddProperty(new Property("parameter_", 883232605, "float", 376, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

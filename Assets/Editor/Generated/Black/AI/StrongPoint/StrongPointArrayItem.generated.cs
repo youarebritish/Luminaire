@@ -40,6 +40,9 @@ namespace Black.AI.StrongPoint
 
             fieldProperties = new PropertyContainer("Black.AI.StrongPoint.StrongPointArrayItem", base.GetFieldProperties(), -397032856, -1760687817);
             
+			fieldProperties.AddProperty(new Property("Id_", 3478900877, "uint32_t", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("groupId_", 3701625562, "SQEX.Ebony.Std.Fixid", 12, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("elementId_", 1896981983, "SQEX.Ebony.Std.Fixid", 16, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.HyperLowPackageEntity", base.GetFieldProperties(), 928284002, -1993952591);
             
+			fieldProperties.AddProperty(new Property("packageItemList_", 3739835137, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Area.HyperLodItem* >", 256, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

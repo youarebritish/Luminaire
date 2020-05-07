@@ -43,6 +43,12 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.TriggerEntity", base.GetFieldProperties(), 1962417490, 495224432);
             
+			fieldProperties.AddProperty(new Property("eventType_", 1538691464, "Black.Actor.Node.ActorNodeTrigger.EventIDType", 448, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("groupName_", 1077907880, "Ebony.Base.String", 456, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isNoCheckFirst_", 3173671949, "bool", 472, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isNoCheckAtUCOff_", 1689466785, "bool", 473, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isSetEventModeAtTouch_", 253457879, "bool", 474, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("touchKind_", 3257180047, "Black.Actor.Node.ActorNodeTrigger.TouchKind", 476, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetMoveType", base.GetFieldProperties(), 168143894, 367012826);
             
+			fieldProperties.AddProperty(new Property("moveType_", 2401107961, "Black.Battle.Individuality.MOVE_TYPE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

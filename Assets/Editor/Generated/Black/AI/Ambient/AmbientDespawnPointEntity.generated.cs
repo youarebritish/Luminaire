@@ -38,6 +38,7 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientDespawnPointEntity", base.GetFieldProperties(), 1951790322, -2072022482);
             
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "float", 288, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

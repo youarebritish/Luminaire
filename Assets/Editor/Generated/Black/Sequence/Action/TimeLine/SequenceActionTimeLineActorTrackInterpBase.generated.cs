@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.TimeLine
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorTrackInterpBase", base.GetFieldProperties(), -683799650, 79941605);
             
+			fieldProperties.AddProperty(new Property("isUseEachKeyInterpMode_", 1210263842, "bool", 336, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("trackInterpMode_", 1326409810, "SQEX.Ebony.Framework.TimeControl.InterpMode", 340, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("trackHermiteSplineInterpType_", 3809905150, "SQEX.Ebony.Framework.TimeControl.HermiteSplineInterpType", 344, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

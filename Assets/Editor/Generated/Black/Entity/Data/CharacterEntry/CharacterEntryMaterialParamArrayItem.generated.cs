@@ -42,6 +42,11 @@ namespace Black.Entity.Data.CharacterEntry
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.CharacterEntry.CharacterEntryMaterialParamArrayItem", base.GetFieldProperties(), -1833237775, 762505244);
             
+			fieldProperties.AddProperty(new Property("Type", 3512062061, "Black.Entity.Data.CharacterEntry.CharacterEntryMaterialParamArrayItem.Type", 8, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("MaterialName", 3232801059, "Ebony.Base.String", 16, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ParamName", 1533216953, "Ebony.Base.String", 32, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Value", 3511155050, "float", 48, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("VectorValue", 1592999115, "Luminous.Math.VectorA", 64, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

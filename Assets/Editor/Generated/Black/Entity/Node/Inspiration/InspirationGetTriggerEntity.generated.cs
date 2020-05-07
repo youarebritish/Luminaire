@@ -38,6 +38,7 @@ namespace Black.Entity.Node.Inspiration
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.Inspiration.InspirationGetTriggerEntity", base.GetFieldProperties(), -1678184742, -636121227);
             
+			fieldProperties.AddProperty(new Property("inspirationId_", 1125136659, "SQEX.Ebony.Std.Fixid", 448, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

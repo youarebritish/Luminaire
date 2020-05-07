@@ -39,6 +39,8 @@ namespace Black.Sequence.Render
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetForceGroundDisplacement", base.GetFieldProperties(), -483897107, 754033247);
             
+			fieldProperties.AddProperty(new Property("inStart_", 3384800707, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inEnd_", 745478220, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

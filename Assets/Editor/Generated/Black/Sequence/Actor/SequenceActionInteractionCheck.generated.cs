@@ -40,6 +40,9 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceActionInteractionCheck", base.GetFieldProperties(), 1125163869, 1265031245);
             
+			fieldProperties.AddProperty(new Property("cursor_", 4266734576, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1200, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cursor_camera_", 2318028416, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1296, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("interactionActor_", 1976265869, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1392, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

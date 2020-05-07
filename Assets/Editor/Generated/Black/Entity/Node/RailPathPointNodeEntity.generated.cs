@@ -38,6 +38,7 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.RailPathPointNodeEntity", base.GetFieldProperties(), 1540364974, 835259377);
             
+			fieldProperties.AddProperty(new Property("magnitude_", 1620523550, "float", 292, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

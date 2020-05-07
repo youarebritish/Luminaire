@@ -39,6 +39,8 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.FadeTrackItem", base.GetFieldProperties(), -1860969093, -5766227);
             
+			fieldProperties.AddProperty(new Property("fadeType_", 3130622268, "Black.System.TimeLine.TrackItem.FadeTrackItem.FadeType", 88, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("color_", 3572781317, "Luminous.RenderInterface.Color", 96, 16, 1, Property.PrimitiveType.Color, 0, (char)0));
 			
 			
 			return fieldProperties;

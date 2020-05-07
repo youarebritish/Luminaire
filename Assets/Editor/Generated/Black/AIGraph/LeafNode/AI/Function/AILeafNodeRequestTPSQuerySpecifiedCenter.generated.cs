@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Function.AILeafNodeRequestTPSQuerySpecifiedCenter", base.GetFieldProperties(), -1044370077, -1435813197);
             
+			fieldProperties.AddProperty(new Property("centerTargetSlotType", 2169573105, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 296, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

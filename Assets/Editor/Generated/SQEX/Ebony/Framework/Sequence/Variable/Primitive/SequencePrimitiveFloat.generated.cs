@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveFloat", base.GetFieldProperties(), -566455730, -720410101);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 72, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.MenuSpacePackage", base.GetFieldProperties(), 1609920110, -1795753289);
             
+			fieldProperties.AddProperty(new Property("isOffsetUpper_", 2498838571, "bool", 688, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offsetLevel_", 839342485, "int", 692, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

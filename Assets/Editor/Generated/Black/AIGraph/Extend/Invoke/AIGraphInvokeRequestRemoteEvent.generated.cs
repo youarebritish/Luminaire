@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeRequestRemoteEvent", base.GetFieldProperties(), 1601970780, 1009575940);
             
+			fieldProperties.AddProperty(new Property("eventId_", 548562519, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

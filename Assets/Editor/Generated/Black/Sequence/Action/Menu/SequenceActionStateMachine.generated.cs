@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Menu
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionStateMachine", base.GetFieldProperties(), 1477580783, -1454551159);
             
+			fieldProperties.AddProperty(new Property("paramTablePath_", 3845099254, "Ebony.Base.String", 176, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("stateMachineId_", 2672334407, "SQEX.Ebony.Std.Fixid", 192, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("currentStateIdPin_", 3522373138, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 200, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

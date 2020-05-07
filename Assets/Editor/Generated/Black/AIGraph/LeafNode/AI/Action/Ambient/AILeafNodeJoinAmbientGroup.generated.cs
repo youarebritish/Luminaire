@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Ambient
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.Ambient.AILeafNodeJoinAmbientGroup", base.GetFieldProperties(), -1459395724, 265630914);
             
+			fieldProperties.AddProperty(new Property("target_", 1693858869, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 64, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

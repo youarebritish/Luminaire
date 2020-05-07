@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Debug
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugLog", base.GetFieldProperties(), 1203629738, -1594529847);
             
+			fieldProperties.AddProperty(new Property("debugCategory_", 834492317, "Black.Sequence.Action.Debug.SequenceActionDebugLog.DebugCategory", 480, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isAlsoPrintLogToRuntime_", 2695968465, "bool", 484, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

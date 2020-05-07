@@ -44,6 +44,13 @@ namespace SQEX.Ebony.Base.RTC
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Base.RTC.DateTime", null, -813880701, -1071513679);
             
+			fieldProperties.AddProperty(new Property("year", 2927578396, "int", 0, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("month", 3598321157, "int", 4, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("day", 3830391293, "int", 8, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weekDay", 1732610197, "int", 12, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hour", 3053661199, "int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("minute", 954666857, "int", 20, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("second", 2885211357, "int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

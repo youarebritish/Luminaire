@@ -38,6 +38,7 @@ namespace Black.Entity.Data.Area
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.AreaPackageLoadTriggerUnloadArrayItem", base.GetFieldProperties(), 1706470235, -1158998983);
             
+			fieldProperties.AddProperty(new Property("filePath_", 956091201, "Ebony.Base.String", 16, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

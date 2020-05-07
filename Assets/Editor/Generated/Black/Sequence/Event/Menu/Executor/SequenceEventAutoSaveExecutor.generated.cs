@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventAutoSaveExecutor", base.GetFieldProperties(), -1461629699, -2123738564);
             
+			fieldProperties.AddProperty(new Property("minDisplayTime_", 2073135811, "float", 1088, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -42,6 +42,11 @@ namespace Black.AIGraph.LeafNode.Test
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeRangedAttackTest", base.GetFieldProperties(), 587368796, -1197738766);
             
+			fieldProperties.AddProperty(new Property("targetType_", 4725453, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 216, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("searchLabel_", 3037400282, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString", 248, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("shotType_", 1405366790, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 304, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("firingCountMin_", 1218367532, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 336, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("firingCountMax_", 2672690990, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 368, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

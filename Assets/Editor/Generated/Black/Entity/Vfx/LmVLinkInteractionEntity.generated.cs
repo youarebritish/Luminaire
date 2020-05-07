@@ -38,6 +38,7 @@ namespace Black.Entity.Vfx
 
             fieldProperties = new PropertyContainer("Black.Entity.Vfx.LmVLinkInteractionEntity", base.GetFieldProperties(), -79805361, -1931993299);
             
+			fieldProperties.AddProperty(new Property("forceUpdateWorldPosition_", 1588793197, "bool", 520, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

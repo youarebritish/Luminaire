@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Level
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.SequenceActionGetSuppressionAreaProgress", base.GetFieldProperties(), -409405114, 542129485);
             
+			fieldProperties.AddProperty(new Property("progressPercentOut_", 2878580426, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 624, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("progressPercent_", 1697957664, "int", 712, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

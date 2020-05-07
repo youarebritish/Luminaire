@@ -48,6 +48,17 @@ namespace SQEX.Ebony.Framework.TimeControl
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.AnchorPoint", base.GetFieldProperties(), 1092863664, 891530735);
             
+			fieldProperties.AddProperty(new Property("time_", 2171152225, "float", 8, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("value_", 273093519, "float", 12, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ySplit_", 4033478601, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("control0_", 34077423, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("control1_", 34224518, "Luminous.Math.VectorA", 48, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("leftCurveType_", 3489890052, "SQEX.Ebony.Framework.TimeControl.AnchorPoint.CurveType", 64, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("curveType_", 1783861753, "SQEX.Ebony.Framework.TimeControl.AnchorPoint.CurveType", 68, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isSplitted_", 3026870537, "bool", 72, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isSplittedControlPoint_", 170671862, "bool", 73, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hasExpandableHandles_", 2610992435, "bool", 74, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hasBalanceHandles_", 3329006705, "bool", 75, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

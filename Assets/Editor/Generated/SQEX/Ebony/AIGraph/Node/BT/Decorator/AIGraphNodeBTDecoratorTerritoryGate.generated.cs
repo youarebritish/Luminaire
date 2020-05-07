@@ -42,6 +42,11 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorTerritoryGate", base.GetFieldProperties(), 713232689, 1021477227);
             
+			fieldProperties.AddProperty(new Property("isCheckOnTerritory_", 4160427017, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 200, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("timeOutOfTerritory_", 805934574, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 232, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCheckTargetOnTerritory_", 2757722308, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 264, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isCheckTargetOnBattleArea_", 3836270661, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 296, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("targetSlotType_", 102733177, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 328, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

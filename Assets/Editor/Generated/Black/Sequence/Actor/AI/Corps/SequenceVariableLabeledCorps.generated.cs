@@ -40,6 +40,9 @@ namespace Black.Sequence.Actor.AI.Corps
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.Corps.SequenceVariableLabeledCorps", base.GetFieldProperties(), -1596699249, 1965368221);
             
+			fieldProperties.AddProperty(new Property("teamCount_", 480504676, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 960, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("corpsRoll_", 965623326, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1048, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rollArgument_", 2330834290, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1136, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

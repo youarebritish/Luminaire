@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Render.Light
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.Light.SequenceActionTimeLineRenderLightColorTrack", base.GetFieldProperties(), 1188247303, 892032255);
             
+			fieldProperties.AddProperty(new Property("isColorCurveEnable_", 2421350361, "bool", 336, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("masterTrackItem_", 1305972098, "Black.System.TimeLine.TrackItem.Render.Light.LightColorTrackItem", 352, 112, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

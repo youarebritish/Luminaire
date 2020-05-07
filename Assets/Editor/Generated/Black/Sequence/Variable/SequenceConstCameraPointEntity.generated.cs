@@ -38,6 +38,7 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceConstCameraPointEntity", base.GetFieldProperties(), 1683907167, 1823157702);
             
+			fieldProperties.AddProperty(new Property("cameraDistanceVarOutPin_", 2781721250, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 192, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

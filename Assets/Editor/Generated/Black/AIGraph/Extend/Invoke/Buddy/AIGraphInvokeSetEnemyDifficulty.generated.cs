@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetEnemyDifficulty", base.GetFieldProperties(), -928246682, 1739298917);
             
+			fieldProperties.AddProperty(new Property("difficulty_", 557344637, "Black.Battle.ENEMY_BUDDY_DIFFICULTY", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

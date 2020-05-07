@@ -38,6 +38,7 @@ namespace Black.Entity
 
             fieldProperties = new PropertyContainer("Black.Entity.PlatformGroup", base.GetFieldProperties(), -1318752093, 57364046);
             
+			fieldProperties.AddProperty(new Property("platformType_", 3407161255, "Black.Entity.PlatformType", 208, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

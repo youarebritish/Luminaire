@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetUseWeaponNo", base.GetFieldProperties(), 1193441256, -1835843040);
             
+			fieldProperties.AddProperty(new Property("weaponAttack_", 3032959378, "Black.Actor.WEAPON_ATTACK", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

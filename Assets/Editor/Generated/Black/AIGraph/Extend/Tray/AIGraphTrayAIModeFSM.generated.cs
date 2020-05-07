@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Tray
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Tray.AIGraphTrayAIModeFSM", base.GetFieldProperties(), 1660628496, 1677008133);
             
+			fieldProperties.AddProperty(new Property("aiModeId", 4169997125, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 208, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("aiSubModeId", 514721265, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 240, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Actor.Animation
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Animation.SequenceActionTimeLineActorMotionPlaybackRateScaleTrack", base.GetFieldProperties(), 1547406559, 1429282288);
             
+			fieldProperties.AddProperty(new Property("playbackRateScale_", 616051513, "float", 336, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

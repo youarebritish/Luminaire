@@ -41,6 +41,10 @@ namespace Black.AIGraph.Extend.Invoke.System
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeDisableSensor", base.GetFieldProperties(), 630484606, 1380139906);
             
+			fieldProperties.AddProperty(new Property("disableRecog_", 962234738, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("disableSensor_", 2313402566, "bool", 25, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("disableVisualSensor_", 1221904698, "bool", 26, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("disableRaycast_", 3652707851, "bool", 27, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

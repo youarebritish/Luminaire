@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.TimeLine.Actor.Animation
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Animation.SequenceActionTimeLineLmAnimationTrack", base.GetFieldProperties(), 1611077512, 45794267);
             
+			fieldProperties.AddProperty(new Property("layerId_", 3688468956, "SQEX.Ebony.Std.Fixid", 400, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isUseFrameSkipBug_", 2721741289, "bool", 404, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("autoGenderSelect_", 4271473288, "Black.Sequence.Action.TimeLine.Actor.Animation.SequenceActionTimeLineLmAnimationTrack.GenderType", 408, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.AI.Move
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.AILeafNodeTPSFlyingApproachMove", base.GetFieldProperties(), -1877647520, -990163443);
             
+			fieldProperties.AddProperty(new Property("heightOffset", 2759733861, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 800, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

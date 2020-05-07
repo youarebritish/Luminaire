@@ -40,6 +40,9 @@ namespace Black.Sequence.Operator
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.SequenceOperatorGetDigitValueByIndexNOX", base.GetFieldProperties(), -2113221983, 199365275);
             
+			fieldProperties.AddProperty(new Property("inputValuePin_", 235825496, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 136, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("inputValueIndexPin_", 2717053972, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 224, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outputValue_", 232220166, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 312, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

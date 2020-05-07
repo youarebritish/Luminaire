@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraSlowTrack", base.GetFieldProperties(), -1085339045, -295065675);
             
+			fieldProperties.AddProperty(new Property("timeRate_", 1909836107, "float", 320, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

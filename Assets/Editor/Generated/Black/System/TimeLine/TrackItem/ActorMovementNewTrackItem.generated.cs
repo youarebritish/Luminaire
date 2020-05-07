@@ -41,6 +41,10 @@ namespace Black.System.TimeLine.TrackItem
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.ActorMovementNewTrackItem", base.GetFieldProperties(), 648796226, -13755118);
             
+			fieldProperties.AddProperty(new Property("position_", 987254735, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)1));
+			fieldProperties.AddProperty(new Property("rotation_", 36328192, "Luminous.Math.VectorA", 112, 16, 1, Property.PrimitiveType.Vector4, 0, (char)1));
+			fieldProperties.AddProperty(new Property("scaling_", 3325430311, "Luminous.Math.VectorA", 128, 16, 1, Property.PrimitiveType.Vector4, 0, (char)1));
+			fieldProperties.AddProperty(new Property("isUseCurrentActorPosition_", 1382202242, "bool", 144, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

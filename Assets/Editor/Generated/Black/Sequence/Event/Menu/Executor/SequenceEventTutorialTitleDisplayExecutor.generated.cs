@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventTutorialTitleDisplayExecutor", base.GetFieldProperties(), 1972709105, 61776731);
             
+			fieldProperties.AddProperty(new Property("titleFixId_", 4278580730, "SQEX.Ebony.Std.Fixid", 1088, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Sequence.Control.Struct
 
             fieldProperties = new PropertyContainer("Black.Sequence.Control.Struct.ConditionCollectionData", base.GetFieldProperties(), -1792705838, -1012876471);
             
+			fieldProperties.AddProperty(new Property("data_", 3067826062, "SQEX.Ebony.Std.DynamicArray< Black.Sequence.Control.Struct.ConditionData* >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

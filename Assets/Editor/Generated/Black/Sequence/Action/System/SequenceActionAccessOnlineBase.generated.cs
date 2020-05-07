@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.System
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.System.SequenceActionAccessOnlineBase", base.GetFieldProperties(), -921430301, 413524582);
             
+			fieldProperties.AddProperty(new Property("closeTimer_", 3944644901, "float", 176, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

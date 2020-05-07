@@ -39,6 +39,8 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableGetOnlineContentActive", base.GetFieldProperties(), 462491542, 2083518241);
             
+			fieldProperties.AddProperty(new Property("mogchoco_", 3400037093, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("checkSystemSaveData_", 1468369916, "bool", 176, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

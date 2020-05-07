@@ -41,6 +41,10 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventLvAndExpInfoDisplayExecutor", base.GetFieldProperties(), -1107798099, 819515526);
             
+			fieldProperties.AddProperty(new Property("idleTime_", 2267099311, "float", 1088, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offsetHeight_", 923942338, "float", 1092, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offsetX_", 1096147371, "float", 1096, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("offsetY_", 2170062082, "float", 1100, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

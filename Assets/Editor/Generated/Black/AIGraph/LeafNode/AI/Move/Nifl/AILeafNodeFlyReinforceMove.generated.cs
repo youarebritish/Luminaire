@@ -48,6 +48,17 @@ namespace Black.AIGraph.LeafNode.AI.Move.Nifl
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Nifl.AILeafNodeFlyReinforceMove", base.GetFieldProperties(), 247789990, -1131115834);
             
+			fieldProperties.AddProperty(new Property("goalHeightOffset_", 2639828727, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 568, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("goalOffsetHorizonal_", 1465071618, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 600, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("destinationUpdateTime_", 3239339432, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 632, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("forceUseReinforceDestination_", 2599091349, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 664, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("noUpdateReinfoceDestination_", 787242323, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 696, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("queryFixid_", 264473220, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid", 728, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("descendingPointLockDistance_", 1466274648, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 760, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("destinationRefreshTime_", 2947351604, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 792, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("destinationRefreshDistance_", 641800514, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 824, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("combatEnemiesObservationModeCount_", 2954933688, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 856, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("ignoreObservationMode_", 1763367721, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 888, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.SwfEntityBase", base.GetFieldProperties(), 1650450143, -580719118);
             
+			fieldProperties.AddProperty(new Property("drawLayer_", 573159033, "Black.Menu.SWFDRAW_LAYERS", 256, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraCCFTrack", base.GetFieldProperties(), 504860602, -1580395156);
             
+			fieldProperties.AddProperty(new Property("isSeamless_", 3483273131, "bool", 656, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isOverrideEnvironment4Event_", 2975572995, "bool", 657, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

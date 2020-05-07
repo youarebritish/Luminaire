@@ -38,6 +38,7 @@ namespace SQEX.Ebony.Framework.Sequence
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.Sequence.SequenceAction", base.GetFieldProperties(), 1245730244, 743396894);
             
+			fieldProperties.AddProperty(new Property("Isolated_", 56305607, "bool", 168, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

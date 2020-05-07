@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Weather
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Weather.ExposureParameterComponent", base.GetFieldProperties(), -111571852, -619954316);
             
+			fieldProperties.AddProperty(new Property("category_", 1432694378, "Black.Sequence.Action.Weather.ExposureParameterComponent.EXPOSURE_PARAM_CATEGORY", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.Sequence.Actor.AI.StrongPoint
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.AI.StrongPoint.SequenceVariableAIStrongPoint", base.GetFieldProperties(), -674069201, 1698672718);
             
+			fieldProperties.AddProperty(new Property("radius_", 2286360452, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 960, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("freeSpace_", 2688019192, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 1048, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

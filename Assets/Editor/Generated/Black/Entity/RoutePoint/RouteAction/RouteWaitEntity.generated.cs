@@ -38,6 +38,7 @@ namespace Black.Entity.RoutePoint.RouteAction
 
             fieldProperties = new PropertyContainer("Black.Entity.RoutePoint.RouteAction.RouteWaitEntity", base.GetFieldProperties(), 839146358, 53759109);
             
+			fieldProperties.AddProperty(new Property("waitTime_", 1163163026, "float", 304, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

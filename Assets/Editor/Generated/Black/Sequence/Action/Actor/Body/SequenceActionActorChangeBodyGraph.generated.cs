@@ -45,6 +45,14 @@ namespace Black.Sequence.Action.Actor.Body
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Body.SequenceActionActorChangeBodyGraph", base.GetFieldProperties(), 87327808, 936599437);
             
+			fieldProperties.AddProperty(new Property("loadAndChangePin_", 4214431542, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("revertAndUnloadPin_", 630732235, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outLoadPin_", 3249956019, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 376, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("loadFinishedPin_", 2934616339, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 472, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("outUnloadPin_", 4276499740, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 568, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actorPin_", 3381458010, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 664, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sourcePath_", 341055184, "Ebony.Base.String", 752, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("priorityType_", 1626042234, "Black.Sequence.Action.Actor.Body.SequenceActionActorChangeBodyGraph.PRIORITY_TYPE", 768, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

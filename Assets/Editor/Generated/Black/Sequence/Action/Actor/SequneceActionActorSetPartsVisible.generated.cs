@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequneceActionActorSetPartsVisible", base.GetFieldProperties(), -1199791192, 1742171645);
             
+			fieldProperties.AddProperty(new Property("meshPartsStatus_", 2144368205, "bool", 480, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("visiblePartsName_", 2312021519, "Ebony.Base.String", 488, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("invisiblePartsName_", 430731618, "Ebony.Base.String", 504, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

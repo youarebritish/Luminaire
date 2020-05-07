@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetWantPush", base.GetFieldProperties(), 1632923153, -1960914297);
             
+			fieldProperties.AddProperty(new Property("isWant_", 2891070464, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

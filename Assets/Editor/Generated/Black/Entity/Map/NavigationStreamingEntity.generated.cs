@@ -38,6 +38,7 @@ namespace Black.Entity.Map
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationStreamingEntity", base.GetFieldProperties(), -1121948132, -459585507);
             
+			fieldProperties.AddProperty(new Property("entityPackagePathList_", 2490708390, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Area.MapLodItem* >", 208, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

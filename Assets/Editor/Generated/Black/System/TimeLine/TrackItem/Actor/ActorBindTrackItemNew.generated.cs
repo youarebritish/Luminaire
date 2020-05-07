@@ -38,6 +38,7 @@ namespace Black.System.TimeLine.TrackItem.Actor
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Actor.ActorBindTrackItemNew", base.GetFieldProperties(), 803518617, -1344907505);
             
+			fieldProperties.AddProperty(new Property("label_", 3520738310, "SQEX.Ebony.Std.Fixid", 88, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

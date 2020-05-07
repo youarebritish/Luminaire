@@ -46,6 +46,15 @@ namespace Black.Sequence.Action.Debug
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Debug.SequenceActionDebugMoveDump", base.GetFieldProperties(), 782212859, -2092276213);
             
+			fieldProperties.AddProperty(new Property("dumpPosition_", 689557745, "bool", 480, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dumpRotation_", 3253734786, "bool", 481, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dumpProxy_", 3857520042, "bool", 482, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dumpProxyGeometry_", 77624470, "bool", 483, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dumpStat_", 2630684454, "bool", 484, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dumpCallStack_", 489665346, "bool", 485, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dumpKeep_", 4013194123, "bool", 486, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dumpInMainScene_", 2547477864, "bool", 487, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dumpKeepMaxCount_", 261107912, "int", 488, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

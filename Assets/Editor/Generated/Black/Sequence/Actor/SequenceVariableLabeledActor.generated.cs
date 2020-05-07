@@ -38,6 +38,7 @@ namespace Black.Sequence.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Actor.SequenceVariableLabeledActor", base.GetFieldProperties(), 1179183582, -860642217);
             
+			fieldProperties.AddProperty(new Property("pos_", 1659354338, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 872, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -42,6 +42,11 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventQuestInfoDisplayExecutor", base.GetFieldProperties(), -1188020009, 679842569);
             
+			fieldProperties.AddProperty(new Property("titleNew_", 3313828958, "SQEX.Ebony.Std.Fixid", 1088, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("titleUpdate_", 1341023701, "SQEX.Ebony.Std.Fixid", 1092, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("titleClear_", 1409111731, "SQEX.Ebony.Std.Fixid", 1096, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("titleFaild_", 3957805520, "SQEX.Ebony.Std.Fixid", 1100, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("txtExp_", 3677454683, "SQEX.Ebony.Std.Fixid", 1104, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -43,6 +43,12 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.CameraNewTrackItem", base.GetFieldProperties(), 1100155877, 1714459527);
             
+			fieldProperties.AddProperty(new Property("pog_", 2731150478, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)1));
+			fieldProperties.AddProperty(new Property("pov_", 1659795623, "Luminous.Math.VectorA", 112, 16, 1, Property.PrimitiveType.Vector4, 0, (char)1));
+			fieldProperties.AddProperty(new Property("fov_", 308377913, "float", 128, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("roll_", 1959619923, "float", 132, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("rollDirection_", 3423543028, "SQEX.Ebony.Framework.TimeControl.RotationDirection", 136, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("interpMode_", 1180138017, "SQEX.Ebony.Framework.TimeControl.InterpMode", 140, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

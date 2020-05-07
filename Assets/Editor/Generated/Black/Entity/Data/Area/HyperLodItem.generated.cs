@@ -39,6 +39,8 @@ namespace Black.Entity.Data.Area
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.HyperLodItem", base.GetFieldProperties(), 1121485182, 605620577);
             
+			fieldProperties.AddProperty(new Property("hyperLowItemList_", 2017489063, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Area.MapLodItem* >", 8, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lodItemList_", 340035472, "SQEX.Ebony.Std.DynamicArray< Black.Entity.Data.Area.MapLodItem* >", 24, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.AI.Ambient
 
             fieldProperties = new PropertyContainer("Black.AI.Ambient.AmbientSequenceEnable", base.GetFieldProperties(), 1415381732, -1120392612);
             
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 376, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

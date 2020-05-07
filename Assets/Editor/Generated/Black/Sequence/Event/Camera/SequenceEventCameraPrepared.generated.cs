@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Camera.SequenceEventCameraPrepared", base.GetFieldProperties(), 1324342452, -1589920560);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

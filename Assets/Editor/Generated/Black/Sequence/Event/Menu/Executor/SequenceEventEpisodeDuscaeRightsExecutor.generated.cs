@@ -42,6 +42,11 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventEpisodeDuscaeRightsExecutor", base.GetFieldProperties(), 26641139, 339148922);
             
+			fieldProperties.AddProperty(new Property("piSwfStartFlow", 3285504218, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 328, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pitOpenCaution", 1770303243, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 416, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pitOpenSQEXLogo", 496351900, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 512, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("poFinishedCaution", 4054952647, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 608, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("poFinishedSQEXLogo", 3810836408, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 704, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

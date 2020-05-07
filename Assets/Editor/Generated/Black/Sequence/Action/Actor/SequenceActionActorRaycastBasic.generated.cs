@@ -41,6 +41,10 @@ namespace Black.Sequence.Action.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorRaycastBasic", base.GetFieldProperties(), 652333429, 1735104126);
             
+			fieldProperties.AddProperty(new Property("isHitCharacter_", 3263519734, "bool", 1008, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isHitMap_", 642232097, "bool", 1009, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isHitRigidBody_", 2347860618, "bool", 1010, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isDebugDraw_", 1140229391, "bool", 1011, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

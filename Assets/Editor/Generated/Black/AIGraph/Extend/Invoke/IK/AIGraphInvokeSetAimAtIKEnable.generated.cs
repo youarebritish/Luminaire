@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.IK
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetAimAtIKEnable", base.GetFieldProperties(), -928528660, 328282509);
             
+			fieldProperties.AddProperty(new Property("aimAtSlot_", 1207163360, "Black.Actor.Component.IK.AIMAT_SLOT", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("enable_", 3925052483, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

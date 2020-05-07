@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetRevenge", base.GetFieldProperties(), 464125896, -452744867);
             
+			fieldProperties.AddProperty(new Property("bRevenge_", 399302686, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

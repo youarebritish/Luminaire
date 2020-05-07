@@ -39,6 +39,8 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.TextureStreamingParameterTriggerEntity", base.GetFieldProperties(), 1397865198, -348859942);
             
+			fieldProperties.AddProperty(new Property("parameterType_", 668146725, "Black.Entity.Node.TextureStreamingParameterTriggerEntity.ParameterType", 448, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("setValueInt_", 395540810, "int64_t", 456, 8, 1, Property.PrimitiveType.Int64, 0, (char)0));
 			
 			
 			return fieldProperties;

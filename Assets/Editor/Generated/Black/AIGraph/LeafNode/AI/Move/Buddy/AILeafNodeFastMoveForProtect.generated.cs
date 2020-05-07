@@ -39,6 +39,8 @@ namespace Black.AIGraph.LeafNode.AI.Move.Buddy
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeFastMoveForProtect", base.GetFieldProperties(), 1573168182, -10279742);
             
+			fieldProperties.AddProperty(new Property("step", 3343129103, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("stepSpeed", 3005495722, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 88, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

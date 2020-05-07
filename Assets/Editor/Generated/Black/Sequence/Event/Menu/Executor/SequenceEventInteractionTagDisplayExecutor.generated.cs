@@ -42,6 +42,11 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventInteractionTagDisplayExecutor", base.GetFieldProperties(), -1944185632, -857832745);
             
+			fieldProperties.AddProperty(new Property("parOfScreenWidth_", 2764058536, "float", 1088, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("parOfScreenHeight_", 1473123695, "float", 1092, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("parOfOffset_", 2882525211, "float", 1096, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("keyinfoTime_", 2730666594, "float", 1100, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("keyinfoText_", 3024448200, "SQEX.Ebony.Std.Fixid", 1104, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

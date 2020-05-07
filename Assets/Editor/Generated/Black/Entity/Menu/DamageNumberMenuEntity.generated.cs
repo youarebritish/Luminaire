@@ -38,6 +38,7 @@ namespace Black.Entity.Menu
 
             fieldProperties = new PropertyContainer("Black.Entity.Menu.DamageNumberMenuEntity", base.GetFieldProperties(), -1159278492, -1045671226);
             
+			fieldProperties.AddProperty(new Property("displayType_", 1225682214, "Black.Entity.Menu.DamageNumberMenuEntity.DISPLAY_TYPE", 564, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

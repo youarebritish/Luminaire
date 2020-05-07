@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.Camera
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCameraLightAutoCompositionTalk", base.GetFieldProperties(), -1149227208, -2017374137);
             
+			fieldProperties.AddProperty(new Property("lastKeepPin_", 1115254540, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2400, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("turnYawPlusSignPin_", 185187356, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2488, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("relativeTargetPin_", 3876791728, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2576, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("povTargetPin_", 4172336751, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2664, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pogTargetPin_", 3524659752, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 2752, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

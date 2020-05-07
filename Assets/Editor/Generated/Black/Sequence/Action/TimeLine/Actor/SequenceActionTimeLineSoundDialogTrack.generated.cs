@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundDialogTrack", base.GetFieldProperties(), 1012376095, 1771431095);
             
+			fieldProperties.AddProperty(new Property("joint_", 603379448, "SQEX.Ebony.Std.Fixid", 432, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

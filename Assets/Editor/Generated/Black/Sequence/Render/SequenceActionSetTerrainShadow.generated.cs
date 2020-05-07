@@ -40,6 +40,9 @@ namespace Black.Sequence.Render
 
             fieldProperties = new PropertyContainer("Black.Sequence.Render.SequenceActionSetTerrainShadow", base.GetFieldProperties(), 854968325, -25471415);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isEnabled_", 1211060515, "bool", 272, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("type_", 3554705238, "Black.Sequence.Render.SequenceActionSetTerrainShadow.Type", 276, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

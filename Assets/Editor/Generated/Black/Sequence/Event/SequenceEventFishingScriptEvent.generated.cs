@@ -65,6 +65,34 @@ namespace Black.Sequence.Event
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.SequenceEventFishingScriptEvent", base.GetFieldProperties(), 1639559776, 1492443489);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("first_fishing_", 2708624825, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cast_started_", 511102069, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 376, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cast_prepare_finished_", 1189869950, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 472, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cast_failed_", 2887210835, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 568, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cast_evening_", 2740113778, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 664, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cast_few_line_hp_", 693956068, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 760, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lure_splash_down_", 274553281, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 856, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("line_break_", 3220532008, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 952, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("jump_qte_failure_and_keep_lure_", 274904831, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1048, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bite_qte_decided_", 1881165800, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1144, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bite_qte_success_", 3898862357, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1240, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bite_qte_big_fish_success_", 2828085513, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1336, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bite_qte_failure_", 3051582626, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1432, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("jump_qte_success_", 3986399087, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1528, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("jump_qte_big_fish_success_", 1687505719, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1624, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("battle_started_", 4212456286, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1720, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("battle_few_line_hp_", 2225543375, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1816, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("get_small_fish_", 2698873583, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 1912, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("get_normal_fish_", 980766115, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2008, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("get_big_fish_", 538149378, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2104, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("get_very_big_fish_", 705273229, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2200, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("get_small_fish_ui_", 3845033646, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2296, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("get_normal_fish_ui_", 3124128906, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2392, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("get_big_fish_ui_", 328992433, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2488, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("get_very_big_fish_ui_", 4111911204, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2584, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("onLineTensionUp_", 1756078582, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2680, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("onTackleMenuOpened_", 1624803013, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 2776, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

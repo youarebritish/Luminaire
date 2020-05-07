@@ -74,6 +74,43 @@ namespace Black.Sequence.Action.Menu
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded", base.GetFieldProperties(), 1137473737, 1507390830);
             
+			fieldProperties.AddProperty(new Property("in_", 1827225043, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 184, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("close_", 552510516, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 280, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 376, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("closed_", 36233838, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 472, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("opend_", 3287457944, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 568, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dispTime_", 4119871697, "float", 664, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("maskType_", 3792659930, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MaskType", 668, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType0_", 659096868, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 672, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId0_", 1982467172, "SQEX.Ebony.Std.Fixid", 676, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString0_", 950644745, "Ebony.Base.String", 680, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType1_", 658949773, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 696, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId1_", 1982320077, "SQEX.Ebony.Std.Fixid", 700, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString1_", 950791840, "Ebony.Base.String", 704, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType2_", 1733158674, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 720, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId2_", 3056528978, "SQEX.Ebony.Std.Fixid", 724, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString2_", 4172138615, "Ebony.Base.String", 728, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType3_", 1733011579, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 744, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId3_", 3056381883, "SQEX.Ebony.Std.Fixid", 748, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString3_", 951086030, "Ebony.Base.String", 752, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType4_", 659685248, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 768, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId4_", 1983158720, "SQEX.Ebony.Std.Fixid", 772, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString4_", 949953197, "Ebony.Base.String", 776, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType5_", 659538153, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 792, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId5_", 1983011625, "SQEX.Ebony.Std.Fixid", 796, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString5_", 950100292, "Ebony.Base.String", 800, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType6_", 660082606, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 816, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId6_", 1983452910, "SQEX.Ebony.Std.Fixid", 820, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString6_", 4171550235, "Ebony.Base.String", 824, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType7_", 1733599959, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 840, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId7_", 3057073431, "SQEX.Ebony.Std.Fixid", 844, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString7_", 4171697330, "Ebony.Base.String", 848, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType8_", 1734144412, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 864, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId8_", 3057514716, "SQEX.Ebony.Std.Fixid", 868, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString8_", 4173124353, "Ebony.Base.String", 872, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("messageSpecificationType9_", 660229701, "Black.Sequence.Action.Menu.SequenceActionTutorialKeyWindowExpanded.MessageSpecificationType", 888, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogFixId9_", 1983600005, "SQEX.Ebony.Std.Fixid", 892, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dialogString9_", 4173271448, "Ebony.Base.String", 896, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

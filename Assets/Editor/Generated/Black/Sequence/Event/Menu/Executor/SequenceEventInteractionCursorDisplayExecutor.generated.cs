@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventInteractionCursorDisplayExecutor", base.GetFieldProperties(), 596519276, -527938448);
             
+			fieldProperties.AddProperty(new Property("offsetCampAreaEff_", 3456909386, "float", 1088, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Actor.Status
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorGetAbilityEquipmentList", base.GetFieldProperties(), 1302910076, 885730989);
             
+			fieldProperties.AddProperty(new Property("abilityType_", 300613554, "Black.Sequence.Action.Actor.Status.SequenceActionActorGetAbilityEquipmentList.ABILITY_TYPE", 480, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("abilityElemIdListPin_", 3202615567, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 488, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

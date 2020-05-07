@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Composite
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.Composite.AIGraphNodeBTCompositeRandom", base.GetFieldProperties(), 175702476, 1805775082);
             
+			fieldProperties.AddProperty(new Property("weightList_", 3595757006, "SQEX.Ebony.Std.DynamicArray< SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat*, MEMORY_CATEGORY_AI_GRAPH >", 208, 16, 1, Property.PrimitiveType.PointerArray, 0, (char)2));
 			
 			
 			return fieldProperties;

@@ -40,6 +40,9 @@ namespace Black.AIGraph.LeafNode.AI.Action
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.AI.Action.AILeafNodeExecMoveAction", base.GetFieldProperties(), 2011370451, 1606478571);
             
+			fieldProperties.AddProperty(new Property("gotoTargetType", 1612474735, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 256, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actionTargetType", 2953920946, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 288, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("extraTargetType", 1584846196, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 320, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

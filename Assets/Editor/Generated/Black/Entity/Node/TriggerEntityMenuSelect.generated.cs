@@ -40,6 +40,9 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.TriggerEntityMenuSelect", base.GetFieldProperties(), -710780406, -1870404225);
             
+			fieldProperties.AddProperty(new Property("titleMessageId_", 1829287686, "Fixid", 480, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("userNumber0_", 3950007686, "uint32_t", 484, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("userNumber1_", 3949860591, "uint32_t", 488, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

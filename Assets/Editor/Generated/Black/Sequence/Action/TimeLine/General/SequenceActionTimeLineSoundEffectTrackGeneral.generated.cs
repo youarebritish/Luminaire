@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.General
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.General.SequenceActionTimeLineSoundEffectTrackGeneral", base.GetFieldProperties(), -388714654, 288349309);
             
+			fieldProperties.AddProperty(new Property("zeroone_", 1351019066, "float", 424, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

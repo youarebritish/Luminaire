@@ -45,6 +45,14 @@ namespace Black.Entity.Data.Area
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.Area.AreaStartPointItem", base.GetFieldProperties(), -420074028, -164583431);
             
+			fieldProperties.AddProperty(new Property("areaStartPosition_", 2565057324, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("memo_", 3571411732, "Ebony.Base.String", 32, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelName_", 2707696659, "Ebony.Base.String", 48, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("valueType_", 1693725455, "SQEX.Ebony.Framework.Sequence.SequenceValue.ValueType", 64, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelValue_", 151679239, "int", 68, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelValueFloat_", 3454876269, "float", 72, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelValueBool_", 1719160611, "bool", 76, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("labelValueString_", 3078307052, "Ebony.Base.String", 80, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

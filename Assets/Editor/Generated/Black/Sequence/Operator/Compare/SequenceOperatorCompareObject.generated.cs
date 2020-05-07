@@ -42,6 +42,11 @@ namespace Black.Sequence.Operator.Compare
 
             fieldProperties = new PropertyContainer("Black.Sequence.Operator.Compare.SequenceOperatorCompareObject", base.GetFieldProperties(), 434109155, 1371085686);
             
+			fieldProperties.AddProperty(new Property("operatorType_", 916416734, "Black.Sequence.Operator.Compare.SequenceOperatorCompareObject.ObjectCompareOperatorType", 92, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("operatorTypeLast_", 4077170754, "Black.Sequence.Operator.Compare.SequenceOperatorCompareObject.ObjectCompareOperatorType", 96, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dynamicVarInputPin2_", 942968579, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 104, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("dynamicVarInputPin1_", 2016485932, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 192, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("resultPin_", 858122852, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 280, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

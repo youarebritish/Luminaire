@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Debug
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Debug.SequenceEventDebugSceneStart", base.GetFieldProperties(), 1914956765, -987555903);
             
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

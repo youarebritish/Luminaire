@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.TimeLine.Movie
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Movie.SequenceActionTimeLineMovieTrack", base.GetFieldProperties(), -1340805543, -1382025214);
             
+			fieldProperties.AddProperty(new Property("isOnlyMovieVoice_", 695688354, "bool", 400, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isMute_", 438913665, "bool", 401, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

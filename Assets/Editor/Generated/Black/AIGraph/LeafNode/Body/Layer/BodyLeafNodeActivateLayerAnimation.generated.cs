@@ -49,6 +49,18 @@ namespace Black.AIGraph.LeafNode.Body.Layer
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Layer.BodyLeafNodeActivateLayerAnimation", base.GetFieldProperties(), -1151088719, 419368791);
             
+			fieldProperties.AddProperty(new Property("graphId", 3376006442, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString", 272, 56, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("beginBlendTime", 1166606572, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat", 328, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isMirrored", 1314853667, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 360, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("matchTrigger_", 4001753971, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 392, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rootRotationType_", 739220712, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 424, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("rootTranslationType_", 3221812513, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 456, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("freezeSource_", 3813934752, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 488, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("freezeTarget_", 38250036, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 520, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("noAnimFacingRecompute_", 3561541146, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 552, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("noAnimOriginRecompute_", 3545419306, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 584, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lockAnimFacing_", 4015675870, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 616, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("lockAnimOrigin_", 4232392878, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 648, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

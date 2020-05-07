@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.MiniGame.Colosseum
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.MiniGame.Colosseum.SequenceActionColosseumCamera", base.GetFieldProperties(), -609496794, -664608638);
             
+			fieldProperties.AddProperty(new Property("betGroupCenterPin_", 1029454162, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

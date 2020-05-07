@@ -41,6 +41,10 @@ namespace Black.Sequence.Event.Menu
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceEventMenuInputNOX", base.GetFieldProperties(), -1527116788, -1927687753);
             
+			fieldProperties.AddProperty(new Property("mapMenuPin_", 109629238, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 3104, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cameraLockPin_", 2079395253, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 3200, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("mapMenuClearPad_", 789695141, "bool", 3296, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("cameraLockClearPad_", 1429937744, "bool", 3297, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

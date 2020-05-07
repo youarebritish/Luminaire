@@ -41,6 +41,10 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventDestinationMarkerDisplayExecutor", base.GetFieldProperties(), -339235121, 1678102769);
             
+			fieldProperties.AddProperty(new Property("paramPixOffsetDef_", 3134053580, "int", 1088, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("paramMarkerMax_", 1956877435, "int", 1092, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("distanceMin_", 2101949867, "int", 1096, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("distanceMax_", 3865089473, "int", 1100, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

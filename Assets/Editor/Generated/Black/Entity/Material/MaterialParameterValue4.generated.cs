@@ -40,6 +40,9 @@ namespace Black.Entity.Material
 
             fieldProperties = new PropertyContainer("Black.Entity.Material.MaterialParameterValue4", base.GetFieldProperties(), 960157968, -1213824064);
             
+			fieldProperties.AddProperty(new Property("materialName_", 3099305108, "Ebony.Base.String", 8, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("name_", 182823483, "Ebony.Base.String", 24, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Value4_", 3038219711, "Luminous.Math.VectorA", 48, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -45,6 +45,14 @@ namespace SQEX.Luminous.InputDevice
 
             fieldProperties = new PropertyContainer("SQEX.Luminous.InputDevice.GyroData", null, -169428647, -1346235963);
             
+			fieldProperties.AddProperty(new Property("Valid", 3529904145, "bool", 0, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("PadGyro", 377198981, "bool", 1, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Position", 3799987242, "Luminous.Math.VectorA", 16, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Velocity", 3124789842, "Luminous.Math.VectorA", 32, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Acceleration", 2029757373, "Luminous.Math.VectorA", 48, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("Orientation", 3310475713, "Luminous.Math.QuatA", 64, 16, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("AngularVelocity", 2083295262, "Luminous.Math.VectorA", 80, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
+			fieldProperties.AddProperty(new Property("AngularAcceleration", 1346875761, "Luminous.Math.VectorA", 96, 16, 1, Property.PrimitiveType.Vector4, 0, (char)0));
 			
 			
 			return fieldProperties;

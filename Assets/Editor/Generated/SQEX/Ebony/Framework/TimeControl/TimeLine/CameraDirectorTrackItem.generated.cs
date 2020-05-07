@@ -39,6 +39,8 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.Framework.TimeControl.TimeLine.CameraDirectorTrackItem", base.GetFieldProperties(), 493096663, 1814926302);
             
+			fieldProperties.AddProperty(new Property("viewGroup_", 2618791660, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isBackToGameCameraWhenEndItem_", 4239018609, "bool", 104, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -40,6 +40,9 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.DamageAreaEntity", base.GetFieldProperties(), -1100432944, -1197750371);
             
+			fieldProperties.AddProperty(new Property("attackParamFixId_", 2068709109, "SQEX.Ebony.Std.Fixid", 448, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("damageMode_", 1078548804, "Black.Actor.Node.ActorNodeDamageArea.DAMAGE_MODE", 452, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("groupName_", 1077907880, "Ebony.Base.String", 456, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

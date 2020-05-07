@@ -43,6 +43,12 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneral", base.GetFieldProperties(), 242251281, 1124349367);
             
+			fieldProperties.AddProperty(new Property("backToNormalCameraTime1_", 2883680934, "float", 176, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("backToNormalCameraTime2_", 3957007265, "float", 180, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isBackToDefaultYaw_", 2710363324, "bool", 184, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("backToDefaultYawInterpSpeed_", 1364876977, "float", 188, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isBackToDefaultTilt_", 2621574984, "bool", 192, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("backToDefaultTiltInterpSpeed_", 2059661061, "float", 196, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

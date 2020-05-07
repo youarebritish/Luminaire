@@ -39,6 +39,8 @@ namespace Black.Entity.Map
 
             fieldProperties = new PropertyContainer("Black.Entity.Map.NavigationBoardEntity", base.GetFieldProperties(), 1337673724, -1862829738);
             
+			fieldProperties.AddProperty(new Property("sizeX_", 1433178345, "float", 256, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("sizeZ_", 2507240151, "float", 260, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -38,6 +38,7 @@ namespace Black.AIGraph.Data.PropertyData
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Data.PropertyData.PropertyActorVariableBase", base.GetFieldProperties(), -639483463, 1062940897);
             
+			fieldProperties.AddProperty(new Property("targetType_", 4725453, "Black.AIGraph.TARGET_TYPE", 24, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

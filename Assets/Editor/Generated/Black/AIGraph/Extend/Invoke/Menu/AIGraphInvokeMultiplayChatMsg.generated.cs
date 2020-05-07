@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Menu
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Menu.AIGraphInvokeMultiplayChatMsg", base.GetFieldProperties(), -870793499, 970426235);
             
+			fieldProperties.AddProperty(new Property("chatMsgId_", 358084682, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

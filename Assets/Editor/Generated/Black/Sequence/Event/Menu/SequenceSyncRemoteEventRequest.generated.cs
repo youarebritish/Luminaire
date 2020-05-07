@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.SequenceSyncRemoteEventRequest", base.GetFieldProperties(), 1106053038, -1300155558);
             
+			fieldProperties.AddProperty(new Property("onlySendThis_", 4244256830, "bool", 400, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

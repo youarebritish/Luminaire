@@ -39,6 +39,8 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.FreeRunPointNodeEntity", base.GetFieldProperties(), -1164094976, 1215159360);
             
+			fieldProperties.AddProperty(new Property("stand_", 507251764, "bool", 320, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("paramNo_", 1896552762, "int", 324, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

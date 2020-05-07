@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.Body
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimation", base.GetFieldProperties(), -1075466184, 1434922349);
             
+			fieldProperties.AddProperty(new Property("isPlayAnimation", 3424684875, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool", 64, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

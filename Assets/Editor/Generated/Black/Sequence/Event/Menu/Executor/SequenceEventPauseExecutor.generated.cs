@@ -38,6 +38,7 @@ namespace Black.Sequence.Event.Menu.Executor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Event.Menu.Executor.SequenceEventPauseExecutor", base.GetFieldProperties(), 885479058, -161410541);
             
+			fieldProperties.AddProperty(new Property("poFinish", 508226991, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 328, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

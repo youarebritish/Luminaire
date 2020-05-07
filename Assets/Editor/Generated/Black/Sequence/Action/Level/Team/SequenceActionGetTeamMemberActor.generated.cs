@@ -39,6 +39,8 @@ namespace Black.Sequence.Action.Level.Team
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Level.Team.SequenceActionGetTeamMemberActor", base.GetFieldProperties(), -88673385, 236735479);
             
+			fieldProperties.AddProperty(new Property("teamActorIPin_", 3521554116, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 176, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("actorListOPin_", 3584238999, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 264, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -42,6 +42,11 @@ namespace Black.Entity.Sound
 
             fieldProperties = new PropertyContainer("Black.Entity.Sound.StaticSoundEntityGroup", base.GetFieldProperties(), 416668671, -1289351793);
             
+			fieldProperties.AddProperty(new Property("soundVolume_", 3806088475, "float", 208, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundPitch_", 2857962303, "float", 212, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundFadeInTime_", 3231179193, "float", 216, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundFadeOutTime_", 2411077440, "float", 220, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("soundVisibleFlag_", 1228729957, "bool", 224, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

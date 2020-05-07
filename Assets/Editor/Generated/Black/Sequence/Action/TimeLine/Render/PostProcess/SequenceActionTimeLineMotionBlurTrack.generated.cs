@@ -42,6 +42,11 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineMotionBlurTrack", base.GetFieldProperties(), 1662017199, 742792715);
             
+			fieldProperties.AddProperty(new Property("enabled_", 1722022099, "bool", 320, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
+			fieldProperties.AddProperty(new Property("enableDynamicParams_", 1485578106, "bool", 321, 1, 1, Property.PrimitiveType.Bool, 0, (char)1));
+			fieldProperties.AddProperty(new Property("shutterAngle_", 1901305954, "float", 324, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("shutterAngleDynamic_", 2692664823, "float", 328, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
+			fieldProperties.AddProperty(new Property("cameraMotionStrength_", 3270610158, "float", 332, 4, 1, Property.PrimitiveType.Float, 0, (char)1));
 			
 			
 			return fieldProperties;

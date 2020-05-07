@@ -39,6 +39,8 @@ namespace Black.System.TimeLine.TrackItem.Camera
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.InGameCameraCommonTrackItem", base.GetFieldProperties(), -491289243, -1372788521);
             
+			fieldProperties.AddProperty(new Property("relativeTargetId_", 2055114374, "Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("commonData_", 2069969881, "Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCommon", 104, 80, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

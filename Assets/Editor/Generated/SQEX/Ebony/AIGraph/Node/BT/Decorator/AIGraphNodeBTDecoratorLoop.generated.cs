@@ -38,6 +38,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorLoop", base.GetFieldProperties(), -1262665475, -575272435);
             
+			fieldProperties.AddProperty(new Property("loopCount_", 875797759, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 200, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

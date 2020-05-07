@@ -39,6 +39,8 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableChocoboRaceFriendPoint", base.GetFieldProperties(), 51397132, -632849541);
             
+			fieldProperties.AddProperty(new Property("isAdded_", 3773682590, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 88, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("pointType_", 3734080690, "Black.Sequence.Variable.SequenceVariableChocoboRaceFriendPoint.FriendPointType", 176, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

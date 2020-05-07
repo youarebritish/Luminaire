@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Actor.Status
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.Status.SequenceActionActorSetStatusCountDefence", base.GetFieldProperties(), -1924099770, 61160846);
             
+			fieldProperties.AddProperty(new Property("defencePin_", 2546572431, "SQEX.Ebony.Framework.Node.GraphVariableInputPin", 480, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("statusCount_", 2033975755, "Black.Actor.STATUS_COUNT", 568, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("defence_", 93850932, "int", 572, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

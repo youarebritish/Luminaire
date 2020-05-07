@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Collision
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Collision.AIGraphInvokeSetCollisionPopState", base.GetFieldProperties(), -1038390085, -1043754124);
             
+			fieldProperties.AddProperty(new Property("collisionName_", 1337935241, "SQEX.Ebony.Std.Fixid", 28, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

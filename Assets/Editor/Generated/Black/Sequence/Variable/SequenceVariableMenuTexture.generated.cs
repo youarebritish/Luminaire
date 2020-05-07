@@ -41,6 +41,10 @@ namespace Black.Sequence.Variable
 
             fieldProperties = new PropertyContainer("Black.Sequence.Variable.SequenceVariableMenuTexture", base.GetFieldProperties(), 1893598741, 1112635716);
             
+			fieldProperties.AddProperty(new Property("textureCategory_", 3888424713, "Black.Sequence.Variable.SequenceVariableMenuTexture.TextureCategory", 88, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("intParam_", 462802400, "int", 92, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("texturePin_", 518900084, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 96, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("isPhotoReadyPin_", 2134247962, "SQEX.Ebony.Framework.Node.GraphVariableOutputPin", 184, 88, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

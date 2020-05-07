@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.Actor
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Actor.SequenceActionActorSetUseRootAnimation", base.GetFieldProperties(), -1933147918, 1636734647);
             
+			fieldProperties.AddProperty(new Property("bUseFlag_", 2862915651, "bool", 480, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

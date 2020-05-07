@@ -38,6 +38,7 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeTransitPartsState", base.GetFieldProperties(), -431262220, -823226679);
             
+			fieldProperties.AddProperty(new Property("partsID_", 2627939405, "SQEX.Ebony.Std.Fixid", 24, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
 			
 			
 			return fieldProperties;

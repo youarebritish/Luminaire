@@ -38,6 +38,7 @@ namespace Black.Sequence.Action.TimeLine.Actor.Material
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialVectorTrack", base.GetFieldProperties(), -1726964693, -1208146226);
             
+			fieldProperties.AddProperty(new Property("value_", 273093519, "Luminous.Math.VectorA", 416, 16, 1, Property.PrimitiveType.Vector4, 0, (char)1));
 			
 			
 			return fieldProperties;

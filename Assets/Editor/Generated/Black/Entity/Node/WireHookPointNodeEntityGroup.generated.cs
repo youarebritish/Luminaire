@@ -39,6 +39,8 @@ namespace Black.Entity.Node
 
             fieldProperties = new PropertyContainer("Black.Entity.Node.WireHookPointNodeEntityGroup", base.GetFieldProperties(), 1220006938, 677611934);
             
+			fieldProperties.AddProperty(new Property("wireHookAttribute_", 2819962486, "Black.Entity.Node.WireHookPointNodeEntityGroup.WireHookAttribute", 208, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("wireHookAttributePattern_", 3436004938, "int", 212, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
 			
 			
 			return fieldProperties;

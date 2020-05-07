@@ -44,6 +44,13 @@ namespace SQEX.Ebony.AIGraph.Data
 
             fieldProperties = new PropertyContainer("SQEX.Ebony.AIGraph.Data.TransitionData", base.GetFieldProperties(), -654322719, 150703589);
             
+			fieldProperties.AddProperty(new Property("fromNodeIdx_", 2810996701, "int", 16, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("toNodeIdx_", 4019214144, "int", 20, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("conditionIdxInContainerCache_", 2320057898, "int", 24, 4, 1, Property.PrimitiveType.Int32, 0, (char)0));
+			fieldProperties.AddProperty(new Property("hasRequiresCanStartNextCalculationFlag_", 3186666552, "bool", 28, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("requiresCanStartNextCalculation_", 3126083940, "bool", 29, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bDebugLog_", 3022397583, "bool", 30, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("bDebugConditionWatch_", 187318605, "bool", 31, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
 			
 			
 			return fieldProperties;

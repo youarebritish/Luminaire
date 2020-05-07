@@ -42,6 +42,11 @@ namespace Black.Sequence.Sound
 
             fieldProperties = new PropertyContainer("Black.Sequence.Sound.SequenceActionPlayJingle", base.GetFieldProperties(), 445613590, 158749608);
             
+			fieldProperties.AddProperty(new Property("play_", 3806684788, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 176, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("out_", 1514340864, "SQEX.Ebony.Framework.Node.GraphTriggerOutputPin", 272, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("idxFilePath_", 3786101086, "Ebony.Base.String", 368, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fadeIn_", 2393447373, "float", 384, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fadeOut_", 1067947950, "float", 388, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

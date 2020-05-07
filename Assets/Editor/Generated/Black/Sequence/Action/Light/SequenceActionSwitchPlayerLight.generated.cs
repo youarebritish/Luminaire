@@ -40,6 +40,9 @@ namespace Black.Sequence.Action.Light
 
             fieldProperties = new PropertyContainer("Black.Sequence.Action.Light.SequenceActionSwitchPlayerLight", base.GetFieldProperties(), -599637354, 2119778087);
             
+			fieldProperties.AddProperty(new Property("on_", 2485575197, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 480, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("off_", 3794256847, "SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 576, 96, 1, Property.PrimitiveType.ClassField, 0, (char)0));
+			fieldProperties.AddProperty(new Property("layerType_", 2001900347, "Black.Sequence.Action.Light.SequenceActionSwitchPlayerLight.LAYER_TYPE", 672, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
 			
 			
 			return fieldProperties;

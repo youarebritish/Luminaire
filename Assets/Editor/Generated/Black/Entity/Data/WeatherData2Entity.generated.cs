@@ -41,6 +41,10 @@ namespace Black.Entity.Data
 
             fieldProperties = new PropertyContainer("Black.Entity.Data.WeatherData2Entity", base.GetFieldProperties(), 864614679, 1804167017);
             
+			fieldProperties.AddProperty(new Property("weatherFilePath_", 3107336195, "SQEX.Ebony.Base.String", 64, 16, 1, Property.PrimitiveType.String, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weatherTransitionTime_", 4249573478, "float", 80, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("defaultClimateId_", 1751479349, "SQEX.Ebony.Std.Fixid", 84, 4, 1, Property.PrimitiveType.Fixid, 0, (char)0));
+			fieldProperties.AddProperty(new Property("weatherKey_", 1274001839, "SQEX.Ebony.Base.String", 88, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

@@ -39,6 +39,8 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
 
             fieldProperties = new PropertyContainer("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeCheckBurstAttackHit", base.GetFieldProperties(), 1291950560, -1887665411);
             
+			fieldProperties.AddProperty(new Property("enable", 2945169614, "bool", 24, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("canBurstAngle", 181866956, "float", 28, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

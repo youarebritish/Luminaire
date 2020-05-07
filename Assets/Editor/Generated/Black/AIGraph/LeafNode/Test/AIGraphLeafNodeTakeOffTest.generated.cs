@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.Test
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeTakeOffTest", base.GetFieldProperties(), 226215845, -527455728);
             
+			fieldProperties.AddProperty(new Property("takeoffType", 2866739211, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;

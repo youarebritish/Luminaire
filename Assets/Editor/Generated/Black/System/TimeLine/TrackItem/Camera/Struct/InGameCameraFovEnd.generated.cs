@@ -41,6 +41,10 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 
             fieldProperties = new PropertyContainer("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovEnd", base.GetFieldProperties(), -987091949, 385589290);
             
+			fieldProperties.AddProperty(new Property("isChangeEndFov_", 3066722358, "bool", 8, 1, 1, Property.PrimitiveType.Bool, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fovEndInterpMode_", 2601926677, "Black.Camera.BlendModeType", 12, 4, 1, Property.PrimitiveType.Enum, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fovEndInterpTime_", 3673886931, "float", 16, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
+			fieldProperties.AddProperty(new Property("fovEndFInterpToSpeed_", 3805308594, "float", 20, 4, 1, Property.PrimitiveType.Float, 0, (char)0));
 			
 			
 			return fieldProperties;

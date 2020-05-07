@@ -38,6 +38,7 @@ namespace Black.Entity.Vfx
 
             fieldProperties = new PropertyContainer("Black.Entity.Vfx.LmVLinkEntity", base.GetFieldProperties(), -903030181, -1787191690);
             
+			fieldProperties.AddProperty(new Property("vlinkPath_", 984252915, "Ebony.Base.String", 360, 16, 1, Property.PrimitiveType.String, 0, (char)0));
 			
 			
 			return fieldProperties;

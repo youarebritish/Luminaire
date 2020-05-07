@@ -38,6 +38,7 @@ namespace Black.AIGraph.LeafNode.Body.Animation
 
             fieldProperties = new PropertyContainer("Black.AIGraph.LeafNode.Body.Animation.BodyLeafNodeSwitchToRagdoll", base.GetFieldProperties(), -2076830288, -1970832218);
             
+			fieldProperties.AddProperty(new Property("ragdollRange_", 675281190, "SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt", 56, 32, 1, Property.PrimitiveType.ClassField, 0, (char)0));
 			
 			
 			return fieldProperties;
