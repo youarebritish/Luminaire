@@ -1,0 +1,11 @@
+namespace Black.Entity
+{
+    public static class EntityModuleSetup
+    {
+		public static void Setup()
+		{
+			{{ for type in types }}{{ type }}.SetupObjectType();
+			{{ end }}
+		}
+    }
+}

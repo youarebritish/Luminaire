@@ -4,11 +4,31 @@ using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
 using Scriban;
+using Scriban.Runtime;
 using static SQEX.Luminous.Core.Object.Property;
 
 public static class ClassGenerator
 {
     private const string OutputDirectory = "/Editor/Generated/";
+    private static readonly IReadOnlyCollection<string> TypesToSkip = new SortedSet<string>
+        {
+        "BaseObject",
+        "EffectiveCamera",
+        "ObjectiveCameraBase",
+        "ObjectiveCameraSimple",
+        "ObjectiveCameraVehicle",
+        "TargetCameraBase",
+        "ObjectiveCameraHumanBase",
+        "ObjectiveCamera",
+        "Black.Save.Multiplay.SaveAvatarModDataStruct",
+        "Black.Save.Multiplay.SaveAvatarModDataStruct.MODITEM_STYLEEDITENTRY_PATHSET",
+        "EventCamera2",
+        "SaveChocoboDataStruct",
+        "Black.Save.Multiplay.SaveAvatarModDataStruct",
+        "Black.Save.Multiplay.SaveAvatarModDataStruct.MODITEM_STYLEEDITENTRY_PATHSET",
+        "Black.Save.Multiplay.SaveChocoboDataStruct",
+        "Black.Save.Multiplay.SaveChocoboDataStruct.ChocoboDataStruct"
+        };
 
     private class SerializedObjectType
     {
@@ -250,59 +270,66 @@ public static class ClassGenerator
         }
     }
 
-    public static void GenerateClasses(string schema, string template)
+    public static void GenerateClasses(string schema, string classTemplate, string setupTemplate)
     {
-        var objectTypes = JsonConvert.DeserializeObject<SerializedObjectType[]>(schema);
-        var parsedTemplate = Template.Parse(template);
+        var objectTypes = from type in JsonConvert.DeserializeObject<SerializedObjectType[]>(schema)
+                          where !TypesToSkip.Contains(type.name_)
+                          select type;
 
-        foreach (var objectTypeData in objectTypes)
+        var parsedClassTemplate = Template.Parse(classTemplate);
+
+        if (false)
         {
-            if (objectTypeData.name_.Contains("SaveAvatarModDataStruct"))
+            foreach (var objectTypeData in objectTypes)
             {
-                // Don't bother, causes some annoying compile errors and I don't think we can use it for anything useful anyway
-                continue;
-            }
-
-            if (objectTypeData.name_.Contains("IconDataStruct"))
-            {
-                // These two are annoying edge cases of inner classes and it's too annoying to handle them with the template, so I've implemented them manually.
-                continue;
-            }
-
-            if (objectTypeData.name_.Contains("ChocoboDataStruct"))
-            {
-                continue;
-            }
-
-            var typeTokens = objectTypeData.name_.Split('.');
-            if (typeTokens.Length < 2)
-            {
-                continue;
-            }
-
-            var type = typeTokens[typeTokens.Length - 1];
-            var typeNamespace = string.Empty;
-            for (var i = 0; i < typeTokens.Length - 1; i++)
-            {
-                typeNamespace += typeTokens[i];
-
-                if (i != typeTokens.Length - 2)
+                var typeTokens = objectTypeData.name_.Split('.');
+                if (typeTokens.Length < 2)
                 {
-                    typeNamespace += ".";
+                    continue;
                 }
+
+                var type = typeTokens[typeTokens.Length - 1];
+                var typeNamespace = string.Empty;
+                for (var i = 0; i < typeTokens.Length - 1; i++)
+                {
+                    typeNamespace += typeTokens[i];
+
+                    if (i != typeTokens.Length - 2)
+                    {
+                        typeNamespace += ".";
+                    }
+                }
+
+                if (string.IsNullOrEmpty(objectTypeData.basetype))
+                {
+                    objectTypeData.basetype = null;
+                }
+
+                var result = parsedClassTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.basetype, objectType = objectTypeData });
+                var filePath = MakeOutputPath(typeNamespace + "." + type);
+
+                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+                File.WriteAllText(filePath, result);
             }
-
-            if (string.IsNullOrEmpty(objectTypeData.basetype))
-            {
-                objectTypeData.basetype = null;
-            }
-
-            var result = parsedTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.basetype, objectType = objectTypeData });
-            var filePath = MakeOutputPath(typeNamespace + "." + type);
-
-            Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-            File.WriteAllText(filePath, result);
         }
+
+        // Generate EntityModuleSetup class
+        var parsedSetupTemplate = Template.Parse(setupTemplate);
+
+        var types = (from objectType in objectTypes
+                    select objectType.name_).ToArray();
+
+        var scriptObject = new ScriptObject();
+        scriptObject.Import(new { types });
+
+        var context = new TemplateContext { LoopLimit = 4000 };
+        context.PushGlobal(scriptObject);
+
+        var setupCode = parsedSetupTemplate.Render(context);
+
+        var setupPath = MakeOutputPath("Black.Entity.EntityModuleSetup");
+        Directory.CreateDirectory(Path.GetDirectoryName(setupPath));
+        File.WriteAllText(setupPath, setupCode);
     }
 
     private static string MakeOutputPath(string typeName)
