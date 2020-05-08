@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.TimeLine
             var dummy = new SequenceActionTimeLineBonamikWindTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineBonamikWindTrack", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineBonamikWindTrack.ObjectType, null, properties, 0, 400);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineBonamikWindTrack", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineBonamikWindTrack.ObjectType, Construct, properties, 0, 400);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Action.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineBonamikWindTrack();
+        }
 		
     }
 }

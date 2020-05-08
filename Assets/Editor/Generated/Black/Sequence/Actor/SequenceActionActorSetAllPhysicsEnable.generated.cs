@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorSetAllPhysicsEnable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSetAllPhysicsEnable", 0, Black.Sequence.Actor.SequenceActionActorSetAllPhysicsEnable.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSetAllPhysicsEnable", 0, Black.Sequence.Actor.SequenceActionActorSetAllPhysicsEnable.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetAllPhysicsEnable();
+        }
 		
     }
 }

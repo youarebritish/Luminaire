@@ -21,7 +21,7 @@ namespace Black.Entity.Data.Area
             var dummy = new MapLodItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Area.MapLodItem", 0, Black.Entity.Data.Area.MapLodItem.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.Entity.Data.Area.MapLodItem", 0, Black.Entity.Data.Area.MapLodItem.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Data.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MapLodItem();
+        }
 		
     }
 }

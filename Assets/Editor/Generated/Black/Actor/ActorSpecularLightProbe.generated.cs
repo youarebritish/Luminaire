@@ -20,7 +20,7 @@ namespace Black.Actor
             var dummy = new ActorSpecularLightProbe();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.ActorSpecularLightProbe", 0, Black.Actor.ActorSpecularLightProbe.ObjectType, null, properties, 59, 6032);
+            ObjectType = new ObjectType("Black.Actor.ActorSpecularLightProbe", 0, Black.Actor.ActorSpecularLightProbe.ObjectType, Construct, properties, 59, 6032);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorSpecularLightProbe();
+        }
 		
     }
 }

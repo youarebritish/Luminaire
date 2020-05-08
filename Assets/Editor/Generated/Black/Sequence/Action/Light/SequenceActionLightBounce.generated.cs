@@ -36,7 +36,7 @@ namespace Black.Sequence.Action.Light
             var dummy = new SequenceActionLightBounce();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Light.SequenceActionLightBounce", 0, Black.Sequence.Action.Light.SequenceActionLightBounce.ObjectType, null, properties, 0, 864);
+            ObjectType = new ObjectType("Black.Sequence.Action.Light.SequenceActionLightBounce", 0, Black.Sequence.Action.Light.SequenceActionLightBounce.ObjectType, Construct, properties, 0, 864);
         }
 		
         public override ObjectType GetObjectType()
@@ -111,6 +111,11 @@ namespace Black.Sequence.Action.Light
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionLightBounce();
+        }
 		
     }
 }

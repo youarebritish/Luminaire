@@ -21,7 +21,7 @@ namespace Black.Sequence.Control
             var dummy = new SequenceActionControlLabeled();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlLabeled", 0, Black.Sequence.Control.SequenceActionControlLabeled.ObjectType, null, properties, 0, 192);
+            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlLabeled", 0, Black.Sequence.Control.SequenceActionControlLabeled.ObjectType, Construct, properties, 0, 192);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Sequence.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlLabeled();
+        }
 		
     }
 }

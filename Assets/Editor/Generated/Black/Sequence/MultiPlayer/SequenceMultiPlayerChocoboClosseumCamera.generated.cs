@@ -33,7 +33,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerChocoboClosseumCamera();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerChocoboClosseumCamera", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerChocoboClosseumCamera.ObjectType, null, properties, 0, 752);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerChocoboClosseumCamera", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerChocoboClosseumCamera.ObjectType, Construct, properties, 0, 752);
         }
 		
         public override ObjectType GetObjectType()
@@ -101,6 +101,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerChocoboClosseumCamera();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Entity
             var dummy = new OceanFloatingModelEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.OceanFloatingModelEntity", 0, Black.Entity.OceanFloatingModelEntity.ObjectType, null, properties, 0, 496);
+            ObjectType = new ObjectType("Black.Entity.OceanFloatingModelEntity", 0, Black.Entity.OceanFloatingModelEntity.ObjectType, Construct, properties, 0, 496);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new OceanFloatingModelEntity();
+        }
 		
     }
 }

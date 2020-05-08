@@ -21,7 +21,7 @@ namespace Black.Entity.Data.Area
             var dummy = new PackageLoadAreaArrayItemBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Area.PackageLoadAreaArrayItemBase", 0, Black.Entity.Data.Area.PackageLoadAreaArrayItemBase.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("Black.Entity.Data.Area.PackageLoadAreaArrayItemBase", 0, Black.Entity.Data.Area.PackageLoadAreaArrayItemBase.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Data.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PackageLoadAreaArrayItemBase();
+        }
 		
     }
 }

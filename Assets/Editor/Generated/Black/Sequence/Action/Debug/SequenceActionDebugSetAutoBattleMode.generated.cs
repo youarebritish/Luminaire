@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugSetAutoBattleMode();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugSetAutoBattleMode", 0, Black.Sequence.Action.Debug.SequenceActionDebugSetAutoBattleMode.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugSetAutoBattleMode", 0, Black.Sequence.Action.Debug.SequenceActionDebugSetAutoBattleMode.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugSetAutoBattleMode();
+        }
 		
     }
 }

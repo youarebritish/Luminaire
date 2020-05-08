@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Camera.ObjectiveCamera
             var dummy = new SequenceActionObjectiveCameraMawarikomi();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraMawarikomi", 0, Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraMawarikomi.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraMawarikomi", 0, Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraMawarikomi.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Camera.ObjectiveCamera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionObjectiveCameraMawarikomi();
+        }
 		
     }
 }

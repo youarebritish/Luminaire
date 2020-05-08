@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.TimeLine.System
             var dummy = new SequenceActionTimeLinePadVibrationTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.System.SequenceActionTimeLinePadVibrationTrack", 0, Black.Sequence.Action.TimeLine.System.SequenceActionTimeLinePadVibrationTrack.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.System.SequenceActionTimeLinePadVibrationTrack", 0, Black.Sequence.Action.TimeLine.System.SequenceActionTimeLinePadVibrationTrack.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -80,6 +80,11 @@ namespace Black.Sequence.Action.TimeLine.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLinePadVibrationTrack();
+        }
 		
     }
 }

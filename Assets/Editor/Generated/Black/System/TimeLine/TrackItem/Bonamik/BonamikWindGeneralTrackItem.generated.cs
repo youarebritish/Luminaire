@@ -40,7 +40,7 @@ namespace Black.System.TimeLine.TrackItem.Bonamik
             var dummy = new BonamikWindGeneralTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Bonamik.BonamikWindGeneralTrackItem", 0, Black.System.TimeLine.TrackItem.Bonamik.BonamikWindGeneralTrackItem.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Bonamik.BonamikWindGeneralTrackItem", 0, Black.System.TimeLine.TrackItem.Bonamik.BonamikWindGeneralTrackItem.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -92,6 +92,11 @@ namespace Black.System.TimeLine.TrackItem.Bonamik
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BonamikWindGeneralTrackItem();
+        }
 		
     }
 }

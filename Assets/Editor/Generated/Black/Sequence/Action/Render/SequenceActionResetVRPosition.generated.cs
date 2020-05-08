@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionResetVRPosition();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionResetVRPosition", 0, Black.Sequence.Action.Render.SequenceActionResetVRPosition.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionResetVRPosition", 0, Black.Sequence.Action.Render.SequenceActionResetVRPosition.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionResetVRPosition();
+        }
 		
     }
 }

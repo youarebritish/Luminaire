@@ -22,7 +22,7 @@ namespace Black.Entity.Data.Area
             var dummy = new HyperLodItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Area.HyperLodItem", 0, Black.Entity.Data.Area.HyperLodItem.ObjectType, null, properties, 0, 48);
+            ObjectType = new ObjectType("Black.Entity.Data.Area.HyperLodItem", 0, Black.Entity.Data.Area.HyperLodItem.ObjectType, Construct, properties, 0, 48);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Entity.Data.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new HyperLodItem();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Actor.StatusGrow
             var dummy = new SequenceActionActorGetSkillNextExp();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorGetSkillNextExp", 0, Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorGetSkillNextExp.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorGetSkillNextExp", 0, Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorGetSkillNextExp.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.Sequence.Action.Actor.StatusGrow
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetSkillNextExp();
+        }
 		
     }
 }

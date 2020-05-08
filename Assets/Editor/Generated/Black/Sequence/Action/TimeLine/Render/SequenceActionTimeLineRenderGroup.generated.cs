@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.TimeLine.Render
             var dummy = new SequenceActionTimeLineRenderGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineRenderGroup", 0, Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineRenderGroup.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineRenderGroup", 0, Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineRenderGroup.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Action.TimeLine.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineRenderGroup();
+        }
 		
     }
 }

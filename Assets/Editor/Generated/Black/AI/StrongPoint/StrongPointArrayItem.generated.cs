@@ -23,7 +23,7 @@ namespace Black.AI.StrongPoint
             var dummy = new StrongPointArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.StrongPoint.StrongPointArrayItem", 0, Black.AI.StrongPoint.StrongPointArrayItem.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AI.StrongPoint.StrongPointArrayItem", 0, Black.AI.StrongPoint.StrongPointArrayItem.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.AI.StrongPoint
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new StrongPointArrayItem();
+        }
 		
     }
 }

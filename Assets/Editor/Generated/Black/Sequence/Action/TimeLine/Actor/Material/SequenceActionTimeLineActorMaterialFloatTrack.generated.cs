@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.TimeLine.Actor.Material
             var dummy = new SequenceActionTimeLineActorMaterialFloatTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialFloatTrack", 0, Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialFloatTrack.ObjectType, null, properties, 0, 432);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialFloatTrack", 0, Black.Sequence.Action.TimeLine.Actor.Material.SequenceActionTimeLineActorMaterialFloatTrack.ObjectType, Construct, properties, 0, 432);
         }
 		
         public override ObjectType GetObjectType()
@@ -62,6 +62,11 @@ namespace Black.Sequence.Action.TimeLine.Actor.Material
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineActorMaterialFloatTrack();
+        }
 		
     }
 }

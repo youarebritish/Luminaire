@@ -20,7 +20,7 @@ namespace Black.Entity.Actor
             var dummy = new CharacterPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Actor.CharacterPackage", 0, Black.Entity.Actor.CharacterPackage.ObjectType, null, properties, 0, 624);
+            ObjectType = new ObjectType("Black.Entity.Actor.CharacterPackage", 0, Black.Entity.Actor.CharacterPackage.ObjectType, Construct, properties, 0, 624);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Entity.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CharacterPackage();
+        }
 		
     }
 }

@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Shop
             var dummy = new SequenceActionShop();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Shop.SequenceActionShop", 0, Black.Sequence.Action.Shop.SequenceActionShop.ObjectType, null, properties, 0, 944);
+            ObjectType = new ObjectType("Black.Sequence.Action.Shop.SequenceActionShop", 0, Black.Sequence.Action.Shop.SequenceActionShop.ObjectType, Construct, properties, 0, 944);
         }
 		
         public override ObjectType GetObjectType()
@@ -113,6 +113,11 @@ namespace Black.Sequence.Action.Shop
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionShop();
+        }
 		
     }
 }

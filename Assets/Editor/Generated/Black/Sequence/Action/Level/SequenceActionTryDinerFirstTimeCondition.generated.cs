@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionTryDinerFirstTimeCondition();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionTryDinerFirstTimeCondition", 0, Black.Sequence.Action.Level.SequenceActionTryDinerFirstTimeCondition.ObjectType, null, properties, 0, 648);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionTryDinerFirstTimeCondition", 0, Black.Sequence.Action.Level.SequenceActionTryDinerFirstTimeCondition.ObjectType, Construct, properties, 0, 648);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTryDinerFirstTimeCondition();
+        }
 		
     }
 }

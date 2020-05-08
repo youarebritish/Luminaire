@@ -26,7 +26,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
             var dummy = new CameraNewTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.CameraNewTrackItem", 0, Black.System.TimeLine.TrackItem.Camera.CameraNewTrackItem.ObjectType, null, properties, 0, 144);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.CameraNewTrackItem", 0, Black.System.TimeLine.TrackItem.Camera.CameraNewTrackItem.ObjectType, Construct, properties, 0, 144);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.System.TimeLine.TrackItem.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CameraNewTrackItem();
+        }
 		
     }
 }

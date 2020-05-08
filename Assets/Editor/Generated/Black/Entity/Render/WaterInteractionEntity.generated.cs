@@ -26,7 +26,7 @@ namespace Black.Entity.Render
             var dummy = new WaterInteractionEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.WaterInteractionEntity", 0, Black.Entity.Render.WaterInteractionEntity.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.Entity.Render.WaterInteractionEntity", 0, Black.Entity.Render.WaterInteractionEntity.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -56,6 +56,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WaterInteractionEntity();
+        }
 		
     }
 }

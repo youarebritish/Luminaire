@@ -24,7 +24,7 @@ namespace Black.Sequence.Pad
             var dummy = new SequenceActionStickMask();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Pad.SequenceActionStickMask", 0, Black.Sequence.Pad.SequenceActionStickMask.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.Sequence.Pad.SequenceActionStickMask", 0, Black.Sequence.Pad.SequenceActionStickMask.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -69,6 +69,11 @@ namespace Black.Sequence.Pad
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionStickMask();
+        }
 		
     }
 }

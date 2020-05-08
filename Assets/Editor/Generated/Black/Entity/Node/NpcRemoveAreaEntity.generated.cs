@@ -25,7 +25,7 @@ namespace Black.Entity.Node
             var dummy = new NpcRemoveAreaEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.NpcRemoveAreaEntity", 0, Black.Entity.Node.NpcRemoveAreaEntity.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Entity.Node.NpcRemoveAreaEntity", 0, Black.Entity.Node.NpcRemoveAreaEntity.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -57,6 +57,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NpcRemoveAreaEntity();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.TPS
             var dummy = new AILeafNodeUnreserveTPS();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.TPS.AILeafNodeUnreserveTPS", 0, Black.AIGraph.LeafNode.AI.TPS.AILeafNodeUnreserveTPS.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.TPS.AILeafNodeUnreserveTPS", 0, Black.AIGraph.LeafNode.AI.TPS.AILeafNodeUnreserveTPS.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.TPS
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeUnreserveTPS();
+        }
 		
     }
 }

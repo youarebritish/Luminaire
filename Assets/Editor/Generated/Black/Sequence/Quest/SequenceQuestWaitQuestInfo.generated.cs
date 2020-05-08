@@ -23,7 +23,7 @@ namespace Black.Sequence.Quest
             var dummy = new SequenceQuestWaitQuestInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Quest.SequenceQuestWaitQuestInfo", 0, Black.Sequence.Quest.SequenceQuestWaitQuestInfo.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Quest.SequenceQuestWaitQuestInfo", 0, Black.Sequence.Quest.SequenceQuestWaitQuestInfo.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceQuestWaitQuestInfo();
+        }
 		
     }
 }

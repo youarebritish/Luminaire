@@ -34,7 +34,7 @@ namespace Black.AIGraph.LeafNode.AI.Move.Buddy
             var dummy = new AILeafNodeAraneaFlyingMove();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeAraneaFlyingMove", 0, Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeAraneaFlyingMove.ObjectType, null, properties, 0, 816);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeAraneaFlyingMove", 0, Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeAraneaFlyingMove.ObjectType, Construct, properties, 0, 816);
         }
 		
         public override ObjectType GetObjectType()
@@ -138,6 +138,11 @@ namespace Black.AIGraph.LeafNode.AI.Move.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeAraneaFlyingMove();
+        }
 		
     }
 }

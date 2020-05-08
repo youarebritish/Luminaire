@@ -21,7 +21,7 @@ namespace Black.Sequence.Tray
             var dummy = new SequenceDebugNameTray();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Tray.SequenceDebugNameTray", 0, Black.Sequence.Tray.SequenceDebugNameTray.ObjectType, null, properties, 0, 256);
+            ObjectType = new ObjectType("Black.Sequence.Tray.SequenceDebugNameTray", 0, Black.Sequence.Tray.SequenceDebugNameTray.ObjectType, Construct, properties, 0, 256);
         }
 		
         public override ObjectType GetObjectType()
@@ -51,6 +51,11 @@ namespace Black.Sequence.Tray
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceDebugNameTray();
+        }
 		
     }
 }

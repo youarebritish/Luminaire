@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugMemoryQuestMenu();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugMemoryQuestMenu", 0, Black.Sequence.Action.Debug.SequenceActionDebugMemoryQuestMenu.ObjectType, null, properties, 0, 672);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugMemoryQuestMenu", 0, Black.Sequence.Action.Debug.SequenceActionDebugMemoryQuestMenu.ObjectType, Construct, properties, 0, 672);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugMemoryQuestMenu();
+        }
 		
     }
 }

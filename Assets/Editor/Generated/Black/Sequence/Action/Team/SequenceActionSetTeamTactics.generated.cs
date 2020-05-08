@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Team
             var dummy = new SequenceActionSetTeamTactics();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Team.SequenceActionSetTeamTactics", 0, Black.Sequence.Action.Team.SequenceActionSetTeamTactics.ObjectType, null, properties, 0, 504);
+            ObjectType = new ObjectType("Black.Sequence.Action.Team.SequenceActionSetTeamTactics", 0, Black.Sequence.Action.Team.SequenceActionSetTeamTactics.ObjectType, Construct, properties, 0, 504);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Team
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetTeamTactics();
+        }
 		
     }
 }

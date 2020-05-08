@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionSetPackageTriggerOnOff();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetPackageTriggerOnOff", 0, Black.Sequence.Action.Level.SequenceActionSetPackageTriggerOnOff.ObjectType, null, properties, 0, 568);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetPackageTriggerOnOff", 0, Black.Sequence.Action.Level.SequenceActionSetPackageTriggerOnOff.ObjectType, Construct, properties, 0, 568);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetPackageTriggerOnOff();
+        }
 		
     }
 }

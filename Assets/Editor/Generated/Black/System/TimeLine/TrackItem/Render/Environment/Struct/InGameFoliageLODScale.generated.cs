@@ -21,7 +21,7 @@ namespace Black.System.TimeLine.TrackItem.Render.Environment.Struct
             var dummy = new InGameFoliageLODScale();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.Environment.Struct.InGameFoliageLODScale", 0, Black.System.TimeLine.TrackItem.Render.Environment.Struct.InGameFoliageLODScale.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.Environment.Struct.InGameFoliageLODScale", 0, Black.System.TimeLine.TrackItem.Render.Environment.Struct.InGameFoliageLODScale.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.System.TimeLine.TrackItem.Render.Environment.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InGameFoliageLODScale();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.Actor
             var dummy = new ActorComponentMap();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.ActorComponentMap", 0, Black.Actor.ActorComponentMap.ObjectType, null, properties, 59, 6192);
+            ObjectType = new ObjectType("Black.Actor.ActorComponentMap", 0, Black.Actor.ActorComponentMap.ObjectType, Construct, properties, 59, 6192);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorComponentMap();
+        }
 		
     }
 }

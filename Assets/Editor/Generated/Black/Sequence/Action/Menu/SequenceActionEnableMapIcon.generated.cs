@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionEnableMapIcon();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionEnableMapIcon", 0, Black.Sequence.Action.Menu.SequenceActionEnableMapIcon.ObjectType, null, properties, 0, 600);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionEnableMapIcon", 0, Black.Sequence.Action.Menu.SequenceActionEnableMapIcon.ObjectType, Construct, properties, 0, 600);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEnableMapIcon();
+        }
 		
     }
 }

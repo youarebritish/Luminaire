@@ -23,7 +23,7 @@ namespace Black.Sequence.Operator
             var dummy = new SequenceOperatorScreenPositionAlign();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorScreenPositionAlign", 0, Black.Sequence.Operator.SequenceOperatorScreenPositionAlign.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorScreenPositionAlign", 0, Black.Sequence.Operator.SequenceOperatorScreenPositionAlign.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Sequence.Operator
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorScreenPositionAlign();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.Actor.Component.Sound
             var dummy = new CharacterCryClipComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Sound.CharacterCryClipComponentData", 0, Black.Actor.Component.Sound.CharacterCryClipComponentData.ObjectType, null, properties, 0, 104);
+            ObjectType = new ObjectType("Black.Actor.Component.Sound.CharacterCryClipComponentData", 0, Black.Actor.Component.Sound.CharacterCryClipComponentData.ObjectType, Construct, properties, 0, 104);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Actor.Component.Sound
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CharacterCryClipComponentData();
+        }
 		
     }
 }

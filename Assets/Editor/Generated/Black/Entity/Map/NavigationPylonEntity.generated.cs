@@ -26,7 +26,7 @@ namespace Black.Entity.Map
             var dummy = new NavigationPylonEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Map.NavigationPylonEntity", 0, Black.Entity.Map.NavigationPylonEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.Map.NavigationPylonEntity", 0, Black.Entity.Map.NavigationPylonEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Entity.Map
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NavigationPylonEntity();
+        }
 		
     }
 }

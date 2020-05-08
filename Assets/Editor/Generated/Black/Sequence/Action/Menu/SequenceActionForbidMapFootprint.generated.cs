@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionForbidMapFootprint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionForbidMapFootprint", 0, Black.Sequence.Action.Menu.SequenceActionForbidMapFootprint.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionForbidMapFootprint", 0, Black.Sequence.Action.Menu.SequenceActionForbidMapFootprint.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionForbidMapFootprint();
+        }
 		
     }
 }

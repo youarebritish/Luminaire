@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Level.Battle
             var dummy = new SequenceActionGetDeathCount();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Battle.SequenceActionGetDeathCount", 0, Black.Sequence.Action.Level.Battle.SequenceActionGetDeathCount.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Battle.SequenceActionGetDeathCount", 0, Black.Sequence.Action.Level.Battle.SequenceActionGetDeathCount.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.Level.Battle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetDeathCount();
+        }
 		
     }
 }

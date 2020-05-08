@@ -24,7 +24,7 @@ namespace Black.Sequence.Train
             var dummy = new SequenceActionTrainMuteSound();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Train.SequenceActionTrainMuteSound", 0, Black.Sequence.Train.SequenceActionTrainMuteSound.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Train.SequenceActionTrainMuteSound", 0, Black.Sequence.Train.SequenceActionTrainMuteSound.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Train
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTrainMuteSound();
+        }
 		
     }
 }

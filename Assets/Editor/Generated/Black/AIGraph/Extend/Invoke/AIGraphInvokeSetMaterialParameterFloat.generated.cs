@@ -23,7 +23,7 @@ namespace Black.AIGraph.Extend.Invoke
             var dummy = new AIGraphInvokeSetMaterialParameterFloat();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetMaterialParameterFloat", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeSetMaterialParameterFloat.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetMaterialParameterFloat", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeSetMaterialParameterFloat.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.AIGraph.Extend.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetMaterialParameterFloat();
+        }
 		
     }
 }

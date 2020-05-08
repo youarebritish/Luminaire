@@ -32,7 +32,7 @@ namespace Black.Sequence.Action.MiniGame
             var dummy = new SequenceActionCarnivalGameRecord();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.MiniGame.SequenceActionCarnivalGameRecord", 0, Black.Sequence.Action.MiniGame.SequenceActionCarnivalGameRecord.ObjectType, null, properties, 0, 1000);
+            ObjectType = new ObjectType("Black.Sequence.Action.MiniGame.SequenceActionCarnivalGameRecord", 0, Black.Sequence.Action.MiniGame.SequenceActionCarnivalGameRecord.ObjectType, Construct, properties, 0, 1000);
         }
 		
         public override ObjectType GetObjectType()
@@ -113,6 +113,11 @@ namespace Black.Sequence.Action.MiniGame
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCarnivalGameRecord();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level.Mission
             var dummy = new SequenceActionSetJamFight();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Mission.SequenceActionSetJamFight", 0, Black.Sequence.Action.Level.Mission.SequenceActionSetJamFight.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Mission.SequenceActionSetJamFight", 0, Black.Sequence.Action.Level.Mission.SequenceActionSetJamFight.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.Level.Mission
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetJamFight();
+        }
 		
     }
 }

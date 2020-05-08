@@ -26,7 +26,7 @@ namespace Black.Entity.Node
             var dummy = new DisplacementAreaEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.DisplacementAreaEntity", 0, Black.Entity.Node.DisplacementAreaEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.Node.DisplacementAreaEntity", 0, Black.Entity.Node.DisplacementAreaEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DisplacementAreaEntity();
+        }
 		
     }
 }

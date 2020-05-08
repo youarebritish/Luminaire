@@ -25,7 +25,7 @@ namespace Black.Sequence.Actor.AI
             var dummy = new SequenceActionAICheckRoute();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.SequenceActionAICheckRoute", 0, Black.Sequence.Actor.AI.SequenceActionAICheckRoute.ObjectType, null, properties, 0, 656);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.SequenceActionAICheckRoute", 0, Black.Sequence.Actor.AI.SequenceActionAICheckRoute.ObjectType, Construct, properties, 0, 656);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Actor.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAICheckRoute();
+        }
 		
     }
 }

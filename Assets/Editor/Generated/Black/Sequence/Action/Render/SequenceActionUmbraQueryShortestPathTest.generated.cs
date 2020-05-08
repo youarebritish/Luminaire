@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionUmbraQueryShortestPathTest();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionUmbraQueryShortestPathTest", 0, Black.Sequence.Action.Render.SequenceActionUmbraQueryShortestPathTest.ObjectType, null, properties, 0, 448);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionUmbraQueryShortestPathTest", 0, Black.Sequence.Action.Render.SequenceActionUmbraQueryShortestPathTest.ObjectType, Construct, properties, 0, 448);
         }
 		
         public override ObjectType GetObjectType()
@@ -69,6 +69,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionUmbraQueryShortestPathTest();
+        }
 		
     }
 }

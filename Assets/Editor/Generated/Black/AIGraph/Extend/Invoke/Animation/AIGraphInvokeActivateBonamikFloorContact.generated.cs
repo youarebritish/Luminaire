@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Animation
             var dummy = new AIGraphInvokeActivateBonamikFloorContact();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateBonamikFloorContact", 0, Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateBonamikFloorContact.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateBonamikFloorContact", 0, Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateBonamikFloorContact.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Animation
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeActivateBonamikFloorContact();
+        }
 		
     }
 }

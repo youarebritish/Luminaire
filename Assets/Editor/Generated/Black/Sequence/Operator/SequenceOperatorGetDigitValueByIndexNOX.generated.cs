@@ -23,7 +23,7 @@ namespace Black.Sequence.Operator
             var dummy = new SequenceOperatorGetDigitValueByIndexNOX();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorGetDigitValueByIndexNOX", 0, Black.Sequence.Operator.SequenceOperatorGetDigitValueByIndexNOX.ObjectType, null, properties, 0, 400);
+            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorGetDigitValueByIndexNOX", 0, Black.Sequence.Operator.SequenceOperatorGetDigitValueByIndexNOX.ObjectType, Construct, properties, 0, 400);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Sequence.Operator
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorGetDigitValueByIndexNOX();
+        }
 		
     }
 }

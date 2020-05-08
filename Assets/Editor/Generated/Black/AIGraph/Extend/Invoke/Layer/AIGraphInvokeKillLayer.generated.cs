@@ -24,7 +24,7 @@ namespace Black.AIGraph.Extend.Invoke.Layer
             var dummy = new AIGraphInvokeKillLayer();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Layer.AIGraphInvokeKillLayer", 0, Black.AIGraph.Extend.Invoke.Layer.AIGraphInvokeKillLayer.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Layer.AIGraphInvokeKillLayer", 0, Black.AIGraph.Extend.Invoke.Layer.AIGraphInvokeKillLayer.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.AIGraph.Extend.Invoke.Layer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeKillLayer();
+        }
 		
     }
 }

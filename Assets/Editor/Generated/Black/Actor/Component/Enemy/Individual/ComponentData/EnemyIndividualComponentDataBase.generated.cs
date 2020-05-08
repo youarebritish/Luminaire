@@ -20,7 +20,7 @@ namespace Black.Actor.Component.Enemy.Individual.ComponentData
             var dummy = new EnemyIndividualComponentDataBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Enemy.Individual.ComponentData.EnemyIndividualComponentDataBase", 0, Black.Actor.Component.Enemy.Individual.ComponentData.EnemyIndividualComponentDataBase.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.Actor.Component.Enemy.Individual.ComponentData.EnemyIndividualComponentDataBase", 0, Black.Actor.Component.Enemy.Individual.ComponentData.EnemyIndividualComponentDataBase.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.Actor.Component.Enemy.Individual.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new EnemyIndividualComponentDataBase();
+        }
 		
     }
 }

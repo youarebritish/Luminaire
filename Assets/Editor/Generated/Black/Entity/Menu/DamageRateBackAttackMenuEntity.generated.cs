@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new DamageRateBackAttackMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.DamageRateBackAttackMenuEntity", 0, Black.Entity.Menu.DamageRateBackAttackMenuEntity.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Entity.Menu.DamageRateBackAttackMenuEntity", 0, Black.Entity.Menu.DamageRateBackAttackMenuEntity.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DamageRateBackAttackMenuEntity();
+        }
 		
     }
 }

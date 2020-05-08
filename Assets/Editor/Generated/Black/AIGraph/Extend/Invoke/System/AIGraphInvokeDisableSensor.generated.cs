@@ -24,7 +24,7 @@ namespace Black.AIGraph.Extend.Invoke.System
             var dummy = new AIGraphInvokeDisableSensor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeDisableSensor", 0, Black.AIGraph.Extend.Invoke.System.AIGraphInvokeDisableSensor.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeDisableSensor", 0, Black.AIGraph.Extend.Invoke.System.AIGraphInvokeDisableSensor.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.AIGraph.Extend.Invoke.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeDisableSensor();
+        }
 		
     }
 }

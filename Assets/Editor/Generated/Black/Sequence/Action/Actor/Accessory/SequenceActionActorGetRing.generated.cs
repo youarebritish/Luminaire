@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Actor.Accessory
             var dummy = new SequenceActionActorGetRing();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetRing", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetRing.ObjectType, null, properties, 0, 768);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetRing", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetRing.ObjectType, Construct, properties, 0, 768);
         }
 		
         public override ObjectType GetObjectType()
@@ -102,6 +102,11 @@ namespace Black.Sequence.Action.Actor.Accessory
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetRing();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.Sequence.Operator
             var dummy = new SequenceOperatorCalculateString();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorCalculateString", 0, Black.Sequence.Operator.SequenceOperatorCalculateString.ObjectType, null, properties, 0, 504);
+            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorCalculateString", 0, Black.Sequence.Operator.SequenceOperatorCalculateString.ObjectType, Construct, properties, 0, 504);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.Sequence.Operator
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorCalculateString();
+        }
 		
     }
 }

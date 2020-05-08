@@ -27,7 +27,7 @@ namespace Black.AIGraph.Extend.Tray
             var dummy = new AIGraphTrayMindTaskBT();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Tray.AIGraphTrayMindTaskBT", 0, Black.AIGraph.Extend.Tray.AIGraphTrayMindTaskBT.ObjectType, null, properties, 0, 408);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Tray.AIGraphTrayMindTaskBT", 0, Black.AIGraph.Extend.Tray.AIGraphTrayMindTaskBT.ObjectType, Construct, properties, 0, 408);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.AIGraph.Extend.Tray
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphTrayMindTaskBT();
+        }
 		
     }
 }

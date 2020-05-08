@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodeSpawnBox();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeSpawnBox", 0, Black.Actor.Node.ActorNodeSpawnBox.ObjectType, null, properties, 59, 1040);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeSpawnBox", 0, Black.Actor.Node.ActorNodeSpawnBox.ObjectType, Construct, properties, 59, 1040);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeSpawnBox();
+        }
 		
     }
 }

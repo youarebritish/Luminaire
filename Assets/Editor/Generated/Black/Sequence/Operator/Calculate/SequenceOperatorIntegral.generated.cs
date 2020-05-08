@@ -24,7 +24,7 @@ namespace Black.Sequence.Operator.Calculate
             var dummy = new SequenceOperatorIntegral();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.Calculate.SequenceOperatorIntegral", 0, Black.Sequence.Operator.Calculate.SequenceOperatorIntegral.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Operator.Calculate.SequenceOperatorIntegral", 0, Black.Sequence.Operator.Calculate.SequenceOperatorIntegral.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Operator.Calculate
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorIntegral();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientSmartLocationTemplate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSmartLocationTemplate", 0, Black.AI.Ambient.AmbientSmartLocationTemplate.ObjectType, null, properties, 0, 216);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSmartLocationTemplate", 0, Black.AI.Ambient.AmbientSmartLocationTemplate.ObjectType, Construct, properties, 0, 216);
         }
 		
         public override ObjectType GetObjectType()
@@ -72,6 +72,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientSmartLocationTemplate();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.Actor
             var dummy = new ActorSound();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.ActorSound", 0, Black.Actor.ActorSound.ObjectType, null, properties, 59, 832);
+            ObjectType = new ObjectType("Black.Actor.ActorSound", 0, Black.Actor.ActorSound.ObjectType, Construct, properties, 59, 832);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorSound();
+        }
 		
     }
 }

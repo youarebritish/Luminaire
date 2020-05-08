@@ -26,7 +26,7 @@ namespace Black.Entity.Minigame.Fishing
             var dummy = new FishingFishSpawnEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Minigame.Fishing.FishingFishSpawnEntity", 0, Black.Entity.Minigame.Fishing.FishingFishSpawnEntity.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Entity.Minigame.Fishing.FishingFishSpawnEntity", 0, Black.Entity.Minigame.Fishing.FishingFishSpawnEntity.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Entity.Minigame.Fishing
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new FishingFishSpawnEntity();
+        }
 		
     }
 }

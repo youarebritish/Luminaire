@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Camera
             var dummy = new AILeafNodeReserveCameraSequenceEvent();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Camera.AILeafNodeReserveCameraSequenceEvent", 0, Black.AIGraph.LeafNode.AI.Function.Camera.AILeafNodeReserveCameraSequenceEvent.ObjectType, null, properties, 0, 56);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Camera.AILeafNodeReserveCameraSequenceEvent", 0, Black.AIGraph.LeafNode.AI.Function.Camera.AILeafNodeReserveCameraSequenceEvent.ObjectType, Construct, properties, 0, 56);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeReserveCameraSequenceEvent();
+        }
 		
     }
 }

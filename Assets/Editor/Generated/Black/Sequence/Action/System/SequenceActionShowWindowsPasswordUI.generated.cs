@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionShowWindowsPasswordUI();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionShowWindowsPasswordUI", 0, Black.Sequence.Action.System.SequenceActionShowWindowsPasswordUI.ObjectType, null, properties, 0, 600);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionShowWindowsPasswordUI", 0, Black.Sequence.Action.System.SequenceActionShowWindowsPasswordUI.ObjectType, Construct, properties, 0, 600);
         }
 		
         public override ObjectType GetObjectType()
@@ -91,6 +91,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionShowWindowsPasswordUI();
+        }
 		
     }
 }

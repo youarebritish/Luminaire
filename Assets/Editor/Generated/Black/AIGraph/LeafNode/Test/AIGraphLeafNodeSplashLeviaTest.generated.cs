@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.Test
             var dummy = new AIGraphLeafNodeSplashLeviaTest();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeSplashLeviaTest", 0, Black.AIGraph.LeafNode.Test.AIGraphLeafNodeSplashLeviaTest.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeSplashLeviaTest", 0, Black.AIGraph.LeafNode.Test.AIGraphLeafNodeSplashLeviaTest.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -114,6 +114,11 @@ namespace Black.AIGraph.LeafNode.Test
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphLeafNodeSplashLeviaTest();
+        }
 		
     }
 }

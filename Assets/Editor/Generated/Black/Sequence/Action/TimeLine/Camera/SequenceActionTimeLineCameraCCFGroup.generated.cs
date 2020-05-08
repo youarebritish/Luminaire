@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
             var dummy = new SequenceActionTimeLineCameraCCFGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraCCFGroup", 0, Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraCCFGroup.ObjectType, null, properties, 0, 336);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraCCFGroup", 0, Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraCCFGroup.ObjectType, Construct, properties, 0, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Action.TimeLine.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineCameraCCFGroup();
+        }
 		
     }
 }

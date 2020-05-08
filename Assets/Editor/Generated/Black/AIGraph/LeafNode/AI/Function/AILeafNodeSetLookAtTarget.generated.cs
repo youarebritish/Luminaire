@@ -26,7 +26,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
             var dummy = new AILeafNodeSetLookAtTarget();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeSetLookAtTarget", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeSetLookAtTarget.ObjectType, null, properties, 0, 248);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeSetLookAtTarget", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeSetLookAtTarget.ObjectType, Construct, properties, 0, 248);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.AIGraph.LeafNode.AI.Function
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeSetLookAtTarget();
+        }
 		
     }
 }

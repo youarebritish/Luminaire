@@ -25,7 +25,7 @@ namespace SQEX.Ebony.Framework.Sequence.Event
             var dummy = new SequenceEventWorldTimerUpdated();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Event.SequenceEventWorldTimerUpdated", 0, SQEX.Ebony.Framework.Sequence.Event.SequenceEventWorldTimerUpdated.ObjectType, null, properties, 0, 296);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Event.SequenceEventWorldTimerUpdated", 0, SQEX.Ebony.Framework.Sequence.Event.SequenceEventWorldTimerUpdated.ObjectType, Construct, properties, 0, 296);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace SQEX.Ebony.Framework.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventWorldTimerUpdated();
+        }
 		
     }
 }

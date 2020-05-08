@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new ChapterSelectEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.ChapterSelectEntity", 0, Black.Entity.Menu.ChapterSelectEntity.ObjectType, null, properties, 0, 720);
+            ObjectType = new ObjectType("Black.Entity.Menu.ChapterSelectEntity", 0, Black.Entity.Menu.ChapterSelectEntity.ObjectType, Construct, properties, 0, 720);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ChapterSelectEntity();
+        }
 		
     }
 }

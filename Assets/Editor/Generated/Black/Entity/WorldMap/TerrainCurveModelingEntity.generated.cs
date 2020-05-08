@@ -25,7 +25,7 @@ namespace Black.Entity.WorldMap
             var dummy = new TerrainCurveModelingEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.WorldMap.TerrainCurveModelingEntity", 0, Black.Entity.WorldMap.TerrainCurveModelingEntity.ObjectType, null, properties, 0, 608);
+            ObjectType = new ObjectType("Black.Entity.WorldMap.TerrainCurveModelingEntity", 0, Black.Entity.WorldMap.TerrainCurveModelingEntity.ObjectType, Construct, properties, 0, 608);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Entity.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TerrainCurveModelingEntity();
+        }
 		
     }
 }

@@ -31,7 +31,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionSetGaugeUi();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSetGaugeUi", 0, Black.Sequence.Action.Menu.SequenceActionSetGaugeUi.ObjectType, null, properties, 0, 1032);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSetGaugeUi", 0, Black.Sequence.Action.Menu.SequenceActionSetGaugeUi.ObjectType, Construct, properties, 0, 1032);
         }
 		
         public override ObjectType GetObjectType()
@@ -119,6 +119,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetGaugeUi();
+        }
 		
     }
 }

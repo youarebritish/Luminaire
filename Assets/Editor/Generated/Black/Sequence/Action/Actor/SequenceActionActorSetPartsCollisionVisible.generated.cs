@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionActorSetPartsCollisionVisible();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetPartsCollisionVisible", 0, Black.Sequence.Action.Actor.SequenceActionActorSetPartsCollisionVisible.ObjectType, null, properties, 0, 488);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetPartsCollisionVisible", 0, Black.Sequence.Action.Actor.SequenceActionActorSetPartsCollisionVisible.ObjectType, Construct, properties, 0, 488);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetPartsCollisionVisible();
+        }
 		
     }
 }

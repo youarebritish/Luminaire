@@ -25,7 +25,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionSetTextureStreamingTargetActor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetTextureStreamingTargetActor", 0, Black.Sequence.Render.SequenceActionSetTextureStreamingTargetActor.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetTextureStreamingTargetActor", 0, Black.Sequence.Render.SequenceActionSetTextureStreamingTargetActor.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetTextureStreamingTargetActor();
+        }
 		
     }
 }

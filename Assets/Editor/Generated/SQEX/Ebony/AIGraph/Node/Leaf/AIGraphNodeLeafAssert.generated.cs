@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
             var dummy = new AIGraphNodeLeafAssert();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafAssert", 0, SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafAssert.ObjectType, null, properties, 0, 112);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafAssert", 0, SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafAssert.ObjectType, Construct, properties, 0, 112);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeLeafAssert();
+        }
 		
     }
 }

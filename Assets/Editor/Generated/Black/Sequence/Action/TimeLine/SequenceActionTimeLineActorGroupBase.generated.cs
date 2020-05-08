@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.TimeLine
             var dummy = new SequenceActionTimeLineActorGroupBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorGroupBase", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorGroupBase.ObjectType, null, properties, 0, 440);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorGroupBase", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorGroupBase.ObjectType, Construct, properties, 0, 440);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace Black.Sequence.Action.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineActorGroupBase();
+        }
 		
     }
 }

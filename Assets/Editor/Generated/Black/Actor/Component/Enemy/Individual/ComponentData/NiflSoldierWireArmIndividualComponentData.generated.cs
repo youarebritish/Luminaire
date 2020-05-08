@@ -23,7 +23,7 @@ namespace Black.Actor.Component.Enemy.Individual.ComponentData
             var dummy = new NiflSoldierWireArmIndividualComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Enemy.Individual.ComponentData.NiflSoldierWireArmIndividualComponentData", 0, Black.Actor.Component.Enemy.Individual.ComponentData.NiflSoldierWireArmIndividualComponentData.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.Actor.Component.Enemy.Individual.ComponentData.NiflSoldierWireArmIndividualComponentData", 0, Black.Actor.Component.Enemy.Individual.ComponentData.NiflSoldierWireArmIndividualComponentData.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Actor.Component.Enemy.Individual.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NiflSoldierWireArmIndividualComponentData();
+        }
 		
     }
 }

@@ -29,7 +29,7 @@ namespace Black.Entity.Menu
             var dummy = new SwfPlayerEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.SwfPlayerEntity", 0, Black.Entity.Menu.SwfPlayerEntity.ObjectType, null, properties, 0, 448);
+            ObjectType = new ObjectType("Black.Entity.Menu.SwfPlayerEntity", 0, Black.Entity.Menu.SwfPlayerEntity.ObjectType, Construct, properties, 0, 448);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SwfPlayerEntity();
+        }
 		
     }
 }

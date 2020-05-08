@@ -28,7 +28,7 @@ namespace Black.Entity.Area
             var dummy = new WorldPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Area.WorldPackage", 0, Black.Entity.Area.WorldPackage.ObjectType, null, properties, 0, 784);
+            ObjectType = new ObjectType("Black.Entity.Area.WorldPackage", 0, Black.Entity.Area.WorldPackage.ObjectType, Construct, properties, 0, 784);
         }
 		
         public override ObjectType GetObjectType()
@@ -82,6 +82,11 @@ namespace Black.Entity.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WorldPackage();
+        }
 		
     }
 }

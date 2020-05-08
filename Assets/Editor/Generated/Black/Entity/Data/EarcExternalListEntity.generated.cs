@@ -21,7 +21,7 @@ namespace Black.Entity.Data
             var dummy = new EarcExternalListEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.EarcExternalListEntity", 0, Black.Entity.Data.EarcExternalListEntity.ObjectType, null, properties, 0, 80);
+            ObjectType = new ObjectType("Black.Entity.Data.EarcExternalListEntity", 0, Black.Entity.Data.EarcExternalListEntity.ObjectType, Construct, properties, 0, 80);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new EarcExternalListEntity();
+        }
 		
     }
 }

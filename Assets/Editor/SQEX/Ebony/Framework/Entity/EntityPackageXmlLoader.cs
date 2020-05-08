@@ -247,6 +247,7 @@ namespace SQEX.Ebony.Framework.Entity
                 return null;
             }*/
 
+            UnityEngine.Debug.Log(typeFullName);
             var instance = type.ConstructFunction2() as SQEX.Luminous.Core.Object.Object;
             if (instance != null)
             {

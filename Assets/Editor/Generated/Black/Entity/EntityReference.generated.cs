@@ -22,7 +22,7 @@ namespace Black.Entity
             var dummy = new EntityReference();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.EntityReference", 0, Black.Entity.EntityReference.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.Entity.EntityReference", 0, Black.Entity.EntityReference.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new EntityReference();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new SkillInfoEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.SkillInfoEntity", 0, Black.Entity.Menu.SkillInfoEntity.ObjectType, null, properties, 0, 512);
+            ObjectType = new ObjectType("Black.Entity.Menu.SkillInfoEntity", 0, Black.Entity.Menu.SkillInfoEntity.ObjectType, Construct, properties, 0, 512);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SkillInfoEntity();
+        }
 		
     }
 }

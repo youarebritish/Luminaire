@@ -25,7 +25,7 @@ namespace Black.Sequence.Actor.AI.Monster
             var dummy = new SequenceActionAISetEnableMonsParts();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionAISetEnableMonsParts", 0, Black.Sequence.Actor.AI.Monster.SequenceActionAISetEnableMonsParts.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionAISetEnableMonsParts", 0, Black.Sequence.Actor.AI.Monster.SequenceActionAISetEnableMonsParts.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Actor.AI.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAISetEnableMonsParts();
+        }
 		
     }
 }

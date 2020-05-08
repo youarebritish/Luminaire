@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.WorldMap
             var dummy = new SequenceActionPauseCalcWorldLOD();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.WorldMap.SequenceActionPauseCalcWorldLOD", 0, Black.Sequence.Action.WorldMap.SequenceActionPauseCalcWorldLOD.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.WorldMap.SequenceActionPauseCalcWorldLOD", 0, Black.Sequence.Action.WorldMap.SequenceActionPauseCalcWorldLOD.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPauseCalcWorldLOD();
+        }
 		
     }
 }

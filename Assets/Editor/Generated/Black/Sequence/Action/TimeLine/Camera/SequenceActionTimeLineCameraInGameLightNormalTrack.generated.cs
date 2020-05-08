@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
             var dummy = new SequenceActionTimeLineCameraInGameLightNormalTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraInGameLightNormalTrack", 0, Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraInGameLightNormalTrack.ObjectType, null, properties, 0, 2320);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraInGameLightNormalTrack", 0, Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraInGameLightNormalTrack.ObjectType, Construct, properties, 0, 2320);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Sequence.Action.TimeLine.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineCameraInGameLightNormalTrack();
+        }
 		
     }
 }

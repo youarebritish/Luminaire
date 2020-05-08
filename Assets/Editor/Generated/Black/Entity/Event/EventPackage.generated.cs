@@ -20,7 +20,7 @@ namespace Black.Entity.Event
             var dummy = new EventPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Event.EventPackage", 0, Black.Entity.Event.EventPackage.ObjectType, null, properties, 0, 608);
+            ObjectType = new ObjectType("Black.Entity.Event.EventPackage", 0, Black.Entity.Event.EventPackage.ObjectType, Construct, properties, 0, 608);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Entity.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new EventPackage();
+        }
 		
     }
 }

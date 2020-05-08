@@ -21,7 +21,7 @@ namespace Black.Entity.RoutePoint.RouteAction
             var dummy = new RouteSendMessageToBodyEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.RoutePoint.RouteAction.RouteSendMessageToBodyEntity", 0, Black.Entity.RoutePoint.RouteAction.RouteSendMessageToBodyEntity.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Entity.RoutePoint.RouteAction.RouteSendMessageToBodyEntity", 0, Black.Entity.RoutePoint.RouteAction.RouteSendMessageToBodyEntity.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.RoutePoint.RouteAction
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new RouteSendMessageToBodyEntity();
+        }
 		
     }
 }

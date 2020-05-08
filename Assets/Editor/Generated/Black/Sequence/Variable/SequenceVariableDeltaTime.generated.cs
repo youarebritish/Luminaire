@@ -22,7 +22,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableDeltaTime();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableDeltaTime", 0, Black.Sequence.Variable.SequenceVariableDeltaTime.ObjectType, null, properties, 0, 264);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableDeltaTime", 0, Black.Sequence.Variable.SequenceVariableDeltaTime.ObjectType, Construct, properties, 0, 264);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableDeltaTime();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.Entity.Node
             var dummy = new PointNodeEntityBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.PointNodeEntityBase", 0, Black.Entity.Node.PointNodeEntityBase.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Entity.Node.PointNodeEntityBase", 0, Black.Entity.Node.PointNodeEntityBase.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PointNodeEntityBase();
+        }
 		
     }
 }

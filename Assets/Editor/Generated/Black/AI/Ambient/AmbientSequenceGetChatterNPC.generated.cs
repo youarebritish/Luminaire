@@ -23,7 +23,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientSequenceGetChatterNPC();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceGetChatterNPC", 0, Black.AI.Ambient.AmbientSequenceGetChatterNPC.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceGetChatterNPC", 0, Black.AI.Ambient.AmbientSequenceGetChatterNPC.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientSequenceGetChatterNPC();
+        }
 		
     }
 }

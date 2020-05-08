@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new TemporaryItemInventorySync();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.TemporaryItemInventorySync", 0, Black.MultiPlayer.TemporaryItemInventorySync.ObjectType, null, properties, 1, 40);
+            ObjectType = new ObjectType("Black.MultiPlayer.TemporaryItemInventorySync", 0, Black.MultiPlayer.TemporaryItemInventorySync.ObjectType, Construct, properties, 1, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TemporaryItemInventorySync();
+        }
 		
     }
 }

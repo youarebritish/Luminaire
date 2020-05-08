@@ -32,7 +32,7 @@ namespace Black.Sequence.Action.Mobhunt
             var dummy = new SequenceActionDinnerMobhuntInfoDialog();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionDinnerMobhuntInfoDialog", 0, Black.Sequence.Action.Mobhunt.SequenceActionDinnerMobhuntInfoDialog.ObjectType, null, properties, 0, 1400);
+            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionDinnerMobhuntInfoDialog", 0, Black.Sequence.Action.Mobhunt.SequenceActionDinnerMobhuntInfoDialog.ObjectType, Construct, properties, 0, 1400);
         }
 		
         public override ObjectType GetObjectType()
@@ -143,6 +143,11 @@ namespace Black.Sequence.Action.Mobhunt
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDinnerMobhuntInfoDialog();
+        }
 		
     }
 }

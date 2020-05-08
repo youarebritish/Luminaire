@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke
             var dummy = new AIGraphInvokeSetAnimationPlaySpeed();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAnimationPlaySpeed", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAnimationPlaySpeed.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAnimationPlaySpeed", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAnimationPlaySpeed.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetAnimationPlaySpeed();
+        }
 		
     }
 }

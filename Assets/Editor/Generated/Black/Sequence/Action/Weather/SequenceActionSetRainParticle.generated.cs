@@ -80,7 +80,7 @@ namespace Black.Sequence.Action.Weather
             var dummy = new SequenceActionSetRainParticle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Weather.SequenceActionSetRainParticle", 0, Black.Sequence.Action.Weather.SequenceActionSetRainParticle.ObjectType, null, properties, 0, 3008);
+            ObjectType = new ObjectType("Black.Sequence.Action.Weather.SequenceActionSetRainParticle", 0, Black.Sequence.Action.Weather.SequenceActionSetRainParticle.ObjectType, Construct, properties, 0, 3008);
         }
 		
         public override ObjectType GetObjectType()
@@ -285,6 +285,11 @@ namespace Black.Sequence.Action.Weather
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetRainParticle();
+        }
 		
     }
 }

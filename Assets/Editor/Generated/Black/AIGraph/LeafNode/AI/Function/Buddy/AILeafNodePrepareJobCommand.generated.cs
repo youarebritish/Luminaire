@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             var dummy = new AILeafNodePrepareJobCommand();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodePrepareJobCommand", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodePrepareJobCommand.ObjectType, null, properties, 0, 56);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodePrepareJobCommand", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodePrepareJobCommand.ObjectType, Construct, properties, 0, 56);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodePrepareJobCommand();
+        }
 		
     }
 }

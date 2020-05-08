@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Physics
             var dummy = new SequenceActionSetBodyDriverAllEnabled();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Physics.SequenceActionSetBodyDriverAllEnabled", 0, Black.Sequence.Action.Physics.SequenceActionSetBodyDriverAllEnabled.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Physics.SequenceActionSetBodyDriverAllEnabled", 0, Black.Sequence.Action.Physics.SequenceActionSetBodyDriverAllEnabled.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetBodyDriverAllEnabled();
+        }
 		
     }
 }

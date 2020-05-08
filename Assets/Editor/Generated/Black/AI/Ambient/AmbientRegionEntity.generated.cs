@@ -28,7 +28,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientRegionEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientRegionEntity", 0, Black.AI.Ambient.AmbientRegionEntity.ObjectType, null, properties, 0, 336);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientRegionEntity", 0, Black.AI.Ambient.AmbientRegionEntity.ObjectType, Construct, properties, 0, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientRegionEntity();
+        }
 		
     }
 }

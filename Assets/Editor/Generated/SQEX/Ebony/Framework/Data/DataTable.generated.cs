@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Data
             var dummy = new DataTable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Data.DataTable", 0, SQEX.Ebony.Framework.Data.DataTable.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Data.DataTable", 0, SQEX.Ebony.Framework.Data.DataTable.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace SQEX.Ebony.Framework.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DataTable();
+        }
 		
     }
 }

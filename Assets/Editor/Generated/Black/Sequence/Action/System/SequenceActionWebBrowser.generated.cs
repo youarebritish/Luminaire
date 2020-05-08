@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionWebBrowser();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionWebBrowser", 0, Black.Sequence.Action.System.SequenceActionWebBrowser.ObjectType, null, properties, 0, 584);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionWebBrowser", 0, Black.Sequence.Action.System.SequenceActionWebBrowser.ObjectType, Construct, properties, 0, 584);
         }
 		
         public override ObjectType GetObjectType()
@@ -85,6 +85,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionWebBrowser();
+        }
 		
     }
 }

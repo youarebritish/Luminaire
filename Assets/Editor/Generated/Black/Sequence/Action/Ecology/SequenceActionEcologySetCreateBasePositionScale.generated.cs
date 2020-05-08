@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Ecology
             var dummy = new SequenceActionEcologySetCreateBasePositionScale();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologySetCreateBasePositionScale", 0, Black.Sequence.Action.Ecology.SequenceActionEcologySetCreateBasePositionScale.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologySetCreateBasePositionScale", 0, Black.Sequence.Action.Ecology.SequenceActionEcologySetCreateBasePositionScale.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Ecology
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEcologySetCreateBasePositionScale();
+        }
 		
     }
 }

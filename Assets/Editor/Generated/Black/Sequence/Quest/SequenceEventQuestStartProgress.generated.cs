@@ -20,7 +20,7 @@ namespace Black.Sequence.Quest
             var dummy = new SequenceEventQuestStartProgress();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Quest.SequenceEventQuestStartProgress", 0, Black.Sequence.Quest.SequenceEventQuestStartProgress.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Quest.SequenceEventQuestStartProgress", 0, Black.Sequence.Quest.SequenceEventQuestStartProgress.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Sequence.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventQuestStartProgress();
+        }
 		
     }
 }

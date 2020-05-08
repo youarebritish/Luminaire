@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Level.Reinforcement
             var dummy = new SequenceActionAircraftControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionAircraftControl", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionAircraftControl.ObjectType, null, properties, 0, 656);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionAircraftControl", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionAircraftControl.ObjectType, Construct, properties, 0, 656);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.Level.Reinforcement
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAircraftControl();
+        }
 		
     }
 }

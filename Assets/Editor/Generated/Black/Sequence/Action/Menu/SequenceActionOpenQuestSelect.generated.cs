@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionOpenQuestSelect();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionOpenQuestSelect", 0, Black.Sequence.Action.Menu.SequenceActionOpenQuestSelect.ObjectType, null, properties, 0, 904);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionOpenQuestSelect", 0, Black.Sequence.Action.Menu.SequenceActionOpenQuestSelect.ObjectType, Construct, properties, 0, 904);
         }
 		
         public override ObjectType GetObjectType()
@@ -103,6 +103,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionOpenQuestSelect();
+        }
 		
     }
 }

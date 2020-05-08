@@ -21,7 +21,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableLabeledWithOwner();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableLabeledWithOwner", 0, Black.Sequence.Variable.SequenceVariableLabeledWithOwner.ObjectType, null, properties, 0, 960);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableLabeledWithOwner", 0, Black.Sequence.Variable.SequenceVariableLabeledWithOwner.ObjectType, Construct, properties, 0, 960);
         }
 		
         public override ObjectType GetObjectType()
@@ -100,6 +100,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableLabeledWithOwner();
+        }
 		
     }
 }

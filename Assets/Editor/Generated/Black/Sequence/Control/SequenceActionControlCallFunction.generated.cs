@@ -34,7 +34,7 @@ namespace Black.Sequence.Control
             var dummy = new SequenceActionControlCallFunction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlCallFunction", 0, Black.Sequence.Control.SequenceActionControlCallFunction.ObjectType, null, properties, 0, 1328);
+            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlCallFunction", 0, Black.Sequence.Control.SequenceActionControlCallFunction.ObjectType, Construct, properties, 0, 1328);
         }
 		
         public override ObjectType GetObjectType()
@@ -132,6 +132,11 @@ namespace Black.Sequence.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlCallFunction();
+        }
 		
     }
 }

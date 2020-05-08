@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionSetDiffuseLightProbeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetDiffuseLightProbeEntity", 0, Black.Sequence.Action.Render.SequenceActionSetDiffuseLightProbeEntity.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetDiffuseLightProbeEntity", 0, Black.Sequence.Action.Render.SequenceActionSetDiffuseLightProbeEntity.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -74,6 +74,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetDiffuseLightProbeEntity();
+        }
 		
     }
 }

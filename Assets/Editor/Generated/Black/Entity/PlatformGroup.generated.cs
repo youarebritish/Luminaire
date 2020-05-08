@@ -21,7 +21,7 @@ namespace Black.Entity
             var dummy = new PlatformGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.PlatformGroup", 0, Black.Entity.PlatformGroup.ObjectType, null, properties, 0, 224);
+            ObjectType = new ObjectType("Black.Entity.PlatformGroup", 0, Black.Entity.PlatformGroup.ObjectType, Construct, properties, 0, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PlatformGroup();
+        }
 		
     }
 }

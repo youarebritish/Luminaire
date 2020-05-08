@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor.AI.Monster
             var dummy = new SequenceActionAISetupWallWarp();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionAISetupWallWarp", 0, Black.Sequence.Actor.AI.Monster.SequenceActionAISetupWallWarp.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionAISetupWallWarp", 0, Black.Sequence.Actor.AI.Monster.SequenceActionAISetupWallWarp.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Actor.AI.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAISetupWallWarp();
+        }
 		
     }
 }

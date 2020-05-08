@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionRemoveTeam();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionRemoveTeam", 0, Black.Sequence.Action.Level.SequenceActionRemoveTeam.ObjectType, null, properties, 0, 760);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionRemoveTeam", 0, Black.Sequence.Action.Level.SequenceActionRemoveTeam.ObjectType, Construct, properties, 0, 760);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionRemoveTeam();
+        }
 		
     }
 }

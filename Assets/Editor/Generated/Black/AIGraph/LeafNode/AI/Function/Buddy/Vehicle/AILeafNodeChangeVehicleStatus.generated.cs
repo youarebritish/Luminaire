@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy.Vehicle
             var dummy = new AILeafNodeChangeVehicleStatus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.Vehicle.AILeafNodeChangeVehicleStatus", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.Vehicle.AILeafNodeChangeVehicleStatus.ObjectType, null, properties, 0, 88);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.Vehicle.AILeafNodeChangeVehicleStatus", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.Vehicle.AILeafNodeChangeVehicleStatus.ObjectType, Construct, properties, 0, 88);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeChangeVehicleStatus();
+        }
 		
     }
 }

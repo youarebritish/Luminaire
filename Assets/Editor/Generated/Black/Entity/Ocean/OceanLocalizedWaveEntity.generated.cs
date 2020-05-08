@@ -32,7 +32,7 @@ namespace Black.Entity.Ocean
             var dummy = new OceanLocalizedWaveEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Ocean.OceanLocalizedWaveEntity", 0, Black.Entity.Ocean.OceanLocalizedWaveEntity.ObjectType, null, properties, 0, 400);
+            ObjectType = new ObjectType("Black.Entity.Ocean.OceanLocalizedWaveEntity", 0, Black.Entity.Ocean.OceanLocalizedWaveEntity.ObjectType, Construct, properties, 0, 400);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Entity.Ocean
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new OceanLocalizedWaveEntity();
+        }
 		
     }
 }

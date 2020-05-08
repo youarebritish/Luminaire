@@ -32,7 +32,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionPlayPanoramaMovie();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionPlayPanoramaMovie", 0, Black.Sequence.Render.SequenceActionPlayPanoramaMovie.ObjectType, null, properties, 0, 720);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionPlayPanoramaMovie", 0, Black.Sequence.Render.SequenceActionPlayPanoramaMovie.ObjectType, Construct, properties, 0, 720);
         }
 		
         public override ObjectType GetObjectType()
@@ -103,6 +103,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPlayPanoramaMovie();
+        }
 		
     }
 }

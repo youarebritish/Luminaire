@@ -37,7 +37,7 @@ namespace Black.System.TimeLine.TrackItem.Bonamik
             var dummy = new BonamikControlActorRangeTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Bonamik.BonamikControlActorRangeTrackItem", 0, Black.System.TimeLine.TrackItem.Bonamik.BonamikControlActorRangeTrackItem.ObjectType, null, properties, 0, 248);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Bonamik.BonamikControlActorRangeTrackItem", 0, Black.System.TimeLine.TrackItem.Bonamik.BonamikControlActorRangeTrackItem.ObjectType, Construct, properties, 0, 248);
         }
 		
         public override ObjectType GetObjectType()
@@ -86,6 +86,11 @@ namespace Black.System.TimeLine.TrackItem.Bonamik
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BonamikControlActorRangeTrackItem();
+        }
 		
     }
 }

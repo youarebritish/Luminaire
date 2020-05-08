@@ -20,7 +20,7 @@ namespace Black.Entity.Menu.TimedQuest
             var dummy = new TimedQuestMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.TimedQuest.TimedQuestMenuEntity", 0, Black.Entity.Menu.TimedQuest.TimedQuestMenuEntity.ObjectType, null, properties, 0, 720);
+            ObjectType = new ObjectType("Black.Entity.Menu.TimedQuest.TimedQuestMenuEntity", 0, Black.Entity.Menu.TimedQuest.TimedQuestMenuEntity.ObjectType, Construct, properties, 0, 720);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu.TimedQuest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TimedQuestMenuEntity();
+        }
 		
     }
 }

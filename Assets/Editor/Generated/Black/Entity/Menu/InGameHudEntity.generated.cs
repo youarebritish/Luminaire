@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new InGameHudEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.InGameHudEntity", 0, Black.Entity.Menu.InGameHudEntity.ObjectType, null, properties, 0, 1280);
+            ObjectType = new ObjectType("Black.Entity.Menu.InGameHudEntity", 0, Black.Entity.Menu.InGameHudEntity.ObjectType, Construct, properties, 0, 1280);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InGameHudEntity();
+        }
 		
     }
 }

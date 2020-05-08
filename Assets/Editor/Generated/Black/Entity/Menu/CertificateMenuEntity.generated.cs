@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new CertificateMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.CertificateMenuEntity", 0, Black.Entity.Menu.CertificateMenuEntity.ObjectType, null, properties, 0, 1872);
+            ObjectType = new ObjectType("Black.Entity.Menu.CertificateMenuEntity", 0, Black.Entity.Menu.CertificateMenuEntity.ObjectType, Construct, properties, 0, 1872);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CertificateMenuEntity();
+        }
 		
     }
 }

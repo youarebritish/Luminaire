@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new EndCreditPhotoMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.EndCreditPhotoMenuEntity", 0, Black.Entity.Menu.EndCreditPhotoMenuEntity.ObjectType, null, properties, 0, 1280);
+            ObjectType = new ObjectType("Black.Entity.Menu.EndCreditPhotoMenuEntity", 0, Black.Entity.Menu.EndCreditPhotoMenuEntity.ObjectType, Construct, properties, 0, 1280);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new EndCreditPhotoMenuEntity();
+        }
 		
     }
 }

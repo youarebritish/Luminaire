@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new CommDialogMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.CommDialogMenuEntity", 0, Black.Entity.Menu.CommDialogMenuEntity.ObjectType, null, properties, 0, 736);
+            ObjectType = new ObjectType("Black.Entity.Menu.CommDialogMenuEntity", 0, Black.Entity.Menu.CommDialogMenuEntity.ObjectType, Construct, properties, 0, 736);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CommDialogMenuEntity();
+        }
 		
     }
 }

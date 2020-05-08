@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.TimeLine.Actor
             var dummy = new SequenceActionTimeLineMovementTrackElementRotationCurve();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineMovementTrackElementRotationCurve", 0, Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineMovementTrackElementRotationCurve.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineMovementTrackElementRotationCurve", 0, Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineMovementTrackElementRotationCurve.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Action.TimeLine.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineMovementTrackElementRotationCurve();
+        }
 		
     }
 }

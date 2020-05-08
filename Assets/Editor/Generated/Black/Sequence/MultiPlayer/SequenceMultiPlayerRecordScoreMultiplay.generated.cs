@@ -26,7 +26,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerRecordScoreMultiplay();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerRecordScoreMultiplay", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerRecordScoreMultiplay.ObjectType, null, properties, 0, 7656);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerRecordScoreMultiplay", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerRecordScoreMultiplay.ObjectType, Construct, properties, 0, 7656);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerRecordScoreMultiplay();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
             var dummy = new SequenceActionExecMonsterModeForceGambit();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecMonsterModeForceGambit", 0, Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecMonsterModeForceGambit.ObjectType, null, properties, 0, 1240);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecMonsterModeForceGambit", 0, Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecMonsterModeForceGambit.ObjectType, Construct, properties, 0, 1240);
         }
 		
         public override ObjectType GetObjectType()
@@ -130,6 +130,11 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionExecMonsterModeForceGambit();
+        }
 		
     }
 }

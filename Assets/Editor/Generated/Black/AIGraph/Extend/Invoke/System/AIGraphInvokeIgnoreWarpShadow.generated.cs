@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.System
             var dummy = new AIGraphInvokeIgnoreWarpShadow();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnoreWarpShadow", 0, Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnoreWarpShadow.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnoreWarpShadow", 0, Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnoreWarpShadow.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeIgnoreWarpShadow();
+        }
 		
     }
 }

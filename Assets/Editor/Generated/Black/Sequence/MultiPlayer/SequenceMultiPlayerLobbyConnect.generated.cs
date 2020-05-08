@@ -31,7 +31,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerLobbyConnect();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerLobbyConnect", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerLobbyConnect.ObjectType, null, properties, 0, 1120);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerLobbyConnect", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerLobbyConnect.ObjectType, Construct, properties, 0, 1120);
         }
 		
         public override ObjectType GetObjectType()
@@ -122,6 +122,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerLobbyConnect();
+        }
 		
     }
 }

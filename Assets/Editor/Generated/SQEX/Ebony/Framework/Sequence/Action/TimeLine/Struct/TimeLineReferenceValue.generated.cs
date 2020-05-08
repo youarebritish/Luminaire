@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct
             var dummy = new TimeLineReferenceValue();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue", 0, SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue", 0, SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TimeLineReferenceValue();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Entity.Data.Physics
             var dummy = new VehicleTorqueCurveDataItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Physics.VehicleTorqueCurveDataItem", 0, Black.Entity.Data.Physics.VehicleTorqueCurveDataItem.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("Black.Entity.Data.Physics.VehicleTorqueCurveDataItem", 0, Black.Entity.Data.Physics.VehicleTorqueCurveDataItem.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Entity.Data.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VehicleTorqueCurveDataItem();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
             var dummy = new InGameCameraTurnTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.InGameCameraTurnTrackItem", 0, Black.System.TimeLine.TrackItem.Camera.InGameCameraTurnTrackItem.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.InGameCameraTurnTrackItem", 0, Black.System.TimeLine.TrackItem.Camera.InGameCameraTurnTrackItem.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.System.TimeLine.TrackItem.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InGameCameraTurnTrackItem();
+        }
 		
     }
 }

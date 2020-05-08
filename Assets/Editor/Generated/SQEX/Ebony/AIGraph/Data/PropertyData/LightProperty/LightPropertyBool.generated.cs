@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty
             var dummy = new LightPropertyBool();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty.LightPropertyBool", 0, SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty.LightPropertyBool.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty.LightPropertyBool", 0, SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty.LightPropertyBool.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace SQEX.Ebony.AIGraph.Data.PropertyData.LightProperty
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LightPropertyBool();
+        }
 		
     }
 }

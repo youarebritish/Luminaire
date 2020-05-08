@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new FishingRodSelectMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.FishingRodSelectMenuEntity", 0, Black.Entity.Menu.FishingRodSelectMenuEntity.ObjectType, null, properties, 0, 608);
+            ObjectType = new ObjectType("Black.Entity.Menu.FishingRodSelectMenuEntity", 0, Black.Entity.Menu.FishingRodSelectMenuEntity.ObjectType, Construct, properties, 0, 608);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new FishingRodSelectMenuEntity();
+        }
 		
     }
 }

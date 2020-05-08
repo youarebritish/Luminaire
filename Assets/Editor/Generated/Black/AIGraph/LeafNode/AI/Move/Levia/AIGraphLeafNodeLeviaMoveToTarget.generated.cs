@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.AI.Move.Levia
             var dummy = new AIGraphLeafNodeLeviaMoveToTarget();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.Levia.AIGraphLeafNodeLeviaMoveToTarget", 0, Black.AIGraph.LeafNode.AI.Move.Levia.AIGraphLeafNodeLeviaMoveToTarget.ObjectType, null, properties, 0, 1112);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.Levia.AIGraphLeafNodeLeviaMoveToTarget", 0, Black.AIGraph.LeafNode.AI.Move.Levia.AIGraphLeafNodeLeviaMoveToTarget.ObjectType, Construct, properties, 0, 1112);
         }
 		
         public override ObjectType GetObjectType()
@@ -174,6 +174,11 @@ namespace Black.AIGraph.LeafNode.AI.Move.Levia
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphLeafNodeLeviaMoveToTarget();
+        }
 		
     }
 }

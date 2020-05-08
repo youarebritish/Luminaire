@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
             var dummy = new AIGraphNodeBTDecoratorLoop();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorLoop", 0, SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorLoop.ObjectType, null, properties, 0, 240);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorLoop", 0, SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorLoop.ObjectType, Construct, properties, 0, 240);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeBTDecoratorLoop();
+        }
 		
     }
 }

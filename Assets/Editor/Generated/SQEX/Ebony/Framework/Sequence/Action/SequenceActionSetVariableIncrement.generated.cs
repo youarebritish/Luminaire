@@ -29,7 +29,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             var dummy = new SequenceActionSetVariableIncrement();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetVariableIncrement", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetVariableIncrement.ObjectType, null, properties, 0, 736);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetVariableIncrement", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetVariableIncrement.ObjectType, Construct, properties, 0, 736);
         }
 		
         public override ObjectType GetObjectType()
@@ -95,6 +95,11 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetVariableIncrement();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionInteractionTargetModeMask();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionInteractionTargetModeMask", 0, Black.Sequence.Actor.SequenceActionInteractionTargetModeMask.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionInteractionTargetModeMask", 0, Black.Sequence.Actor.SequenceActionInteractionTargetModeMask.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionInteractionTargetModeMask();
+        }
 		
     }
 }

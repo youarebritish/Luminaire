@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Collision
             var dummy = new AIGraphSetBGCollisionState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Collision.AIGraphSetBGCollisionState", 0, Black.AIGraph.Extend.Invoke.Collision.AIGraphSetBGCollisionState.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Collision.AIGraphSetBGCollisionState", 0, Black.AIGraph.Extend.Invoke.Collision.AIGraphSetBGCollisionState.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Collision
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphSetBGCollisionState();
+        }
 		
     }
 }

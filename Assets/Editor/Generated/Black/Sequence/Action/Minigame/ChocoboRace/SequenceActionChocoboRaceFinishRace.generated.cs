@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Minigame.ChocoboRace
             var dummy = new SequenceActionChocoboRaceFinishRace();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.ChocoboRace.SequenceActionChocoboRaceFinishRace", 0, Black.Sequence.Action.Minigame.ChocoboRace.SequenceActionChocoboRaceFinishRace.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.ChocoboRace.SequenceActionChocoboRaceFinishRace", 0, Black.Sequence.Action.Minigame.ChocoboRace.SequenceActionChocoboRaceFinishRace.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Minigame.ChocoboRace
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionChocoboRaceFinishRace();
+        }
 		
     }
 }

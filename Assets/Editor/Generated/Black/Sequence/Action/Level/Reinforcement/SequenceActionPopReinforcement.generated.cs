@@ -41,7 +41,7 @@ namespace Black.Sequence.Action.Level.Reinforcement
             var dummy = new SequenceActionPopReinforcement();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionPopReinforcement", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionPopReinforcement.ObjectType, null, properties, 0, 912);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionPopReinforcement", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionPopReinforcement.ObjectType, Construct, properties, 0, 912);
         }
 		
         public override ObjectType GetObjectType()
@@ -125,6 +125,11 @@ namespace Black.Sequence.Action.Level.Reinforcement
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPopReinforcement();
+        }
 		
     }
 }

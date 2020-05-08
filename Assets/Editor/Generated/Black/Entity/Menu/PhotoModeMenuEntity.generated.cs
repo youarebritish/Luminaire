@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new PhotoModeMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.PhotoModeMenuEntity", 0, Black.Entity.Menu.PhotoModeMenuEntity.ObjectType, null, properties, 0, 592);
+            ObjectType = new ObjectType("Black.Entity.Menu.PhotoModeMenuEntity", 0, Black.Entity.Menu.PhotoModeMenuEntity.ObjectType, Construct, properties, 0, 592);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PhotoModeMenuEntity();
+        }
 		
     }
 }

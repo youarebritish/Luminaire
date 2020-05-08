@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionSetSpecularLightProbeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetSpecularLightProbeEntity", 0, Black.Sequence.Action.Render.SequenceActionSetSpecularLightProbeEntity.ObjectType, null, properties, 0, 632);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetSpecularLightProbeEntity", 0, Black.Sequence.Action.Render.SequenceActionSetSpecularLightProbeEntity.ObjectType, Construct, properties, 0, 632);
         }
 		
         public override ObjectType GetObjectType()
@@ -80,6 +80,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetSpecularLightProbeEntity();
+        }
 		
     }
 }

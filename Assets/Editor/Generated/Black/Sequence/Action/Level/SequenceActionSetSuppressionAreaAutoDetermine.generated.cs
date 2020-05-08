@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionSetSuppressionAreaAutoDetermine();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaAutoDetermine", 0, Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaAutoDetermine.ObjectType, null, properties, 0, 632);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaAutoDetermine", 0, Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaAutoDetermine.ObjectType, Construct, properties, 0, 632);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetSuppressionAreaAutoDetermine();
+        }
 		
     }
 }

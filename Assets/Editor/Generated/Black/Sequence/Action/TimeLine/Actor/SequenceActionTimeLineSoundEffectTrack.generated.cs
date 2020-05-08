@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.TimeLine.Actor
             var dummy = new SequenceActionTimeLineSoundEffectTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundEffectTrack", 0, Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundEffectTrack.ObjectType, null, properties, 0, 432);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundEffectTrack", 0, Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundEffectTrack.ObjectType, Construct, properties, 0, 432);
         }
 		
         public override ObjectType GetObjectType()
@@ -61,6 +61,11 @@ namespace Black.Sequence.Action.TimeLine.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineSoundEffectTrack();
+        }
 		
     }
 }

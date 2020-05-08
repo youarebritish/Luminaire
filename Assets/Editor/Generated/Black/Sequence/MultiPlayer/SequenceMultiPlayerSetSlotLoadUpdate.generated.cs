@@ -27,7 +27,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerSetSlotLoadUpdate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerSetSlotLoadUpdate", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerSetSlotLoadUpdate.ObjectType, null, properties, 0, 872);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerSetSlotLoadUpdate", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerSetSlotLoadUpdate.ObjectType, Construct, properties, 0, 872);
         }
 		
         public override ObjectType GetObjectType()
@@ -103,6 +103,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerSetSlotLoadUpdate();
+        }
 		
     }
 }

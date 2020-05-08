@@ -32,7 +32,7 @@ namespace Black.AIGraph.LeafNode.Body.Layer
             var dummy = new BodyLeafNodeActivateLayerAnimation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Layer.BodyLeafNodeActivateLayerAnimation", 0, Black.AIGraph.LeafNode.Body.Layer.BodyLeafNodeActivateLayerAnimation.ObjectType, null, properties, 0, 688);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Layer.BodyLeafNodeActivateLayerAnimation", 0, Black.AIGraph.LeafNode.Body.Layer.BodyLeafNodeActivateLayerAnimation.ObjectType, Construct, properties, 0, 688);
         }
 		
         public override ObjectType GetObjectType()
@@ -132,6 +132,11 @@ namespace Black.AIGraph.LeafNode.Body.Layer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyLeafNodeActivateLayerAnimation();
+        }
 		
     }
 }

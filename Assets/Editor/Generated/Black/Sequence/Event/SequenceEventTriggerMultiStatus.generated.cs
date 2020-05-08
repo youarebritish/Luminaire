@@ -32,7 +32,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceEventTriggerMultiStatus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventTriggerMultiStatus", 0, Black.Sequence.Event.SequenceEventTriggerMultiStatus.ObjectType, null, properties, 0, 1256);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventTriggerMultiStatus", 0, Black.Sequence.Event.SequenceEventTriggerMultiStatus.ObjectType, Construct, properties, 0, 1256);
         }
 		
         public override ObjectType GetObjectType()
@@ -118,6 +118,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventTriggerMultiStatus();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionCarbuncleNamePD();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionCarbuncleNamePD", 0, Black.Sequence.Action.System.SequenceActionCarbuncleNamePD.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionCarbuncleNamePD", 0, Black.Sequence.Action.System.SequenceActionCarbuncleNamePD.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCarbuncleNamePD();
+        }
 		
     }
 }

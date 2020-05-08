@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             var dummy = new SequenceActionTimeLineMotionBlurTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineMotionBlurTrack", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineMotionBlurTrack.ObjectType, null, properties, 0, 344);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineMotionBlurTrack", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineMotionBlurTrack.ObjectType, Construct, properties, 0, 344);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineMotionBlurTrack();
+        }
 		
     }
 }

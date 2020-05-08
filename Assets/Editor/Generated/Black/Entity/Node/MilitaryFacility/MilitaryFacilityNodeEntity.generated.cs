@@ -23,7 +23,7 @@ namespace Black.Entity.Node.MilitaryFacility
             var dummy = new MilitaryFacilityNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.MilitaryFacility.MilitaryFacilityNodeEntity", 0, Black.Entity.Node.MilitaryFacility.MilitaryFacilityNodeEntity.ObjectType, null, properties, 0, 240);
+            ObjectType = new ObjectType("Black.Entity.Node.MilitaryFacility.MilitaryFacilityNodeEntity", 0, Black.Entity.Node.MilitaryFacility.MilitaryFacilityNodeEntity.ObjectType, Construct, properties, 0, 240);
         }
 		
         public override ObjectType GetObjectType()
@@ -56,6 +56,11 @@ namespace Black.Entity.Node.MilitaryFacility
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MilitaryFacilityNodeEntity();
+        }
 		
     }
 }

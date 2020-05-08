@@ -26,7 +26,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             var dummy = new AILeafNodeNoctisContinuousShiftBreak();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeNoctisContinuousShiftBreak", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeNoctisContinuousShiftBreak.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeNoctisContinuousShiftBreak", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeNoctisContinuousShiftBreak.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeNoctisContinuousShiftBreak();
+        }
 		
     }
 }

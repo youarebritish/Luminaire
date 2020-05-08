@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Utility
             var dummy = new SerializableStringArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Utility.SerializableStringArrayItem", 0, SQEX.Ebony.Framework.Utility.SerializableStringArrayItem.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Utility.SerializableStringArrayItem", 0, SQEX.Ebony.Framework.Utility.SerializableStringArrayItem.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace SQEX.Ebony.Framework.Utility
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SerializableStringArrayItem();
+        }
 		
     }
 }

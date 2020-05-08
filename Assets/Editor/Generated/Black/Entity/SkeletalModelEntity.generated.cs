@@ -41,7 +41,7 @@ namespace Black.Entity
             var dummy = new SkeletalModelEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.SkeletalModelEntity", 0, Black.Entity.SkeletalModelEntity.ObjectType, null, properties, 0, 768);
+            ObjectType = new ObjectType("Black.Entity.SkeletalModelEntity", 0, Black.Entity.SkeletalModelEntity.ObjectType, Construct, properties, 0, 768);
         }
 		
         public override ObjectType GetObjectType()
@@ -115,6 +115,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SkeletalModelEntity();
+        }
 		
     }
 }

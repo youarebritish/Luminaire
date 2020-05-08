@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionSetTravelMapKind();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSetTravelMapKind", 0, Black.Sequence.Action.Menu.SequenceActionSetTravelMapKind.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSetTravelMapKind", 0, Black.Sequence.Action.Menu.SequenceActionSetTravelMapKind.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetTravelMapKind();
+        }
 		
     }
 }

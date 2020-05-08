@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level.Corps
             var dummy = new SequenceActionIncorporateTeam();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Corps.SequenceActionIncorporateTeam", 0, Black.Sequence.Action.Level.Corps.SequenceActionIncorporateTeam.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Corps.SequenceActionIncorporateTeam", 0, Black.Sequence.Action.Level.Corps.SequenceActionIncorporateTeam.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Level.Corps
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionIncorporateTeam();
+        }
 		
     }
 }

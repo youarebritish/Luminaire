@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Sequence
             var dummy = new SequenceAction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.SequenceAction", 0, SQEX.Ebony.Framework.Sequence.SequenceAction.ObjectType, null, properties, 0, 176);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.SequenceAction", 0, SQEX.Ebony.Framework.Sequence.SequenceAction.ObjectType, Construct, properties, 0, 176);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace SQEX.Ebony.Framework.Sequence
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceAction();
+        }
 		
     }
 }

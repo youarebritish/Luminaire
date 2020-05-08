@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             var dummy = new AIGraphInvokeChangeTensionSpd();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeTensionSpd", 0, Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeTensionSpd.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeTensionSpd", 0, Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeTensionSpd.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeChangeTensionSpd();
+        }
 		
     }
 }

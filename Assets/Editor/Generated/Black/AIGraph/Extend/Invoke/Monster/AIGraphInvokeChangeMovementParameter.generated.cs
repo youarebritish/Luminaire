@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             var dummy = new AIGraphInvokeChangeMovementParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeMovementParameter", 0, Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeMovementParameter.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeMovementParameter", 0, Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeChangeMovementParameter.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeChangeMovementParameter();
+        }
 		
     }
 }

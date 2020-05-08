@@ -31,7 +31,7 @@ namespace Black.Sequence.Action.Level.BattleArea
             var dummy = new SequenceActionSetBattleAreaEncountCondition();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.BattleArea.SequenceActionSetBattleAreaEncountCondition", 0, Black.Sequence.Action.Level.BattleArea.SequenceActionSetBattleAreaEncountCondition.ObjectType, null, properties, 0, 488);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.BattleArea.SequenceActionSetBattleAreaEncountCondition", 0, Black.Sequence.Action.Level.BattleArea.SequenceActionSetBattleAreaEncountCondition.ObjectType, Construct, properties, 0, 488);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Action.Level.BattleArea
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetBattleAreaEncountCondition();
+        }
 		
     }
 }

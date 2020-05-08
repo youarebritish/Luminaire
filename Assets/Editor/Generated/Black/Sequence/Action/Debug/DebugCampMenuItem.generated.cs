@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new DebugCampMenuItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.DebugCampMenuItem", 0, Black.Sequence.Action.Debug.DebugCampMenuItem.ObjectType, null, properties, 0, 104);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.DebugCampMenuItem", 0, Black.Sequence.Action.Debug.DebugCampMenuItem.ObjectType, Construct, properties, 0, 104);
         }
 		
         public override ObjectType GetObjectType()
@@ -56,6 +56,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DebugCampMenuItem();
+        }
 		
     }
 }

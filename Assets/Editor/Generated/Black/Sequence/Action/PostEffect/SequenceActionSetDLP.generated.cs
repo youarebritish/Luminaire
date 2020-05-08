@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.PostEffect
             var dummy = new SequenceActionSetDLP();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.PostEffect.SequenceActionSetDLP", 0, Black.Sequence.Action.PostEffect.SequenceActionSetDLP.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Action.PostEffect.SequenceActionSetDLP", 0, Black.Sequence.Action.PostEffect.SequenceActionSetDLP.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.PostEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetDLP();
+        }
 		
     }
 }

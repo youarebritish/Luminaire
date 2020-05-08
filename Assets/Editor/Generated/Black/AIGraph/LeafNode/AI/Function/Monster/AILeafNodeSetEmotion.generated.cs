@@ -24,7 +24,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
             var dummy = new AILeafNodeSetEmotion();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeSetEmotion", 0, Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeSetEmotion.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeSetEmotion", 0, Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeSetEmotion.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeSetEmotion();
+        }
 		
     }
 }

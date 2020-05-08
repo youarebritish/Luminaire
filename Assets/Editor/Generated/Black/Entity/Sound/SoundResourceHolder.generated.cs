@@ -21,7 +21,7 @@ namespace Black.Entity.Sound
             var dummy = new SoundResourceHolder();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Sound.SoundResourceHolder", 0, Black.Entity.Sound.SoundResourceHolder.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.Entity.Sound.SoundResourceHolder", 0, Black.Entity.Sound.SoundResourceHolder.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Sound
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SoundResourceHolder();
+        }
 		
     }
 }

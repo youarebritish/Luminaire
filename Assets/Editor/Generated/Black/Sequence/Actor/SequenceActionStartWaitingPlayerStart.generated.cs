@@ -22,7 +22,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionStartWaitingPlayerStart();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionStartWaitingPlayerStart", 0, Black.Sequence.Actor.SequenceActionStartWaitingPlayerStart.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionStartWaitingPlayerStart", 0, Black.Sequence.Actor.SequenceActionStartWaitingPlayerStart.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionStartWaitingPlayerStart();
+        }
 		
     }
 }

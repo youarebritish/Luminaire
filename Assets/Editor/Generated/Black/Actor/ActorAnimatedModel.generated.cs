@@ -20,7 +20,7 @@ namespace Black.Actor
             var dummy = new ActorAnimatedModel();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.ActorAnimatedModel", 0, Black.Actor.ActorAnimatedModel.ObjectType, null, properties, 59, 5952);
+            ObjectType = new ObjectType("Black.Actor.ActorAnimatedModel", 0, Black.Actor.ActorAnimatedModel.ObjectType, Construct, properties, 59, 5952);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorAnimatedModel();
+        }
 		
     }
 }

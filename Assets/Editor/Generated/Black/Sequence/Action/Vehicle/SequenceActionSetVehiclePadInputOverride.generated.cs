@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Vehicle
             var dummy = new SequenceActionSetVehiclePadInputOverride();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Vehicle.SequenceActionSetVehiclePadInputOverride", 0, Black.Sequence.Action.Vehicle.SequenceActionSetVehiclePadInputOverride.ObjectType, null, properties, 0, 984);
+            ObjectType = new ObjectType("Black.Sequence.Action.Vehicle.SequenceActionSetVehiclePadInputOverride", 0, Black.Sequence.Action.Vehicle.SequenceActionSetVehiclePadInputOverride.ObjectType, Construct, properties, 0, 984);
         }
 		
         public override ObjectType GetObjectType()
@@ -107,6 +107,11 @@ namespace Black.Sequence.Action.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetVehiclePadInputOverride();
+        }
 		
     }
 }

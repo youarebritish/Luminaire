@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.TimedQuest
             var dummy = new SequenceActionTimedQuestGetPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimedQuest.SequenceActionTimedQuestGetPoint", 0, Black.Sequence.Action.TimedQuest.SequenceActionTimedQuestGetPoint.ObjectType, null, properties, 0, 632);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimedQuest.SequenceActionTimedQuestGetPoint", 0, Black.Sequence.Action.TimedQuest.SequenceActionTimedQuestGetPoint.ObjectType, Construct, properties, 0, 632);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.TimedQuest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimedQuestGetPoint();
+        }
 		
     }
 }

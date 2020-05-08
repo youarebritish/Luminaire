@@ -22,7 +22,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientSequenceReleaseControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceReleaseControl", 0, Black.AI.Ambient.AmbientSequenceReleaseControl.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceReleaseControl", 0, Black.AI.Ambient.AmbientSequenceReleaseControl.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientSequenceReleaseControl();
+        }
 		
     }
 }

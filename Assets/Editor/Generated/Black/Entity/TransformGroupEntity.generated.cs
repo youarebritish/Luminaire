@@ -20,7 +20,7 @@ namespace Black.Entity
             var dummy = new TransformGroupEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TransformGroupEntity", 0, Black.Entity.TransformGroupEntity.ObjectType, null, properties, 0, 224);
+            ObjectType = new ObjectType("Black.Entity.TransformGroupEntity", 0, Black.Entity.TransformGroupEntity.ObjectType, Construct, properties, 0, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TransformGroupEntity();
+        }
 		
     }
 }

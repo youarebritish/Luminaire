@@ -57,7 +57,7 @@ namespace Black.Sequence.Action.TimeLine.Render
             var dummy = new SequenceActionTimeLineRenderDepthShadowTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineRenderDepthShadowTrack", 0, Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineRenderDepthShadowTrack.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineRenderDepthShadowTrack", 0, Black.Sequence.Action.TimeLine.Render.SequenceActionTimeLineRenderDepthShadowTrack.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -135,6 +135,11 @@ namespace Black.Sequence.Action.TimeLine.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineRenderDepthShadowTrack();
+        }
 		
     }
 }

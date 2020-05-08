@@ -32,7 +32,7 @@ namespace Black.Entity.TPS.FilterNodeEntities
             var dummy = new QueryDistanceFilterNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.QueryDistanceFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.QueryDistanceFilterNodeEntity.ObjectType, null, properties, 0, 344);
+            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.QueryDistanceFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.QueryDistanceFilterNodeEntity.ObjectType, Construct, properties, 0, 344);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Entity.TPS.FilterNodeEntities
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new QueryDistanceFilterNodeEntity();
+        }
 		
     }
 }

@@ -25,7 +25,7 @@ namespace Black.Sequence.Actor.AI.Vehicle
             var dummy = new SequenceActionAIVehicleAircraftGetStatus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleAircraftGetStatus", 0, Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleAircraftGetStatus.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleAircraftGetStatus", 0, Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleAircraftGetStatus.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Actor.AI.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIVehicleAircraftGetStatus();
+        }
 		
     }
 }

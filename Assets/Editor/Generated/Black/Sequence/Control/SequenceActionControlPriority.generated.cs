@@ -22,7 +22,7 @@ namespace Black.Sequence.Control
             var dummy = new SequenceActionControlPriority();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlPriority", 0, Black.Sequence.Control.SequenceActionControlPriority.ObjectType, null, properties, 0, 400);
+            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlPriority", 0, Black.Sequence.Control.SequenceActionControlPriority.ObjectType, Construct, properties, 0, 400);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlPriority();
+        }
 		
     }
 }

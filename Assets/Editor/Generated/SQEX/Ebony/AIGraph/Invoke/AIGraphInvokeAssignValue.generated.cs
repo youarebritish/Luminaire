@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Invoke
             var dummy = new AIGraphInvokeAssignValue();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeAssignValue", 0, SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeAssignValue.ObjectType, null, properties, 0, 136);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeAssignValue", 0, SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeAssignValue.ObjectType, Construct, properties, 0, 136);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace SQEX.Ebony.AIGraph.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeAssignValue();
+        }
 		
     }
 }

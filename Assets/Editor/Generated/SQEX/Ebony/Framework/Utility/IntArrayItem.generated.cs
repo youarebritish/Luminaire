@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Utility
             var dummy = new IntArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Utility.IntArrayItem", 0, SQEX.Ebony.Framework.Utility.IntArrayItem.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Utility.IntArrayItem", 0, SQEX.Ebony.Framework.Utility.IntArrayItem.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace SQEX.Ebony.Framework.Utility
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new IntArrayItem();
+        }
 		
     }
 }

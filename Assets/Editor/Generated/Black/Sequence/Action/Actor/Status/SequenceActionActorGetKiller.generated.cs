@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Actor.Status
             var dummy = new SequenceActionActorGetKiller();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorGetKiller", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorGetKiller.ObjectType, null, properties, 0, 960);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorGetKiller", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorGetKiller.ObjectType, Construct, properties, 0, 960);
         }
 		
         public override ObjectType GetObjectType()
@@ -113,6 +113,11 @@ namespace Black.Sequence.Action.Actor.Status
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetKiller();
+        }
 		
     }
 }

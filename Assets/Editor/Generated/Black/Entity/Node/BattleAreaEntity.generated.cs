@@ -53,7 +53,7 @@ namespace Black.Entity.Node
             var dummy = new BattleAreaEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.BattleAreaEntity", 0, Black.Entity.Node.BattleAreaEntity.ObjectType, null, properties, 0, 512);
+            ObjectType = new ObjectType("Black.Entity.Node.BattleAreaEntity", 0, Black.Entity.Node.BattleAreaEntity.ObjectType, Construct, properties, 0, 512);
         }
 		
         public override ObjectType GetObjectType()
@@ -114,6 +114,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BattleAreaEntity();
+        }
 		
     }
 }

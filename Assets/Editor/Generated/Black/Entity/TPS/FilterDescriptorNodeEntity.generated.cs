@@ -20,7 +20,7 @@ namespace Black.Entity.TPS
             var dummy = new FilterDescriptorNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.FilterDescriptorNodeEntity", 0, Black.Entity.TPS.FilterDescriptorNodeEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.TPS.FilterDescriptorNodeEntity", 0, Black.Entity.TPS.FilterDescriptorNodeEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.Entity.TPS
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new FilterDescriptorNodeEntity();
+        }
 		
     }
 }

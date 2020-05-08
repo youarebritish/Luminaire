@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             var dummy = new AILeafNodeChangeWeaponByTable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeChangeWeaponByTable", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeChangeWeaponByTable.ObjectType, null, properties, 0, 120);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeChangeWeaponByTable", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeChangeWeaponByTable.ObjectType, Construct, properties, 0, 120);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeChangeWeaponByTable();
+        }
 		
     }
 }

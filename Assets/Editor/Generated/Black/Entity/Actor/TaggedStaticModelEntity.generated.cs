@@ -21,7 +21,7 @@ namespace Black.Entity.Actor
             var dummy = new TaggedStaticModelEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Actor.TaggedStaticModelEntity", 0, Black.Entity.Actor.TaggedStaticModelEntity.ObjectType, null, properties, 0, 432);
+            ObjectType = new ObjectType("Black.Entity.Actor.TaggedStaticModelEntity", 0, Black.Entity.Actor.TaggedStaticModelEntity.ObjectType, Construct, properties, 0, 432);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Entity.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TaggedStaticModelEntity();
+        }
 		
     }
 }

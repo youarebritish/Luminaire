@@ -22,7 +22,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientSequenceAction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceAction", 0, Black.AI.Ambient.AmbientSequenceAction.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceAction", 0, Black.AI.Ambient.AmbientSequenceAction.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientSequenceAction();
+        }
 		
     }
 }

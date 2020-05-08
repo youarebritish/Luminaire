@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new StatusMenuEntityEPG();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.StatusMenuEntityEPG", 0, Black.Entity.Menu.StatusMenuEntityEPG.ObjectType, null, properties, 0, 960);
+            ObjectType = new ObjectType("Black.Entity.Menu.StatusMenuEntityEPG", 0, Black.Entity.Menu.StatusMenuEntityEPG.ObjectType, Construct, properties, 0, 960);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new StatusMenuEntityEPG();
+        }
 		
     }
 }

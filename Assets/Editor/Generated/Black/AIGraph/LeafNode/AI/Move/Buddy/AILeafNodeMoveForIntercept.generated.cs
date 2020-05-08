@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.AI.Move.Buddy
             var dummy = new AILeafNodeMoveForIntercept();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeMoveForIntercept", 0, Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeMoveForIntercept.ObjectType, null, properties, 0, 128);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeMoveForIntercept", 0, Black.AIGraph.LeafNode.AI.Move.Buddy.AILeafNodeMoveForIntercept.ObjectType, Construct, properties, 0, 128);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.AIGraph.LeafNode.AI.Move.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeMoveForIntercept();
+        }
 		
     }
 }

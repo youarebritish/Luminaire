@@ -26,7 +26,7 @@ namespace Black.System.TimeLine.TrackItem
             var dummy = new MotionTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.MotionTrackItem", 0, Black.System.TimeLine.TrackItem.MotionTrackItem.ObjectType, null, properties, 0, 176);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.MotionTrackItem", 0, Black.System.TimeLine.TrackItem.MotionTrackItem.ObjectType, Construct, properties, 0, 176);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.System.TimeLine.TrackItem
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MotionTrackItem();
+        }
 		
     }
 }

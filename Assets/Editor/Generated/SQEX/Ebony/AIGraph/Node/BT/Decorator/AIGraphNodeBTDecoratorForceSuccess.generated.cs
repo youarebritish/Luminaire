@@ -20,7 +20,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
             var dummy = new AIGraphNodeBTDecoratorForceSuccess();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorForceSuccess", 0, SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorForceSuccess.ObjectType, null, properties, 0, 200);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorForceSuccess", 0, SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorForceSuccess.ObjectType, Construct, properties, 0, 200);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeBTDecoratorForceSuccess();
+        }
 		
     }
 }

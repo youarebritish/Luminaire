@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionFinishScoreStageNOX();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionFinishScoreStageNOX", 0, Black.Sequence.Action.Menu.SequenceActionFinishScoreStageNOX.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionFinishScoreStageNOX", 0, Black.Sequence.Action.Menu.SequenceActionFinishScoreStageNOX.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionFinishScoreStageNOX();
+        }
 		
     }
 }

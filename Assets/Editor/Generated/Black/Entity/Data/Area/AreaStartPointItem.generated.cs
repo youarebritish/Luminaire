@@ -28,7 +28,7 @@ namespace Black.Entity.Data.Area
             var dummy = new AreaStartPointItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Area.AreaStartPointItem", 0, Black.Entity.Data.Area.AreaStartPointItem.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.Entity.Data.Area.AreaStartPointItem", 0, Black.Entity.Data.Area.AreaStartPointItem.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Entity.Data.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AreaStartPointItem();
+        }
 		
     }
 }

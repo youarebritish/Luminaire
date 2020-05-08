@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Interaction
             var dummy = new SequenceActionInteractionOverrideItemId();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Interaction.SequenceActionInteractionOverrideItemId", 0, Black.Sequence.Action.Interaction.SequenceActionInteractionOverrideItemId.ObjectType, null, properties, 0, 608);
+            ObjectType = new ObjectType("Black.Sequence.Action.Interaction.SequenceActionInteractionOverrideItemId", 0, Black.Sequence.Action.Interaction.SequenceActionInteractionOverrideItemId.ObjectType, Construct, properties, 0, 608);
         }
 		
         public override ObjectType GetObjectType()
@@ -85,6 +85,11 @@ namespace Black.Sequence.Action.Interaction
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionInteractionOverrideItemId();
+        }
 		
     }
 }

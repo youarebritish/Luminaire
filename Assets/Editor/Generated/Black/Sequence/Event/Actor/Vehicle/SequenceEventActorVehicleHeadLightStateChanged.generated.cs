@@ -22,7 +22,7 @@ namespace Black.Sequence.Event.Actor.Vehicle
             var dummy = new SequenceEventActorVehicleHeadLightStateChanged();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleHeadLightStateChanged", 0, Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleHeadLightStateChanged.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleHeadLightStateChanged", 0, Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleHeadLightStateChanged.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Event.Actor.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventActorVehicleHeadLightStateChanged();
+        }
 		
     }
 }

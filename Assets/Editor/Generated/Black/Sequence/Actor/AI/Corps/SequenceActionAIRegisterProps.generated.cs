@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor.AI.Corps
             var dummy = new SequenceActionAIRegisterProps();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Corps.SequenceActionAIRegisterProps", 0, Black.Sequence.Actor.AI.Corps.SequenceActionAIRegisterProps.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Corps.SequenceActionAIRegisterProps", 0, Black.Sequence.Actor.AI.Corps.SequenceActionAIRegisterProps.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Actor.AI.Corps
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIRegisterProps();
+        }
 		
     }
 }

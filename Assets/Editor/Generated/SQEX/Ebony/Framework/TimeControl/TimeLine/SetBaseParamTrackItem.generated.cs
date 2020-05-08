@@ -22,7 +22,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
             var dummy = new SetBaseParamTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.SetBaseParamTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.SetBaseParamTrackItem.ObjectType, null, properties, 0, 128);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.SetBaseParamTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.SetBaseParamTrackItem.ObjectType, Construct, properties, 0, 128);
         }
 		
         public override ObjectType GetObjectType()
@@ -51,6 +51,11 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SetBaseParamTrackItem();
+        }
 		
     }
 }

@@ -25,7 +25,7 @@ namespace Black.System.TimeLine.TrackItem
             var dummy = new MessageTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.MessageTrackItem", 0, Black.System.TimeLine.TrackItem.MessageTrackItem.ObjectType, null, properties, 0, 136);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.MessageTrackItem", 0, Black.System.TimeLine.TrackItem.MessageTrackItem.ObjectType, Construct, properties, 0, 136);
         }
 		
         public override ObjectType GetObjectType()
@@ -57,6 +57,11 @@ namespace Black.System.TimeLine.TrackItem
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MessageTrackItem();
+        }
 		
     }
 }

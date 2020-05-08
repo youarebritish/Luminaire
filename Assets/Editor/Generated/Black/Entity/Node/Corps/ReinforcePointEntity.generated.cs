@@ -24,7 +24,7 @@ namespace Black.Entity.Node.Corps
             var dummy = new ReinforcePointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.Corps.ReinforcePointEntity", 0, Black.Entity.Node.Corps.ReinforcePointEntity.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.Entity.Node.Corps.ReinforcePointEntity", 0, Black.Entity.Node.Corps.ReinforcePointEntity.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Entity.Node.Corps
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ReinforcePointEntity();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Minigame.Colosseum
             var dummy = new SequenceActionColosseumSupportCondition();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSupportCondition", 0, Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSupportCondition.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSupportCondition", 0, Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSupportCondition.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Minigame.Colosseum
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionColosseumSupportCondition();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Actor.Accessory
             var dummy = new SequenceActionActorDeleteClothAll();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorDeleteClothAll", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorDeleteClothAll.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorDeleteClothAll", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorDeleteClothAll.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace Black.Sequence.Action.Actor.Accessory
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorDeleteClothAll();
+        }
 		
     }
 }

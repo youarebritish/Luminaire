@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Invoke.Camera
             var dummy = new AIGraphInvokeRequestResetCombinationCamera();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Camera.AIGraphInvokeRequestResetCombinationCamera", 0, Black.AIGraph.Extend.Invoke.Camera.AIGraphInvokeRequestResetCombinationCamera.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Camera.AIGraphInvokeRequestResetCombinationCamera", 0, Black.AIGraph.Extend.Invoke.Camera.AIGraphInvokeRequestResetCombinationCamera.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Invoke.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeRequestResetCombinationCamera();
+        }
 		
     }
 }

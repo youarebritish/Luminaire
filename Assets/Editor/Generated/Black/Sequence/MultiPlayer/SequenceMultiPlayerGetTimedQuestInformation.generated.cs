@@ -34,7 +34,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerGetTimedQuestInformation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetTimedQuestInformation", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerGetTimedQuestInformation.ObjectType, null, properties, 0, 1392);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetTimedQuestInformation", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerGetTimedQuestInformation.ObjectType, Construct, properties, 0, 1392);
         }
 		
         public override ObjectType GetObjectType()
@@ -139,6 +139,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerGetTimedQuestInformation();
+        }
 		
     }
 }

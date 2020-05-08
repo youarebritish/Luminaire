@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugGetTimer();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugGetTimer", 0, Black.Sequence.Action.Debug.SequenceActionDebugGetTimer.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugGetTimer", 0, Black.Sequence.Action.Debug.SequenceActionDebugGetTimer.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugGetTimer();
+        }
 		
     }
 }

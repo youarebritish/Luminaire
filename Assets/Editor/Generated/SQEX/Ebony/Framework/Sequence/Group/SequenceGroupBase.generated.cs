@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Sequence.Group
             var dummy = new SequenceGroupBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Group.SequenceGroupBase", 0, SQEX.Ebony.Framework.Sequence.Group.SequenceGroupBase.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Group.SequenceGroupBase", 0, SQEX.Ebony.Framework.Sequence.Group.SequenceGroupBase.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace SQEX.Ebony.Framework.Sequence.Group
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceGroupBase();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.Entity.Sound
             var dummy = new StaticSoundEntityPositionItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Sound.StaticSoundEntityPositionItem", 0, Black.Entity.Sound.StaticSoundEntityPositionItem.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.Entity.Sound.StaticSoundEntityPositionItem", 0, Black.Entity.Sound.StaticSoundEntityPositionItem.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Sound
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new StaticSoundEntityPositionItem();
+        }
 		
     }
 }

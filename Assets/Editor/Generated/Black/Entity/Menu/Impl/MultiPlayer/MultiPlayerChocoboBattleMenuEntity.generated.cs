@@ -20,7 +20,7 @@ namespace Black.Entity.Menu.Impl.MultiPlayer
             var dummy = new MultiPlayerChocoboBattleMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerChocoboBattleMenuEntity", 0, Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerChocoboBattleMenuEntity.ObjectType, null, properties, 0, 832);
+            ObjectType = new ObjectType("Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerChocoboBattleMenuEntity", 0, Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerChocoboBattleMenuEntity.ObjectType, Construct, properties, 0, 832);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu.Impl.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MultiPlayerChocoboBattleMenuEntity();
+        }
 		
     }
 }

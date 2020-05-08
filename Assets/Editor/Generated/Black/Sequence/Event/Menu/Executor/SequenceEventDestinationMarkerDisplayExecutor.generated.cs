@@ -24,7 +24,7 @@ namespace Black.Sequence.Event.Menu.Executor
             var dummy = new SequenceEventDestinationMarkerDisplayExecutor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventDestinationMarkerDisplayExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventDestinationMarkerDisplayExecutor.ObjectType, null, properties, 0, 1120);
+            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventDestinationMarkerDisplayExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventDestinationMarkerDisplayExecutor.ObjectType, Construct, properties, 0, 1120);
         }
 		
         public override ObjectType GetObjectType()
@@ -103,6 +103,11 @@ namespace Black.Sequence.Event.Menu.Executor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventDestinationMarkerDisplayExecutor();
+        }
 		
     }
 }

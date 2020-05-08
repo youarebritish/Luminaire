@@ -21,7 +21,7 @@ namespace Black.Entity.Monster
             var dummy = new MonsWallWarpEntityGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Monster.MonsWallWarpEntityGroup", 0, Black.Entity.Monster.MonsWallWarpEntityGroup.ObjectType, null, properties, 0, 224);
+            ObjectType = new ObjectType("Black.Entity.Monster.MonsWallWarpEntityGroup", 0, Black.Entity.Monster.MonsWallWarpEntityGroup.ObjectType, Construct, properties, 0, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MonsWallWarpEntityGroup();
+        }
 		
     }
 }

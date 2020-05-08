@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Behavior
             var dummy = new AIGraphNodeBTBehaviorTray();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Behavior.AIGraphNodeBTBehaviorTray", 0, SQEX.Ebony.AIGraph.Node.BT.Behavior.AIGraphNodeBTBehaviorTray.ObjectType, null, properties, 0, 224);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Behavior.AIGraphNodeBTBehaviorTray", 0, SQEX.Ebony.AIGraph.Node.BT.Behavior.AIGraphNodeBTBehaviorTray.ObjectType, Construct, properties, 0, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -57,6 +57,11 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Behavior
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeBTBehaviorTray();
+        }
 		
     }
 }

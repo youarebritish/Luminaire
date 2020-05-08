@@ -23,7 +23,7 @@ namespace Black.Entity.Data.CharacterEntry
             var dummy = new SummonDirectionRaycastParameters();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters", 0, Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters", 0, Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity.Data.CharacterEntry
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SummonDirectionRaycastParameters();
+        }
 		
     }
 }

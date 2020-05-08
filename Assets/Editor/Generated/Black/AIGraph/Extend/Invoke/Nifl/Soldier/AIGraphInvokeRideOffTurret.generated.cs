@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
             var dummy = new AIGraphInvokeRideOffTurret();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeRideOffTurret", 0, Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeRideOffTurret.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeRideOffTurret", 0, Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeRideOffTurret.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeRideOffTurret();
+        }
 		
     }
 }

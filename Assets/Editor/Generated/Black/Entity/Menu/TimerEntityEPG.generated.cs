@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new TimerEntityEPG();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.TimerEntityEPG", 0, Black.Entity.Menu.TimerEntityEPG.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Entity.Menu.TimerEntityEPG", 0, Black.Entity.Menu.TimerEntityEPG.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TimerEntityEPG();
+        }
 		
     }
 }

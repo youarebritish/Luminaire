@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Entity.Prefab
             var dummy = new Prefab();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.Prefab.Prefab", 0, SQEX.Ebony.Framework.Entity.Prefab.Prefab.ObjectType, null, properties, 8, 592);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.Prefab.Prefab", 0, SQEX.Ebony.Framework.Entity.Prefab.Prefab.ObjectType, Construct, properties, 8, 592);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace SQEX.Ebony.Framework.Entity.Prefab
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new Prefab();
+        }
 		
     }
 }

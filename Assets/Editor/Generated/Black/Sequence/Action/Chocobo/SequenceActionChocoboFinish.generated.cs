@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Chocobo
             var dummy = new SequenceActionChocoboFinish();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Chocobo.SequenceActionChocoboFinish", 0, Black.Sequence.Action.Chocobo.SequenceActionChocoboFinish.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Chocobo.SequenceActionChocoboFinish", 0, Black.Sequence.Action.Chocobo.SequenceActionChocoboFinish.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.Chocobo
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionChocoboFinish();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodeStuckPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeStuckPoint", 0, Black.Actor.Node.ActorNodeStuckPoint.ObjectType, null, properties, 59, 912);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeStuckPoint", 0, Black.Actor.Node.ActorNodeStuckPoint.ObjectType, Construct, properties, 59, 912);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeStuckPoint();
+        }
 		
     }
 }

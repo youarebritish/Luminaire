@@ -32,7 +32,7 @@ namespace Black.Sequence.Operator
             var dummy = new SequenceOperatorCalculateFloatExpression();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorCalculateFloatExpression", 0, Black.Sequence.Operator.SequenceOperatorCalculateFloatExpression.ObjectType, null, properties, 0, 1040);
+            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorCalculateFloatExpression", 0, Black.Sequence.Operator.SequenceOperatorCalculateFloatExpression.ObjectType, Construct, properties, 0, 1040);
         }
 		
         public override ObjectType GetObjectType()
@@ -110,6 +110,11 @@ namespace Black.Sequence.Operator
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorCalculateFloatExpression();
+        }
 		
     }
 }

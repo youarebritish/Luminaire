@@ -26,7 +26,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorChangeSlidingParameterByID();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorChangeSlidingParameterByID", 0, Black.Sequence.Actor.SequenceActionActorChangeSlidingParameterByID.ObjectType, null, properties, 0, 568);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorChangeSlidingParameterByID", 0, Black.Sequence.Actor.SequenceActionActorChangeSlidingParameterByID.ObjectType, Construct, properties, 0, 568);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorChangeSlidingParameterByID();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodeNonWetArea();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeNonWetArea", 0, Black.Actor.Node.ActorNodeNonWetArea.ObjectType, null, properties, 59, 1344);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeNonWetArea", 0, Black.Actor.Node.ActorNodeNonWetArea.ObjectType, Construct, properties, 59, 1344);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeNonWetArea();
+        }
 		
     }
 }

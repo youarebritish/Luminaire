@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Expression.Invoke
             var dummy = new AIGraphExpressionInvokeGetStatusCountDefenseTarget();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.AIGraphExpressionInvokeGetStatusCountDefenseTarget", 0, Black.AIGraph.Extend.Expression.Invoke.AIGraphExpressionInvokeGetStatusCountDefenseTarget.ObjectType, null, properties, 0, 8);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.AIGraphExpressionInvokeGetStatusCountDefenseTarget", 0, Black.AIGraph.Extend.Expression.Invoke.AIGraphExpressionInvokeGetStatusCountDefenseTarget.ObjectType, Construct, properties, 0, 8);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Expression.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphExpressionInvokeGetStatusCountDefenseTarget();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Entity.Material
             var dummy = new MaterialParameterValue4();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Material.MaterialParameterValue4", 0, Black.Entity.Material.MaterialParameterValue4.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.Entity.Material.MaterialParameterValue4", 0, Black.Entity.Material.MaterialParameterValue4.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity.Material
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MaterialParameterValue4();
+        }
 		
     }
 }

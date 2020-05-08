@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.TPS
             var dummy = new TacticalQuerySequence();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TPS.TacticalQuerySequence", 0, Black.Sequence.Action.TPS.TacticalQuerySequence.ObjectType, null, properties, 0, 880);
+            ObjectType = new ObjectType("Black.Sequence.Action.TPS.TacticalQuerySequence", 0, Black.Sequence.Action.TPS.TacticalQuerySequence.ObjectType, Construct, properties, 0, 880);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace Black.Sequence.Action.TPS
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TacticalQuerySequence();
+        }
 		
     }
 }

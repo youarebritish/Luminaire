@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.TimedQuest
             var dummy = new SequenceActionTimedQuestGetTitle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimedQuest.SequenceActionTimedQuestGetTitle", 0, Black.Sequence.Action.TimedQuest.SequenceActionTimedQuestGetTitle.ObjectType, null, properties, 0, 928);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimedQuest.SequenceActionTimedQuestGetTitle", 0, Black.Sequence.Action.TimedQuest.SequenceActionTimedQuestGetTitle.ObjectType, Construct, properties, 0, 928);
         }
 		
         public override ObjectType GetObjectType()
@@ -111,6 +111,11 @@ namespace Black.Sequence.Action.TimedQuest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimedQuestGetTitle();
+        }
 		
     }
 }

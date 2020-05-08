@@ -74,7 +74,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionSelectRolesControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSelectRolesControl", 0, Black.Sequence.Action.Menu.SequenceActionSelectRolesControl.ObjectType, null, properties, 0, 3104);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSelectRolesControl", 0, Black.Sequence.Action.Menu.SequenceActionSelectRolesControl.ObjectType, Construct, properties, 0, 3104);
         }
 		
         public override ObjectType GetObjectType()
@@ -299,6 +299,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSelectRolesControl();
+        }
 		
     }
 }

@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionCheckPlatform();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionCheckPlatform", 0, Black.Sequence.Action.System.SequenceActionCheckPlatform.ObjectType, null, properties, 0, 944);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionCheckPlatform", 0, Black.Sequence.Action.System.SequenceActionCheckPlatform.ObjectType, Construct, properties, 0, 944);
         }
 		
         public override ObjectType GetObjectType()
@@ -113,6 +113,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCheckPlatform();
+        }
 		
     }
 }

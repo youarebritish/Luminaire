@@ -34,7 +34,7 @@ namespace Black.Sequence.Actor.AI.Nifl
             var dummy = new SequenceActionAISetAirCraft();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Nifl.SequenceActionAISetAirCraft", 0, Black.Sequence.Actor.AI.Nifl.SequenceActionAISetAirCraft.ObjectType, null, properties, 0, 512);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Nifl.SequenceActionAISetAirCraft", 0, Black.Sequence.Actor.AI.Nifl.SequenceActionAISetAirCraft.ObjectType, Construct, properties, 0, 512);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace Black.Sequence.Actor.AI.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAISetAirCraft();
+        }
 		
     }
 }

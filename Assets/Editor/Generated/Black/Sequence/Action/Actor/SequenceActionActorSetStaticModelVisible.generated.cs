@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionActorSetStaticModelVisible();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetStaticModelVisible", 0, Black.Sequence.Action.Actor.SequenceActionActorSetStaticModelVisible.ObjectType, null, properties, 0, 488);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetStaticModelVisible", 0, Black.Sequence.Action.Actor.SequenceActionActorSetStaticModelVisible.ObjectType, Construct, properties, 0, 488);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetStaticModelVisible();
+        }
 		
     }
 }

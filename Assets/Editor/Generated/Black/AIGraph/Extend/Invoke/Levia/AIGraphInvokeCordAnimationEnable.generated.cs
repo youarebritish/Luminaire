@@ -25,7 +25,7 @@ namespace Black.AIGraph.Extend.Invoke.Levia
             var dummy = new AIGraphInvokeCordAnimationEnable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Levia.AIGraphInvokeCordAnimationEnable", 0, Black.AIGraph.Extend.Invoke.Levia.AIGraphInvokeCordAnimationEnable.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Levia.AIGraphInvokeCordAnimationEnable", 0, Black.AIGraph.Extend.Invoke.Levia.AIGraphInvokeCordAnimationEnable.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.AIGraph.Extend.Invoke.Levia
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeCordAnimationEnable();
+        }
 		
     }
 }

@@ -28,7 +28,7 @@ namespace Black.Sequence.ScreenEffect
             var dummy = new SequenceActionSetBlurGBuffer();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetBlurGBuffer", 0, Black.Sequence.ScreenEffect.SequenceActionSetBlurGBuffer.ObjectType, null, properties, 0, 648);
+            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetBlurGBuffer", 0, Black.Sequence.ScreenEffect.SequenceActionSetBlurGBuffer.ObjectType, Construct, properties, 0, 648);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.ScreenEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetBlurGBuffer();
+        }
 		
     }
 }

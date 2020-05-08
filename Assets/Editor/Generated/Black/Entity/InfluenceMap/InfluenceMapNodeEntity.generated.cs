@@ -26,7 +26,7 @@ namespace Black.Entity.InfluenceMap
             var dummy = new InfluenceMapNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.InfluenceMap.InfluenceMapNodeEntity", 0, Black.Entity.InfluenceMap.InfluenceMapNodeEntity.ObjectType, null, properties, 0, 240);
+            ObjectType = new ObjectType("Black.Entity.InfluenceMap.InfluenceMapNodeEntity", 0, Black.Entity.InfluenceMap.InfluenceMapNodeEntity.ObjectType, Construct, properties, 0, 240);
         }
 		
         public override ObjectType GetObjectType()
@@ -62,6 +62,11 @@ namespace Black.Entity.InfluenceMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InfluenceMapNodeEntity();
+        }
 		
     }
 }

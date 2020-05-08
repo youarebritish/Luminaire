@@ -23,7 +23,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             var dummy = new AILeafNodeSetPartnerTargetSlot();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetPartnerTargetSlot", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetPartnerTargetSlot.ObjectType, null, properties, 0, 152);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetPartnerTargetSlot", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetPartnerTargetSlot.ObjectType, Construct, properties, 0, 152);
         }
 		
         public override ObjectType GetObjectType()
@@ -63,6 +63,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeSetPartnerTargetSlot();
+        }
 		
     }
 }

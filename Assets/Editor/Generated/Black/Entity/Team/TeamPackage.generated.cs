@@ -20,7 +20,7 @@ namespace Black.Entity.Team
             var dummy = new TeamPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Team.TeamPackage", 0, Black.Entity.Team.TeamPackage.ObjectType, null, properties, 0, 624);
+            ObjectType = new ObjectType("Black.Entity.Team.TeamPackage", 0, Black.Entity.Team.TeamPackage.ObjectType, Construct, properties, 0, 624);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Entity.Team
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TeamPackage();
+        }
 		
     }
 }

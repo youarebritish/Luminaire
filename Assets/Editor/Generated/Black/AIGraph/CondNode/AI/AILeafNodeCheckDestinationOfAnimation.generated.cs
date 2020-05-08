@@ -21,7 +21,7 @@ namespace Black.AIGraph.CondNode.AI
             var dummy = new AILeafNodeCheckDestinationOfAnimation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.CondNode.AI.AILeafNodeCheckDestinationOfAnimation", 0, Black.AIGraph.CondNode.AI.AILeafNodeCheckDestinationOfAnimation.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.AIGraph.CondNode.AI.AILeafNodeCheckDestinationOfAnimation", 0, Black.AIGraph.CondNode.AI.AILeafNodeCheckDestinationOfAnimation.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.AIGraph.CondNode.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeCheckDestinationOfAnimation();
+        }
 		
     }
 }

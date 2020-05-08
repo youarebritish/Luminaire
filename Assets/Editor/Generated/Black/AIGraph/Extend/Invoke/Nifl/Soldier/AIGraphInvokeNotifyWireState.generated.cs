@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
             var dummy = new AIGraphInvokeNotifyWireState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeNotifyWireState", 0, Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeNotifyWireState.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeNotifyWireState", 0, Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeNotifyWireState.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeNotifyWireState();
+        }
 		
     }
 }

@@ -32,7 +32,7 @@ namespace Black.Entity
             var dummy = new HairGroupParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.HairGroupParameter", 0, Black.Entity.HairGroupParameter.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("Black.Entity.HairGroupParameter", 0, Black.Entity.HairGroupParameter.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new HairGroupParameter();
+        }
 		
     }
 }

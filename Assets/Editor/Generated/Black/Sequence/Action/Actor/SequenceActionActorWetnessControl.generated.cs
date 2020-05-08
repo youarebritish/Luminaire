@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionActorWetnessControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorWetnessControl", 0, Black.Sequence.Action.Actor.SequenceActionActorWetnessControl.ObjectType, null, properties, 0, 584);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorWetnessControl", 0, Black.Sequence.Action.Actor.SequenceActionActorWetnessControl.ObjectType, Construct, properties, 0, 584);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorWetnessControl();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.Entity.Node
             var dummy = new TriggerEntityRectangle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.TriggerEntityRectangle", 0, Black.Entity.Node.TriggerEntityRectangle.ObjectType, null, properties, 0, 352);
+            ObjectType = new ObjectType("Black.Entity.Node.TriggerEntityRectangle", 0, Black.Entity.Node.TriggerEntityRectangle.ObjectType, Construct, properties, 0, 352);
         }
 		
         public override ObjectType GetObjectType()
@@ -62,6 +62,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TriggerEntityRectangle();
+        }
 		
     }
 }

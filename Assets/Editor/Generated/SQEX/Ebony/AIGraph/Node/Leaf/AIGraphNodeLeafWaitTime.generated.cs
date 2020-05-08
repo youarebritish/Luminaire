@@ -22,7 +22,7 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
             var dummy = new AIGraphNodeLeafWaitTime();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafWaitTime", 0, SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafWaitTime.ObjectType, null, properties, 0, 128);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafWaitTime", 0, SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafWaitTime.ObjectType, Construct, properties, 0, 128);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeLeafWaitTime();
+        }
 		
     }
 }

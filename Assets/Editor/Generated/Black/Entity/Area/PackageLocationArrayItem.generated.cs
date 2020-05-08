@@ -21,7 +21,7 @@ namespace Black.Entity.Area
             var dummy = new PackageLocationArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Area.PackageLocationArrayItem", 0, Black.Entity.Area.PackageLocationArrayItem.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.Entity.Area.PackageLocationArrayItem", 0, Black.Entity.Area.PackageLocationArrayItem.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PackageLocationArrayItem();
+        }
 		
     }
 }

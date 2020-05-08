@@ -23,7 +23,7 @@ namespace SQEX.Ebony.Framework.Node
             var dummy = new GraphTriggerInputPin();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 0, SQEX.Ebony.Framework.Node.GraphTriggerInputPin.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Node.GraphTriggerInputPin", 0, SQEX.Ebony.Framework.Node.GraphTriggerInputPin.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace SQEX.Ebony.Framework.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new GraphTriggerInputPin();
+        }
 		
     }
 }

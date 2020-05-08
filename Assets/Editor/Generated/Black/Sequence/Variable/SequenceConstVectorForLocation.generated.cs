@@ -20,7 +20,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceConstVectorForLocation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstVectorForLocation", 0, Black.Sequence.Variable.SequenceConstVectorForLocation.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstVectorForLocation", 0, Black.Sequence.Variable.SequenceConstVectorForLocation.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstVectorForLocation();
+        }
 		
     }
 }

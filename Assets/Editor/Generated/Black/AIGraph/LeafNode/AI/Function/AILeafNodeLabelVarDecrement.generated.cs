@@ -23,7 +23,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
             var dummy = new AILeafNodeLabelVarDecrement();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeLabelVarDecrement", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeLabelVarDecrement.ObjectType, null, properties, 0, 176);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeLabelVarDecrement", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeLabelVarDecrement.ObjectType, Construct, properties, 0, 176);
         }
 		
         public override ObjectType GetObjectType()
@@ -63,6 +63,11 @@ namespace Black.AIGraph.LeafNode.AI.Function
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeLabelVarDecrement();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new TPSQueryCommunicator();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.TPSQueryCommunicator", 0, Black.MultiPlayer.TPSQueryCommunicator.ObjectType, null, properties, 5, 11312);
+            ObjectType = new ObjectType("Black.MultiPlayer.TPSQueryCommunicator", 0, Black.MultiPlayer.TPSQueryCommunicator.ObjectType, Construct, properties, 5, 11312);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TPSQueryCommunicator();
+        }
 		
     }
 }

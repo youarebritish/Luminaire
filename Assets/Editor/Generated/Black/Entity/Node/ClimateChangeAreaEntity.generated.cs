@@ -29,7 +29,7 @@ namespace Black.Entity.Node
             var dummy = new ClimateChangeAreaEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.ClimateChangeAreaEntity", 0, Black.Entity.Node.ClimateChangeAreaEntity.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Entity.Node.ClimateChangeAreaEntity", 0, Black.Entity.Node.ClimateChangeAreaEntity.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ClimateChangeAreaEntity();
+        }
 		
     }
 }

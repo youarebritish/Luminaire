@@ -23,7 +23,7 @@ namespace Black.Entity.Node
             var dummy = new StrongPointNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.StrongPointNodeEntity", 0, Black.Entity.Node.StrongPointNodeEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.Node.StrongPointNodeEntity", 0, Black.Entity.Node.StrongPointNodeEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new StrongPointNodeEntity();
+        }
 		
     }
 }

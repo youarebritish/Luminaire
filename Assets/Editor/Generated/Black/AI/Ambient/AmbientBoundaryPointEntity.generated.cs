@@ -20,7 +20,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientBoundaryPointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientBoundaryPointEntity", 0, Black.AI.Ambient.AmbientBoundaryPointEntity.ObjectType, null, properties, 0, 256);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientBoundaryPointEntity", 0, Black.AI.Ambient.AmbientBoundaryPointEntity.ObjectType, Construct, properties, 0, 256);
         }
 		
         public override ObjectType GetObjectType()
@@ -47,6 +47,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientBoundaryPointEntity();
+        }
 		
     }
 }

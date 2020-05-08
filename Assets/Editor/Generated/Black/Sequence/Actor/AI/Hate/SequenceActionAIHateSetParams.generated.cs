@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor.AI.Hate
             var dummy = new SequenceActionAIHateSetParams();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Hate.SequenceActionAIHateSetParams", 0, Black.Sequence.Actor.AI.Hate.SequenceActionAIHateSetParams.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Hate.SequenceActionAIHateSetParams", 0, Black.Sequence.Actor.AI.Hate.SequenceActionAIHateSetParams.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -69,6 +69,11 @@ namespace Black.Sequence.Actor.AI.Hate
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIHateSetParams();
+        }
 		
     }
 }

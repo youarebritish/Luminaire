@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionUpdateDinerMapIcon();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionUpdateDinerMapIcon", 0, Black.Sequence.Action.Level.SequenceActionUpdateDinerMapIcon.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionUpdateDinerMapIcon", 0, Black.Sequence.Action.Level.SequenceActionUpdateDinerMapIcon.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionUpdateDinerMapIcon();
+        }
 		
     }
 }

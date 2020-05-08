@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             var dummy = new SequenceActionTimeLineVWSharpenFilterTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVWSharpenFilterTrack", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVWSharpenFilterTrack.ObjectType, null, properties, 0, 328);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVWSharpenFilterTrack", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVWSharpenFilterTrack.ObjectType, Construct, properties, 0, 328);
         }
 		
         public override ObjectType GetObjectType()
@@ -62,6 +62,11 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineVWSharpenFilterTrack();
+        }
 		
     }
 }

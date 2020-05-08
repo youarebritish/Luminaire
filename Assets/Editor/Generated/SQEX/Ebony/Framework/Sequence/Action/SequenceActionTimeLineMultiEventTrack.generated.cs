@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             var dummy = new SequenceActionTimeLineMultiEventTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionTimeLineMultiEventTrack", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionTimeLineMultiEventTrack.ObjectType, null, properties, 0, 240);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionTimeLineMultiEventTrack", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionTimeLineMultiEventTrack.ObjectType, Construct, properties, 0, 240);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineMultiEventTrack();
+        }
 		
     }
 }

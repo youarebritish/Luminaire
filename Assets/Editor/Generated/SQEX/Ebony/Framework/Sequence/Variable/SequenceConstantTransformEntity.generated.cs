@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
             var dummy = new SequenceConstantTransformEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstantTransformEntity", 0, SQEX.Ebony.Framework.Sequence.Variable.SequenceConstantTransformEntity.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstantTransformEntity", 0, SQEX.Ebony.Framework.Sequence.Variable.SequenceConstantTransformEntity.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstantTransformEntity();
+        }
 		
     }
 }

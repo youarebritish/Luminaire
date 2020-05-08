@@ -24,7 +24,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
             var dummy = new AILeafNodeAreaSearch();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeAreaSearch", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeAreaSearch.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeAreaSearch", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeAreaSearch.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.AIGraph.LeafNode.AI.Function
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeAreaSearch();
+        }
 		
     }
 }

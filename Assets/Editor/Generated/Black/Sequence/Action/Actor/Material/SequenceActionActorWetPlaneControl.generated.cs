@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Actor.Material
             var dummy = new SequenceActionActorWetPlaneControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Material.SequenceActionActorWetPlaneControl", 0, Black.Sequence.Action.Actor.Material.SequenceActionActorWetPlaneControl.ObjectType, null, properties, 0, 592);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Material.SequenceActionActorWetPlaneControl", 0, Black.Sequence.Action.Actor.Material.SequenceActionActorWetPlaneControl.ObjectType, Construct, properties, 0, 592);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.Actor.Material
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorWetPlaneControl();
+        }
 		
     }
 }

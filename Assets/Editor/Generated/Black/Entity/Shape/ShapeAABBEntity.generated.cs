@@ -21,7 +21,7 @@ namespace Black.Entity.Shape
             var dummy = new ShapeAABBEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Shape.ShapeAABBEntity", 0, Black.Entity.Shape.ShapeAABBEntity.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.Entity.Shape.ShapeAABBEntity", 0, Black.Entity.Shape.ShapeAABBEntity.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Shape
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ShapeAABBEntity();
+        }
 		
     }
 }

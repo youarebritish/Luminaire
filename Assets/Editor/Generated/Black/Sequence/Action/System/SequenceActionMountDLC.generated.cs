@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionMountDLC();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionMountDLC", 0, Black.Sequence.Action.System.SequenceActionMountDLC.ObjectType, null, properties, 0, 680);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionMountDLC", 0, Black.Sequence.Action.System.SequenceActionMountDLC.ObjectType, Construct, properties, 0, 680);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionMountDLC();
+        }
 		
     }
 }

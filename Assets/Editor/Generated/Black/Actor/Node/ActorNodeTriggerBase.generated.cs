@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodeTriggerBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeTriggerBase", 0, Black.Actor.Node.ActorNodeTriggerBase.ObjectType, null, properties, 59, 1184);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeTriggerBase", 0, Black.Actor.Node.ActorNodeTriggerBase.ObjectType, Construct, properties, 59, 1184);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeTriggerBase();
+        }
 		
     }
 }

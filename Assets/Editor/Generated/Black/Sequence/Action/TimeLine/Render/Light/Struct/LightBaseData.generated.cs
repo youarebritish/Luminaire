@@ -44,7 +44,7 @@ namespace Black.Sequence.Action.TimeLine.Render.Light.Struct
             var dummy = new LightBaseData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData", 0, Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData.ObjectType, null, properties, 0, 112);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData", 0, Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData.ObjectType, Construct, properties, 0, 112);
         }
 		
         public override ObjectType GetObjectType()
@@ -92,6 +92,11 @@ namespace Black.Sequence.Action.TimeLine.Render.Light.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LightBaseData();
+        }
 		
     }
 }

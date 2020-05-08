@@ -22,7 +22,7 @@ namespace Black.Entity.Node
             var dummy = new WireHookPointNodeEntityGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.WireHookPointNodeEntityGroup", 0, Black.Entity.Node.WireHookPointNodeEntityGroup.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.Node.WireHookPointNodeEntityGroup", 0, Black.Entity.Node.WireHookPointNodeEntityGroup.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WireHookPointNodeEntityGroup();
+        }
 		
     }
 }

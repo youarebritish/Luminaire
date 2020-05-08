@@ -38,7 +38,7 @@ namespace Black.Entity.Area
             var dummy = new MapPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Area.MapPackage", 0, Black.Entity.Area.MapPackage.ObjectType, null, properties, 0, 848);
+            ObjectType = new ObjectType("Black.Entity.Area.MapPackage", 0, Black.Entity.Area.MapPackage.ObjectType, Construct, properties, 0, 848);
         }
 		
         public override ObjectType GetObjectType()
@@ -102,6 +102,11 @@ namespace Black.Entity.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MapPackage();
+        }
 		
     }
 }

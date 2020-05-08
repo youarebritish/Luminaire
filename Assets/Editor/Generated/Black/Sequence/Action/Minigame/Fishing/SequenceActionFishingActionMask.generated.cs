@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Minigame.Fishing
             var dummy = new SequenceActionFishingActionMask();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.Fishing.SequenceActionFishingActionMask", 0, Black.Sequence.Action.Minigame.Fishing.SequenceActionFishingActionMask.ObjectType, null, properties, 0, 568);
+            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.Fishing.SequenceActionFishingActionMask", 0, Black.Sequence.Action.Minigame.Fishing.SequenceActionFishingActionMask.ObjectType, Construct, properties, 0, 568);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.Minigame.Fishing
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionFishingActionMask();
+        }
 		
     }
 }

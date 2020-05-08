@@ -22,7 +22,7 @@ namespace Black.Sequence.Event.Trigger
             var dummy = new SequenceRemoteEventTriggerWithMatching();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Trigger.SequenceRemoteEventTriggerWithMatching", 0, Black.Sequence.Event.Trigger.SequenceRemoteEventTriggerWithMatching.ObjectType, null, properties, 0, 328);
+            ObjectType = new ObjectType("Black.Sequence.Event.Trigger.SequenceRemoteEventTriggerWithMatching", 0, Black.Sequence.Event.Trigger.SequenceRemoteEventTriggerWithMatching.ObjectType, Construct, properties, 0, 328);
         }
 		
         public override ObjectType GetObjectType()
@@ -61,6 +61,11 @@ namespace Black.Sequence.Event.Trigger
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceRemoteEventTriggerWithMatching();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor.AI.Team
             var dummy = new SequenceActionAddMemberToDebugTeam();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Team.SequenceActionAddMemberToDebugTeam", 0, Black.Sequence.Actor.AI.Team.SequenceActionAddMemberToDebugTeam.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Team.SequenceActionAddMemberToDebugTeam", 0, Black.Sequence.Actor.AI.Team.SequenceActionAddMemberToDebugTeam.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Actor.AI.Team
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAddMemberToDebugTeam();
+        }
 		
     }
 }

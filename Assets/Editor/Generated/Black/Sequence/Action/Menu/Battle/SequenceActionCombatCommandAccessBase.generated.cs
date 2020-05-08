@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Menu.Battle
             var dummy = new SequenceActionCombatCommandAccessBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.Battle.SequenceActionCombatCommandAccessBase", 0, Black.Sequence.Action.Menu.Battle.SequenceActionCombatCommandAccessBase.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.Battle.SequenceActionCombatCommandAccessBase", 0, Black.Sequence.Action.Menu.Battle.SequenceActionCombatCommandAccessBase.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Action.Menu.Battle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCombatCommandAccessBase();
+        }
 		
     }
 }

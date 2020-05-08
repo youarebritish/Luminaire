@@ -23,7 +23,7 @@ namespace Black.Actor.Component.Props.ComponentData
             var dummy = new OilComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Props.ComponentData.OilComponentData", 0, Black.Actor.Component.Props.ComponentData.OilComponentData.ObjectType, null, properties, 0, 80);
+            ObjectType = new ObjectType("Black.Actor.Component.Props.ComponentData.OilComponentData", 0, Black.Actor.Component.Props.ComponentData.OilComponentData.ObjectType, Construct, properties, 0, 80);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Actor.Component.Props.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new OilComponentData();
+        }
 		
     }
 }

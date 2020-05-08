@@ -28,7 +28,7 @@ namespace Black.Entity.Node
             var dummy = new PackageLoadAreaSimpleEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.PackageLoadAreaSimpleEntity", 0, Black.Entity.Node.PackageLoadAreaSimpleEntity.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Entity.Node.PackageLoadAreaSimpleEntity", 0, Black.Entity.Node.PackageLoadAreaSimpleEntity.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PackageLoadAreaSimpleEntity();
+        }
 		
     }
 }

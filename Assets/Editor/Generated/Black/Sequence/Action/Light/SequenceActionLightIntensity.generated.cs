@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Light
             var dummy = new SequenceActionLightIntensity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Light.SequenceActionLightIntensity", 0, Black.Sequence.Action.Light.SequenceActionLightIntensity.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Action.Light.SequenceActionLightIntensity", 0, Black.Sequence.Action.Light.SequenceActionLightIntensity.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Action.Light
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionLightIntensity();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.AIGraph.LeafNode.AI.TPS
             var dummy = new AILeafNodeTPSOrbit();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.TPS.AILeafNodeTPSOrbit", 0, Black.AIGraph.LeafNode.AI.TPS.AILeafNodeTPSOrbit.ObjectType, null, properties, 0, 832);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.TPS.AILeafNodeTPSOrbit", 0, Black.AIGraph.LeafNode.AI.TPS.AILeafNodeTPSOrbit.ObjectType, Construct, properties, 0, 832);
         }
 		
         public override ObjectType GetObjectType()
@@ -139,6 +139,11 @@ namespace Black.AIGraph.LeafNode.AI.TPS
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeTPSOrbit();
+        }
 		
     }
 }

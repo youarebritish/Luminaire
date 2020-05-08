@@ -26,7 +26,7 @@ namespace Black.Sequence.Event.Trigger
             var dummy = new SequenceRemoteEventRequest();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Trigger.SequenceRemoteEventRequest", 0, Black.Sequence.Event.Trigger.SequenceRemoteEventRequest.ObjectType, null, properties, 0, 400);
+            ObjectType = new ObjectType("Black.Sequence.Event.Trigger.SequenceRemoteEventRequest", 0, Black.Sequence.Event.Trigger.SequenceRemoteEventRequest.ObjectType, Construct, properties, 0, 400);
         }
 		
         public override ObjectType GetObjectType()
@@ -72,6 +72,11 @@ namespace Black.Sequence.Event.Trigger
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceRemoteEventRequest();
+        }
 		
     }
 }

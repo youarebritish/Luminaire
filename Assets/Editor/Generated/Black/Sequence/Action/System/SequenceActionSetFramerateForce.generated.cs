@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionSetFramerateForce();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSetFramerateForce", 0, Black.Sequence.Action.System.SequenceActionSetFramerateForce.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSetFramerateForce", 0, Black.Sequence.Action.System.SequenceActionSetFramerateForce.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetFramerateForce();
+        }
 		
     }
 }

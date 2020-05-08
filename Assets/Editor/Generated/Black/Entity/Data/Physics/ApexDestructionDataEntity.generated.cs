@@ -66,7 +66,7 @@ namespace Black.Entity.Data.Physics
             var dummy = new ApexDestructionDataEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Physics.ApexDestructionDataEntity", 0, Black.Entity.Data.Physics.ApexDestructionDataEntity.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Entity.Data.Physics.ApexDestructionDataEntity", 0, Black.Entity.Data.Physics.ApexDestructionDataEntity.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -136,6 +136,11 @@ namespace Black.Entity.Data.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ApexDestructionDataEntity();
+        }
 		
     }
 }

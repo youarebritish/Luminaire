@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new SwfEntryPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.SwfEntryPackage", 0, Black.Entity.Menu.SwfEntryPackage.ObjectType, null, properties, 0, 640);
+            ObjectType = new ObjectType("Black.Entity.Menu.SwfEntryPackage", 0, Black.Entity.Menu.SwfEntryPackage.ObjectType, Construct, properties, 0, 640);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SwfEntryPackage();
+        }
 		
     }
 }

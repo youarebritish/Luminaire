@@ -27,7 +27,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorGetJacketStatus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorGetJacketStatus", 0, Black.Sequence.Actor.SequenceActionActorGetJacketStatus.ObjectType, null, properties, 0, 856);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorGetJacketStatus", 0, Black.Sequence.Actor.SequenceActionActorGetJacketStatus.ObjectType, Construct, properties, 0, 856);
         }
 		
         public override ObjectType GetObjectType()
@@ -104,6 +104,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetJacketStatus();
+        }
 		
     }
 }

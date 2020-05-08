@@ -29,7 +29,7 @@ namespace Black.Sequence.Control
             var dummy = new SequenceActionControlForLoop();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlForLoop", 0, Black.Sequence.Control.SequenceActionControlForLoop.ObjectType, null, properties, 0, 848);
+            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlForLoop", 0, Black.Sequence.Control.SequenceActionControlForLoop.ObjectType, Construct, properties, 0, 848);
         }
 		
         public override ObjectType GetObjectType()
@@ -102,6 +102,11 @@ namespace Black.Sequence.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlForLoop();
+        }
 		
     }
 }

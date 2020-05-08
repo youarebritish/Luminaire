@@ -22,7 +22,7 @@ namespace Black.Sequence.Actor.AI.Team
             var dummy = new SequenceVariableLabeledTeam();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Team.SequenceVariableLabeledTeam", 0, Black.Sequence.Actor.AI.Team.SequenceVariableLabeledTeam.ObjectType, null, properties, 0, 1136);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Team.SequenceVariableLabeledTeam", 0, Black.Sequence.Actor.AI.Team.SequenceVariableLabeledTeam.ObjectType, Construct, properties, 0, 1136);
         }
 		
         public override ObjectType GetObjectType()
@@ -111,6 +111,11 @@ namespace Black.Sequence.Actor.AI.Team
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableLabeledTeam();
+        }
 		
     }
 }

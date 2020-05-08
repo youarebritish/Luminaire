@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionVisualizerControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionVisualizerControl", 0, Black.Sequence.Action.Render.SequenceActionVisualizerControl.ObjectType, null, properties, 0, 728);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionVisualizerControl", 0, Black.Sequence.Action.Render.SequenceActionVisualizerControl.ObjectType, Construct, properties, 0, 728);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionVisualizerControl();
+        }
 		
     }
 }

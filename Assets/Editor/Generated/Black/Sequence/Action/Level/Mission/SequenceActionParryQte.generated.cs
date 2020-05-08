@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Level.Mission
             var dummy = new SequenceActionParryQte();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Mission.SequenceActionParryQte", 0, Black.Sequence.Action.Level.Mission.SequenceActionParryQte.ObjectType, null, properties, 0, 1040);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Mission.SequenceActionParryQte", 0, Black.Sequence.Action.Level.Mission.SequenceActionParryQte.ObjectType, Construct, properties, 0, 1040);
         }
 		
         public override ObjectType GetObjectType()
@@ -121,6 +121,11 @@ namespace Black.Sequence.Action.Level.Mission
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionParryQte();
+        }
 		
     }
 }

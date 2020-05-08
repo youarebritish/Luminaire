@@ -20,7 +20,7 @@ namespace Black.Actor.Create
             var dummy = new ActorTeamCreateSeed();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Create.ActorTeamCreateSeed", 0, Black.Actor.Create.ActorTeamCreateSeed.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.Actor.Create.ActorTeamCreateSeed", 0, Black.Actor.Create.ActorTeamCreateSeed.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.Actor.Create
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorTeamCreateSeed();
+        }
 		
     }
 }

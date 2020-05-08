@@ -32,7 +32,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionSoftwareKeyboard();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSoftwareKeyboard", 0, Black.Sequence.Action.System.SequenceActionSoftwareKeyboard.ObjectType, null, properties, 0, 960);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSoftwareKeyboard", 0, Black.Sequence.Action.System.SequenceActionSoftwareKeyboard.ObjectType, Construct, properties, 0, 960);
         }
 		
         public override ObjectType GetObjectType()
@@ -109,6 +109,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSoftwareKeyboard();
+        }
 		
     }
 }

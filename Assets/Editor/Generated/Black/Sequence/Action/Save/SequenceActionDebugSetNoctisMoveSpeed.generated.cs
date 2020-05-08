@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Save
             var dummy = new SequenceActionDebugSetNoctisMoveSpeed();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionDebugSetNoctisMoveSpeed", 0, Black.Sequence.Action.Save.SequenceActionDebugSetNoctisMoveSpeed.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionDebugSetNoctisMoveSpeed", 0, Black.Sequence.Action.Save.SequenceActionDebugSetNoctisMoveSpeed.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Sequence.Action.Save
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugSetNoctisMoveSpeed();
+        }
 		
     }
 }

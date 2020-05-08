@@ -34,7 +34,7 @@ namespace Black.Sequence.Action.Ecology
             var dummy = new SequenceActionEcologyGetActorInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyGetActorInfo", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyGetActorInfo.ObjectType, null, properties, 0, 1640);
+            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyGetActorInfo", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyGetActorInfo.ObjectType, Construct, properties, 0, 1640);
         }
 		
         public override ObjectType GetObjectType()
@@ -138,6 +138,11 @@ namespace Black.Sequence.Action.Ecology
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEcologyGetActorInfo();
+        }
 		
     }
 }

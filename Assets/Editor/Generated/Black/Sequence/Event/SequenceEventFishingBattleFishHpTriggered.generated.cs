@@ -25,7 +25,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceEventFishingBattleFishHpTriggered();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventFishingBattleFishHpTriggered", 0, Black.Sequence.Event.SequenceEventFishingBattleFishHpTriggered.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventFishingBattleFishHpTriggered", 0, Black.Sequence.Event.SequenceEventFishingBattleFishHpTriggered.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -80,6 +80,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventFishingBattleFishHpTriggered();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Variable.Labeled
             var dummy = new SequenceListTakeOutFromGroupEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.Labeled.SequenceListTakeOutFromGroupEntity", 0, Black.Sequence.Variable.Labeled.SequenceListTakeOutFromGroupEntity.ObjectType, null, properties, 0, 352);
+            ObjectType = new ObjectType("Black.Sequence.Variable.Labeled.SequenceListTakeOutFromGroupEntity", 0, Black.Sequence.Variable.Labeled.SequenceListTakeOutFromGroupEntity.ObjectType, Construct, properties, 0, 352);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Sequence.Variable.Labeled
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceListTakeOutFromGroupEntity();
+        }
 		
     }
 }

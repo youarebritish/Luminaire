@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionFCurve();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionFCurve", 0, Black.Sequence.Action.System.SequenceActionFCurve.ObjectType, null, properties, 0, 800);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionFCurve", 0, Black.Sequence.Action.System.SequenceActionFCurve.ObjectType, Construct, properties, 0, 800);
         }
 		
         public override ObjectType GetObjectType()
@@ -92,6 +92,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionFCurve();
+        }
 		
     }
 }

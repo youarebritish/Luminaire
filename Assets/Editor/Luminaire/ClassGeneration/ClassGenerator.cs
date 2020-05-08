@@ -37,6 +37,7 @@ public static class ClassGenerator
         public string basetype { get; set; }
         public ulong constructFunction_ { get; set; }
         public ulong constructFunction2_ { get; set; }
+        public bool HasConstructor => this.constructFunction2_ != 0;
         public ulong singletonFunction_ { get; set; }
         public SerializedPropertyContainer propertyContainer_ { get; set; }
         public uint functionCount_ { get; set; }
@@ -278,7 +279,7 @@ public static class ClassGenerator
 
         var parsedClassTemplate = Template.Parse(classTemplate);
 
-        if (false)
+        if (true)
         {
             foreach (var objectTypeData in objectTypes)
             {

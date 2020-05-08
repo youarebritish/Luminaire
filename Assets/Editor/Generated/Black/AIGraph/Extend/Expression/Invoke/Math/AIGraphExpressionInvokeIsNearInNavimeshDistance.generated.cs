@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Math
             var dummy = new AIGraphExpressionInvokeIsNearInNavimeshDistance();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.Math.AIGraphExpressionInvokeIsNearInNavimeshDistance", 0, Black.AIGraph.Extend.Expression.Invoke.Math.AIGraphExpressionInvokeIsNearInNavimeshDistance.ObjectType, null, properties, 0, 8);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.Math.AIGraphExpressionInvokeIsNearInNavimeshDistance", 0, Black.AIGraph.Extend.Expression.Invoke.Math.AIGraphExpressionInvokeIsNearInNavimeshDistance.ObjectType, Construct, properties, 0, 8);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Math
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphExpressionInvokeIsNearInNavimeshDistance();
+        }
 		
     }
 }

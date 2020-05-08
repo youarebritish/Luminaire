@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodeMagicThunderPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeMagicThunderPoint", 0, Black.Actor.Node.ActorNodeMagicThunderPoint.ObjectType, null, properties, 59, 928);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeMagicThunderPoint", 0, Black.Actor.Node.ActorNodeMagicThunderPoint.ObjectType, Construct, properties, 59, 928);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeMagicThunderPoint();
+        }
 		
     }
 }

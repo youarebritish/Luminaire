@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.XPEC
             var dummy = new AIGraphNodeLeafResetToPlayerControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.XPEC.AIGraphNodeLeafResetToPlayerControl", 0, Black.AIGraph.LeafNode.AI.Function.XPEC.AIGraphNodeLeafResetToPlayerControl.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.XPEC.AIGraphNodeLeafResetToPlayerControl", 0, Black.AIGraph.LeafNode.AI.Function.XPEC.AIGraphNodeLeafResetToPlayerControl.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.XPEC
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeLeafResetToPlayerControl();
+        }
 		
     }
 }

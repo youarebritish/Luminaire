@@ -31,7 +31,7 @@ namespace SQEX.Ebony.Framework.TimeControl
             var dummy = new AnchorPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.AnchorPoint", 0, SQEX.Ebony.Framework.TimeControl.AnchorPoint.ObjectType, null, properties, 0, 80);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.AnchorPoint", 0, SQEX.Ebony.Framework.TimeControl.AnchorPoint.ObjectType, Construct, properties, 0, 80);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace SQEX.Ebony.Framework.TimeControl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AnchorPoint();
+        }
 		
     }
 }

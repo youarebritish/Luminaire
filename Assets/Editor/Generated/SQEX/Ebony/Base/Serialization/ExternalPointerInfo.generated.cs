@@ -25,7 +25,7 @@ namespace SQEX.Ebony.Base.Serialization
             var dummy = new ExternalPointerInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Base.Serialization.ExternalPointerInfo", 0, SQEX.Ebony.Base.Serialization.ExternalPointerInfo.ObjectType, null, properties, 0, 72);
+            ObjectType = new ObjectType("SQEX.Ebony.Base.Serialization.ExternalPointerInfo", 0, SQEX.Ebony.Base.Serialization.ExternalPointerInfo.ObjectType, Construct, properties, 0, 72);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace SQEX.Ebony.Base.Serialization
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ExternalPointerInfo();
+        }
 		
     }
 }

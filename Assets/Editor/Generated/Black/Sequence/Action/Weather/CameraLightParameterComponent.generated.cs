@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Weather
             var dummy = new CameraLightParameterComponent();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Weather.CameraLightParameterComponent", 0, Black.Sequence.Action.Weather.CameraLightParameterComponent.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.Sequence.Action.Weather.CameraLightParameterComponent", 0, Black.Sequence.Action.Weather.CameraLightParameterComponent.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Sequence.Action.Weather
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CameraLightParameterComponent();
+        }
 		
     }
 }

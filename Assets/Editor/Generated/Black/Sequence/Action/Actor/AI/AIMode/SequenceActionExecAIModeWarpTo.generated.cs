@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
             var dummy = new SequenceActionExecAIModeWarpTo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeWarpTo", 0, Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeWarpTo.ObjectType, null, properties, 0, 1424);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeWarpTo", 0, Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeWarpTo.ObjectType, Construct, properties, 0, 1424);
         }
 		
         public override ObjectType GetObjectType()
@@ -140,6 +140,11 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionExecAIModeWarpTo();
+        }
 		
     }
 }

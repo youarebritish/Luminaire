@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Ecology
             var dummy = new SequenceActionGetAnimalNodeNotification();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionGetAnimalNodeNotification", 0, Black.Sequence.Action.Ecology.SequenceActionGetAnimalNodeNotification.ObjectType, null, properties, 0, 744);
+            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionGetAnimalNodeNotification", 0, Black.Sequence.Action.Ecology.SequenceActionGetAnimalNodeNotification.ObjectType, Construct, properties, 0, 744);
         }
 		
         public override ObjectType GetObjectType()
@@ -95,6 +95,11 @@ namespace Black.Sequence.Action.Ecology
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetAnimalNodeNotification();
+        }
 		
     }
 }

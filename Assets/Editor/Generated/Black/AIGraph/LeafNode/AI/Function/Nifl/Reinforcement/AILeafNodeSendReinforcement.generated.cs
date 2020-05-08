@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement
             var dummy = new AILeafNodeSendReinforcement();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement.AILeafNodeSendReinforcement", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement.AILeafNodeSendReinforcement.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement.AILeafNodeSendReinforcement", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement.AILeafNodeSendReinforcement.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeSendReinforcement();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.Entity
             var dummy = new MergedStaticModelEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.MergedStaticModelEntity", 0, Black.Entity.MergedStaticModelEntity.ObjectType, null, properties, 0, 336);
+            ObjectType = new ObjectType("Black.Entity.MergedStaticModelEntity", 0, Black.Entity.MergedStaticModelEntity.ObjectType, Construct, properties, 0, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -47,6 +47,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MergedStaticModelEntity();
+        }
 		
     }
 }

@@ -102,7 +102,7 @@ namespace Black.Sequence.Variable.Minigame.Fishing
             var dummy = new SequenceVariableFishingSettings();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.Minigame.Fishing.SequenceVariableFishingSettings", 0, Black.Sequence.Variable.Minigame.Fishing.SequenceVariableFishingSettings.ObjectType, null, properties, 0, 752);
+            ObjectType = new ObjectType("Black.Sequence.Variable.Minigame.Fishing.SequenceVariableFishingSettings", 0, Black.Sequence.Variable.Minigame.Fishing.SequenceVariableFishingSettings.ObjectType, Construct, properties, 0, 752);
         }
 		
         public override ObjectType GetObjectType()
@@ -222,6 +222,11 @@ namespace Black.Sequence.Variable.Minigame.Fishing
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableFishingSettings();
+        }
 		
     }
 }

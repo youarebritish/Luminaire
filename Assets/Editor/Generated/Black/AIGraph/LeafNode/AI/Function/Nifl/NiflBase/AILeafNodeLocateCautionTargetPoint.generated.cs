@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase
             var dummy = new AILeafNodeLocateCautionTargetPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase.AILeafNodeLocateCautionTargetPoint", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase.AILeafNodeLocateCautionTargetPoint.ObjectType, null, properties, 0, 880);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase.AILeafNodeLocateCautionTargetPoint", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase.AILeafNodeLocateCautionTargetPoint.ObjectType, Construct, properties, 0, 880);
         }
 		
         public override ObjectType GetObjectType()
@@ -136,6 +136,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.NiflBase
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeLocateCautionTargetPoint();
+        }
 		
     }
 }

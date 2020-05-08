@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.AI.Move
             var dummy = new AILeafNodeRelativeTargetFlyingMove();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.AILeafNodeRelativeTargetFlyingMove", 0, Black.AIGraph.LeafNode.AI.Move.AILeafNodeRelativeTargetFlyingMove.ObjectType, null, properties, 0, 960);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.AILeafNodeRelativeTargetFlyingMove", 0, Black.AIGraph.LeafNode.AI.Move.AILeafNodeRelativeTargetFlyingMove.ObjectType, Construct, properties, 0, 960);
         }
 		
         public override ObjectType GetObjectType()
@@ -142,6 +142,11 @@ namespace Black.AIGraph.LeafNode.AI.Move
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeRelativeTargetFlyingMove();
+        }
 		
     }
 }

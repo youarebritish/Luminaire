@@ -23,7 +23,7 @@ namespace SQEX.Ebony.Framework.Node
             var dummy = new GraphPin();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Node.GraphPin", 0, SQEX.Ebony.Framework.Node.GraphPin.ObjectType, null, properties, 0, 72);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Node.GraphPin", 0, SQEX.Ebony.Framework.Node.GraphPin.ObjectType, Construct, properties, 0, 72);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace SQEX.Ebony.Framework.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new GraphPin();
+        }
 		
     }
 }

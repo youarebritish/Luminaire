@@ -20,7 +20,7 @@ namespace Black.AI.RoutePoint
             var dummy = new RoutePoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.RoutePoint.RoutePoint", 0, Black.AI.RoutePoint.RoutePoint.ObjectType, null, properties, 0, 1072);
+            ObjectType = new ObjectType("Black.AI.RoutePoint.RoutePoint", 0, Black.AI.RoutePoint.RoutePoint.ObjectType, Construct, properties, 0, 1072);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.AI.RoutePoint
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new RoutePoint();
+        }
 		
     }
 }

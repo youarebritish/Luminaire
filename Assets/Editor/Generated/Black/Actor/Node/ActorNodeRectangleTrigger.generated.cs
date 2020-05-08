@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodeRectangleTrigger();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeRectangleTrigger", 0, Black.Actor.Node.ActorNodeRectangleTrigger.ObjectType, null, properties, 59, 1024);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeRectangleTrigger", 0, Black.Actor.Node.ActorNodeRectangleTrigger.ObjectType, Construct, properties, 59, 1024);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeRectangleTrigger();
+        }
 		
     }
 }

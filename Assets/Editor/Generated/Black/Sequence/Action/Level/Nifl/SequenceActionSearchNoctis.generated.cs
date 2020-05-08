@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level.Nifl
             var dummy = new SequenceActionSearchNoctis();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionSearchNoctis", 0, Black.Sequence.Action.Level.Nifl.SequenceActionSearchNoctis.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionSearchNoctis", 0, Black.Sequence.Action.Level.Nifl.SequenceActionSearchNoctis.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Level.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSearchNoctis();
+        }
 		
     }
 }

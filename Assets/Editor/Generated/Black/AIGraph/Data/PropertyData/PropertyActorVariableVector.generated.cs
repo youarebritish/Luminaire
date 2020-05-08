@@ -21,7 +21,7 @@ namespace Black.AIGraph.Data.PropertyData
             var dummy = new PropertyActorVariableVector();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Data.PropertyData.PropertyActorVariableVector", 0, Black.AIGraph.Data.PropertyData.PropertyActorVariableVector.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Data.PropertyData.PropertyActorVariableVector", 0, Black.AIGraph.Data.PropertyData.PropertyActorVariableVector.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.AIGraph.Data.PropertyData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PropertyActorVariableVector();
+        }
 		
     }
 }

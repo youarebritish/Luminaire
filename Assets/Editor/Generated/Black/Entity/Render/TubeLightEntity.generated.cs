@@ -21,7 +21,7 @@ namespace Black.Entity.Render
             var dummy = new TubeLightEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.TubeLightEntity", 0, Black.Entity.Render.TubeLightEntity.ObjectType, null, properties, 0, 848);
+            ObjectType = new ObjectType("Black.Entity.Render.TubeLightEntity", 0, Black.Entity.Render.TubeLightEntity.ObjectType, Construct, properties, 0, 848);
         }
 		
         public override ObjectType GetObjectType()
@@ -112,6 +112,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TubeLightEntity();
+        }
 		
     }
 }

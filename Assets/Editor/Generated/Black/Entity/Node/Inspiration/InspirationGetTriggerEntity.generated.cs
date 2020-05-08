@@ -21,7 +21,7 @@ namespace Black.Entity.Node.Inspiration
             var dummy = new InspirationGetTriggerEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.Inspiration.InspirationGetTriggerEntity", 0, Black.Entity.Node.Inspiration.InspirationGetTriggerEntity.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Entity.Node.Inspiration.InspirationGetTriggerEntity", 0, Black.Entity.Node.Inspiration.InspirationGetTriggerEntity.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace Black.Entity.Node.Inspiration
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InspirationGetTriggerEntity();
+        }
 		
     }
 }

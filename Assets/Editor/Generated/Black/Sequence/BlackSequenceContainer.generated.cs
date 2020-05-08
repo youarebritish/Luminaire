@@ -20,7 +20,7 @@ namespace Black.Sequence
             var dummy = new BlackSequenceContainer();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.BlackSequenceContainer", 0, Black.Sequence.BlackSequenceContainer.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Sequence.BlackSequenceContainer", 0, Black.Sequence.BlackSequenceContainer.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -45,6 +45,11 @@ namespace Black.Sequence
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BlackSequenceContainer();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Level.Reinforcement
             var dummy = new SequenceActionGetReinforcementInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionGetReinforcementInfo", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionGetReinforcementInfo.ObjectType, null, properties, 0, 264);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionGetReinforcementInfo", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionGetReinforcementInfo.ObjectType, Construct, properties, 0, 264);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Action.Level.Reinforcement
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetReinforcementInfo();
+        }
 		
     }
 }

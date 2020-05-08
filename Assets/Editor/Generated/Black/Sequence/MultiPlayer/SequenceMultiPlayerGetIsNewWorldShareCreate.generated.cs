@@ -21,7 +21,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerGetIsNewWorldShareCreate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetIsNewWorldShareCreate", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerGetIsNewWorldShareCreate.ObjectType, null, properties, 0, 176);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetIsNewWorldShareCreate", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerGetIsNewWorldShareCreate.ObjectType, Construct, properties, 0, 176);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerGetIsNewWorldShareCreate();
+        }
 		
     }
 }

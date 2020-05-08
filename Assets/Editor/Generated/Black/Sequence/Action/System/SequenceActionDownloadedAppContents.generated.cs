@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionDownloadedAppContents();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionDownloadedAppContents", 0, Black.Sequence.Action.System.SequenceActionDownloadedAppContents.ObjectType, null, properties, 0, 736);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionDownloadedAppContents", 0, Black.Sequence.Action.System.SequenceActionDownloadedAppContents.ObjectType, Construct, properties, 0, 736);
         }
 		
         public override ObjectType GetObjectType()
@@ -91,6 +91,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDownloadedAppContents();
+        }
 		
     }
 }

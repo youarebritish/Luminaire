@@ -20,7 +20,7 @@ namespace Black.Entity.Data
             var dummy = new DataPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.DataPackage", 0, Black.Entity.Data.DataPackage.ObjectType, null, properties, 0, 608);
+            ObjectType = new ObjectType("Black.Entity.Data.DataPackage", 0, Black.Entity.Data.DataPackage.ObjectType, Construct, properties, 0, 608);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Entity.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DataPackage();
+        }
 		
     }
 }

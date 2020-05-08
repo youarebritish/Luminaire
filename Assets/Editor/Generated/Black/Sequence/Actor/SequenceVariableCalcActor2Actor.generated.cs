@@ -26,7 +26,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceVariableCalcActor2Actor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceVariableCalcActor2Actor", 0, Black.Sequence.Actor.SequenceVariableCalcActor2Actor.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceVariableCalcActor2Actor", 0, Black.Sequence.Actor.SequenceVariableCalcActor2Actor.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableCalcActor2Actor();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.AIGraph.Extend.Invoke.IK
             var dummy = new AIGraphInvokeSetTuning();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetTuning", 0, Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetTuning.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetTuning", 0, Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetTuning.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.AIGraph.Extend.Invoke.IK
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetTuning();
+        }
 		
     }
 }

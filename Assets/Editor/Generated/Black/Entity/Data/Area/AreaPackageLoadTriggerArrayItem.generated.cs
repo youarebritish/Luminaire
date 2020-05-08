@@ -23,7 +23,7 @@ namespace Black.Entity.Data.Area
             var dummy = new AreaPackageLoadTriggerArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Area.AreaPackageLoadTriggerArrayItem", 0, Black.Entity.Data.Area.AreaPackageLoadTriggerArrayItem.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.Entity.Data.Area.AreaPackageLoadTriggerArrayItem", 0, Black.Entity.Data.Area.AreaPackageLoadTriggerArrayItem.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -51,6 +51,11 @@ namespace Black.Entity.Data.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AreaPackageLoadTriggerArrayItem();
+        }
 		
     }
 }

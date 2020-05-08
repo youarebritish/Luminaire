@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Inertia
             var dummy = new AIGraphInvokeSetGravityState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Inertia.AIGraphInvokeSetGravityState", 0, Black.AIGraph.Extend.Invoke.Inertia.AIGraphInvokeSetGravityState.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Inertia.AIGraphInvokeSetGravityState", 0, Black.AIGraph.Extend.Invoke.Inertia.AIGraphInvokeSetGravityState.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Inertia
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetGravityState();
+        }
 		
     }
 }

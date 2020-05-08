@@ -31,7 +31,7 @@ namespace Black.Sequence.Action.Camera.ObjectiveCamera
             var dummy = new SequenceActionObjectiveCameraSetTilt();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraSetTilt", 0, Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraSetTilt.ObjectType, null, properties, 0, 832);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraSetTilt", 0, Black.Sequence.Action.Camera.ObjectiveCamera.SequenceActionObjectiveCameraSetTilt.ObjectType, Construct, properties, 0, 832);
         }
 		
         public override ObjectType GetObjectType()
@@ -105,6 +105,11 @@ namespace Black.Sequence.Action.Camera.ObjectiveCamera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionObjectiveCameraSetTilt();
+        }
 		
     }
 }

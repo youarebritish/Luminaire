@@ -22,7 +22,7 @@ namespace Black.Entity.Render
             var dummy = new IBLTextureEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.IBLTextureEntity", 0, Black.Entity.Render.IBLTextureEntity.ObjectType, null, properties, 0, 240);
+            ObjectType = new ObjectType("Black.Entity.Render.IBLTextureEntity", 0, Black.Entity.Render.IBLTextureEntity.ObjectType, Construct, properties, 0, 240);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new IBLTextureEntity();
+        }
 		
     }
 }

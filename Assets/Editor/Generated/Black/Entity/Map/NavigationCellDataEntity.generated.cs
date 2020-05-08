@@ -25,7 +25,7 @@ namespace Black.Entity.Map
             var dummy = new NavigationCellDataEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Map.NavigationCellDataEntity", 0, Black.Entity.Map.NavigationCellDataEntity.ObjectType, null, properties, 0, 136);
+            ObjectType = new ObjectType("Black.Entity.Map.NavigationCellDataEntity", 0, Black.Entity.Map.NavigationCellDataEntity.ObjectType, Construct, properties, 0, 136);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Entity.Map
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NavigationCellDataEntity();
+        }
 		
     }
 }

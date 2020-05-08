@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Weather
             var dummy = new SequenceActionOverrideWetness();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Weather.SequenceActionOverrideWetness", 0, Black.Sequence.Action.Weather.SequenceActionOverrideWetness.ObjectType, null, properties, 0, 392);
+            ObjectType = new ObjectType("Black.Sequence.Action.Weather.SequenceActionOverrideWetness", 0, Black.Sequence.Action.Weather.SequenceActionOverrideWetness.ObjectType, Construct, properties, 0, 392);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Weather
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionOverrideWetness();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor.AI.Vehicle
             var dummy = new VehicleNavigationDestIdItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem", 0, Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem", 0, Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Sequence.Actor.AI.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VehicleNavigationDestIdItem();
+        }
 		
     }
 }

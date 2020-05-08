@@ -31,7 +31,7 @@ namespace Black.Entity
             var dummy = new ActorEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.ActorEntity", 0, Black.Entity.ActorEntity.ObjectType, null, properties, 0, 352);
+            ObjectType = new ObjectType("Black.Entity.ActorEntity", 0, Black.Entity.ActorEntity.ObjectType, Construct, properties, 0, 352);
         }
 		
         public override ObjectType GetObjectType()
@@ -69,6 +69,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorEntity();
+        }
 		
     }
 }

@@ -26,7 +26,7 @@ namespace Black.AIGraph.LeafNode.AI.Action
             var dummy = new AILeafNodeExecHookAction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.AILeafNodeExecHookAction", 0, Black.AIGraph.LeafNode.AI.Action.AILeafNodeExecHookAction.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.AILeafNodeExecHookAction", 0, Black.AIGraph.LeafNode.AI.Action.AILeafNodeExecHookAction.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -102,6 +102,11 @@ namespace Black.AIGraph.LeafNode.AI.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeExecHookAction();
+        }
 		
     }
 }

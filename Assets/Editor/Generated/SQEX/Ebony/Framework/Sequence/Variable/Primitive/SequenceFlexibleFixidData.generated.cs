@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
             var dummy = new SequenceFlexibleFixidData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData", 0, SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData", 0, SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceFlexibleFixidData();
+        }
 		
     }
 }

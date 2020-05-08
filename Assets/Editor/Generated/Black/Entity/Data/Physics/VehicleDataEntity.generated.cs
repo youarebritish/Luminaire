@@ -201,7 +201,7 @@ namespace Black.Entity.Data.Physics
             var dummy = new VehicleDataEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Physics.VehicleDataEntity", 0, Black.Entity.Data.Physics.VehicleDataEntity.ObjectType, null, properties, 0, 960);
+            ObjectType = new ObjectType("Black.Entity.Data.Physics.VehicleDataEntity", 0, Black.Entity.Data.Physics.VehicleDataEntity.ObjectType, Construct, properties, 0, 960);
         }
 		
         public override ObjectType GetObjectType()
@@ -406,6 +406,11 @@ namespace Black.Entity.Data.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VehicleDataEntity();
+        }
 		
     }
 }

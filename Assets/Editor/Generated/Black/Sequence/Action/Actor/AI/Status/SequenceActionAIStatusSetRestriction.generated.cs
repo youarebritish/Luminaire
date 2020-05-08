@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Actor.AI.Status
             var dummy = new SequenceActionAIStatusSetRestriction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Status.SequenceActionAIStatusSetRestriction", 0, Black.Sequence.Action.Actor.AI.Status.SequenceActionAIStatusSetRestriction.ObjectType, null, properties, 0, 776);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Status.SequenceActionAIStatusSetRestriction", 0, Black.Sequence.Action.Actor.AI.Status.SequenceActionAIStatusSetRestriction.ObjectType, Construct, properties, 0, 776);
         }
 		
         public override ObjectType GetObjectType()
@@ -91,6 +91,11 @@ namespace Black.Sequence.Action.Actor.AI.Status
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIStatusSetRestriction();
+        }
 		
     }
 }

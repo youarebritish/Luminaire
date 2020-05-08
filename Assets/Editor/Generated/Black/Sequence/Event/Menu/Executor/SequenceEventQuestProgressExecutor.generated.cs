@@ -21,7 +21,7 @@ namespace Black.Sequence.Event.Menu.Executor
             var dummy = new SequenceEventQuestProgressExecutor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventQuestProgressExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventQuestProgressExecutor.ObjectType, null, properties, 0, 1192);
+            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventQuestProgressExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventQuestProgressExecutor.ObjectType, Construct, properties, 0, 1192);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Event.Menu.Executor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventQuestProgressExecutor();
+        }
 		
     }
 }

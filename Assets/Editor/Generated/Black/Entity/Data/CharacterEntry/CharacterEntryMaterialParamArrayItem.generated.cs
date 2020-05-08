@@ -25,7 +25,7 @@ namespace Black.Entity.Data.CharacterEntry
             var dummy = new CharacterEntryMaterialParamArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.CharacterEntryMaterialParamArrayItem", 0, Black.Entity.Data.CharacterEntry.CharacterEntryMaterialParamArrayItem.ObjectType, null, properties, 0, 80);
+            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.CharacterEntryMaterialParamArrayItem", 0, Black.Entity.Data.CharacterEntry.CharacterEntryMaterialParamArrayItem.ObjectType, Construct, properties, 0, 80);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Entity.Data.CharacterEntry
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CharacterEntryMaterialParamArrayItem();
+        }
 		
     }
 }

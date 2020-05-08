@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             var dummy = new AILeafNodeCorSkAreaSlash();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeCorSkAreaSlash", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeCorSkAreaSlash.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeCorSkAreaSlash", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeCorSkAreaSlash.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeCorSkAreaSlash();
+        }
 		
     }
 }

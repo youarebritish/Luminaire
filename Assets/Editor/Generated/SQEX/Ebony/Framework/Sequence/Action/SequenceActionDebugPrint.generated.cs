@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             var dummy = new SequenceActionDebugPrint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionDebugPrint", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionDebugPrint.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionDebugPrint", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionDebugPrint.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugPrint();
+        }
 		
     }
 }

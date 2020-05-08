@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.Body.Nifl
             var dummy = new BodyLeafNodeBeginNiflBurst();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Nifl.BodyLeafNodeBeginNiflBurst", 0, Black.AIGraph.LeafNode.Body.Nifl.BodyLeafNodeBeginNiflBurst.ObjectType, null, properties, 0, 56);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Nifl.BodyLeafNodeBeginNiflBurst", 0, Black.AIGraph.LeafNode.Body.Nifl.BodyLeafNodeBeginNiflBurst.ObjectType, Construct, properties, 0, 56);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.Body.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyLeafNodeBeginNiflBurst();
+        }
 		
     }
 }

@@ -26,7 +26,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableList();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableList", 0, Black.Sequence.Variable.SequenceVariableList.ObjectType, null, properties, 0, 584);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableList", 0, Black.Sequence.Variable.SequenceVariableList.ObjectType, Construct, properties, 0, 584);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableList();
+        }
 		
     }
 }

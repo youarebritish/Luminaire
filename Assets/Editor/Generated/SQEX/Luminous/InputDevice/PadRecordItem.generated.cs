@@ -22,7 +22,7 @@ namespace SQEX.Luminous.InputDevice
             var dummy = new PadRecordItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Luminous.InputDevice.PadRecordItem", 0, SQEX.Luminous.InputDevice.PadRecordItem.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("SQEX.Luminous.InputDevice.PadRecordItem", 0, SQEX.Luminous.InputDevice.PadRecordItem.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace SQEX.Luminous.InputDevice
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PadRecordItem();
+        }
 		
     }
 }

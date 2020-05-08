@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Level.Ignis
             var dummy = new SequenceActionGetResultScore();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Ignis.SequenceActionGetResultScore", 0, Black.Sequence.Action.Level.Ignis.SequenceActionGetResultScore.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Ignis.SequenceActionGetResultScore", 0, Black.Sequence.Action.Level.Ignis.SequenceActionGetResultScore.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace Black.Sequence.Action.Level.Ignis
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetResultScore();
+        }
 		
     }
 }

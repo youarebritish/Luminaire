@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Sound
             var dummy = new SequenceActionListenAround();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Sound.SequenceActionListenAround", 0, Black.Sequence.Action.Sound.SequenceActionListenAround.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Action.Sound.SequenceActionListenAround", 0, Black.Sequence.Action.Sound.SequenceActionListenAround.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Action.Sound
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionListenAround();
+        }
 		
     }
 }

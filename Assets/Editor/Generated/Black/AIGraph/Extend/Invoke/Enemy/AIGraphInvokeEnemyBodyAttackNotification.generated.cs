@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
             var dummy = new AIGraphInvokeEnemyBodyAttackNotification();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyBodyAttackNotification", 0, Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyBodyAttackNotification.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyBodyAttackNotification", 0, Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyBodyAttackNotification.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeEnemyBodyAttackNotification();
+        }
 		
     }
 }

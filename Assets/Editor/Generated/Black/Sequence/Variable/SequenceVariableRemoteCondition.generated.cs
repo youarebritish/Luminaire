@@ -22,7 +22,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableRemoteCondition();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableRemoteCondition", 0, Black.Sequence.Variable.SequenceVariableRemoteCondition.ObjectType, null, properties, 0, 192);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableRemoteCondition", 0, Black.Sequence.Variable.SequenceVariableRemoteCondition.ObjectType, Construct, properties, 0, 192);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableRemoteCondition();
+        }
 		
     }
 }

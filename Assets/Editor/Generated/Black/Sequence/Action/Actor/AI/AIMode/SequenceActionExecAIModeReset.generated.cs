@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
             var dummy = new SequenceActionExecAIModeReset();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeReset", 0, Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeReset.ObjectType, null, properties, 0, 1224);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeReset", 0, Black.Sequence.Action.Actor.AI.AIMode.SequenceActionExecAIModeReset.ObjectType, Construct, properties, 0, 1224);
         }
 		
         public override ObjectType GetObjectType()
@@ -128,6 +128,11 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionExecAIModeReset();
+        }
 		
     }
 }

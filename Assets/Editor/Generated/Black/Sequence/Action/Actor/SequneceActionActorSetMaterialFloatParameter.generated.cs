@@ -43,7 +43,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequneceActionActorSetMaterialFloatParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequneceActionActorSetMaterialFloatParameter", 0, Black.Sequence.Action.Actor.SequneceActionActorSetMaterialFloatParameter.ObjectType, null, properties, 0, 1392);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequneceActionActorSetMaterialFloatParameter", 0, Black.Sequence.Action.Actor.SequneceActionActorSetMaterialFloatParameter.ObjectType, Construct, properties, 0, 1392);
         }
 		
         public override ObjectType GetObjectType()
@@ -151,6 +151,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequneceActionActorSetMaterialFloatParameter();
+        }
 		
     }
 }

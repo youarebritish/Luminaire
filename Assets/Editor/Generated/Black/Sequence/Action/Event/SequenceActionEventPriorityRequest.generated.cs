@@ -32,7 +32,7 @@ namespace Black.Sequence.Action.Event
             var dummy = new SequenceActionEventPriorityRequest();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Event.SequenceActionEventPriorityRequest", 0, Black.Sequence.Action.Event.SequenceActionEventPriorityRequest.ObjectType, null, properties, 0, 1136);
+            ObjectType = new ObjectType("Black.Sequence.Action.Event.SequenceActionEventPriorityRequest", 0, Black.Sequence.Action.Event.SequenceActionEventPriorityRequest.ObjectType, Construct, properties, 0, 1136);
         }
 		
         public override ObjectType GetObjectType()
@@ -129,6 +129,11 @@ namespace Black.Sequence.Action.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEventPriorityRequest();
+        }
 		
     }
 }

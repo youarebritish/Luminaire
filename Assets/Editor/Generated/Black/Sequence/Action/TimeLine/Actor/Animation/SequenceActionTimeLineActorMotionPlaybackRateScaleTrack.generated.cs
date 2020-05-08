@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.TimeLine.Actor.Animation
             var dummy = new SequenceActionTimeLineActorMotionPlaybackRateScaleTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.Animation.SequenceActionTimeLineActorMotionPlaybackRateScaleTrack", 0, Black.Sequence.Action.TimeLine.Actor.Animation.SequenceActionTimeLineActorMotionPlaybackRateScaleTrack.ObjectType, null, properties, 0, 344);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.Animation.SequenceActionTimeLineActorMotionPlaybackRateScaleTrack", 0, Black.Sequence.Action.TimeLine.Actor.Animation.SequenceActionTimeLineActorMotionPlaybackRateScaleTrack.ObjectType, Construct, properties, 0, 344);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Sequence.Action.TimeLine.Actor.Animation
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineActorMotionPlaybackRateScaleTrack();
+        }
 		
     }
 }

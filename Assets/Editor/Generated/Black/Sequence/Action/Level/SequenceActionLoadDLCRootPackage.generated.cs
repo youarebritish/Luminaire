@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionLoadDLCRootPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionLoadDLCRootPackage", 0, Black.Sequence.Action.Level.SequenceActionLoadDLCRootPackage.ObjectType, null, properties, 0, 696);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionLoadDLCRootPackage", 0, Black.Sequence.Action.Level.SequenceActionLoadDLCRootPackage.ObjectType, Construct, properties, 0, 696);
         }
 		
         public override ObjectType GetObjectType()
@@ -95,6 +95,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionLoadDLCRootPackage();
+        }
 		
     }
 }

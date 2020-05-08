@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Actor.Physics
             var dummy = new SequenceActionActorBonamikCollision();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikCollision", 0, Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikCollision.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikCollision", 0, Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikCollision.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Action.Actor.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorBonamikCollision();
+        }
 		
     }
 }

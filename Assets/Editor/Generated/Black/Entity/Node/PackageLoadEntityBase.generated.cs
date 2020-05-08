@@ -36,7 +36,7 @@ namespace Black.Entity.Node
             var dummy = new PackageLoadEntityBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.PackageLoadEntityBase", 0, Black.Entity.Node.PackageLoadEntityBase.ObjectType, null, properties, 0, 416);
+            ObjectType = new ObjectType("Black.Entity.Node.PackageLoadEntityBase", 0, Black.Entity.Node.PackageLoadEntityBase.ObjectType, Construct, properties, 0, 416);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PackageLoadEntityBase();
+        }
 		
     }
 }

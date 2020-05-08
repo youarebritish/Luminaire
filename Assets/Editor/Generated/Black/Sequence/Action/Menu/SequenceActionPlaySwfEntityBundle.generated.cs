@@ -60,7 +60,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionPlaySwfEntityBundle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionPlaySwfEntityBundle", 0, Black.Sequence.Action.Menu.SequenceActionPlaySwfEntityBundle.ObjectType, null, properties, 0, 1384);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionPlaySwfEntityBundle", 0, Black.Sequence.Action.Menu.SequenceActionPlaySwfEntityBundle.ObjectType, Construct, properties, 0, 1384);
         }
 		
         public override ObjectType GetObjectType()
@@ -183,6 +183,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPlaySwfEntityBundle();
+        }
 		
     }
 }

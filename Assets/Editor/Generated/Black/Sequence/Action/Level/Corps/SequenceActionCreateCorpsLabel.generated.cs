@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Level.Corps
             var dummy = new SequenceActionCreateCorpsLabel();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Corps.SequenceActionCreateCorpsLabel", 0, Black.Sequence.Action.Level.Corps.SequenceActionCreateCorpsLabel.ObjectType, null, properties, 0, 840);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Corps.SequenceActionCreateCorpsLabel", 0, Black.Sequence.Action.Level.Corps.SequenceActionCreateCorpsLabel.ObjectType, Construct, properties, 0, 840);
         }
 		
         public override ObjectType GetObjectType()
@@ -101,6 +101,11 @@ namespace Black.Sequence.Action.Level.Corps
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCreateCorpsLabel();
+        }
 		
     }
 }

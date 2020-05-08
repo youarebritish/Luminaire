@@ -30,7 +30,7 @@ namespace Black.Sequence.Actor.Sound
             var dummy = new SequenceActionInteractiveMusic();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.Sound.SequenceActionInteractiveMusic", 0, Black.Sequence.Actor.Sound.SequenceActionInteractiveMusic.ObjectType, null, properties, 0, 600);
+            ObjectType = new ObjectType("Black.Sequence.Actor.Sound.SequenceActionInteractiveMusic", 0, Black.Sequence.Actor.Sound.SequenceActionInteractiveMusic.ObjectType, Construct, properties, 0, 600);
         }
 		
         public override ObjectType GetObjectType()
@@ -95,6 +95,11 @@ namespace Black.Sequence.Actor.Sound
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionInteractiveMusic();
+        }
 		
     }
 }

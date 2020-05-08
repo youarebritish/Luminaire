@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodeWallCoverPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeWallCoverPoint", 0, Black.Actor.Node.ActorNodeWallCoverPoint.ObjectType, null, properties, 59, 928);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeWallCoverPoint", 0, Black.Actor.Node.ActorNodeWallCoverPoint.ObjectType, Construct, properties, 59, 928);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeWallCoverPoint();
+        }
 		
     }
 }

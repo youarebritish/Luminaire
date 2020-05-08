@@ -33,7 +33,7 @@ namespace Black.Sequence.Action.Level.Reinforcement
             var dummy = new SequenceActionRandomNiflTeam();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionRandomNiflTeam", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionRandomNiflTeam.ObjectType, null, properties, 0, 1368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionRandomNiflTeam", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionRandomNiflTeam.ObjectType, Construct, properties, 0, 1368);
         }
 		
         public override ObjectType GetObjectType()
@@ -139,6 +139,11 @@ namespace Black.Sequence.Action.Level.Reinforcement
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionRandomNiflTeam();
+        }
 		
     }
 }

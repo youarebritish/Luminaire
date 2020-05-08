@@ -22,7 +22,7 @@ namespace Black.Sequence.AI
             var dummy = new SetSteeringTestMode();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.AI.SetSteeringTestMode", 0, Black.Sequence.AI.SetSteeringTestMode.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.AI.SetSteeringTestMode", 0, Black.Sequence.AI.SetSteeringTestMode.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SetSteeringTestMode();
+        }
 		
     }
 }

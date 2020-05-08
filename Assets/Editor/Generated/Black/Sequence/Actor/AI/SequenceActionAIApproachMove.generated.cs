@@ -26,7 +26,7 @@ namespace Black.Sequence.Actor.AI
             var dummy = new SequenceActionAIApproachMove();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.SequenceActionAIApproachMove", 0, Black.Sequence.Actor.AI.SequenceActionAIApproachMove.ObjectType, null, properties, 0, 1280);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.SequenceActionAIApproachMove", 0, Black.Sequence.Actor.AI.SequenceActionAIApproachMove.ObjectType, Construct, properties, 0, 1280);
         }
 		
         public override ObjectType GetObjectType()
@@ -126,6 +126,11 @@ namespace Black.Sequence.Actor.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIApproachMove();
+        }
 		
     }
 }

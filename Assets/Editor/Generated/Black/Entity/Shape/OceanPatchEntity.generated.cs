@@ -24,7 +24,7 @@ namespace Black.Entity.Shape
             var dummy = new OceanPatchEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Shape.OceanPatchEntity", 0, Black.Entity.Shape.OceanPatchEntity.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Entity.Shape.OceanPatchEntity", 0, Black.Entity.Shape.OceanPatchEntity.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Entity.Shape
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new OceanPatchEntity();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Trial
             var dummy = new AIGraphInvokeNotifyToMeta();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeNotifyToMeta", 0, Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeNotifyToMeta.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeNotifyToMeta", 0, Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeNotifyToMeta.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Trial
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeNotifyToMeta();
+        }
 		
     }
 }

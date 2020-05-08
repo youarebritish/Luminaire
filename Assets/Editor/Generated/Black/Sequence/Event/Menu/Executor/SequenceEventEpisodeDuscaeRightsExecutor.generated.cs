@@ -25,7 +25,7 @@ namespace Black.Sequence.Event.Menu.Executor
             var dummy = new SequenceEventEpisodeDuscaeRightsExecutor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventEpisodeDuscaeRightsExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventEpisodeDuscaeRightsExecutor.ObjectType, null, properties, 0, 800);
+            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventEpisodeDuscaeRightsExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventEpisodeDuscaeRightsExecutor.ObjectType, Construct, properties, 0, 800);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace Black.Sequence.Event.Menu.Executor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventEpisodeDuscaeRightsExecutor();
+        }
 		
     }
 }

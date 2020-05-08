@@ -30,7 +30,7 @@ namespace Black.Entity.RoutePoint
             var dummy = new RoutePointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.RoutePoint.RoutePointEntity", 0, Black.Entity.RoutePoint.RoutePointEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.RoutePoint.RoutePointEntity", 0, Black.Entity.RoutePoint.RoutePointEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace Black.Entity.RoutePoint
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new RoutePointEntity();
+        }
 		
     }
 }

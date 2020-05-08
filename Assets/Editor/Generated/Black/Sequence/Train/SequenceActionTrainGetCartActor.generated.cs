@@ -26,7 +26,7 @@ namespace Black.Sequence.Train
             var dummy = new SequenceActionTrainGetCartActor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Train.SequenceActionTrainGetCartActor", 0, Black.Sequence.Train.SequenceActionTrainGetCartActor.ObjectType, null, properties, 0, 656);
+            ObjectType = new ObjectType("Black.Sequence.Train.SequenceActionTrainGetCartActor", 0, Black.Sequence.Train.SequenceActionTrainGetCartActor.ObjectType, Construct, properties, 0, 656);
         }
 		
         public override ObjectType GetObjectType()
@@ -85,6 +85,11 @@ namespace Black.Sequence.Train
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTrainGetCartActor();
+        }
 		
     }
 }

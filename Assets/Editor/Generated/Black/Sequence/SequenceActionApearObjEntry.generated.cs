@@ -27,7 +27,7 @@ namespace Black.Sequence
             var dummy = new SequenceActionApearObjEntry();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.SequenceActionApearObjEntry", 0, Black.Sequence.SequenceActionApearObjEntry.ObjectType, null, properties, 0, 640);
+            ObjectType = new ObjectType("Black.Sequence.SequenceActionApearObjEntry", 0, Black.Sequence.SequenceActionApearObjEntry.ObjectType, Construct, properties, 0, 640);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionApearObjEntry();
+        }
 		
     }
 }

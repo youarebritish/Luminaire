@@ -23,7 +23,7 @@ namespace Black.Sequence.Actor.AI
             var dummy = new SequenceActionAISearchCompareBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.SequenceActionAISearchCompareBase", 0, Black.Sequence.Actor.AI.SequenceActionAISearchCompareBase.ObjectType, null, properties, 0, 848);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.SequenceActionAISearchCompareBase", 0, Black.Sequence.Actor.AI.SequenceActionAISearchCompareBase.ObjectType, Construct, properties, 0, 848);
         }
 		
         public override ObjectType GetObjectType()
@@ -96,6 +96,11 @@ namespace Black.Sequence.Actor.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAISearchCompareBase();
+        }
 		
     }
 }

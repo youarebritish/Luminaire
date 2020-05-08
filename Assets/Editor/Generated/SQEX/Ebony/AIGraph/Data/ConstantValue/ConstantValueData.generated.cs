@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Data.ConstantValue
             var dummy = new ConstantValueData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueData", 0, SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueData.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueData", 0, SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueData.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace SQEX.Ebony.AIGraph.Data.ConstantValue
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ConstantValueData();
+        }
 		
     }
 }

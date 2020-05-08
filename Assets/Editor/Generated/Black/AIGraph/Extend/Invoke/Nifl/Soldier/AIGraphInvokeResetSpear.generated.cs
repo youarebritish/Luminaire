@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
             var dummy = new AIGraphInvokeResetSpear();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeResetSpear", 0, Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeResetSpear.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeResetSpear", 0, Black.AIGraph.Extend.Invoke.Nifl.Soldier.AIGraphInvokeResetSpear.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.Soldier
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeResetSpear();
+        }
 		
     }
 }

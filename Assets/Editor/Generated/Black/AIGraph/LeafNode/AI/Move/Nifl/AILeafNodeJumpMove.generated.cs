@@ -26,7 +26,7 @@ namespace Black.AIGraph.LeafNode.AI.Move.Nifl
             var dummy = new AILeafNodeJumpMove();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.Nifl.AILeafNodeJumpMove", 0, Black.AIGraph.LeafNode.AI.Move.Nifl.AILeafNodeJumpMove.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.Nifl.AILeafNodeJumpMove", 0, Black.AIGraph.LeafNode.AI.Move.Nifl.AILeafNodeJumpMove.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.AIGraph.LeafNode.AI.Move.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeJumpMove();
+        }
 		
     }
 }

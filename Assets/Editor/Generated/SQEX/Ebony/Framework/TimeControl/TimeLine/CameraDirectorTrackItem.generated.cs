@@ -22,7 +22,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
             var dummy = new CameraDirectorTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.CameraDirectorTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.CameraDirectorTrackItem.ObjectType, null, properties, 0, 144);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.CameraDirectorTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.CameraDirectorTrackItem.ObjectType, Construct, properties, 0, 144);
         }
 		
         public override ObjectType GetObjectType()
@@ -51,6 +51,11 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CameraDirectorTrackItem();
+        }
 		
     }
 }

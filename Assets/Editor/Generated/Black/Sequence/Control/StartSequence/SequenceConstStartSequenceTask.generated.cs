@@ -27,7 +27,7 @@ namespace Black.Sequence.Control.StartSequence
             var dummy = new SequenceConstStartSequenceTask();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.StartSequence.SequenceConstStartSequenceTask", 0, Black.Sequence.Control.StartSequence.SequenceConstStartSequenceTask.ObjectType, null, properties, 0, 536);
+            ObjectType = new ObjectType("Black.Sequence.Control.StartSequence.SequenceConstStartSequenceTask", 0, Black.Sequence.Control.StartSequence.SequenceConstStartSequenceTask.ObjectType, Construct, properties, 0, 536);
         }
 		
         public override ObjectType GetObjectType()
@@ -80,6 +80,11 @@ namespace Black.Sequence.Control.StartSequence
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstStartSequenceTask();
+        }
 		
     }
 }

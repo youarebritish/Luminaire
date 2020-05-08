@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Actor.Animation
             var dummy = new SequenceActionActorMessageRequestLmAnimation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorMessageRequestLmAnimation", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorMessageRequestLmAnimation.ObjectType, null, properties, 0, 888);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorMessageRequestLmAnimation", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorMessageRequestLmAnimation.ObjectType, Construct, properties, 0, 888);
         }
 		
         public override ObjectType GetObjectType()
@@ -103,6 +103,11 @@ namespace Black.Sequence.Action.Actor.Animation
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorMessageRequestLmAnimation();
+        }
 		
     }
 }

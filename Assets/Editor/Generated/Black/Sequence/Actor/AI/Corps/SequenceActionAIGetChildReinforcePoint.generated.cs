@@ -26,7 +26,7 @@ namespace Black.Sequence.Actor.AI.Corps
             var dummy = new SequenceActionAIGetChildReinforcePoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Corps.SequenceActionAIGetChildReinforcePoint", 0, Black.Sequence.Actor.AI.Corps.SequenceActionAIGetChildReinforcePoint.ObjectType, null, properties, 0, 680);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Corps.SequenceActionAIGetChildReinforcePoint", 0, Black.Sequence.Actor.AI.Corps.SequenceActionAIGetChildReinforcePoint.ObjectType, Construct, properties, 0, 680);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Actor.AI.Corps
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIGetChildReinforcePoint();
+        }
 		
     }
 }

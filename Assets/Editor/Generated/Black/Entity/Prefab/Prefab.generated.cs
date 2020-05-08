@@ -21,7 +21,7 @@ namespace Black.Entity.Prefab
             var dummy = new Prefab();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Prefab.Prefab", 0, Black.Entity.Prefab.Prefab.ObjectType, null, properties, 0, 608);
+            ObjectType = new ObjectType("Black.Entity.Prefab.Prefab", 0, Black.Entity.Prefab.Prefab.ObjectType, Construct, properties, 0, 608);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace Black.Entity.Prefab
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new Prefab();
+        }
 		
     }
 }

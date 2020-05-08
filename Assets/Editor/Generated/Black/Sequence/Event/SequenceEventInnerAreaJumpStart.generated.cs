@@ -21,7 +21,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceEventInnerAreaJumpStart();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventInnerAreaJumpStart", 0, Black.Sequence.Event.SequenceEventInnerAreaJumpStart.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventInnerAreaJumpStart", 0, Black.Sequence.Event.SequenceEventInnerAreaJumpStart.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -56,6 +56,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventInnerAreaJumpStart();
+        }
 		
     }
 }

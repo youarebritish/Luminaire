@@ -39,7 +39,7 @@ namespace Black.Sequence.Action.Control
             var dummy = new SequenceActionControlSwitchFixid();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Control.SequenceActionControlSwitchFixid", 0, Black.Sequence.Action.Control.SequenceActionControlSwitchFixid.ObjectType, null, properties, 0, 1392);
+            ObjectType = new ObjectType("Black.Sequence.Action.Control.SequenceActionControlSwitchFixid", 0, Black.Sequence.Action.Control.SequenceActionControlSwitchFixid.ObjectType, Construct, properties, 0, 1392);
         }
 		
         public override ObjectType GetObjectType()
@@ -158,6 +158,11 @@ namespace Black.Sequence.Action.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlSwitchFixid();
+        }
 		
     }
 }

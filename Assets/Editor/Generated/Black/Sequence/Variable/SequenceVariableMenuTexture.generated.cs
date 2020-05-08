@@ -24,7 +24,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableMenuTexture();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableMenuTexture", 0, Black.Sequence.Variable.SequenceVariableMenuTexture.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableMenuTexture", 0, Black.Sequence.Variable.SequenceVariableMenuTexture.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -62,6 +62,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableMenuTexture();
+        }
 		
     }
 }

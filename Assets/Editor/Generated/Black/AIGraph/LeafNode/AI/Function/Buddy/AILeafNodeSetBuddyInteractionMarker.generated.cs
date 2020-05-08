@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             var dummy = new AILeafNodeSetBuddyInteractionMarker();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetBuddyInteractionMarker", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetBuddyInteractionMarker.ObjectType, null, properties, 0, 120);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetBuddyInteractionMarker", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetBuddyInteractionMarker.ObjectType, Construct, properties, 0, 120);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeSetBuddyInteractionMarker();
+        }
 		
     }
 }

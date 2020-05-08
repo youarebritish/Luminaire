@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugBalanceLogEnable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugBalanceLogEnable", 0, Black.Sequence.Action.Debug.SequenceActionDebugBalanceLogEnable.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugBalanceLogEnable", 0, Black.Sequence.Action.Debug.SequenceActionDebugBalanceLogEnable.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugBalanceLogEnable();
+        }
 		
     }
 }

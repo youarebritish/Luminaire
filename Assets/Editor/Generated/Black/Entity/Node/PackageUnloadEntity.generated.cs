@@ -21,7 +21,7 @@ namespace Black.Entity.Node
             var dummy = new PackageUnloadEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.PackageUnloadEntity", 0, Black.Entity.Node.PackageUnloadEntity.ObjectType, null, properties, 0, 432);
+            ObjectType = new ObjectType("Black.Entity.Node.PackageUnloadEntity", 0, Black.Entity.Node.PackageUnloadEntity.ObjectType, Construct, properties, 0, 432);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PackageUnloadEntity();
+        }
 		
     }
 }

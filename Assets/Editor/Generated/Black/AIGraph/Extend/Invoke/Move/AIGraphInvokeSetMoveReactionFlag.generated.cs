@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke.Move
             var dummy = new AIGraphInvokeSetMoveReactionFlag();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeSetMoveReactionFlag", 0, Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeSetMoveReactionFlag.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeSetMoveReactionFlag", 0, Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeSetMoveReactionFlag.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke.Move
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetMoveReactionFlag();
+        }
 		
     }
 }

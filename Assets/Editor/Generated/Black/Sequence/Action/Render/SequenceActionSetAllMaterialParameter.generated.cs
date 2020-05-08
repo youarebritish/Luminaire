@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionSetAllMaterialParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetAllMaterialParameter", 0, Black.Sequence.Action.Render.SequenceActionSetAllMaterialParameter.ObjectType, null, properties, 0, 400);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetAllMaterialParameter", 0, Black.Sequence.Action.Render.SequenceActionSetAllMaterialParameter.ObjectType, Construct, properties, 0, 400);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetAllMaterialParameter();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level.Nifl
             var dummy = new SequenceActionChangeLODMode();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionChangeLODMode", 0, Black.Sequence.Action.Level.Nifl.SequenceActionChangeLODMode.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionChangeLODMode", 0, Black.Sequence.Action.Level.Nifl.SequenceActionChangeLODMode.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Level.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionChangeLODMode();
+        }
 		
     }
 }

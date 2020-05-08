@@ -26,7 +26,7 @@ namespace SQEX.Ebony.AIGraph.Data
             var dummy = new ConditionData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.ConditionData", 0, SQEX.Ebony.AIGraph.Data.ConditionData.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.ConditionData", 0, SQEX.Ebony.AIGraph.Data.ConditionData.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -56,6 +56,11 @@ namespace SQEX.Ebony.AIGraph.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ConditionData();
+        }
 		
     }
 }

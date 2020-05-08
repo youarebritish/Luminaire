@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Save
             var dummy = new SequenceActionGameStart();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionGameStart", 0, Black.Sequence.Action.Save.SequenceActionGameStart.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionGameStart", 0, Black.Sequence.Action.Save.SequenceActionGameStart.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Save
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGameStart();
+        }
 		
     }
 }

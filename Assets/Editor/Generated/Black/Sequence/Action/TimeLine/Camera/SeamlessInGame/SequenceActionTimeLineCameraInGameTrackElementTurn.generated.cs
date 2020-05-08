@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
             var dummy = new SequenceActionTimeLineCameraInGameTrackElementTurn();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementTurn", 0, Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementTurn.ObjectType, null, properties, 0, 496);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementTurn", 0, Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementTurn.ObjectType, Construct, properties, 0, 496);
         }
 		
         public override ObjectType GetObjectType()
@@ -82,6 +82,11 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineCameraInGameTrackElementTurn();
+        }
 		
     }
 }

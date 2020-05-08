@@ -31,7 +31,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionActorAddMoveTranslation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorAddMoveTranslation", 0, Black.Sequence.Action.Actor.SequenceActionActorAddMoveTranslation.ObjectType, null, properties, 0, 1072);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorAddMoveTranslation", 0, Black.Sequence.Action.Actor.SequenceActionActorAddMoveTranslation.ObjectType, Construct, properties, 0, 1072);
         }
 		
         public override ObjectType GetObjectType()
@@ -115,6 +115,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorAddMoveTranslation();
+        }
 		
     }
 }

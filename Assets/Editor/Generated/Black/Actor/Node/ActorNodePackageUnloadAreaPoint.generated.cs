@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodePackageUnloadAreaPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodePackageUnloadAreaPoint", 0, Black.Actor.Node.ActorNodePackageUnloadAreaPoint.ObjectType, null, properties, 59, 1360);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodePackageUnloadAreaPoint", 0, Black.Actor.Node.ActorNodePackageUnloadAreaPoint.ObjectType, Construct, properties, 59, 1360);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodePackageUnloadAreaPoint();
+        }
 		
     }
 }

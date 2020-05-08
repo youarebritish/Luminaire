@@ -31,7 +31,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionDisplayBattleQuestInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionDisplayBattleQuestInfo", 0, Black.Sequence.Action.Menu.SequenceActionDisplayBattleQuestInfo.ObjectType, null, properties, 0, 704);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionDisplayBattleQuestInfo", 0, Black.Sequence.Action.Menu.SequenceActionDisplayBattleQuestInfo.ObjectType, Construct, properties, 0, 704);
         }
 		
         public override ObjectType GetObjectType()
@@ -101,6 +101,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDisplayBattleQuestInfo();
+        }
 		
     }
 }

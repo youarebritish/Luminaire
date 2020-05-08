@@ -25,7 +25,7 @@ namespace Black.Entity.Data
             var dummy = new CharaEntryIDResource();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.CharaEntryIDResource", 0, Black.Entity.Data.CharaEntryIDResource.ObjectType, null, properties, 0, 136);
+            ObjectType = new ObjectType("Black.Entity.Data.CharaEntryIDResource", 0, Black.Entity.Data.CharaEntryIDResource.ObjectType, Construct, properties, 0, 136);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Entity.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CharaEntryIDResource();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.Body.Move
             var dummy = new BodyLeafNodeSwimChocobo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Move.BodyLeafNodeSwimChocobo", 0, Black.AIGraph.LeafNode.Body.Move.BodyLeafNodeSwimChocobo.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Move.BodyLeafNodeSwimChocobo", 0, Black.AIGraph.LeafNode.Body.Move.BodyLeafNodeSwimChocobo.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.Body.Move
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyLeafNodeSwimChocobo();
+        }
 		
     }
 }

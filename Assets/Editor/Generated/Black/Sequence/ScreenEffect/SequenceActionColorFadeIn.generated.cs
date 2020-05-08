@@ -28,7 +28,7 @@ namespace Black.Sequence.ScreenEffect
             var dummy = new SequenceActionColorFadeIn();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionColorFadeIn", 0, Black.Sequence.ScreenEffect.SequenceActionColorFadeIn.ObjectType, null, properties, 0, 512);
+            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionColorFadeIn", 0, Black.Sequence.ScreenEffect.SequenceActionColorFadeIn.ObjectType, Construct, properties, 0, 512);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.ScreenEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionColorFadeIn();
+        }
 		
     }
 }

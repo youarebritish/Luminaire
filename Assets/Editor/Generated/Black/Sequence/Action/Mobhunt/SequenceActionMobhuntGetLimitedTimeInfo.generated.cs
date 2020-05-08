@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Mobhunt
             var dummy = new SequenceActionMobhuntGetLimitedTimeInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntGetLimitedTimeInfo", 0, Black.Sequence.Action.Mobhunt.SequenceActionMobhuntGetLimitedTimeInfo.ObjectType, null, properties, 0, 840);
+            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntGetLimitedTimeInfo", 0, Black.Sequence.Action.Mobhunt.SequenceActionMobhuntGetLimitedTimeInfo.ObjectType, Construct, properties, 0, 840);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Action.Mobhunt
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionMobhuntGetLimitedTimeInfo();
+        }
 		
     }
 }

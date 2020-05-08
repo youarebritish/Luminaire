@@ -22,7 +22,7 @@ namespace Black.Actor.Component.Nifl.ComponentData
             var dummy = new AttachableWireArmComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Nifl.ComponentData.AttachableWireArmComponentData", 0, Black.Actor.Component.Nifl.ComponentData.AttachableWireArmComponentData.ObjectType, null, properties, 0, 72);
+            ObjectType = new ObjectType("Black.Actor.Component.Nifl.ComponentData.AttachableWireArmComponentData", 0, Black.Actor.Component.Nifl.ComponentData.AttachableWireArmComponentData.ObjectType, Construct, properties, 0, 72);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Actor.Component.Nifl.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AttachableWireArmComponentData();
+        }
 		
     }
 }

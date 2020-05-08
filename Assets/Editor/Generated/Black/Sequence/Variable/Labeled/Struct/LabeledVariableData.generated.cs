@@ -22,7 +22,7 @@ namespace Black.Sequence.Variable.Labeled.Struct
             var dummy = new LabeledVariableData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.Labeled.Struct.LabeledVariableData", 0, Black.Sequence.Variable.Labeled.Struct.LabeledVariableData.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("Black.Sequence.Variable.Labeled.Struct.LabeledVariableData", 0, Black.Sequence.Variable.Labeled.Struct.LabeledVariableData.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Sequence.Variable.Labeled.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LabeledVariableData();
+        }
 		
     }
 }

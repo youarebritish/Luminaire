@@ -23,7 +23,7 @@ namespace Black.Sequence.Variable.AI
             var dummy = new SequenceVariableAITaskProperty();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.AI.SequenceVariableAITaskProperty", 0, Black.Sequence.Variable.AI.SequenceVariableAITaskProperty.ObjectType, null, properties, 0, 280);
+            ObjectType = new ObjectType("Black.Sequence.Variable.AI.SequenceVariableAITaskProperty", 0, Black.Sequence.Variable.AI.SequenceVariableAITaskProperty.ObjectType, Construct, properties, 0, 280);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Sequence.Variable.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableAITaskProperty();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Composite
             var dummy = new AIGraphNodeBTCompositeBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Composite.AIGraphNodeBTCompositeBase", 0, SQEX.Ebony.AIGraph.Node.BT.Composite.AIGraphNodeBTCompositeBase.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Composite.AIGraphNodeBTCompositeBase", 0, SQEX.Ebony.AIGraph.Node.BT.Composite.AIGraphNodeBTCompositeBase.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Composite
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeBTCompositeBase();
+        }
 		
     }
 }

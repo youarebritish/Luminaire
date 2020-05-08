@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new CrosshairSpinerRifleEntityEPP();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.CrosshairSpinerRifleEntityEPP", 0, Black.Entity.Menu.CrosshairSpinerRifleEntityEPP.ObjectType, null, properties, 0, 512);
+            ObjectType = new ObjectType("Black.Entity.Menu.CrosshairSpinerRifleEntityEPP", 0, Black.Entity.Menu.CrosshairSpinerRifleEntityEPP.ObjectType, Construct, properties, 0, 512);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CrosshairSpinerRifleEntityEPP();
+        }
 		
     }
 }

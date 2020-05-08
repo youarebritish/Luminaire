@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new SaveLoadMenuEntityEPP();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.SaveLoadMenuEntityEPP", 0, Black.Entity.Menu.SaveLoadMenuEntityEPP.ObjectType, null, properties, 0, 816);
+            ObjectType = new ObjectType("Black.Entity.Menu.SaveLoadMenuEntityEPP", 0, Black.Entity.Menu.SaveLoadMenuEntityEPP.ObjectType, Construct, properties, 0, 816);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SaveLoadMenuEntityEPP();
+        }
 		
     }
 }

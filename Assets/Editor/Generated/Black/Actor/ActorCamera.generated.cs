@@ -20,7 +20,7 @@ namespace Black.Actor
             var dummy = new ActorCamera();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.ActorCamera", 0, Black.Actor.ActorCamera.ObjectType, null, properties, 60, 9200);
+            ObjectType = new ObjectType("Black.Actor.ActorCamera", 0, Black.Actor.ActorCamera.ObjectType, Construct, properties, 60, 9200);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorCamera();
+        }
 		
     }
 }

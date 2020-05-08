@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugGetAnyFish();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugGetAnyFish", 0, Black.Sequence.Action.Debug.SequenceActionDebugGetAnyFish.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugGetAnyFish", 0, Black.Sequence.Action.Debug.SequenceActionDebugGetAnyFish.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugGetAnyFish();
+        }
 		
     }
 }

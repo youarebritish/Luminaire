@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new WorldShareCreateManager();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.WorldShareCreateManager", 0, Black.MultiPlayer.WorldShareCreateManager.ObjectType, null, properties, 3, 264);
+            ObjectType = new ObjectType("Black.MultiPlayer.WorldShareCreateManager", 0, Black.MultiPlayer.WorldShareCreateManager.ObjectType, Construct, properties, 3, 264);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WorldShareCreateManager();
+        }
 		
     }
 }

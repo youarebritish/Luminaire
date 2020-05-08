@@ -32,7 +32,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionPlayBackgroundMovie();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionPlayBackgroundMovie", 0, Black.Sequence.Action.Render.SequenceActionPlayBackgroundMovie.ObjectType, null, properties, 0, 720);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionPlayBackgroundMovie", 0, Black.Sequence.Action.Render.SequenceActionPlayBackgroundMovie.ObjectType, Construct, properties, 0, 720);
         }
 		
         public override ObjectType GetObjectType()
@@ -103,6 +103,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPlayBackgroundMovie();
+        }
 		
     }
 }

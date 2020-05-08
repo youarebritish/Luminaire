@@ -27,7 +27,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionInterpolateOceanMaterialParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionInterpolateOceanMaterialParameter", 0, Black.Sequence.Render.SequenceActionInterpolateOceanMaterialParameter.ObjectType, null, properties, 0, 568);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionInterpolateOceanMaterialParameter", 0, Black.Sequence.Render.SequenceActionInterpolateOceanMaterialParameter.ObjectType, Construct, properties, 0, 568);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionInterpolateOceanMaterialParameter();
+        }
 		
     }
 }

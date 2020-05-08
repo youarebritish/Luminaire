@@ -23,7 +23,7 @@ namespace Black.AIGraph.LeafNode.Test
             var dummy = new AIGraphLeafNodeFlyToTPSPointTest();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeFlyToTPSPointTest", 0, Black.AIGraph.LeafNode.Test.AIGraphLeafNodeFlyToTPSPointTest.ObjectType, null, properties, 0, 720);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Test.AIGraphLeafNodeFlyToTPSPointTest", 0, Black.AIGraph.LeafNode.Test.AIGraphLeafNodeFlyToTPSPointTest.ObjectType, Construct, properties, 0, 720);
         }
 		
         public override ObjectType GetObjectType()
@@ -119,6 +119,11 @@ namespace Black.AIGraph.LeafNode.Test
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphLeafNodeFlyToTPSPointTest();
+        }
 		
     }
 }

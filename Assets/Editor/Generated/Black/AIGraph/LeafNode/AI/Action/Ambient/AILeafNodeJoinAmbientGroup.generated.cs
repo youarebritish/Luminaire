@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Ambient
             var dummy = new AILeafNodeJoinAmbientGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Ambient.AILeafNodeJoinAmbientGroup", 0, Black.AIGraph.LeafNode.AI.Action.Ambient.AILeafNodeJoinAmbientGroup.ObjectType, null, properties, 0, 104);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Ambient.AILeafNodeJoinAmbientGroup", 0, Black.AIGraph.LeafNode.AI.Action.Ambient.AILeafNodeJoinAmbientGroup.ObjectType, Construct, properties, 0, 104);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeJoinAmbientGroup();
+        }
 		
     }
 }

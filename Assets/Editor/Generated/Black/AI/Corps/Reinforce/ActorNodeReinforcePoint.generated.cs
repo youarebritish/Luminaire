@@ -20,7 +20,7 @@ namespace Black.AI.Corps.Reinforce
             var dummy = new ActorNodeReinforcePoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Corps.Reinforce.ActorNodeReinforcePoint", 0, Black.AI.Corps.Reinforce.ActorNodeReinforcePoint.ObjectType, null, properties, 0, 992);
+            ObjectType = new ObjectType("Black.AI.Corps.Reinforce.ActorNodeReinforcePoint", 0, Black.AI.Corps.Reinforce.ActorNodeReinforcePoint.ObjectType, Construct, properties, 0, 992);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.AI.Corps.Reinforce
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeReinforcePoint();
+        }
 		
     }
 }

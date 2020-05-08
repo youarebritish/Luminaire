@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugGrape2Logger();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugGrape2Logger", 0, Black.Sequence.Action.Debug.SequenceActionDebugGrape2Logger.ObjectType, null, properties, 0, 488);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugGrape2Logger", 0, Black.Sequence.Action.Debug.SequenceActionDebugGrape2Logger.ObjectType, Construct, properties, 0, 488);
         }
 		
         public override ObjectType GetObjectType()
@@ -72,6 +72,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugGrape2Logger();
+        }
 		
     }
 }

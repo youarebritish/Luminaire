@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Actor.Status
             var dummy = new SequenceActionActorGetDeath();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorGetDeath", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorGetDeath.ObjectType, null, properties, 0, 800);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorGetDeath", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorGetDeath.ObjectType, Construct, properties, 0, 800);
         }
 		
         public override ObjectType GetObjectType()
@@ -101,6 +101,11 @@ namespace Black.Sequence.Action.Actor.Status
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetDeath();
+        }
 		
     }
 }

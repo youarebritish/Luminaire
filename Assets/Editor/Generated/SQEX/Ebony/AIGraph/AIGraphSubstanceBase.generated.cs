@@ -20,7 +20,7 @@ namespace SQEX.Ebony.AIGraph
             var dummy = new AIGraphSubstanceBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.AIGraphSubstanceBase", 0, SQEX.Ebony.AIGraph.AIGraphSubstanceBase.ObjectType, null, properties, 0, 48);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.AIGraphSubstanceBase", 0, SQEX.Ebony.AIGraph.AIGraphSubstanceBase.ObjectType, Construct, properties, 0, 48);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace SQEX.Ebony.AIGraph
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphSubstanceBase();
+        }
 		
     }
 }

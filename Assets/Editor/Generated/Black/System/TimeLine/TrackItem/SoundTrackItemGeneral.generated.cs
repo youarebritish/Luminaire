@@ -25,7 +25,7 @@ namespace Black.System.TimeLine.TrackItem
             var dummy = new SoundTrackItemGeneral();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.SoundTrackItemGeneral", 0, Black.System.TimeLine.TrackItem.SoundTrackItemGeneral.ObjectType, null, properties, 0, 256);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.SoundTrackItemGeneral", 0, Black.System.TimeLine.TrackItem.SoundTrackItemGeneral.ObjectType, Construct, properties, 0, 256);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.System.TimeLine.TrackItem
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SoundTrackItemGeneral();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             var dummy = new SequenceActionWaitTimeInner();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionWaitTimeInner", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionWaitTimeInner.ObjectType, null, properties, 0, 728);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionWaitTimeInner", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionWaitTimeInner.ObjectType, Construct, properties, 0, 728);
         }
 		
         public override ObjectType GetObjectType()
@@ -86,6 +86,11 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionWaitTimeInner();
+        }
 		
     }
 }

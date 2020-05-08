@@ -22,7 +22,7 @@ namespace Black.Entity.Menu
             var dummy = new PillarHPGaugeMenuEntityEPG();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.PillarHPGaugeMenuEntityEPG", 0, Black.Entity.Menu.PillarHPGaugeMenuEntityEPG.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Entity.Menu.PillarHPGaugeMenuEntityEPG", 0, Black.Entity.Menu.PillarHPGaugeMenuEntityEPG.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PillarHPGaugeMenuEntityEPG();
+        }
 		
     }
 }

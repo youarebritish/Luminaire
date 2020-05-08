@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level.Mission.Titan
             var dummy = new SequenceActionSetupJumpingStrongpoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Mission.Titan.SequenceActionSetupJumpingStrongpoint", 0, Black.Sequence.Action.Level.Mission.Titan.SequenceActionSetupJumpingStrongpoint.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Mission.Titan.SequenceActionSetupJumpingStrongpoint", 0, Black.Sequence.Action.Level.Mission.Titan.SequenceActionSetupJumpingStrongpoint.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Level.Mission.Titan
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetupJumpingStrongpoint();
+        }
 		
     }
 }

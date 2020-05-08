@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             var dummy = new SequenceActionTimeLineVolLightFilterTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVolLightFilterTrack", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVolLightFilterTrack.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVolLightFilterTrack", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineVolLightFilterTrack.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -104,6 +104,11 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineVolLightFilterTrack();
+        }
 		
     }
 }

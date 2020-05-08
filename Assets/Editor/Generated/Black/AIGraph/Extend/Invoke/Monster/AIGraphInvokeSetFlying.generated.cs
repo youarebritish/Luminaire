@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             var dummy = new AIGraphInvokeSetFlying();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetFlying", 0, Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetFlying.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetFlying", 0, Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeSetFlying.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetFlying();
+        }
 		
     }
 }

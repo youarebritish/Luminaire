@@ -27,7 +27,7 @@ namespace Black.Sequence.Actor.AI.Vehicle
             var dummy = new SequenceActionAIVehicleGetDistanceOnCurve();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleGetDistanceOnCurve", 0, Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleGetDistanceOnCurve.ObjectType, null, properties, 0, 824);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleGetDistanceOnCurve", 0, Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleGetDistanceOnCurve.ObjectType, Construct, properties, 0, 824);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Actor.AI.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIVehicleGetDistanceOnCurve();
+        }
 		
     }
 }

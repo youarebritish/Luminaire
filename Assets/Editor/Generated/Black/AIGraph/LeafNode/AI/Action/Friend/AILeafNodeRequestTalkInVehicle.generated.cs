@@ -25,7 +25,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Friend
             var dummy = new AILeafNodeRequestTalkInVehicle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeRequestTalkInVehicle", 0, Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeRequestTalkInVehicle.ObjectType, null, properties, 0, 224);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeRequestTalkInVehicle", 0, Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeRequestTalkInVehicle.ObjectType, Construct, properties, 0, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.Friend
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeRequestTalkInVehicle();
+        }
 		
     }
 }

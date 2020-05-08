@@ -39,7 +39,7 @@ namespace Black.Entity.Actor
             var dummy = new HeightFieldEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Actor.HeightFieldEntity", 0, Black.Entity.Actor.HeightFieldEntity.ObjectType, null, properties, 0, 800);
+            ObjectType = new ObjectType("Black.Entity.Actor.HeightFieldEntity", 0, Black.Entity.Actor.HeightFieldEntity.ObjectType, Construct, properties, 0, 800);
         }
 		
         public override ObjectType GetObjectType()
@@ -85,6 +85,11 @@ namespace Black.Entity.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new HeightFieldEntity();
+        }
 		
     }
 }

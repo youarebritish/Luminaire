@@ -22,7 +22,7 @@ namespace Black.Sequence.Actor.AI.Corps
             var dummy = new SequenceActionAIGetCorpsStatusObject();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Corps.SequenceActionAIGetCorpsStatusObject", 0, Black.Sequence.Actor.AI.Corps.SequenceActionAIGetCorpsStatusObject.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Corps.SequenceActionAIGetCorpsStatusObject", 0, Black.Sequence.Actor.AI.Corps.SequenceActionAIGetCorpsStatusObject.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.Sequence.Actor.AI.Corps
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIGetCorpsStatusObject();
+        }
 		
     }
 }

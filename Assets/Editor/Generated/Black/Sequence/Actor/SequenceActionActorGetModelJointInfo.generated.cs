@@ -29,7 +29,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorGetModelJointInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorGetModelJointInfo", 0, Black.Sequence.Actor.SequenceActionActorGetModelJointInfo.ObjectType, null, properties, 0, 736);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorGetModelJointInfo", 0, Black.Sequence.Actor.SequenceActionActorGetModelJointInfo.ObjectType, Construct, properties, 0, 736);
         }
 		
         public override ObjectType GetObjectType()
@@ -95,6 +95,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetModelJointInfo();
+        }
 		
     }
 }

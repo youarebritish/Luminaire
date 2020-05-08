@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionRefreshFriendList();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionRefreshFriendList", 0, Black.Sequence.Action.System.SequenceActionRefreshFriendList.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionRefreshFriendList", 0, Black.Sequence.Action.System.SequenceActionRefreshFriendList.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionRefreshFriendList();
+        }
 		
     }
 }

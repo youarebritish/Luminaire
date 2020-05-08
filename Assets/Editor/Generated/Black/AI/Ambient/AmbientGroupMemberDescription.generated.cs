@@ -23,7 +23,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientGroupMemberDescription();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientGroupMemberDescription", 0, Black.AI.Ambient.AmbientGroupMemberDescription.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientGroupMemberDescription", 0, Black.AI.Ambient.AmbientGroupMemberDescription.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientGroupMemberDescription();
+        }
 		
     }
 }

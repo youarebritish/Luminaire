@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodeDrivingTriggerPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeDrivingTriggerPoint", 0, Black.Actor.Node.ActorNodeDrivingTriggerPoint.ObjectType, null, properties, 59, 1328);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeDrivingTriggerPoint", 0, Black.Actor.Node.ActorNodeDrivingTriggerPoint.ObjectType, Construct, properties, 59, 1328);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeDrivingTriggerPoint();
+        }
 		
     }
 }

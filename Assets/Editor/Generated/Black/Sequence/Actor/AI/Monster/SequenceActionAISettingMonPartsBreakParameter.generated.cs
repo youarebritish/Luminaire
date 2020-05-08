@@ -42,7 +42,7 @@ namespace Black.Sequence.Actor.AI.Monster
             var dummy = new SequenceActionAISettingMonPartsBreakParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionAISettingMonPartsBreakParameter", 0, Black.Sequence.Actor.AI.Monster.SequenceActionAISettingMonPartsBreakParameter.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionAISettingMonPartsBreakParameter", 0, Black.Sequence.Actor.AI.Monster.SequenceActionAISettingMonPartsBreakParameter.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -109,6 +109,11 @@ namespace Black.Sequence.Actor.AI.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAISettingMonPartsBreakParameter();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.AirShip
             var dummy = new AIGraphInvokeAirShipShootAnchor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.AirShip.AIGraphInvokeAirShipShootAnchor", 0, Black.AIGraph.Extend.Invoke.Nifl.AirShip.AIGraphInvokeAirShipShootAnchor.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.AirShip.AIGraphInvokeAirShipShootAnchor", 0, Black.AIGraph.Extend.Invoke.Nifl.AirShip.AIGraphInvokeAirShipShootAnchor.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Invoke.Nifl.AirShip
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeAirShipShootAnchor();
+        }
 		
     }
 }

@@ -26,7 +26,7 @@ namespace Black.AIGraph.LeafNode.AI.Move
             var dummy = new AILeafNodeApproachPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.AILeafNodeApproachPoint", 0, Black.AIGraph.LeafNode.AI.Move.AILeafNodeApproachPoint.ObjectType, null, properties, 0, 800);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Move.AILeafNodeApproachPoint", 0, Black.AIGraph.LeafNode.AI.Move.AILeafNodeApproachPoint.ObjectType, Construct, properties, 0, 800);
         }
 		
         public override ObjectType GetObjectType()
@@ -134,6 +134,11 @@ namespace Black.AIGraph.LeafNode.AI.Move
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeApproachPoint();
+        }
 		
     }
 }

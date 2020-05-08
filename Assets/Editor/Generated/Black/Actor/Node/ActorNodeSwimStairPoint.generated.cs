@@ -20,7 +20,7 @@ namespace Black.Actor.Node
             var dummy = new ActorNodeSwimStairPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeSwimStairPoint", 0, Black.Actor.Node.ActorNodeSwimStairPoint.ObjectType, null, properties, 59, 976);
+            ObjectType = new ObjectType("Black.Actor.Node.ActorNodeSwimStairPoint", 0, Black.Actor.Node.ActorNodeSwimStairPoint.ObjectType, Construct, properties, 59, 976);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorNodeSwimStairPoint();
+        }
 		
     }
 }

@@ -33,7 +33,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionCreateAvoidArea();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionCreateAvoidArea", 0, Black.Sequence.Action.Level.SequenceActionCreateAvoidArea.ObjectType, null, properties, 0, 1072);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionCreateAvoidArea", 0, Black.Sequence.Action.Level.SequenceActionCreateAvoidArea.ObjectType, Construct, properties, 0, 1072);
         }
 		
         public override ObjectType GetObjectType()
@@ -121,6 +121,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCreateAvoidArea();
+        }
 		
     }
 }

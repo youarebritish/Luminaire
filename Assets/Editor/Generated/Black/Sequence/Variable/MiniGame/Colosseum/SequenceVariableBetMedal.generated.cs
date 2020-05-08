@@ -22,7 +22,7 @@ namespace Black.Sequence.Variable.MiniGame.Colosseum
             var dummy = new SequenceVariableBetMedal();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.MiniGame.Colosseum.SequenceVariableBetMedal", 0, Black.Sequence.Variable.MiniGame.Colosseum.SequenceVariableBetMedal.ObjectType, null, properties, 0, 264);
+            ObjectType = new ObjectType("Black.Sequence.Variable.MiniGame.Colosseum.SequenceVariableBetMedal", 0, Black.Sequence.Variable.MiniGame.Colosseum.SequenceVariableBetMedal.ObjectType, Construct, properties, 0, 264);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Variable.MiniGame.Colosseum
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableBetMedal();
+        }
 		
     }
 }

@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Camera
             var dummy = new SequenceActionOverrideCameraFov();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionOverrideCameraFov", 0, Black.Sequence.Action.Camera.SequenceActionOverrideCameraFov.ObjectType, null, properties, 0, 912);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionOverrideCameraFov", 0, Black.Sequence.Action.Camera.SequenceActionOverrideCameraFov.ObjectType, Construct, properties, 0, 912);
         }
 		
         public override ObjectType GetObjectType()
@@ -109,6 +109,11 @@ namespace Black.Sequence.Action.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionOverrideCameraFov();
+        }
 		
     }
 }

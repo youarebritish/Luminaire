@@ -21,7 +21,7 @@ namespace Black.Sequence.Control.Struct
             var dummy = new ConditionCollectionData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.Struct.ConditionCollectionData", 0, Black.Sequence.Control.Struct.ConditionCollectionData.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.Sequence.Control.Struct.ConditionCollectionData", 0, Black.Sequence.Control.Struct.ConditionCollectionData.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Sequence.Control.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ConditionCollectionData();
+        }
 		
     }
 }

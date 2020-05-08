@@ -24,7 +24,7 @@ namespace Black.Actor
             var dummy = new ActorControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.ActorControl", 0, Black.Actor.ActorControl.ObjectType, null, properties, 60, 7152);
+            ObjectType = new ObjectType("Black.Actor.ActorControl", 0, Black.Actor.ActorControl.ObjectType, Construct, properties, 60, 7152);
         }
 		
         public override ObjectType GetObjectType()
@@ -57,6 +57,11 @@ namespace Black.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorControl();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Conversion
             var dummy = new SequenceConversionIntToFloat();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceConversionIntToFloat", 0, SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceConversionIntToFloat.ObjectType, null, properties, 0, 264);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceConversionIntToFloat", 0, SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceConversionIntToFloat.ObjectType, Construct, properties, 0, 264);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Conversion
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConversionIntToFloat();
+        }
 		
     }
 }

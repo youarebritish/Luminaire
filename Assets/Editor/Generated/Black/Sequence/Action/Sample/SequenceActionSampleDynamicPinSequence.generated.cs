@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Sample
             var dummy = new SequenceActionSampleDynamicPinSequence();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Sample.SequenceActionSampleDynamicPinSequence", 0, Black.Sequence.Action.Sample.SequenceActionSampleDynamicPinSequence.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Action.Sample.SequenceActionSampleDynamicPinSequence", 0, Black.Sequence.Action.Sample.SequenceActionSampleDynamicPinSequence.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -69,6 +69,11 @@ namespace Black.Sequence.Action.Sample
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSampleDynamicPinSequence();
+        }
 		
     }
 }

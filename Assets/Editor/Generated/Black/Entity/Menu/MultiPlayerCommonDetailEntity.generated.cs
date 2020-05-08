@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new MultiPlayerCommonDetailEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.MultiPlayerCommonDetailEntity", 0, Black.Entity.Menu.MultiPlayerCommonDetailEntity.ObjectType, null, properties, 0, 1600);
+            ObjectType = new ObjectType("Black.Entity.Menu.MultiPlayerCommonDetailEntity", 0, Black.Entity.Menu.MultiPlayerCommonDetailEntity.ObjectType, Construct, properties, 0, 1600);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MultiPlayerCommonDetailEntity();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action.TimeLine.TrackElement
             var dummy = new SequenceActionTimeLineSetBaseParamTrackElement();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.TimeLine.TrackElement.SequenceActionTimeLineSetBaseParamTrackElement", 0, SQEX.Ebony.Framework.Sequence.Action.TimeLine.TrackElement.SequenceActionTimeLineSetBaseParamTrackElement.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.TimeLine.TrackElement.SequenceActionTimeLineSetBaseParamTrackElement", 0, SQEX.Ebony.Framework.Sequence.Action.TimeLine.TrackElement.SequenceActionTimeLineSetBaseParamTrackElement.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace SQEX.Ebony.Framework.Sequence.Action.TimeLine.TrackElement
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineSetBaseParamTrackElement();
+        }
 		
     }
 }

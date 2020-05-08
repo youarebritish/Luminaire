@@ -27,7 +27,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceEventRectangleTrigger();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventRectangleTrigger", 0, Black.Sequence.Event.SequenceEventRectangleTrigger.ObjectType, null, properties, 0, 520);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventRectangleTrigger", 0, Black.Sequence.Event.SequenceEventRectangleTrigger.ObjectType, Construct, properties, 0, 520);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventRectangleTrigger();
+        }
 		
     }
 }

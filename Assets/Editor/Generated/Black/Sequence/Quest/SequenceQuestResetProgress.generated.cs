@@ -24,7 +24,7 @@ namespace Black.Sequence.Quest
             var dummy = new SequenceQuestResetProgress();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Quest.SequenceQuestResetProgress", 0, Black.Sequence.Quest.SequenceQuestResetProgress.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Quest.SequenceQuestResetProgress", 0, Black.Sequence.Quest.SequenceQuestResetProgress.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceQuestResetProgress();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Entity.Node
             var dummy = new TriggerEntityMenuSelect();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.TriggerEntityMenuSelect", 0, Black.Entity.Node.TriggerEntityMenuSelect.ObjectType, null, properties, 0, 496);
+            ObjectType = new ObjectType("Black.Entity.Node.TriggerEntityMenuSelect", 0, Black.Entity.Node.TriggerEntityMenuSelect.ObjectType, Construct, properties, 0, 496);
         }
 		
         public override ObjectType GetObjectType()
@@ -80,6 +80,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TriggerEntityMenuSelect();
+        }
 		
     }
 }

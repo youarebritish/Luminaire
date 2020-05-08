@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
             var dummy = new AIGraphNodeBTDecoratorCheckFightMode();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorCheckFightMode", 0, SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorCheckFightMode.ObjectType, null, properties, 0, 232);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorCheckFightMode", 0, SQEX.Ebony.AIGraph.Node.BT.Decorator.AIGraphNodeBTDecoratorCheckFightMode.ObjectType, Construct, properties, 0, 232);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Decorator
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeBTDecoratorCheckFightMode();
+        }
 		
     }
 }

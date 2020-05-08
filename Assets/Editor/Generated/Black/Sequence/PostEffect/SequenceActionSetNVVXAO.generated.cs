@@ -69,7 +69,7 @@ namespace Black.Sequence.PostEffect
             var dummy = new SequenceActionSetNVVXAO();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.PostEffect.SequenceActionSetNVVXAO", 0, Black.Sequence.PostEffect.SequenceActionSetNVVXAO.ObjectType, null, properties, 0, 1888);
+            ObjectType = new ObjectType("Black.Sequence.PostEffect.SequenceActionSetNVVXAO", 0, Black.Sequence.PostEffect.SequenceActionSetNVVXAO.ObjectType, Construct, properties, 0, 1888);
         }
 		
         public override ObjectType GetObjectType()
@@ -223,6 +223,11 @@ namespace Black.Sequence.PostEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetNVVXAO();
+        }
 		
     }
 }

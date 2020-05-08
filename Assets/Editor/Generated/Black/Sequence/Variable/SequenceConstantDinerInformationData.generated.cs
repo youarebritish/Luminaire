@@ -23,7 +23,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceConstantDinerInformationData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstantDinerInformationData", 0, Black.Sequence.Variable.SequenceConstantDinerInformationData.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstantDinerInformationData", 0, Black.Sequence.Variable.SequenceConstantDinerInformationData.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstantDinerInformationData();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Dinner
             var dummy = new SequenceActionDinnerTalkPlayChunk();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Dinner.SequenceActionDinnerTalkPlayChunk", 0, Black.Sequence.Action.Dinner.SequenceActionDinnerTalkPlayChunk.ObjectType, null, properties, 0, 752);
+            ObjectType = new ObjectType("Black.Sequence.Action.Dinner.SequenceActionDinnerTalkPlayChunk", 0, Black.Sequence.Action.Dinner.SequenceActionDinnerTalkPlayChunk.ObjectType, Construct, properties, 0, 752);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Action.Dinner
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDinnerTalkPlayChunk();
+        }
 		
     }
 }

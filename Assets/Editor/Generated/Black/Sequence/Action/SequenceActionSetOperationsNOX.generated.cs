@@ -32,7 +32,7 @@ namespace Black.Sequence.Action
             var dummy = new SequenceActionSetOperationsNOX();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.SequenceActionSetOperationsNOX", 0, Black.Sequence.Action.SequenceActionSetOperationsNOX.ObjectType, null, properties, 0, 928);
+            ObjectType = new ObjectType("Black.Sequence.Action.SequenceActionSetOperationsNOX", 0, Black.Sequence.Action.SequenceActionSetOperationsNOX.ObjectType, Construct, properties, 0, 928);
         }
 		
         public override ObjectType GetObjectType()
@@ -113,6 +113,11 @@ namespace Black.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetOperationsNOX();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level.System
             var dummy = new SequenceActionAnsweredMasterAccount();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.System.SequenceActionAnsweredMasterAccount", 0, Black.Sequence.Action.Level.System.SequenceActionAnsweredMasterAccount.ObjectType, null, properties, 0, 568);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.System.SequenceActionAnsweredMasterAccount", 0, Black.Sequence.Action.Level.System.SequenceActionAnsweredMasterAccount.ObjectType, Construct, properties, 0, 568);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Level.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAnsweredMasterAccount();
+        }
 		
     }
 }

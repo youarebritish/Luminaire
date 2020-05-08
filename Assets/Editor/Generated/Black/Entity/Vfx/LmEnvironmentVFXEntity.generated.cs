@@ -21,7 +21,7 @@ namespace Black.Entity.Vfx
             var dummy = new LmEnvironmentVFXEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Vfx.LmEnvironmentVFXEntity", 0, Black.Entity.Vfx.LmEnvironmentVFXEntity.ObjectType, null, properties, 0, 80);
+            ObjectType = new ObjectType("Black.Entity.Vfx.LmEnvironmentVFXEntity", 0, Black.Entity.Vfx.LmEnvironmentVFXEntity.ObjectType, Construct, properties, 0, 80);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Vfx
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LmEnvironmentVFXEntity();
+        }
 		
     }
 }

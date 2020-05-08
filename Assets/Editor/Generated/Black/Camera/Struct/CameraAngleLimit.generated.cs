@@ -23,7 +23,7 @@ namespace Black.Camera.Struct
             var dummy = new CameraAngleLimit();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Camera.Struct.CameraAngleLimit", 0, Black.Camera.Struct.CameraAngleLimit.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.Camera.Struct.CameraAngleLimit", 0, Black.Camera.Struct.CameraAngleLimit.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Camera.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CameraAngleLimit();
+        }
 		
     }
 }

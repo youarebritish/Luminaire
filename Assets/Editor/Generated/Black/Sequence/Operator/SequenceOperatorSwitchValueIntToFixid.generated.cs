@@ -48,7 +48,7 @@ namespace Black.Sequence.Operator
             var dummy = new SequenceOperatorSwitchValueIntToFixid();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorSwitchValueIntToFixid", 0, Black.Sequence.Operator.SequenceOperatorSwitchValueIntToFixid.ObjectType, null, properties, 0, 416);
+            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorSwitchValueIntToFixid", 0, Black.Sequence.Operator.SequenceOperatorSwitchValueIntToFixid.ObjectType, Construct, properties, 0, 416);
         }
 		
         public override ObjectType GetObjectType()
@@ -110,6 +110,11 @@ namespace Black.Sequence.Operator
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorSwitchValueIntToFixid();
+        }
 		
     }
 }

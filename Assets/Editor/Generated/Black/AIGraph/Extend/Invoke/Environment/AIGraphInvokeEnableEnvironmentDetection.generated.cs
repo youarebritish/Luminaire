@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Environment
             var dummy = new AIGraphInvokeEnableEnvironmentDetection();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Environment.AIGraphInvokeEnableEnvironmentDetection", 0, Black.AIGraph.Extend.Invoke.Environment.AIGraphInvokeEnableEnvironmentDetection.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Environment.AIGraphInvokeEnableEnvironmentDetection", 0, Black.AIGraph.Extend.Invoke.Environment.AIGraphInvokeEnableEnvironmentDetection.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Environment
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeEnableEnvironmentDetection();
+        }
 		
     }
 }

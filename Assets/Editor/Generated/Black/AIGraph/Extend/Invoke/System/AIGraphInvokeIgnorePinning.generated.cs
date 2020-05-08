@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.System
             var dummy = new AIGraphInvokeIgnorePinning();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnorePinning", 0, Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnorePinning.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnorePinning", 0, Black.AIGraph.Extend.Invoke.System.AIGraphInvokeIgnorePinning.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeIgnorePinning();
+        }
 		
     }
 }

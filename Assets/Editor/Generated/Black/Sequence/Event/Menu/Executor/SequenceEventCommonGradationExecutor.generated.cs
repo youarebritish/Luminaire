@@ -20,7 +20,7 @@ namespace Black.Sequence.Event.Menu.Executor
             var dummy = new SequenceEventCommonGradationExecutor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventCommonGradationExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventCommonGradationExecutor.ObjectType, null, properties, 0, 1096);
+            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventCommonGradationExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventCommonGradationExecutor.ObjectType, Construct, properties, 0, 1096);
         }
 		
         public override ObjectType GetObjectType()
@@ -95,6 +95,11 @@ namespace Black.Sequence.Event.Menu.Executor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventCommonGradationExecutor();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.TimeLine
             var dummy = new SequenceActionTimeLineGeneralSlowTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineGeneralSlowTrack", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineGeneralSlowTrack.ObjectType, null, properties, 0, 328);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineGeneralSlowTrack", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineGeneralSlowTrack.ObjectType, Construct, properties, 0, 328);
         }
 		
         public override ObjectType GetObjectType()
@@ -62,6 +62,11 @@ namespace Black.Sequence.Action.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineGeneralSlowTrack();
+        }
 		
     }
 }

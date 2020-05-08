@@ -53,7 +53,7 @@ namespace Black.WorldMap
             var dummy = new TerrainCurveCollisionData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.WorldMap.TerrainCurveCollisionData", 0, Black.WorldMap.TerrainCurveCollisionData.ObjectType, null, properties, 0, 520);
+            ObjectType = new ObjectType("Black.WorldMap.TerrainCurveCollisionData", 0, Black.WorldMap.TerrainCurveCollisionData.ObjectType, Construct, properties, 0, 520);
         }
 		
         public override ObjectType GetObjectType()
@@ -110,6 +110,11 @@ namespace Black.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TerrainCurveCollisionData();
+        }
 		
     }
 }

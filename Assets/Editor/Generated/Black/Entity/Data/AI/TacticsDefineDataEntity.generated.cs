@@ -27,7 +27,7 @@ namespace Black.Entity.Data.AI
             var dummy = new TacticsDefineDataEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.AI.TacticsDefineDataEntity", 0, Black.Entity.Data.AI.TacticsDefineDataEntity.ObjectType, null, properties, 0, 168);
+            ObjectType = new ObjectType("Black.Entity.Data.AI.TacticsDefineDataEntity", 0, Black.Entity.Data.AI.TacticsDefineDataEntity.ObjectType, Construct, properties, 0, 168);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Entity.Data.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TacticsDefineDataEntity();
+        }
 		
     }
 }

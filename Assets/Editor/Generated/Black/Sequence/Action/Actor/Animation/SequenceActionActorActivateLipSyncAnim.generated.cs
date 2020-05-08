@@ -47,7 +47,7 @@ namespace Black.Sequence.Action.Actor.Animation
             var dummy = new SequenceActionActorActivateLipSyncAnim();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorActivateLipSyncAnim", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorActivateLipSyncAnim.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorActivateLipSyncAnim", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorActivateLipSyncAnim.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -113,6 +113,11 @@ namespace Black.Sequence.Action.Actor.Animation
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorActivateLipSyncAnim();
+        }
 		
     }
 }

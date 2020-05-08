@@ -20,7 +20,7 @@ namespace Black.Actor
             var dummy = new ActorBonamikWind();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.ActorBonamikWind", 0, Black.Actor.ActorBonamikWind.ObjectType, null, properties, 59, 816);
+            ObjectType = new ObjectType("Black.Actor.ActorBonamikWind", 0, Black.Actor.ActorBonamikWind.ObjectType, Construct, properties, 59, 816);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorBonamikWind();
+        }
 		
     }
 }

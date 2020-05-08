@@ -28,7 +28,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Friend
             var dummy = new AILeafNodeExecGambit();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeExecGambit", 0, Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeExecGambit.ObjectType, null, properties, 0, 344);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeExecGambit", 0, Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeExecGambit.ObjectType, Construct, properties, 0, 344);
         }
 		
         public override ObjectType GetObjectType()
@@ -88,6 +88,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.Friend
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeExecGambit();
+        }
 		
     }
 }

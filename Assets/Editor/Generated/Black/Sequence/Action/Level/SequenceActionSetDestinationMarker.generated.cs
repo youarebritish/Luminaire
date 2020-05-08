@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionSetDestinationMarker();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetDestinationMarker", 0, Black.Sequence.Action.Level.SequenceActionSetDestinationMarker.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetDestinationMarker", 0, Black.Sequence.Action.Level.SequenceActionSetDestinationMarker.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetDestinationMarker();
+        }
 		
     }
 }

@@ -33,7 +33,7 @@ namespace Black.Sequence.Action.Level.Control
             var dummy = new SequenceActionTimer();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Control.SequenceActionTimer", 0, Black.Sequence.Action.Level.Control.SequenceActionTimer.ObjectType, null, properties, 0, 1040);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Control.SequenceActionTimer", 0, Black.Sequence.Action.Level.Control.SequenceActionTimer.ObjectType, Construct, properties, 0, 1040);
         }
 		
         public override ObjectType GetObjectType()
@@ -122,6 +122,11 @@ namespace Black.Sequence.Action.Level.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimer();
+        }
 		
     }
 }

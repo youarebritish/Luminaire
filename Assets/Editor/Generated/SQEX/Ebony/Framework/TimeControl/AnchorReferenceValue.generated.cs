@@ -28,7 +28,7 @@ namespace SQEX.Ebony.Framework.TimeControl
             var dummy = new AnchorReferenceValue();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.AnchorReferenceValue", 0, SQEX.Ebony.Framework.TimeControl.AnchorReferenceValue.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.AnchorReferenceValue", 0, SQEX.Ebony.Framework.TimeControl.AnchorReferenceValue.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace SQEX.Ebony.Framework.TimeControl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AnchorReferenceValue();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Entity.Node
             var dummy = new SpecialAreaEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.SpecialAreaEntity", 0, Black.Entity.Node.SpecialAreaEntity.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Entity.Node.SpecialAreaEntity", 0, Black.Entity.Node.SpecialAreaEntity.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -72,6 +72,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SpecialAreaEntity();
+        }
 		
     }
 }

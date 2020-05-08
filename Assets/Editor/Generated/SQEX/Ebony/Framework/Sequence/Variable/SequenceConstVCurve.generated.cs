@@ -24,7 +24,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
             var dummy = new SequenceConstVCurve();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstVCurve", 0, SQEX.Ebony.Framework.Sequence.Variable.SequenceConstVCurve.ObjectType, null, properties, 0, 648);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstVCurve", 0, SQEX.Ebony.Framework.Sequence.Variable.SequenceConstVCurve.ObjectType, Construct, properties, 0, 648);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstVCurve();
+        }
 		
     }
 }

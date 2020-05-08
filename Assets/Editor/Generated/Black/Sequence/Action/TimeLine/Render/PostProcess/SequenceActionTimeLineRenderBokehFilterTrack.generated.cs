@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             var dummy = new SequenceActionTimeLineRenderBokehFilterTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineRenderBokehFilterTrack", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineRenderBokehFilterTrack.ObjectType, null, properties, 0, 512);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineRenderBokehFilterTrack", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLineRenderBokehFilterTrack.ObjectType, Construct, properties, 0, 512);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineRenderBokehFilterTrack();
+        }
 		
     }
 }

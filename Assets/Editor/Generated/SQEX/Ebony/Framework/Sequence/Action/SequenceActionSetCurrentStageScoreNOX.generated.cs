@@ -24,7 +24,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             var dummy = new SequenceActionSetCurrentStageScoreNOX();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetCurrentStageScoreNOX", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetCurrentStageScoreNOX.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetCurrentStageScoreNOX", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetCurrentStageScoreNOX.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetCurrentStageScoreNOX();
+        }
 		
     }
 }

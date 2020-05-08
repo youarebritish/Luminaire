@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Sequence.Tray
             var dummy = new MenuLogicTray();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Tray.MenuLogicTray", 0, SQEX.Ebony.Framework.Sequence.Tray.MenuLogicTray.ObjectType, null, properties, 1, 336);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Tray.MenuLogicTray", 0, SQEX.Ebony.Framework.Sequence.Tray.MenuLogicTray.ObjectType, Construct, properties, 1, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace SQEX.Ebony.Framework.Sequence.Tray
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MenuLogicTray();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionSetWorldTimerDayNightRatio();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSetWorldTimerDayNightRatio", 0, Black.Sequence.Action.System.SequenceActionSetWorldTimerDayNightRatio.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSetWorldTimerDayNightRatio", 0, Black.Sequence.Action.System.SequenceActionSetWorldTimerDayNightRatio.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetWorldTimerDayNightRatio();
+        }
 		
     }
 }

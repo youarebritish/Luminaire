@@ -20,7 +20,7 @@ namespace Black.Entity.Node
             var dummy = new QuestPackageLoadEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.QuestPackageLoadEntity", 0, Black.Entity.Node.QuestPackageLoadEntity.ObjectType, null, properties, 0, 448);
+            ObjectType = new ObjectType("Black.Entity.Node.QuestPackageLoadEntity", 0, Black.Entity.Node.QuestPackageLoadEntity.ObjectType, Construct, properties, 0, 448);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new QuestPackageLoadEntity();
+        }
 		
     }
 }

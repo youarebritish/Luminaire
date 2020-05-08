@@ -33,7 +33,7 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             var dummy = new InGameCameraCollision();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCollision", 0, Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCollision.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCollision", 0, Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCollision.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InGameCameraCollision();
+        }
 		
     }
 }

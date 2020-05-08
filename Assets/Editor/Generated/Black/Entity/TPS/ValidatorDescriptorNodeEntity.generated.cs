@@ -20,7 +20,7 @@ namespace Black.Entity.TPS
             var dummy = new ValidatorDescriptorNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.ValidatorDescriptorNodeEntity", 0, Black.Entity.TPS.ValidatorDescriptorNodeEntity.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("Black.Entity.TPS.ValidatorDescriptorNodeEntity", 0, Black.Entity.TPS.ValidatorDescriptorNodeEntity.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity.TPS
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ValidatorDescriptorNodeEntity();
+        }
 		
     }
 }

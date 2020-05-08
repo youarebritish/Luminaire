@@ -20,7 +20,7 @@ namespace Black.Actor
             var dummy = new ActorPrefab();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.ActorPrefab", 0, Black.Actor.ActorPrefab.ObjectType, null, properties, 59, 848);
+            ObjectType = new ObjectType("Black.Actor.ActorPrefab", 0, Black.Actor.ActorPrefab.ObjectType, Construct, properties, 59, 848);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorPrefab();
+        }
 		
     }
 }

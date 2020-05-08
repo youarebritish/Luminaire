@@ -51,7 +51,7 @@ namespace Black.Entity.Render
             var dummy = new DisplacementTextureEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.DisplacementTextureEntity", 0, Black.Entity.Render.DisplacementTextureEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.Render.DisplacementTextureEntity", 0, Black.Entity.Render.DisplacementTextureEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -106,6 +106,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DisplacementTextureEntity();
+        }
 		
     }
 }

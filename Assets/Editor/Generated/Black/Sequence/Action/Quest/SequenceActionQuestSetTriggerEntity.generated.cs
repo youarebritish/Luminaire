@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Quest
             var dummy = new SequenceActionQuestSetTriggerEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Quest.SequenceActionQuestSetTriggerEntity", 0, Black.Sequence.Action.Quest.SequenceActionQuestSetTriggerEntity.ObjectType, null, properties, 0, 584);
+            ObjectType = new ObjectType("Black.Sequence.Action.Quest.SequenceActionQuestSetTriggerEntity", 0, Black.Sequence.Action.Quest.SequenceActionQuestSetTriggerEntity.ObjectType, Construct, properties, 0, 584);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionQuestSetTriggerEntity();
+        }
 		
     }
 }

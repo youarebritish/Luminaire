@@ -29,7 +29,7 @@ namespace Black.Entity.Shape
             var dummy = new OceanDistanceFieldEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Shape.OceanDistanceFieldEntity", 0, Black.Entity.Shape.OceanDistanceFieldEntity.ObjectType, null, properties, 0, 416);
+            ObjectType = new ObjectType("Black.Entity.Shape.OceanDistanceFieldEntity", 0, Black.Entity.Shape.OceanDistanceFieldEntity.ObjectType, Construct, properties, 0, 416);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Entity.Shape
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new OceanDistanceFieldEntity();
+        }
 		
     }
 }

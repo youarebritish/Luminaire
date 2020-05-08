@@ -28,7 +28,7 @@ namespace Black.Entity.TPS.FilterNodeEntities
             var dummy = new Distance2DTrapezoidFilterNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.Distance2DTrapezoidFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.Distance2DTrapezoidFilterNodeEntity.ObjectType, null, properties, 0, 336);
+            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.Distance2DTrapezoidFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.Distance2DTrapezoidFilterNodeEntity.ObjectType, Construct, properties, 0, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Entity.TPS.FilterNodeEntities
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new Distance2DTrapezoidFilterNodeEntity();
+        }
 		
     }
 }

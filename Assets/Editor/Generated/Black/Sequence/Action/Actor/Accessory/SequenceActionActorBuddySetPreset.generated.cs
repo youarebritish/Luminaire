@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Actor.Accessory
             var dummy = new SequenceActionActorBuddySetPreset();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorBuddySetPreset", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorBuddySetPreset.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorBuddySetPreset", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorBuddySetPreset.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.Sequence.Action.Actor.Accessory
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorBuddySetPreset();
+        }
 		
     }
 }

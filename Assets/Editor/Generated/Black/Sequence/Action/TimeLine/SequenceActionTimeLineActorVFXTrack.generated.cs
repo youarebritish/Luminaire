@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.TimeLine
             var dummy = new SequenceActionTimeLineActorVFXTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorVFXTrack", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorVFXTrack.ObjectType, null, properties, 0, 424);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorVFXTrack", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorVFXTrack.ObjectType, Construct, properties, 0, 424);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Action.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineActorVFXTrack();
+        }
 		
     }
 }

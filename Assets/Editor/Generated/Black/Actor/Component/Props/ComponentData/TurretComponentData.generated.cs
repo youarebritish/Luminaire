@@ -38,7 +38,7 @@ namespace Black.Actor.Component.Props.ComponentData
             var dummy = new TurretComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Props.ComponentData.TurretComponentData", 0, Black.Actor.Component.Props.ComponentData.TurretComponentData.ObjectType, null, properties, 0, 176);
+            ObjectType = new ObjectType("Black.Actor.Component.Props.ComponentData.TurretComponentData", 0, Black.Actor.Component.Props.ComponentData.TurretComponentData.ObjectType, Construct, properties, 0, 176);
         }
 		
         public override ObjectType GetObjectType()
@@ -80,6 +80,11 @@ namespace Black.Actor.Component.Props.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TurretComponentData();
+        }
 		
     }
 }

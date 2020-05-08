@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.Body.Mode
             var dummy = new BodyLeafNodeWaitIdleModeChange();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Mode.BodyLeafNodeWaitIdleModeChange", 0, Black.AIGraph.LeafNode.Body.Mode.BodyLeafNodeWaitIdleModeChange.ObjectType, null, properties, 0, 56);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Mode.BodyLeafNodeWaitIdleModeChange", 0, Black.AIGraph.LeafNode.Body.Mode.BodyLeafNodeWaitIdleModeChange.ObjectType, Construct, properties, 0, 56);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.Body.Mode
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyLeafNodeWaitIdleModeChange();
+        }
 		
     }
 }

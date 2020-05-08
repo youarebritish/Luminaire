@@ -129,7 +129,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionSetProceduralSky();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetProceduralSky", 0, Black.Sequence.Action.Render.SequenceActionSetProceduralSky.ObjectType, null, properties, 0, 3632);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetProceduralSky", 0, Black.Sequence.Action.Render.SequenceActionSetProceduralSky.ObjectType, Construct, properties, 0, 3632);
         }
 		
         public override ObjectType GetObjectType()
@@ -399,6 +399,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetProceduralSky();
+        }
 		
     }
 }

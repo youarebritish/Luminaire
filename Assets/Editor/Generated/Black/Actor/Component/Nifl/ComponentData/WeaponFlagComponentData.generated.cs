@@ -20,7 +20,7 @@ namespace Black.Actor.Component.Nifl.ComponentData
             var dummy = new WeaponFlagComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Nifl.ComponentData.WeaponFlagComponentData", 0, Black.Actor.Component.Nifl.ComponentData.WeaponFlagComponentData.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.Actor.Component.Nifl.ComponentData.WeaponFlagComponentData", 0, Black.Actor.Component.Nifl.ComponentData.WeaponFlagComponentData.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.Actor.Component.Nifl.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WeaponFlagComponentData();
+        }
 		
     }
 }

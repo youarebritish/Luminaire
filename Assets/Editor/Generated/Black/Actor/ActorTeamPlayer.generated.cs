@@ -20,7 +20,7 @@ namespace Black.Actor
             var dummy = new ActorTeamPlayer();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.ActorTeamPlayer", 0, Black.Actor.ActorTeamPlayer.ObjectType, null, properties, 60, 19712);
+            ObjectType = new ObjectType("Black.Actor.ActorTeamPlayer", 0, Black.Actor.ActorTeamPlayer.ObjectType, Construct, properties, 60, 19712);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorTeamPlayer();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
             var dummy = new SequenceActionAINotifyNoctisRideOnAircraft();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifyNoctisRideOnAircraft", 0, Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifyNoctisRideOnAircraft.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifyNoctisRideOnAircraft", 0, Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifyNoctisRideOnAircraft.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAINotifyNoctisRideOnAircraft();
+        }
 		
     }
 }

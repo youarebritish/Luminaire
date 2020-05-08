@@ -56,7 +56,7 @@ namespace Black.Sequence.Action.Sample
             var dummy = new SequenceActionSamplePropertySequence();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Sample.SequenceActionSamplePropertySequence", 0, Black.Sequence.Action.Sample.SequenceActionSamplePropertySequence.ObjectType, null, properties, 0, 736);
+            ObjectType = new ObjectType("Black.Sequence.Action.Sample.SequenceActionSamplePropertySequence", 0, Black.Sequence.Action.Sample.SequenceActionSamplePropertySequence.ObjectType, Construct, properties, 0, 736);
         }
 		
         public override ObjectType GetObjectType()
@@ -136,6 +136,11 @@ namespace Black.Sequence.Action.Sample
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSamplePropertySequence();
+        }
 		
     }
 }

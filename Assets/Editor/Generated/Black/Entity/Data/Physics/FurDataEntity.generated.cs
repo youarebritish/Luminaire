@@ -42,7 +42,7 @@ namespace Black.Entity.Data.Physics
             var dummy = new FurDataEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Physics.FurDataEntity", 0, Black.Entity.Data.Physics.FurDataEntity.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.Entity.Data.Physics.FurDataEntity", 0, Black.Entity.Data.Physics.FurDataEntity.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -88,6 +88,11 @@ namespace Black.Entity.Data.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new FurDataEntity();
+        }
 		
     }
 }

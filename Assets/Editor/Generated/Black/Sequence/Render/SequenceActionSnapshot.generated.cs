@@ -29,7 +29,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionSnapshot();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSnapshot", 0, Black.Sequence.Render.SequenceActionSnapshot.ObjectType, null, properties, 0, 600);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSnapshot", 0, Black.Sequence.Render.SequenceActionSnapshot.ObjectType, Construct, properties, 0, 600);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSnapshot();
+        }
 		
     }
 }

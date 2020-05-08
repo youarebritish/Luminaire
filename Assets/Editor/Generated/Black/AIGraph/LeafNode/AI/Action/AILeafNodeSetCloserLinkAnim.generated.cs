@@ -24,7 +24,7 @@ namespace Black.AIGraph.LeafNode.AI.Action
             var dummy = new AILeafNodeSetCloserLinkAnim();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.AILeafNodeSetCloserLinkAnim", 0, Black.AIGraph.LeafNode.AI.Action.AILeafNodeSetCloserLinkAnim.ObjectType, null, properties, 0, 192);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.AILeafNodeSetCloserLinkAnim", 0, Black.AIGraph.LeafNode.AI.Action.AILeafNodeSetCloserLinkAnim.ObjectType, Construct, properties, 0, 192);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.AIGraph.LeafNode.AI.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeSetCloserLinkAnim();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
             var dummy = new SequenceActionTimeLineCameraInGameTrackElementFov();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementFov", 0, Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementFov.ObjectType, null, properties, 0, 536);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementFov", 0, Black.Sequence.Action.TimeLine.Camera.SeamlessInGame.SequenceActionTimeLineCameraInGameTrackElementFov.ObjectType, Construct, properties, 0, 536);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineCameraInGameTrackElementFov();
+        }
 		
     }
 }

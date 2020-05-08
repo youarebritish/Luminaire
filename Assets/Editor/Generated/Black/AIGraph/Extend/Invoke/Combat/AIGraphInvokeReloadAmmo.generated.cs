@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke.Combat
             var dummy = new AIGraphInvokeReloadAmmo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeReloadAmmo", 0, Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeReloadAmmo.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeReloadAmmo", 0, Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeReloadAmmo.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke.Combat
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeReloadAmmo();
+        }
 		
     }
 }

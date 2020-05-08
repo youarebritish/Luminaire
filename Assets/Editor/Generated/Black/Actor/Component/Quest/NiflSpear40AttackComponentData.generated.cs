@@ -25,7 +25,7 @@ namespace Black.Actor.Component.Quest
             var dummy = new NiflSpear40AttackComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Quest.NiflSpear40AttackComponentData", 0, Black.Actor.Component.Quest.NiflSpear40AttackComponentData.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.Actor.Component.Quest.NiflSpear40AttackComponentData", 0, Black.Actor.Component.Quest.NiflSpear40AttackComponentData.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Actor.Component.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NiflSpear40AttackComponentData();
+        }
 		
     }
 }

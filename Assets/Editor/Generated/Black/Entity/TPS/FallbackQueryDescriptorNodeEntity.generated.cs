@@ -28,7 +28,7 @@ namespace Black.Entity.TPS
             var dummy = new FallbackQueryDescriptorNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.FallbackQueryDescriptorNodeEntity", 0, Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.ObjectType, null, properties, 0, 256);
+            ObjectType = new ObjectType("Black.Entity.TPS.FallbackQueryDescriptorNodeEntity", 0, Black.Entity.TPS.FallbackQueryDescriptorNodeEntity.ObjectType, Construct, properties, 0, 256);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace Black.Entity.TPS
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new FallbackQueryDescriptorNodeEntity();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Event.Menu.Executor
             var dummy = new SequenceEventTitleOptionConfigExecutor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventTitleOptionConfigExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventTitleOptionConfigExecutor.ObjectType, null, properties, 0, 1536);
+            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventTitleOptionConfigExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventTitleOptionConfigExecutor.ObjectType, Construct, properties, 0, 1536);
         }
 		
         public override ObjectType GetObjectType()
@@ -119,6 +119,11 @@ namespace Black.Sequence.Event.Menu.Executor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventTitleOptionConfigExecutor();
+        }
 		
     }
 }

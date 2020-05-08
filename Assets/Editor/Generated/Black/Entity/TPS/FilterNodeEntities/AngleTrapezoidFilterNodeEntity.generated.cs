@@ -26,7 +26,7 @@ namespace Black.Entity.TPS.FilterNodeEntities
             var dummy = new AngleTrapezoidFilterNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.AngleTrapezoidFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.AngleTrapezoidFilterNodeEntity.ObjectType, null, properties, 0, 328);
+            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.AngleTrapezoidFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.AngleTrapezoidFilterNodeEntity.ObjectType, Construct, properties, 0, 328);
         }
 		
         public override ObjectType GetObjectType()
@@ -56,6 +56,11 @@ namespace Black.Entity.TPS.FilterNodeEntities
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AngleTrapezoidFilterNodeEntity();
+        }
 		
     }
 }

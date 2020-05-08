@@ -33,7 +33,7 @@ namespace Black.Sequence.Action.Level.Team
             var dummy = new SequenceActionCreateTeamLabel();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Team.SequenceActionCreateTeamLabel", 0, Black.Sequence.Action.Level.Team.SequenceActionCreateTeamLabel.ObjectType, null, properties, 0, 1168);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Team.SequenceActionCreateTeamLabel", 0, Black.Sequence.Action.Level.Team.SequenceActionCreateTeamLabel.ObjectType, Construct, properties, 0, 1168);
         }
 		
         public override ObjectType GetObjectType()
@@ -123,6 +123,11 @@ namespace Black.Sequence.Action.Level.Team
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCreateTeamLabel();
+        }
 		
     }
 }

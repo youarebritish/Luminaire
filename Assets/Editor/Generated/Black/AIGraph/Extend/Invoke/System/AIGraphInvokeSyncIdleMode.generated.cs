@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Invoke.System
             var dummy = new AIGraphInvokeSyncIdleMode();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeSyncIdleMode", 0, Black.AIGraph.Extend.Invoke.System.AIGraphInvokeSyncIdleMode.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.System.AIGraphInvokeSyncIdleMode", 0, Black.AIGraph.Extend.Invoke.System.AIGraphInvokeSyncIdleMode.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Invoke.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSyncIdleMode();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new SubtitlesEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.SubtitlesEntity", 0, Black.Entity.Menu.SubtitlesEntity.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Entity.Menu.SubtitlesEntity", 0, Black.Entity.Menu.SubtitlesEntity.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SubtitlesEntity();
+        }
 		
     }
 }

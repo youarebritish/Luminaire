@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionGamePlayTimePD();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGamePlayTimePD", 0, Black.Sequence.Action.System.SequenceActionGamePlayTimePD.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGamePlayTimePD", 0, Black.Sequence.Action.System.SequenceActionGamePlayTimePD.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGamePlayTimePD();
+        }
 		
     }
 }

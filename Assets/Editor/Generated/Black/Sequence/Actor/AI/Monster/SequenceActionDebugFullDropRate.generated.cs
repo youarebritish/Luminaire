@@ -21,7 +21,7 @@ namespace Black.Sequence.Actor.AI.Monster
             var dummy = new SequenceActionDebugFullDropRate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionDebugFullDropRate", 0, Black.Sequence.Actor.AI.Monster.SequenceActionDebugFullDropRate.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionDebugFullDropRate", 0, Black.Sequence.Actor.AI.Monster.SequenceActionDebugFullDropRate.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -57,6 +57,11 @@ namespace Black.Sequence.Actor.AI.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugFullDropRate();
+        }
 		
     }
 }

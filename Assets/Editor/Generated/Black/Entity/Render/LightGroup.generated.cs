@@ -21,7 +21,7 @@ namespace Black.Entity.Render
             var dummy = new LightGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.LightGroup", 0, Black.Entity.Render.LightGroup.ObjectType, null, properties, 0, 224);
+            ObjectType = new ObjectType("Black.Entity.Render.LightGroup", 0, Black.Entity.Render.LightGroup.ObjectType, Construct, properties, 0, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LightGroup();
+        }
 		
     }
 }

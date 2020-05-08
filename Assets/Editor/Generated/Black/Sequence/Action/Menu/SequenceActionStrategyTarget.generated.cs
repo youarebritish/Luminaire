@@ -35,7 +35,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionStrategyTarget();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionStrategyTarget", 0, Black.Sequence.Action.Menu.SequenceActionStrategyTarget.ObjectType, null, properties, 0, 1576);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionStrategyTarget", 0, Black.Sequence.Action.Menu.SequenceActionStrategyTarget.ObjectType, Construct, properties, 0, 1576);
         }
 		
         public override ObjectType GetObjectType()
@@ -155,6 +155,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionStrategyTarget();
+        }
 		
     }
 }

@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Menu.Battle
             var dummy = new SequenceActionDisplaySummonSkill();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.Battle.SequenceActionDisplaySummonSkill", 0, Black.Sequence.Action.Menu.Battle.SequenceActionDisplaySummonSkill.ObjectType, null, properties, 0, 584);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.Battle.SequenceActionDisplaySummonSkill", 0, Black.Sequence.Action.Menu.Battle.SequenceActionDisplaySummonSkill.ObjectType, Construct, properties, 0, 584);
         }
 		
         public override ObjectType GetObjectType()
@@ -85,6 +85,11 @@ namespace Black.Sequence.Action.Menu.Battle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDisplaySummonSkill();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientSequenceAttachSmartLocation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceAttachSmartLocation", 0, Black.AI.Ambient.AmbientSequenceAttachSmartLocation.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceAttachSmartLocation", 0, Black.AI.Ambient.AmbientSequenceAttachSmartLocation.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientSequenceAttachSmartLocation();
+        }
 		
     }
 }

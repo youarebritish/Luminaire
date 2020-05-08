@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke
             var dummy = new AIGraphInvokeRequestRemoteEvent();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeRequestRemoteEvent", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeRequestRemoteEvent.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeRequestRemoteEvent", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeRequestRemoteEvent.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeRequestRemoteEvent();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionLoadOnlineContentSchedule();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionLoadOnlineContentSchedule", 0, Black.Sequence.Action.System.SequenceActionLoadOnlineContentSchedule.ObjectType, null, properties, 0, 672);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionLoadOnlineContentSchedule", 0, Black.Sequence.Action.System.SequenceActionLoadOnlineContentSchedule.ObjectType, Construct, properties, 0, 672);
         }
 		
         public override ObjectType GetObjectType()
@@ -92,6 +92,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionLoadOnlineContentSchedule();
+        }
 		
     }
 }

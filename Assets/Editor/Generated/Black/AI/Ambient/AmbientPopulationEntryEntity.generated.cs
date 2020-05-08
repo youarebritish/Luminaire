@@ -24,7 +24,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientPopulationEntryEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientPopulationEntryEntity", 0, Black.AI.Ambient.AmbientPopulationEntryEntity.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientPopulationEntryEntity", 0, Black.AI.Ambient.AmbientPopulationEntryEntity.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientPopulationEntryEntity();
+        }
 		
     }
 }

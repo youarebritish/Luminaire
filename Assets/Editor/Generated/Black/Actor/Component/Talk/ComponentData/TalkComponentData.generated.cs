@@ -20,7 +20,7 @@ namespace Black.Actor.Component.Talk.ComponentData
             var dummy = new TalkComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Talk.ComponentData.TalkComponentData", 0, Black.Actor.Component.Talk.ComponentData.TalkComponentData.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.Actor.Component.Talk.ComponentData.TalkComponentData", 0, Black.Actor.Component.Talk.ComponentData.TalkComponentData.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.Actor.Component.Talk.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TalkComponentData();
+        }
 		
     }
 }

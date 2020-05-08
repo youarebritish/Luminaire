@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new QuestMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.QuestMenuEntity", 0, Black.Entity.Menu.QuestMenuEntity.ObjectType, null, properties, 0, 1120);
+            ObjectType = new ObjectType("Black.Entity.Menu.QuestMenuEntity", 0, Black.Entity.Menu.QuestMenuEntity.ObjectType, Construct, properties, 0, 1120);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new QuestMenuEntity();
+        }
 		
     }
 }

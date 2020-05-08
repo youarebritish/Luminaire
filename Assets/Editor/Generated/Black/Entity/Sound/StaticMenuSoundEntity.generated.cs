@@ -25,7 +25,7 @@ namespace Black.Entity.Sound
             var dummy = new StaticMenuSoundEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Sound.StaticMenuSoundEntity", 0, Black.Entity.Sound.StaticMenuSoundEntity.ObjectType, null, properties, 0, 168);
+            ObjectType = new ObjectType("Black.Entity.Sound.StaticMenuSoundEntity", 0, Black.Entity.Sound.StaticMenuSoundEntity.ObjectType, Construct, properties, 0, 168);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Entity.Sound
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new StaticMenuSoundEntity();
+        }
 		
     }
 }

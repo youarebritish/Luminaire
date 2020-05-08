@@ -46,7 +46,7 @@ namespace Black.Sequence.Action.Camera
             var dummy = new SequenceActionChangeCameraType();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionChangeCameraType", 0, Black.Sequence.Action.Camera.SequenceActionChangeCameraType.ObjectType, null, properties, 0, 1416);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionChangeCameraType", 0, Black.Sequence.Action.Camera.SequenceActionChangeCameraType.ObjectType, Construct, properties, 0, 1416);
         }
 		
         public override ObjectType GetObjectType()
@@ -160,6 +160,11 @@ namespace Black.Sequence.Action.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionChangeCameraType();
+        }
 		
     }
 }

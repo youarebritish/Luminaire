@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Level.BattleArea
             var dummy = new SequenceActionSetBattleAreaResultClear();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.BattleArea.SequenceActionSetBattleAreaResultClear", 0, Black.Sequence.Action.Level.BattleArea.SequenceActionSetBattleAreaResultClear.ObjectType, null, properties, 0, 456);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.BattleArea.SequenceActionSetBattleAreaResultClear", 0, Black.Sequence.Action.Level.BattleArea.SequenceActionSetBattleAreaResultClear.ObjectType, Construct, properties, 0, 456);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.Action.Level.BattleArea
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetBattleAreaResultClear();
+        }
 		
     }
 }

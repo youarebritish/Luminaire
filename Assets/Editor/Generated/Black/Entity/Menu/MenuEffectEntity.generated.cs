@@ -24,7 +24,7 @@ namespace Black.Entity.Menu
             var dummy = new MenuEffectEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.MenuEffectEntity", 0, Black.Entity.Menu.MenuEffectEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.Menu.MenuEffectEntity", 0, Black.Entity.Menu.MenuEffectEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MenuEffectEntity();
+        }
 		
     }
 }

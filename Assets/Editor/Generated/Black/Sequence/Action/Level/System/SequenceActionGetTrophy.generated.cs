@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Level.System
             var dummy = new SequenceActionGetTrophy();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.System.SequenceActionGetTrophy", 0, Black.Sequence.Action.Level.System.SequenceActionGetTrophy.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.System.SequenceActionGetTrophy", 0, Black.Sequence.Action.Level.System.SequenceActionGetTrophy.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Action.Level.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetTrophy();
+        }
 		
     }
 }

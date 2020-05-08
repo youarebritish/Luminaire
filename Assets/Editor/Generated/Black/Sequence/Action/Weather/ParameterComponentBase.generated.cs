@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Weather
             var dummy = new ParameterComponentBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Weather.ParameterComponentBase", 0, Black.Sequence.Action.Weather.ParameterComponentBase.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.Sequence.Action.Weather.ParameterComponentBase", 0, Black.Sequence.Action.Weather.ParameterComponentBase.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Sequence.Action.Weather
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ParameterComponentBase();
+        }
 		
     }
 }

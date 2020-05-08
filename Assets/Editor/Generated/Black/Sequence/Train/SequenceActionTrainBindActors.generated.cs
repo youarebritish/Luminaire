@@ -25,7 +25,7 @@ namespace Black.Sequence.Train
             var dummy = new SequenceActionTrainBindActors();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Train.SequenceActionTrainBindActors", 0, Black.Sequence.Train.SequenceActionTrainBindActors.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Train.SequenceActionTrainBindActors", 0, Black.Sequence.Train.SequenceActionTrainBindActors.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Train
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTrainBindActors();
+        }
 		
     }
 }

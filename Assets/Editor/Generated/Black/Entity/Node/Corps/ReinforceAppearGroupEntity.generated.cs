@@ -21,7 +21,7 @@ namespace Black.Entity.Node.Corps
             var dummy = new ReinforceAppearGroupEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.Corps.ReinforceAppearGroupEntity", 0, Black.Entity.Node.Corps.ReinforceAppearGroupEntity.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Entity.Node.Corps.ReinforceAppearGroupEntity", 0, Black.Entity.Node.Corps.ReinforceAppearGroupEntity.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity.Node.Corps
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ReinforceAppearGroupEntity();
+        }
 		
     }
 }

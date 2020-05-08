@@ -61,7 +61,7 @@ namespace Black.Entity.Render
             var dummy = new ProceduralSkyEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.ProceduralSkyEntity", 0, Black.Entity.Render.ProceduralSkyEntity.ObjectType, null, properties, 0, 688);
+            ObjectType = new ObjectType("Black.Entity.Render.ProceduralSkyEntity", 0, Black.Entity.Render.ProceduralSkyEntity.ObjectType, Construct, properties, 0, 688);
         }
 		
         public override ObjectType GetObjectType()
@@ -126,6 +126,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ProceduralSkyEntity();
+        }
 		
     }
 }

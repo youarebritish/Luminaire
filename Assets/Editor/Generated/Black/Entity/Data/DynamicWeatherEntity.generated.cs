@@ -25,7 +25,7 @@ namespace Black.Entity.Data
             var dummy = new DynamicWeatherEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.DynamicWeatherEntity", 0, Black.Entity.Data.DynamicWeatherEntity.ObjectType, null, properties, 0, 104);
+            ObjectType = new ObjectType("Black.Entity.Data.DynamicWeatherEntity", 0, Black.Entity.Data.DynamicWeatherEntity.ObjectType, Construct, properties, 0, 104);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Entity.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DynamicWeatherEntity();
+        }
 		
     }
 }

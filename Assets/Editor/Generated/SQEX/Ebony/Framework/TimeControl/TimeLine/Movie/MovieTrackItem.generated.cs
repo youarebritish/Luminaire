@@ -25,7 +25,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine.Movie
             var dummy = new MovieTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.Movie.MovieTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.Movie.MovieTrackItem.ObjectType, null, properties, 0, 120);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.Movie.MovieTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.Movie.MovieTrackItem.ObjectType, Construct, properties, 0, 120);
         }
 		
         public override ObjectType GetObjectType()
@@ -57,6 +57,11 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine.Movie
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MovieTrackItem();
+        }
 		
     }
 }

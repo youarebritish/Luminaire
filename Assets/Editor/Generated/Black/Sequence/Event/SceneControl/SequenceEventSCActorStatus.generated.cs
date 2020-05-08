@@ -30,7 +30,7 @@ namespace Black.Sequence.Event.SceneControl
             var dummy = new SequenceEventSCActorStatus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SceneControl.SequenceEventSCActorStatus", 0, Black.Sequence.Event.SceneControl.SequenceEventSCActorStatus.ObjectType, null, properties, 0, 704);
+            ObjectType = new ObjectType("Black.Sequence.Event.SceneControl.SequenceEventSCActorStatus", 0, Black.Sequence.Event.SceneControl.SequenceEventSCActorStatus.ObjectType, Construct, properties, 0, 704);
         }
 		
         public override ObjectType GetObjectType()
@@ -98,6 +98,11 @@ namespace Black.Sequence.Event.SceneControl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventSCActorStatus();
+        }
 		
     }
 }

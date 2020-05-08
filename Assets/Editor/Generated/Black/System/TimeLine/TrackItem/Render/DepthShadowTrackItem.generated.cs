@@ -20,7 +20,7 @@ namespace Black.System.TimeLine.TrackItem.Render
             var dummy = new DepthShadowTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.DepthShadowTrackItem", 0, Black.System.TimeLine.TrackItem.Render.DepthShadowTrackItem.ObjectType, null, properties, 0, 88);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.DepthShadowTrackItem", 0, Black.System.TimeLine.TrackItem.Render.DepthShadowTrackItem.ObjectType, Construct, properties, 0, 88);
         }
 		
         public override ObjectType GetObjectType()
@@ -47,6 +47,11 @@ namespace Black.System.TimeLine.TrackItem.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DepthShadowTrackItem();
+        }
 		
     }
 }

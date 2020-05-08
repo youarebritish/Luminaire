@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Actor.Accessory
             var dummy = new SequenceActionActorCheckEquipWeapon();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorCheckEquipWeapon", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorCheckEquipWeapon.ObjectType, null, properties, 0, 1048);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorCheckEquipWeapon", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorCheckEquipWeapon.ObjectType, Construct, properties, 0, 1048);
         }
 		
         public override ObjectType GetObjectType()
@@ -120,6 +120,11 @@ namespace Black.Sequence.Action.Actor.Accessory
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorCheckEquipWeapon();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.Entity.Node
             var dummy = new NaviCurveProgressPointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.NaviCurveProgressPointEntity", 0, Black.Entity.Node.NaviCurveProgressPointEntity.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Entity.Node.NaviCurveProgressPointEntity", 0, Black.Entity.Node.NaviCurveProgressPointEntity.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NaviCurveProgressPointEntity();
+        }
 		
     }
 }

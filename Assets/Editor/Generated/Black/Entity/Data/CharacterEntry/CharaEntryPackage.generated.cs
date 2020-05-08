@@ -25,7 +25,7 @@ namespace Black.Entity.Data.CharacterEntry
             var dummy = new CharaEntryPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.CharaEntryPackage", 0, Black.Entity.Data.CharacterEntry.CharaEntryPackage.ObjectType, null, properties, 0, 672);
+            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.CharaEntryPackage", 0, Black.Entity.Data.CharacterEntry.CharaEntryPackage.ObjectType, Construct, properties, 0, 672);
         }
 		
         public override ObjectType GetObjectType()
@@ -74,6 +74,11 @@ namespace Black.Entity.Data.CharacterEntry
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CharaEntryPackage();
+        }
 		
     }
 }

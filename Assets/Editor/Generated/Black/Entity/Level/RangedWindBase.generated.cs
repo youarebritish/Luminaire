@@ -44,7 +44,7 @@ namespace Black.Entity.Level
             var dummy = new RangedWindBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Level.RangedWindBase", 0, Black.Entity.Level.RangedWindBase.ObjectType, null, properties, 0, 448);
+            ObjectType = new ObjectType("Black.Entity.Level.RangedWindBase", 0, Black.Entity.Level.RangedWindBase.ObjectType, Construct, properties, 0, 448);
         }
 		
         public override ObjectType GetObjectType()
@@ -95,6 +95,11 @@ namespace Black.Entity.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new RangedWindBase();
+        }
 		
     }
 }

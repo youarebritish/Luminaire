@@ -23,7 +23,7 @@ namespace SQEX.Ebony.Framework.Sequence.Parallel
             var dummy = new SequenceVariableSetSelf();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Parallel.SequenceVariableSetSelf", 0, SQEX.Ebony.Framework.Sequence.Parallel.SequenceVariableSetSelf.ObjectType, null, properties, 0, 448);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Parallel.SequenceVariableSetSelf", 0, SQEX.Ebony.Framework.Sequence.Parallel.SequenceVariableSetSelf.ObjectType, Construct, properties, 0, 448);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace SQEX.Ebony.Framework.Sequence.Parallel
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableSetSelf();
+        }
 		
     }
 }

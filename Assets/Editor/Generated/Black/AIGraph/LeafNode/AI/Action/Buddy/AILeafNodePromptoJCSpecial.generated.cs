@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             var dummy = new AILeafNodePromptoJCSpecial();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodePromptoJCSpecial", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodePromptoJCSpecial.ObjectType, null, properties, 0, 336);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodePromptoJCSpecial", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodePromptoJCSpecial.ObjectType, Construct, properties, 0, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodePromptoJCSpecial();
+        }
 		
     }
 }

@@ -40,7 +40,7 @@ namespace Black.Sequence.Control
             var dummy = new SequenceActionControlRandom();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlRandom", 0, Black.Sequence.Control.SequenceActionControlRandom.ObjectType, null, properties, 0, 1208);
+            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlRandom", 0, Black.Sequence.Control.SequenceActionControlRandom.ObjectType, Construct, properties, 0, 1208);
         }
 		
         public override ObjectType GetObjectType()
@@ -147,6 +147,11 @@ namespace Black.Sequence.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlRandom();
+        }
 		
     }
 }

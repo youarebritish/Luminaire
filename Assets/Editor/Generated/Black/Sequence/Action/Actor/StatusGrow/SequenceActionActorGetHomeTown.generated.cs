@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Actor.StatusGrow
             var dummy = new SequenceActionActorGetHomeTown();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorGetHomeTown", 0, Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorGetHomeTown.ObjectType, null, properties, 0, 752);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorGetHomeTown", 0, Black.Sequence.Action.Actor.StatusGrow.SequenceActionActorGetHomeTown.ObjectType, Construct, properties, 0, 752);
         }
 		
         public override ObjectType GetObjectType()
@@ -94,6 +94,11 @@ namespace Black.Sequence.Action.Actor.StatusGrow
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetHomeTown();
+        }
 		
     }
 }

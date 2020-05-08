@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugPhantomGaugeLock();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugPhantomGaugeLock", 0, Black.Sequence.Action.Debug.SequenceActionDebugPhantomGaugeLock.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugPhantomGaugeLock", 0, Black.Sequence.Action.Debug.SequenceActionDebugPhantomGaugeLock.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugPhantomGaugeLock();
+        }
 		
     }
 }

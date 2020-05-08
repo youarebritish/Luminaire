@@ -25,7 +25,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceEventTriggerGetActors();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventTriggerGetActors", 0, Black.Sequence.Event.SequenceEventTriggerGetActors.ObjectType, null, properties, 0, 592);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventTriggerGetActors", 0, Black.Sequence.Event.SequenceEventTriggerGetActors.ObjectType, Construct, properties, 0, 592);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventTriggerGetActors();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableQuestActiveInstance();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableQuestActiveInstance", 0, Black.Sequence.Variable.SequenceVariableQuestActiveInstance.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableQuestActiveInstance", 0, Black.Sequence.Variable.SequenceVariableQuestActiveInstance.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -56,6 +56,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableQuestActiveInstance();
+        }
 		
     }
 }

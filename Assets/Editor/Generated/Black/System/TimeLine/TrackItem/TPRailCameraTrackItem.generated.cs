@@ -24,7 +24,7 @@ namespace Black.System.TimeLine.TrackItem
             var dummy = new TPRailCameraTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.TPRailCameraTrackItem", 0, Black.System.TimeLine.TrackItem.TPRailCameraTrackItem.ObjectType, null, properties, 0, 336);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.TPRailCameraTrackItem", 0, Black.System.TimeLine.TrackItem.TPRailCameraTrackItem.ObjectType, Construct, properties, 0, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -61,6 +61,11 @@ namespace Black.System.TimeLine.TrackItem
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TPRailCameraTrackItem();
+        }
 		
     }
 }

@@ -25,7 +25,7 @@ namespace Black.Sequence.Operator.Compare
             var dummy = new SequenceOperatorCompareObject();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.Compare.SequenceOperatorCompareObject", 0, Black.Sequence.Operator.Compare.SequenceOperatorCompareObject.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Operator.Compare.SequenceOperatorCompareObject", 0, Black.Sequence.Operator.Compare.SequenceOperatorCompareObject.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Sequence.Operator.Compare
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorCompareObject();
+        }
 		
     }
 }

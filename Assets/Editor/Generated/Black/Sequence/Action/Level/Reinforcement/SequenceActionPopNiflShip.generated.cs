@@ -64,7 +64,7 @@ namespace Black.Sequence.Action.Level.Reinforcement
             var dummy = new SequenceActionPopNiflShip();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionPopNiflShip", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionPopNiflShip.ObjectType, null, properties, 0, 2736);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Reinforcement.SequenceActionPopNiflShip", 0, Black.Sequence.Action.Level.Reinforcement.SequenceActionPopNiflShip.ObjectType, Construct, properties, 0, 2736);
         }
 		
         public override ObjectType GetObjectType()
@@ -267,6 +267,11 @@ namespace Black.Sequence.Action.Level.Reinforcement
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPopNiflShip();
+        }
 		
     }
 }

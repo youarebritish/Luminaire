@@ -20,7 +20,7 @@ namespace Black.Entity.Node
             var dummy = new MagicThunderPointNodeEntityGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.MagicThunderPointNodeEntityGroup", 0, Black.Entity.Node.MagicThunderPointNodeEntityGroup.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("Black.Entity.Node.MagicThunderPointNodeEntityGroup", 0, Black.Entity.Node.MagicThunderPointNodeEntityGroup.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MagicThunderPointNodeEntityGroup();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceVariableActorWeaponObject();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceVariableActorWeaponObject", 0, Black.Sequence.Actor.SequenceVariableActorWeaponObject.ObjectType, null, properties, 0, 328);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceVariableActorWeaponObject", 0, Black.Sequence.Actor.SequenceVariableActorWeaponObject.ObjectType, Construct, properties, 0, 328);
         }
 		
         public override ObjectType GetObjectType()
@@ -61,6 +61,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableActorWeaponObject();
+        }
 		
     }
 }

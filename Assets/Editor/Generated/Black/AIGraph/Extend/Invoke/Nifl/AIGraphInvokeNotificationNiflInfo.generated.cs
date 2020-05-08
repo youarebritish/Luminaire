@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Nifl
             var dummy = new AIGraphInvokeNotificationNiflInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeNotificationNiflInfo", 0, Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeNotificationNiflInfo.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeNotificationNiflInfo", 0, Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeNotificationNiflInfo.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeNotificationNiflInfo();
+        }
 		
     }
 }

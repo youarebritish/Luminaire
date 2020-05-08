@@ -22,7 +22,7 @@ namespace Black.Entity.Node
             var dummy = new NonWetAreaEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.NonWetAreaEntity", 0, Black.Entity.Node.NonWetAreaEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.Node.NonWetAreaEntity", 0, Black.Entity.Node.NonWetAreaEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -51,6 +51,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NonWetAreaEntity();
+        }
 		
     }
 }

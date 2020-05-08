@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Node
             var dummy = new AIGraphNodeEntryPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint", 0, SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint.ObjectType, null, properties, 0, 176);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint", 0, SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint.ObjectType, Construct, properties, 0, 176);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace SQEX.Ebony.AIGraph.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeEntryPoint();
+        }
 		
     }
 }

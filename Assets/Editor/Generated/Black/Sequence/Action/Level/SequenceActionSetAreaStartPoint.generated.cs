@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionSetAreaStartPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetAreaStartPoint", 0, Black.Sequence.Action.Level.SequenceActionSetAreaStartPoint.ObjectType, null, properties, 0, 616);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetAreaStartPoint", 0, Black.Sequence.Action.Level.SequenceActionSetAreaStartPoint.ObjectType, Construct, properties, 0, 616);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetAreaStartPoint();
+        }
 		
     }
 }

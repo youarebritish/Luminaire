@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new StyleEditMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.StyleEditMenuEntity", 0, Black.Entity.Menu.StyleEditMenuEntity.ObjectType, null, properties, 0, 5296);
+            ObjectType = new ObjectType("Black.Entity.Menu.StyleEditMenuEntity", 0, Black.Entity.Menu.StyleEditMenuEntity.ObjectType, Construct, properties, 0, 5296);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new StyleEditMenuEntity();
+        }
 		
     }
 }

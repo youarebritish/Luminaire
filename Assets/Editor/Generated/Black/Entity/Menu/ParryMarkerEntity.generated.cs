@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new ParryMarkerEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.ParryMarkerEntity", 0, Black.Entity.Menu.ParryMarkerEntity.ObjectType, null, properties, 0, 752);
+            ObjectType = new ObjectType("Black.Entity.Menu.ParryMarkerEntity", 0, Black.Entity.Menu.ParryMarkerEntity.ObjectType, Construct, properties, 0, 752);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ParryMarkerEntity();
+        }
 		
     }
 }

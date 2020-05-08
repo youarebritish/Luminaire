@@ -20,7 +20,7 @@ namespace Black.Entity.Shape
             var dummy = new OceanFlowMapEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Shape.OceanFlowMapEntity", 0, Black.Entity.Shape.OceanFlowMapEntity.ObjectType, null, properties, 0, 448);
+            ObjectType = new ObjectType("Black.Entity.Shape.OceanFlowMapEntity", 0, Black.Entity.Shape.OceanFlowMapEntity.ObjectType, Construct, properties, 0, 448);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Entity.Shape
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new OceanFlowMapEntity();
+        }
 		
     }
 }

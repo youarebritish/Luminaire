@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Level.Nifl
             var dummy = new SequenceActionChangeAirCraftState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionChangeAirCraftState", 0, Black.Sequence.Action.Level.Nifl.SequenceActionChangeAirCraftState.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionChangeAirCraftState", 0, Black.Sequence.Action.Level.Nifl.SequenceActionChangeAirCraftState.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.Level.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionChangeAirCraftState();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.WorldMap
             var dummy = new SequenceActionSetHeightMapVisible();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.WorldMap.SequenceActionSetHeightMapVisible", 0, Black.Sequence.Action.WorldMap.SequenceActionSetHeightMapVisible.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.WorldMap.SequenceActionSetHeightMapVisible", 0, Black.Sequence.Action.WorldMap.SequenceActionSetHeightMapVisible.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetHeightMapVisible();
+        }
 		
     }
 }

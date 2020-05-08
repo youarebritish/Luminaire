@@ -21,7 +21,7 @@ namespace Black.AIGraph.Data.PropertyData
             var dummy = new PropertyMemoryVariableInt();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Data.PropertyData.PropertyMemoryVariableInt", 0, Black.AIGraph.Data.PropertyData.PropertyMemoryVariableInt.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Data.PropertyData.PropertyMemoryVariableInt", 0, Black.AIGraph.Data.PropertyData.PropertyMemoryVariableInt.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.AIGraph.Data.PropertyData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PropertyMemoryVariableInt();
+        }
 		
     }
 }

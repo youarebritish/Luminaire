@@ -20,7 +20,7 @@ namespace Black.AIGraph.CondNode.AI
             var dummy = new AICondNodeCheckGlideLanding();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.CondNode.AI.AICondNodeCheckGlideLanding", 0, Black.AIGraph.CondNode.AI.AICondNodeCheckGlideLanding.ObjectType, null, properties, 0, 344);
+            ObjectType = new ObjectType("Black.AIGraph.CondNode.AI.AICondNodeCheckGlideLanding", 0, Black.AIGraph.CondNode.AI.AICondNodeCheckGlideLanding.ObjectType, Construct, properties, 0, 344);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace Black.AIGraph.CondNode.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AICondNodeCheckGlideLanding();
+        }
 		
     }
 }

@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionSetDynamicBattleAreaDelete();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetDynamicBattleAreaDelete", 0, Black.Sequence.Action.Level.SequenceActionSetDynamicBattleAreaDelete.ObjectType, null, properties, 0, 656);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetDynamicBattleAreaDelete", 0, Black.Sequence.Action.Level.SequenceActionSetDynamicBattleAreaDelete.ObjectType, Construct, properties, 0, 656);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetDynamicBattleAreaDelete();
+        }
 		
     }
 }

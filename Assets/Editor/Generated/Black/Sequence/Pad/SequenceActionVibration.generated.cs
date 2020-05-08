@@ -32,7 +32,7 @@ namespace Black.Sequence.Pad
             var dummy = new SequenceActionVibration();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Pad.SequenceActionVibration", 0, Black.Sequence.Pad.SequenceActionVibration.ObjectType, null, properties, 0, 872);
+            ObjectType = new ObjectType("Black.Sequence.Pad.SequenceActionVibration", 0, Black.Sequence.Pad.SequenceActionVibration.ObjectType, Construct, properties, 0, 872);
         }
 		
         public override ObjectType GetObjectType()
@@ -107,6 +107,11 @@ namespace Black.Sequence.Pad
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionVibration();
+        }
 		
     }
 }

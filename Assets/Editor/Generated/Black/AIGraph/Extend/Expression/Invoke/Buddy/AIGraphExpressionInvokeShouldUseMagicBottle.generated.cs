@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Buddy
             var dummy = new AIGraphExpressionInvokeShouldUseMagicBottle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeShouldUseMagicBottle", 0, Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeShouldUseMagicBottle.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeShouldUseMagicBottle", 0, Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeShouldUseMagicBottle.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphExpressionInvokeShouldUseMagicBottle();
+        }
 		
     }
 }

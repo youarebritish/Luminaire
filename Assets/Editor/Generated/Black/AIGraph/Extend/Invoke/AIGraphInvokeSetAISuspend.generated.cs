@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke
             var dummy = new AIGraphInvokeSetAISuspend();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAISuspend", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAISuspend.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAISuspend", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeSetAISuspend.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetAISuspend();
+        }
 		
     }
 }

@@ -47,7 +47,7 @@ namespace Black.Entity.Render
             var dummy = new OcclusionCullingUmbraTileEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.OcclusionCullingUmbraTileEntity", 0, Black.Entity.Render.OcclusionCullingUmbraTileEntity.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Entity.Render.OcclusionCullingUmbraTileEntity", 0, Black.Entity.Render.OcclusionCullingUmbraTileEntity.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -101,6 +101,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new OcclusionCullingUmbraTileEntity();
+        }
 		
     }
 }

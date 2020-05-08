@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
             var dummy = new SequenceActionTimeLinePostProcessGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLinePostProcessGroup", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLinePostProcessGroup.ObjectType, null, properties, 0, 328);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLinePostProcessGroup", 0, Black.Sequence.Action.TimeLine.Render.PostProcess.SequenceActionTimeLinePostProcessGroup.ObjectType, Construct, properties, 0, 328);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLinePostProcessGroup();
+        }
 		
     }
 }

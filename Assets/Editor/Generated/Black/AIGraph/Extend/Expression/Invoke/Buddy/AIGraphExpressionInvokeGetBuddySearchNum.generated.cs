@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Buddy
             var dummy = new AIGraphExpressionInvokeGetBuddySearchNum();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeGetBuddySearchNum", 0, Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeGetBuddySearchNum.ObjectType, null, properties, 0, 8);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeGetBuddySearchNum", 0, Black.AIGraph.Extend.Expression.Invoke.Buddy.AIGraphExpressionInvokeGetBuddySearchNum.ObjectType, Construct, properties, 0, 8);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphExpressionInvokeGetBuddySearchNum();
+        }
 		
     }
 }

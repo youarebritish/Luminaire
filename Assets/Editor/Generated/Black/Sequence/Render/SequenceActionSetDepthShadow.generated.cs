@@ -60,7 +60,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionSetDepthShadow();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetDepthShadow", 0, Black.Sequence.Render.SequenceActionSetDepthShadow.ObjectType, null, properties, 0, 512);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetDepthShadow", 0, Black.Sequence.Render.SequenceActionSetDepthShadow.ObjectType, Construct, properties, 0, 512);
         }
 		
         public override ObjectType GetObjectType()
@@ -141,6 +141,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetDepthShadow();
+        }
 		
     }
 }

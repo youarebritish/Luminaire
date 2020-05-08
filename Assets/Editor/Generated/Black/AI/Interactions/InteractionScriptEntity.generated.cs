@@ -21,7 +21,7 @@ namespace Black.AI.Interactions
             var dummy = new InteractionScriptEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Interactions.InteractionScriptEntity", 0, Black.AI.Interactions.InteractionScriptEntity.ObjectType, null, properties, 0, 136);
+            ObjectType = new ObjectType("Black.AI.Interactions.InteractionScriptEntity", 0, Black.AI.Interactions.InteractionScriptEntity.ObjectType, Construct, properties, 0, 136);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AI.Interactions
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InteractionScriptEntity();
+        }
 		
     }
 }

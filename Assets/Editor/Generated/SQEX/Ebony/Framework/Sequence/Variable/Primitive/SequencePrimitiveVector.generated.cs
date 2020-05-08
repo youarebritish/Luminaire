@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
             var dummy = new SequencePrimitiveVector();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveVector", 0, SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveVector.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveVector", 0, SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveVector.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -47,6 +47,11 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequencePrimitiveVector();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.Entity.Data.AI
             var dummy = new RoleDefineDataEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.AI.RoleDefineDataEntity", 0, Black.Entity.Data.AI.RoleDefineDataEntity.ObjectType, null, properties, 0, 112);
+            ObjectType = new ObjectType("Black.Entity.Data.AI.RoleDefineDataEntity", 0, Black.Entity.Data.AI.RoleDefineDataEntity.ObjectType, Construct, properties, 0, 112);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Entity.Data.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new RoleDefineDataEntity();
+        }
 		
     }
 }

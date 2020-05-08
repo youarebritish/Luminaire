@@ -22,7 +22,7 @@ namespace Black.Entity.TPS.FilterNodeEntities
             var dummy = new NearAmbientRegionFilterNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.NearAmbientRegionFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.NearAmbientRegionFilterNodeEntity.ObjectType, null, properties, 0, 312);
+            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.NearAmbientRegionFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.NearAmbientRegionFilterNodeEntity.ObjectType, Construct, properties, 0, 312);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Entity.TPS.FilterNodeEntities
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NearAmbientRegionFilterNodeEntity();
+        }
 		
     }
 }

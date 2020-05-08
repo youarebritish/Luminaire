@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new PhantomCommunicator();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.PhantomCommunicator", 0, Black.MultiPlayer.PhantomCommunicator.ObjectType, null, properties, 61, 2096);
+            ObjectType = new ObjectType("Black.MultiPlayer.PhantomCommunicator", 0, Black.MultiPlayer.PhantomCommunicator.ObjectType, Construct, properties, 61, 2096);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PhantomCommunicator();
+        }
 		
     }
 }

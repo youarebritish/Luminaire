@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Save
             var dummy = new SequenceActionCompareCampPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionCompareCampPoint", 0, Black.Sequence.Action.Save.SequenceActionCompareCampPoint.ObjectType, null, properties, 0, 656);
+            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionCompareCampPoint", 0, Black.Sequence.Action.Save.SequenceActionCompareCampPoint.ObjectType, Construct, properties, 0, 656);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.Save
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCompareCampPoint();
+        }
 		
     }
 }

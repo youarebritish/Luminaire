@@ -23,7 +23,7 @@ namespace Black.Sequence.AI
             var dummy = new SequenceActionPassthroughNavMeshWall();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.AI.SequenceActionPassthroughNavMeshWall", 0, Black.Sequence.AI.SequenceActionPassthroughNavMeshWall.ObjectType, null, properties, 0, 456);
+            ObjectType = new ObjectType("Black.Sequence.AI.SequenceActionPassthroughNavMeshWall", 0, Black.Sequence.AI.SequenceActionPassthroughNavMeshWall.ObjectType, Construct, properties, 0, 456);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPassthroughNavMeshWall();
+        }
 		
     }
 }

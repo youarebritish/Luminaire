@@ -20,7 +20,7 @@ namespace Black.AI.NihilSystem.MilitaryFacility.Node
             var dummy = new ActorMilitaryFacility();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.NihilSystem.MilitaryFacility.Node.ActorMilitaryFacility", 0, Black.AI.NihilSystem.MilitaryFacility.Node.ActorMilitaryFacility.ObjectType, null, properties, 0, 928);
+            ObjectType = new ObjectType("Black.AI.NihilSystem.MilitaryFacility.Node.ActorMilitaryFacility", 0, Black.AI.NihilSystem.MilitaryFacility.Node.ActorMilitaryFacility.ObjectType, Construct, properties, 0, 928);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.AI.NihilSystem.MilitaryFacility.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorMilitaryFacility();
+        }
 		
     }
 }

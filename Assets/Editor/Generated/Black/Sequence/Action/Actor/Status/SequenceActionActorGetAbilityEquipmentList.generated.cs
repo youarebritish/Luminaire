@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Actor.Status
             var dummy = new SequenceActionActorGetAbilityEquipmentList();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorGetAbilityEquipmentList", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorGetAbilityEquipmentList.ObjectType, null, properties, 0, 760);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorGetAbilityEquipmentList", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorGetAbilityEquipmentList.ObjectType, Construct, properties, 0, 760);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.Sequence.Action.Actor.Status
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetAbilityEquipmentList();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
             var dummy = new AILeafNodePointSearch();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodePointSearch", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodePointSearch.ObjectType, null, properties, 0, 120);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodePointSearch", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodePointSearch.ObjectType, Construct, properties, 0, 120);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.AIGraph.LeafNode.AI.Function
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodePointSearch();
+        }
 		
     }
 }

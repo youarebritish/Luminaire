@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Camera.PointNode
             var dummy = new SequenceActionCameraAttach();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.PointNode.SequenceActionCameraAttach", 0, Black.Sequence.Action.Camera.PointNode.SequenceActionCameraAttach.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.PointNode.SequenceActionCameraAttach", 0, Black.Sequence.Action.Camera.PointNode.SequenceActionCameraAttach.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Camera.PointNode
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCameraAttach();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Entity.Data
             var dummy = new CollectEarcEntry();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.CollectEarcEntry", 0, Black.Entity.Data.CollectEarcEntry.ObjectType, null, properties, 0, 72);
+            ObjectType = new ObjectType("Black.Entity.Data.CollectEarcEntry", 0, Black.Entity.Data.CollectEarcEntry.ObjectType, Construct, properties, 0, 72);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CollectEarcEntry();
+        }
 		
     }
 }

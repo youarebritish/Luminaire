@@ -21,7 +21,7 @@ namespace Black.Entity.Nav
             var dummy = new SmartWaypointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Nav.SmartWaypointEntity", 0, Black.Entity.Nav.SmartWaypointEntity.ObjectType, null, properties, 0, 168);
+            ObjectType = new ObjectType("Black.Entity.Nav.SmartWaypointEntity", 0, Black.Entity.Nav.SmartWaypointEntity.ObjectType, Construct, properties, 0, 168);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Nav
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SmartWaypointEntity();
+        }
 		
     }
 }

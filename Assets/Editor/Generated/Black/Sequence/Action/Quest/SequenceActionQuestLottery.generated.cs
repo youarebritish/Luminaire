@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Quest
             var dummy = new SequenceActionQuestLottery();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Quest.SequenceActionQuestLottery", 0, Black.Sequence.Action.Quest.SequenceActionQuestLottery.ObjectType, null, properties, 0, 752);
+            ObjectType = new ObjectType("Black.Sequence.Action.Quest.SequenceActionQuestLottery", 0, Black.Sequence.Action.Quest.SequenceActionQuestLottery.ObjectType, Construct, properties, 0, 752);
         }
 		
         public override ObjectType GetObjectType()
@@ -99,6 +99,11 @@ namespace Black.Sequence.Action.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionQuestLottery();
+        }
 		
     }
 }

@@ -68,7 +68,7 @@ namespace Black.Sequence.LPV
             var dummy = new SequenceActionSetLPV();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.LPV.SequenceActionSetLPV", 0, Black.Sequence.LPV.SequenceActionSetLPV.ObjectType, null, properties, 0, 2488);
+            ObjectType = new ObjectType("Black.Sequence.LPV.SequenceActionSetLPV", 0, Black.Sequence.LPV.SequenceActionSetLPV.ObjectType, Construct, properties, 0, 2488);
         }
 		
         public override ObjectType GetObjectType()
@@ -249,6 +249,11 @@ namespace Black.Sequence.LPV
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetLPV();
+        }
 		
     }
 }

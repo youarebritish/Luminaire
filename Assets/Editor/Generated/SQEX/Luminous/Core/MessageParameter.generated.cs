@@ -20,7 +20,7 @@ namespace SQEX.Luminous.Core
             var dummy = new MessageParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Luminous.Core.MessageParameter", 0, SQEX.Luminous.Core.MessageParameter.ObjectType, null, properties, 1, 16);
+            ObjectType = new ObjectType("SQEX.Luminous.Core.MessageParameter", 0, SQEX.Luminous.Core.MessageParameter.ObjectType, Construct, properties, 1, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace SQEX.Luminous.Core
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MessageParameter();
+        }
 		
     }
 }

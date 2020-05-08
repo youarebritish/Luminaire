@@ -40,7 +40,7 @@ namespace Black.Sequence.Action.Dinner
             var dummy = new SequenceActionDinnerGetStayInnGil();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Dinner.SequenceActionDinnerGetStayInnGil", 0, Black.Sequence.Action.Dinner.SequenceActionDinnerGetStayInnGil.ObjectType, null, properties, 0, 2040);
+            ObjectType = new ObjectType("Black.Sequence.Action.Dinner.SequenceActionDinnerGetStayInnGil", 0, Black.Sequence.Action.Dinner.SequenceActionDinnerGetStayInnGil.ObjectType, Construct, properties, 0, 2040);
         }
 		
         public override ObjectType GetObjectType()
@@ -177,6 +177,11 @@ namespace Black.Sequence.Action.Dinner
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDinnerGetStayInnGil();
+        }
 		
     }
 }

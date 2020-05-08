@@ -24,7 +24,7 @@ namespace Black.System.TimeLine.TrackItem
             var dummy = new VFXTrackItemActor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.VFXTrackItemActor", 0, Black.System.TimeLine.TrackItem.VFXTrackItemActor.ObjectType, null, properties, 0, 224);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.VFXTrackItemActor", 0, Black.System.TimeLine.TrackItem.VFXTrackItemActor.ObjectType, Construct, properties, 0, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -57,6 +57,11 @@ namespace Black.System.TimeLine.TrackItem
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VFXTrackItemActor();
+        }
 		
     }
 }

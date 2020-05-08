@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Quest
             var dummy = new SequenceActionQuestCheckClear();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Quest.SequenceActionQuestCheckClear", 0, Black.Sequence.Action.Quest.SequenceActionQuestCheckClear.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Action.Quest.SequenceActionQuestCheckClear", 0, Black.Sequence.Action.Quest.SequenceActionQuestCheckClear.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Action.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionQuestCheckClear();
+        }
 		
     }
 }

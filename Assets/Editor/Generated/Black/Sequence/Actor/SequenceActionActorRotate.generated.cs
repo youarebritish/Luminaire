@@ -34,7 +34,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorRotate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorRotate", 0, Black.Sequence.Actor.SequenceActionActorRotate.ObjectType, null, properties, 0, 976);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorRotate", 0, Black.Sequence.Actor.SequenceActionActorRotate.ObjectType, Construct, properties, 0, 976);
         }
 		
         public override ObjectType GetObjectType()
@@ -116,6 +116,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorRotate();
+        }
 		
     }
 }

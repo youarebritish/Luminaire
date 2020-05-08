@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Team
             var dummy = new AILeafNodeBeginWireAttack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.Team.AILeafNodeBeginWireAttack", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.Team.AILeafNodeBeginWireAttack.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.Team.AILeafNodeBeginWireAttack", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.Team.AILeafNodeBeginWireAttack.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Team
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeBeginWireAttack();
+        }
 		
     }
 }

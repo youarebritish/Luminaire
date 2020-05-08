@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Node
             var dummy = new AIGraphNodeMindTaskEntryPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Node.AIGraphNodeMindTaskEntryPoint", 0, Black.AIGraph.Extend.Node.AIGraphNodeMindTaskEntryPoint.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Node.AIGraphNodeMindTaskEntryPoint", 0, Black.AIGraph.Extend.Node.AIGraphNodeMindTaskEntryPoint.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.AIGraph.Extend.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeMindTaskEntryPoint();
+        }
 		
     }
 }

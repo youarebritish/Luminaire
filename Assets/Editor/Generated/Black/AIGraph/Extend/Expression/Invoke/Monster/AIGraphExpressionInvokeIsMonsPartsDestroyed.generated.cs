@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Monster
             var dummy = new AIGraphExpressionInvokeIsMonsPartsDestroyed();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.Monster.AIGraphExpressionInvokeIsMonsPartsDestroyed", 0, Black.AIGraph.Extend.Expression.Invoke.Monster.AIGraphExpressionInvokeIsMonsPartsDestroyed.ObjectType, null, properties, 0, 8);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Expression.Invoke.Monster.AIGraphExpressionInvokeIsMonsPartsDestroyed", 0, Black.AIGraph.Extend.Expression.Invoke.Monster.AIGraphExpressionInvokeIsMonsPartsDestroyed.ObjectType, Construct, properties, 0, 8);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Expression.Invoke.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphExpressionInvokeIsMonsPartsDestroyed();
+        }
 		
     }
 }

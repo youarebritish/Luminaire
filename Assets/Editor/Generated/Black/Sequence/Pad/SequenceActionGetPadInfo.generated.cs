@@ -51,7 +51,7 @@ namespace Black.Sequence.Pad
             var dummy = new SequenceActionGetPadInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Pad.SequenceActionGetPadInfo", 0, Black.Sequence.Pad.SequenceActionGetPadInfo.ObjectType, null, properties, 0, 2024);
+            ObjectType = new ObjectType("Black.Sequence.Pad.SequenceActionGetPadInfo", 0, Black.Sequence.Pad.SequenceActionGetPadInfo.ObjectType, Construct, properties, 0, 2024);
         }
 		
         public override ObjectType GetObjectType()
@@ -211,6 +211,11 @@ namespace Black.Sequence.Pad
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetPadInfo();
+        }
 		
     }
 }

@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionFrameCounter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionFrameCounter", 0, Black.Sequence.Action.Render.SequenceActionFrameCounter.ObjectType, null, properties, 0, 768);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionFrameCounter", 0, Black.Sequence.Action.Render.SequenceActionFrameCounter.ObjectType, Construct, properties, 0, 768);
         }
 		
         public override ObjectType GetObjectType()
@@ -99,6 +99,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionFrameCounter();
+        }
 		
     }
 }

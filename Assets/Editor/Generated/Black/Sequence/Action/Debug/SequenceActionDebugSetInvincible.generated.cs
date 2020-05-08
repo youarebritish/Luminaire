@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugSetInvincible();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugSetInvincible", 0, Black.Sequence.Action.Debug.SequenceActionDebugSetInvincible.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugSetInvincible", 0, Black.Sequence.Action.Debug.SequenceActionDebugSetInvincible.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugSetInvincible();
+        }
 		
     }
 }

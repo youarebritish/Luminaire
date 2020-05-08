@@ -34,7 +34,7 @@ namespace Black.Sequence.Action.PostEffect
             var dummy = new SequenceActionSetOutdoorLightScattering();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.PostEffect.SequenceActionSetOutdoorLightScattering", 0, Black.Sequence.Action.PostEffect.SequenceActionSetOutdoorLightScattering.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Action.PostEffect.SequenceActionSetOutdoorLightScattering", 0, Black.Sequence.Action.PostEffect.SequenceActionSetOutdoorLightScattering.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.PostEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetOutdoorLightScattering();
+        }
 		
     }
 }

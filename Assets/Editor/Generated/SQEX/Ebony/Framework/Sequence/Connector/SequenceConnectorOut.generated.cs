@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Sequence.Connector
             var dummy = new SequenceConnectorOut();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Connector.SequenceConnectorOut", 0, SQEX.Ebony.Framework.Sequence.Connector.SequenceConnectorOut.ObjectType, null, properties, 0, 120);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Connector.SequenceConnectorOut", 0, SQEX.Ebony.Framework.Sequence.Connector.SequenceConnectorOut.ObjectType, Construct, properties, 0, 120);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace SQEX.Ebony.Framework.Sequence.Connector
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConnectorOut();
+        }
 		
     }
 }

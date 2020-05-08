@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionBattleEventActorPause();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionBattleEventActorPause", 0, Black.Sequence.Action.Actor.SequenceActionBattleEventActorPause.ObjectType, null, properties, 0, 840);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionBattleEventActorPause", 0, Black.Sequence.Action.Actor.SequenceActionBattleEventActorPause.ObjectType, Construct, properties, 0, 840);
         }
 		
         public override ObjectType GetObjectType()
@@ -105,6 +105,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionBattleEventActorPause();
+        }
 		
     }
 }

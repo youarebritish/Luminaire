@@ -21,7 +21,7 @@ namespace Black.Entity.Menu
             var dummy = new MainParamGaugeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.MainParamGaugeEntity", 0, Black.Entity.Menu.MainParamGaugeEntity.ObjectType, null, properties, 0, 592);
+            ObjectType = new ObjectType("Black.Entity.Menu.MainParamGaugeEntity", 0, Black.Entity.Menu.MainParamGaugeEntity.ObjectType, Construct, properties, 0, 592);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MainParamGaugeEntity();
+        }
 		
     }
 }

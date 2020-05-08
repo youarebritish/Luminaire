@@ -20,7 +20,7 @@ namespace SQEX.Ebony.AIGraph.Tray
             var dummy = new AIGraphTrayBT();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Tray.AIGraphTrayBT", 0, SQEX.Ebony.AIGraph.Tray.AIGraphTrayBT.ObjectType, null, properties, 0, 168);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Tray.AIGraphTrayBT", 0, SQEX.Ebony.AIGraph.Tray.AIGraphTrayBT.ObjectType, Construct, properties, 0, 168);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace SQEX.Ebony.AIGraph.Tray
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphTrayBT();
+        }
 		
     }
 }

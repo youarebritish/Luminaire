@@ -25,7 +25,7 @@ namespace Black.Sequence.Variable.Labeled
             var dummy = new SequenceVariableLabeledCommonBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.Labeled.SequenceVariableLabeledCommonBase", 0, Black.Sequence.Variable.Labeled.SequenceVariableLabeledCommonBase.ObjectType, null, properties, 0, 128);
+            ObjectType = new ObjectType("Black.Sequence.Variable.Labeled.SequenceVariableLabeledCommonBase", 0, Black.Sequence.Variable.Labeled.SequenceVariableLabeledCommonBase.ObjectType, Construct, properties, 0, 128);
         }
 		
         public override ObjectType GetObjectType()
@@ -56,6 +56,11 @@ namespace Black.Sequence.Variable.Labeled
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableLabeledCommonBase();
+        }
 		
     }
 }

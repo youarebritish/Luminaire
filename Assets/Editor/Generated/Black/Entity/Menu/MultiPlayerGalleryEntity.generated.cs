@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new MultiPlayerGalleryEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.MultiPlayerGalleryEntity", 0, Black.Entity.Menu.MultiPlayerGalleryEntity.ObjectType, null, properties, 0, 1056);
+            ObjectType = new ObjectType("Black.Entity.Menu.MultiPlayerGalleryEntity", 0, Black.Entity.Menu.MultiPlayerGalleryEntity.ObjectType, Construct, properties, 0, 1056);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MultiPlayerGalleryEntity();
+        }
 		
     }
 }

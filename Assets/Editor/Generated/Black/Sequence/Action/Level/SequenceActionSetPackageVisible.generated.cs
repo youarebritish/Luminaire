@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionSetPackageVisible();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetPackageVisible", 0, Black.Sequence.Action.Level.SequenceActionSetPackageVisible.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetPackageVisible", 0, Black.Sequence.Action.Level.SequenceActionSetPackageVisible.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetPackageVisible();
+        }
 		
     }
 }

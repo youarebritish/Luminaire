@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke
             var dummy = new AIGraphInvokeDebugPrint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeDebugPrint", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeDebugPrint.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeDebugPrint", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeDebugPrint.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeDebugPrint();
+        }
 		
     }
 }

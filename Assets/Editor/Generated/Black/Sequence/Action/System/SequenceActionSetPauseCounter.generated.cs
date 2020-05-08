@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionSetPauseCounter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSetPauseCounter", 0, Black.Sequence.Action.System.SequenceActionSetPauseCounter.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSetPauseCounter", 0, Black.Sequence.Action.System.SequenceActionSetPauseCounter.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetPauseCounter();
+        }
 		
     }
 }

@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Actor.Animation
             var dummy = new SequenceActionActorAutoNeckRotation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorAutoNeckRotation", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorAutoNeckRotation.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorAutoNeckRotation", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorAutoNeckRotation.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace Black.Sequence.Action.Actor.Animation
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorAutoNeckRotation();
+        }
 		
     }
 }

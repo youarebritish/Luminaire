@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionReserveSummonTarget();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionReserveSummonTarget", 0, Black.Sequence.Action.Level.SequenceActionReserveSummonTarget.ObjectType, null, properties, 0, 488);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionReserveSummonTarget", 0, Black.Sequence.Action.Level.SequenceActionReserveSummonTarget.ObjectType, Construct, properties, 0, 488);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionReserveSummonTarget();
+        }
 		
     }
 }

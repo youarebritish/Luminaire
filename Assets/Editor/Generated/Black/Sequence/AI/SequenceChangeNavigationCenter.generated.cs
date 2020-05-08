@@ -23,7 +23,7 @@ namespace Black.Sequence.AI
             var dummy = new SequenceChangeNavigationCenter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.AI.SequenceChangeNavigationCenter", 0, Black.Sequence.AI.SequenceChangeNavigationCenter.ObjectType, null, properties, 0, 456);
+            ObjectType = new ObjectType("Black.Sequence.AI.SequenceChangeNavigationCenter", 0, Black.Sequence.AI.SequenceChangeNavigationCenter.ObjectType, Construct, properties, 0, 456);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceChangeNavigationCenter();
+        }
 		
     }
 }

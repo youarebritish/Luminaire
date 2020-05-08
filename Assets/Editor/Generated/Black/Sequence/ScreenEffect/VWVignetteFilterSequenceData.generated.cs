@@ -28,7 +28,7 @@ namespace Black.Sequence.ScreenEffect
             var dummy = new VWVignetteFilterSequenceData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.VWVignetteFilterSequenceData", 0, Black.Sequence.ScreenEffect.VWVignetteFilterSequenceData.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.VWVignetteFilterSequenceData", 0, Black.Sequence.ScreenEffect.VWVignetteFilterSequenceData.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Sequence.ScreenEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VWVignetteFilterSequenceData();
+        }
 		
     }
 }

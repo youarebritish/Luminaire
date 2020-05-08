@@ -21,7 +21,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceConstCameraPointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstCameraPointEntity", 0, Black.Sequence.Variable.SequenceConstCameraPointEntity.ObjectType, null, properties, 0, 280);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstCameraPointEntity", 0, Black.Sequence.Variable.SequenceConstCameraPointEntity.ObjectType, Construct, properties, 0, 280);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstCameraPointEntity();
+        }
 		
     }
 }

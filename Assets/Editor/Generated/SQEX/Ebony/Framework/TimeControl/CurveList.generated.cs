@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.TimeControl
             var dummy = new CurveList();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.CurveList", 0, SQEX.Ebony.Framework.TimeControl.CurveList.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.CurveList", 0, SQEX.Ebony.Framework.TimeControl.CurveList.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace SQEX.Ebony.Framework.TimeControl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CurveList();
+        }
 		
     }
 }

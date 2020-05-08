@@ -23,7 +23,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionSetDisplacement();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetDisplacement", 0, Black.Sequence.Render.SequenceActionSetDisplacement.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetDisplacement", 0, Black.Sequence.Render.SequenceActionSetDisplacement.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetDisplacement();
+        }
 		
     }
 }

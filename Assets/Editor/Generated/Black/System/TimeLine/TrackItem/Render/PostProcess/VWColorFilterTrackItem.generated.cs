@@ -77,7 +77,7 @@ namespace Black.System.TimeLine.TrackItem.Render.PostProcess
             var dummy = new VWColorFilterTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.PostProcess.VWColorFilterTrackItem", 0, Black.System.TimeLine.TrackItem.Render.PostProcess.VWColorFilterTrackItem.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.PostProcess.VWColorFilterTrackItem", 0, Black.System.TimeLine.TrackItem.Render.PostProcess.VWColorFilterTrackItem.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -161,6 +161,11 @@ namespace Black.System.TimeLine.TrackItem.Render.PostProcess
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VWColorFilterTrackItem();
+        }
 		
     }
 }

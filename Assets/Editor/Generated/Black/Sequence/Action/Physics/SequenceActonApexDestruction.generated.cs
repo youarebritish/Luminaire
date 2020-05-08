@@ -31,7 +31,7 @@ namespace Black.Sequence.Action.Physics
             var dummy = new SequenceActonApexDestruction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Physics.SequenceActonApexDestruction", 0, Black.Sequence.Action.Physics.SequenceActonApexDestruction.ObjectType, null, properties, 0, 960);
+            ObjectType = new ObjectType("Black.Sequence.Action.Physics.SequenceActonApexDestruction", 0, Black.Sequence.Action.Physics.SequenceActonApexDestruction.ObjectType, Construct, properties, 0, 960);
         }
 		
         public override ObjectType GetObjectType()
@@ -111,6 +111,11 @@ namespace Black.Sequence.Action.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActonApexDestruction();
+        }
 		
     }
 }

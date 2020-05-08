@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Camera
             var dummy = new SequenceActionCameraMoveToTargetSceneAutomatically();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionCameraMoveToTargetSceneAutomatically", 0, Black.Sequence.Action.Camera.SequenceActionCameraMoveToTargetSceneAutomatically.ObjectType, null, properties, 0, 488);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionCameraMoveToTargetSceneAutomatically", 0, Black.Sequence.Action.Camera.SequenceActionCameraMoveToTargetSceneAutomatically.ObjectType, Construct, properties, 0, 488);
         }
 		
         public override ObjectType GetObjectType()
@@ -72,6 +72,11 @@ namespace Black.Sequence.Action.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCameraMoveToTargetSceneAutomatically();
+        }
 		
     }
 }

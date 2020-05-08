@@ -27,7 +27,7 @@ namespace Black.Entity.Render
             var dummy = new AOLightEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.AOLightEntity", 0, Black.Entity.Render.AOLightEntity.ObjectType, null, properties, 0, 432);
+            ObjectType = new ObjectType("Black.Entity.Render.AOLightEntity", 0, Black.Entity.Render.AOLightEntity.ObjectType, Construct, properties, 0, 432);
         }
 		
         public override ObjectType GetObjectType()
@@ -61,6 +61,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AOLightEntity();
+        }
 		
     }
 }

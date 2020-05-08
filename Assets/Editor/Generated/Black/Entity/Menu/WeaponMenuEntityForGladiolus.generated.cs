@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new WeaponMenuEntityForGladiolus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.WeaponMenuEntityForGladiolus", 0, Black.Entity.Menu.WeaponMenuEntityForGladiolus.ObjectType, null, properties, 0, 736);
+            ObjectType = new ObjectType("Black.Entity.Menu.WeaponMenuEntityForGladiolus", 0, Black.Entity.Menu.WeaponMenuEntityForGladiolus.ObjectType, Construct, properties, 0, 736);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WeaponMenuEntityForGladiolus();
+        }
 		
     }
 }

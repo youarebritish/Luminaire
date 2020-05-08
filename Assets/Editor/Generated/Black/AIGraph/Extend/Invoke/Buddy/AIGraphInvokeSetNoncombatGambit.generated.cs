@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
             var dummy = new AIGraphInvokeSetNoncombatGambit();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetNoncombatGambit", 0, Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetNoncombatGambit.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetNoncombatGambit", 0, Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeSetNoncombatGambit.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetNoncombatGambit();
+        }
 		
     }
 }

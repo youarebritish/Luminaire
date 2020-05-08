@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new DungeonLevelItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.DungeonLevelItem", 0, Black.Sequence.Action.Level.DungeonLevelItem.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.DungeonLevelItem", 0, Black.Sequence.Action.Level.DungeonLevelItem.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -56,6 +56,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DungeonLevelItem();
+        }
 		
     }
 }

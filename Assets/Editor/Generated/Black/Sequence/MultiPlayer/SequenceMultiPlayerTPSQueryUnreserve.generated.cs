@@ -22,7 +22,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerTPSQueryUnreserve();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerTPSQueryUnreserve", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerTPSQueryUnreserve.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerTPSQueryUnreserve", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerTPSQueryUnreserve.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerTPSQueryUnreserve();
+        }
 		
     }
 }

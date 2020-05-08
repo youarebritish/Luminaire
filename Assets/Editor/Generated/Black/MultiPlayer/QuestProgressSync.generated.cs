@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new QuestProgressSync();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.QuestProgressSync", 0, Black.MultiPlayer.QuestProgressSync.ObjectType, null, properties, 1, 160);
+            ObjectType = new ObjectType("Black.MultiPlayer.QuestProgressSync", 0, Black.MultiPlayer.QuestProgressSync.ObjectType, Construct, properties, 1, 160);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new QuestProgressSync();
+        }
 		
     }
 }

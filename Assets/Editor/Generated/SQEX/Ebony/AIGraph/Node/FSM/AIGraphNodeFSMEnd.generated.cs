@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Node.FSM
             var dummy = new AIGraphNodeFSMEnd();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMEnd", 0, SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMEnd.ObjectType, null, properties, 0, 200);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMEnd", 0, SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMEnd.ObjectType, Construct, properties, 0, 200);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace SQEX.Ebony.AIGraph.Node.FSM
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeFSMEnd();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Entity.Data.CharacterEntry
             var dummy = new BuddyCharacterEntry();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.BuddyCharacterEntry", 0, Black.Entity.Data.CharacterEntry.BuddyCharacterEntry.ObjectType, null, properties, 0, 1192);
+            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.BuddyCharacterEntry", 0, Black.Entity.Data.CharacterEntry.BuddyCharacterEntry.ObjectType, Construct, properties, 0, 1192);
         }
 		
         public override ObjectType GetObjectType()
@@ -134,6 +134,11 @@ namespace Black.Entity.Data.CharacterEntry
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BuddyCharacterEntry();
+        }
 		
     }
 }

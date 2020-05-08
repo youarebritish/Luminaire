@@ -20,7 +20,7 @@ namespace Black.Entity.Camera
             var dummy = new CameraPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Camera.CameraPackage", 0, Black.Entity.Camera.CameraPackage.ObjectType, null, properties, 0, 624);
+            ObjectType = new ObjectType("Black.Entity.Camera.CameraPackage", 0, Black.Entity.Camera.CameraPackage.ObjectType, Construct, properties, 0, 624);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Entity.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CameraPackage();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Multiplayer.Quest
             var dummy = new SequenceMultiPlayerEndQuest();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Multiplayer.Quest.SequenceMultiPlayerEndQuest", 0, Black.Sequence.Action.Multiplayer.Quest.SequenceMultiPlayerEndQuest.ObjectType, null, properties, 0, 752);
+            ObjectType = new ObjectType("Black.Sequence.Action.Multiplayer.Quest.SequenceMultiPlayerEndQuest", 0, Black.Sequence.Action.Multiplayer.Quest.SequenceMultiPlayerEndQuest.ObjectType, Construct, properties, 0, 752);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Action.Multiplayer.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerEndQuest();
+        }
 		
     }
 }

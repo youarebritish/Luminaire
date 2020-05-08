@@ -20,7 +20,7 @@ namespace Black.Sequence.Event.Menu
             var dummy = new SequenceEventCombatCommandMenuOpened();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Menu.SequenceEventCombatCommandMenuOpened", 0, Black.Sequence.Event.Menu.SequenceEventCombatCommandMenuOpened.ObjectType, null, properties, 0, 296);
+            ObjectType = new ObjectType("Black.Sequence.Event.Menu.SequenceEventCombatCommandMenuOpened", 0, Black.Sequence.Event.Menu.SequenceEventCombatCommandMenuOpened.ObjectType, Construct, properties, 0, 296);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace Black.Sequence.Event.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventCombatCommandMenuOpened();
+        }
 		
     }
 }

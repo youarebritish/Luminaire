@@ -21,7 +21,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableGetNowLoadingState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableGetNowLoadingState", 0, Black.Sequence.Variable.SequenceVariableGetNowLoadingState.ObjectType, null, properties, 0, 176);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableGetNowLoadingState", 0, Black.Sequence.Variable.SequenceVariableGetNowLoadingState.ObjectType, Construct, properties, 0, 176);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableGetNowLoadingState();
+        }
 		
     }
 }

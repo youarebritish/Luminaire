@@ -22,7 +22,7 @@ namespace Black.Entity
             var dummy = new WaterExclusionBoxParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.WaterExclusionBoxParameter", 0, Black.Entity.WaterExclusionBoxParameter.ObjectType, null, properties, 0, 48);
+            ObjectType = new ObjectType("Black.Entity.WaterExclusionBoxParameter", 0, Black.Entity.WaterExclusionBoxParameter.ObjectType, Construct, properties, 0, 48);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WaterExclusionBoxParameter();
+        }
 		
     }
 }

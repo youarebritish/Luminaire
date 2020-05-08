@@ -34,7 +34,7 @@ namespace Black.Sequence.Action.Angle
             var dummy = new SequenceActionCameraBattleMultiTargetInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Angle.SequenceActionCameraBattleMultiTargetInfo", 0, Black.Sequence.Action.Angle.SequenceActionCameraBattleMultiTargetInfo.ObjectType, null, properties, 0, 2096);
+            ObjectType = new ObjectType("Black.Sequence.Action.Angle.SequenceActionCameraBattleMultiTargetInfo", 0, Black.Sequence.Action.Angle.SequenceActionCameraBattleMultiTargetInfo.ObjectType, Construct, properties, 0, 2096);
         }
 		
         public override ObjectType GetObjectType()
@@ -160,6 +160,11 @@ namespace Black.Sequence.Action.Angle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCameraBattleMultiTargetInfo();
+        }
 		
     }
 }

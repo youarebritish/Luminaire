@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Scene
             var dummy = new SequenceActionSetSceneConnectionPortActor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Scene.SequenceActionSetSceneConnectionPortActor", 0, Black.Sequence.Action.Scene.SequenceActionSetSceneConnectionPortActor.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.Sequence.Action.Scene.SequenceActionSetSceneConnectionPortActor", 0, Black.Sequence.Action.Scene.SequenceActionSetSceneConnectionPortActor.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -82,6 +82,11 @@ namespace Black.Sequence.Action.Scene
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetSceneConnectionPortActor();
+        }
 		
     }
 }

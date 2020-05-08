@@ -22,7 +22,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorGetBodyLinkAnimRoleActor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorGetBodyLinkAnimRoleActor", 0, Black.Sequence.Actor.SequenceActionActorGetBodyLinkAnimRoleActor.ObjectType, null, properties, 0, 328);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorGetBodyLinkAnimRoleActor", 0, Black.Sequence.Actor.SequenceActionActorGetBodyLinkAnimRoleActor.ObjectType, Construct, properties, 0, 328);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetBodyLinkAnimRoleActor();
+        }
 		
     }
 }

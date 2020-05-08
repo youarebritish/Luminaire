@@ -24,7 +24,7 @@ namespace Black.Sequence.Variable.Labeled
             var dummy = new SequenceActionDeclareLabeledFixId();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.Labeled.SequenceActionDeclareLabeledFixId", 0, Black.Sequence.Variable.Labeled.SequenceActionDeclareLabeledFixId.ObjectType, null, properties, 0, 408);
+            ObjectType = new ObjectType("Black.Sequence.Variable.Labeled.SequenceActionDeclareLabeledFixId", 0, Black.Sequence.Variable.Labeled.SequenceActionDeclareLabeledFixId.ObjectType, Construct, properties, 0, 408);
         }
 		
         public override ObjectType GetObjectType()
@@ -69,6 +69,11 @@ namespace Black.Sequence.Variable.Labeled
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDeclareLabeledFixId();
+        }
 		
     }
 }

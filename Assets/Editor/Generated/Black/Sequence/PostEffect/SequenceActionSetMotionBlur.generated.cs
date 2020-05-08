@@ -34,7 +34,7 @@ namespace Black.Sequence.PostEffect
             var dummy = new SequenceActionSetMotionBlur();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.PostEffect.SequenceActionSetMotionBlur", 0, Black.Sequence.PostEffect.SequenceActionSetMotionBlur.ObjectType, null, properties, 0, 912);
+            ObjectType = new ObjectType("Black.Sequence.PostEffect.SequenceActionSetMotionBlur", 0, Black.Sequence.PostEffect.SequenceActionSetMotionBlur.ObjectType, Construct, properties, 0, 912);
         }
 		
         public override ObjectType GetObjectType()
@@ -113,6 +113,11 @@ namespace Black.Sequence.PostEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetMotionBlur();
+        }
 		
     }
 }

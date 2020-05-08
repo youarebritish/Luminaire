@@ -25,7 +25,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorSetPriorityLockLockTarget();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSetPriorityLockLockTarget", 0, Black.Sequence.Actor.SequenceActionActorSetPriorityLockLockTarget.ObjectType, null, properties, 0, 640);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSetPriorityLockLockTarget", 0, Black.Sequence.Actor.SequenceActionActorSetPriorityLockLockTarget.ObjectType, Construct, properties, 0, 640);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetPriorityLockLockTarget();
+        }
 		
     }
 }

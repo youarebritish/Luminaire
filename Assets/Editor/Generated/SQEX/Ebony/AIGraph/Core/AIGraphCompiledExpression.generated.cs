@@ -22,7 +22,7 @@ namespace SQEX.Ebony.AIGraph.Core
             var dummy = new AIGraphCompiledExpression();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Core.AIGraphCompiledExpression", 0, SQEX.Ebony.AIGraph.Core.AIGraphCompiledExpression.ObjectType, null, properties, 0, 56);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Core.AIGraphCompiledExpression", 0, SQEX.Ebony.AIGraph.Core.AIGraphCompiledExpression.ObjectType, Construct, properties, 0, 56);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace SQEX.Ebony.AIGraph.Core
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphCompiledExpression();
+        }
 		
     }
 }

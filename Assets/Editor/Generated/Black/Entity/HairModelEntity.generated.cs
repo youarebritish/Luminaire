@@ -50,7 +50,7 @@ namespace Black.Entity
             var dummy = new HairModelEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.HairModelEntity", 0, Black.Entity.HairModelEntity.ObjectType, null, properties, 0, 720);
+            ObjectType = new ObjectType("Black.Entity.HairModelEntity", 0, Black.Entity.HairModelEntity.ObjectType, Construct, properties, 0, 720);
         }
 		
         public override ObjectType GetObjectType()
@@ -133,6 +133,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new HairModelEntity();
+        }
 		
     }
 }

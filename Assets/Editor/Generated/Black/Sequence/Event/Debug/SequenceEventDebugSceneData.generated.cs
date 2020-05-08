@@ -29,7 +29,7 @@ namespace Black.Sequence.Event.Debug
             var dummy = new SequenceEventDebugSceneData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Debug.SequenceEventDebugSceneData", 0, Black.Sequence.Event.Debug.SequenceEventDebugSceneData.ObjectType, null, properties, 0, 432);
+            ObjectType = new ObjectType("Black.Sequence.Event.Debug.SequenceEventDebugSceneData", 0, Black.Sequence.Event.Debug.SequenceEventDebugSceneData.ObjectType, Construct, properties, 0, 432);
         }
 		
         public override ObjectType GetObjectType()
@@ -74,6 +74,11 @@ namespace Black.Sequence.Event.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventDebugSceneData();
+        }
 		
     }
 }

@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Quest
             var dummy = new SequenceActionQuestActiveInstance();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Quest.SequenceActionQuestActiveInstance", 0, Black.Sequence.Action.Quest.SequenceActionQuestActiveInstance.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.Quest.SequenceActionQuestActiveInstance", 0, Black.Sequence.Action.Quest.SequenceActionQuestActiveInstance.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionQuestActiveInstance();
+        }
 		
     }
 }

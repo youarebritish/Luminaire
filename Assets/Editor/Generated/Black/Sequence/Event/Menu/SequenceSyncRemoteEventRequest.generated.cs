@@ -21,7 +21,7 @@ namespace Black.Sequence.Event.Menu
             var dummy = new SequenceSyncRemoteEventRequest();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Menu.SequenceSyncRemoteEventRequest", 0, Black.Sequence.Event.Menu.SequenceSyncRemoteEventRequest.ObjectType, null, properties, 0, 424);
+            ObjectType = new ObjectType("Black.Sequence.Event.Menu.SequenceSyncRemoteEventRequest", 0, Black.Sequence.Event.Menu.SequenceSyncRemoteEventRequest.ObjectType, Construct, properties, 0, 424);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Sequence.Event.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceSyncRemoteEventRequest();
+        }
 		
     }
 }

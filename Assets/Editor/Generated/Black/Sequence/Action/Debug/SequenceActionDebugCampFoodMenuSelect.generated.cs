@@ -31,7 +31,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugCampFoodMenuSelect();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugCampFoodMenuSelect", 0, Black.Sequence.Action.Debug.SequenceActionDebugCampFoodMenuSelect.ObjectType, null, properties, 0, 968);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugCampFoodMenuSelect", 0, Black.Sequence.Action.Debug.SequenceActionDebugCampFoodMenuSelect.ObjectType, Construct, properties, 0, 968);
         }
 		
         public override ObjectType GetObjectType()
@@ -104,6 +104,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugCampFoodMenuSelect();
+        }
 		
     }
 }

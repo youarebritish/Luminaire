@@ -24,7 +24,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiplayerNotifiyIngredientInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiplayerNotifiyIngredientInfo", 0, Black.Sequence.MultiPlayer.SequenceMultiplayerNotifiyIngredientInfo.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiplayerNotifiyIngredientInfo", 0, Black.Sequence.MultiPlayer.SequenceMultiplayerNotifiyIngredientInfo.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -74,6 +74,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiplayerNotifiyIngredientInfo();
+        }
 		
     }
 }

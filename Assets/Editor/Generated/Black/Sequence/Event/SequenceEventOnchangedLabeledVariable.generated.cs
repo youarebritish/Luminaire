@@ -27,7 +27,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceEventOnchangedLabeledVariable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventOnchangedLabeledVariable", 0, Black.Sequence.Event.SequenceEventOnchangedLabeledVariable.ObjectType, null, properties, 0, 416);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventOnchangedLabeledVariable", 0, Black.Sequence.Event.SequenceEventOnchangedLabeledVariable.ObjectType, Construct, properties, 0, 416);
         }
 		
         public override ObjectType GetObjectType()
@@ -74,6 +74,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventOnchangedLabeledVariable();
+        }
 		
     }
 }

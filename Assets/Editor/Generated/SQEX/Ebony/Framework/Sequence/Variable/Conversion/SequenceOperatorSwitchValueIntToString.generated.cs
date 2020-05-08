@@ -44,7 +44,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Conversion
             var dummy = new SequenceOperatorSwitchValueIntToString();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceOperatorSwitchValueIntToString", 0, SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceOperatorSwitchValueIntToString.ObjectType, null, properties, 0, 488);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceOperatorSwitchValueIntToString", 0, SQEX.Ebony.Framework.Sequence.Variable.Conversion.SequenceOperatorSwitchValueIntToString.ObjectType, Construct, properties, 0, 488);
         }
 		
         public override ObjectType GetObjectType()
@@ -102,6 +102,11 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Conversion
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorSwitchValueIntToString();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Monster
             var dummy = new AIGraphInvokeIncStamina();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeIncStamina", 0, Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeIncStamina.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeIncStamina", 0, Black.AIGraph.Extend.Invoke.Monster.AIGraphInvokeIncStamina.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeIncStamina();
+        }
 		
     }
 }

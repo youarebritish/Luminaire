@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Actor.Body
             var dummy = new SequenceActionActorBodyRequestDeathMessage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Body.SequenceActionActorBodyRequestDeathMessage", 0, Black.Sequence.Action.Actor.Body.SequenceActionActorBodyRequestDeathMessage.ObjectType, null, properties, 0, 1168);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Body.SequenceActionActorBodyRequestDeathMessage", 0, Black.Sequence.Action.Actor.Body.SequenceActionActorBodyRequestDeathMessage.ObjectType, Construct, properties, 0, 1168);
         }
 		
         public override ObjectType GetObjectType()
@@ -124,6 +124,11 @@ namespace Black.Sequence.Action.Actor.Body
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorBodyRequestDeathMessage();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorSetShadowCast();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSetShadowCast", 0, Black.Sequence.Actor.SequenceActionActorSetShadowCast.ObjectType, null, properties, 0, 488);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSetShadowCast", 0, Black.Sequence.Actor.SequenceActionActorSetShadowCast.ObjectType, Construct, properties, 0, 488);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetShadowCast();
+        }
 		
     }
 }

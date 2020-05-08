@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Actor.Online
             var dummy = new SequenceActionActorSyncCreate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Online.SequenceActionActorSyncCreate", 0, Black.Sequence.Action.Actor.Online.SequenceActionActorSyncCreate.ObjectType, null, properties, 0, 1032);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Online.SequenceActionActorSyncCreate", 0, Black.Sequence.Action.Actor.Online.SequenceActionActorSyncCreate.ObjectType, Construct, properties, 0, 1032);
         }
 		
         public override ObjectType GetObjectType()
@@ -113,6 +113,11 @@ namespace Black.Sequence.Action.Actor.Online
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSyncCreate();
+        }
 		
     }
 }

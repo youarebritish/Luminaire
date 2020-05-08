@@ -24,7 +24,7 @@ namespace Black.Entity.Level
             var dummy = new SpotWind();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Level.SpotWind", 0, Black.Entity.Level.SpotWind.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Entity.Level.SpotWind", 0, Black.Entity.Level.SpotWind.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Entity.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SpotWind();
+        }
 		
     }
 }

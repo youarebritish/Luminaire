@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.Level.Party
             var dummy = new SequenceActionChangePlayerSeamlessWithoutEntryChange();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Party.SequenceActionChangePlayerSeamlessWithoutEntryChange", 0, Black.Sequence.Action.Level.Party.SequenceActionChangePlayerSeamlessWithoutEntryChange.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Party.SequenceActionChangePlayerSeamlessWithoutEntryChange", 0, Black.Sequence.Action.Level.Party.SequenceActionChangePlayerSeamlessWithoutEntryChange.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -69,6 +69,11 @@ namespace Black.Sequence.Action.Level.Party
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionChangePlayerSeamlessWithoutEntryChange();
+        }
 		
     }
 }

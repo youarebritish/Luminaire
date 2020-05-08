@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionSetLightEntityBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetLightEntityBase", 0, Black.Sequence.Action.Render.SequenceActionSetLightEntityBase.ObjectType, null, properties, 0, 1160);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetLightEntityBase", 0, Black.Sequence.Action.Render.SequenceActionSetLightEntityBase.ObjectType, Construct, properties, 0, 1160);
         }
 		
         public override ObjectType GetObjectType()
@@ -116,6 +116,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetLightEntityBase();
+        }
 		
     }
 }

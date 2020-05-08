@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new BattleSync();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.BattleSync", 0, Black.MultiPlayer.BattleSync.ObjectType, null, properties, 2, 160);
+            ObjectType = new ObjectType("Black.MultiPlayer.BattleSync", 0, Black.MultiPlayer.BattleSync.ObjectType, Construct, properties, 2, 160);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BattleSync();
+        }
 		
     }
 }

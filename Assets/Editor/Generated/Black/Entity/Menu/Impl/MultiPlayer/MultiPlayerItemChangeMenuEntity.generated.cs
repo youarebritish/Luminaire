@@ -20,7 +20,7 @@ namespace Black.Entity.Menu.Impl.MultiPlayer
             var dummy = new MultiPlayerItemChangeMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerItemChangeMenuEntity", 0, Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerItemChangeMenuEntity.ObjectType, null, properties, 0, 640);
+            ObjectType = new ObjectType("Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerItemChangeMenuEntity", 0, Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerItemChangeMenuEntity.ObjectType, Construct, properties, 0, 640);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu.Impl.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MultiPlayerItemChangeMenuEntity();
+        }
 		
     }
 }

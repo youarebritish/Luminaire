@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugGetEnemyEncyclopediaList();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugGetEnemyEncyclopediaList", 0, Black.Sequence.Action.Debug.SequenceActionDebugGetEnemyEncyclopediaList.ObjectType, null, properties, 0, 416);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugGetEnemyEncyclopediaList", 0, Black.Sequence.Action.Debug.SequenceActionDebugGetEnemyEncyclopediaList.ObjectType, Construct, properties, 0, 416);
         }
 		
         public override ObjectType GetObjectType()
@@ -63,6 +63,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugGetEnemyEncyclopediaList();
+        }
 		
     }
 }

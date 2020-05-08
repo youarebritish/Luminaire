@@ -28,7 +28,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceRequestEvent2();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceRequestEvent2", 0, Black.Sequence.Event.SequenceRequestEvent2.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceRequestEvent2", 0, Black.Sequence.Event.SequenceRequestEvent2.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -84,6 +84,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceRequestEvent2();
+        }
 		
     }
 }

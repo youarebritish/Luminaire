@@ -27,7 +27,7 @@ namespace Black.Entity.Map
             var dummy = new NavigationMarkerEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Map.NavigationMarkerEntity", 0, Black.Entity.Map.NavigationMarkerEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.Map.NavigationMarkerEntity", 0, Black.Entity.Map.NavigationMarkerEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -61,6 +61,11 @@ namespace Black.Entity.Map
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NavigationMarkerEntity();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Save
             var dummy = new SequenceActionSetNewGameArea();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionSetNewGameArea", 0, Black.Sequence.Action.Save.SequenceActionSetNewGameArea.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionSetNewGameArea", 0, Black.Sequence.Action.Save.SequenceActionSetNewGameArea.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.Save
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetNewGameArea();
+        }
 		
     }
 }

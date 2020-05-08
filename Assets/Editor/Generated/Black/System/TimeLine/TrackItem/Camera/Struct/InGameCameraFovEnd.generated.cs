@@ -24,7 +24,7 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             var dummy = new InGameCameraFovEnd();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovEnd", 0, Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovEnd.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovEnd", 0, Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovEnd.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InGameCameraFovEnd();
+        }
 		
     }
 }

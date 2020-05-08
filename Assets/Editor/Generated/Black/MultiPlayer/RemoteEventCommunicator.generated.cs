@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new RemoteEventCommunicator();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.RemoteEventCommunicator", 0, Black.MultiPlayer.RemoteEventCommunicator.ObjectType, null, properties, 1, 40);
+            ObjectType = new ObjectType("Black.MultiPlayer.RemoteEventCommunicator", 0, Black.MultiPlayer.RemoteEventCommunicator.ObjectType, Construct, properties, 1, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new RemoteEventCommunicator();
+        }
 		
     }
 }

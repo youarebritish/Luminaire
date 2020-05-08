@@ -22,7 +22,7 @@ namespace Black.Entity.Level
             var dummy = new BoxWind();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Level.BoxWind", 0, Black.Entity.Level.BoxWind.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Entity.Level.BoxWind", 0, Black.Entity.Level.BoxWind.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Entity.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BoxWind();
+        }
 		
     }
 }

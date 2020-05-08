@@ -26,7 +26,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionSetSSRFade();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetSSRFade", 0, Black.Sequence.Render.SequenceActionSetSSRFade.ObjectType, null, properties, 0, 296);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetSSRFade", 0, Black.Sequence.Render.SequenceActionSetSSRFade.ObjectType, Construct, properties, 0, 296);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetSSRFade();
+        }
 		
     }
 }

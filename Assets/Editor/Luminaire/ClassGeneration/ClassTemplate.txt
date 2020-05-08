@@ -21,7 +21,7 @@ namespace {{ name_space }}
             var dummy = new {{ type }}();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("{{ object_type.name_ }}", 0, {{ object_type.name_ }}.ObjectType, {{ if object_type.construct_function_ != 0 }}Construct{{ else }}null{{ end }}, properties, {{ object_type.function_count_ }}, {{ object_type.object_size_ }});
+            ObjectType = new ObjectType("{{ object_type.name_ }}", 0, {{ object_type.name_ }}.ObjectType, {{ if object_type.has_constructor }}Construct{{ else }}null{{ end }}, properties, {{ object_type.function_count_ }}, {{ object_type.object_size_ }});
         }
 		
         public {{ if base_type }}override{{ end }} ObjectType GetObjectType()
@@ -47,7 +47,7 @@ namespace {{ name_space }}
 			return fieldProperties;
         }
 
-		{{ if object_type.construct_function_ != 0 }}
+		{{ if object_type.has_constructor }}
         private static BaseObject Construct()
         {
             return new {{ type }}();

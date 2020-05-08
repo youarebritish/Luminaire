@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Mobhunt
             var dummy = new SequenceActionMobhuntOnlyStop();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntOnlyStop", 0, Black.Sequence.Action.Mobhunt.SequenceActionMobhuntOnlyStop.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntOnlyStop", 0, Black.Sequence.Action.Mobhunt.SequenceActionMobhuntOnlyStop.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Action.Mobhunt
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionMobhuntOnlyStop();
+        }
 		
     }
 }

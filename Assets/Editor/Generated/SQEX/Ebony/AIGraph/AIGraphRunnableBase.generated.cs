@@ -24,7 +24,7 @@ namespace SQEX.Ebony.AIGraph
             var dummy = new AIGraphRunnableBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.AIGraphRunnableBase", 0, SQEX.Ebony.AIGraph.AIGraphRunnableBase.ObjectType, null, properties, 0, 48);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.AIGraphRunnableBase", 0, SQEX.Ebony.AIGraph.AIGraphRunnableBase.ObjectType, Construct, properties, 0, 48);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace SQEX.Ebony.AIGraph
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphRunnableBase();
+        }
 		
     }
 }

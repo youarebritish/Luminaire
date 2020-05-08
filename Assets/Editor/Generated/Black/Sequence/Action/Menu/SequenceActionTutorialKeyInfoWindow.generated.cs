@@ -38,7 +38,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionTutorialKeyInfoWindow();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionTutorialKeyInfoWindow", 0, Black.Sequence.Action.Menu.SequenceActionTutorialKeyInfoWindow.ObjectType, null, properties, 0, 768);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionTutorialKeyInfoWindow", 0, Black.Sequence.Action.Menu.SequenceActionTutorialKeyInfoWindow.ObjectType, Construct, properties, 0, 768);
         }
 		
         public override ObjectType GetObjectType()
@@ -115,6 +115,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTutorialKeyInfoWindow();
+        }
 		
     }
 }

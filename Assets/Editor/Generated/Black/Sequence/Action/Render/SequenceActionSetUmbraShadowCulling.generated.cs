@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionSetUmbraShadowCulling();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetUmbraShadowCulling", 0, Black.Sequence.Action.Render.SequenceActionSetUmbraShadowCulling.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetUmbraShadowCulling", 0, Black.Sequence.Action.Render.SequenceActionSetUmbraShadowCulling.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetUmbraShadowCulling();
+        }
 		
     }
 }

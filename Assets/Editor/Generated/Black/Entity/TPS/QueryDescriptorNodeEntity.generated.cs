@@ -21,7 +21,7 @@ namespace Black.Entity.TPS
             var dummy = new QueryDescriptorNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.QueryDescriptorNodeEntity", 0, Black.Entity.TPS.QueryDescriptorNodeEntity.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Entity.TPS.QueryDescriptorNodeEntity", 0, Black.Entity.TPS.QueryDescriptorNodeEntity.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Entity.TPS
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new QueryDescriptorNodeEntity();
+        }
 		
     }
 }

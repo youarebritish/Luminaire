@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Event
             var dummy = new SequenceActionReleaseCCFSeamlessEvent();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Event.SequenceActionReleaseCCFSeamlessEvent", 0, Black.Sequence.Action.Event.SequenceActionReleaseCCFSeamlessEvent.ObjectType, null, properties, 0, 424);
+            ObjectType = new ObjectType("Black.Sequence.Action.Event.SequenceActionReleaseCCFSeamlessEvent", 0, Black.Sequence.Action.Event.SequenceActionReleaseCCFSeamlessEvent.ObjectType, Construct, properties, 0, 424);
         }
 		
         public override ObjectType GetObjectType()
@@ -80,6 +80,11 @@ namespace Black.Sequence.Action.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionReleaseCCFSeamlessEvent();
+        }
 		
     }
 }

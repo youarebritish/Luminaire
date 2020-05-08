@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Control
             var dummy = new SequenceActionControlResetSequence();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Control.SequenceActionControlResetSequence", 0, Black.Sequence.Action.Control.SequenceActionControlResetSequence.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Control.SequenceActionControlResetSequence", 0, Black.Sequence.Action.Control.SequenceActionControlResetSequence.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Sequence.Action.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlResetSequence();
+        }
 		
     }
 }

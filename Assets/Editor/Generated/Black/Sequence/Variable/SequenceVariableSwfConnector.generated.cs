@@ -85,7 +85,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableSwfConnector();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableSwfConnector", 0, Black.Sequence.Variable.SequenceVariableSwfConnector.ObjectType, null, properties, 0, 3456);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableSwfConnector", 0, Black.Sequence.Variable.SequenceVariableSwfConnector.ObjectType, Construct, properties, 0, 3456);
         }
 		
         public override ObjectType GetObjectType()
@@ -304,6 +304,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableSwfConnector();
+        }
 		
     }
 }

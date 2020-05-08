@@ -24,7 +24,7 @@ namespace Black.Sequence.ScreenEffect
             var dummy = new SequenceActionSetWaterTemporalAA();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetWaterTemporalAA", 0, Black.Sequence.ScreenEffect.SequenceActionSetWaterTemporalAA.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetWaterTemporalAA", 0, Black.Sequence.ScreenEffect.SequenceActionSetWaterTemporalAA.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.ScreenEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetWaterTemporalAA();
+        }
 		
     }
 }

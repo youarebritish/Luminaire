@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.AI.Action
             var dummy = new AILeafNodeChangeBattleAggressive();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.AILeafNodeChangeBattleAggressive", 0, Black.AIGraph.LeafNode.AI.Action.AILeafNodeChangeBattleAggressive.ObjectType, null, properties, 0, 88);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.AILeafNodeChangeBattleAggressive", 0, Black.AIGraph.LeafNode.AI.Action.AILeafNodeChangeBattleAggressive.ObjectType, Construct, properties, 0, 88);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.AIGraph.LeafNode.AI.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeChangeBattleAggressive();
+        }
 		
     }
 }

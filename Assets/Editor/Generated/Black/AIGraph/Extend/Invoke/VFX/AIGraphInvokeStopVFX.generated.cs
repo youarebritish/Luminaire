@@ -23,7 +23,7 @@ namespace Black.AIGraph.Extend.Invoke.VFX
             var dummy = new AIGraphInvokeStopVFX();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.VFX.AIGraphInvokeStopVFX", 0, Black.AIGraph.Extend.Invoke.VFX.AIGraphInvokeStopVFX.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.VFX.AIGraphInvokeStopVFX", 0, Black.AIGraph.Extend.Invoke.VFX.AIGraphInvokeStopVFX.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.AIGraph.Extend.Invoke.VFX
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeStopVFX();
+        }
 		
     }
 }

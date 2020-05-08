@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Entity
             var dummy = new LocatorEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.LocatorEntity", 0, SQEX.Ebony.Framework.Entity.LocatorEntity.ObjectType, null, properties, 1, 224);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.LocatorEntity", 0, SQEX.Ebony.Framework.Entity.LocatorEntity.ObjectType, Construct, properties, 1, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -47,6 +47,11 @@ namespace SQEX.Ebony.Framework.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LocatorEntity();
+        }
 		
     }
 }

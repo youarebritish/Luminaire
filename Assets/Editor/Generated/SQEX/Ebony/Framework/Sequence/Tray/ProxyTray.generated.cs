@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Sequence.Tray
             var dummy = new ProxyTray();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Tray.ProxyTray", 0, SQEX.Ebony.Framework.Sequence.Tray.ProxyTray.ObjectType, null, properties, 1, 240);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Tray.ProxyTray", 0, SQEX.Ebony.Framework.Sequence.Tray.ProxyTray.ObjectType, Construct, properties, 1, 240);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace SQEX.Ebony.Framework.Sequence.Tray
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ProxyTray();
+        }
 		
     }
 }

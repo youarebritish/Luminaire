@@ -20,7 +20,7 @@ namespace Black.Entity
             var dummy = new EntityGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.EntityGroup", 0, Black.Entity.EntityGroup.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("Black.Entity.EntityGroup", 0, Black.Entity.EntityGroup.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new EntityGroup();
+        }
 		
     }
 }

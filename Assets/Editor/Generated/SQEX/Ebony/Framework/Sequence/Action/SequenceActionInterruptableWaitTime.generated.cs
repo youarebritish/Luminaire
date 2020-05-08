@@ -29,7 +29,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             var dummy = new SequenceActionInterruptableWaitTime();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionInterruptableWaitTime", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionInterruptableWaitTime.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionInterruptableWaitTime", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionInterruptableWaitTime.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -88,6 +88,11 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionInterruptableWaitTime();
+        }
 		
     }
 }

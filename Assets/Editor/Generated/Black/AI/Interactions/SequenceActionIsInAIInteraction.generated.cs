@@ -25,7 +25,7 @@ namespace Black.AI.Interactions
             var dummy = new SequenceActionIsInAIInteraction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Interactions.SequenceActionIsInAIInteraction", 0, Black.AI.Interactions.SequenceActionIsInAIInteraction.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.AI.Interactions.SequenceActionIsInAIInteraction", 0, Black.AI.Interactions.SequenceActionIsInAIInteraction.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.AI.Interactions
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionIsInAIInteraction();
+        }
 		
     }
 }

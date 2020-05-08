@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Animation
             var dummy = new AIGraphInvokeActivateFootIK();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateFootIK", 0, Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateFootIK.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateFootIK", 0, Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeActivateFootIK.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Animation
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeActivateFootIK();
+        }
 		
     }
 }

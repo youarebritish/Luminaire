@@ -39,7 +39,7 @@ namespace Black.Sequence.Actor.AI.Vehicle
             var dummy = new SequenceActionAIVehicleSetMaterial();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleSetMaterial", 0, Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleSetMaterial.ObjectType, null, properties, 0, 784);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleSetMaterial", 0, Black.Sequence.Actor.AI.Vehicle.SequenceActionAIVehicleSetMaterial.ObjectType, Construct, properties, 0, 784);
         }
 		
         public override ObjectType GetObjectType()
@@ -115,6 +115,11 @@ namespace Black.Sequence.Actor.AI.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIVehicleSetMaterial();
+        }
 		
     }
 }

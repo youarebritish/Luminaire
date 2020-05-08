@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Actor.Accessory
             var dummy = new SequenceActionActorSetCloth();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorSetCloth", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorSetCloth.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorSetCloth", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorSetCloth.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -92,6 +92,11 @@ namespace Black.Sequence.Action.Actor.Accessory
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetCloth();
+        }
 		
     }
 }

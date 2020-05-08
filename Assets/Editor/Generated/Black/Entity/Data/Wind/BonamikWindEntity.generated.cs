@@ -69,7 +69,7 @@ namespace Black.Entity.Data.Wind
             var dummy = new BonamikWindEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Wind.BonamikWindEntity", 0, Black.Entity.Data.Wind.BonamikWindEntity.ObjectType, null, properties, 0, 592);
+            ObjectType = new ObjectType("Black.Entity.Data.Wind.BonamikWindEntity", 0, Black.Entity.Data.Wind.BonamikWindEntity.ObjectType, Construct, properties, 0, 592);
         }
 		
         public override ObjectType GetObjectType()
@@ -145,6 +145,11 @@ namespace Black.Entity.Data.Wind
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BonamikWindEntity();
+        }
 		
     }
 }

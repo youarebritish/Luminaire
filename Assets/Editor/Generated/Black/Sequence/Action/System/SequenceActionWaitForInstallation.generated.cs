@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionWaitForInstallation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionWaitForInstallation", 0, Black.Sequence.Action.System.SequenceActionWaitForInstallation.ObjectType, null, properties, 0, 592);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionWaitForInstallation", 0, Black.Sequence.Action.System.SequenceActionWaitForInstallation.ObjectType, Construct, properties, 0, 592);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionWaitForInstallation();
+        }
 		
     }
 }

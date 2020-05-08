@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Actor.Physics
             var dummy = new SequenceActionActorBonamikWindControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikWindControl", 0, Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikWindControl.ObjectType, null, properties, 0, 824);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikWindControl", 0, Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikWindControl.ObjectType, Construct, properties, 0, 824);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Action.Actor.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorBonamikWindControl();
+        }
 		
     }
 }

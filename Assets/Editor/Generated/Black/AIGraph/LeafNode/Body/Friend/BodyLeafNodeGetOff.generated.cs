@@ -30,7 +30,7 @@ namespace Black.AIGraph.LeafNode.Body.Friend
             var dummy = new BodyLeafNodeGetOff();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Friend.BodyLeafNodeGetOff", 0, Black.AIGraph.LeafNode.Body.Friend.BodyLeafNodeGetOff.ObjectType, null, properties, 0, 424);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.Friend.BodyLeafNodeGetOff", 0, Black.AIGraph.LeafNode.Body.Friend.BodyLeafNodeGetOff.ObjectType, Construct, properties, 0, 424);
         }
 		
         public override ObjectType GetObjectType()
@@ -98,6 +98,11 @@ namespace Black.AIGraph.LeafNode.Body.Friend
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyLeafNodeGetOff();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Team
             var dummy = new SequenceActionSetTeamStrongPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Team.SequenceActionSetTeamStrongPoint", 0, Black.Sequence.Action.Team.SequenceActionSetTeamStrongPoint.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Action.Team.SequenceActionSetTeamStrongPoint", 0, Black.Sequence.Action.Team.SequenceActionSetTeamStrongPoint.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Team
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetTeamStrongPoint();
+        }
 		
     }
 }

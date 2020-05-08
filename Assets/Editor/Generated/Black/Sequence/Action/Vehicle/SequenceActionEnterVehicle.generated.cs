@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Vehicle
             var dummy = new SequenceActionEnterVehicle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Vehicle.SequenceActionEnterVehicle", 0, Black.Sequence.Action.Vehicle.SequenceActionEnterVehicle.ObjectType, null, properties, 0, 2368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Vehicle.SequenceActionEnterVehicle", 0, Black.Sequence.Action.Vehicle.SequenceActionEnterVehicle.ObjectType, Construct, properties, 0, 2368);
         }
 		
         public override ObjectType GetObjectType()
@@ -169,6 +169,11 @@ namespace Black.Sequence.Action.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEnterVehicle();
+        }
 		
     }
 }

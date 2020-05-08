@@ -31,7 +31,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionSetScrollBarTransformSwfEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSetScrollBarTransformSwfEntity", 0, Black.Sequence.Action.Menu.SequenceActionSetScrollBarTransformSwfEntity.ObjectType, null, properties, 0, 784);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSetScrollBarTransformSwfEntity", 0, Black.Sequence.Action.Menu.SequenceActionSetScrollBarTransformSwfEntity.ObjectType, Construct, properties, 0, 784);
         }
 		
         public override ObjectType GetObjectType()
@@ -99,6 +99,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetScrollBarTransformSwfEntity();
+        }
 		
     }
 }

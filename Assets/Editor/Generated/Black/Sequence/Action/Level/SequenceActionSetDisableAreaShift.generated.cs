@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionSetDisableAreaShift();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetDisableAreaShift", 0, Black.Sequence.Action.Level.SequenceActionSetDisableAreaShift.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetDisableAreaShift", 0, Black.Sequence.Action.Level.SequenceActionSetDisableAreaShift.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetDisableAreaShift();
+        }
 		
     }
 }

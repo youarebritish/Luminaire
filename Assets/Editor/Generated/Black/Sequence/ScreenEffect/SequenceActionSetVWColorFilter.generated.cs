@@ -140,7 +140,7 @@ namespace Black.Sequence.ScreenEffect
             var dummy = new SequenceActionSetVWColorFilter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetVWColorFilter", 0, Black.Sequence.ScreenEffect.SequenceActionSetVWColorFilter.ObjectType, null, properties, 0, 5784);
+            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetVWColorFilter", 0, Black.Sequence.ScreenEffect.SequenceActionSetVWColorFilter.ObjectType, Construct, properties, 0, 5784);
         }
 		
         public override ObjectType GetObjectType()
@@ -537,6 +537,11 @@ namespace Black.Sequence.ScreenEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetVWColorFilter();
+        }
 		
     }
 }

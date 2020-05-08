@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.TimeLine
             var dummy = new SequenceActionTimeLineActorTrackInterpMovementBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorTrackInterpMovementBase", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorTrackInterpMovementBase.ObjectType, null, properties, 0, 416);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorTrackInterpMovementBase", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineActorTrackInterpMovementBase.ObjectType, Construct, properties, 0, 416);
         }
 		
         public override ObjectType GetObjectType()
@@ -63,6 +63,11 @@ namespace Black.Sequence.Action.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineActorTrackInterpMovementBase();
+        }
 		
     }
 }

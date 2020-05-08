@@ -26,7 +26,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorTargetPointChangeStatus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorTargetPointChangeStatus", 0, Black.Sequence.Actor.SequenceActionActorTargetPointChangeStatus.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorTargetPointChangeStatus", 0, Black.Sequence.Actor.SequenceActionActorTargetPointChangeStatus.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorTargetPointChangeStatus();
+        }
 		
     }
 }

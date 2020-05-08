@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             var dummy = new AILeafNodeSetMagic();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetMagic", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetMagic.ObjectType, null, properties, 0, 144);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetMagic", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeSetMagic.ObjectType, Construct, properties, 0, 144);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeSetMagic();
+        }
 		
     }
 }

@@ -32,7 +32,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
             var dummy = new AILeafNodeAttachObject();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeAttachObject", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeAttachObject.ObjectType, null, properties, 0, 440);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeAttachObject", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeAttachObject.ObjectType, Construct, properties, 0, 440);
         }
 		
         public override ObjectType GetObjectType()
@@ -108,6 +108,11 @@ namespace Black.AIGraph.LeafNode.AI.Function
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeAttachObject();
+        }
 		
     }
 }

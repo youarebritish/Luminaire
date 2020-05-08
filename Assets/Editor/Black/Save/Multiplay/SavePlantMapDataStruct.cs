@@ -1,6 +1,7 @@
 ﻿using SQEX.Luminous.Core.Object;
 using System.Collections.Generic;
 
+/*
 namespace Black.Save.Multiplay
 {
     public partial class SavePlantMapDataStruct
@@ -44,4 +45,4 @@ namespace Black.Save.Multiplay
             }
         }
     }
-}
+}*/

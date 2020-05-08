@@ -20,7 +20,7 @@ namespace Black.AIGraph.DecoratorNode.Nifl
             var dummy = new AIGraphNodeBTDecoratorCanSpecialAttack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.DecoratorNode.Nifl.AIGraphNodeBTDecoratorCanSpecialAttack", 0, Black.AIGraph.DecoratorNode.Nifl.AIGraphNodeBTDecoratorCanSpecialAttack.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("Black.AIGraph.DecoratorNode.Nifl.AIGraphNodeBTDecoratorCanSpecialAttack", 0, Black.AIGraph.DecoratorNode.Nifl.AIGraphNodeBTDecoratorCanSpecialAttack.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace Black.AIGraph.DecoratorNode.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeBTDecoratorCanSpecialAttack();
+        }
 		
     }
 }

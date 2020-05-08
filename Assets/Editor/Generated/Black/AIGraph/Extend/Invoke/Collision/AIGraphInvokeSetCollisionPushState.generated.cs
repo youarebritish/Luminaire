@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke.Collision
             var dummy = new AIGraphInvokeSetCollisionPushState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Collision.AIGraphInvokeSetCollisionPushState", 0, Black.AIGraph.Extend.Invoke.Collision.AIGraphInvokeSetCollisionPushState.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Collision.AIGraphInvokeSetCollisionPushState", 0, Black.AIGraph.Extend.Invoke.Collision.AIGraphInvokeSetCollisionPushState.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke.Collision
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetCollisionPushState();
+        }
 		
     }
 }

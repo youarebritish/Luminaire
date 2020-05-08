@@ -29,7 +29,7 @@ namespace SQEX.Ebony.Framework.Sequence.Event
             var dummy = new SequenceEventKeyboardInput();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Event.SequenceEventKeyboardInput", 0, SQEX.Ebony.Framework.Sequence.Event.SequenceEventKeyboardInput.ObjectType, null, properties, 0, 672);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Event.SequenceEventKeyboardInput", 0, SQEX.Ebony.Framework.Sequence.Event.SequenceEventKeyboardInput.ObjectType, Construct, properties, 0, 672);
         }
 		
         public override ObjectType GetObjectType()
@@ -96,6 +96,11 @@ namespace SQEX.Ebony.Framework.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventKeyboardInput();
+        }
 		
     }
 }

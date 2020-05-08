@@ -9,7 +9,7 @@ namespace Black.Save.Multiplay
         private static PropertyContainer fieldProperties;
 		
 		public bool isCompletedLesta_;
-		public Black.Save.Multiplay.SavePlantMapDataStruct.IconDataStruct iconDataList_;
+		//public Black.Save.Multiplay.SavePlantMapDataStruct.IconDataStruct iconDataList_;
 		
         
         new public static void SetupObjectType()

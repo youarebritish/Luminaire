@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Camera
             var dummy = new SequenceActionSeamlessInGameCameraLightAutoCompositionTalk();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCameraLightAutoCompositionTalk", 0, Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCameraLightAutoCompositionTalk.ObjectType, null, properties, 0, 2848);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCameraLightAutoCompositionTalk", 0, Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCameraLightAutoCompositionTalk.ObjectType, Construct, properties, 0, 2848);
         }
 		
         public override ObjectType GetObjectType()
@@ -386,6 +386,11 @@ namespace Black.Sequence.Action.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSeamlessInGameCameraLightAutoCompositionTalk();
+        }
 		
     }
 }

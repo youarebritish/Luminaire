@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionSetTerrainGI();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetTerrainGI", 0, Black.Sequence.Action.Render.SequenceActionSetTerrainGI.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetTerrainGI", 0, Black.Sequence.Action.Render.SequenceActionSetTerrainGI.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetTerrainGI();
+        }
 		
     }
 }

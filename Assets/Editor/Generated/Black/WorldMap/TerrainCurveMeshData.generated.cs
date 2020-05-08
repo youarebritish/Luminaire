@@ -70,7 +70,7 @@ namespace Black.WorldMap
             var dummy = new TerrainCurveMeshData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.WorldMap.TerrainCurveMeshData", 0, Black.WorldMap.TerrainCurveMeshData.ObjectType, null, properties, 0, 808);
+            ObjectType = new ObjectType("Black.WorldMap.TerrainCurveMeshData", 0, Black.WorldMap.TerrainCurveMeshData.ObjectType, Construct, properties, 0, 808);
         }
 		
         public override ObjectType GetObjectType()
@@ -144,6 +144,11 @@ namespace Black.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TerrainCurveMeshData();
+        }
 		
     }
 }

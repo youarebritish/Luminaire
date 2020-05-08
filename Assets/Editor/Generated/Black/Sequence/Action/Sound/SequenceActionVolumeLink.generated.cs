@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Sound
             var dummy = new SequenceActionVolumeLink();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Sound.SequenceActionVolumeLink", 0, Black.Sequence.Action.Sound.SequenceActionVolumeLink.ObjectType, null, properties, 0, 936);
+            ObjectType = new ObjectType("Black.Sequence.Action.Sound.SequenceActionVolumeLink", 0, Black.Sequence.Action.Sound.SequenceActionVolumeLink.ObjectType, Construct, properties, 0, 936);
         }
 		
         public override ObjectType GetObjectType()
@@ -109,6 +109,11 @@ namespace Black.Sequence.Action.Sound
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionVolumeLink();
+        }
 		
     }
 }

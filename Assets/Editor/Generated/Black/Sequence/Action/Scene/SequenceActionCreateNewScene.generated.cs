@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Scene
             var dummy = new SequenceActionCreateNewScene();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Scene.SequenceActionCreateNewScene", 0, Black.Sequence.Action.Scene.SequenceActionCreateNewScene.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Action.Scene.SequenceActionCreateNewScene", 0, Black.Sequence.Action.Scene.SequenceActionCreateNewScene.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.Scene
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCreateNewScene();
+        }
 		
     }
 }

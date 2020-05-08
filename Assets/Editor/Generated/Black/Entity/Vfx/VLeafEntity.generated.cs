@@ -24,7 +24,7 @@ namespace Black.Entity.Vfx
             var dummy = new VLeafEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Vfx.VLeafEntity", 0, Black.Entity.Vfx.VLeafEntity.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Entity.Vfx.VLeafEntity", 0, Black.Entity.Vfx.VLeafEntity.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace Black.Entity.Vfx
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VLeafEntity();
+        }
 		
     }
 }

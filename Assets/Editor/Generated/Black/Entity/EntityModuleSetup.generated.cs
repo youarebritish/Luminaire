@@ -126,7 +126,7 @@ namespace Black.Entity
 			Black.Save.AbilityTree.SaveAbilityTreeStruct.SetupObjectType();
 			Black.Save.Chocobo.SaveChocoboStruct.SetupObjectType();
 			Black.Save.Multiplay.SavePlantMapDataStruct.SetupObjectType();
-			Black.Save.Multiplay.SavePlantMapDataStruct.IconDataStruct.SetupObjectType();
+			//Black.Save.Multiplay.SavePlantMapDataStruct.IconDataStruct.SetupObjectType();
 			Black.Save.Common.SaveEpiScore.SetupObjectType();
 			Black.Save.Common.SaveCommonStruct.SetupObjectType();
 			Black.Save.Common.SaveFixidStruct.SetupObjectType();

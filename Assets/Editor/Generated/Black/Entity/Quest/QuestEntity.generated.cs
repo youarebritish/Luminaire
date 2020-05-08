@@ -21,7 +21,7 @@ namespace Black.Entity.Quest
             var dummy = new QuestEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Quest.QuestEntity", 0, Black.Entity.Quest.QuestEntity.ObjectType, null, properties, 0, 72);
+            ObjectType = new ObjectType("Black.Entity.Quest.QuestEntity", 0, Black.Entity.Quest.QuestEntity.ObjectType, Construct, properties, 0, 72);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new QuestEntity();
+        }
 		
     }
 }

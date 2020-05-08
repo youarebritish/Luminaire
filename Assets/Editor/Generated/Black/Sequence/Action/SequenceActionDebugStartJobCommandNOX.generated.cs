@@ -25,7 +25,7 @@ namespace Black.Sequence.Action
             var dummy = new SequenceActionDebugStartJobCommandNOX();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.SequenceActionDebugStartJobCommandNOX", 0, Black.Sequence.Action.SequenceActionDebugStartJobCommandNOX.ObjectType, null, properties, 0, 648);
+            ObjectType = new ObjectType("Black.Sequence.Action.SequenceActionDebugStartJobCommandNOX", 0, Black.Sequence.Action.SequenceActionDebugStartJobCommandNOX.ObjectType, Construct, properties, 0, 648);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugStartJobCommandNOX();
+        }
 		
     }
 }

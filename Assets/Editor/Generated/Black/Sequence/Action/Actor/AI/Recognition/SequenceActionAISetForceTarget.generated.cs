@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Actor.AI.Recognition
             var dummy = new SequenceActionAISetForceTarget();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAISetForceTarget", 0, Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAISetForceTarget.ObjectType, null, properties, 0, 752);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAISetForceTarget", 0, Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAISetForceTarget.ObjectType, Construct, properties, 0, 752);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Action.Actor.AI.Recognition
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAISetForceTarget();
+        }
 		
     }
 }

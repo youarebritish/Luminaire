@@ -24,7 +24,7 @@ namespace Black.Entity.Data
             var dummy = new LayoutCharacterItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.LayoutCharacterItem", 0, Black.Entity.Data.LayoutCharacterItem.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.Entity.Data.LayoutCharacterItem", 0, Black.Entity.Data.LayoutCharacterItem.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LayoutCharacterItem();
+        }
 		
     }
 }

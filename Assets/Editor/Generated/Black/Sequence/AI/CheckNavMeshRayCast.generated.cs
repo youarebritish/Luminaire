@@ -30,7 +30,7 @@ namespace Black.Sequence.AI
             var dummy = new CheckNavMeshRayCast();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.AI.CheckNavMeshRayCast", 0, Black.Sequence.AI.CheckNavMeshRayCast.ObjectType, null, properties, 0, 680);
+            ObjectType = new ObjectType("Black.Sequence.AI.CheckNavMeshRayCast", 0, Black.Sequence.AI.CheckNavMeshRayCast.ObjectType, Construct, properties, 0, 680);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CheckNavMeshRayCast();
+        }
 		
     }
 }

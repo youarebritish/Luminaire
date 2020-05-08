@@ -21,7 +21,7 @@ namespace Black.Entity.Data.CharacterEntry
             var dummy = new CharacterEntryFixidArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem", 0, Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem", 0, Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Data.CharacterEntry
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CharacterEntryFixidArrayItem();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Entity.Map
             var dummy = new NavigationSeedPointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Map.NavigationSeedPointEntity", 0, Black.Entity.Map.NavigationSeedPointEntity.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.Entity.Map.NavigationSeedPointEntity", 0, Black.Entity.Map.NavigationSeedPointEntity.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -51,6 +51,11 @@ namespace Black.Entity.Map
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NavigationSeedPointEntity();
+        }
 		
     }
 }

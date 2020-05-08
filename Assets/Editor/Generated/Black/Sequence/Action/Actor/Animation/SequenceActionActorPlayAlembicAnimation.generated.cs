@@ -31,7 +31,7 @@ namespace Black.Sequence.Action.Actor.Animation
             var dummy = new SequenceActionActorPlayAlembicAnimation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorPlayAlembicAnimation", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorPlayAlembicAnimation.ObjectType, null, properties, 0, 904);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorPlayAlembicAnimation", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorPlayAlembicAnimation.ObjectType, Construct, properties, 0, 904);
         }
 		
         public override ObjectType GetObjectType()
@@ -111,6 +111,11 @@ namespace Black.Sequence.Action.Actor.Animation
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorPlayAlembicAnimation();
+        }
 		
     }
 }

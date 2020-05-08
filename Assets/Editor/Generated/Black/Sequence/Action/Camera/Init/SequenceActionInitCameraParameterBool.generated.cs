@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Camera.Init
             var dummy = new SequenceActionInitCameraParameterBool();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.Init.SequenceActionInitCameraParameterBool", 0, Black.Sequence.Action.Camera.Init.SequenceActionInitCameraParameterBool.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.Init.SequenceActionInitCameraParameterBool", 0, Black.Sequence.Action.Camera.Init.SequenceActionInitCameraParameterBool.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Camera.Init
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionInitCameraParameterBool();
+        }
 		
     }
 }

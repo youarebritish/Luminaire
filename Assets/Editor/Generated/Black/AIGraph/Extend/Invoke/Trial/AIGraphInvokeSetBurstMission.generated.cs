@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Trial
             var dummy = new AIGraphInvokeSetBurstMission();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeSetBurstMission", 0, Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeSetBurstMission.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeSetBurstMission", 0, Black.AIGraph.Extend.Invoke.Trial.AIGraphInvokeSetBurstMission.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Trial
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetBurstMission();
+        }
 		
     }
 }

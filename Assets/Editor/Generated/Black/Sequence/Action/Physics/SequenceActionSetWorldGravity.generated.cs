@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Physics
             var dummy = new SequenceActionSetWorldGravity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Physics.SequenceActionSetWorldGravity", 0, Black.Sequence.Action.Physics.SequenceActionSetWorldGravity.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Action.Physics.SequenceActionSetWorldGravity", 0, Black.Sequence.Action.Physics.SequenceActionSetWorldGravity.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -69,6 +69,11 @@ namespace Black.Sequence.Action.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetWorldGravity();
+        }
 		
     }
 }

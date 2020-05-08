@@ -22,7 +22,7 @@ namespace Black.Sequence.Input
             var dummy = new SequenceActionResetGyroSensors();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Input.SequenceActionResetGyroSensors", 0, Black.Sequence.Input.SequenceActionResetGyroSensors.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Input.SequenceActionResetGyroSensors", 0, Black.Sequence.Input.SequenceActionResetGyroSensors.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Input
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionResetGyroSensors();
+        }
 		
     }
 }

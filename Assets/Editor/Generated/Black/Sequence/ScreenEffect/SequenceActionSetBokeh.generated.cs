@@ -55,7 +55,7 @@ namespace Black.Sequence.ScreenEffect
             var dummy = new SequenceActionSetBokeh();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetBokeh", 0, Black.Sequence.ScreenEffect.SequenceActionSetBokeh.ObjectType, null, properties, 0, 1592);
+            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetBokeh", 0, Black.Sequence.ScreenEffect.SequenceActionSetBokeh.ObjectType, Construct, properties, 0, 1592);
         }
 		
         public override ObjectType GetObjectType()
@@ -183,6 +183,11 @@ namespace Black.Sequence.ScreenEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetBokeh();
+        }
 		
     }
 }

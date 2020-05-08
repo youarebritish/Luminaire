@@ -24,7 +24,7 @@ namespace Black.Sequence.Event.Menu.Executor
             var dummy = new SequenceEventPlayEndCreditForEpD();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventPlayEndCreditForEpD", 0, Black.Sequence.Event.Menu.Executor.SequenceEventPlayEndCreditForEpD.ObjectType, null, properties, 0, 1312);
+            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventPlayEndCreditForEpD", 0, Black.Sequence.Event.Menu.Executor.SequenceEventPlayEndCreditForEpD.ObjectType, Construct, properties, 0, 1312);
         }
 		
         public override ObjectType GetObjectType()
@@ -115,6 +115,11 @@ namespace Black.Sequence.Event.Menu.Executor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventPlayEndCreditForEpD();
+        }
 		
     }
 }

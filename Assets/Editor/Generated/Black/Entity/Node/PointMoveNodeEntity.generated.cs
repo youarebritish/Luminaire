@@ -25,7 +25,7 @@ namespace Black.Entity.Node
             var dummy = new PointMoveNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.PointMoveNodeEntity", 0, Black.Entity.Node.PointMoveNodeEntity.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.Entity.Node.PointMoveNodeEntity", 0, Black.Entity.Node.PointMoveNodeEntity.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PointMoveNodeEntity();
+        }
 		
     }
 }

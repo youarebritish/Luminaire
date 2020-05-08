@@ -20,7 +20,7 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
             var dummy = new AIGraphNodeLeafClearInterrupt();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafClearInterrupt", 0, SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafClearInterrupt.ObjectType, null, properties, 0, 56);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafClearInterrupt", 0, SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafClearInterrupt.ObjectType, Construct, properties, 0, 56);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeLeafClearInterrupt();
+        }
 		
     }
 }

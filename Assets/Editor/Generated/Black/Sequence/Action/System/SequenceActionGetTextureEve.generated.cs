@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionGetTextureEve();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGetTextureEve", 0, Black.Sequence.Action.System.SequenceActionGetTextureEve.ObjectType, null, properties, 0, 680);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGetTextureEve", 0, Black.Sequence.Action.System.SequenceActionGetTextureEve.ObjectType, Construct, properties, 0, 680);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetTextureEve();
+        }
 		
     }
 }

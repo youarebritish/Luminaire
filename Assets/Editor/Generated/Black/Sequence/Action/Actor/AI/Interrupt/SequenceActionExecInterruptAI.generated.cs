@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Actor.AI.Interrupt
             var dummy = new SequenceActionExecInterruptAI();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Interrupt.SequenceActionExecInterruptAI", 0, Black.Sequence.Action.Actor.AI.Interrupt.SequenceActionExecInterruptAI.ObjectType, null, properties, 0, 880);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Interrupt.SequenceActionExecInterruptAI", 0, Black.Sequence.Action.Actor.AI.Interrupt.SequenceActionExecInterruptAI.ObjectType, Construct, properties, 0, 880);
         }
 		
         public override ObjectType GetObjectType()
@@ -101,6 +101,11 @@ namespace Black.Sequence.Action.Actor.AI.Interrupt
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionExecInterruptAI();
+        }
 		
     }
 }

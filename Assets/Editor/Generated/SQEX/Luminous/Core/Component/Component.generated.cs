@@ -20,7 +20,7 @@ namespace SQEX.Luminous.Core.Component
             var dummy = new Component();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Luminous.Core.Component.Component", 0, SQEX.Luminous.Core.Component.Component.ObjectType, null, properties, 1, 16);
+            ObjectType = new ObjectType("SQEX.Luminous.Core.Component.Component", 0, SQEX.Luminous.Core.Component.Component.ObjectType, Construct, properties, 1, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace SQEX.Luminous.Core.Component
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new Component();
+        }
 		
     }
 }

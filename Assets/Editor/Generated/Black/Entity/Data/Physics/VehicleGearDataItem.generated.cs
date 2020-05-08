@@ -23,7 +23,7 @@ namespace Black.Entity.Data.Physics
             var dummy = new VehicleGearDataItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Physics.VehicleGearDataItem", 0, Black.Entity.Data.Physics.VehicleGearDataItem.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.Entity.Data.Physics.VehicleGearDataItem", 0, Black.Entity.Data.Physics.VehicleGearDataItem.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity.Data.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VehicleGearDataItem();
+        }
 		
     }
 }

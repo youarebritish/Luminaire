@@ -27,7 +27,7 @@ namespace Black.Sequence.AI
             var dummy = new SequenceFindNearestNavMesh();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.AI.SequenceFindNearestNavMesh", 0, Black.Sequence.AI.SequenceFindNearestNavMesh.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.AI.SequenceFindNearestNavMesh", 0, Black.Sequence.AI.SequenceFindNearestNavMesh.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceFindNearestNavMesh();
+        }
 		
     }
 }

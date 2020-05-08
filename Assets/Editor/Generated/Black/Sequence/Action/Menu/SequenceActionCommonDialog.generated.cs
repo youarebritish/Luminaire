@@ -57,7 +57,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionCommonDialog();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionCommonDialog", 0, Black.Sequence.Action.Menu.SequenceActionCommonDialog.ObjectType, null, properties, 0, 2376);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionCommonDialog", 0, Black.Sequence.Action.Menu.SequenceActionCommonDialog.ObjectType, Construct, properties, 0, 2376);
         }
 		
         public override ObjectType GetObjectType()
@@ -247,6 +247,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCommonDialog();
+        }
 		
     }
 }

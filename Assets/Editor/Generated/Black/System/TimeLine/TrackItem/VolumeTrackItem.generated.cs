@@ -21,7 +21,7 @@ namespace Black.System.TimeLine.TrackItem
             var dummy = new VolumeTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.VolumeTrackItem", 0, Black.System.TimeLine.TrackItem.VolumeTrackItem.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.VolumeTrackItem", 0, Black.System.TimeLine.TrackItem.VolumeTrackItem.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.System.TimeLine.TrackItem
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VolumeTrackItem();
+        }
 		
     }
 }

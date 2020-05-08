@@ -29,7 +29,7 @@ namespace Black.Sequence.Quest
             var dummy = new SequenceQuestCheckProgressInterval();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Quest.SequenceQuestCheckProgressInterval", 0, Black.Sequence.Quest.SequenceQuestCheckProgressInterval.ObjectType, null, properties, 0, 744);
+            ObjectType = new ObjectType("Black.Sequence.Quest.SequenceQuestCheckProgressInterval", 0, Black.Sequence.Quest.SequenceQuestCheckProgressInterval.ObjectType, Construct, properties, 0, 744);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceQuestCheckProgressInterval();
+        }
 		
     }
 }

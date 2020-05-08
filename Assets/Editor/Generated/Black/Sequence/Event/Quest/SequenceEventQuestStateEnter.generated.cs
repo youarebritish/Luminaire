@@ -23,7 +23,7 @@ namespace Black.Sequence.Event.Quest
             var dummy = new SequenceEventQuestStateEnter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Quest.SequenceEventQuestStateEnter", 0, Black.Sequence.Event.Quest.SequenceEventQuestStateEnter.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Sequence.Event.Quest.SequenceEventQuestStateEnter", 0, Black.Sequence.Event.Quest.SequenceEventQuestStateEnter.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Sequence.Event.Quest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventQuestStateEnter();
+        }
 		
     }
 }

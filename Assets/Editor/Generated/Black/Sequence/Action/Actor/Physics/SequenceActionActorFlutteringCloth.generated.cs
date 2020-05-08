@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Actor.Physics
             var dummy = new SequenceActionActorFlutteringCloth();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Physics.SequenceActionActorFlutteringCloth", 0, Black.Sequence.Action.Actor.Physics.SequenceActionActorFlutteringCloth.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Physics.SequenceActionActorFlutteringCloth", 0, Black.Sequence.Action.Actor.Physics.SequenceActionActorFlutteringCloth.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Action.Actor.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorFlutteringCloth();
+        }
 		
     }
 }

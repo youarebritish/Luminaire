@@ -47,7 +47,7 @@ namespace Black.Sequence.Action.Weather
             var dummy = new SequenceActionTimeOfDay();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Weather.SequenceActionTimeOfDay", 0, Black.Sequence.Action.Weather.SequenceActionTimeOfDay.ObjectType, null, properties, 0, 1680);
+            ObjectType = new ObjectType("Black.Sequence.Action.Weather.SequenceActionTimeOfDay", 0, Black.Sequence.Action.Weather.SequenceActionTimeOfDay.ObjectType, Construct, properties, 0, 1680);
         }
 		
         public override ObjectType GetObjectType()
@@ -167,6 +167,11 @@ namespace Black.Sequence.Action.Weather
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeOfDay();
+        }
 		
     }
 }

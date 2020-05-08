@@ -24,7 +24,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
             var dummy = new SequenceActionSetBoolVariableDirect();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetBoolVariableDirect", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetBoolVariableDirect.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetBoolVariableDirect", 0, SQEX.Ebony.Framework.Sequence.Action.SequenceActionSetBoolVariableDirect.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetBoolVariableDirect();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.Entity.Node
             var dummy = new LocationAreaEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.LocationAreaEntity", 0, Black.Entity.Node.LocationAreaEntity.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Entity.Node.LocationAreaEntity", 0, Black.Entity.Node.LocationAreaEntity.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LocationAreaEntity();
+        }
 		
     }
 }

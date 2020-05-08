@@ -26,7 +26,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
             var dummy = new CameraTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.CameraTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.CameraTrackItem.ObjectType, null, properties, 0, 224);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.CameraTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.CameraTrackItem.ObjectType, Construct, properties, 0, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CameraTrackItem();
+        }
 		
     }
 }

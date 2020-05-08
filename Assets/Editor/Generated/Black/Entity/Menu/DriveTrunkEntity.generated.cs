@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new DriveTrunkEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.DriveTrunkEntity", 0, Black.Entity.Menu.DriveTrunkEntity.ObjectType, null, properties, 0, 624);
+            ObjectType = new ObjectType("Black.Entity.Menu.DriveTrunkEntity", 0, Black.Entity.Menu.DriveTrunkEntity.ObjectType, Construct, properties, 0, 624);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DriveTrunkEntity();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.Actor.Component.Props.ComponentData
             var dummy = new SearchLightComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Props.ComponentData.SearchLightComponentData", 0, Black.Actor.Component.Props.ComponentData.SearchLightComponentData.ObjectType, null, properties, 0, 80);
+            ObjectType = new ObjectType("Black.Actor.Component.Props.ComponentData.SearchLightComponentData", 0, Black.Actor.Component.Props.ComponentData.SearchLightComponentData.ObjectType, Construct, properties, 0, 80);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Actor.Component.Props.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SearchLightComponentData();
+        }
 		
     }
 }

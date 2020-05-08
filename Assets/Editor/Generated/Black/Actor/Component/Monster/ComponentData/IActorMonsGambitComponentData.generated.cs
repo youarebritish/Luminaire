@@ -20,7 +20,7 @@ namespace Black.Actor.Component.Monster.ComponentData
             var dummy = new IActorMonsGambitComponentData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Monster.ComponentData.IActorMonsGambitComponentData", 0, Black.Actor.Component.Monster.ComponentData.IActorMonsGambitComponentData.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.Actor.Component.Monster.ComponentData.IActorMonsGambitComponentData", 0, Black.Actor.Component.Monster.ComponentData.IActorMonsGambitComponentData.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.Actor.Component.Monster.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new IActorMonsGambitComponentData();
+        }
 		
     }
 }

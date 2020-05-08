@@ -24,7 +24,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
             var dummy = new TimeLine();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.TimeLine", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.TimeLine.ObjectType, null, properties, 0, 120);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.TimeLine", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.TimeLine.ObjectType, Construct, properties, 0, 120);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TimeLine();
+        }
 		
     }
 }

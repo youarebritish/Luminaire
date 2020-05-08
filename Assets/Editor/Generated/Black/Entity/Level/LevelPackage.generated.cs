@@ -20,7 +20,7 @@ namespace Black.Entity.Level
             var dummy = new LevelPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Level.LevelPackage", 0, Black.Entity.Level.LevelPackage.ObjectType, null, properties, 0, 608);
+            ObjectType = new ObjectType("Black.Entity.Level.LevelPackage", 0, Black.Entity.Level.LevelPackage.ObjectType, Construct, properties, 0, 608);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Entity.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LevelPackage();
+        }
 		
     }
 }

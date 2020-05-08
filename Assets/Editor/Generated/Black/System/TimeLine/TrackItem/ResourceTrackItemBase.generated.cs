@@ -20,7 +20,7 @@ namespace Black.System.TimeLine.TrackItem
             var dummy = new ResourceTrackItemBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.ResourceTrackItemBase", 0, Black.System.TimeLine.TrackItem.ResourceTrackItemBase.ObjectType, null, properties, 0, 136);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.ResourceTrackItemBase", 0, Black.System.TimeLine.TrackItem.ResourceTrackItemBase.ObjectType, Construct, properties, 0, 136);
         }
 		
         public override ObjectType GetObjectType()
@@ -47,6 +47,11 @@ namespace Black.System.TimeLine.TrackItem
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ResourceTrackItemBase();
+        }
 		
     }
 }

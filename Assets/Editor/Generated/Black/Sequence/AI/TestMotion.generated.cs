@@ -26,7 +26,7 @@ namespace Black.Sequence.AI
             var dummy = new TestMotion();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.AI.TestMotion", 0, Black.Sequence.AI.TestMotion.ObjectType, null, properties, 0, 496);
+            ObjectType = new ObjectType("Black.Sequence.AI.TestMotion", 0, Black.Sequence.AI.TestMotion.ObjectType, Construct, properties, 0, 496);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TestMotion();
+        }
 		
     }
 }

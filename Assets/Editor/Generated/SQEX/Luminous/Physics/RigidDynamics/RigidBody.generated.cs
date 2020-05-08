@@ -20,7 +20,7 @@ namespace SQEX.Luminous.Physics.RigidDynamics
             var dummy = new RigidBody();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Luminous.Physics.RigidDynamics.RigidBody", 0, SQEX.Luminous.Physics.RigidDynamics.RigidBody.ObjectType, null, properties, 0, 512);
+            ObjectType = new ObjectType("SQEX.Luminous.Physics.RigidDynamics.RigidBody", 0, SQEX.Luminous.Physics.RigidDynamics.RigidBody.ObjectType, Construct, properties, 0, 512);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace SQEX.Luminous.Physics.RigidDynamics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new RigidBody();
+        }
 		
     }
 }

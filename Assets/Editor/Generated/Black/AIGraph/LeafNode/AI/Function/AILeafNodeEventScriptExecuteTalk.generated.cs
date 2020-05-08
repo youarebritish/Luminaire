@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
             var dummy = new AILeafNodeEventScriptExecuteTalk();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeEventScriptExecuteTalk", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeEventScriptExecuteTalk.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AILeafNodeEventScriptExecuteTalk", 0, Black.AIGraph.LeafNode.AI.Function.AILeafNodeEventScriptExecuteTalk.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.Function
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeEventScriptExecuteTalk();
+        }
 		
     }
 }

@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Actor.Accessory
             var dummy = new SequenceActionActorGetMagicBottleAmount();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetMagicBottleAmount", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetMagicBottleAmount.ObjectType, null, properties, 0, 672);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetMagicBottleAmount", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorGetMagicBottleAmount.ObjectType, Construct, properties, 0, 672);
         }
 		
         public override ObjectType GetObjectType()
@@ -95,6 +95,11 @@ namespace Black.Sequence.Action.Actor.Accessory
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetMagicBottleAmount();
+        }
 		
     }
 }

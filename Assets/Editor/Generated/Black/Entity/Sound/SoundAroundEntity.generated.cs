@@ -28,7 +28,7 @@ namespace Black.Entity.Sound
             var dummy = new SoundAroundEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Sound.SoundAroundEntity", 0, Black.Entity.Sound.SoundAroundEntity.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("Black.Entity.Sound.SoundAroundEntity", 0, Black.Entity.Sound.SoundAroundEntity.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Entity.Sound
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SoundAroundEntity();
+        }
 		
     }
 }

@@ -44,7 +44,7 @@ namespace Black.Sequence.Action.Angle
             var dummy = new SequenceActionCameraAngleYawJudgeRight();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Angle.SequenceActionCameraAngleYawJudgeRight", 0, Black.Sequence.Action.Angle.SequenceActionCameraAngleYawJudgeRight.ObjectType, null, properties, 0, 2592);
+            ObjectType = new ObjectType("Black.Sequence.Action.Angle.SequenceActionCameraAngleYawJudgeRight", 0, Black.Sequence.Action.Angle.SequenceActionCameraAngleYawJudgeRight.ObjectType, Construct, properties, 0, 2592);
         }
 		
         public override ObjectType GetObjectType()
@@ -208,6 +208,11 @@ namespace Black.Sequence.Action.Angle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCameraAngleYawJudgeRight();
+        }
 		
     }
 }

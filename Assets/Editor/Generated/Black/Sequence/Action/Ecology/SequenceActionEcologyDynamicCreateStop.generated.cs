@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Ecology
             var dummy = new SequenceActionEcologyDynamicCreateStop();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyDynamicCreateStop", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyDynamicCreateStop.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyDynamicCreateStop", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyDynamicCreateStop.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Action.Ecology
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEcologyDynamicCreateStop();
+        }
 		
     }
 }

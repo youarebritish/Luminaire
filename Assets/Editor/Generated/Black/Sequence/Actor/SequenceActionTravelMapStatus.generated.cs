@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionTravelMapStatus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionTravelMapStatus", 0, Black.Sequence.Actor.SequenceActionTravelMapStatus.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionTravelMapStatus", 0, Black.Sequence.Actor.SequenceActionTravelMapStatus.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTravelMapStatus();
+        }
 		
     }
 }

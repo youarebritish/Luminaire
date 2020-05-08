@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionGetConfigDataEPP();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGetConfigDataEPP", 0, Black.Sequence.Action.System.SequenceActionGetConfigDataEPP.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGetConfigDataEPP", 0, Black.Sequence.Action.System.SequenceActionGetConfigDataEPP.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetConfigDataEPP();
+        }
 		
     }
 }

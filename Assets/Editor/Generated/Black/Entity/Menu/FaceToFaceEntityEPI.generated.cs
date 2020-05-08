@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new FaceToFaceEntityEPI();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.FaceToFaceEntityEPI", 0, Black.Entity.Menu.FaceToFaceEntityEPI.ObjectType, null, properties, 0, 784);
+            ObjectType = new ObjectType("Black.Entity.Menu.FaceToFaceEntityEPI", 0, Black.Entity.Menu.FaceToFaceEntityEPI.ObjectType, Construct, properties, 0, 784);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new FaceToFaceEntityEPI();
+        }
 		
     }
 }

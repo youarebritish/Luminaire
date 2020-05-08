@@ -45,7 +45,7 @@ namespace Black.System.TimeLine.TrackItem
             var dummy = new ActorBindTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.ActorBindTrackItem", 0, Black.System.TimeLine.TrackItem.ActorBindTrackItem.ObjectType, null, properties, 0, 128);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.ActorBindTrackItem", 0, Black.System.TimeLine.TrackItem.ActorBindTrackItem.ObjectType, Construct, properties, 0, 128);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.System.TimeLine.TrackItem
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorBindTrackItem();
+        }
 		
     }
 }

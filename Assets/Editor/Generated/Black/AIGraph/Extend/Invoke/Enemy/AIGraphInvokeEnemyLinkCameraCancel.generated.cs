@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
             var dummy = new AIGraphInvokeEnemyLinkCameraCancel();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyLinkCameraCancel", 0, Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyLinkCameraCancel.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyLinkCameraCancel", 0, Black.AIGraph.Extend.Invoke.Enemy.AIGraphInvokeEnemyLinkCameraCancel.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Invoke.Enemy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeEnemyLinkCameraCancel();
+        }
 		
     }
 }

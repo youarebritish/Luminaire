@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
             var dummy = new AILeafNodeOverrideFaction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeOverrideFaction", 0, Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeOverrideFaction.ObjectType, null, properties, 0, 88);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeOverrideFaction", 0, Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeOverrideFaction.ObjectType, Construct, properties, 0, 88);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeOverrideFaction();
+        }
 		
     }
 }

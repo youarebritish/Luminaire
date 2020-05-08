@@ -88,7 +88,7 @@ namespace Black.WorldMap
             var dummy = new TerrainCurveDataData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.WorldMap.TerrainCurveDataData", 0, Black.WorldMap.TerrainCurveDataData.ObjectType, null, properties, 0, 1072);
+            ObjectType = new ObjectType("Black.WorldMap.TerrainCurveDataData", 0, Black.WorldMap.TerrainCurveDataData.ObjectType, Construct, properties, 0, 1072);
         }
 		
         public override ObjectType GetObjectType()
@@ -180,6 +180,11 @@ namespace Black.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TerrainCurveDataData();
+        }
 		
     }
 }

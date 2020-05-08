@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Spear
             var dummy = new AILeafNodeReserveJumpingPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.Spear.AILeafNodeReserveJumpingPoint", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.Spear.AILeafNodeReserveJumpingPoint.ObjectType, null, properties, 0, 128);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.Spear.AILeafNodeReserveJumpingPoint", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.Spear.AILeafNodeReserveJumpingPoint.ObjectType, Construct, properties, 0, 128);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Spear
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeReserveJumpingPoint();
+        }
 		
     }
 }

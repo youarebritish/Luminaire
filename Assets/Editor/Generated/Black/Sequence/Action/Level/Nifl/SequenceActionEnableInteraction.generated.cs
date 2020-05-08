@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level.Nifl
             var dummy = new SequenceActionEnableInteraction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionEnableInteraction", 0, Black.Sequence.Action.Level.Nifl.SequenceActionEnableInteraction.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionEnableInteraction", 0, Black.Sequence.Action.Level.Nifl.SequenceActionEnableInteraction.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Level.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEnableInteraction();
+        }
 		
     }
 }

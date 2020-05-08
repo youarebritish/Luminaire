@@ -34,7 +34,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionDisplayIntToSwfEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionDisplayIntToSwfEntity", 0, Black.Sequence.Action.Menu.SequenceActionDisplayIntToSwfEntity.ObjectType, null, properties, 0, 1496);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionDisplayIntToSwfEntity", 0, Black.Sequence.Action.Menu.SequenceActionDisplayIntToSwfEntity.ObjectType, Construct, properties, 0, 1496);
         }
 		
         public override ObjectType GetObjectType()
@@ -137,6 +137,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDisplayIntToSwfEntity();
+        }
 		
     }
 }

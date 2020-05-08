@@ -23,7 +23,7 @@ namespace Black.Entity.Data
             var dummy = new UnknownResource();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.UnknownResource", 0, Black.Entity.Data.UnknownResource.ObjectType, null, properties, 0, 88);
+            ObjectType = new ObjectType("Black.Entity.Data.UnknownResource", 0, Black.Entity.Data.UnknownResource.ObjectType, Construct, properties, 0, 88);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new UnknownResource();
+        }
 		
     }
 }

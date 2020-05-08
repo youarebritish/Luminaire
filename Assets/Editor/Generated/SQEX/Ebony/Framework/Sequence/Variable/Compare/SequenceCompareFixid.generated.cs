@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Compare
             var dummy = new SequenceCompareFixid();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareFixid", 0, SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareFixid.ObjectType, null, properties, 0, 48);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareFixid", 0, SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareFixid.ObjectType, Construct, properties, 0, 48);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Compare
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceCompareFixid();
+        }
 		
     }
 }

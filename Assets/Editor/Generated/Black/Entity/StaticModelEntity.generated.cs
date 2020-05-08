@@ -46,7 +46,7 @@ namespace Black.Entity
             var dummy = new StaticModelEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.StaticModelEntity", 0, Black.Entity.StaticModelEntity.ObjectType, null, properties, 0, 416);
+            ObjectType = new ObjectType("Black.Entity.StaticModelEntity", 0, Black.Entity.StaticModelEntity.ObjectType, Construct, properties, 0, 416);
         }
 		
         public override ObjectType GetObjectType()
@@ -99,6 +99,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new StaticModelEntity();
+        }
 		
     }
 }

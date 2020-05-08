@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Function
             var dummy = new AIGraphNodeLeafBattleStatusEPI();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AIGraphNodeLeafBattleStatusEPI", 0, Black.AIGraph.LeafNode.AI.Function.AIGraphNodeLeafBattleStatusEPI.ObjectType, null, properties, 0, 56);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.AIGraphNodeLeafBattleStatusEPI", 0, Black.AIGraph.LeafNode.AI.Function.AIGraphNodeLeafBattleStatusEPI.ObjectType, Construct, properties, 0, 56);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.Function
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeLeafBattleStatusEPI();
+        }
 		
     }
 }

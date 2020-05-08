@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionGetFoodInfoMultiplayer();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionGetFoodInfoMultiplayer", 0, Black.Sequence.Action.Level.SequenceActionGetFoodInfoMultiplayer.ObjectType, null, properties, 0, 992);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionGetFoodInfoMultiplayer", 0, Black.Sequence.Action.Level.SequenceActionGetFoodInfoMultiplayer.ObjectType, Construct, properties, 0, 992);
         }
 		
         public override ObjectType GetObjectType()
@@ -109,6 +109,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetFoodInfoMultiplayer();
+        }
 		
     }
 }

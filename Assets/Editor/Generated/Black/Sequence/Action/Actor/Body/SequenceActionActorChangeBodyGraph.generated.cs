@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Actor.Body
             var dummy = new SequenceActionActorChangeBodyGraph();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Body.SequenceActionActorChangeBodyGraph", 0, Black.Sequence.Action.Actor.Body.SequenceActionActorChangeBodyGraph.ObjectType, null, properties, 0, 816);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Body.SequenceActionActorChangeBodyGraph", 0, Black.Sequence.Action.Actor.Body.SequenceActionActorChangeBodyGraph.ObjectType, Construct, properties, 0, 816);
         }
 		
         public override ObjectType GetObjectType()
@@ -99,6 +99,11 @@ namespace Black.Sequence.Action.Actor.Body
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorChangeBodyGraph();
+        }
 		
     }
 }

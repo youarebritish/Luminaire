@@ -22,7 +22,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableMenuSoundEntityReference();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableMenuSoundEntityReference", 0, Black.Sequence.Variable.SequenceVariableMenuSoundEntityReference.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableMenuSoundEntityReference", 0, Black.Sequence.Variable.SequenceVariableMenuSoundEntityReference.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableMenuSoundEntityReference();
+        }
 		
     }
 }

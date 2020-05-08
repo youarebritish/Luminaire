@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Event
             var dummy = new SequenceActionDisableDefaultDeathEvent();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Event.SequenceActionDisableDefaultDeathEvent", 0, Black.Sequence.Action.Event.SequenceActionDisableDefaultDeathEvent.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Event.SequenceActionDisableDefaultDeathEvent", 0, Black.Sequence.Action.Event.SequenceActionDisableDefaultDeathEvent.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDisableDefaultDeathEvent();
+        }
 		
     }
 }

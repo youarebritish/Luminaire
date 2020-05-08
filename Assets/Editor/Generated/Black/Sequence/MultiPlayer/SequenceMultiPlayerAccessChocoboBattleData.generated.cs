@@ -49,7 +49,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerAccessChocoboBattleData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerAccessChocoboBattleData", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerAccessChocoboBattleData.ObjectType, null, properties, 0, 2680);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerAccessChocoboBattleData", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerAccessChocoboBattleData.ObjectType, Construct, properties, 0, 2680);
         }
 		
         public override ObjectType GetObjectType()
@@ -227,6 +227,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerAccessChocoboBattleData();
+        }
 		
     }
 }

@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Actor.Mission
             var dummy = new SequenceActionActorArmedform();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Mission.SequenceActionActorArmedform", 0, Black.Sequence.Action.Actor.Mission.SequenceActionActorArmedform.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Mission.SequenceActionActorArmedform", 0, Black.Sequence.Action.Actor.Mission.SequenceActionActorArmedform.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.Actor.Mission
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorArmedform();
+        }
 		
     }
 }

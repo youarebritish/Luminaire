@@ -66,7 +66,7 @@ namespace Black.Sequence.PostEffect
             var dummy = new SequenceActionSetFogFilter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.PostEffect.SequenceActionSetFogFilter", 0, Black.Sequence.PostEffect.SequenceActionSetFogFilter.ObjectType, null, properties, 0, 2432);
+            ObjectType = new ObjectType("Black.Sequence.PostEffect.SequenceActionSetFogFilter", 0, Black.Sequence.PostEffect.SequenceActionSetFogFilter.ObjectType, Construct, properties, 0, 2432);
         }
 		
         public override ObjectType GetObjectType()
@@ -241,6 +241,11 @@ namespace Black.Sequence.PostEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetFogFilter();
+        }
 		
     }
 }

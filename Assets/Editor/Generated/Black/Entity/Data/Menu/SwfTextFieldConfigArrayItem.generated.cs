@@ -25,7 +25,7 @@ namespace Black.Entity.Data.Menu
             var dummy = new SwfTextFieldConfigArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Menu.SwfTextFieldConfigArrayItem", 0, Black.Entity.Data.Menu.SwfTextFieldConfigArrayItem.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.Entity.Data.Menu.SwfTextFieldConfigArrayItem", 0, Black.Entity.Data.Menu.SwfTextFieldConfigArrayItem.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Entity.Data.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SwfTextFieldConfigArrayItem();
+        }
 		
     }
 }

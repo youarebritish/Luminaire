@@ -24,7 +24,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceEventTitleFinished();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventTitleFinished", 0, Black.Sequence.Event.SequenceEventTitleFinished.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventTitleFinished", 0, Black.Sequence.Event.SequenceEventTitleFinished.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventTitleFinished();
+        }
 		
     }
 }

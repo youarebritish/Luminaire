@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionGetExtraFontState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionGetExtraFontState", 0, Black.Sequence.Action.Menu.SequenceActionGetExtraFontState.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionGetExtraFontState", 0, Black.Sequence.Action.Menu.SequenceActionGetExtraFontState.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetExtraFontState();
+        }
 		
     }
 }

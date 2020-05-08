@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Action
             var dummy = new AILeafNodeSkipAnimation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.AILeafNodeSkipAnimation", 0, Black.AIGraph.LeafNode.AI.Action.AILeafNodeSkipAnimation.ObjectType, null, properties, 0, 56);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.AILeafNodeSkipAnimation", 0, Black.AIGraph.LeafNode.AI.Action.AILeafNodeSkipAnimation.ObjectType, Construct, properties, 0, 56);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeSkipAnimation();
+        }
 		
     }
 }

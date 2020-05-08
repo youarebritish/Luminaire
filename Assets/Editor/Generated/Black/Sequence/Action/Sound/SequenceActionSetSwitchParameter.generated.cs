@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Sound
             var dummy = new SequenceActionSetSwitchParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Sound.SequenceActionSetSwitchParameter", 0, Black.Sequence.Action.Sound.SequenceActionSetSwitchParameter.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Sound.SequenceActionSetSwitchParameter", 0, Black.Sequence.Action.Sound.SequenceActionSetSwitchParameter.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Sound
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetSwitchParameter();
+        }
 		
     }
 }

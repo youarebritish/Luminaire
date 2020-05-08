@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
             var dummy = new AILeafNodeRotateToCameraInVehicle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeRotateToCameraInVehicle", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeRotateToCameraInVehicle.ObjectType, null, properties, 0, 80);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeRotateToCameraInVehicle", 0, Black.AIGraph.LeafNode.AI.Action.Buddy.AILeafNodeRotateToCameraInVehicle.ObjectType, Construct, properties, 0, 80);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeRotateToCameraInVehicle();
+        }
 		
     }
 }

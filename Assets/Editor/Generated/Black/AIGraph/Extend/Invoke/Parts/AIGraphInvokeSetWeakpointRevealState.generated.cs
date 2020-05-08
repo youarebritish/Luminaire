@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke.Parts
             var dummy = new AIGraphInvokeSetWeakpointRevealState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Parts.AIGraphInvokeSetWeakpointRevealState", 0, Black.AIGraph.Extend.Invoke.Parts.AIGraphInvokeSetWeakpointRevealState.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Parts.AIGraphInvokeSetWeakpointRevealState", 0, Black.AIGraph.Extend.Invoke.Parts.AIGraphInvokeSetWeakpointRevealState.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke.Parts
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetWeakpointRevealState();
+        }
 		
     }
 }

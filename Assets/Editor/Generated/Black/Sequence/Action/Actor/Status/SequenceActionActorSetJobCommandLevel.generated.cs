@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Actor.Status
             var dummy = new SequenceActionActorSetJobCommandLevel();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorSetJobCommandLevel", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorSetJobCommandLevel.ObjectType, null, properties, 0, 672);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorSetJobCommandLevel", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorSetJobCommandLevel.ObjectType, Construct, properties, 0, 672);
         }
 		
         public override ObjectType GetObjectType()
@@ -90,6 +90,11 @@ namespace Black.Sequence.Action.Actor.Status
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetJobCommandLevel();
+        }
 		
     }
 }

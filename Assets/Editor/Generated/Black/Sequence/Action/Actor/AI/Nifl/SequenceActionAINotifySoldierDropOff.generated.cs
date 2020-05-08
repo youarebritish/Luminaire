@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
             var dummy = new SequenceActionAINotifySoldierDropOff();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifySoldierDropOff", 0, Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifySoldierDropOff.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifySoldierDropOff", 0, Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAINotifySoldierDropOff.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAINotifySoldierDropOff();
+        }
 		
     }
 }

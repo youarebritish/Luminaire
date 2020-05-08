@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Actor.Animation
             var dummy = new SequenceActionActorGetBlackBoardParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorGetBlackBoardParameter", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorGetBlackBoardParameter.ObjectType, null, properties, 0, 456);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Animation.SequenceActionActorGetBlackBoardParameter", 0, Black.Sequence.Action.Actor.Animation.SequenceActionActorGetBlackBoardParameter.ObjectType, Construct, properties, 0, 456);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.Action.Actor.Animation
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorGetBlackBoardParameter();
+        }
 		
     }
 }

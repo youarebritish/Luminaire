@@ -22,7 +22,7 @@ namespace Black.Entity.Parameter
             var dummy = new ParameterFloat();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Parameter.ParameterFloat", 0, Black.Entity.Parameter.ParameterFloat.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.Entity.Parameter.ParameterFloat", 0, Black.Entity.Parameter.ParameterFloat.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Entity.Parameter
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ParameterFloat();
+        }
 		
     }
 }

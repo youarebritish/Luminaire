@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Ecology
             var dummy = new SequenceActionEcologyStaticShowLottery();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyStaticShowLottery", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyStaticShowLottery.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyStaticShowLottery", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyStaticShowLottery.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Action.Ecology
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEcologyStaticShowLottery();
+        }
 		
     }
 }

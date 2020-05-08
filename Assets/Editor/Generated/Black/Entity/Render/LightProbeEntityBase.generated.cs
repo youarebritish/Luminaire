@@ -29,7 +29,7 @@ namespace Black.Entity.Render
             var dummy = new LightProbeEntityBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.LightProbeEntityBase", 0, Black.Entity.Render.LightProbeEntityBase.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Entity.Render.LightProbeEntityBase", 0, Black.Entity.Render.LightProbeEntityBase.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LightProbeEntityBase();
+        }
 		
     }
 }

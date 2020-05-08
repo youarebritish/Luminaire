@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Combat
             var dummy = new AIGraphInvokeSetCalcTargetAngleV();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetCalcTargetAngleV", 0, Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetCalcTargetAngleV.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetCalcTargetAngleV", 0, Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetCalcTargetAngleV.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Combat
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetCalcTargetAngleV();
+        }
 		
     }
 }

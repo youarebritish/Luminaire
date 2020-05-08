@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.Body
             var dummy = new BodyLeafNodeRequestAttackAnimation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestAttackAnimation", 0, Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestAttackAnimation.ObjectType, null, properties, 0, 160);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestAttackAnimation", 0, Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestAttackAnimation.ObjectType, Construct, properties, 0, 160);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.AIGraph.LeafNode.Body
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyLeafNodeRequestAttackAnimation();
+        }
 		
     }
 }

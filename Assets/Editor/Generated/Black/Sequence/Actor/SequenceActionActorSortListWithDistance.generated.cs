@@ -26,7 +26,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorSortListWithDistance();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSortListWithDistance", 0, Black.Sequence.Actor.SequenceActionActorSortListWithDistance.ObjectType, null, properties, 0, 696);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSortListWithDistance", 0, Black.Sequence.Actor.SequenceActionActorSortListWithDistance.ObjectType, Construct, properties, 0, 696);
         }
 		
         public override ObjectType GetObjectType()
@@ -85,6 +85,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSortListWithDistance();
+        }
 		
     }
 }

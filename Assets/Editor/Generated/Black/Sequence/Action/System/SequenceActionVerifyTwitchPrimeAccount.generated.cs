@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionVerifyTwitchPrimeAccount();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionVerifyTwitchPrimeAccount", 0, Black.Sequence.Action.System.SequenceActionVerifyTwitchPrimeAccount.ObjectType, null, properties, 0, 568);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionVerifyTwitchPrimeAccount", 0, Black.Sequence.Action.System.SequenceActionVerifyTwitchPrimeAccount.ObjectType, Construct, properties, 0, 568);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionVerifyTwitchPrimeAccount();
+        }
 		
     }
 }

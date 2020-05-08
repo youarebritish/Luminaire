@@ -51,7 +51,7 @@ namespace Black.Sequence.Action.Physics
             var dummy = new SequenceActionSetWorldWind();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Physics.SequenceActionSetWorldWind", 0, Black.Sequence.Action.Physics.SequenceActionSetWorldWind.ObjectType, null, properties, 0, 1840);
+            ObjectType = new ObjectType("Black.Sequence.Action.Physics.SequenceActionSetWorldWind", 0, Black.Sequence.Action.Physics.SequenceActionSetWorldWind.ObjectType, Construct, properties, 0, 1840);
         }
 		
         public override ObjectType GetObjectType()
@@ -185,6 +185,11 @@ namespace Black.Sequence.Action.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetWorldWind();
+        }
 		
     }
 }

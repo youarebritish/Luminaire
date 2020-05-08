@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.EventScript
             var dummy = new SequenceActionEventScriptPostSignal();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.EventScript.SequenceActionEventScriptPostSignal", 0, Black.Sequence.Action.EventScript.SequenceActionEventScriptPostSignal.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Action.EventScript.SequenceActionEventScriptPostSignal", 0, Black.Sequence.Action.EventScript.SequenceActionEventScriptPostSignal.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.EventScript
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEventScriptPostSignal();
+        }
 		
     }
 }

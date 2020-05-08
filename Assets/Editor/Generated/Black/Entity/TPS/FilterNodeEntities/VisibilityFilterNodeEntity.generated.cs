@@ -24,7 +24,7 @@ namespace Black.Entity.TPS.FilterNodeEntities
             var dummy = new VisibilityFilterNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.VisibilityFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.VisibilityFilterNodeEntity.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.VisibilityFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.VisibilityFilterNodeEntity.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity.TPS.FilterNodeEntities
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new VisibilityFilterNodeEntity();
+        }
 		
     }
 }

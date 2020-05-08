@@ -23,7 +23,7 @@ namespace Black.Sequence.Actor.AI.Monster
             var dummy = new SequenceActionAIDestroyPartsInitially();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionAIDestroyPartsInitially", 0, Black.Sequence.Actor.AI.Monster.SequenceActionAIDestroyPartsInitially.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Monster.SequenceActionAIDestroyPartsInitially", 0, Black.Sequence.Actor.AI.Monster.SequenceActionAIDestroyPartsInitially.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.Actor.AI.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIDestroyPartsInitially();
+        }
 		
     }
 }

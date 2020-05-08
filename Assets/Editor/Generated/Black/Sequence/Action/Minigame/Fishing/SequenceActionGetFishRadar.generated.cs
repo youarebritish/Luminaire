@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.MiniGame.Fishing
             var dummy = new SequenceActionGetFishRadar();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.MiniGame.Fishing.SequenceActionGetFishRadar", 0, Black.Sequence.Action.MiniGame.Fishing.SequenceActionGetFishRadar.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.Sequence.Action.MiniGame.Fishing.SequenceActionGetFishRadar", 0, Black.Sequence.Action.MiniGame.Fishing.SequenceActionGetFishRadar.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Sequence.Action.MiniGame.Fishing
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetFishRadar();
+        }
 		
     }
 }

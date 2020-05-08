@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Base
             var dummy = new SequenceActionRaycastBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Base.SequenceActionRaycastBase", 0, Black.Sequence.Action.Base.SequenceActionRaycastBase.ObjectType, null, properties, 0, 1008);
+            ObjectType = new ObjectType("Black.Sequence.Action.Base.SequenceActionRaycastBase", 0, Black.Sequence.Action.Base.SequenceActionRaycastBase.ObjectType, Construct, properties, 0, 1008);
         }
 		
         public override ObjectType GetObjectType()
@@ -105,6 +105,11 @@ namespace Black.Sequence.Action.Base
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionRaycastBase();
+        }
 		
     }
 }

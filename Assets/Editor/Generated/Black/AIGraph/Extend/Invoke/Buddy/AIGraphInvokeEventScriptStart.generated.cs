@@ -23,7 +23,7 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
             var dummy = new AIGraphInvokeEventScriptStart();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeEventScriptStart", 0, Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeEventScriptStart.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeEventScriptStart", 0, Black.AIGraph.Extend.Invoke.Buddy.AIGraphInvokeEventScriptStart.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.AIGraph.Extend.Invoke.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeEventScriptStart();
+        }
 		
     }
 }

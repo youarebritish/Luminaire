@@ -22,7 +22,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceVariableActorFloat();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceVariableActorFloat", 0, Black.Sequence.Actor.SequenceVariableActorFloat.ObjectType, null, properties, 0, 328);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceVariableActorFloat", 0, Black.Sequence.Actor.SequenceVariableActorFloat.ObjectType, Construct, properties, 0, 328);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableActorFloat();
+        }
 		
     }
 }

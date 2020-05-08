@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugQuestFlagMenu();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugQuestFlagMenu", 0, Black.Sequence.Action.Debug.SequenceActionDebugQuestFlagMenu.ObjectType, null, properties, 0, 1016);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugQuestFlagMenu", 0, Black.Sequence.Action.Debug.SequenceActionDebugQuestFlagMenu.ObjectType, Construct, properties, 0, 1016);
         }
 		
         public override ObjectType GetObjectType()
@@ -107,6 +107,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugQuestFlagMenu();
+        }
 		
     }
 }

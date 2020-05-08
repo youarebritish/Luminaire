@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionSetCircularGaugeRatioSwfEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSetCircularGaugeRatioSwfEntity", 0, Black.Sequence.Action.Menu.SequenceActionSetCircularGaugeRatioSwfEntity.ObjectType, null, properties, 0, 944);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSetCircularGaugeRatioSwfEntity", 0, Black.Sequence.Action.Menu.SequenceActionSetCircularGaugeRatioSwfEntity.ObjectType, Construct, properties, 0, 944);
         }
 		
         public override ObjectType GetObjectType()
@@ -101,6 +101,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetCircularGaugeRatioSwfEntity();
+        }
 		
     }
 }

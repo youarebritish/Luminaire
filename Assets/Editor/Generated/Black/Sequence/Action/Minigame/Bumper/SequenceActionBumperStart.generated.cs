@@ -37,7 +37,7 @@ namespace Black.Sequence.Action.Minigame.Bumper
             var dummy = new SequenceActionBumperStart();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.Bumper.SequenceActionBumperStart", 0, Black.Sequence.Action.Minigame.Bumper.SequenceActionBumperStart.ObjectType, null, properties, 0, 1912);
+            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.Bumper.SequenceActionBumperStart", 0, Black.Sequence.Action.Minigame.Bumper.SequenceActionBumperStart.ObjectType, Construct, properties, 0, 1912);
         }
 		
         public override ObjectType GetObjectType()
@@ -157,6 +157,11 @@ namespace Black.Sequence.Action.Minigame.Bumper
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionBumperStart();
+        }
 		
     }
 }

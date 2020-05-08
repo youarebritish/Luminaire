@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor.AI.Animal
             var dummy = new SequenceActionAnimalRouteMove();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Animal.SequenceActionAnimalRouteMove", 0, Black.Sequence.Actor.AI.Animal.SequenceActionAnimalRouteMove.ObjectType, null, properties, 0, 504);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Animal.SequenceActionAnimalRouteMove", 0, Black.Sequence.Actor.AI.Animal.SequenceActionAnimalRouteMove.ObjectType, Construct, properties, 0, 504);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Actor.AI.Animal
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAnimalRouteMove();
+        }
 		
     }
 }

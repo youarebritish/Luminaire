@@ -20,7 +20,7 @@ namespace SQEX.Luminous.MultiPlayer.Matching.Client
             var dummy = new LobbyModuleOriginal();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Luminous.MultiPlayer.Matching.Client.LobbyModuleOriginal", 0, SQEX.Luminous.MultiPlayer.Matching.Client.LobbyModuleOriginal.ObjectType, null, properties, 23, 18080);
+            ObjectType = new ObjectType("SQEX.Luminous.MultiPlayer.Matching.Client.LobbyModuleOriginal", 0, SQEX.Luminous.MultiPlayer.Matching.Client.LobbyModuleOriginal.ObjectType, Construct, properties, 23, 18080);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace SQEX.Luminous.MultiPlayer.Matching.Client
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LobbyModuleOriginal();
+        }
 		
     }
 }

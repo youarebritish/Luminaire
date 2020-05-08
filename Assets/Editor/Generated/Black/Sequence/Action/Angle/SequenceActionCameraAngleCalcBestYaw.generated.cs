@@ -50,7 +50,7 @@ namespace Black.Sequence.Action.Angle
             var dummy = new SequenceActionCameraAngleCalcBestYaw();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Angle.SequenceActionCameraAngleCalcBestYaw", 0, Black.Sequence.Action.Angle.SequenceActionCameraAngleCalcBestYaw.ObjectType, null, properties, 0, 2656);
+            ObjectType = new ObjectType("Black.Sequence.Action.Angle.SequenceActionCameraAngleCalcBestYaw", 0, Black.Sequence.Action.Angle.SequenceActionCameraAngleCalcBestYaw.ObjectType, Construct, properties, 0, 2656);
         }
 		
         public override ObjectType GetObjectType()
@@ -216,6 +216,11 @@ namespace Black.Sequence.Action.Angle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCameraAngleCalcBestYaw();
+        }
 		
     }
 }

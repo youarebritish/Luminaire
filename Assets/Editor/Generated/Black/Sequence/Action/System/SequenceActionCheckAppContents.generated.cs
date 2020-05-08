@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionCheckAppContents();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionCheckAppContents", 0, Black.Sequence.Action.System.SequenceActionCheckAppContents.ObjectType, null, properties, 0, 824);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionCheckAppContents", 0, Black.Sequence.Action.System.SequenceActionCheckAppContents.ObjectType, Construct, properties, 0, 824);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCheckAppContents();
+        }
 		
     }
 }

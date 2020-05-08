@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Actor.Accessory
             var dummy = new SequenceActionActorClearAbilityAll();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorClearAbilityAll", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorClearAbilityAll.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorClearAbilityAll", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorClearAbilityAll.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace Black.Sequence.Action.Actor.Accessory
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorClearAbilityAll();
+        }
 		
     }
 }

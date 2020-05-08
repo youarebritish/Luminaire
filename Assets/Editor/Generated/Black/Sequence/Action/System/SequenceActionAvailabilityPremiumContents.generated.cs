@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionAvailabilityPremiumContents();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionAvailabilityPremiumContents", 0, Black.Sequence.Action.System.SequenceActionAvailabilityPremiumContents.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionAvailabilityPremiumContents", 0, Black.Sequence.Action.System.SequenceActionAvailabilityPremiumContents.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAvailabilityPremiumContents();
+        }
 		
     }
 }

@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Vehicle
             var dummy = new SequenceActionVehicleScoreRecord();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Vehicle.SequenceActionVehicleScoreRecord", 0, Black.Sequence.Action.Vehicle.SequenceActionVehicleScoreRecord.ObjectType, null, properties, 0, 824);
+            ObjectType = new ObjectType("Black.Sequence.Action.Vehicle.SequenceActionVehicleScoreRecord", 0, Black.Sequence.Action.Vehicle.SequenceActionVehicleScoreRecord.ObjectType, Construct, properties, 0, 824);
         }
 		
         public override ObjectType GetObjectType()
@@ -97,6 +97,11 @@ namespace Black.Sequence.Action.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionVehicleScoreRecord();
+        }
 		
     }
 }

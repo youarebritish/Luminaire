@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Vfx
             var dummy = new SequenceActionLmVFXControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Vfx.SequenceActionLmVFXControl", 0, Black.Sequence.Action.Vfx.SequenceActionLmVFXControl.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Sequence.Action.Vfx.SequenceActionLmVFXControl", 0, Black.Sequence.Action.Vfx.SequenceActionLmVFXControl.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Vfx
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionLmVFXControl();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.TimeLine.Actor
             var dummy = new SequenceActionTimeLineSoundMusicTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundMusicTrack", 0, Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundMusicTrack.ObjectType, null, properties, 0, 408);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundMusicTrack", 0, Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineSoundMusicTrack.ObjectType, Construct, properties, 0, 408);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Action.TimeLine.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineSoundMusicTrack();
+        }
 		
     }
 }

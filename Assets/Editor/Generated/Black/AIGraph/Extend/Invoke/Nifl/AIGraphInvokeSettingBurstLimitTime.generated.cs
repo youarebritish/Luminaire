@@ -23,7 +23,7 @@ namespace Black.AIGraph.Extend.Invoke.Nifl
             var dummy = new AIGraphInvokeSettingBurstLimitTime();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeSettingBurstLimitTime", 0, Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeSettingBurstLimitTime.ObjectType, null, properties, 0, 40);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeSettingBurstLimitTime", 0, Black.AIGraph.Extend.Invoke.Nifl.AIGraphInvokeSettingBurstLimitTime.ObjectType, Construct, properties, 0, 40);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.AIGraph.Extend.Invoke.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSettingBurstLimitTime();
+        }
 		
     }
 }

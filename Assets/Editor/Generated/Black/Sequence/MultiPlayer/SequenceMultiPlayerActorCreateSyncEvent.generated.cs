@@ -27,7 +27,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerActorCreateSyncEvent();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerActorCreateSyncEvent", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerActorCreateSyncEvent.ObjectType, null, properties, 0, 776);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerActorCreateSyncEvent", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerActorCreateSyncEvent.ObjectType, Construct, properties, 0, 776);
         }
 		
         public override ObjectType GetObjectType()
@@ -92,6 +92,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerActorCreateSyncEvent();
+        }
 		
     }
 }

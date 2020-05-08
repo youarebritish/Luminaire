@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
             var dummy = new SequenceActionAISetReinforceBattleAreaState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAISetReinforceBattleAreaState", 0, Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAISetReinforceBattleAreaState.ObjectType, null, properties, 0, 760);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAISetReinforceBattleAreaState", 0, Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAISetReinforceBattleAreaState.ObjectType, Construct, properties, 0, 760);
         }
 		
         public override ObjectType GetObjectType()
@@ -91,6 +91,11 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAISetReinforceBattleAreaState();
+        }
 		
     }
 }

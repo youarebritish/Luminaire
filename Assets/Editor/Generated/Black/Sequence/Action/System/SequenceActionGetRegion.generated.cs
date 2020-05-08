@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionGetRegion();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGetRegion", 0, Black.Sequence.Action.System.SequenceActionGetRegion.ObjectType, null, properties, 0, 848);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGetRegion", 0, Black.Sequence.Action.System.SequenceActionGetRegion.ObjectType, Construct, properties, 0, 848);
         }
 		
         public override ObjectType GetObjectType()
@@ -105,6 +105,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetRegion();
+        }
 		
     }
 }

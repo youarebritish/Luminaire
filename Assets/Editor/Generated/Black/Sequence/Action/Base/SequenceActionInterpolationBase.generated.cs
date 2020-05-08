@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Base
             var dummy = new SequenceActionInterpolationBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Base.SequenceActionInterpolationBase", 0, Black.Sequence.Action.Base.SequenceActionInterpolationBase.ObjectType, null, properties, 0, 312);
+            ObjectType = new ObjectType("Black.Sequence.Action.Base.SequenceActionInterpolationBase", 0, Black.Sequence.Action.Base.SequenceActionInterpolationBase.ObjectType, Construct, properties, 0, 312);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Sequence.Action.Base
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionInterpolationBase();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Level.Nifl
             var dummy = new SequenceActionEnableToLeaveTurret();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionEnableToLeaveTurret", 0, Black.Sequence.Action.Level.Nifl.SequenceActionEnableToLeaveTurret.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionEnableToLeaveTurret", 0, Black.Sequence.Action.Level.Nifl.SequenceActionEnableToLeaveTurret.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.Level.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEnableToLeaveTurret();
+        }
 		
     }
 }

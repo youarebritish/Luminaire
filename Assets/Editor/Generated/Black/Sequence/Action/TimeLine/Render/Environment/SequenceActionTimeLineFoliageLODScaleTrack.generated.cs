@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.TimeLine.Render.Environment
             var dummy = new SequenceActionTimeLineFoliageLODScaleTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.Environment.SequenceActionTimeLineFoliageLODScaleTrack", 0, Black.Sequence.Action.TimeLine.Render.Environment.SequenceActionTimeLineFoliageLODScaleTrack.ObjectType, null, properties, 0, 336);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Render.Environment.SequenceActionTimeLineFoliageLODScaleTrack", 0, Black.Sequence.Action.TimeLine.Render.Environment.SequenceActionTimeLineFoliageLODScaleTrack.ObjectType, Construct, properties, 0, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -61,6 +61,11 @@ namespace Black.Sequence.Action.TimeLine.Render.Environment
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineFoliageLODScaleTrack();
+        }
 		
     }
 }

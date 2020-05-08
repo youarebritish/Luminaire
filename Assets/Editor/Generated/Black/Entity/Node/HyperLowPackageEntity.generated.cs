@@ -21,7 +21,7 @@ namespace Black.Entity.Node
             var dummy = new HyperLowPackageEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.HyperLowPackageEntity", 0, Black.Entity.Node.HyperLowPackageEntity.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Entity.Node.HyperLowPackageEntity", 0, Black.Entity.Node.HyperLowPackageEntity.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new HyperLowPackageEntity();
+        }
 		
     }
 }

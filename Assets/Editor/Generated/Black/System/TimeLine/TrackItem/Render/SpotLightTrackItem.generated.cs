@@ -26,7 +26,7 @@ namespace Black.System.TimeLine.TrackItem.Render
             var dummy = new SpotLightTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.SpotLightTrackItem", 0, Black.System.TimeLine.TrackItem.Render.SpotLightTrackItem.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.SpotLightTrackItem", 0, Black.System.TimeLine.TrackItem.Render.SpotLightTrackItem.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -74,6 +74,11 @@ namespace Black.System.TimeLine.TrackItem.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SpotLightTrackItem();
+        }
 		
     }
 }

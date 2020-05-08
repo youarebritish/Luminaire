@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionSetSuppressionAreaEnable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaEnable", 0, Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaEnable.ObjectType, null, properties, 0, 720);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaEnable", 0, Black.Sequence.Action.Level.SequenceActionSetSuppressionAreaEnable.ObjectType, Construct, properties, 0, 720);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetSuppressionAreaEnable();
+        }
 		
     }
 }

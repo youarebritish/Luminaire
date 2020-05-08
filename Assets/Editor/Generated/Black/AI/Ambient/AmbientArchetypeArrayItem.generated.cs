@@ -21,7 +21,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientArchetypeArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientArchetypeArrayItem", 0, Black.AI.Ambient.AmbientArchetypeArrayItem.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientArchetypeArrayItem", 0, Black.AI.Ambient.AmbientArchetypeArrayItem.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientArchetypeArrayItem();
+        }
 		
     }
 }

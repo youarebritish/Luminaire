@@ -20,7 +20,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerHostEvent();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerHostEvent", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerHostEvent.ObjectType, null, properties, 0, 296);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerHostEvent", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerHostEvent.ObjectType, Construct, properties, 0, 296);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerHostEvent();
+        }
 		
     }
 }

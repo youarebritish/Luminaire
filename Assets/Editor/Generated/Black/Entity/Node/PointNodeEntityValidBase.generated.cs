@@ -22,7 +22,7 @@ namespace Black.Entity.Node
             var dummy = new PointNodeEntityValidBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.PointNodeEntityValidBase", 0, Black.Entity.Node.PointNodeEntityValidBase.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Entity.Node.PointNodeEntityValidBase", 0, Black.Entity.Node.PointNodeEntityValidBase.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PointNodeEntityValidBase();
+        }
 		
     }
 }

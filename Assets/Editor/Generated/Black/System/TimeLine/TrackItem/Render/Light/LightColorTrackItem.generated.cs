@@ -21,7 +21,7 @@ namespace Black.System.TimeLine.TrackItem.Render.Light
             var dummy = new LightColorTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.Light.LightColorTrackItem", 0, Black.System.TimeLine.TrackItem.Render.Light.LightColorTrackItem.ObjectType, null, properties, 0, 112);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Render.Light.LightColorTrackItem", 0, Black.System.TimeLine.TrackItem.Render.Light.LightColorTrackItem.ObjectType, Construct, properties, 0, 112);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.System.TimeLine.TrackItem.Render.Light
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LightColorTrackItem();
+        }
 		
     }
 }

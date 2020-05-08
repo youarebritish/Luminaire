@@ -25,7 +25,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionSetOceanLocalizedWave();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetOceanLocalizedWave", 0, Black.Sequence.Render.SequenceActionSetOceanLocalizedWave.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetOceanLocalizedWave", 0, Black.Sequence.Render.SequenceActionSetOceanLocalizedWave.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetOceanLocalizedWave();
+        }
 		
     }
 }

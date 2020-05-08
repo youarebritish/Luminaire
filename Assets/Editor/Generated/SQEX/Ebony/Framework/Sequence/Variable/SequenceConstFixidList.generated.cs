@@ -41,7 +41,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
             var dummy = new SequenceConstFixidList();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstFixidList", 0, SQEX.Ebony.Framework.Sequence.Variable.SequenceConstFixidList.ObjectType, null, properties, 0, 496);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstFixidList", 0, SQEX.Ebony.Framework.Sequence.Variable.SequenceConstFixidList.ObjectType, Construct, properties, 0, 496);
         }
 		
         public override ObjectType GetObjectType()
@@ -112,6 +112,11 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstFixidList();
+        }
 		
     }
 }

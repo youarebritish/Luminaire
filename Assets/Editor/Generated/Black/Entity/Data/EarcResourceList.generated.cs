@@ -24,7 +24,7 @@ namespace Black.Entity.Data
             var dummy = new EarcResourceList();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.EarcResourceList", 0, Black.Entity.Data.EarcResourceList.ObjectType, null, properties, 0, 104);
+            ObjectType = new ObjectType("Black.Entity.Data.EarcResourceList", 0, Black.Entity.Data.EarcResourceList.ObjectType, Construct, properties, 0, 104);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new EarcResourceList();
+        }
 		
     }
 }

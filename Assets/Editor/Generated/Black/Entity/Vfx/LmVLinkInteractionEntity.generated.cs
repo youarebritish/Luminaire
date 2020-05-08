@@ -21,7 +21,7 @@ namespace Black.Entity.Vfx
             var dummy = new LmVLinkInteractionEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Vfx.LmVLinkInteractionEntity", 0, Black.Entity.Vfx.LmVLinkInteractionEntity.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Entity.Vfx.LmVLinkInteractionEntity", 0, Black.Entity.Vfx.LmVLinkInteractionEntity.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Entity.Vfx
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LmVLinkInteractionEntity();
+        }
 		
     }
 }

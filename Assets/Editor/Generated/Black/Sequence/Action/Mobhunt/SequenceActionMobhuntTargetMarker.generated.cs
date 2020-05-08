@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Mobhunt
             var dummy = new SequenceActionMobhuntTargetMarker();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntTargetMarker", 0, Black.Sequence.Action.Mobhunt.SequenceActionMobhuntTargetMarker.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntTargetMarker", 0, Black.Sequence.Action.Mobhunt.SequenceActionMobhuntTargetMarker.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.Mobhunt
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionMobhuntTargetMarker();
+        }
 		
     }
 }

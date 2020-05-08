@@ -33,7 +33,7 @@ namespace Black.Sequence.Action.Vehicle
             var dummy = new SequenceActionPlayerVehicleNearestParkingPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Vehicle.SequenceActionPlayerVehicleNearestParkingPoint", 0, Black.Sequence.Action.Vehicle.SequenceActionPlayerVehicleNearestParkingPoint.ObjectType, null, properties, 0, 1248);
+            ObjectType = new ObjectType("Black.Sequence.Action.Vehicle.SequenceActionPlayerVehicleNearestParkingPoint", 0, Black.Sequence.Action.Vehicle.SequenceActionPlayerVehicleNearestParkingPoint.ObjectType, Construct, properties, 0, 1248);
         }
 		
         public override ObjectType GetObjectType()
@@ -125,6 +125,11 @@ namespace Black.Sequence.Action.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPlayerVehicleNearestParkingPoint();
+        }
 		
     }
 }

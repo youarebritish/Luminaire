@@ -47,7 +47,7 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
             var dummy = new InGameCameraPov();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov", 0, Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov.ObjectType, null, properties, 0, 128);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov", 0, Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov.ObjectType, Construct, properties, 0, 128);
         }
 		
         public override ObjectType GetObjectType()
@@ -98,6 +98,11 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InGameCameraPov();
+        }
 		
     }
 }

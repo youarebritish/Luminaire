@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionActorChangeRippleSetting();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorChangeRippleSetting", 0, Black.Sequence.Action.Actor.SequenceActionActorChangeRippleSetting.ObjectType, null, properties, 0, 504);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorChangeRippleSetting", 0, Black.Sequence.Action.Actor.SequenceActionActorChangeRippleSetting.ObjectType, Construct, properties, 0, 504);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorChangeRippleSetting();
+        }
 		
     }
 }

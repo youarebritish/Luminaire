@@ -44,7 +44,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionActorSetTransform();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetTransform", 0, Black.Sequence.Action.Actor.SequenceActionActorSetTransform.ObjectType, null, properties, 0, 1168);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetTransform", 0, Black.Sequence.Action.Actor.SequenceActionActorSetTransform.ObjectType, Construct, properties, 0, 1168);
         }
 		
         public override ObjectType GetObjectType()
@@ -145,6 +145,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetTransform();
+        }
 		
     }
 }

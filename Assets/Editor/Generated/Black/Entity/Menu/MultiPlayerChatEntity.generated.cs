@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new MultiPlayerChatEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.MultiPlayerChatEntity", 0, Black.Entity.Menu.MultiPlayerChatEntity.ObjectType, null, properties, 0, 1168);
+            ObjectType = new ObjectType("Black.Entity.Menu.MultiPlayerChatEntity", 0, Black.Entity.Menu.MultiPlayerChatEntity.ObjectType, Construct, properties, 0, 1168);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MultiPlayerChatEntity();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionActorSetWireCollisionMode();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetWireCollisionMode", 0, Black.Sequence.Action.Actor.SequenceActionActorSetWireCollisionMode.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetWireCollisionMode", 0, Black.Sequence.Action.Actor.SequenceActionActorSetWireCollisionMode.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetWireCollisionMode();
+        }
 		
     }
 }

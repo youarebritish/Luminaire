@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionCheckOutOfWorld();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionCheckOutOfWorld", 0, Black.Sequence.Action.Level.SequenceActionCheckOutOfWorld.ObjectType, null, properties, 0, 704);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionCheckOutOfWorld", 0, Black.Sequence.Action.Level.SequenceActionCheckOutOfWorld.ObjectType, Construct, properties, 0, 704);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCheckOutOfWorld();
+        }
 		
     }
 }

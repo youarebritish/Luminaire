@@ -20,7 +20,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceConstReinforcePointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstReinforcePointEntity", 0, Black.Sequence.Variable.SequenceConstReinforcePointEntity.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstReinforcePointEntity", 0, Black.Sequence.Variable.SequenceConstReinforcePointEntity.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstReinforcePointEntity();
+        }
 		
     }
 }

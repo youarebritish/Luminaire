@@ -23,7 +23,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionBlendExposure();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionBlendExposure", 0, Black.Sequence.Render.SequenceActionBlendExposure.ObjectType, null, properties, 0, 456);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionBlendExposure", 0, Black.Sequence.Render.SequenceActionBlendExposure.ObjectType, Construct, properties, 0, 456);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionBlendExposure();
+        }
 		
     }
 }

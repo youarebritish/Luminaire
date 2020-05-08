@@ -22,7 +22,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Enemy
             var dummy = new AILeafNodeEnemyJoinBattle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Enemy.AILeafNodeEnemyJoinBattle", 0, Black.AIGraph.LeafNode.AI.Function.Enemy.AILeafNodeEnemyJoinBattle.ObjectType, null, properties, 0, 120);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Enemy.AILeafNodeEnemyJoinBattle", 0, Black.AIGraph.LeafNode.AI.Function.Enemy.AILeafNodeEnemyJoinBattle.ObjectType, Construct, properties, 0, 120);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Enemy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeEnemyJoinBattle();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
             var dummy = new AILeafNodeDraftStrategy();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeDraftStrategy", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeDraftStrategy.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeDraftStrategy", 0, Black.AIGraph.LeafNode.AI.Function.Buddy.AILeafNodeDraftStrategy.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeDraftStrategy();
+        }
 		
     }
 }

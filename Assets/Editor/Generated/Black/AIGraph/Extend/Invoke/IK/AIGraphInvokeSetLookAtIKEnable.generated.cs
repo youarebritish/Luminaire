@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke.IK
             var dummy = new AIGraphInvokeSetLookAtIKEnable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetLookAtIKEnable", 0, Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetLookAtIKEnable.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetLookAtIKEnable", 0, Black.AIGraph.Extend.Invoke.IK.AIGraphInvokeSetLookAtIKEnable.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke.IK
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetLookAtIKEnable();
+        }
 		
     }
 }

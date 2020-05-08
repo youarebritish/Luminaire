@@ -24,7 +24,7 @@ namespace Black.Sequence.Action
             var dummy = new SequenceActionSetRepressionInfoNOX();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.SequenceActionSetRepressionInfoNOX", 0, Black.Sequence.Action.SequenceActionSetRepressionInfoNOX.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.SequenceActionSetRepressionInfoNOX", 0, Black.Sequence.Action.SequenceActionSetRepressionInfoNOX.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetRepressionInfoNOX();
+        }
 		
     }
 }

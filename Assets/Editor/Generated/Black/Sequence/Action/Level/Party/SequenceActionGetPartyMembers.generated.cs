@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Level.Party
             var dummy = new SequenceActionGetPartyMembers();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Party.SequenceActionGetPartyMembers", 0, Black.Sequence.Action.Level.Party.SequenceActionGetPartyMembers.ObjectType, null, properties, 0, 712);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Party.SequenceActionGetPartyMembers", 0, Black.Sequence.Action.Level.Party.SequenceActionGetPartyMembers.ObjectType, Construct, properties, 0, 712);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Action.Level.Party
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetPartyMembers();
+        }
 		
     }
 }

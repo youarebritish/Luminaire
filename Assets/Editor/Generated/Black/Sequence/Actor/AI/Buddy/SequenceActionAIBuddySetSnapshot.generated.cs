@@ -26,7 +26,7 @@ namespace Black.Sequence.Actor.AI.Buddy
             var dummy = new SequenceActionAIBuddySetSnapshot();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddySetSnapshot", 0, Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddySetSnapshot.ObjectType, null, properties, 0, 392);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddySetSnapshot", 0, Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddySetSnapshot.ObjectType, Construct, properties, 0, 392);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Actor.AI.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIBuddySetSnapshot();
+        }
 		
     }
 }

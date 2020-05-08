@@ -29,7 +29,7 @@ namespace Black.Sequence.Actor.AI.Buddy
             var dummy = new SequenceActionAIBuddyDriveEventWait();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddyDriveEventWait", 0, Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddyDriveEventWait.ObjectType, null, properties, 0, 848);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddyDriveEventWait", 0, Black.Sequence.Actor.AI.Buddy.SequenceActionAIBuddyDriveEventWait.ObjectType, Construct, properties, 0, 848);
         }
 		
         public override ObjectType GetObjectType()
@@ -105,6 +105,11 @@ namespace Black.Sequence.Actor.AI.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIBuddyDriveEventWait();
+        }
 		
     }
 }

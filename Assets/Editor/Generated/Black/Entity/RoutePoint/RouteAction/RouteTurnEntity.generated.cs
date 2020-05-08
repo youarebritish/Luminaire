@@ -22,7 +22,7 @@ namespace Black.Entity.RoutePoint.RouteAction
             var dummy = new RouteTurnEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.RoutePoint.RouteAction.RouteTurnEntity", 0, Black.Entity.RoutePoint.RouteAction.RouteTurnEntity.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Entity.RoutePoint.RouteAction.RouteTurnEntity", 0, Black.Entity.RoutePoint.RouteAction.RouteTurnEntity.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -51,6 +51,11 @@ namespace Black.Entity.RoutePoint.RouteAction
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new RouteTurnEntity();
+        }
 		
     }
 }

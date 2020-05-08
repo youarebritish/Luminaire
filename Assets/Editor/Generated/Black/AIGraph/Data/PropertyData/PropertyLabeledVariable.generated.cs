@@ -30,7 +30,7 @@ namespace Black.AIGraph.Data.PropertyData
             var dummy = new PropertyLabeledVariable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Data.PropertyData.PropertyLabeledVariable", 0, Black.AIGraph.Data.PropertyData.PropertyLabeledVariable.ObjectType, null, properties, 0, 72);
+            ObjectType = new ObjectType("Black.AIGraph.Data.PropertyData.PropertyLabeledVariable", 0, Black.AIGraph.Data.PropertyData.PropertyLabeledVariable.ObjectType, Construct, properties, 0, 72);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace Black.AIGraph.Data.PropertyData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PropertyLabeledVariable();
+        }
 		
     }
 }

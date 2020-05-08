@@ -35,7 +35,7 @@ namespace Black.Sequence.Action.Actor.AI.Recognition
             var dummy = new SequenceActionAICheckVisibilityFromAllEnemies();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAICheckVisibilityFromAllEnemies", 0, Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAICheckVisibilityFromAllEnemies.ObjectType, null, properties, 0, 1056);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAICheckVisibilityFromAllEnemies", 0, Black.Sequence.Action.Actor.AI.Recognition.SequenceActionAICheckVisibilityFromAllEnemies.ObjectType, Construct, properties, 0, 1056);
         }
 		
         public override ObjectType GetObjectType()
@@ -123,6 +123,11 @@ namespace Black.Sequence.Action.Actor.AI.Recognition
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAICheckVisibilityFromAllEnemies();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionActorSetWireHookPointEnableAll();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetWireHookPointEnableAll", 0, Black.Sequence.Action.Actor.SequenceActionActorSetWireHookPointEnableAll.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetWireHookPointEnableAll", 0, Black.Sequence.Action.Actor.SequenceActionActorSetWireHookPointEnableAll.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetWireHookPointEnableAll();
+        }
 		
     }
 }

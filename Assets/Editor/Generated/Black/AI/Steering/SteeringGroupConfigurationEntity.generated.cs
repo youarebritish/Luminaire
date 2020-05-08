@@ -44,7 +44,7 @@ namespace Black.AI.Steering
             var dummy = new SteeringGroupConfigurationEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Steering.SteeringGroupConfigurationEntity", 0, Black.AI.Steering.SteeringGroupConfigurationEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.AI.Steering.SteeringGroupConfigurationEntity", 0, Black.AI.Steering.SteeringGroupConfigurationEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -98,6 +98,11 @@ namespace Black.AI.Steering
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SteeringGroupConfigurationEntity();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerGetGameState();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetGameState", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerGetGameState.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerGetGameState", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerGetGameState.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerGetGameState();
+        }
 		
     }
 }

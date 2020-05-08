@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
             var dummy = new AILeafNodeChangeGambitSlot();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeChangeGambitSlot", 0, Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeChangeGambitSlot.ObjectType, null, properties, 0, 88);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeChangeGambitSlot", 0, Black.AIGraph.LeafNode.AI.Function.Monster.AILeafNodeChangeGambitSlot.ObjectType, Construct, properties, 0, 88);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Monster
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeChangeGambitSlot();
+        }
 		
     }
 }

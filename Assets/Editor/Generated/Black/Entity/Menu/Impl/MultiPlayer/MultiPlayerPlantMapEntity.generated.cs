@@ -20,7 +20,7 @@ namespace Black.Entity.Menu.Impl.MultiPlayer
             var dummy = new MultiPlayerPlantMapEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerPlantMapEntity", 0, Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerPlantMapEntity.ObjectType, null, properties, 0, 1152);
+            ObjectType = new ObjectType("Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerPlantMapEntity", 0, Black.Entity.Menu.Impl.MultiPlayer.MultiPlayerPlantMapEntity.ObjectType, Construct, properties, 0, 1152);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu.Impl.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MultiPlayerPlantMapEntity();
+        }
 		
     }
 }

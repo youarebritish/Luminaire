@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Level.Mission.Titan
             var dummy = new SequenceActionRideSpearParry();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Mission.Titan.SequenceActionRideSpearParry", 0, Black.Sequence.Action.Level.Mission.Titan.SequenceActionRideSpearParry.ObjectType, null, properties, 0, 1128);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Mission.Titan.SequenceActionRideSpearParry", 0, Black.Sequence.Action.Level.Mission.Titan.SequenceActionRideSpearParry.ObjectType, Construct, properties, 0, 1128);
         }
 		
         public override ObjectType GetObjectType()
@@ -127,6 +127,11 @@ namespace Black.Sequence.Action.Level.Mission.Titan
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionRideSpearParry();
+        }
 		
     }
 }

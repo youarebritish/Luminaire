@@ -21,7 +21,7 @@ namespace SQEX.Ebony.Framework.Entity
             var dummy = new ScenePackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.ScenePackage", 0, SQEX.Ebony.Framework.Entity.ScenePackage.ObjectType, null, properties, 8, 608);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.ScenePackage", 0, SQEX.Ebony.Framework.Entity.ScenePackage.ObjectType, Construct, properties, 8, 608);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace SQEX.Ebony.Framework.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ScenePackage();
+        }
 		
     }
 }

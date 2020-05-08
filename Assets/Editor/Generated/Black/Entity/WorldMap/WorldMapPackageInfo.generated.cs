@@ -26,7 +26,7 @@ namespace Black.Entity.WorldMap
             var dummy = new WorldMapPackageInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.WorldMap.WorldMapPackageInfo", 0, Black.Entity.WorldMap.WorldMapPackageInfo.ObjectType, null, properties, 0, 672);
+            ObjectType = new ObjectType("Black.Entity.WorldMap.WorldMapPackageInfo", 0, Black.Entity.WorldMap.WorldMapPackageInfo.ObjectType, Construct, properties, 0, 672);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.Entity.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WorldMapPackageInfo();
+        }
 		
     }
 }

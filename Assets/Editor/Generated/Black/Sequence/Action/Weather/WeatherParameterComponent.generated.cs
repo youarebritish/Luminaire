@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Weather
             var dummy = new WeatherParameterComponent();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Weather.WeatherParameterComponent", 0, Black.Sequence.Action.Weather.WeatherParameterComponent.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.Sequence.Action.Weather.WeatherParameterComponent", 0, Black.Sequence.Action.Weather.WeatherParameterComponent.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Sequence.Action.Weather
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WeatherParameterComponent();
+        }
 		
     }
 }

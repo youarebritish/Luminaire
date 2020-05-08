@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionSelectMenuDynamicListControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSelectMenuDynamicListControl", 0, Black.Sequence.Action.Menu.SequenceActionSelectMenuDynamicListControl.ObjectType, null, properties, 0, 1904);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionSelectMenuDynamicListControl", 0, Black.Sequence.Action.Menu.SequenceActionSelectMenuDynamicListControl.ObjectType, Construct, properties, 0, 1904);
         }
 		
         public override ObjectType GetObjectType()
@@ -178,6 +178,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSelectMenuDynamicListControl();
+        }
 		
     }
 }

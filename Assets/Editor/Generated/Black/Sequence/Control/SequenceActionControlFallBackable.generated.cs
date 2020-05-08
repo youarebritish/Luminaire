@@ -21,7 +21,7 @@ namespace Black.Sequence.Control
             var dummy = new SequenceActionControlFallBackable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlFallBackable", 0, Black.Sequence.Control.SequenceActionControlFallBackable.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlFallBackable", 0, Black.Sequence.Control.SequenceActionControlFallBackable.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Sequence.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlFallBackable();
+        }
 		
     }
 }

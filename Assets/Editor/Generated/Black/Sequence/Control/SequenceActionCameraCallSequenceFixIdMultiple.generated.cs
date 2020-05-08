@@ -27,7 +27,7 @@ namespace Black.Sequence.Control
             var dummy = new SequenceActionCameraCallSequenceFixIdMultiple();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionCameraCallSequenceFixIdMultiple", 0, Black.Sequence.Control.SequenceActionCameraCallSequenceFixIdMultiple.ObjectType, null, properties, 0, 768);
+            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionCameraCallSequenceFixIdMultiple", 0, Black.Sequence.Control.SequenceActionCameraCallSequenceFixIdMultiple.ObjectType, Construct, properties, 0, 768);
         }
 		
         public override ObjectType GetObjectType()
@@ -92,6 +92,11 @@ namespace Black.Sequence.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCameraCallSequenceFixIdMultiple();
+        }
 		
     }
 }

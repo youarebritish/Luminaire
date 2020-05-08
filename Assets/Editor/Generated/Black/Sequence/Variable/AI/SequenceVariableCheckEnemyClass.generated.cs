@@ -25,7 +25,7 @@ namespace Black.Sequence.Variable.AI
             var dummy = new SequenceVariableCheckEnemyClass();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.AI.SequenceVariableCheckEnemyClass", 0, Black.Sequence.Variable.AI.SequenceVariableCheckEnemyClass.ObjectType, null, properties, 0, 448);
+            ObjectType = new ObjectType("Black.Sequence.Variable.AI.SequenceVariableCheckEnemyClass", 0, Black.Sequence.Variable.AI.SequenceVariableCheckEnemyClass.ObjectType, Construct, properties, 0, 448);
         }
 		
         public override ObjectType GetObjectType()
@@ -72,6 +72,11 @@ namespace Black.Sequence.Variable.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableCheckEnemyClass();
+        }
 		
     }
 }

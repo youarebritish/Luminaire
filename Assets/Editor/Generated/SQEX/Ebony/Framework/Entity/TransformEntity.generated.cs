@@ -23,7 +23,7 @@ namespace SQEX.Ebony.Framework.Entity
             var dummy = new TransformEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.TransformEntity", 0, SQEX.Ebony.Framework.Entity.TransformEntity.ObjectType, null, properties, 1, 224);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.TransformEntity", 0, SQEX.Ebony.Framework.Entity.TransformEntity.ObjectType, Construct, properties, 1, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace SQEX.Ebony.Framework.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TransformEntity();
+        }
 		
     }
 }

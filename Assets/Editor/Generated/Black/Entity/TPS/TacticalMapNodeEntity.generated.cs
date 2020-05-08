@@ -21,7 +21,7 @@ namespace Black.Entity.TPS
             var dummy = new TacticalMapNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.TacticalMapNodeEntity", 0, Black.Entity.TPS.TacticalMapNodeEntity.ObjectType, null, properties, 0, 224);
+            ObjectType = new ObjectType("Black.Entity.TPS.TacticalMapNodeEntity", 0, Black.Entity.TPS.TacticalMapNodeEntity.ObjectType, Construct, properties, 0, 224);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Entity.TPS
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TacticalMapNodeEntity();
+        }
 		
     }
 }

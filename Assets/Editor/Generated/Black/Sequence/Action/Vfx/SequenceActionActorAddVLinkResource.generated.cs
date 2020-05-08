@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Vfx
             var dummy = new SequenceActionActorAddVLinkResource();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Vfx.SequenceActionActorAddVLinkResource", 0, Black.Sequence.Action.Vfx.SequenceActionActorAddVLinkResource.ObjectType, null, properties, 0, 768);
+            ObjectType = new ObjectType("Black.Sequence.Action.Vfx.SequenceActionActorAddVLinkResource", 0, Black.Sequence.Action.Vfx.SequenceActionActorAddVLinkResource.ObjectType, Construct, properties, 0, 768);
         }
 		
         public override ObjectType GetObjectType()
@@ -95,6 +95,11 @@ namespace Black.Sequence.Action.Vfx
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorAddVLinkResource();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.Sequence.ScreenEffect
             var dummy = new SequenceActionSetVWSharpen();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetVWSharpen", 0, Black.Sequence.ScreenEffect.SequenceActionSetVWSharpen.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetVWSharpen", 0, Black.Sequence.ScreenEffect.SequenceActionSetVWSharpen.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.ScreenEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetVWSharpen();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Actor.Component.Material.ComponentData
             var dummy = new BodyMaterialMaterialParamArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem", 0, Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem.ObjectType, null, properties, 0, 48);
+            ObjectType = new ObjectType("Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem", 0, Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem.ObjectType, Construct, properties, 0, 48);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.Actor.Component.Material.ComponentData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyMaterialMaterialParamArrayItem();
+        }
 		
     }
 }

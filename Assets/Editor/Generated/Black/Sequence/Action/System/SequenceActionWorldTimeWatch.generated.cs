@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionWorldTimeWatch();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionWorldTimeWatch", 0, Black.Sequence.Action.System.SequenceActionWorldTimeWatch.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionWorldTimeWatch", 0, Black.Sequence.Action.System.SequenceActionWorldTimeWatch.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -57,6 +57,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionWorldTimeWatch();
+        }
 		
     }
 }

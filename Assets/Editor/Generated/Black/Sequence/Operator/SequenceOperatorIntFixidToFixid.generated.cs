@@ -22,7 +22,7 @@ namespace Black.Sequence.Operator
             var dummy = new SequenceOperatorIntFixidToFixid();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorIntFixidToFixid", 0, Black.Sequence.Operator.SequenceOperatorIntFixidToFixid.ObjectType, null, properties, 0, 312);
+            ObjectType = new ObjectType("Black.Sequence.Operator.SequenceOperatorIntFixidToFixid", 0, Black.Sequence.Operator.SequenceOperatorIntFixidToFixid.ObjectType, Construct, properties, 0, 312);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Operator
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorIntFixidToFixid();
+        }
 		
     }
 }

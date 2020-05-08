@@ -21,7 +21,7 @@ namespace Black.Entity.Map
             var dummy = new NavigationWorldTreeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Map.NavigationWorldTreeEntity", 0, Black.Entity.Map.NavigationWorldTreeEntity.ObjectType, null, properties, 0, 88);
+            ObjectType = new ObjectType("Black.Entity.Map.NavigationWorldTreeEntity", 0, Black.Entity.Map.NavigationWorldTreeEntity.ObjectType, Construct, properties, 0, 88);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.Map
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NavigationWorldTreeEntity();
+        }
 		
     }
 }

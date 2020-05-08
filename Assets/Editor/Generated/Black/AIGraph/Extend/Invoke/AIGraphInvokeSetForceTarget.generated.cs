@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke
             var dummy = new AIGraphInvokeSetForceTarget();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetForceTarget", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeSetForceTarget.ObjectType, null, properties, 0, 48);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeSetForceTarget", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeSetForceTarget.ObjectType, Construct, properties, 0, 48);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetForceTarget();
+        }
 		
     }
 }

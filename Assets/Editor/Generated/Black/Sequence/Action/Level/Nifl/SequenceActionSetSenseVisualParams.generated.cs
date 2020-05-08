@@ -40,7 +40,7 @@ namespace Black.Sequence.Action.Level.Nifl
             var dummy = new SequenceActionSetSenseVisualParams();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionSetSenseVisualParams", 0, Black.Sequence.Action.Level.Nifl.SequenceActionSetSenseVisualParams.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionSetSenseVisualParams", 0, Black.Sequence.Action.Level.Nifl.SequenceActionSetSenseVisualParams.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -105,6 +105,11 @@ namespace Black.Sequence.Action.Level.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetSenseVisualParams();
+        }
 		
     }
 }

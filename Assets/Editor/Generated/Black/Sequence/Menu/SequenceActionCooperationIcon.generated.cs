@@ -23,7 +23,7 @@ namespace Black.Sequence.Menu
             var dummy = new SequenceActionCooperationIcon();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Menu.SequenceActionCooperationIcon", 0, Black.Sequence.Menu.SequenceActionCooperationIcon.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Sequence.Menu.SequenceActionCooperationIcon", 0, Black.Sequence.Menu.SequenceActionCooperationIcon.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCooperationIcon();
+        }
 		
     }
 }

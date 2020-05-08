@@ -20,7 +20,7 @@ namespace Black.Entity
             var dummy = new TransformEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TransformEntity", 0, Black.Entity.TransformEntity.ObjectType, null, properties, 0, 256);
+            ObjectType = new ObjectType("Black.Entity.TransformEntity", 0, Black.Entity.TransformEntity.ObjectType, Construct, properties, 0, 256);
         }
 		
         public override ObjectType GetObjectType()
@@ -47,6 +47,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TransformEntity();
+        }
 		
     }
 }

@@ -26,7 +26,7 @@ namespace Black.Sequence.ScreenEffect
             var dummy = new SequenceActionSetTemporalReset();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetTemporalReset", 0, Black.Sequence.ScreenEffect.SequenceActionSetTemporalReset.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetTemporalReset", 0, Black.Sequence.ScreenEffect.SequenceActionSetTemporalReset.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.ScreenEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetTemporalReset();
+        }
 		
     }
 }

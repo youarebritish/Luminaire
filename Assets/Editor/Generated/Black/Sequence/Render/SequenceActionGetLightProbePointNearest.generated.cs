@@ -25,7 +25,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionGetLightProbePointNearest();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionGetLightProbePointNearest", 0, Black.Sequence.Render.SequenceActionGetLightProbePointNearest.ObjectType, null, properties, 0, 648);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionGetLightProbePointNearest", 0, Black.Sequence.Render.SequenceActionGetLightProbePointNearest.ObjectType, Construct, properties, 0, 648);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetLightProbePointNearest();
+        }
 		
     }
 }

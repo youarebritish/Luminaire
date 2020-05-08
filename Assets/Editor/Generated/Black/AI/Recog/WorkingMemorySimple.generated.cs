@@ -20,7 +20,7 @@ namespace Black.AI.Recog
             var dummy = new WorkingMemorySimple();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Recog.WorkingMemorySimple", 0, Black.AI.Recog.WorkingMemorySimple.ObjectType, null, properties, 0, 128);
+            ObjectType = new ObjectType("Black.AI.Recog.WorkingMemorySimple", 0, Black.AI.Recog.WorkingMemorySimple.ObjectType, Construct, properties, 0, 128);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AI.Recog
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WorkingMemorySimple();
+        }
 		
     }
 }

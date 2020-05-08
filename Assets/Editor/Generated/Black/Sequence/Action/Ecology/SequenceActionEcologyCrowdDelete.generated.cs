@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Ecology
             var dummy = new SequenceActionEcologyCrowdDelete();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyCrowdDelete", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyCrowdDelete.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyCrowdDelete", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyCrowdDelete.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -90,6 +90,11 @@ namespace Black.Sequence.Action.Ecology
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEcologyCrowdDelete();
+        }
 		
     }
 }

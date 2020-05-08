@@ -23,7 +23,7 @@ namespace Black.AIGraph.Extend.Node.FSM
             var dummy = new AIGraphNodeFSMStateMindTaskTray();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Node.FSM.AIGraphNodeFSMStateMindTaskTray", 0, Black.AIGraph.Extend.Node.FSM.AIGraphNodeFSMStateMindTaskTray.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Node.FSM.AIGraphNodeFSMStateMindTaskTray", 0, Black.AIGraph.Extend.Node.FSM.AIGraphNodeFSMStateMindTaskTray.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -62,6 +62,11 @@ namespace Black.AIGraph.Extend.Node.FSM
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeFSMStateMindTaskTray();
+        }
 		
     }
 }

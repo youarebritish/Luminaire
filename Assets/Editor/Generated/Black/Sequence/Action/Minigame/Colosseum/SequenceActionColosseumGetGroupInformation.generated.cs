@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.MiniGame.Colosseum
             var dummy = new SequenceActionColosseumGetGroupInformation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.MiniGame.Colosseum.SequenceActionColosseumGetGroupInformation", 0, Black.Sequence.Action.MiniGame.Colosseum.SequenceActionColosseumGetGroupInformation.ObjectType, null, properties, 0, 632);
+            ObjectType = new ObjectType("Black.Sequence.Action.MiniGame.Colosseum.SequenceActionColosseumGetGroupInformation", 0, Black.Sequence.Action.MiniGame.Colosseum.SequenceActionColosseumGetGroupInformation.ObjectType, Construct, properties, 0, 632);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.MiniGame.Colosseum
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionColosseumGetGroupInformation();
+        }
 		
     }
 }

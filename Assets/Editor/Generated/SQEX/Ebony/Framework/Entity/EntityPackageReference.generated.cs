@@ -25,7 +25,7 @@ namespace SQEX.Ebony.Framework.Entity
             var dummy = new EntityPackageReference();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.EntityPackageReference", 0, SQEX.Ebony.Framework.Entity.EntityPackageReference.ObjectType, null, properties, 1, 256);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Entity.EntityPackageReference", 0, SQEX.Ebony.Framework.Entity.EntityPackageReference.ObjectType, Construct, properties, 1, 256);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace SQEX.Ebony.Framework.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new EntityPackageReference();
+        }
 		
     }
 }

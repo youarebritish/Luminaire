@@ -23,7 +23,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.NiflBase
             var dummy = new AILeafNodeTurretAimControl();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.NiflBase.AILeafNodeTurretAimControl", 0, Black.AIGraph.LeafNode.AI.Action.NiflBase.AILeafNodeTurretAimControl.ObjectType, null, properties, 0, 168);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.NiflBase.AILeafNodeTurretAimControl", 0, Black.AIGraph.LeafNode.AI.Action.NiflBase.AILeafNodeTurretAimControl.ObjectType, Construct, properties, 0, 168);
         }
 		
         public override ObjectType GetObjectType()
@@ -63,6 +63,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.NiflBase
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeTurretAimControl();
+        }
 		
     }
 }

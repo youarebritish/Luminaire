@@ -21,7 +21,7 @@ namespace Black.Entity.WorldMap
             var dummy = new TerrainCollisionEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.WorldMap.TerrainCollisionEntity", 0, Black.Entity.WorldMap.TerrainCollisionEntity.ObjectType, null, properties, 0, 128);
+            ObjectType = new ObjectType("Black.Entity.WorldMap.TerrainCollisionEntity", 0, Black.Entity.WorldMap.TerrainCollisionEntity.ObjectType, Construct, properties, 0, 128);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TerrainCollisionEntity();
+        }
 		
     }
 }

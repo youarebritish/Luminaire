@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new OldHudControlEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.OldHudControlEntity", 0, Black.Entity.Menu.OldHudControlEntity.ObjectType, null, properties, 0, 496);
+            ObjectType = new ObjectType("Black.Entity.Menu.OldHudControlEntity", 0, Black.Entity.Menu.OldHudControlEntity.ObjectType, Construct, properties, 0, 496);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new OldHudControlEntity();
+        }
 		
     }
 }

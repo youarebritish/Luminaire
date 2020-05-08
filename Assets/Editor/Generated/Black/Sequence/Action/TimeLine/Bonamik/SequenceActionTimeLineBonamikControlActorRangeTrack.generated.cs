@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.TimeLine.Bonamik
             var dummy = new SequenceActionTimeLineBonamikControlActorRangeTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Bonamik.SequenceActionTimeLineBonamikControlActorRangeTrack", 0, Black.Sequence.Action.TimeLine.Bonamik.SequenceActionTimeLineBonamikControlActorRangeTrack.ObjectType, null, properties, 0, 400);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Bonamik.SequenceActionTimeLineBonamikControlActorRangeTrack", 0, Black.Sequence.Action.TimeLine.Bonamik.SequenceActionTimeLineBonamikControlActorRangeTrack.ObjectType, Construct, properties, 0, 400);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Action.TimeLine.Bonamik
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineBonamikControlActorRangeTrack();
+        }
 		
     }
 }

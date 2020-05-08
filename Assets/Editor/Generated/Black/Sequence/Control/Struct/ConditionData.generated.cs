@@ -22,7 +22,7 @@ namespace Black.Sequence.Control.Struct
             var dummy = new ConditionData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.Struct.ConditionData", 0, Black.Sequence.Control.Struct.ConditionData.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("Black.Sequence.Control.Struct.ConditionData", 0, Black.Sequence.Control.Struct.ConditionData.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Sequence.Control.Struct
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ConditionData();
+        }
 		
     }
 }

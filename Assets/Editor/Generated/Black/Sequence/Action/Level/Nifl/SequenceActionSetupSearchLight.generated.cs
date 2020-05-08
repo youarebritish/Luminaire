@@ -37,7 +37,7 @@ namespace Black.Sequence.Action.Level.Nifl
             var dummy = new SequenceActionSetupSearchLight();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionSetupSearchLight", 0, Black.Sequence.Action.Level.Nifl.SequenceActionSetupSearchLight.ObjectType, null, properties, 0, 1232);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionSetupSearchLight", 0, Black.Sequence.Action.Level.Nifl.SequenceActionSetupSearchLight.ObjectType, Construct, properties, 0, 1232);
         }
 		
         public override ObjectType GetObjectType()
@@ -141,6 +141,11 @@ namespace Black.Sequence.Action.Level.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetupSearchLight();
+        }
 		
     }
 }

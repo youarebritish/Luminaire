@@ -22,7 +22,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionSetForceGroundDisplacement();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetForceGroundDisplacement", 0, Black.Sequence.Render.SequenceActionSetForceGroundDisplacement.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetForceGroundDisplacement", 0, Black.Sequence.Render.SequenceActionSetForceGroundDisplacement.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetForceGroundDisplacement();
+        }
 		
     }
 }

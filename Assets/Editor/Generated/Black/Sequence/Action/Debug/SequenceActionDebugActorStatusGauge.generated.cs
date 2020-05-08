@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugActorStatusGauge();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugActorStatusGauge", 0, Black.Sequence.Action.Debug.SequenceActionDebugActorStatusGauge.ObjectType, null, properties, 0, 920);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugActorStatusGauge", 0, Black.Sequence.Action.Debug.SequenceActionDebugActorStatusGauge.ObjectType, Construct, properties, 0, 920);
         }
 		
         public override ObjectType GetObjectType()
@@ -103,6 +103,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugActorStatusGauge();
+        }
 		
     }
 }

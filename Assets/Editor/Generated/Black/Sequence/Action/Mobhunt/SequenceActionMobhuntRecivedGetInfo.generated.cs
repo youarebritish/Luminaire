@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Mobhunt
             var dummy = new SequenceActionMobhuntRecivedGetInfo();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntRecivedGetInfo", 0, Black.Sequence.Action.Mobhunt.SequenceActionMobhuntRecivedGetInfo.ObjectType, null, properties, 0, 1144);
+            ObjectType = new ObjectType("Black.Sequence.Action.Mobhunt.SequenceActionMobhuntRecivedGetInfo", 0, Black.Sequence.Action.Mobhunt.SequenceActionMobhuntRecivedGetInfo.ObjectType, Construct, properties, 0, 1144);
         }
 		
         public override ObjectType GetObjectType()
@@ -103,6 +103,11 @@ namespace Black.Sequence.Action.Mobhunt
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionMobhuntRecivedGetInfo();
+        }
 		
     }
 }

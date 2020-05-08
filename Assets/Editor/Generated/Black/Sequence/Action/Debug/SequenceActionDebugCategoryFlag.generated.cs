@@ -33,7 +33,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugCategoryFlag();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugCategoryFlag", 0, Black.Sequence.Action.Debug.SequenceActionDebugCategoryFlag.ObjectType, null, properties, 0, 280);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugCategoryFlag", 0, Black.Sequence.Action.Debug.SequenceActionDebugCategoryFlag.ObjectType, Construct, properties, 0, 280);
         }
 		
         public override ObjectType GetObjectType()
@@ -80,6 +80,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugCategoryFlag();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorSetTimeSpeed();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSetTimeSpeed", 0, Black.Sequence.Actor.SequenceActionActorSetTimeSpeed.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorSetTimeSpeed", 0, Black.Sequence.Actor.SequenceActionActorSetTimeSpeed.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetTimeSpeed();
+        }
 		
     }
 }

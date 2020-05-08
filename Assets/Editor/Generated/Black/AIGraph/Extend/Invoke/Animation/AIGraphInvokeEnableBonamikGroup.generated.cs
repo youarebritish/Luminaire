@@ -22,7 +22,7 @@ namespace Black.AIGraph.Extend.Invoke.Animation
             var dummy = new AIGraphInvokeEnableBonamikGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeEnableBonamikGroup", 0, Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeEnableBonamikGroup.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeEnableBonamikGroup", 0, Black.AIGraph.Extend.Invoke.Animation.AIGraphInvokeEnableBonamikGroup.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.Extend.Invoke.Animation
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeEnableBonamikGroup();
+        }
 		
     }
 }

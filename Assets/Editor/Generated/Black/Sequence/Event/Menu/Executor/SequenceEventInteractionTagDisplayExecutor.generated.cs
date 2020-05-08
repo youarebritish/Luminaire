@@ -25,7 +25,7 @@ namespace Black.Sequence.Event.Menu.Executor
             var dummy = new SequenceEventInteractionTagDisplayExecutor();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventInteractionTagDisplayExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventInteractionTagDisplayExecutor.ObjectType, null, properties, 0, 1160);
+            ObjectType = new ObjectType("Black.Sequence.Event.Menu.Executor.SequenceEventInteractionTagDisplayExecutor", 0, Black.Sequence.Event.Menu.Executor.SequenceEventInteractionTagDisplayExecutor.ObjectType, Construct, properties, 0, 1160);
         }
 		
         public override ObjectType GetObjectType()
@@ -105,6 +105,11 @@ namespace Black.Sequence.Event.Menu.Executor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventInteractionTagDisplayExecutor();
+        }
 		
     }
 }

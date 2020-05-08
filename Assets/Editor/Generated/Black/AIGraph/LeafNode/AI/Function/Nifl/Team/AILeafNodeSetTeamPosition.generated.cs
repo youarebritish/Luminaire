@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Team
             var dummy = new AILeafNodeSetTeamPosition();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.Team.AILeafNodeSetTeamPosition", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.Team.AILeafNodeSetTeamPosition.ObjectType, null, properties, 0, 112);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Function.Nifl.Team.AILeafNodeSetTeamPosition", 0, Black.AIGraph.LeafNode.AI.Function.Nifl.Team.AILeafNodeSetTeamPosition.ObjectType, Construct, properties, 0, 112);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Team
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeSetTeamPosition();
+        }
 		
     }
 }

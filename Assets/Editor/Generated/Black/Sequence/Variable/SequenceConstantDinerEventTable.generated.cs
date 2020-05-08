@@ -24,7 +24,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceConstantDinerEventTable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstantDinerEventTable", 0, Black.Sequence.Variable.SequenceConstantDinerEventTable.ObjectType, null, properties, 0, 360);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstantDinerEventTable", 0, Black.Sequence.Variable.SequenceConstantDinerEventTable.ObjectType, Construct, properties, 0, 360);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstantDinerEventTable();
+        }
 		
     }
 }

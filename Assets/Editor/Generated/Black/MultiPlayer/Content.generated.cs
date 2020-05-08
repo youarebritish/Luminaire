@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new Content();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.Content", 0, Black.MultiPlayer.Content.ObjectType, null, properties, 22, 17280);
+            ObjectType = new ObjectType("Black.MultiPlayer.Content", 0, Black.MultiPlayer.Content.ObjectType, Construct, properties, 22, 17280);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new Content();
+        }
 		
     }
 }

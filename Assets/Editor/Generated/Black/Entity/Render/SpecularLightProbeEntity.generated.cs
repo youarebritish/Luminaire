@@ -40,7 +40,7 @@ namespace Black.Entity.Render
             var dummy = new SpecularLightProbeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Render.SpecularLightProbeEntity", 0, Black.Entity.Render.SpecularLightProbeEntity.ObjectType, null, properties, 0, 720);
+            ObjectType = new ObjectType("Black.Entity.Render.SpecularLightProbeEntity", 0, Black.Entity.Render.SpecularLightProbeEntity.ObjectType, Construct, properties, 0, 720);
         }
 		
         public override ObjectType GetObjectType()
@@ -96,6 +96,11 @@ namespace Black.Entity.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SpecularLightProbeEntity();
+        }
 		
     }
 }

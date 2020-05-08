@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke
             var dummy = new AIGraphInvokeEndMoveController();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeEndMoveController", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeEndMoveController.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeEndMoveController", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeEndMoveController.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeEndMoveController();
+        }
 		
     }
 }

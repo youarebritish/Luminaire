@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Menu.Battle
             var dummy = new SequenceActionExecCommandAbility();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.Battle.SequenceActionExecCommandAbility", 0, Black.Sequence.Action.Menu.Battle.SequenceActionExecCommandAbility.ObjectType, null, properties, 0, 632);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.Battle.SequenceActionExecCommandAbility", 0, Black.Sequence.Action.Menu.Battle.SequenceActionExecCommandAbility.ObjectType, Construct, properties, 0, 632);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Menu.Battle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionExecCommandAbility();
+        }
 		
     }
 }

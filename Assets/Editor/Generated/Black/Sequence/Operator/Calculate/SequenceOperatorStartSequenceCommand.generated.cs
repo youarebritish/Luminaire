@@ -23,7 +23,7 @@ namespace Black.Sequence.Operator.Calculate
             var dummy = new SequenceOperatorStartSequenceCommand();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.Calculate.SequenceOperatorStartSequenceCommand", 0, Black.Sequence.Operator.Calculate.SequenceOperatorStartSequenceCommand.ObjectType, null, properties, 0, 320);
+            ObjectType = new ObjectType("Black.Sequence.Operator.Calculate.SequenceOperatorStartSequenceCommand", 0, Black.Sequence.Operator.Calculate.SequenceOperatorStartSequenceCommand.ObjectType, Construct, properties, 0, 320);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Sequence.Operator.Calculate
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorStartSequenceCommand();
+        }
 		
     }
 }

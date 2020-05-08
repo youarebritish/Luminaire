@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Ecology
             var dummy = new SequenceActionEcologyForceCreateTeam();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyForceCreateTeam", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyForceCreateTeam.ObjectType, null, properties, 0, 680);
+            ObjectType = new ObjectType("Black.Sequence.Action.Ecology.SequenceActionEcologyForceCreateTeam", 0, Black.Sequence.Action.Ecology.SequenceActionEcologyForceCreateTeam.ObjectType, Construct, properties, 0, 680);
         }
 		
         public override ObjectType GetObjectType()
@@ -90,6 +90,11 @@ namespace Black.Sequence.Action.Ecology
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEcologyForceCreateTeam();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Event.Actor.Vehicle
             var dummy = new SequenceEventActorVehicleDestinationTrigger();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleDestinationTrigger", 0, Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleDestinationTrigger.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleDestinationTrigger", 0, Black.Sequence.Event.Actor.Vehicle.SequenceEventActorVehicleDestinationTrigger.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace Black.Sequence.Event.Actor.Vehicle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventActorVehicleDestinationTrigger();
+        }
 		
     }
 }

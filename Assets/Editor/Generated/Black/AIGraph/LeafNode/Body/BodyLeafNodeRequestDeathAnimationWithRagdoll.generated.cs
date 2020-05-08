@@ -20,7 +20,7 @@ namespace Black.AIGraph.LeafNode.Body
             var dummy = new BodyLeafNodeRequestDeathAnimationWithRagdoll();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimationWithRagdoll", 0, Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimationWithRagdoll.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimationWithRagdoll", 0, Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimationWithRagdoll.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -52,6 +52,11 @@ namespace Black.AIGraph.LeafNode.Body
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyLeafNodeRequestDeathAnimationWithRagdoll();
+        }
 		
     }
 }

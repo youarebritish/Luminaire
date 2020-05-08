@@ -24,7 +24,7 @@ namespace Black.Sequence.Control.GameFlag
             var dummy = new SequenceActionControlSetGameFlagFixId();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.GameFlag.SequenceActionControlSetGameFlagFixId", 0, Black.Sequence.Control.GameFlag.SequenceActionControlSetGameFlagFixId.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Control.GameFlag.SequenceActionControlSetGameFlagFixId", 0, Black.Sequence.Control.GameFlag.SequenceActionControlSetGameFlagFixId.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Control.GameFlag
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlSetGameFlagFixId();
+        }
 		
     }
 }

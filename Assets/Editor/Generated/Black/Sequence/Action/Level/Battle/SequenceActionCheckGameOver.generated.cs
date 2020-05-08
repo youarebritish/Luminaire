@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Level.Battle
             var dummy = new SequenceActionCheckGameOver();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Battle.SequenceActionCheckGameOver", 0, Black.Sequence.Action.Level.Battle.SequenceActionCheckGameOver.ObjectType, null, properties, 0, 856);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Battle.SequenceActionCheckGameOver", 0, Black.Sequence.Action.Level.Battle.SequenceActionCheckGameOver.ObjectType, Construct, properties, 0, 856);
         }
 		
         public override ObjectType GetObjectType()
@@ -109,6 +109,11 @@ namespace Black.Sequence.Action.Level.Battle
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCheckGameOver();
+        }
 		
     }
 }

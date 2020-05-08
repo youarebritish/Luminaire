@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT
             var dummy = new AIGraphNodeBTRoot();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTRoot", 0, SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTRoot.ObjectType, null, properties, 0, 240);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTRoot", 0, SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTRoot.ObjectType, Construct, properties, 0, 240);
         }
 		
         public override ObjectType GetObjectType()
@@ -60,6 +60,11 @@ namespace SQEX.Ebony.AIGraph.Node.BT
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphNodeBTRoot();
+        }
 		
     }
 }

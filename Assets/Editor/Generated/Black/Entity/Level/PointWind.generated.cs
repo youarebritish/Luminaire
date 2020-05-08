@@ -22,7 +22,7 @@ namespace Black.Entity.Level
             var dummy = new PointWind();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Level.PointWind", 0, Black.Entity.Level.PointWind.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Entity.Level.PointWind", 0, Black.Entity.Level.PointWind.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Entity.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PointWind();
+        }
 		
     }
 }

@@ -31,7 +31,7 @@ namespace Black.AIGraph.LeafNode.AI.Action.Friend
             var dummy = new AILeafNodeLookBeginInVehicle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeLookBeginInVehicle", 0, Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeLookBeginInVehicle.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeLookBeginInVehicle", 0, Black.AIGraph.LeafNode.AI.Action.Friend.AILeafNodeLookBeginInVehicle.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -103,6 +103,11 @@ namespace Black.AIGraph.LeafNode.AI.Action.Friend
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AILeafNodeLookBeginInVehicle();
+        }
 		
     }
 }

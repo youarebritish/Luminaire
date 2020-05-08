@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.Body
             var dummy = new BodyLeafNodeRequestDeathAnimation();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimation", 0, Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimation.ObjectType, null, properties, 0, 96);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimation", 0, Black.AIGraph.LeafNode.Body.BodyLeafNodeRequestDeathAnimation.ObjectType, Construct, properties, 0, 96);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.AIGraph.LeafNode.Body
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyLeafNodeRequestDeathAnimation();
+        }
 		
     }
 }

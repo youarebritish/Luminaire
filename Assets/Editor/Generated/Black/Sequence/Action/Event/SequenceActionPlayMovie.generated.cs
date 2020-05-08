@@ -44,7 +44,7 @@ namespace Black.Sequence.Action.Event
             var dummy = new SequenceActionPlayMovie();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Event.SequenceActionPlayMovie", 0, Black.Sequence.Action.Event.SequenceActionPlayMovie.ObjectType, null, properties, 0, 880);
+            ObjectType = new ObjectType("Black.Sequence.Action.Event.SequenceActionPlayMovie", 0, Black.Sequence.Action.Event.SequenceActionPlayMovie.ObjectType, Construct, properties, 0, 880);
         }
 		
         public override ObjectType GetObjectType()
@@ -125,6 +125,11 @@ namespace Black.Sequence.Action.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPlayMovie();
+        }
 		
     }
 }

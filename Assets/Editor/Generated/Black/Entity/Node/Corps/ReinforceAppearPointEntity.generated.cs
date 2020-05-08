@@ -29,7 +29,7 @@ namespace Black.Entity.Node.Corps
             var dummy = new ReinforceAppearPointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.Corps.ReinforceAppearPointEntity", 0, Black.Entity.Node.Corps.ReinforceAppearPointEntity.ObjectType, null, properties, 0, 400);
+            ObjectType = new ObjectType("Black.Entity.Node.Corps.ReinforceAppearPointEntity", 0, Black.Entity.Node.Corps.ReinforceAppearPointEntity.ObjectType, Construct, properties, 0, 400);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Entity.Node.Corps
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ReinforceAppearPointEntity();
+        }
 		
     }
 }

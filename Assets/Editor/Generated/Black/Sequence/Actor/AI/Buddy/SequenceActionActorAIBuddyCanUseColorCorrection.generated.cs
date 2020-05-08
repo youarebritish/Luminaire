@@ -24,7 +24,7 @@ namespace Black.Sequence.Actor.AI.Buddy
             var dummy = new SequenceActionActorAIBuddyCanUseColorCorrection();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Buddy.SequenceActionActorAIBuddyCanUseColorCorrection", 0, Black.Sequence.Actor.AI.Buddy.SequenceActionActorAIBuddyCanUseColorCorrection.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Buddy.SequenceActionActorAIBuddyCanUseColorCorrection", 0, Black.Sequence.Actor.AI.Buddy.SequenceActionActorAIBuddyCanUseColorCorrection.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Actor.AI.Buddy
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorAIBuddyCanUseColorCorrection();
+        }
 		
     }
 }

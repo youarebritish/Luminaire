@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Level.Nifl
             var dummy = new SequenceActionNiflBaseAIManagerStart();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionNiflBaseAIManagerStart", 0, Black.Sequence.Action.Level.Nifl.SequenceActionNiflBaseAIManagerStart.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Nifl.SequenceActionNiflBaseAIManagerStart", 0, Black.Sequence.Action.Level.Nifl.SequenceActionNiflBaseAIManagerStart.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.Level.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionNiflBaseAIManagerStart();
+        }
 		
     }
 }

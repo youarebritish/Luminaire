@@ -100,7 +100,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableSwfPlayerConnectionMoreEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableSwfPlayerConnectionMoreEntity", 0, Black.Sequence.Variable.SequenceVariableSwfPlayerConnectionMoreEntity.ObjectType, null, properties, 0, 3904);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableSwfPlayerConnectionMoreEntity", 0, Black.Sequence.Variable.SequenceVariableSwfPlayerConnectionMoreEntity.ObjectType, Construct, properties, 0, 3904);
         }
 		
         public override ObjectType GetObjectType()
@@ -373,6 +373,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableSwfPlayerConnectionMoreEntity();
+        }
 		
     }
 }

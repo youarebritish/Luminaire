@@ -22,7 +22,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
             var dummy = new EventTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.EventTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.EventTrackItem.ObjectType, null, properties, 0, 112);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.TimeControl.TimeLine.EventTrackItem", 0, SQEX.Ebony.Framework.TimeControl.TimeLine.EventTrackItem.ObjectType, Construct, properties, 0, 112);
         }
 		
         public override ObjectType GetObjectType()
@@ -51,6 +51,11 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new EventTrackItem();
+        }
 		
     }
 }

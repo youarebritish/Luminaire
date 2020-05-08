@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionGetUsedDeviceLatest();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGetUsedDeviceLatest", 0, Black.Sequence.Action.System.SequenceActionGetUsedDeviceLatest.ObjectType, null, properties, 0, 656);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionGetUsedDeviceLatest", 0, Black.Sequence.Action.System.SequenceActionGetUsedDeviceLatest.ObjectType, Construct, properties, 0, 656);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetUsedDeviceLatest();
+        }
 		
     }
 }

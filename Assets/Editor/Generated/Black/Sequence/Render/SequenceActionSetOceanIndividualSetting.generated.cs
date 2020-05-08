@@ -49,7 +49,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionSetOceanIndividualSetting();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetOceanIndividualSetting", 0, Black.Sequence.Render.SequenceActionSetOceanIndividualSetting.ObjectType, null, properties, 0, 1624);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetOceanIndividualSetting", 0, Black.Sequence.Render.SequenceActionSetOceanIndividualSetting.ObjectType, Construct, properties, 0, 1624);
         }
 		
         public override ObjectType GetObjectType()
@@ -171,6 +171,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetOceanIndividualSetting();
+        }
 		
     }
 }

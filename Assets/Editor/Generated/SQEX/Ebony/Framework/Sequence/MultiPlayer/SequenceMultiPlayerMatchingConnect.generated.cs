@@ -26,7 +26,7 @@ namespace SQEX.Ebony.Framework.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerMatchingConnect();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.MultiPlayer.SequenceMultiPlayerMatchingConnect", 0, SQEX.Ebony.Framework.Sequence.MultiPlayer.SequenceMultiPlayerMatchingConnect.ObjectType, null, properties, 0, 736);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.MultiPlayer.SequenceMultiPlayerMatchingConnect", 0, SQEX.Ebony.Framework.Sequence.MultiPlayer.SequenceMultiPlayerMatchingConnect.ObjectType, Construct, properties, 0, 736);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace SQEX.Ebony.Framework.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerMatchingConnect();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Entity.Parameter
             var dummy = new ParameterVector();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Parameter.ParameterVector", 0, Black.Entity.Parameter.ParameterVector.ObjectType, null, properties, 0, 48);
+            ObjectType = new ObjectType("Black.Entity.Parameter.ParameterVector", 0, Black.Entity.Parameter.ParameterVector.ObjectType, Construct, properties, 0, 48);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace Black.Entity.Parameter
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ParameterVector();
+        }
 		
     }
 }

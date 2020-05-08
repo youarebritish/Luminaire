@@ -23,7 +23,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerSetVehicleCameraCollision();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerSetVehicleCameraCollision", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerSetVehicleCameraCollision.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerSetVehicleCameraCollision", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerSetVehicleCameraCollision.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerSetVehicleCameraCollision();
+        }
 		
     }
 }

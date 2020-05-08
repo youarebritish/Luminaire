@@ -20,7 +20,7 @@ namespace SQEX.Ebony.Framework.Node
             var dummy = new GraphNode();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Node.GraphNode", 0, SQEX.Ebony.Framework.Node.GraphNode.ObjectType, null, properties, 0, 16);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Node.GraphNode", 0, SQEX.Ebony.Framework.Node.GraphNode.ObjectType, Construct, properties, 0, 16);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace SQEX.Ebony.Framework.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new GraphNode();
+        }
 		
     }
 }

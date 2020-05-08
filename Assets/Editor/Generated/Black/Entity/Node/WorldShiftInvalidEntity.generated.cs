@@ -20,7 +20,7 @@ namespace Black.Entity.Node
             var dummy = new WorldShiftInvalidEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.WorldShiftInvalidEntity", 0, Black.Entity.Node.WorldShiftInvalidEntity.ObjectType, null, properties, 0, 464);
+            ObjectType = new ObjectType("Black.Entity.Node.WorldShiftInvalidEntity", 0, Black.Entity.Node.WorldShiftInvalidEntity.ObjectType, Construct, properties, 0, 464);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WorldShiftInvalidEntity();
+        }
 		
     }
 }

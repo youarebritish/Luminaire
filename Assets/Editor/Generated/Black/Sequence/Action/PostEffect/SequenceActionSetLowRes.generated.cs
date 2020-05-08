@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.PostEffect
             var dummy = new SequenceActionSetLowRes();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.PostEffect.SequenceActionSetLowRes", 0, Black.Sequence.Action.PostEffect.SequenceActionSetLowRes.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Sequence.Action.PostEffect.SequenceActionSetLowRes", 0, Black.Sequence.Action.PostEffect.SequenceActionSetLowRes.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Sequence.Action.PostEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetLowRes();
+        }
 		
     }
 }

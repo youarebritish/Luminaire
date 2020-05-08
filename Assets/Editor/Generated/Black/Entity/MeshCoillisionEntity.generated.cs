@@ -26,7 +26,7 @@ namespace Black.Entity
             var dummy = new MeshCoillisionEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.MeshCoillisionEntity", 0, Black.Entity.MeshCoillisionEntity.ObjectType, null, properties, 0, 336);
+            ObjectType = new ObjectType("Black.Entity.MeshCoillisionEntity", 0, Black.Entity.MeshCoillisionEntity.ObjectType, Construct, properties, 0, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -59,6 +59,11 @@ namespace Black.Entity
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MeshCoillisionEntity();
+        }
 		
     }
 }

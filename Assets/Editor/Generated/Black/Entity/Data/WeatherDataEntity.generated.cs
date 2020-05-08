@@ -33,7 +33,7 @@ namespace Black.Entity.Data
             var dummy = new WeatherDataEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.WeatherDataEntity", 0, Black.Entity.Data.WeatherDataEntity.ObjectType, null, properties, 0, 176);
+            ObjectType = new ObjectType("Black.Entity.Data.WeatherDataEntity", 0, Black.Entity.Data.WeatherDataEntity.ObjectType, Construct, properties, 0, 176);
         }
 		
         public override ObjectType GetObjectType()
@@ -70,6 +70,11 @@ namespace Black.Entity.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WeatherDataEntity();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new MapPhotoMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.MapPhotoMenuEntity", 0, Black.Entity.Menu.MapPhotoMenuEntity.ObjectType, null, properties, 0, 1776);
+            ObjectType = new ObjectType("Black.Entity.Menu.MapPhotoMenuEntity", 0, Black.Entity.Menu.MapPhotoMenuEntity.ObjectType, Construct, properties, 0, 1776);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MapPhotoMenuEntity();
+        }
 		
     }
 }

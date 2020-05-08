@@ -65,7 +65,7 @@ namespace Black.Sequence.PostEffect
             var dummy = new SequenceActionSetVolumetricLightFilter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.PostEffect.SequenceActionSetVolumetricLightFilter", 0, Black.Sequence.PostEffect.SequenceActionSetVolumetricLightFilter.ObjectType, null, properties, 0, 2336);
+            ObjectType = new ObjectType("Black.Sequence.PostEffect.SequenceActionSetVolumetricLightFilter", 0, Black.Sequence.PostEffect.SequenceActionSetVolumetricLightFilter.ObjectType, Construct, properties, 0, 2336);
         }
 		
         public override ObjectType GetObjectType()
@@ -235,6 +235,11 @@ namespace Black.Sequence.PostEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetVolumetricLightFilter();
+        }
 		
     }
 }

@@ -23,7 +23,7 @@ namespace Black.Sequence.Control
             var dummy = new SequenceActionControlIfCompareNew();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlIfCompareNew", 0, Black.Sequence.Control.SequenceActionControlIfCompareNew.ObjectType, null, properties, 0, 408);
+            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlIfCompareNew", 0, Black.Sequence.Control.SequenceActionControlIfCompareNew.ObjectType, Construct, properties, 0, 408);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Sequence.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlIfCompareNew();
+        }
 		
     }
 }

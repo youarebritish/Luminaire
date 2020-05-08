@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level.Party
             var dummy = new SequenceActionGetPartyMembersPreset();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Party.SequenceActionGetPartyMembersPreset", 0, Black.Sequence.Action.Level.Party.SequenceActionGetPartyMembersPreset.ObjectType, null, properties, 0, 592);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Party.SequenceActionGetPartyMembersPreset", 0, Black.Sequence.Action.Level.Party.SequenceActionGetPartyMembersPreset.ObjectType, Construct, properties, 0, 592);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Level.Party
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetPartyMembersPreset();
+        }
 		
     }
 }

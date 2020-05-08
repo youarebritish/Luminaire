@@ -21,7 +21,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientSequenceEnableChatter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceEnableChatter", 0, Black.AI.Ambient.AmbientSequenceEnableChatter.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientSequenceEnableChatter", 0, Black.AI.Ambient.AmbientSequenceEnableChatter.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientSequenceEnableChatter();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Invoke.Move
             var dummy = new AIGraphInvokeResetVelocity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeResetVelocity", 0, Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeResetVelocity.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeResetVelocity", 0, Black.AIGraph.Extend.Invoke.Move.AIGraphInvokeResetVelocity.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Invoke.Move
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeResetVelocity();
+        }
 		
     }
 }

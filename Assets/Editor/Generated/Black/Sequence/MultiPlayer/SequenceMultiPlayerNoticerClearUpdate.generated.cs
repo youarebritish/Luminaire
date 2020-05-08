@@ -25,7 +25,7 @@ namespace Black.Sequence.MultiPlayer
             var dummy = new SequenceMultiPlayerNoticerClearUpdate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerNoticerClearUpdate", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerNoticerClearUpdate.ObjectType, null, properties, 0, 648);
+            ObjectType = new ObjectType("Black.Sequence.MultiPlayer.SequenceMultiPlayerNoticerClearUpdate", 0, Black.Sequence.MultiPlayer.SequenceMultiPlayerNoticerClearUpdate.ObjectType, Construct, properties, 0, 648);
         }
 		
         public override ObjectType GetObjectType()
@@ -85,6 +85,11 @@ namespace Black.Sequence.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceMultiPlayerNoticerClearUpdate();
+        }
 		
     }
 }

@@ -27,7 +27,7 @@ namespace Black.Sequence.Operator.Calculate
             var dummy = new SequenceOperatorCalculateMatrixTransformCoord();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.Calculate.SequenceOperatorCalculateMatrixTransformCoord", 0, Black.Sequence.Operator.Calculate.SequenceOperatorCalculateMatrixTransformCoord.ObjectType, null, properties, 0, 528);
+            ObjectType = new ObjectType("Black.Sequence.Operator.Calculate.SequenceOperatorCalculateMatrixTransformCoord", 0, Black.Sequence.Operator.Calculate.SequenceOperatorCalculateMatrixTransformCoord.ObjectType, Construct, properties, 0, 528);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.Sequence.Operator.Calculate
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorCalculateMatrixTransformCoord();
+        }
 		
     }
 }

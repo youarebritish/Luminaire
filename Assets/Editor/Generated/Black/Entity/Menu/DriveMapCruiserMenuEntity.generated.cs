@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new DriveMapCruiserMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.DriveMapCruiserMenuEntity", 0, Black.Entity.Menu.DriveMapCruiserMenuEntity.ObjectType, null, properties, 0, 1312);
+            ObjectType = new ObjectType("Black.Entity.Menu.DriveMapCruiserMenuEntity", 0, Black.Entity.Menu.DriveMapCruiserMenuEntity.ObjectType, Construct, properties, 0, 1312);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DriveMapCruiserMenuEntity();
+        }
 		
     }
 }

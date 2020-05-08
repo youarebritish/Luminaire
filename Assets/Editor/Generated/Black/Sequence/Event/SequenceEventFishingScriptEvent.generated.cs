@@ -48,7 +48,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceEventFishingScriptEvent();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventFishingScriptEvent", 0, Black.Sequence.Event.SequenceEventFishingScriptEvent.ObjectType, null, properties, 0, 2872);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventFishingScriptEvent", 0, Black.Sequence.Event.SequenceEventFishingScriptEvent.ObjectType, Construct, properties, 0, 2872);
         }
 		
         public override ObjectType GetObjectType()
@@ -272,6 +272,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventFishingScriptEvent();
+        }
 		
     }
 }

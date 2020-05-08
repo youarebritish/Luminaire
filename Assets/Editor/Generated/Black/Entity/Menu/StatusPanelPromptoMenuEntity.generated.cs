@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new StatusPanelPromptoMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.StatusPanelPromptoMenuEntity", 0, Black.Entity.Menu.StatusPanelPromptoMenuEntity.ObjectType, null, properties, 0, 576);
+            ObjectType = new ObjectType("Black.Entity.Menu.StatusPanelPromptoMenuEntity", 0, Black.Entity.Menu.StatusPanelPromptoMenuEntity.ObjectType, Construct, properties, 0, 576);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new StatusPanelPromptoMenuEntity();
+        }
 		
     }
 }

@@ -24,7 +24,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableResidentSwfEntryEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableResidentSwfEntryEntity", 0, Black.Sequence.Variable.SequenceVariableResidentSwfEntryEntity.ObjectType, null, properties, 0, 288);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableResidentSwfEntryEntity", 0, Black.Sequence.Variable.SequenceVariableResidentSwfEntryEntity.ObjectType, Construct, properties, 0, 288);
         }
 		
         public override ObjectType GetObjectType()
@@ -62,6 +62,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableResidentSwfEntryEntity();
+        }
 		
     }
 }

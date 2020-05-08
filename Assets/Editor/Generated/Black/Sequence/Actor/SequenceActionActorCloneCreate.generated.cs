@@ -28,7 +28,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionActorCloneCreate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorCloneCreate", 0, Black.Sequence.Actor.SequenceActionActorCloneCreate.ObjectType, null, properties, 0, 888);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionActorCloneCreate", 0, Black.Sequence.Actor.SequenceActionActorCloneCreate.ObjectType, Construct, properties, 0, 888);
         }
 		
         public override ObjectType GetObjectType()
@@ -101,6 +101,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorCloneCreate();
+        }
 		
     }
 }

@@ -40,7 +40,7 @@ namespace Black.Sequence.Action.MemoryQuest
             var dummy = new SequenceActionMemoryQuestSwitch();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.MemoryQuest.SequenceActionMemoryQuestSwitch", 0, Black.Sequence.Action.MemoryQuest.SequenceActionMemoryQuestSwitch.ObjectType, null, properties, 0, 1304);
+            ObjectType = new ObjectType("Black.Sequence.Action.MemoryQuest.SequenceActionMemoryQuestSwitch", 0, Black.Sequence.Action.MemoryQuest.SequenceActionMemoryQuestSwitch.ObjectType, Construct, properties, 0, 1304);
         }
 		
         public override ObjectType GetObjectType()
@@ -154,6 +154,11 @@ namespace Black.Sequence.Action.MemoryQuest
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionMemoryQuestSwitch();
+        }
 		
     }
 }

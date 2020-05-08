@@ -34,7 +34,7 @@ namespace Black.Sequence.Action.Camera
             var dummy = new SequenceActionSeamlessInGameCamera();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCamera", 0, Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCamera.ObjectType, null, properties, 0, 2704);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCamera", 0, Black.Sequence.Action.Camera.SequenceActionSeamlessInGameCamera.ObjectType, Construct, properties, 0, 2704);
         }
 		
         public override ObjectType GetObjectType()
@@ -342,6 +342,11 @@ namespace Black.Sequence.Action.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSeamlessInGameCamera();
+        }
 		
     }
 }

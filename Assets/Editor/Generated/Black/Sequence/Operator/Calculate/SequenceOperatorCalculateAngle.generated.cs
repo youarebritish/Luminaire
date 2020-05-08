@@ -27,7 +27,7 @@ namespace Black.Sequence.Operator.Calculate
             var dummy = new SequenceOperatorCalculateAngle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Operator.Calculate.SequenceOperatorCalculateAngle", 0, Black.Sequence.Operator.Calculate.SequenceOperatorCalculateAngle.ObjectType, null, properties, 0, 672);
+            ObjectType = new ObjectType("Black.Sequence.Operator.Calculate.SequenceOperatorCalculateAngle", 0, Black.Sequence.Operator.Calculate.SequenceOperatorCalculateAngle.ObjectType, Construct, properties, 0, 672);
         }
 		
         public override ObjectType GetObjectType()
@@ -84,6 +84,11 @@ namespace Black.Sequence.Operator.Calculate
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceOperatorCalculateAngle();
+        }
 		
     }
 }

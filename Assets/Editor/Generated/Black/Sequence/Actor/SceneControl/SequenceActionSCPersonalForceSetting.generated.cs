@@ -25,7 +25,7 @@ namespace Black.Sequence.Actor.SceneControl
             var dummy = new SequenceActionSCPersonalForceSetting();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SceneControl.SequenceActionSCPersonalForceSetting", 0, Black.Sequence.Actor.SceneControl.SequenceActionSCPersonalForceSetting.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SceneControl.SequenceActionSCPersonalForceSetting", 0, Black.Sequence.Actor.SceneControl.SequenceActionSCPersonalForceSetting.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Actor.SceneControl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSCPersonalForceSetting();
+        }
 		
     }
 }

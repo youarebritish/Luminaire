@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new WeaponCustomizeMenuEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.WeaponCustomizeMenuEntity", 0, Black.Entity.Menu.WeaponCustomizeMenuEntity.ObjectType, null, properties, 0, 672);
+            ObjectType = new ObjectType("Black.Entity.Menu.WeaponCustomizeMenuEntity", 0, Black.Entity.Menu.WeaponCustomizeMenuEntity.ObjectType, Construct, properties, 0, 672);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WeaponCustomizeMenuEntity();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace SQEX.Ebony.AIGraph.Expression.Invoke
             var dummy = new AIGraphExpressionInvokeOnMessage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Expression.Invoke.AIGraphExpressionInvokeOnMessage", 0, SQEX.Ebony.AIGraph.Expression.Invoke.AIGraphExpressionInvokeOnMessage.ObjectType, null, properties, 0, 8);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Expression.Invoke.AIGraphExpressionInvokeOnMessage", 0, SQEX.Ebony.AIGraph.Expression.Invoke.AIGraphExpressionInvokeOnMessage.ObjectType, Construct, properties, 0, 8);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace SQEX.Ebony.AIGraph.Expression.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphExpressionInvokeOnMessage();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.AIGraph.LeafNode.Body
             var dummy = new BodyLeafNodeStatusChange();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.BodyLeafNodeStatusChange", 0, Black.AIGraph.LeafNode.Body.BodyLeafNodeStatusChange.ObjectType, null, properties, 0, 88);
+            ObjectType = new ObjectType("Black.AIGraph.LeafNode.Body.BodyLeafNodeStatusChange", 0, Black.AIGraph.LeafNode.Body.BodyLeafNodeStatusChange.ObjectType, Construct, properties, 0, 88);
         }
 		
         public override ObjectType GetObjectType()
@@ -53,6 +53,11 @@ namespace Black.AIGraph.LeafNode.Body
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new BodyLeafNodeStatusChange();
+        }
 		
     }
 }

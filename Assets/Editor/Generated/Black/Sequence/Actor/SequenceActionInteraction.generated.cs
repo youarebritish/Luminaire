@@ -31,7 +31,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionInteraction();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionInteraction", 0, Black.Sequence.Actor.SequenceActionInteraction.ObjectType, null, properties, 0, 1200);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionInteraction", 0, Black.Sequence.Actor.SequenceActionInteraction.ObjectType, Construct, properties, 0, 1200);
         }
 		
         public override ObjectType GetObjectType()
@@ -132,6 +132,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionInteraction();
+        }
 		
     }
 }

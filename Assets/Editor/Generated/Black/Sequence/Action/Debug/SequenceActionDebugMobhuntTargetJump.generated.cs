@@ -34,7 +34,7 @@ namespace Black.Sequence.Action.Debug
             var dummy = new SequenceActionDebugMobhuntTargetJump();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugMobhuntTargetJump", 0, Black.Sequence.Action.Debug.SequenceActionDebugMobhuntTargetJump.ObjectType, null, properties, 0, 1448);
+            ObjectType = new ObjectType("Black.Sequence.Action.Debug.SequenceActionDebugMobhuntTargetJump", 0, Black.Sequence.Action.Debug.SequenceActionDebugMobhuntTargetJump.ObjectType, Construct, properties, 0, 1448);
         }
 		
         public override ObjectType GetObjectType()
@@ -137,6 +137,11 @@ namespace Black.Sequence.Action.Debug
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionDebugMobhuntTargetJump();
+        }
 		
     }
 }

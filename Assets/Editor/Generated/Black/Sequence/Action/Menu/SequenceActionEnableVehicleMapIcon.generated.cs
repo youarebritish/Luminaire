@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Menu
             var dummy = new SequenceActionEnableVehicleMapIcon();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionEnableVehicleMapIcon", 0, Black.Sequence.Action.Menu.SequenceActionEnableVehicleMapIcon.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.Action.Menu.SequenceActionEnableVehicleMapIcon", 0, Black.Sequence.Action.Menu.SequenceActionEnableVehicleMapIcon.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -67,6 +67,11 @@ namespace Black.Sequence.Action.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionEnableVehicleMapIcon();
+        }
 		
     }
 }

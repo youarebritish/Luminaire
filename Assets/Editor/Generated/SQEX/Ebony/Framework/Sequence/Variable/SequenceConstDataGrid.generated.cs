@@ -58,7 +58,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
             var dummy = new SequenceConstDataGrid();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstDataGrid", 0, SQEX.Ebony.Framework.Sequence.Variable.SequenceConstDataGrid.ObjectType, null, properties, 0, 872);
+            ObjectType = new ObjectType("SQEX.Ebony.Framework.Sequence.Variable.SequenceConstDataGrid", 0, SQEX.Ebony.Framework.Sequence.Variable.SequenceConstDataGrid.ObjectType, Construct, properties, 0, 872);
         }
 		
         public override ObjectType GetObjectType()
@@ -147,6 +147,11 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstDataGrid();
+        }
 		
     }
 }

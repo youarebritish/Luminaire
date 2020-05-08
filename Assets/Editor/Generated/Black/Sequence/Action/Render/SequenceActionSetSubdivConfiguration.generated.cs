@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Render
             var dummy = new SequenceActionSetSubdivConfiguration();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetSubdivConfiguration", 0, Black.Sequence.Action.Render.SequenceActionSetSubdivConfiguration.ObjectType, null, properties, 0, 552);
+            ObjectType = new ObjectType("Black.Sequence.Action.Render.SequenceActionSetSubdivConfiguration", 0, Black.Sequence.Action.Render.SequenceActionSetSubdivConfiguration.ObjectType, Construct, properties, 0, 552);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Action.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetSubdivConfiguration();
+        }
 		
     }
 }

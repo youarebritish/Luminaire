@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.Save
             var dummy = new SequenceActionSaveExist();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionSaveExist", 0, Black.Sequence.Action.Save.SequenceActionSaveExist.ObjectType, null, properties, 0, 768);
+            ObjectType = new ObjectType("Black.Sequence.Action.Save.SequenceActionSaveExist", 0, Black.Sequence.Action.Save.SequenceActionSaveExist.ObjectType, Construct, properties, 0, 768);
         }
 		
         public override ObjectType GetObjectType()
@@ -101,6 +101,11 @@ namespace Black.Sequence.Action.Save
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSaveExist();
+        }
 		
     }
 }

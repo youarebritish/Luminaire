@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Minigame.Colosseum
             var dummy = new SequenceActionColosseumSetVuvuzela();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSetVuvuzela", 0, Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSetVuvuzela.ObjectType, null, properties, 0, 640);
+            ObjectType = new ObjectType("Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSetVuvuzela", 0, Black.Sequence.Action.Minigame.Colosseum.SequenceActionColosseumSetVuvuzela.ObjectType, Construct, properties, 0, 640);
         }
 		
         public override ObjectType GetObjectType()
@@ -85,6 +85,11 @@ namespace Black.Sequence.Action.Minigame.Colosseum
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionColosseumSetVuvuzela();
+        }
 		
     }
 }

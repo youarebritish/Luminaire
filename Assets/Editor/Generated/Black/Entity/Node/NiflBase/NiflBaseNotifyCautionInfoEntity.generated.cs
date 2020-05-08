@@ -28,7 +28,7 @@ namespace Black.Entity.Node.NiflBase
             var dummy = new NiflBaseNotifyCautionInfoEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.NiflBase.NiflBaseNotifyCautionInfoEntity", 0, Black.Entity.Node.NiflBase.NiflBaseNotifyCautionInfoEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.Entity.Node.NiflBase.NiflBaseNotifyCautionInfoEntity", 0, Black.Entity.Node.NiflBase.NiflBaseNotifyCautionInfoEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -63,6 +63,11 @@ namespace Black.Entity.Node.NiflBase
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new NiflBaseNotifyCautionInfoEntity();
+        }
 		
     }
 }

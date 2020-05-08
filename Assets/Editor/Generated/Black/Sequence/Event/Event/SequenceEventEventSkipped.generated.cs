@@ -22,7 +22,7 @@ namespace Black.Sequence.Event.Event
             var dummy = new SequenceEventEventSkipped();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.Event.SequenceEventEventSkipped", 0, Black.Sequence.Event.Event.SequenceEventEventSkipped.ObjectType, null, properties, 0, 280);
+            ObjectType = new ObjectType("Black.Sequence.Event.Event.SequenceEventEventSkipped", 0, Black.Sequence.Event.Event.SequenceEventEventSkipped.ObjectType, Construct, properties, 0, 280);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Event.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventEventSkipped();
+        }
 		
     }
 }

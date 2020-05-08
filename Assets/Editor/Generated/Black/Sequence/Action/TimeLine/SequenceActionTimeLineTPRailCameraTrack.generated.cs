@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.TimeLine
             var dummy = new SequenceActionTimeLineTPRailCameraTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineTPRailCameraTrack", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineTPRailCameraTrack.ObjectType, null, properties, 0, 432);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.SequenceActionTimeLineTPRailCameraTrack", 0, Black.Sequence.Action.TimeLine.SequenceActionTimeLineTPRailCameraTrack.ObjectType, Construct, properties, 0, 432);
         }
 		
         public override ObjectType GetObjectType()
@@ -83,6 +83,11 @@ namespace Black.Sequence.Action.TimeLine
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineTPRailCameraTrack();
+        }
 		
     }
 }

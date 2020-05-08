@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.TimeLine.Actor
             var dummy = new SequenceActionTimeLineCameraCallSequenceTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineCameraCallSequenceTrack", 0, Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineCameraCallSequenceTrack.ObjectType, null, properties, 0, 912);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineCameraCallSequenceTrack", 0, Black.Sequence.Action.TimeLine.Actor.SequenceActionTimeLineCameraCallSequenceTrack.ObjectType, Construct, properties, 0, 912);
         }
 		
         public override ObjectType GetObjectType()
@@ -88,6 +88,11 @@ namespace Black.Sequence.Action.TimeLine.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineCameraCallSequenceTrack();
+        }
 		
     }
 }

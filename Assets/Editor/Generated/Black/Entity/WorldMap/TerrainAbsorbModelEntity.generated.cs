@@ -27,7 +27,7 @@ namespace Black.Entity.WorldMap
             var dummy = new TerrainAbsorbModelEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.WorldMap.TerrainAbsorbModelEntity", 0, Black.Entity.WorldMap.TerrainAbsorbModelEntity.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Entity.WorldMap.TerrainAbsorbModelEntity", 0, Black.Entity.WorldMap.TerrainAbsorbModelEntity.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -61,6 +61,11 @@ namespace Black.Entity.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TerrainAbsorbModelEntity();
+        }
 		
     }
 }

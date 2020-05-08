@@ -21,7 +21,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
             var dummy = new InGameCameraFovTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.InGameCameraFovTrackItem", 0, Black.System.TimeLine.TrackItem.Camera.InGameCameraFovTrackItem.ObjectType, null, properties, 0, 216);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.Camera.InGameCameraFovTrackItem", 0, Black.System.TimeLine.TrackItem.Camera.InGameCameraFovTrackItem.ObjectType, Construct, properties, 0, 216);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.System.TimeLine.TrackItem.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new InGameCameraFovTrackItem();
+        }
 		
     }
 }

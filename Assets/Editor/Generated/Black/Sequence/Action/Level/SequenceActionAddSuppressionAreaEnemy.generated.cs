@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionAddSuppressionAreaEnemy();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionAddSuppressionAreaEnemy", 0, Black.Sequence.Action.Level.SequenceActionAddSuppressionAreaEnemy.ObjectType, null, properties, 0, 912);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionAddSuppressionAreaEnemy", 0, Black.Sequence.Action.Level.SequenceActionAddSuppressionAreaEnemy.ObjectType, Construct, properties, 0, 912);
         }
 		
         public override ObjectType GetObjectType()
@@ -92,6 +92,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAddSuppressionAreaEnemy();
+        }
 		
     }
 }

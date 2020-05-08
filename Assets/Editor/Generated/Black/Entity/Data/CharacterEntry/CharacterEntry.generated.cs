@@ -106,7 +106,7 @@ namespace Black.Entity.Data.CharacterEntry
             var dummy = new CharacterEntry();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.CharacterEntry", 0, Black.Entity.Data.CharacterEntry.CharacterEntry.ObjectType, null, properties, 0, 1128);
+            ObjectType = new ObjectType("Black.Entity.Data.CharacterEntry.CharacterEntry", 0, Black.Entity.Data.CharacterEntry.CharacterEntry.ObjectType, Construct, properties, 0, 1128);
         }
 		
         public override ObjectType GetObjectType()
@@ -216,6 +216,11 @@ namespace Black.Entity.Data.CharacterEntry
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CharacterEntry();
+        }
 		
     }
 }

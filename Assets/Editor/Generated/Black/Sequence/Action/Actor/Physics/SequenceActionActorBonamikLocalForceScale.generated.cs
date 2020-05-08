@@ -29,7 +29,7 @@ namespace Black.Sequence.Action.Actor.Physics
             var dummy = new SequenceActionActorBonamikLocalForceScale();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikLocalForceScale", 0, Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikLocalForceScale.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikLocalForceScale", 0, Black.Sequence.Action.Actor.Physics.SequenceActionActorBonamikLocalForceScale.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace Black.Sequence.Action.Actor.Physics
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorBonamikLocalForceScale();
+        }
 		
     }
 }

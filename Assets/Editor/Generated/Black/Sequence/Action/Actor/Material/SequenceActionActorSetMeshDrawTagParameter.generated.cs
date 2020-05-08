@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Actor.Material
             var dummy = new SequenceActionActorSetMeshDrawTagParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Material.SequenceActionActorSetMeshDrawTagParameter", 0, Black.Sequence.Action.Actor.Material.SequenceActionActorSetMeshDrawTagParameter.ObjectType, null, properties, 0, 472);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Material.SequenceActionActorSetMeshDrawTagParameter", 0, Black.Sequence.Action.Actor.Material.SequenceActionActorSetMeshDrawTagParameter.ObjectType, Construct, properties, 0, 472);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.Actor.Material
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetMeshDrawTagParameter();
+        }
 		
     }
 }

@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new ContentResultDeterminationSync();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.ContentResultDeterminationSync", 0, Black.MultiPlayer.ContentResultDeterminationSync.ObjectType, null, properties, 1, 2304);
+            ObjectType = new ObjectType("Black.MultiPlayer.ContentResultDeterminationSync", 0, Black.MultiPlayer.ContentResultDeterminationSync.ObjectType, Construct, properties, 1, 2304);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ContentResultDeterminationSync();
+        }
 		
     }
 }

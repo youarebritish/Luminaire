@@ -21,7 +21,7 @@ namespace Black.Save
             var dummy = new GlobalSaveData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Save.GlobalSaveData", 0, Black.Save.GlobalSaveData.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.Save.GlobalSaveData", 0, Black.Save.GlobalSaveData.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Save
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new GlobalSaveData();
+        }
 		
     }
 }

@@ -21,7 +21,7 @@ namespace Black.Entity.Node
             var dummy = new SpawnBoxNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.SpawnBoxNodeEntity", 0, Black.Entity.Node.SpawnBoxNodeEntity.ObjectType, null, properties, 0, 368);
+            ObjectType = new ObjectType("Black.Entity.Node.SpawnBoxNodeEntity", 0, Black.Entity.Node.SpawnBoxNodeEntity.ObjectType, Construct, properties, 0, 368);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SpawnBoxNodeEntity();
+        }
 		
     }
 }

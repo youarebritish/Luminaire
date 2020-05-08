@@ -20,7 +20,7 @@ namespace Black.Entity.Area
             var dummy = new UniversalPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Area.UniversalPackage", 0, Black.Entity.Area.UniversalPackage.ObjectType, null, properties, 0, 688);
+            ObjectType = new ObjectType("Black.Entity.Area.UniversalPackage", 0, Black.Entity.Area.UniversalPackage.ObjectType, Construct, properties, 0, 688);
         }
 		
         public override ObjectType GetObjectType()
@@ -66,6 +66,11 @@ namespace Black.Entity.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new UniversalPackage();
+        }
 		
     }
 }

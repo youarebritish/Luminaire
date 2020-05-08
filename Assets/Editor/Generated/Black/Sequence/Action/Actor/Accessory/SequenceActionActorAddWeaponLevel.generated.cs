@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.Actor.Accessory
             var dummy = new SequenceActionActorAddWeaponLevel();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorAddWeaponLevel", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorAddWeaponLevel.ObjectType, null, properties, 0, 568);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Accessory.SequenceActionActorAddWeaponLevel", 0, Black.Sequence.Action.Actor.Accessory.SequenceActionActorAddWeaponLevel.ObjectType, Construct, properties, 0, 568);
         }
 		
         public override ObjectType GetObjectType()
@@ -85,6 +85,11 @@ namespace Black.Sequence.Action.Actor.Accessory
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorAddWeaponLevel();
+        }
 		
     }
 }

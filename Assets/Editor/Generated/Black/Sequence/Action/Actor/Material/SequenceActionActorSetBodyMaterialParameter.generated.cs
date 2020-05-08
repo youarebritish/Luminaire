@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Actor.Material
             var dummy = new SequenceActionActorSetBodyMaterialParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Material.SequenceActionActorSetBodyMaterialParameter", 0, Black.Sequence.Action.Actor.Material.SequenceActionActorSetBodyMaterialParameter.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Material.SequenceActionActorSetBodyMaterialParameter", 0, Black.Sequence.Action.Actor.Material.SequenceActionActorSetBodyMaterialParameter.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -79,6 +79,11 @@ namespace Black.Sequence.Action.Actor.Material
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetBodyMaterialParameter();
+        }
 		
     }
 }

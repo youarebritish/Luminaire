@@ -30,7 +30,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableParamTable();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableParamTable", 0, Black.Sequence.Variable.SequenceVariableParamTable.ObjectType, null, properties, 0, 400);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableParamTable", 0, Black.Sequence.Variable.SequenceVariableParamTable.ObjectType, Construct, properties, 0, 400);
         }
 		
         public override ObjectType GetObjectType()
@@ -78,6 +78,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableParamTable();
+        }
 		
     }
 }

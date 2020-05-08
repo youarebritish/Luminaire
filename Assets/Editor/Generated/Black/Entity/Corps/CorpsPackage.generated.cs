@@ -20,7 +20,7 @@ namespace Black.Entity.Corps
             var dummy = new CorpsPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Corps.CorpsPackage", 0, Black.Entity.Corps.CorpsPackage.ObjectType, null, properties, 0, 624);
+            ObjectType = new ObjectType("Black.Entity.Corps.CorpsPackage", 0, Black.Entity.Corps.CorpsPackage.ObjectType, Construct, properties, 0, 624);
         }
 		
         public override ObjectType GetObjectType()
@@ -64,6 +64,11 @@ namespace Black.Entity.Corps
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new CorpsPackage();
+        }
 		
     }
 }

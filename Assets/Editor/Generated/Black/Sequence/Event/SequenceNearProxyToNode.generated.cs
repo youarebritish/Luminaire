@@ -21,7 +21,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceNearProxyToNode();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceNearProxyToNode", 0, Black.Sequence.Event.SequenceNearProxyToNode.ObjectType, null, properties, 0, 272);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceNearProxyToNode", 0, Black.Sequence.Event.SequenceNearProxyToNode.ObjectType, Construct, properties, 0, 272);
         }
 		
         public override ObjectType GetObjectType()
@@ -57,6 +57,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceNearProxyToNode();
+        }
 		
     }
 }

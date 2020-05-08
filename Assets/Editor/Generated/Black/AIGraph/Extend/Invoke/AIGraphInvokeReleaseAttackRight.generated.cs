@@ -20,7 +20,7 @@ namespace Black.AIGraph.Extend.Invoke
             var dummy = new AIGraphInvokeReleaseAttackRight();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeReleaseAttackRight", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeReleaseAttackRight.ObjectType, null, properties, 0, 24);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.AIGraphInvokeReleaseAttackRight", 0, Black.AIGraph.Extend.Invoke.AIGraphInvokeReleaseAttackRight.ObjectType, Construct, properties, 0, 24);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.AIGraph.Extend.Invoke
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeReleaseAttackRight();
+        }
 		
     }
 }

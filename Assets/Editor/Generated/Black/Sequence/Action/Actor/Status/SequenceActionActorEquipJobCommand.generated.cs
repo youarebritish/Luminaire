@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Actor.Status
             var dummy = new SequenceActionActorEquipJobCommand();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorEquipJobCommand", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorEquipJobCommand.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.Status.SequenceActionActorEquipJobCommand", 0, Black.Sequence.Action.Actor.Status.SequenceActionActorEquipJobCommand.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -88,6 +88,11 @@ namespace Black.Sequence.Action.Actor.Status
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorEquipJobCommand();
+        }
 		
     }
 }

@@ -25,7 +25,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableEncycloArchiveAdditionalRate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableEncycloArchiveAdditionalRate", 0, Black.Sequence.Variable.SequenceVariableEncycloArchiveAdditionalRate.ObjectType, null, properties, 0, 448);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableEncycloArchiveAdditionalRate", 0, Black.Sequence.Variable.SequenceVariableEncycloArchiveAdditionalRate.ObjectType, Construct, properties, 0, 448);
         }
 		
         public override ObjectType GetObjectType()
@@ -72,6 +72,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableEncycloArchiveAdditionalRate();
+        }
 		
     }
 }

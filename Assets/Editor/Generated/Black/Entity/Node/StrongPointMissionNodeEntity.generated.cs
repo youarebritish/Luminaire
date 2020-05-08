@@ -22,7 +22,7 @@ namespace Black.Entity.Node
             var dummy = new StrongPointMissionNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.StrongPointMissionNodeEntity", 0, Black.Entity.Node.StrongPointMissionNodeEntity.ObjectType, null, properties, 0, 336);
+            ObjectType = new ObjectType("Black.Entity.Node.StrongPointMissionNodeEntity", 0, Black.Entity.Node.StrongPointMissionNodeEntity.ObjectType, Construct, properties, 0, 336);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new StrongPointMissionNodeEntity();
+        }
 		
     }
 }

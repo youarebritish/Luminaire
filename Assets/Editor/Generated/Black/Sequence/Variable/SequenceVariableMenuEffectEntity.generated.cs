@@ -22,7 +22,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceVariableMenuEffectEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableMenuEffectEntity", 0, Black.Sequence.Variable.SequenceVariableMenuEffectEntity.ObjectType, null, properties, 0, 184);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceVariableMenuEffectEntity", 0, Black.Sequence.Variable.SequenceVariableMenuEffectEntity.ObjectType, Construct, properties, 0, 184);
         }
 		
         public override ObjectType GetObjectType()
@@ -54,6 +54,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceVariableMenuEffectEntity();
+        }
 		
     }
 }

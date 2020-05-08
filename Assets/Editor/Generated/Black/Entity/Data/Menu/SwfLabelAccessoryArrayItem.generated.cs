@@ -23,7 +23,7 @@ namespace Black.Entity.Data.Menu
             var dummy = new SwfLabelAccessoryArrayItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Data.Menu.SwfLabelAccessoryArrayItem", 0, Black.Entity.Data.Menu.SwfLabelAccessoryArrayItem.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.Entity.Data.Menu.SwfLabelAccessoryArrayItem", 0, Black.Entity.Data.Menu.SwfLabelAccessoryArrayItem.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity.Data.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SwfLabelAccessoryArrayItem();
+        }
 		
     }
 }

@@ -30,7 +30,7 @@ namespace Black.Entity.Node
             var dummy = new MapLodEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.MapLodEntity", 0, Black.Entity.Node.MapLodEntity.ObjectType, null, properties, 0, 496);
+            ObjectType = new ObjectType("Black.Entity.Node.MapLodEntity", 0, Black.Entity.Node.MapLodEntity.ObjectType, Construct, properties, 0, 496);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new MapLodEntity();
+        }
 		
     }
 }

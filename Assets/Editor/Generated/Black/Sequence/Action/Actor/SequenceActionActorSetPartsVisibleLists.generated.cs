@@ -47,7 +47,7 @@ namespace Black.Sequence.Action.Actor
             var dummy = new SequenceActionActorSetPartsVisibleLists();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetPartsVisibleLists", 0, Black.Sequence.Action.Actor.SequenceActionActorSetPartsVisibleLists.ObjectType, null, properties, 0, 1672);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.SequenceActionActorSetPartsVisibleLists", 0, Black.Sequence.Action.Actor.SequenceActionActorSetPartsVisibleLists.ObjectType, Construct, properties, 0, 1672);
         }
 		
         public override ObjectType GetObjectType()
@@ -182,6 +182,11 @@ namespace Black.Sequence.Action.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionActorSetPartsVisibleLists();
+        }
 		
     }
 }

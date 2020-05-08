@@ -27,7 +27,7 @@ namespace SQEX.Ebony.AIGraph.Data
             var dummy = new TransitionData();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.TransitionData", 0, SQEX.Ebony.AIGraph.Data.TransitionData.ObjectType, null, properties, 0, 56);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.TransitionData", 0, SQEX.Ebony.AIGraph.Data.TransitionData.ObjectType, Construct, properties, 0, 56);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace SQEX.Ebony.AIGraph.Data
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new TransitionData();
+        }
 		
     }
 }

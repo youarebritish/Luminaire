@@ -29,7 +29,7 @@ namespace Black.Entity.WorldMap.Foliage
             var dummy = new FoliageDataEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.WorldMap.Foliage.FoliageDataEntity", 0, Black.Entity.WorldMap.Foliage.FoliageDataEntity.ObjectType, null, properties, 0, 480);
+            ObjectType = new ObjectType("Black.Entity.WorldMap.Foliage.FoliageDataEntity", 0, Black.Entity.WorldMap.Foliage.FoliageDataEntity.ObjectType, Construct, properties, 0, 480);
         }
 		
         public override ObjectType GetObjectType()
@@ -65,6 +65,11 @@ namespace Black.Entity.WorldMap.Foliage
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new FoliageDataEntity();
+        }
 		
     }
 }

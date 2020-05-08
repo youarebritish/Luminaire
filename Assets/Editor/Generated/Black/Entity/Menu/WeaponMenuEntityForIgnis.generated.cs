@@ -20,7 +20,7 @@ namespace Black.Entity.Menu
             var dummy = new WeaponMenuEntityForIgnis();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Menu.WeaponMenuEntityForIgnis", 0, Black.Entity.Menu.WeaponMenuEntityForIgnis.ObjectType, null, properties, 0, 784);
+            ObjectType = new ObjectType("Black.Entity.Menu.WeaponMenuEntityForIgnis", 0, Black.Entity.Menu.WeaponMenuEntityForIgnis.ObjectType, Construct, properties, 0, 784);
         }
 		
         public override ObjectType GetObjectType()
@@ -49,6 +49,11 @@ namespace Black.Entity.Menu
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new WeaponMenuEntityForIgnis();
+        }
 		
     }
 }

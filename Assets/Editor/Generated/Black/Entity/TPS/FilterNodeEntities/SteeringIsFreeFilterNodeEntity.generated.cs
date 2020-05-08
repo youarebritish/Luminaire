@@ -21,7 +21,7 @@ namespace Black.Entity.TPS.FilterNodeEntities
             var dummy = new SteeringIsFreeFilterNodeEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.SteeringIsFreeFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.SteeringIsFreeFilterNodeEntity.ObjectType, null, properties, 0, 312);
+            ObjectType = new ObjectType("Black.Entity.TPS.FilterNodeEntities.SteeringIsFreeFilterNodeEntity", 0, Black.Entity.TPS.FilterNodeEntities.SteeringIsFreeFilterNodeEntity.ObjectType, Construct, properties, 0, 312);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.Entity.TPS.FilterNodeEntities
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SteeringIsFreeFilterNodeEntity();
+        }
 		
     }
 }

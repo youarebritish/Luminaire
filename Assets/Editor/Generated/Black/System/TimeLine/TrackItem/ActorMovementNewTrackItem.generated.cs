@@ -24,7 +24,7 @@ namespace Black.System.TimeLine.TrackItem
             var dummy = new ActorMovementNewTrackItem();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.ActorMovementNewTrackItem", 0, Black.System.TimeLine.TrackItem.ActorMovementNewTrackItem.ObjectType, null, properties, 0, 160);
+            ObjectType = new ObjectType("Black.System.TimeLine.TrackItem.ActorMovementNewTrackItem", 0, Black.System.TimeLine.TrackItem.ActorMovementNewTrackItem.ObjectType, Construct, properties, 0, 160);
         }
 		
         public override ObjectType GetObjectType()
@@ -55,6 +55,11 @@ namespace Black.System.TimeLine.TrackItem
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new ActorMovementNewTrackItem();
+        }
 		
     }
 }

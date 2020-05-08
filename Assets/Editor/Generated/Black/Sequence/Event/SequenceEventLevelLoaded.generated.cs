@@ -22,7 +22,7 @@ namespace Black.Sequence.Event
             var dummy = new SequenceEventLevelLoaded();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventLevelLoaded", 0, Black.Sequence.Event.SequenceEventLevelLoaded.ObjectType, null, properties, 0, 280);
+            ObjectType = new ObjectType("Black.Sequence.Event.SequenceEventLevelLoaded", 0, Black.Sequence.Event.SequenceEventLevelLoaded.ObjectType, Construct, properties, 0, 280);
         }
 		
         public override ObjectType GetObjectType()
@@ -58,6 +58,11 @@ namespace Black.Sequence.Event
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceEventLevelLoaded();
+        }
 		
     }
 }

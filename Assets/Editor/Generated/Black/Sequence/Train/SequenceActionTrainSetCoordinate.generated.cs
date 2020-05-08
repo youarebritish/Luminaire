@@ -29,7 +29,7 @@ namespace Black.Sequence.Train
             var dummy = new SequenceActionTrainSetCoordinate();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Train.SequenceActionTrainSetCoordinate", 0, Black.Sequence.Train.SequenceActionTrainSetCoordinate.ObjectType, null, properties, 0, 568);
+            ObjectType = new ObjectType("Black.Sequence.Train.SequenceActionTrainSetCoordinate", 0, Black.Sequence.Train.SequenceActionTrainSetCoordinate.ObjectType, Construct, properties, 0, 568);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Train
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTrainSetCoordinate();
+        }
 		
     }
 }

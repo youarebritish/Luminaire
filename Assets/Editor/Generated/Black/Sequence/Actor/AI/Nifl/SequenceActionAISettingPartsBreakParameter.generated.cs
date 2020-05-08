@@ -42,7 +42,7 @@ namespace Black.Sequence.Actor.AI.Nifl
             var dummy = new SequenceActionAISettingPartsBreakParameter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Nifl.SequenceActionAISettingPartsBreakParameter", 0, Black.Sequence.Actor.AI.Nifl.SequenceActionAISettingPartsBreakParameter.ObjectType, null, properties, 0, 584);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.Nifl.SequenceActionAISettingPartsBreakParameter", 0, Black.Sequence.Actor.AI.Nifl.SequenceActionAISettingPartsBreakParameter.ObjectType, Construct, properties, 0, 584);
         }
 		
         public override ObjectType GetObjectType()
@@ -109,6 +109,11 @@ namespace Black.Sequence.Actor.AI.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAISettingPartsBreakParameter();
+        }
 		
     }
 }

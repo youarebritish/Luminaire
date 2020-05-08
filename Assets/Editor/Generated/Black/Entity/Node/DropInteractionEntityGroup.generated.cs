@@ -20,7 +20,7 @@ namespace Black.Entity.Node
             var dummy = new DropInteractionEntityGroup();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Node.DropInteractionEntityGroup", 0, Black.Entity.Node.DropInteractionEntityGroup.ObjectType, null, properties, 0, 208);
+            ObjectType = new ObjectType("Black.Entity.Node.DropInteractionEntityGroup", 0, Black.Entity.Node.DropInteractionEntityGroup.ObjectType, Construct, properties, 0, 208);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.Entity.Node
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new DropInteractionEntityGroup();
+        }
 		
     }
 }

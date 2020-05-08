@@ -22,7 +22,7 @@ namespace Black.Sequence.Control
             var dummy = new SequenceActionControlSetGameFlag();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlSetGameFlag", 0, Black.Sequence.Control.SequenceActionControlSetGameFlag.ObjectType, null, properties, 0, 504);
+            ObjectType = new ObjectType("Black.Sequence.Control.SequenceActionControlSetGameFlag", 0, Black.Sequence.Control.SequenceActionControlSetGameFlag.ObjectType, Construct, properties, 0, 504);
         }
 		
         public override ObjectType GetObjectType()
@@ -73,6 +73,11 @@ namespace Black.Sequence.Control
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionControlSetGameFlag();
+        }
 		
     }
 }

@@ -22,7 +22,7 @@ namespace Black.Entity.Area
             var dummy = new LoadUnitPackage();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Entity.Area.LoadUnitPackage", 0, Black.Entity.Area.LoadUnitPackage.ObjectType, null, properties, 0, 688);
+            ObjectType = new ObjectType("Black.Entity.Area.LoadUnitPackage", 0, Black.Entity.Area.LoadUnitPackage.ObjectType, Construct, properties, 0, 688);
         }
 		
         public override ObjectType GetObjectType()
@@ -68,6 +68,11 @@ namespace Black.Entity.Area
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new LoadUnitPackage();
+        }
 		
     }
 }

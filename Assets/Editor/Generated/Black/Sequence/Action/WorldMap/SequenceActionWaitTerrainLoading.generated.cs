@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.WorldMap
             var dummy = new SequenceActionWaitTerrainLoading();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.WorldMap.SequenceActionWaitTerrainLoading", 0, Black.Sequence.Action.WorldMap.SequenceActionWaitTerrainLoading.ObjectType, null, properties, 0, 384);
+            ObjectType = new ObjectType("Black.Sequence.Action.WorldMap.SequenceActionWaitTerrainLoading", 0, Black.Sequence.Action.WorldMap.SequenceActionWaitTerrainLoading.ObjectType, Construct, properties, 0, 384);
         }
 		
         public override ObjectType GetObjectType()
@@ -71,6 +71,11 @@ namespace Black.Sequence.Action.WorldMap
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionWaitTerrainLoading();
+        }
 		
     }
 }

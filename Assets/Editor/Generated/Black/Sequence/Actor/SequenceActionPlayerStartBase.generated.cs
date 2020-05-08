@@ -38,7 +38,7 @@ namespace Black.Sequence.Actor
             var dummy = new SequenceActionPlayerStartBase();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionPlayerStartBase", 0, Black.Sequence.Actor.SequenceActionPlayerStartBase.ObjectType, null, properties, 0, 896);
+            ObjectType = new ObjectType("Black.Sequence.Actor.SequenceActionPlayerStartBase", 0, Black.Sequence.Actor.SequenceActionPlayerStartBase.ObjectType, Construct, properties, 0, 896);
         }
 		
         public override ObjectType GetObjectType()
@@ -119,6 +119,11 @@ namespace Black.Sequence.Actor
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionPlayerStartBase();
+        }
 		
     }
 }

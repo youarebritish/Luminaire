@@ -25,7 +25,7 @@ namespace Black.AIGraph.CondNode.AI
             var dummy = new AICondNodeTargetAngle();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.CondNode.AI.AICondNodeTargetAngle", 0, Black.AIGraph.CondNode.AI.AICondNodeTargetAngle.ObjectType, null, properties, 0, 504);
+            ObjectType = new ObjectType("Black.AIGraph.CondNode.AI.AICondNodeTargetAngle", 0, Black.AIGraph.CondNode.AI.AICondNodeTargetAngle.ObjectType, Construct, properties, 0, 504);
         }
 		
         public override ObjectType GetObjectType()
@@ -80,6 +80,11 @@ namespace Black.AIGraph.CondNode.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AICondNodeTargetAngle();
+        }
 		
     }
 }

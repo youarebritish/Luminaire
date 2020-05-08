@@ -30,7 +30,7 @@ namespace Black.Sequence.Actor.AI
             var dummy = new SequenceActionAIMoveLineOfFire();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Actor.AI.SequenceActionAIMoveLineOfFire", 0, Black.Sequence.Actor.AI.SequenceActionAIMoveLineOfFire.ObjectType, null, properties, 0, 1536);
+            ObjectType = new ObjectType("Black.Sequence.Actor.AI.SequenceActionAIMoveLineOfFire", 0, Black.Sequence.Actor.AI.SequenceActionAIMoveLineOfFire.ObjectType, Construct, properties, 0, 1536);
         }
 		
         public override ObjectType GetObjectType()
@@ -142,6 +142,11 @@ namespace Black.Sequence.Actor.AI
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAIMoveLineOfFire();
+        }
 		
     }
 }

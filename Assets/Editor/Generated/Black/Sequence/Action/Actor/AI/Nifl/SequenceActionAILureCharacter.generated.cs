@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
             var dummy = new SequenceActionAILureCharacter();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAILureCharacter", 0, Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAILureCharacter.ObjectType, null, properties, 0, 496);
+            ObjectType = new ObjectType("Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAILureCharacter", 0, Black.Sequence.Action.Actor.AI.Nifl.SequenceActionAILureCharacter.ObjectType, Construct, properties, 0, 496);
         }
 		
         public override ObjectType GetObjectType()
@@ -75,6 +75,11 @@ namespace Black.Sequence.Action.Actor.AI.Nifl
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionAILureCharacter();
+        }
 		
     }
 }

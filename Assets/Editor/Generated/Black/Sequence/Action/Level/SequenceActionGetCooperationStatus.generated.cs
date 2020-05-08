@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionGetCooperationStatus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionGetCooperationStatus", 0, Black.Sequence.Action.Level.SequenceActionGetCooperationStatus.ObjectType, null, properties, 0, 664);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionGetCooperationStatus", 0, Black.Sequence.Action.Level.SequenceActionGetCooperationStatus.ObjectType, Construct, properties, 0, 664);
         }
 		
         public override ObjectType GetObjectType()
@@ -93,6 +93,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetCooperationStatus();
+        }
 		
     }
 }

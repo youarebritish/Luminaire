@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
             var dummy = new SequenceActionTimeLineCameraTPFovTrack();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraTPFovTrack", 0, Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraTPFovTrack.ObjectType, null, properties, 0, 536);
+            ObjectType = new ObjectType("Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraTPFovTrack", 0, Black.Sequence.Action.TimeLine.Camera.SequenceActionTimeLineCameraTPFovTrack.ObjectType, Construct, properties, 0, 536);
         }
 		
         public override ObjectType GetObjectType()
@@ -89,6 +89,11 @@ namespace Black.Sequence.Action.TimeLine.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionTimeLineCameraTPFovTrack();
+        }
 		
     }
 }

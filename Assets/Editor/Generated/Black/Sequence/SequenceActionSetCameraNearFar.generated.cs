@@ -24,7 +24,7 @@ namespace Black.Sequence
             var dummy = new SequenceActionSetCameraNearFar();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.SequenceActionSetCameraNearFar", 0, Black.Sequence.SequenceActionSetCameraNearFar.ObjectType, null, properties, 0, 376);
+            ObjectType = new ObjectType("Black.Sequence.SequenceActionSetCameraNearFar", 0, Black.Sequence.SequenceActionSetCameraNearFar.ObjectType, Construct, properties, 0, 376);
         }
 		
         public override ObjectType GetObjectType()
@@ -69,6 +69,11 @@ namespace Black.Sequence
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetCameraNearFar();
+        }
 		
     }
 }

@@ -25,7 +25,7 @@ namespace Black.Sequence.Render
             var dummy = new SequenceActionSetTextureStreamingPoint();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetTextureStreamingPoint", 0, Black.Sequence.Render.SequenceActionSetTextureStreamingPoint.ObjectType, null, properties, 0, 568);
+            ObjectType = new ObjectType("Black.Sequence.Render.SequenceActionSetTextureStreamingPoint", 0, Black.Sequence.Render.SequenceActionSetTextureStreamingPoint.ObjectType, Construct, properties, 0, 568);
         }
 		
         public override ObjectType GetObjectType()
@@ -81,6 +81,11 @@ namespace Black.Sequence.Render
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetTextureStreamingPoint();
+        }
 		
     }
 }

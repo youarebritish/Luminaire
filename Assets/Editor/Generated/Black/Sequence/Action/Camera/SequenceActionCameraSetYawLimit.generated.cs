@@ -32,7 +32,7 @@ namespace Black.Sequence.Action.Camera
             var dummy = new SequenceActionCameraSetYawLimit();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionCameraSetYawLimit", 0, Black.Sequence.Action.Camera.SequenceActionCameraSetYawLimit.ObjectType, null, properties, 0, 840);
+            ObjectType = new ObjectType("Black.Sequence.Action.Camera.SequenceActionCameraSetYawLimit", 0, Black.Sequence.Action.Camera.SequenceActionCameraSetYawLimit.ObjectType, Construct, properties, 0, 840);
         }
 		
         public override ObjectType GetObjectType()
@@ -107,6 +107,11 @@ namespace Black.Sequence.Action.Camera
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionCameraSetYawLimit();
+        }
 		
     }
 }

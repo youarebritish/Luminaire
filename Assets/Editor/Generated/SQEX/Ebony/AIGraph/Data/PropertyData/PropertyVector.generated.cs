@@ -21,7 +21,7 @@ namespace SQEX.Ebony.AIGraph.Data.PropertyData
             var dummy = new PropertyVector();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.PropertyData.PropertyVector", 0, SQEX.Ebony.AIGraph.Data.PropertyData.PropertyVector.ObjectType, null, properties, 0, 64);
+            ObjectType = new ObjectType("SQEX.Ebony.AIGraph.Data.PropertyData.PropertyVector", 0, SQEX.Ebony.AIGraph.Data.PropertyData.PropertyVector.ObjectType, Construct, properties, 0, 64);
         }
 		
         public override ObjectType GetObjectType()
@@ -48,6 +48,11 @@ namespace SQEX.Ebony.AIGraph.Data.PropertyData
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new PropertyVector();
+        }
 		
     }
 }

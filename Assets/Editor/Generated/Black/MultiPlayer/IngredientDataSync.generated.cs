@@ -20,7 +20,7 @@ namespace Black.MultiPlayer
             var dummy = new IngredientDataSync();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.MultiPlayer.IngredientDataSync", 0, Black.MultiPlayer.IngredientDataSync.ObjectType, null, properties, 4, 112);
+            ObjectType = new ObjectType("Black.MultiPlayer.IngredientDataSync", 0, Black.MultiPlayer.IngredientDataSync.ObjectType, Construct, properties, 4, 112);
         }
 		
         public override ObjectType GetObjectType()
@@ -44,6 +44,11 @@ namespace Black.MultiPlayer
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new IngredientDataSync();
+        }
 		
     }
 }

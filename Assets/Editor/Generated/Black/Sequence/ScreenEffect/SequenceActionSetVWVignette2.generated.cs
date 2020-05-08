@@ -30,7 +30,7 @@ namespace Black.Sequence.ScreenEffect
             var dummy = new SequenceActionSetVWVignette2();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetVWVignette2", 0, Black.Sequence.ScreenEffect.SequenceActionSetVWVignette2.ObjectType, null, properties, 0, 1024);
+            ObjectType = new ObjectType("Black.Sequence.ScreenEffect.SequenceActionSetVWVignette2", 0, Black.Sequence.ScreenEffect.SequenceActionSetVWVignette2.ObjectType, Construct, properties, 0, 1024);
         }
 		
         public override ObjectType GetObjectType()
@@ -117,6 +117,11 @@ namespace Black.Sequence.ScreenEffect
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetVWVignette2();
+        }
 		
     }
 }

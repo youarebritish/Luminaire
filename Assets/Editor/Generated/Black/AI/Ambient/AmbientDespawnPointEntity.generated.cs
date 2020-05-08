@@ -21,7 +21,7 @@ namespace Black.AI.Ambient
             var dummy = new AmbientDespawnPointEntity();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AI.Ambient.AmbientDespawnPointEntity", 0, Black.AI.Ambient.AmbientDespawnPointEntity.ObjectType, null, properties, 0, 304);
+            ObjectType = new ObjectType("Black.AI.Ambient.AmbientDespawnPointEntity", 0, Black.AI.Ambient.AmbientDespawnPointEntity.ObjectType, Construct, properties, 0, 304);
         }
 		
         public override ObjectType GetObjectType()
@@ -50,6 +50,11 @@ namespace Black.AI.Ambient
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AmbientDespawnPointEntity();
+        }
 		
     }
 }

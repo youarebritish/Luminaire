@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level
             var dummy = new SequenceActionGetChefNpc();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionGetChefNpc", 0, Black.Sequence.Action.Level.SequenceActionGetChefNpc.ObjectType, null, properties, 0, 544);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.SequenceActionGetChefNpc", 0, Black.Sequence.Action.Level.SequenceActionGetChefNpc.ObjectType, Construct, properties, 0, 544);
         }
 		
         public override ObjectType GetObjectType()
@@ -77,6 +77,11 @@ namespace Black.Sequence.Action.Level
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetChefNpc();
+        }
 		
     }
 }

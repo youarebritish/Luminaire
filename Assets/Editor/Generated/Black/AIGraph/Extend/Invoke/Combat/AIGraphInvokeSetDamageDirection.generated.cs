@@ -21,7 +21,7 @@ namespace Black.AIGraph.Extend.Invoke.Combat
             var dummy = new AIGraphInvokeSetDamageDirection();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetDamageDirection", 0, Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetDamageDirection.ObjectType, null, properties, 0, 32);
+            ObjectType = new ObjectType("Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetDamageDirection", 0, Black.AIGraph.Extend.Invoke.Combat.AIGraphInvokeSetDamageDirection.ObjectType, Construct, properties, 0, 32);
         }
 		
         public override ObjectType GetObjectType()
@@ -46,6 +46,11 @@ namespace Black.AIGraph.Extend.Invoke.Combat
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new AIGraphInvokeSetDamageDirection();
+        }
 		
     }
 }

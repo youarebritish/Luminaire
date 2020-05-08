@@ -28,7 +28,7 @@ namespace Black.Sequence.Action.System
             var dummy = new SequenceActionSetSlowForFeatures();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSetSlowForFeatures", 0, Black.Sequence.Action.System.SequenceActionSetSlowForFeatures.ObjectType, null, properties, 0, 560);
+            ObjectType = new ObjectType("Black.Sequence.Action.System.SequenceActionSetSlowForFeatures", 0, Black.Sequence.Action.System.SequenceActionSetSlowForFeatures.ObjectType, Construct, properties, 0, 560);
         }
 		
         public override ObjectType GetObjectType()
@@ -87,6 +87,11 @@ namespace Black.Sequence.Action.System
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionSetSlowForFeatures();
+        }
 		
     }
 }

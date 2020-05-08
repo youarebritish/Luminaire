@@ -25,7 +25,7 @@ namespace Black.Sequence.Variable
             var dummy = new SequenceConstantGraphicsConfig();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstantGraphicsConfig", 0, Black.Sequence.Variable.SequenceConstantGraphicsConfig.ObjectType, null, properties, 0, 528);
+            ObjectType = new ObjectType("Black.Sequence.Variable.SequenceConstantGraphicsConfig", 0, Black.Sequence.Variable.SequenceConstantGraphicsConfig.ObjectType, Construct, properties, 0, 528);
         }
 		
         public override ObjectType GetObjectType()
@@ -76,6 +76,11 @@ namespace Black.Sequence.Variable
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceConstantGraphicsConfig();
+        }
 		
     }
 }

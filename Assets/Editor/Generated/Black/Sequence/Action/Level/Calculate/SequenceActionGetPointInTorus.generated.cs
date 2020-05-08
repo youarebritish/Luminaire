@@ -43,7 +43,7 @@ namespace Black.Sequence.Action.Level.Calculate
             var dummy = new SequenceActionGetPointInTorus();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("Black.Sequence.Action.Level.Calculate.SequenceActionGetPointInTorus", 0, Black.Sequence.Action.Level.Calculate.SequenceActionGetPointInTorus.ObjectType, null, properties, 0, 880);
+            ObjectType = new ObjectType("Black.Sequence.Action.Level.Calculate.SequenceActionGetPointInTorus", 0, Black.Sequence.Action.Level.Calculate.SequenceActionGetPointInTorus.ObjectType, Construct, properties, 0, 880);
         }
 		
         public override ObjectType GetObjectType()
@@ -125,6 +125,11 @@ namespace Black.Sequence.Action.Level.Calculate
 			return fieldProperties;
         }
 
+		
+        private static BaseObject Construct()
+        {
+            return new SequenceActionGetPointInTorus();
+        }
 		
     }
 }
