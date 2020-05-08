@@ -247,7 +247,6 @@ namespace SQEX.Ebony.Framework.Entity
                 return null;
             }*/
 
-            UnityEngine.Debug.Log(typeFullName);
             var instance = type.ConstructFunction2() as SQEX.Luminous.Core.Object.Object;
             if (instance != null)
             {
@@ -320,7 +319,11 @@ namespace SQEX.Ebony.Framework.Entity
                     break;
                 case Property.PrimitiveType.PointerArray:
                 case Property.PrimitiveType.IntrusivePointerArray:
-                    var listType = obj.GetType().GetProperty(property.Name, System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.FlattenHierarchy | BindingFlags.Public).PropertyType;
+                    // TODO abstract this out
+                    var IlistType = obj.GetType().GetField(property.Name, BindingFlags.Instance | BindingFlags.FlattenHierarchy | BindingFlags.Public).FieldType;
+                    var listInnerType = IlistType.GetTypeInfo().GenericTypeArguments[0];
+                    var listType = typeof(List<>).MakeGenericType(listInnerType);
+
                     var listValue = value as IList;
                     this.ReadPointerArray(obj, listType, element, out listValue);
                     value = listValue;
@@ -640,34 +643,34 @@ namespace SQEX.Ebony.Framework.Entity
                         var vector = element.GetFloat4Value();
                         if (vector != null)
                         {
-                            return new System.Numerics.Vector4(vector[0], vector[1], vector[2], vector[3]);
+                            return new UnityEngine.Vector4(vector[0], vector[1], vector[2], vector[3]);
                         }
 
                         var strVector = element.GetTextValue();
                         var components = strVector.Split(',').ToList();
                         if (components.Count == 4)
                         {
-                            return new System.Numerics.Vector4(float.Parse(components[0]), float.Parse(components[1]), float.Parse(components[2]), float.Parse(components[3]));
+                            return new UnityEngine.Vector4(float.Parse(components[0]), float.Parse(components[1]), float.Parse(components[2]), float.Parse(components[3]));
                         }
 
-                        return System.Numerics.Vector4.Zero;
+                        return UnityEngine.Vector4.zero;
                     }
                 case Property.PrimitiveType.Color:
                     {
                         var vector = element.GetFloat4Value();
                         if (vector != null)
                         {
-                            return new System.Numerics.Vector4(vector[0], vector[1], vector[2], vector[3]);
+                            return new UnityEngine.Color(vector[0], vector[1], vector[2], vector[3]);
                         }
 
                         var strVector = element.GetTextValue();
                         var components = strVector.Split(',').ToList();
                         if (components.Count == 4)
                         {
-                            return new System.Numerics.Vector4(float.Parse(components[0]), float.Parse(components[1]), float.Parse(components[2]), float.Parse(components[3]));
+                            return new UnityEngine.Color(float.Parse(components[0]), float.Parse(components[1]), float.Parse(components[2]), float.Parse(components[3]));
                         }
 
-                        return System.Numerics.Vector4.Zero;
+                        return UnityEngine.Color.black;
                     }
                 case Property.PrimitiveType.Enum:
                     {
@@ -1069,6 +1072,9 @@ namespace SQEX.Ebony.Framework.Entity
                 return null;
             }
 
+            return sourcePath;
+
+            // TODO Properly implement and debug
             if (parentPackage != null)
             {
                 return SQEX.Luminous.Core.IO.Path.ResolveRelativePath(parentPackage.sourcePath_, sourcePath);
