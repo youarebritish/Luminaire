@@ -1,13 +1,15 @@
-﻿using Newtonsoft.Json;
-using Scriban;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Collections.Generic;
+using Newtonsoft.Json;
+using Scriban;
 using static SQEX.Luminous.Core.Object.Property;
 
 public static class ClassGenerator
 {
+    private const string OutputDirectory = "/Editor/Generated/";
+
     private class SerializedObjectType
     {
         public string name_ { get; set; }
@@ -28,107 +30,134 @@ public static class ClassGenerator
         public ushort allPropertiesClassFieldCount_ { get; set; }
         public SerializedProperty[] myProperties_ { get; set; }
         public SerializedProperty[] allProperties_ { get; set; }
-        public IEnumerable<SerializedProperty> InheritedProperties => from property in allProperties_
-                                                                      where !myProperties_.Any(myProperty => myProperty.name_ == property.name_)
+
+        public IEnumerable<SerializedProperty> InheritedProperties => from property in this.allProperties_
+                                                                      where !this.myProperties_.Any(myProperty => myProperty.name_ == property.name_)
                                                                       select property;
     }
 
     private class SerializedProperty
     {
         public string name_ { get; set; }
-        public string ValidName => GetNameValid();
+        public string ValidName => this.GetNameValid();
         public uint nameHash_ { get; set; }
         public string typeName_ { get; set; }
-        public string targetTypeName => GetTargetTypeName();
+        public string targetTypeName => this.GetTargetTypeName();
         public uint offset_ { get; set; }
         public uint size_ { get; set; }
         public ushort itemCount_ { get; set; }
         public PrimitiveType primitiveType_ { get; set; }
-        public string PrimitiveTypeName => primitiveType_.ToString();
+        public string PrimitiveTypeName => this.primitiveType_.ToString();
+
         public string Initialization
         {
             get
             {
-                if (targetTypeName == "string")
+                if (this.targetTypeName == "string")
                 {
                     return "= string.Empty";
                 }
-                else if (targetTypeName.StartsWith("IList<"))
+                else if (this.targetTypeName.StartsWith("IList<"))
                 {
-                    return "= new " + targetTypeName.Substring(1) + "()";
+                    return "= new " + this.targetTypeName.Substring(1) + "()";
                 }
 
                 return string.Empty;
             }
         }
+
         public byte attr_ { get; set; }
 
         private string GetTargetTypeName()
         {
-            switch (primitiveType_)
+            switch (this.primitiveType_)
             {
                 case PrimitiveType.ClassField:
-                    return GetValidType(typeName_);
+                    return GetValidType(this.typeName_);
+
                 case PrimitiveType.Int8:
                     return "sbyte";
+
                 case PrimitiveType.Int16:
                     return "short";
+
                 case PrimitiveType.Int32:
                     return "int";
+
                 case PrimitiveType.Int64:
                     return "long";
+
                 case PrimitiveType.UInt8:
                     return "byte";
+
                 case PrimitiveType.UInt16:
                     return "ushort";
+
                 case PrimitiveType.UInt32:
                     return "uint";
+
                 case PrimitiveType.UInt64:
                     return "ulong";
+
                 case PrimitiveType.Bool:
                     return "bool";
+
                 case PrimitiveType.Float:
                     return "float";
+
                 case PrimitiveType.Double:
                     return "double";
+
                 case PrimitiveType.String:
                     return "string";
+
                 case PrimitiveType.Pointer:
-                    return GetValidType(typeName_);
+                    return GetValidType(this.typeName_);
+
                 case PrimitiveType.Array:
-                    return MakeArrayTargetTypeName();
+                    return this.MakeArrayTargetTypeName();
+
                 case PrimitiveType.PointerArray:
-                    return MakePointerArrayTargetTypeName();
+                    return this.MakePointerArrayTargetTypeName();
+
                 case PrimitiveType.Fixid:
                     return "uint";
+
                 case PrimitiveType.Vector4:
                     return "UnityEngine.Vector4";
+
                 case PrimitiveType.Color:
                     return "UnityEngine.Color";
+
                 case PrimitiveType.Buffer:
                     return "object";
+
                 case PrimitiveType.Enum:
                     // TODO
                     return "int";
+
                 case PrimitiveType.IntrusivePointerArray:
-                    return MakeArrayTargetTypeName();
+                    return this.MakeArrayTargetTypeName();
+
                 case PrimitiveType.DoubleVector4:
                     return "SQEX.Luminous.Math.DoubleVector4";
+
                 default:
                     throw new NotImplementedException();
             }
         }
+
         private string MakeArrayTargetTypeName()
         {
-            var innerType = ParseArrayTargetTypeName();
+            var innerType = this.ParseArrayTargetTypeName();
             return "IList<" + innerType + ">";
         }
 
         private string ParseArrayTargetTypeName()
         {
-            var tokens = typeName_.Split('<', ' ', ',', '>');
+            var tokens = this.typeName_.Split('<', ' ', ',', '>');
             var innerType = tokens[tokens.Length - 3];
-            if (typeName_.Contains(","))
+            if (this.typeName_.Contains(","))
             {
                 innerType = tokens[tokens.Length - 5];
             }
@@ -138,15 +167,15 @@ public static class ClassGenerator
 
         private string MakePointerArrayTargetTypeName()
         {
-            var innerType = ParsePointerArrayTargetTypeName();
+            var innerType = this.ParsePointerArrayTargetTypeName();
             return "IList<" + innerType + ">";
         }
 
         private string ParsePointerArrayTargetTypeName()
         {
-            var tokens = typeName_.Split('<', ' ', ',', '*', '>');
+            var tokens = this.typeName_.Split('<', ' ', ',', '*', '>');
             var innerType = tokens[tokens.Length - 4];
-            if (typeName_.Contains(","))
+            if (this.typeName_.Contains(","))
             {
                 innerType = tokens[tokens.Length - 6];
             }
@@ -200,22 +229,23 @@ public static class ClassGenerator
             {
                 return "Black.Quest.Information.QuestSaveInformation.ConditionWork";
             }
+
             return type;
         }
 
         public string GetNameValid()
         {
-            if (name_ == "in")
+            if (this.name_ == "in")
             {
                 return "@in";
             }
-            else if (name_ == "out")
+            else if (this.name_ == "out")
             {
                 return "@out";
             }
             else
             {
-                return name_;
+                return this.name_;
             }
         }
     }
@@ -225,15 +255,8 @@ public static class ClassGenerator
         var objectTypes = JsonConvert.DeserializeObject<SerializedObjectType[]>(schema);
         var parsedTemplate = Template.Parse(template);
 
-        var depth = 99999;
         foreach (var objectTypeData in objectTypes)
         {
-            depth--;
-            if (depth <= 0)
-            {
-                return;
-            }
-
             if (objectTypeData.name_.Contains("SaveAvatarModDataStruct"))
             {
                 // Don't bother, causes some annoying compile errors and I don't think we can use it for anything useful anyway
@@ -259,7 +282,7 @@ public static class ClassGenerator
 
             var type = typeTokens[typeTokens.Length - 1];
             var typeNamespace = string.Empty;
-            for(var i = 0; i < typeTokens.Length - 1; i++)
+            for (var i = 0; i < typeTokens.Length - 1; i++)
             {
                 typeNamespace += typeTokens[i];
 
@@ -281,8 +304,6 @@ public static class ClassGenerator
             File.WriteAllText(filePath, result);
         }
     }
-
-    private const string OutputDirectory = "/Editor/Generated/";
 
     private static string MakeOutputPath(string typeName)
     {
