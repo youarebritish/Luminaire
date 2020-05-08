@@ -14,7 +14,7 @@ namespace Black.Sequence.Action.Event
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finished_;
 		public uint eventId_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin movieFilePathPin_;
-		public string moviePath_;
+		public string moviePath_= string.Empty;
 		public bool isRegisterEvent_;
 		public bool isExcludePlay_;
 		public bool isFadeOutUntilMoviePrepared_;

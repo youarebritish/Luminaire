@@ -9,7 +9,7 @@ namespace Black.Entity
         private static PropertyContainer fieldProperties;
 		
 		public SQEX.Ebony.Framework.Entity.Entity entityPointer_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> tags_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> tags_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		
         
         new public static void SetupObjectType()

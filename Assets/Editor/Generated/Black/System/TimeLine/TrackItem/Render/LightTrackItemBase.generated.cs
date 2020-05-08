@@ -22,7 +22,7 @@ namespace Black.System.TimeLine.TrackItem.Render
 		public float shadowZBias_;
 		public float shadowPower_;
 		public bool chrOnlyShadow_;
-		public string projectionSourcePath_;
+		public string projectionSourcePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

@@ -11,7 +11,7 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin entity_;
-		public string parameterName_;
+		public string parameterName_= string.Empty;
 		
         
         new public static void SetupObjectType()

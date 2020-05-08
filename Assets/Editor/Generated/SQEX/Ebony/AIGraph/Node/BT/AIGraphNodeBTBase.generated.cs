@@ -8,8 +8,8 @@ namespace SQEX.Ebony.AIGraph.Node.BT
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTBase> parentNode_;
-		public IList<SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTBase> childList_;
+		public IList<SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTBase> parentNode_= new List<SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTBase>();
+		public IList<SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTBase> childList_= new List<SQEX.Ebony.AIGraph.Node.BT.AIGraphNodeBTBase>();
 		
         
         new public static void SetupObjectType()

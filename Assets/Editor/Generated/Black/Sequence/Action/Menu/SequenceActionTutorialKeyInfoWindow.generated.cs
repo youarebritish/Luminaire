@@ -16,16 +16,16 @@ namespace Black.Sequence.Action.Menu
 		public float dispTime_;
 		public int messageSpecificationType1_;
 		public uint dialogFixId1_;
-		public string dialogString1_;
+		public string dialogString1_= string.Empty;
 		public int messageSpecificationType2_;
 		public uint dialogFixId2_;
-		public string dialogString2_;
+		public string dialogString2_= string.Empty;
 		public int messageSpecificationType3_;
 		public uint dialogFixId3_;
-		public string dialogString3_;
+		public string dialogString3_= string.Empty;
 		public int messageSpecificationType4_;
 		public uint dialogFixId4_;
-		public string dialogString4_;
+		public string dialogString4_= string.Empty;
 		
         
         new public static void SetupObjectType()

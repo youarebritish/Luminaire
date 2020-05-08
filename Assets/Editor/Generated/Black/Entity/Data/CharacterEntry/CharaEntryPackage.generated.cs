@@ -9,10 +9,10 @@ namespace Black.Entity.Data.CharacterEntry
         private static PropertyContainer fieldProperties;
 		
 		public int loadPriority_;
-		public string specialID_;
+		public string specialID_= string.Empty;
 		public bool unloadWithLoadUnit_;
 		public bool noAutoLoad_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> noAutoLoadCharaEntryFixIDList_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> noAutoLoadCharaEntryFixIDList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		
         
         new public static void SetupObjectType()

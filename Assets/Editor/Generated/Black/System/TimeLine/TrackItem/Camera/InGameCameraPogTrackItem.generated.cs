@@ -8,10 +8,10 @@ namespace Black.System.TimeLine.TrackItem.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string pogId_;
-		public string pogMatrixId_;
-		public string pogOffsetId_;
-		public string pogSignId_;
+		public string pogId_= string.Empty;
+		public string pogMatrixId_= string.Empty;
+		public string pogOffsetId_= string.Empty;
+		public string pogSignId_= string.Empty;
 		public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog pogData_;
 		
         

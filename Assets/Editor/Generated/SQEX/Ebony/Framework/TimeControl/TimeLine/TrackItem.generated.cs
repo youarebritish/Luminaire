@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string name_;
+		public string name_= string.Empty;
 		public float startTime_;
 		public float duration_;
 		

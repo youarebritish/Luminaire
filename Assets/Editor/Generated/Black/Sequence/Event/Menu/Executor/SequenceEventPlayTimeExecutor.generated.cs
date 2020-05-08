@@ -10,7 +10,7 @@ namespace Black.Sequence.Event.Menu.Executor
 		
 		public uint txtPlayTimeHeader_;
 		public uint txtPlayTimeFormat_;
-		public string strPlayTimeFormat_;
+		public string strPlayTimeFormat_= string.Empty;
 		
         
         new public static void SetupObjectType()

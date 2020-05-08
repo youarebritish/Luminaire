@@ -13,7 +13,7 @@ namespace Black.AI.Ambient
 		public uint type_;
 		public uint spawnQuery_;
 		public uint strollingQuery_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> excludedArchetypes_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> excludedArchetypes_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		public bool allowStrolling_;
 		public bool debugDraw_;
 		

@@ -8,9 +8,9 @@ namespace SQEX.Ebony.Framework.Node
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string pinName_;
-		public string name_;
-		public IList<SQEX.Ebony.Framework.Node.GraphPin> connections_;
+		public string pinName_= string.Empty;
+		public string name_= string.Empty;
+		public IList<SQEX.Ebony.Framework.Node.GraphPin> connections_= new List<SQEX.Ebony.Framework.Node.GraphPin>();
 		
         
         new public static void SetupObjectType()

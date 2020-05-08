@@ -14,7 +14,7 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin success_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin failed_;
-		public string teamName_;
+		public string teamName_= string.Empty;
 		public uint teamNameId_;
 		
         

@@ -8,7 +8,7 @@ namespace Black.Entity.Node
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.AI.StrongPoint.StrongPointArrayItem> dataItemList_;
+		public IList<Black.AI.StrongPoint.StrongPointArrayItem> dataItemList_= new List<Black.AI.StrongPoint.StrongPointArrayItem>();
 		public int numSoldier_;
 		
         

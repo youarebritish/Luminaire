@@ -8,7 +8,7 @@ namespace Black.Sequence.Action.System
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string curvePath_;
+		public string curvePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

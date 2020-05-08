@@ -9,7 +9,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
         private static PropertyContainer fieldProperties;
 		
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin out_;
-		public string value_;
+		public string value_= string.Empty;
 		
         
         new public static void SetupObjectType()

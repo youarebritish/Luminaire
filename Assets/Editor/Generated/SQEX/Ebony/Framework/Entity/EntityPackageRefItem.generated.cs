@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string refPackagePath_;
+		public string refPackagePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

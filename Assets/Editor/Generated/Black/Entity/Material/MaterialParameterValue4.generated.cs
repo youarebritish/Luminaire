@@ -8,8 +8,8 @@ namespace Black.Entity.Material
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string materialName_;
-		public string name_;
+		public string materialName_= string.Empty;
+		public string name_= string.Empty;
 		public UnityEngine.Vector4 Value4_;
 		
         

@@ -15,7 +15,7 @@ namespace Black.Sequence.Action.Actor.Animation
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin outPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finishedPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin loopedPin_;
-		public string abcPath_;
+		public string abcPath_= string.Empty;
 		public float scaling_;
 		public bool stopOnEndFrame_;
 		public bool loop_;

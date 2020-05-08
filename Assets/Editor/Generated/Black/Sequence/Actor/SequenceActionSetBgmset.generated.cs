@@ -14,7 +14,7 @@ namespace Black.Sequence.Actor
 		public int pinch_bgm_id_;
 		public uint bgmset_fix_id_;
 		public int bgmtype_mode_;
-		public string idxFilePath_;
+		public string idxFilePath_= string.Empty;
 		public float fadeIn_;
 		public float fadeOut_;
 		public bool isSameSkip_;

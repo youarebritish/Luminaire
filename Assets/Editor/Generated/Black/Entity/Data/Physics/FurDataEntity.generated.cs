@@ -9,10 +9,10 @@ namespace Black.Entity.Data.Physics
         private static PropertyContainer fieldProperties;
 		
 		public int furType_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> furCurvePaths_;
-		public string maskTexturePath_;
-		public string furMaterialPath_;
-		public string baseMeshName_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> furCurvePaths_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
+		public string maskTexturePath_= string.Empty;
+		public string furMaterialPath_= string.Empty;
+		public string baseMeshName_= string.Empty;
 		public int furResolution_;
 		public int masterStrandPerTriangle_;
 		public int slaveStrandPerMaster_;

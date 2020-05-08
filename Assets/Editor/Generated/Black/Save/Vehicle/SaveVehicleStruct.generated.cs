@@ -11,7 +11,7 @@ namespace Black.Save.Vehicle
 		public int version_;
 		public Black.Save.Vehicle.SaveVehicleStatusStruct status_;
 		public Black.Save.Vehicle.SaveVehicleCustomizeStruct customize_;
-		public IList<int> reserve_;
+		public IList<int> reserve_= new List<int>();
 		
         
         new public static void SetupObjectType()

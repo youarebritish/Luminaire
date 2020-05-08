@@ -12,7 +12,7 @@ namespace Black.AI.Ambient
 		public int maxCoolDown_;
 		public bool triggerCooldownOnStartup_;
 		public int characterCapacity_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> interactionGroups_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> interactionGroups_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		public bool useDefaultActivator_;
 		public float defaultActivatorRadius_;
 		public int defaultActivationPeriod_;
@@ -33,7 +33,7 @@ namespace Black.AI.Ambient
 		public float singleActionProbability_;
 		public int singleActionMinCoolDown_;
 		public int singleActionMaxCoolDown_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> tags_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> tags_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		
         
         new public static void SetupObjectType()

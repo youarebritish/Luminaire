@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.Debug
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin record_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actors_;
-		public string logFilePath_;
+		public string logFilePath_= string.Empty;
 		public bool overwrite_;
 		
         

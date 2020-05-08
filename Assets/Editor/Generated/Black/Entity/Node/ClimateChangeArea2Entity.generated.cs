@@ -12,7 +12,7 @@ namespace Black.Entity.Node
 		public UnityEngine.Vector4 scaling_;
 		public int triggerType_;
 		public uint climateId_;
-		public string weatherKey_;
+		public string weatherKey_= string.Empty;
 		public short priorityLevel_;
 		public float transitionTime_;
 		public bool isIndoorEnv_;
@@ -27,7 +27,7 @@ namespace Black.Entity.Node
 		public float rainOcclusionMapHeight_;
 		public float rainOcclusionMapDepth_;
 		public bool useAniso_;
-		public string preset_;
+		public string preset_= string.Empty;
 		public float fadeSec_;
 		public uint eventId_;
 		public uint eventEndId_;

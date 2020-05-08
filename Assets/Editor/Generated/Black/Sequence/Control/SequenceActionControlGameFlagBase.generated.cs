@@ -11,8 +11,8 @@ namespace Black.Sequence.Control
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public int category_;
-		public string labelName_;
-		public string labelNames_;
+		public string labelName_= string.Empty;
+		public string labelNames_= string.Empty;
 		
         
         new public static void SetupObjectType()

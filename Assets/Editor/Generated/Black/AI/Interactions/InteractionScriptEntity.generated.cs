@@ -8,7 +8,7 @@ namespace Black.AI.Interactions
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string interactionFile_;
+		public string interactionFile_= string.Empty;
 		
         
         new public static void SetupObjectType()

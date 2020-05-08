@@ -20,11 +20,11 @@ namespace Black.Sequence.Action.Vehicle
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inIsSameLane_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin createdActor_;
 		public int actorType_;
-		public string charaEntry_;
-		public string sourcePathAI_;
-		public string sourcePathCommand_;
-		public string sourcePathScheduleAI_;
-		public string sourcePathScheduleDefault_;
+		public string charaEntry_= string.Empty;
+		public string sourcePathAI_= string.Empty;
+		public string sourcePathCommand_= string.Empty;
+		public string sourcePathScheduleAI_= string.Empty;
+		public string sourcePathScheduleDefault_= string.Empty;
 		public float distance_;
 		public float range_;
 		public bool isFrontOfBase_;

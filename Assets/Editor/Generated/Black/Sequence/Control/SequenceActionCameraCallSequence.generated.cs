@@ -14,7 +14,7 @@ namespace Black.Sequence.Control
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor2Pin_;
 		public uint functionId_;
-		public string functionName_;
+		public string functionName_= string.Empty;
 		
         
         new public static void SetupObjectType()

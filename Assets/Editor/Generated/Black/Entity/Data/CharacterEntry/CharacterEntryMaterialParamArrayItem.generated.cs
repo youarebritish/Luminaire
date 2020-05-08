@@ -9,8 +9,8 @@ namespace Black.Entity.Data.CharacterEntry
         private static PropertyContainer fieldProperties;
 		
 		public int Type;
-		public string MaterialName;
-		public string ParamName;
+		public string MaterialName= string.Empty;
+		public string ParamName= string.Empty;
 		public float Value;
 		public UnityEngine.Vector4 VectorValue;
 		

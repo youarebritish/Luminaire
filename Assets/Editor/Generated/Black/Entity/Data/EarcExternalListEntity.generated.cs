@@ -8,7 +8,7 @@ namespace Black.Entity.Data
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> earcExternalFileList_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> earcExternalFileList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		
         
         new public static void SetupObjectType()

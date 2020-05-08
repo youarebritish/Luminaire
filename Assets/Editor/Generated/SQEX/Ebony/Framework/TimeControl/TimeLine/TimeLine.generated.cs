@@ -10,8 +10,8 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
 		
 		public float workAreaLeft_;
 		public float workAreaRight_;
-		public IList<SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue> subTimeLineList_;
-		public IList<SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue> mainTimeLineList_;
+		public IList<SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue> subTimeLineList_= new List<SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue>();
+		public IList<SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue> mainTimeLineList_= new List<SQEX.Ebony.Framework.Sequence.Action.TimeLine.Struct.TimeLineReferenceValue>();
 		
         
         new public static void SetupObjectType()

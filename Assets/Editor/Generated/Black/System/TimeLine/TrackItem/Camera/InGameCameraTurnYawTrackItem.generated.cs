@@ -8,9 +8,9 @@ namespace Black.System.TimeLine.TrackItem.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string yawId_;
-		public string yawOffsetId_;
-		public string yawSignId_;
+		public string yawId_= string.Empty;
+		public string yawOffsetId_= string.Empty;
+		public string yawSignId_= string.Empty;
 		public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYaw turnYawData_;
 		public SQEX.Ebony.Framework.TimeControl.CurveList curveList_;
 		

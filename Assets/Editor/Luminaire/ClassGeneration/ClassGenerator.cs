@@ -45,6 +45,22 @@ public static class ClassGenerator
         public ushort itemCount_ { get; set; }
         public PrimitiveType primitiveType_ { get; set; }
         public string PrimitiveTypeName => primitiveType_.ToString();
+        public string Initialization
+        {
+            get
+            {
+                if (targetTypeName == "string")
+                {
+                    return "= string.Empty";
+                }
+                else if (targetTypeName.StartsWith("IList<"))
+                {
+                    return "= new " + targetTypeName.Substring(1) + "()";
+                }
+
+                return string.Empty;
+            }
+        }
         public byte attr_ { get; set; }
 
         private string GetTargetTypeName()
@@ -209,8 +225,15 @@ public static class ClassGenerator
         var objectTypes = JsonConvert.DeserializeObject<SerializedObjectType[]>(schema);
         var parsedTemplate = Template.Parse(template);
 
+        var depth = 99999;
         foreach (var objectTypeData in objectTypes)
         {
+            depth--;
+            if (depth <= 0)
+            {
+                return;
+            }
+
             if (objectTypeData.name_.Contains("SaveAvatarModDataStruct"))
             {
                 // Don't bother, causes some annoying compile errors and I don't think we can use it for anything useful anyway

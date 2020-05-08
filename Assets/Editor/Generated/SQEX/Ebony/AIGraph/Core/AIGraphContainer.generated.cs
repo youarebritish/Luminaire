@@ -8,12 +8,12 @@ namespace SQEX.Ebony.AIGraph.Core
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint> entryPoint_;
-		public IList<SQEX.Ebony.AIGraph.Tray.AIGraphTrayBase> trays_;
-		public IList<SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafBase> leafs_;
+		public IList<SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint> entryPoint_= new List<SQEX.Ebony.AIGraph.Node.AIGraphNodeEntryPoint>();
+		public IList<SQEX.Ebony.AIGraph.Tray.AIGraphTrayBase> trays_= new List<SQEX.Ebony.AIGraph.Tray.AIGraphTrayBase>();
+		public IList<SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafBase> leafs_= new List<SQEX.Ebony.AIGraph.Node.Leaf.AIGraphNodeLeafBase>();
 		public int layer_;
-		public IList<SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueData> constantValueList_;
-		public IList<SQEX.Ebony.AIGraph.Core.AIGraphCompiledExpression> compiledExpressionCacheList_;
+		public IList<SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueData> constantValueList_= new List<SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueData>();
+		public IList<SQEX.Ebony.AIGraph.Core.AIGraphCompiledExpression> compiledExpressionCacheList_= new List<SQEX.Ebony.AIGraph.Core.AIGraphCompiledExpression>();
 		
         
         new public static void SetupObjectType()

@@ -8,7 +8,7 @@ namespace Black.Entity.Map
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Map.NavigationOffMeshMultiLinkPointAttr> linkDatas_;
+		public IList<Black.Entity.Map.NavigationOffMeshMultiLinkPointAttr> linkDatas_= new List<Black.Entity.Map.NavigationOffMeshMultiLinkPointAttr>();
 		public bool isBidirectional_;
 		public int linkUser_;
 		public uint archetype_;

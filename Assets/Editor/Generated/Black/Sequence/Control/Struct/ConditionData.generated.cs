@@ -9,7 +9,7 @@ namespace Black.Sequence.Control.Struct
         private static PropertyContainer fieldProperties;
 		
 		public int Operator;
-		public string expression_;
+		public string expression_= string.Empty;
 		
         
         new public static void SetupObjectType()

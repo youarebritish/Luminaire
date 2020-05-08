@@ -8,9 +8,9 @@ namespace Black.System.TimeLine.TrackItem.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string povId_;
-		public string povMatrixId_;
-		public string povOffsetId_;
+		public string povId_= string.Empty;
+		public string povMatrixId_= string.Empty;
+		public string povOffsetId_= string.Empty;
 		public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov povData_;
 		
         

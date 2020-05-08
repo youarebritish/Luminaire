@@ -19,14 +19,14 @@ namespace Black.Sequence.Control
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin dynamicTriggerOutputPin3_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin dynamicTriggerOutputPin2_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin dynamicTriggerOutputPin1_;
-		public string expression1;
-		public string expression2;
-		public string expression3;
-		public string expression4;
-		public string expression5;
-		public string expression6;
-		public string expression7;
-		public string expression8;
+		public string expression1= string.Empty;
+		public string expression2= string.Empty;
+		public string expression3= string.Empty;
+		public string expression4= string.Empty;
+		public string expression5= string.Empty;
+		public string expression6= string.Empty;
+		public string expression7= string.Empty;
+		public string expression8= string.Empty;
 		
         
         new public static void SetupObjectType()

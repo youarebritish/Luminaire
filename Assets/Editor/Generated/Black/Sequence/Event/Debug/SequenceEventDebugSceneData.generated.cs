@@ -8,14 +8,14 @@ namespace Black.Sequence.Event.Debug
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string titleName_;
-		public string filePath_;
+		public string titleName_= string.Empty;
+		public string filePath_= string.Empty;
 		public UnityEngine.Color stringColor_;
 		public bool Jump_;
 		public bool Line_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin out_;
-		public string labelName_;
+		public string labelName_= string.Empty;
 		public uint labelFixId_;
 		
         

@@ -10,7 +10,7 @@ namespace Black.Sequence.Sound
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin play_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
-		public string idxFilePath_;
+		public string idxFilePath_= string.Empty;
 		public float fadeIn_;
 		public float fadeOut_;
 		

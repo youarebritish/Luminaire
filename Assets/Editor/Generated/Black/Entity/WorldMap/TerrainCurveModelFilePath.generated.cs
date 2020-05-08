@@ -8,10 +8,10 @@ namespace Black.Entity.WorldMap
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string terrainCurveModelFilePath_;
-		public string terrainCurveAbsorbModelFilePath_;
-		public string terrainCurveCollisionFilePath_;
-		public string terrainCurveWeedingFilePath_;
+		public string terrainCurveModelFilePath_= string.Empty;
+		public string terrainCurveAbsorbModelFilePath_= string.Empty;
+		public string terrainCurveCollisionFilePath_= string.Empty;
+		public string terrainCurveWeedingFilePath_= string.Empty;
 		public bool isBakable_;
 		public bool isFoliageCheckThrough_;
 		

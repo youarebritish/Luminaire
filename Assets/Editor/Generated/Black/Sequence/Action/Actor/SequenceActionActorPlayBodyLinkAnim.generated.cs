@@ -15,30 +15,30 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin masterTargetPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin outPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finishedPin_;
-		public string sceneAssetPath_;
+		public string sceneAssetPath_= string.Empty;
 		public bool bKeepInSyncVertically_;
 		public float syncTime_;
 		public bool syncFinish_;
 		public int masterPointType_;
 		public bool playAlive_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> penetrateRoleList_;
-		public IList<Black.Sequence.Action.Actor.SequenceActionActorPlayBodyLinkAnimTransitionTime> transitionTimeList_;
-		public IList<Black.Sequence.Action.Actor.SequenceActionActorPlayBodyLinkAnimStatus> statusList_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> penetrateRoleList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
+		public IList<Black.Sequence.Action.Actor.SequenceActionActorPlayBodyLinkAnimTransitionTime> transitionTimeList_= new List<Black.Sequence.Action.Actor.SequenceActionActorPlayBodyLinkAnimTransitionTime>();
+		public IList<Black.Sequence.Action.Actor.SequenceActionActorPlayBodyLinkAnimStatus> statusList_= new List<Black.Sequence.Action.Actor.SequenceActionActorPlayBodyLinkAnimStatus>();
 		public bool bNotifyBodyLayer_;
 		public bool bStopAI_;
 		public uint facial_1_role_;
-		public string facial_1_aniPath_;
+		public string facial_1_aniPath_= string.Empty;
 		public float facial_1_blendTime_;
 		public uint facial_2_role_;
-		public string facial_2_aniPath_;
+		public string facial_2_aniPath_= string.Empty;
 		public float facial_2_blendTime_;
 		public uint facial_3_role_;
-		public string facial_3_aniPath_;
+		public string facial_3_aniPath_= string.Empty;
 		public float facial_3_blendTime_;
 		public uint facial_4_role_;
-		public string facial_4_aniPath_;
+		public string facial_4_aniPath_= string.Empty;
 		public float facial_4_blendTime_;
-		public string lastSceneAssetPath_;
+		public string lastSceneAssetPath_= string.Empty;
 		
         
         new public static void SetupObjectType()

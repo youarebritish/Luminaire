@@ -8,7 +8,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string relativeTargetId_;
+		public string relativeTargetId_= string.Empty;
 		public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCommon commonData_;
 		
         

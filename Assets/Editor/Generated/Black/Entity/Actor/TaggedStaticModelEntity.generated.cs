@@ -8,7 +8,7 @@ namespace Black.Entity.Actor
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> tags_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> tags_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		
         
         new public static void SetupObjectType()

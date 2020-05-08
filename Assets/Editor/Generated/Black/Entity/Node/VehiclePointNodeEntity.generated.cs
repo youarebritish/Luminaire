@@ -14,7 +14,7 @@ namespace Black.Entity.Node
 		public uint mapIconID_;
 		public bool asDestinationPoint_;
 		public int destType_;
-		public string destName_;
+		public string destName_= string.Empty;
 		public uint groupedDestId_;
 		public float canGetOffRange_;
 		public bool canEnterOnOutOfGus_;

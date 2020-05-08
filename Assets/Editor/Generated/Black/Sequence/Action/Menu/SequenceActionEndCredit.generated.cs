@@ -17,7 +17,7 @@ namespace Black.Sequence.Action.Menu
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin notready_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin velPin_;
 		public int type_;
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public int dotsPerSec_;
 		public float yScale_;
 		public int ySpace_;
@@ -25,7 +25,7 @@ namespace Black.Sequence.Action.Menu
 		public int nameStartOffset_;
 		public int deleteOffset_;
 		public int platform_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> nameList_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> nameList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		public bool isFontNoAdjust_;
 		
         

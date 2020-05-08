@@ -9,7 +9,7 @@ namespace Black.Sequence.Action.Weather
         private static PropertyContainer fieldProperties;
 		
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin getWeatherID_;
-		public string weatherKey_;
+		public string weatherKey_= string.Empty;
 		
         
         new public static void SetupObjectType()

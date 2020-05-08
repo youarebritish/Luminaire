@@ -17,7 +17,7 @@ namespace Black.Entity.Sound
 		public float soundFadeOutTime_;
 		public bool soundVisibleFlag_;
 		public bool soundLoopFlag_;
-		public string idxFilePath_;
+		public string idxFilePath_= string.Empty;
 		public int soundNumber_;
 		public bool usePrimitiveFlag_;
 		public float scaling_;
@@ -25,7 +25,7 @@ namespace Black.Entity.Sound
 		public int soundobjType_;
 		public float audibleRange_;
 		public float innerRange_;
-		public IList<Black.Entity.Sound.StaticSoundPositionArrayItem> positionEntityList_;
+		public IList<Black.Entity.Sound.StaticSoundPositionArrayItem> positionEntityList_= new List<Black.Entity.Sound.StaticSoundPositionArrayItem>();
 		public float pan;
 		public float frpan;
 		public float udpan;

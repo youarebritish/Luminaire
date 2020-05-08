@@ -8,8 +8,8 @@ namespace Black.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string sourcePath_;
-		public string sourceHighSpecPath_;
+		public string sourcePath_= string.Empty;
+		public string sourceHighSpecPath_= string.Empty;
 		public float scaling_;
 		public bool visible_;
 		public bool scriptVisibleOff_;
@@ -22,13 +22,13 @@ namespace Black.Entity
 		public bool depthOnly_;
 		public bool useMeshCollision_;
 		public bool setMeshCollisionOff_;
-		public string MeshCollision_;
+		public string MeshCollision_= string.Empty;
 		public bool useMeshCollisionMovingTile_;
 		public bool useMeshCollisionAirMovingTile_;
 		public int naviMeshBuildType_;
-		public IList<Black.Entity.Material.MaterialParameterColor> materialParamColor_;
-		public IList<Black.Entity.Material.MaterialParameterValue1> materialParamValue1_;
-		public IList<Black.Entity.Material.MaterialParameterValue4> materialParamValue4_;
+		public IList<Black.Entity.Material.MaterialParameterColor> materialParamColor_= new List<Black.Entity.Material.MaterialParameterColor>();
+		public IList<Black.Entity.Material.MaterialParameterValue1> materialParamValue1_= new List<Black.Entity.Material.MaterialParameterValue1>();
+		public IList<Black.Entity.Material.MaterialParameterValue4> materialParamValue4_= new List<Black.Entity.Material.MaterialParameterValue4>();
 		public bool isTerrainBakeEnabled_;
 		public bool isFoliageCheckThrough_;
 		public bool turfBaseObject_;

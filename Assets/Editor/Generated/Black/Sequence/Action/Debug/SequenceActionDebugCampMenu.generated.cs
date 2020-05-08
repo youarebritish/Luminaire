@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.Debug
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin menuExit_;
 		public UnityEngine.Vector4 areaPosition_;
-		public IList<Black.Sequence.Action.Debug.DebugCampMenuItem> campItemList_;
+		public IList<Black.Sequence.Action.Debug.DebugCampMenuItem> campItemList_= new List<Black.Sequence.Action.Debug.DebugCampMenuItem>();
 		
         
         new public static void SetupObjectType()

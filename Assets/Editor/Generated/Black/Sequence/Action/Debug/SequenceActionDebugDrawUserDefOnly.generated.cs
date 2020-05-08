@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Debug
 		public UnityEngine.Vector4 offset_;
 		public float radius_;
 		public int textStyle_;
-		public string text_;
+		public string text_= string.Empty;
 		
         
         new public static void SetupObjectType()

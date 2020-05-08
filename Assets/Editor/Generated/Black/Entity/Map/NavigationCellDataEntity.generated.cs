@@ -10,8 +10,8 @@ namespace Black.Entity.Map
 		
 		public int x_;
 		public int z_;
-		public string navigationContext_;
-		public string packageName_;
+		public string navigationContext_= string.Empty;
+		public string packageName_= string.Empty;
 		public bool usePackageBaseSystem_;
 		
         

@@ -8,9 +8,9 @@ namespace Black.Entity.Data
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string searchParamTable_;
-		public string questActionType_;
-		public string eventScriptKey_;
+		public string searchParamTable_= string.Empty;
+		public string questActionType_= string.Empty;
+		public string eventScriptKey_= string.Empty;
 		public bool isAutoLoad_;
 		
         

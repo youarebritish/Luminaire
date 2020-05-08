@@ -9,7 +9,7 @@ namespace SQEX.Ebony.Framework.Data
         private static PropertyContainer fieldProperties;
 		
 		public int type_;
-		public string value_;
+		public string value_= string.Empty;
 		
         
         new public static void SetupObjectType()

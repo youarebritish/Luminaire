@@ -22,7 +22,7 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin outPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finishedPin_;
 		public bool isHook_;
-		public string aniPath_;
+		public string aniPath_= string.Empty;
 		public uint motionId_;
 		public float blendTime_;
 		public float playbackRate_;

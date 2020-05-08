@@ -10,7 +10,7 @@ namespace Black.Sequence.Action.Level
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
-		public string packagePath_;
+		public string packagePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

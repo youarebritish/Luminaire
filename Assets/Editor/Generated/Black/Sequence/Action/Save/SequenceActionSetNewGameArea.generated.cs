@@ -10,7 +10,7 @@ namespace Black.Sequence.Action.Save
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
-		public string filePath_;
+		public string filePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

@@ -14,7 +14,7 @@ namespace Black.Sequence.Action.System
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin success_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin fail_;
 		public int dlcID_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> rootEbexFileList_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> rootEbexFileList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		
         
         new public static void SetupObjectType()

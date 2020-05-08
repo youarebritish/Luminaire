@@ -10,9 +10,9 @@ namespace Black.Save.Fishing
 		
 		public int saveVersion;
 		public int getFishCount;
-		public IList<Black.Save.Fishing.SaveFishingGetFishData> getFishList;
+		public IList<Black.Save.Fishing.SaveFishingGetFishData> getFishList= new List<Black.Save.Fishing.SaveFishingGetFishData>();
 		public int lineInfoCount;
-		public IList<Black.Save.Fishing.SaveFishingLineData> lineInfoList;
+		public IList<Black.Save.Fishing.SaveFishingLineData> lineInfoList= new List<Black.Save.Fishing.SaveFishingLineData>();
 		public Black.Save.Fishing.SaveFishingEquipmentData selectEquipment;
 		
         

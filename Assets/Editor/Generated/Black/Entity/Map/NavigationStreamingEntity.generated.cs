@@ -8,7 +8,7 @@ namespace Black.Entity.Map
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Data.Area.MapLodItem> entityPackagePathList_;
+		public IList<Black.Entity.Data.Area.MapLodItem> entityPackagePathList_= new List<Black.Entity.Data.Area.MapLodItem>();
 		
         
         new public static void SetupObjectType()

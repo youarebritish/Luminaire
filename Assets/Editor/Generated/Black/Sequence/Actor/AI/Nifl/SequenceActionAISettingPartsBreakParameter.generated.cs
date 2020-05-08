@@ -24,9 +24,9 @@ namespace Black.Sequence.Actor.AI.Nifl
 		public float probabilityMiddle_;
 		public float probabilityHigh_;
 		public bool isDiscardWeapon_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> exclusionPartsIDList_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> linkBreakingPartsIDList_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> hitCollisions_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> exclusionPartsIDList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> linkBreakingPartsIDList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> hitCollisions_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		public uint visiblePartsId_;
 		public uint pushCollision_;
 		public float timeToEraseParts_;

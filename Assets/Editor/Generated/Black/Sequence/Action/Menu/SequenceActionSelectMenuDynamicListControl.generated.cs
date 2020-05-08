@@ -11,7 +11,7 @@ namespace Black.Sequence.Action.Menu
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin menuItemList_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin menuItemList2_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin rootEntityPin_;
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public uint textFieldFixid_;
 		public uint textFieldFixid2_;
 		public UnityEngine.Vector4 offset_;

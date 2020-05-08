@@ -13,7 +13,7 @@ namespace Black.Sequence.Action.Level.BattleArea
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public float encountGage_;
 		public float second_;
-		public string bgmFilePath_;
+		public string bgmFilePath_= string.Empty;
 		public bool resultReset_;
 		
         

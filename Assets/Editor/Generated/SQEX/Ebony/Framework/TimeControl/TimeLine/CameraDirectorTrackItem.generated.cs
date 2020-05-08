@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string viewGroup_;
+		public string viewGroup_= string.Empty;
 		public bool isBackToGameCameraWhenEndItem_;
 		
         

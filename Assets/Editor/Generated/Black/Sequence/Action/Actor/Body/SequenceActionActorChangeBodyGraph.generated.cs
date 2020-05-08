@@ -14,7 +14,7 @@ namespace Black.Sequence.Action.Actor.Body
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin loadFinishedPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin outUnloadPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_;
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public int priorityType_;
 		
         

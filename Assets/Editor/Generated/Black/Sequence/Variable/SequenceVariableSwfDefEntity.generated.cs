@@ -12,10 +12,10 @@ namespace Black.Sequence.Variable
 		public SQEX.Ebony.Framework.Entity.Entity entityPointer_;
 		public bool isSetTextFieldConfig_;
 		public bool isSetLabelSound_;
-		public IList<Black.Entity.Data.Menu.SwfTextFieldConfigArrayItem> textFiledConfigList_;
-		public IList<Black.Entity.Data.Menu.SwfLabelAccessoryArrayItem> labelAccessoryList_;
-		public IList<Black.Entity.Data.Menu.SwfStringArrayItem> nameList_;
-		public IList<Black.Entity.Data.Menu.SwfFixidArrayItem> fixidList_;
+		public IList<Black.Entity.Data.Menu.SwfTextFieldConfigArrayItem> textFiledConfigList_= new List<Black.Entity.Data.Menu.SwfTextFieldConfigArrayItem>();
+		public IList<Black.Entity.Data.Menu.SwfLabelAccessoryArrayItem> labelAccessoryList_= new List<Black.Entity.Data.Menu.SwfLabelAccessoryArrayItem>();
+		public IList<Black.Entity.Data.Menu.SwfStringArrayItem> nameList_= new List<Black.Entity.Data.Menu.SwfStringArrayItem>();
+		public IList<Black.Entity.Data.Menu.SwfFixidArrayItem> fixidList_= new List<Black.Entity.Data.Menu.SwfFixidArrayItem>();
 		
         
         new public static void SetupObjectType()

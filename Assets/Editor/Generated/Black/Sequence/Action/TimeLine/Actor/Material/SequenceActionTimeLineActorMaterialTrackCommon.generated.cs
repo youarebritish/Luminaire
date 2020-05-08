@@ -8,8 +8,8 @@ namespace Black.Sequence.Action.TimeLine.Actor.Material
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string materialName_;
-		public string parameterName_;
+		public string materialName_= string.Empty;
+		public string parameterName_= string.Empty;
 		
         
         new public static void SetupObjectType()

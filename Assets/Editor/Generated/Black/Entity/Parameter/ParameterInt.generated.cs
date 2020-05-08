@@ -8,7 +8,7 @@ namespace Black.Entity.Parameter
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string name_;
+		public string name_= string.Empty;
 		public int value_;
 		
         

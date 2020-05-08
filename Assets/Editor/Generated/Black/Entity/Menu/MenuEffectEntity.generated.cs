@@ -10,7 +10,7 @@ namespace Black.Entity.Menu
 		
 		public int drawType_;
 		public int drawLayer_;
-		public string vfxPath_;
+		public string vfxPath_= string.Empty;
 		public bool isAutoPlay_;
 		
         

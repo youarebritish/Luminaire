@@ -9,7 +9,7 @@ namespace Black.Save.MemoryQuest
         private static PropertyContainer fieldProperties;
 		
 		public long worldTime_;
-		public string areaFilePath;
+		public string areaFilePath= string.Empty;
 		public SQEX.Luminous.Math.DoubleVector4 playerWorldPos;
 		public UnityEngine.Vector4 playerRotation;
 		public int weatherType_;

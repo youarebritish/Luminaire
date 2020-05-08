@@ -23,7 +23,7 @@ namespace Black.Entity.Data.Wind
 		public float areaRadius_;
 		public float cylinderLength_;
 		public UnityEngine.Vector4 boxSize_;
-		public string bnmwndPath_;
+		public string bnmwndPath_= string.Empty;
 		public float customWavePeriodMultiplication_;
 		public UnityEngine.Vector4 windForce_;
 		public UnityEngine.Vector4 randomRange_;

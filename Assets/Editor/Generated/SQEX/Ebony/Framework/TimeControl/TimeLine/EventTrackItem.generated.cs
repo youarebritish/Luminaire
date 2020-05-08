@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string eventName_;
+		public string eventName_= string.Empty;
 		public int pinActivateTiming_;
 		
         

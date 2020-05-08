@@ -11,7 +11,7 @@ namespace Black.Sequence.Action.Render
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public float fValue_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin fValuePin_;
-		public string materialName_;
+		public string materialName_= string.Empty;
 		
         
         new public static void SetupObjectType()

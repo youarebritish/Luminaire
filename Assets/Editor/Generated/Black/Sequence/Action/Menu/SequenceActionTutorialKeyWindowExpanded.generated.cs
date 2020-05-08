@@ -17,34 +17,34 @@ namespace Black.Sequence.Action.Menu
 		public int maskType_;
 		public int messageSpecificationType0_;
 		public uint dialogFixId0_;
-		public string dialogString0_;
+		public string dialogString0_= string.Empty;
 		public int messageSpecificationType1_;
 		public uint dialogFixId1_;
-		public string dialogString1_;
+		public string dialogString1_= string.Empty;
 		public int messageSpecificationType2_;
 		public uint dialogFixId2_;
-		public string dialogString2_;
+		public string dialogString2_= string.Empty;
 		public int messageSpecificationType3_;
 		public uint dialogFixId3_;
-		public string dialogString3_;
+		public string dialogString3_= string.Empty;
 		public int messageSpecificationType4_;
 		public uint dialogFixId4_;
-		public string dialogString4_;
+		public string dialogString4_= string.Empty;
 		public int messageSpecificationType5_;
 		public uint dialogFixId5_;
-		public string dialogString5_;
+		public string dialogString5_= string.Empty;
 		public int messageSpecificationType6_;
 		public uint dialogFixId6_;
-		public string dialogString6_;
+		public string dialogString6_= string.Empty;
 		public int messageSpecificationType7_;
 		public uint dialogFixId7_;
-		public string dialogString7_;
+		public string dialogString7_= string.Empty;
 		public int messageSpecificationType8_;
 		public uint dialogFixId8_;
-		public string dialogString8_;
+		public string dialogString8_= string.Empty;
 		public int messageSpecificationType9_;
 		public uint dialogFixId9_;
-		public string dialogString9_;
+		public string dialogString9_= string.Empty;
 		
         
         new public static void SetupObjectType()

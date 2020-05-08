@@ -11,8 +11,8 @@ namespace Black.Sequence.Action.Team
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inSetTeam_;
-		public string teamName_;
-		public string teamType_;
+		public string teamName_= string.Empty;
+		public string teamType_= string.Empty;
 		public uint tacticsID_;
 		
         

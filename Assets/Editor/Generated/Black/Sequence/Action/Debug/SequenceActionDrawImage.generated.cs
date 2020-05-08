@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.Debug
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin indexInput_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin indexOutput_;
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public int playSwfSpecificationType_;
 		public UnityEngine.Vector4 dstPos_;
 		public UnityEngine.Vector4 dstSize_;

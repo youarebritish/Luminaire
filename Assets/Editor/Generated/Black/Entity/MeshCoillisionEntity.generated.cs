@@ -9,7 +9,7 @@ namespace Black.Entity
         private static PropertyContainer fieldProperties;
 		
 		public bool enabled_;
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public float scaling_;
 		public UnityEngine.Vector4 nonUniformScale_;
 		public bool useMeshCollisionMovingTile_;

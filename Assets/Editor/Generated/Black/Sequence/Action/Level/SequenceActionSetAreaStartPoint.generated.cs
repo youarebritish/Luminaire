@@ -10,7 +10,7 @@ namespace Black.Sequence.Action.Level
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin labeledValue_;
-		public string labeledName_;
+		public string labeledName_= string.Empty;
 		public bool isOverwiteAreaStartPoint_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin valueAreaStartPosition_;

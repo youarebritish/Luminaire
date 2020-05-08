@@ -14,7 +14,7 @@ namespace Black.Sequence.Event.Labeled
 		public uint labeledVarId_;
 		public uint globalLabelId_;
 		public int labelScope_;
-		public IList<SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareCollectionBase> conditions_;
+		public IList<SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareCollectionBase> conditions_= new List<SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareCollectionBase>();
 		
         
         new public static void SetupObjectType()

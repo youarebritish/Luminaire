@@ -18,9 +18,9 @@ namespace Black.Sequence.Action.Level.Team
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inValueReinforcePoint_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inEntryCorps_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin team_;
-		public string teamName_;
+		public string teamName_= string.Empty;
 		public uint teamLabel_;
-		public string initalTactics;
+		public string initalTactics= string.Empty;
 		
         
         new public static void SetupObjectType()

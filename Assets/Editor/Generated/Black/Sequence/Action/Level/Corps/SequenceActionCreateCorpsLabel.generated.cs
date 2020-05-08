@@ -14,8 +14,8 @@ namespace Black.Sequence.Action.Level.Corps
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin failure_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin position_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin corps_;
-		public string corpName_;
-		public string corpLabel_;
+		public string corpName_= string.Empty;
+		public string corpLabel_= string.Empty;
 		public float spawnRadius_;
 		public bool isCreateProps_;
 		

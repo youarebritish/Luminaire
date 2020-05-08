@@ -8,7 +8,7 @@ namespace Black.Entity.Vfx
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> VlinkPathList;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> VlinkPathList= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		public int priorityType_;
 		
         

@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.TimeControl
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.Framework.TimeControl.AnchorPoint> anchorPoints_;
+		public IList<SQEX.Ebony.Framework.TimeControl.AnchorPoint> anchorPoints_= new List<SQEX.Ebony.Framework.TimeControl.AnchorPoint>();
 		
         
         new public static void SetupObjectType()

@@ -13,7 +13,7 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin teamNameIdPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin teamActor_;
-		public string teamName_;
+		public string teamName_= string.Empty;
 		public uint teamNameId_;
 		
         

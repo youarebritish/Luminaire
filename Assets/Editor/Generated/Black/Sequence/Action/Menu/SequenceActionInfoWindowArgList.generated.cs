@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Menu
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin pressButtonDecided_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin pressButtonOther_;
 		public uint dialogFixId_;
-		public string dialogString_;
+		public string dialogString_= string.Empty;
 		public UnityEngine.Vector4 dialogPos_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin valueListInputPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outputID_;

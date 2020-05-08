@@ -8,7 +8,7 @@ namespace Black.AIGraph.Data.PropertyData
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string label_;
+		public string label_= string.Empty;
 		public uint labelId_;
 		public int valueType_;
 		public int scope_;

@@ -8,7 +8,7 @@ namespace Black.Sequence.Action.Debug
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Sequence.Action.Debug.DebugCampScriptItem> campScriptItemList_;
+		public IList<Black.Sequence.Action.Debug.DebugCampScriptItem> campScriptItemList_= new List<Black.Sequence.Action.Debug.DebugCampScriptItem>();
 		
         
         new public static void SetupObjectType()

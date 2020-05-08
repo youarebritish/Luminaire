@@ -8,8 +8,8 @@ namespace Black.Entity.Map
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string navigationContext_;
-		public string packageName_;
+		public string navigationContext_= string.Empty;
+		public string packageName_= string.Empty;
 		public bool usePackageBaseSystem_;
 		public int filterType_;
 		

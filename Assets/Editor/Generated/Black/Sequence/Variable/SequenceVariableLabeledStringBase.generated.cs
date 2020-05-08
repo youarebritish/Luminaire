@@ -8,8 +8,8 @@ namespace Black.Sequence.Variable
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string labelName_;
-		public string labelNames_;
+		public string labelName_= string.Empty;
+		public string labelNames_= string.Empty;
 		
         
         new public static void SetupObjectType()

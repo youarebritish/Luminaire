@@ -11,7 +11,7 @@ namespace Black.Sequence.Action.Debug
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin start_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin stop_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public float posX_;
 		public float posY_;
 		public float scale_;

@@ -8,8 +8,8 @@ namespace Black.Save.AbilityTree
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Save.AbilityTree.SaveAbilityTreeEntityStruct> enableAbilityTreeEntityList;
-		public IList<uint> releaseBlockAbilityTreeEntityIdList;
+		public IList<Black.Save.AbilityTree.SaveAbilityTreeEntityStruct> enableAbilityTreeEntityList= new List<Black.Save.AbilityTree.SaveAbilityTreeEntityStruct>();
+		public IList<uint> releaseBlockAbilityTreeEntityIdList= new List<uint>();
 		
         
         new public static void SetupObjectType()

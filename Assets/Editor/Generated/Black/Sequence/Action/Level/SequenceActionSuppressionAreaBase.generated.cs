@@ -10,7 +10,7 @@ namespace Black.Sequence.Action.Level
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public bool usePlayerBeingArea_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> areaIdList_;
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> areaIdList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin entityPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin playerBeingAreaPin_;

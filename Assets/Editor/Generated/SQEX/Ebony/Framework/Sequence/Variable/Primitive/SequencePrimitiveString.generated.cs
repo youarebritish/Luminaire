@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Primitive
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string value_;
+		public string value_= string.Empty;
 		
         
         new public static void SetupObjectType()

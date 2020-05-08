@@ -12,11 +12,11 @@ namespace Black.Sequence.Actor.AI.Monster
 		public float minDistanceFromSummoner_;
 		public float maxDistanceFromSummoner_;
 		public float minDistanceBetweenSummonedActor_;
-		public string charaEntryPath0_;
+		public string charaEntryPath0_= string.Empty;
 		public int maxNum0_;
-		public string charaEntryPath1_;
+		public string charaEntryPath1_= string.Empty;
 		public int maxNum1_;
-		public string charaEntryPath2_;
+		public string charaEntryPath2_= string.Empty;
 		public int maxNum2_;
 		
         

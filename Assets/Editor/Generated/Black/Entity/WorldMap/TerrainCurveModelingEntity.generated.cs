@@ -8,11 +8,11 @@ namespace Black.Entity.WorldMap
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string authoringFilePath_;
-		public IList<Black.Entity.WorldMap.TerrainCurveModelFilePath> modelFilePaths_;
+		public string authoringFilePath_= string.Empty;
+		public IList<Black.Entity.WorldMap.TerrainCurveModelFilePath> modelFilePaths_= new List<Black.Entity.WorldMap.TerrainCurveModelFilePath>();
 		public int curveCategory_;
 		public bool isAbsorbable_;
-		public string roadmaskDir_;
+		public string roadmaskDir_= string.Empty;
 		
         
         new public static void SetupObjectType()

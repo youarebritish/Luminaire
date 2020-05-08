@@ -13,7 +13,7 @@ namespace Black.Sequence.Action.Weather
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin entity_;
 		public bool enabled_;
 		public uint climateId_;
-		public string weatherKey_;
+		public string weatherKey_= string.Empty;
 		
         
         new public static void SetupObjectType()

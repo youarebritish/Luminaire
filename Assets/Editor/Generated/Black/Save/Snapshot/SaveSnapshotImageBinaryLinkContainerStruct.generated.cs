@@ -8,7 +8,7 @@ namespace Black.Save.Snapshot
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Save.Snapshot.SaveSnapshotImageBinaryLinkStruct> links_;
+		public IList<Black.Save.Snapshot.SaveSnapshotImageBinaryLinkStruct> links_= new List<Black.Save.Snapshot.SaveSnapshotImageBinaryLinkStruct>();
 		public int shotCount_;
 		public long folderId_;
 		

@@ -27,7 +27,7 @@ namespace Black.Save.Party
 		public float job_command_gauge_max;
 		public int strategy_probability;
 		public uint camp_point_fixid;
-		public string camp_point_area_file_path;
+		public string camp_point_area_file_path= string.Empty;
 		public bool isLoopDungeon;
 		public int loopDungeonLevel;
 		public uint before_camp_point_fixid;
@@ -37,7 +37,7 @@ namespace Black.Save.Party
 		public int picture_count;
 		public long world_time;
 		public long total_seconds;
-		public string weather_key;
+		public string weather_key= string.Empty;
 		public int weather_type;
 		public int weather_index_command;
 		public int move_distance_type;

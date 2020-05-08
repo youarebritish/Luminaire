@@ -12,7 +12,7 @@ namespace Black.Sequence.Train
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inPinActors_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outPinTrain_;
-		public string trainName_;
+		public string trainName_= string.Empty;
 		
         
         new public static void SetupObjectType()

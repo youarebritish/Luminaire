@@ -12,7 +12,7 @@ namespace Black.Sequence.Event
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin touch_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin back_;
 		public uint eventId_;
-		public string eventString_;
+		public string eventString_= string.Empty;
 		public int eventType_;
 		public SQEX.Ebony.Framework.Entity.TransformEntity entityPointer_;
 		

@@ -8,8 +8,8 @@ namespace Black.Entity.Node
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Data.Area.PackageLoadAreaArrayItem> loadItemList_;
-		public IList<Black.Entity.Data.Area.PackageLoadAreaUnloadArrayItem> unloadItemList_;
+		public IList<Black.Entity.Data.Area.PackageLoadAreaArrayItem> loadItemList_= new List<Black.Entity.Data.Area.PackageLoadAreaArrayItem>();
+		public IList<Black.Entity.Data.Area.PackageLoadAreaUnloadArrayItem> unloadItemList_= new List<Black.Entity.Data.Area.PackageLoadAreaUnloadArrayItem>();
 		
         
         new public static void SetupObjectType()

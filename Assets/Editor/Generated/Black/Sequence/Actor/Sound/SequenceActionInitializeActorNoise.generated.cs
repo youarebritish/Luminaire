@@ -13,7 +13,7 @@ namespace Black.Sequence.Actor.Sound
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin base_;
 		public int objectType_;
 		public float fadeTime_;
-		public string fileName_;
+		public string fileName_= string.Empty;
 		
         
         new public static void SetupObjectType()

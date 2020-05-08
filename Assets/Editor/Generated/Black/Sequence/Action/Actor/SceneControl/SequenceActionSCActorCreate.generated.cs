@@ -29,13 +29,13 @@ namespace Black.Sequence.Action.Actor.SceneControl
 		public bool isUseEachBlackPathNodeRadius_;
 		public int retryCountWhenRadius_;
 		public int retryLimitRayCheckNGCount_;
-		public string teamName_;
-		public string teamType_;
+		public string teamName_= string.Empty;
+		public string teamType_= string.Empty;
 		public uint teamNameId_;
 		public uint teamTypeId_;
 		public uint teamParamID_;
 		public uint tacticsID_;
-		public string teamAIPath_;
+		public string teamAIPath_= string.Empty;
 		public int roleSetType_;
 		public bool bAutoTeamMerge_;
 		public int spawnWeightType1_;

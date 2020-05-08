@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin slave5Pin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin outPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finishedPin_;
-		public string sceneAssetPath_;
+		public string sceneAssetPath_= string.Empty;
 		public uint animID_;
 		public float syncTime_;
 		public bool bApplySlide_;

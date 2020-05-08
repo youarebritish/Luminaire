@@ -8,8 +8,8 @@ namespace Black.Entity.Render
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string saveFolder_;
-		public string uvSaveFolder_;
+		public string saveFolder_= string.Empty;
+		public string uvSaveFolder_= string.Empty;
 		public float texelPerMeter_;
 		public int bounceCount_;
 		public int rayBandleCount_;

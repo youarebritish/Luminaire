@@ -14,7 +14,7 @@ namespace Black.Save.Mobhunt
 		public bool isReported_;
 		public bool isKilledAll_;
 		public bool isNew_;
-		public IList<Black.Save.Mobhunt.SaveMobhuntVDataStructNew> mobhuntVDataNewArray_;
+		public IList<Black.Save.Mobhunt.SaveMobhuntVDataStructNew> mobhuntVDataNewArray_= new List<Black.Save.Mobhunt.SaveMobhuntVDataStructNew>();
 		public sbyte killCount0_;
 		public sbyte killCount1_;
 		public sbyte killCount2_;

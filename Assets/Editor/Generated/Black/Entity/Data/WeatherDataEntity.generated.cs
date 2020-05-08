@@ -9,16 +9,16 @@ namespace Black.Entity.Data
         private static PropertyContainer fieldProperties;
 		
 		public float weatherTransitionTime_;
-		public string skyFilePath_;
+		public string skyFilePath_= string.Empty;
 		public bool reloadSky_;
 		public uint defaultClimateId_;
-		public string exposureFilePath_;
+		public string exposureFilePath_= string.Empty;
 		public bool reloadExposure_;
 		public short defaultExposureId_;
-		public string postEffectFilePath_;
+		public string postEffectFilePath_= string.Empty;
 		public bool reloadPostEffect_;
 		public short defaultPostEffectId_;
-		public string cameraLightFilePath_;
+		public string cameraLightFilePath_= string.Empty;
 		public bool reloadCameraLight_;
 		public short defaultCameraLightId_;
 		

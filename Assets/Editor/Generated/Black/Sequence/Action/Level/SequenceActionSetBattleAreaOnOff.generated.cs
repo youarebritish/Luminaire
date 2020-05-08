@@ -16,7 +16,7 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin isEnableInputPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin battleAreaEntityListInputPin_;
 		public bool isBattleAreaActorKill_;
-		public string package_;
+		public string package_= string.Empty;
 		
         
         new public static void SetupObjectType()

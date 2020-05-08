@@ -11,7 +11,7 @@ namespace Black.Sequence.Actor.AI.Nifl
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> breakablePartsIds_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> breakablePartsIds_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		public int target_;
 		
         

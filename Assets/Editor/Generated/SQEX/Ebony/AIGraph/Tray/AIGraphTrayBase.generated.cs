@@ -8,8 +8,8 @@ namespace SQEX.Ebony.AIGraph.Tray
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.AIGraph.Node.AIGraphNodeBase> nodes_;
-		public IList<SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBase> properties_;
+		public IList<SQEX.Ebony.AIGraph.Node.AIGraphNodeBase> nodes_= new List<SQEX.Ebony.AIGraph.Node.AIGraphNodeBase>();
+		public IList<SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBase> properties_= new List<SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBase>();
 		public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool debug_BlockWarningRunningWithNoChildren_;
 		
         

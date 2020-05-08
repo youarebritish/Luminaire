@@ -9,11 +9,11 @@ namespace Black.Entity.Render
         private static PropertyContainer fieldProperties;
 		
 		public bool enabled_;
-		public string texturePath0_;
-		public string texturePath1_;
-		public string texturePath2_;
-		public string texturePath3_;
-		public string texturePath4_;
+		public string texturePath0_= string.Empty;
+		public string texturePath1_= string.Empty;
+		public string texturePath2_= string.Empty;
+		public string texturePath3_= string.Empty;
+		public string texturePath4_= string.Empty;
 		public float footCheckHeight_;
 		public float displacementScaleFoot_;
 		public float displacementScaleFootUp_;

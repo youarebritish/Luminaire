@@ -10,7 +10,7 @@ namespace Black.Sequence.Action.Level
 		
 		public int level_;
 		public UnityEngine.Vector4 offset_;
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public bool isCamp_;
 		public UnityEngine.Vector4 campOffset_;
 		public uint stayPlaceID_;

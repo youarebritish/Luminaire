@@ -16,9 +16,9 @@ namespace Black.Entity.Area
 		public float triggerDepth_;
 		public float unloadMargin_;
 		public UnityEngine.Vector4 triggerOffset_;
-		public string loadDependentPackageName_;
-		public string lodLowPackageName_;
-		public string parentPackagePath_;
+		public string loadDependentPackageName_= string.Empty;
+		public string lodLowPackageName_= string.Empty;
+		public string parentPackagePath_= string.Empty;
 		public int exportType_;
 		public bool isLowPackageLoad_;
 		public bool isNotLoadedAtFlying_;

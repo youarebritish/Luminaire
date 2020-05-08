@@ -8,7 +8,7 @@ namespace Black.Save.Snapshot
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Save.Snapshot.SaveSnapshotImageInfoStruct> snapshots_;
+		public IList<Black.Save.Snapshot.SaveSnapshotImageInfoStruct> snapshots_= new List<Black.Save.Snapshot.SaveSnapshotImageInfoStruct>();
 		
         
         new public static void SetupObjectType()

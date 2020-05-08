@@ -8,7 +8,7 @@ namespace Black.Entity.WorldMap
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public float scaling_;
 		public bool visible_;
 		public bool isAbsorbTarget_;

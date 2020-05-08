@@ -8,7 +8,7 @@ namespace Black.Sequence.Actor
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string pathAnimGraph_;
+		public string pathAnimGraph_= string.Empty;
 		public bool sendStartMessage_0_1_;
 		public bool sendEndMessage_0_1_;
 		public bool sendCancelMessage_2_;

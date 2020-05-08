@@ -17,7 +17,7 @@ namespace Black.Sequence.Actor
 		public float velocityOffset_;
 		public float waitSecond_;
 		public int attackerLimit_;
-		public IList<Black.AI.StrongPoint.StrongPointArrayItem> dataItemList_;
+		public IList<Black.AI.StrongPoint.StrongPointArrayItem> dataItemList_= new List<Black.AI.StrongPoint.StrongPointArrayItem>();
 		
         
         new public static void SetupObjectType()

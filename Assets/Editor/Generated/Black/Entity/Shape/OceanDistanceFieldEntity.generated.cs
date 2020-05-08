@@ -10,8 +10,8 @@ namespace Black.Entity.Shape
 		
 		public UnityEngine.Vector4 scaling_;
 		public bool bakeDistanceField_;
-		public string sourceDirectory_;
-		public string sourceFileName_;
+		public string sourceDirectory_= string.Empty;
+		public string sourceFileName_= string.Empty;
 		public float lengthPerTexel_;
 		public float maxShoreDistance_;
 		public bool distanceFieldEnabled_;

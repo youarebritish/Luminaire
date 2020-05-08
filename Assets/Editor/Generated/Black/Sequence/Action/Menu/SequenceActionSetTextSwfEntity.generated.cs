@@ -13,7 +13,7 @@ namespace Black.Sequence.Action.Menu
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin swfEntityInput_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin messagePin_;
 		public uint textFieldFixid_;
-		public string message_;
+		public string message_= string.Empty;
 		
         
         new public static void SetupObjectType()

@@ -8,7 +8,7 @@ namespace SQEX.Luminous.InputDevice
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Luminous.InputDevice.PadRecordItem> items_;
+		public IList<SQEX.Luminous.InputDevice.PadRecordItem> items_= new List<SQEX.Luminous.InputDevice.PadRecordItem>();
 		
         
         new public static void SetupObjectType()

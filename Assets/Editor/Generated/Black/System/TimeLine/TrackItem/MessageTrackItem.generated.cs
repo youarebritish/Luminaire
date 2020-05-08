@@ -8,8 +8,8 @@ namespace Black.System.TimeLine.TrackItem
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string messageNameString_;
-		public string messageDialogString_;
+		public string messageNameString_= string.Empty;
+		public string messageDialogString_= string.Empty;
 		public uint messageNameFixId_;
 		public uint messageDialogFixId_;
 		public int messageType_;

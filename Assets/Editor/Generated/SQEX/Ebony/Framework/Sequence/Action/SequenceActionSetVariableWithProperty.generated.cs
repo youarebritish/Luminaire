@@ -19,7 +19,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 		public int intValue_;
 		public float floatValue_;
 		public UnityEngine.Vector4 vectorValue_;
-		public string stringValue_;
+		public string stringValue_= string.Empty;
 		public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData fixidValue_;
 		public bool isRandom_;
 		public float randomMin_;

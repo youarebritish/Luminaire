@@ -14,7 +14,7 @@ namespace Black.Sequence.Render
 		public bool enableOcean_;
 		public bool enableQueryRipple_;
 		public bool enableQueryFlowMap_;
-		public string oceanMaterialPath_;
+		public string oceanMaterialPath_= string.Empty;
 		public float interpolationTime_;
 		public bool forceSyncRender_;
 		public UnityEngine.Vector4 mipmapLod_;
@@ -30,7 +30,7 @@ namespace Black.Sequence.Render
 		public float flowMapTimeInterval_;
 		public float flowMapMaxOffset_;
 		public float waveIntensityLevel_;
-		public IList<Black.Entity.OceanParameter> oceanParamPresets_;
+		public IList<Black.Entity.OceanParameter> oceanParamPresets_= new List<Black.Entity.OceanParameter>();
 		
         
         new public static void SetupObjectType()

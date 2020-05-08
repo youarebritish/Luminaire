@@ -8,7 +8,7 @@ namespace Black.Entity.Data.CharacterEntry
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string name;
+		public string name= string.Empty;
 		public int transitionType;
 		
         

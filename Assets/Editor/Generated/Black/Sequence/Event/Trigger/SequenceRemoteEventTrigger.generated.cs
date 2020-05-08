@@ -10,7 +10,7 @@ namespace Black.Sequence.Event.Trigger
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin wakeUpPin_;
 		public uint eventId_;
-		public IList<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase> arguments_;
+		public IList<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase> arguments_= new List<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase>();
 		
         
         new public static void SetupObjectType()

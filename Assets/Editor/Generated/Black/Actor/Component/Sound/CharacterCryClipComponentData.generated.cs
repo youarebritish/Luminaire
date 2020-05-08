@@ -8,7 +8,7 @@ namespace Black.Actor.Component.Sound
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string idxFilePath_;
+		public string idxFilePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

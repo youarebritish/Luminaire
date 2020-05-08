@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.Framework.TimeControl.TimeLine.Track> childTrackList_;
+		public IList<SQEX.Ebony.Framework.TimeControl.TimeLine.Track> childTrackList_= new List<SQEX.Ebony.Framework.TimeControl.TimeLine.Track>();
 		
         
         new public static void SetupObjectType()

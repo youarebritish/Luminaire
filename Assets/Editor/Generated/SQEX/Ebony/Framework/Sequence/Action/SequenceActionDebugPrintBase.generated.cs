@@ -11,7 +11,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin var_;
-		public string text_;
+		public string text_= string.Empty;
 		public bool isAllInOneLine_;
 		
         

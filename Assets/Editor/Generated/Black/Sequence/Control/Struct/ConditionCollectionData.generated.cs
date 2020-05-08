@@ -8,7 +8,7 @@ namespace Black.Sequence.Control.Struct
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Sequence.Control.Struct.ConditionData> data_;
+		public IList<Black.Sequence.Control.Struct.ConditionData> data_= new List<Black.Sequence.Control.Struct.ConditionData>();
 		
         
         new public static void SetupObjectType()

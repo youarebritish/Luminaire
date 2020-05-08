@@ -8,13 +8,13 @@ namespace Black.Entity.Data
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string id_;
-		public string searchParamTable_;
-		public string ebexPathKey_;
-		public string idKey_;
-		public string searchParamTable2_;
-		public string ebexPathKey2_;
-		public string idKey2_;
+		public string id_= string.Empty;
+		public string searchParamTable_= string.Empty;
+		public string ebexPathKey_= string.Empty;
+		public string idKey_= string.Empty;
+		public string searchParamTable2_= string.Empty;
+		public string ebexPathKey2_= string.Empty;
+		public string idKey2_= string.Empty;
 		public bool isAutoLoad_;
 		
         

@@ -8,10 +8,10 @@ namespace Black.Entity.WorldMap.Foliage
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string foliageModelFilePath_;
-		public string foliageHighModelFilePath_;
-		public string foliageCollisionFilePath_;
-		public string foliageHighCollisionFilePath_;
+		public string foliageModelFilePath_= string.Empty;
+		public string foliageHighModelFilePath_= string.Empty;
+		public string foliageCollisionFilePath_= string.Empty;
+		public string foliageHighCollisionFilePath_= string.Empty;
 		public int foliageCategory_;
 		public bool isBakable_;
 		public bool shiftTarget_;

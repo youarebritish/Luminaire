@@ -9,8 +9,8 @@ namespace SQEX.Ebony.AIGraph.Data
         private static PropertyContainer fieldProperties;
 		
 		public int type_;
-		public string condition_;
-		public string compiledCondition_;
+		public string condition_= string.Empty;
+		public string compiledCondition_= string.Empty;
 		public int conditionIdxInContainerCache_;
 		public bool bDebugLog_;
 		public bool bDebugConditionWatch_;

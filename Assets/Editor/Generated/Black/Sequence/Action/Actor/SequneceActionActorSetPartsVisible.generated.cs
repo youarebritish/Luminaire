@@ -9,8 +9,8 @@ namespace Black.Sequence.Action.Actor
         private static PropertyContainer fieldProperties;
 		
 		public bool meshPartsStatus_;
-		public string visiblePartsName_;
-		public string invisiblePartsName_;
+		public string visiblePartsName_= string.Empty;
+		public string invisiblePartsName_= string.Empty;
 		
         
         new public static void SetupObjectType()

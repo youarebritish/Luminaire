@@ -8,8 +8,8 @@ namespace SQEX.Ebony.AIGraph.Tray
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.AIGraph.Data.TransitionData> transits_;
-		public IList<SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMRoot> rootNodes_;
+		public IList<SQEX.Ebony.AIGraph.Data.TransitionData> transits_= new List<SQEX.Ebony.AIGraph.Data.TransitionData>();
+		public IList<SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMRoot> rootNodes_= new List<SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMRoot>();
 		
         
         new public static void SetupObjectType()

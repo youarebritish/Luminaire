@@ -8,7 +8,7 @@ namespace Black.Entity.Vfx
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string vfxPath_;
+		public string vfxPath_= string.Empty;
 		
         
         new public static void SetupObjectType()

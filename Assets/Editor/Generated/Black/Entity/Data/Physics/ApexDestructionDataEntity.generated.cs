@@ -9,7 +9,7 @@ namespace Black.Entity.Data.Physics
         private static PropertyContainer fieldProperties;
 		
 		public uint destructionId_;
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public float density_;
 		public float damageInverseScaling_;
 		public bool buildNavMesh_;
@@ -38,22 +38,22 @@ namespace Black.Entity.Data.Physics
 		public float contactEventThreshold_;
 		public float contactEventPlayCountMax_;
 		public float contactEventCountMax_;
-		public string materialApexName0_;
-		public string materialMigName0_;
-		public string materialApexName1_;
-		public string materialMigName1_;
-		public string materialApexName2_;
-		public string materialMigName2_;
-		public string materialApexName3_;
-		public string materialMigName3_;
-		public string materialApexName4_;
-		public string materialMigName4_;
-		public string materialApexName5_;
-		public string materialMigName5_;
-		public string materialApexName6_;
-		public string materialMigName6_;
-		public string materialApexName7_;
-		public string materialMigName7_;
+		public string materialApexName0_= string.Empty;
+		public string materialMigName0_= string.Empty;
+		public string materialApexName1_= string.Empty;
+		public string materialMigName1_= string.Empty;
+		public string materialApexName2_= string.Empty;
+		public string materialMigName2_= string.Empty;
+		public string materialApexName3_= string.Empty;
+		public string materialMigName3_= string.Empty;
+		public string materialApexName4_= string.Empty;
+		public string materialMigName4_= string.Empty;
+		public string materialApexName5_= string.Empty;
+		public string materialMigName5_= string.Empty;
+		public string materialApexName6_= string.Empty;
+		public string materialMigName6_= string.Empty;
+		public string materialApexName7_= string.Empty;
+		public string materialMigName7_= string.Empty;
 		
         
         new public static void SetupObjectType()

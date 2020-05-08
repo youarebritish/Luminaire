@@ -19,7 +19,7 @@ namespace Black.Sequence.Action.Menu
 		public bool flagPause_;
 		public int messageSpecificationType_;
 		public uint dialogFixId_;
-		public string dialogString_;
+		public string dialogString_= string.Empty;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin argsPin4_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin argsPin3_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin argsPin2_;

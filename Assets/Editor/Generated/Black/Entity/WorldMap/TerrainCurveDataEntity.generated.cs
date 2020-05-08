@@ -8,7 +8,7 @@ namespace Black.Entity.WorldMap
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string curveDataFilePath_;
+		public string curveDataFilePath_= string.Empty;
 		public int curveCategory_;
 		public bool isAbsorbable_;
 		

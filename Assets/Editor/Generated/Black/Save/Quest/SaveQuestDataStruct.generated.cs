@@ -10,8 +10,8 @@ namespace Black.Save.Quest
 		
 		public int saveVersion;
 		public int gameInformationCount;
-		public IList<Black.Save.Quest.SaveQuestGameInformationStruct> gameInformationList;
-		public IList<uint> acceptQuestIdList_;
+		public IList<Black.Save.Quest.SaveQuestGameInformationStruct> gameInformationList= new List<Black.Save.Quest.SaveQuestGameInformationStruct>();
+		public IList<uint> acceptQuestIdList_= new List<uint>();
 		
         
         new public static void SetupObjectType()

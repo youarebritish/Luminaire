@@ -9,9 +9,9 @@ namespace Black.Save.Diner
         private static PropertyContainer fieldProperties;
 		
 		public uint currentDinerId_;
-		public IList<Black.Save.Diner.SaveDinerDataStruct> dataLists_;
-		public IList<Black.Save.Diner.SaveDinerInformationStruct> informationLists_;
-		public IList<Black.Save.Diner.SaveDinerPlaceStruct> placeLists_;
+		public IList<Black.Save.Diner.SaveDinerDataStruct> dataLists_= new List<Black.Save.Diner.SaveDinerDataStruct>();
+		public IList<Black.Save.Diner.SaveDinerInformationStruct> informationLists_= new List<Black.Save.Diner.SaveDinerInformationStruct>();
+		public IList<Black.Save.Diner.SaveDinerPlaceStruct> placeLists_= new List<Black.Save.Diner.SaveDinerPlaceStruct>();
 		
         
         new public static void SetupObjectType()

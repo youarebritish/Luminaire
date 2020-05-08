@@ -8,7 +8,7 @@ namespace SQEX.Ebony.AIGraph.Data.ConstantValue
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueBase> values_;
+		public IList<SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueBase> values_= new List<SQEX.Ebony.AIGraph.Data.ConstantValue.ConstantValueBase>();
 		
         
         new public static void SetupObjectType()

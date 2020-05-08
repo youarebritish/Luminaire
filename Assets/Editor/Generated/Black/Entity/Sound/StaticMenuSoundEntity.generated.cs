@@ -9,7 +9,7 @@ namespace Black.Entity.Sound
         private static PropertyContainer fieldProperties;
 		
 		public float soundVolume_;
-		public string idxFilePath_;
+		public string idxFilePath_= string.Empty;
 		public int soundNumber_;
 		public float soundFadeOutTime_;
 		public uint entitySearchLabelId_;

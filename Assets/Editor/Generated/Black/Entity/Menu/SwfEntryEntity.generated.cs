@@ -8,7 +8,7 @@ namespace Black.Entity.Menu
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string swfEntryPackagePath_;
+		public string swfEntryPackagePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

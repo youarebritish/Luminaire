@@ -11,7 +11,7 @@ namespace Black.Sequence.Action.Actor.SceneControl
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin spawnPointPin_;
 		public float momentum_;
 		public float angle_;
-		public string CharaEntry_;
+		public string CharaEntry_= string.Empty;
 		public int actoryType_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finished_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin failed_;

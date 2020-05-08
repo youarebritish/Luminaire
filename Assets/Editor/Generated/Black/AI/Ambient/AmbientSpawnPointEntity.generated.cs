@@ -9,7 +9,7 @@ namespace Black.AI.Ambient
         private static PropertyContainer fieldProperties;
 		
 		public uint archeType_;
-		public IList<Black.AI.Ambient.AmbientArchetypeArrayItem> additionalArchetypes_;
+		public IList<Black.AI.Ambient.AmbientArchetypeArrayItem> additionalArchetypes_= new List<Black.AI.Ambient.AmbientArchetypeArrayItem>();
 		public uint initScript_;
 		public bool spawnInCamera_;
 		public int priority_;

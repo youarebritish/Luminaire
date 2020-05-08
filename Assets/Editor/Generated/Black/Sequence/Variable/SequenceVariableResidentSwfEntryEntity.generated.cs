@@ -11,7 +11,7 @@ namespace Black.Sequence.Variable
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outValue_;
 		public uint entitySearchLabelId_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inputEntity_;
-		public string swfEntryPackagePath_;
+		public string swfEntryPackagePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

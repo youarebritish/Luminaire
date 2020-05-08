@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Objective
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string className_;
+		public string className_= string.Empty;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin out_;
 		
         

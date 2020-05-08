@@ -8,8 +8,8 @@ namespace Black.Entity.WorldMap.Foliage
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string foliageFilePath_;
-		public string foliageHighSpecFilePath_;
+		public string foliageFilePath_= string.Empty;
+		public string foliageHighSpecFilePath_= string.Empty;
 		public int cellNo_;
 		public int cellX_;
 		public int cellZ_;

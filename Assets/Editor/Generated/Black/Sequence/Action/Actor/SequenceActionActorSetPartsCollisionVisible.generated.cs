@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inValue_;
 		public bool isVisible_;
-		public IList<Black.Sequence.Action.Actor.SequenceActionActorSetPartsCollisionVisibleInfo> partsIDList_;
+		public IList<Black.Sequence.Action.Actor.SequenceActionActorSetPartsCollisionVisibleInfo> partsIDList_= new List<Black.Sequence.Action.Actor.SequenceActionActorSetPartsCollisionVisibleInfo>();
 		
         
         new public static void SetupObjectType()

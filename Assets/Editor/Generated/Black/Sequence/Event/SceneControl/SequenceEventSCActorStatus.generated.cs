@@ -14,8 +14,8 @@ namespace Black.Sequence.Event.SceneControl
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin teamTypeDestroyed_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin sceneNoDestroyed_;
 		public int specificSceneNo_;
-		public string specificTeamName_;
-		public string specificTeamType_;
+		public string specificTeamName_= string.Empty;
+		public string specificTeamType_= string.Empty;
 		public uint specificTeamNameId_;
 		public uint specificTeamTypeId_;
 		

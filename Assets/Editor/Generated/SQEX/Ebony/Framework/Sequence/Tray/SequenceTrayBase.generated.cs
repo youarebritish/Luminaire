@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.Sequence.Tray
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.Framework.Sequence.SequenceNode> nodes_;
+		public IList<SQEX.Ebony.Framework.Sequence.SequenceNode> nodes_= new List<SQEX.Ebony.Framework.Sequence.SequenceNode>();
 		
         
         new public static void SetupObjectType()

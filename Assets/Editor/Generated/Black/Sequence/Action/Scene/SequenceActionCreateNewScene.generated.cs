@@ -11,7 +11,7 @@ namespace Black.Sequence.Action.Scene
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outputSceneID_;
-		public string name_;
+		public string name_= string.Empty;
 		public bool autoDelete_;
 		
         

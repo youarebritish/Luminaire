@@ -34,11 +34,11 @@ namespace Black.Entity.Render
 		public bool renderBoundingVolume_;
 		public float debugSphereSize_;
 		public bool debugSpheresRawSH_;
-		public string sourceDirectory_;
-		public string sourceFileName_;
-		public string pathToPRT_;
-		public string pathToPRTD_;
-		public string pathToIRR_;
+		public string sourceDirectory_= string.Empty;
+		public string sourceFileName_= string.Empty;
+		public string pathToPRT_= string.Empty;
+		public string pathToPRTD_= string.Empty;
+		public string pathToIRR_= string.Empty;
 		public bool reload_;
 		public bool bake_;
 		public int presetType_;

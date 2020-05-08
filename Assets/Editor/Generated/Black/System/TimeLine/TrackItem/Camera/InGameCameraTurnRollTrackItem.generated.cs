@@ -8,8 +8,8 @@ namespace Black.System.TimeLine.TrackItem.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string rollId_;
-		public string rollSignId_;
+		public string rollId_= string.Empty;
+		public string rollSignId_= string.Empty;
 		public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll turnRollData_;
 		public SQEX.Ebony.Framework.TimeControl.CurveList curveList_;
 		

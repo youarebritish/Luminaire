@@ -8,13 +8,13 @@ namespace Black.Entity.Node
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string labelName_;
+		public string labelName_= string.Empty;
 		public uint stayPlaceID_;
 		public int valueType_;
 		public int labelValue_;
 		public float labelValueFloat_;
 		public bool labelValueBool_;
-		public string labelValueString_;
+		public string labelValueString_= string.Empty;
 		public bool navimeshSeedPoint_;
 		public bool isLoopDungeon_;
 		

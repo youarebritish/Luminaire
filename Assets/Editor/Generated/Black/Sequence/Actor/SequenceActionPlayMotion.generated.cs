@@ -11,7 +11,7 @@ namespace Black.Sequence.Actor
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor_;
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public bool loopMotion_;
 		public float motionSpeed_;
 		public bool stopMorpheme_;

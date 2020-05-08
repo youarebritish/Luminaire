@@ -8,7 +8,7 @@ namespace Black.AI.Ambient
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.AI.Ambient.AmbientGroupMemberDescription> memberDescriptions_;
+		public IList<Black.AI.Ambient.AmbientGroupMemberDescription> memberDescriptions_= new List<Black.AI.Ambient.AmbientGroupMemberDescription>();
 		public int maxMembers_;
 		public int maxCount_;
 		public uint steeringMoveArchetype_;

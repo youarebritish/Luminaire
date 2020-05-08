@@ -8,8 +8,8 @@ namespace Black.Save.EventScript
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Save.EventScript.SaveEventScriptGroupDataStruct> saveEventScriptGroupDataStructList;
-		public IList<Black.Save.EventScript.SaveEventScriptSceneDataStruct> saveEventScriptSceneDataStructList;
+		public IList<Black.Save.EventScript.SaveEventScriptGroupDataStruct> saveEventScriptGroupDataStructList= new List<Black.Save.EventScript.SaveEventScriptGroupDataStruct>();
+		public IList<Black.Save.EventScript.SaveEventScriptSceneDataStruct> saveEventScriptSceneDataStructList= new List<Black.Save.EventScript.SaveEventScriptSceneDataStruct>();
 		
         
         new public static void SetupObjectType()

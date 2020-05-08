@@ -13,7 +13,7 @@ namespace Black.Entity.Map
 		public float width_;
 		public int pylonID_;
 		public bool isDebugDraw_;
-		public string packageName_;
+		public string packageName_= string.Empty;
 		
         
         new public static void SetupObjectType()

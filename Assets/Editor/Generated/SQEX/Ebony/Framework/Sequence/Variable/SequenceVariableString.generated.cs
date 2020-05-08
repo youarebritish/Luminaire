@@ -10,7 +10,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
 		
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin set_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin get_;
-		public string value_;
+		public string value_= string.Empty;
 		
         
         new public static void SetupObjectType()

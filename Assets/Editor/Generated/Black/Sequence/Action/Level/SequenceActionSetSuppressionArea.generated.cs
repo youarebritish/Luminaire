@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin enemyListPin_;
 		public int enemyToKill_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin enemyToKillPin_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> battleAreaIdList_;
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> battleAreaIdList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
 		
         
         new public static void SetupObjectType()

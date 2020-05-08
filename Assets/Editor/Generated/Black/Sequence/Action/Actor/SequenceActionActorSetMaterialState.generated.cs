@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin disabled_pin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin depthWrite_pin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor_;
-		public string materialName_;
+		public string materialName_= string.Empty;
 		public bool depthWrite_;
 		
         

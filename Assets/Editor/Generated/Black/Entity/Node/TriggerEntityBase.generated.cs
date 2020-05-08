@@ -9,11 +9,11 @@ namespace Black.Entity.Node
         private static PropertyContainer fieldProperties;
 		
 		public uint eventId_;
-		public string eventString_;
+		public string eventString_= string.Empty;
 		public int triggerType_;
 		public int touchTarget_;
 		public int characterSelectID_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> CharaParamIDList;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> CharaParamIDList= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		public int touchStatus_;
 		public int touchStatus2_;
 		public int touchStatus3_;

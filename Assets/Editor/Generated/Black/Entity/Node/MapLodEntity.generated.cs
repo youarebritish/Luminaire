@@ -9,12 +9,12 @@ namespace Black.Entity.Node
         private static PropertyContainer fieldProperties;
 		
 		public bool isPackageLoad_;
-		public IList<Black.Entity.Data.Area.MapLodItem> mapLodLowItemList_;
-		public IList<Black.Entity.Data.Area.MapLodItem> mapLodHighItemList_;
+		public IList<Black.Entity.Data.Area.MapLodItem> mapLodLowItemList_= new List<Black.Entity.Data.Area.MapLodItem>();
+		public IList<Black.Entity.Data.Area.MapLodItem> mapLodHighItemList_= new List<Black.Entity.Data.Area.MapLodItem>();
 		public float unloadMargin_;
 		public UnityEngine.Vector4 scaling_;
 		public int triggerType_;
-		public string groupName_;
+		public string groupName_= string.Empty;
 		public UnityEngine.Color color_;
 		public int priority_;
 		public bool isLowPackageLoad_;

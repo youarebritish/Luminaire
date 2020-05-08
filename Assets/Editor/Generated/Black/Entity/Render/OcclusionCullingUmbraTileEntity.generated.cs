@@ -8,7 +8,7 @@ namespace Black.Entity.Render
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string umbraFilePath_;
+		public string umbraFilePath_= string.Empty;
 		public bool shadowEnable_;
 		public bool useDefaultParameters_;
 		public float smallestHole_;

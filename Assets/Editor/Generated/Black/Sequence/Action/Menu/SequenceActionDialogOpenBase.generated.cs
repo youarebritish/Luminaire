@@ -14,8 +14,8 @@ namespace Black.Sequence.Action.Menu
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin closed_;
 		public uint nameFixId_;
 		public uint dialogFixId_;
-		public string nameString_;
-		public string dialogString_;
+		public string nameString_= string.Empty;
+		public string dialogString_= string.Empty;
 		public bool nameEdge_;
 		public bool dialogEdge_;
 		public UnityEngine.Vector4 dialogPos_;

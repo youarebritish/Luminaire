@@ -8,7 +8,7 @@ namespace Black.Entity.Map
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string packageName_;
+		public string packageName_= string.Empty;
 		public int splitterIndex_;
 		
         

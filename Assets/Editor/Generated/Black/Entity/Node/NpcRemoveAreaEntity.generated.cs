@@ -12,7 +12,7 @@ namespace Black.Entity.Node
 		public float height_;
 		public float depth_;
 		public float width_;
-		public string mapPackageName_;
+		public string mapPackageName_= string.Empty;
 		
         
         new public static void SetupObjectType()

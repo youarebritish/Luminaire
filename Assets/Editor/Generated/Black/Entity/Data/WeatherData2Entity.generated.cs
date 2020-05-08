@@ -8,10 +8,10 @@ namespace Black.Entity.Data
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string weatherFilePath_;
+		public string weatherFilePath_= string.Empty;
 		public float weatherTransitionTime_;
 		public uint defaultClimateId_;
-		public string weatherKey_;
+		public string weatherKey_= string.Empty;
 		
         
         new public static void SetupObjectType()

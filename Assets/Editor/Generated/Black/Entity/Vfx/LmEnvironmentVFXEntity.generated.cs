@@ -8,7 +8,7 @@ namespace Black.Entity.Vfx
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Vfx.LmEnvironmentVFXElement> foliages_;
+		public IList<Black.Entity.Vfx.LmEnvironmentVFXElement> foliages_= new List<Black.Entity.Vfx.LmEnvironmentVFXElement>();
 		
         
         new public static void SetupObjectType()

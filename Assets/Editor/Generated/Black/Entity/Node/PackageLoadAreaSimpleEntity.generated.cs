@@ -14,7 +14,7 @@ namespace Black.Entity.Node
 		public float triggerWidth_;
 		public float triggerDepth_;
 		public UnityEngine.Vector4 triggerOffset_;
-		public string lodLowPackageName_;
+		public string lodLowPackageName_= string.Empty;
 		public bool isLowPackageLoad_;
 		
         

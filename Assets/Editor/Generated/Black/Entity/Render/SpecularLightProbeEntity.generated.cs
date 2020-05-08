@@ -21,8 +21,8 @@ namespace Black.Entity.Render
 		public UnityEngine.Vector4 captureBoxScale_;
 		public bool setCaptureToInfluence_;
 		public float useDirLightShadow_;
-		public string sourceDirectory_;
-		public string sourceFileName_;
+		public string sourceDirectory_= string.Empty;
+		public string sourceFileName_= string.Empty;
 		public float captureZNear_;
 		public float captureZFar_;
 		public int capturingOption_;

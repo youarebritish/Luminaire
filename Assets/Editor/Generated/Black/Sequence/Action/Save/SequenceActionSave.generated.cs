@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.Save
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin exit_;
 		public int save_type_;
 		public uint restartPointId_;
-		public string areaStartPackageFileName_;
+		public string areaStartPackageFileName_= string.Empty;
 		
         
         new public static void SetupObjectType()

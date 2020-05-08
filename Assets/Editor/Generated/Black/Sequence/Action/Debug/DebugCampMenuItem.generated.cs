@@ -8,12 +8,12 @@ namespace Black.Sequence.Action.Debug
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string filePath_;
-		public IList<Black.Sequence.Action.Debug.DebugCampMenuCameraItem> campCameraItemList0_;
-		public IList<Black.Sequence.Action.Debug.DebugCampMenuCameraItem> campCameraItemList1_;
-		public IList<Black.Sequence.Action.Debug.DebugCampMenuCameraItem> campCameraItemList2_;
-		public string commentJP_;
-		public string commentEng_;
+		public string filePath_= string.Empty;
+		public IList<Black.Sequence.Action.Debug.DebugCampMenuCameraItem> campCameraItemList0_= new List<Black.Sequence.Action.Debug.DebugCampMenuCameraItem>();
+		public IList<Black.Sequence.Action.Debug.DebugCampMenuCameraItem> campCameraItemList1_= new List<Black.Sequence.Action.Debug.DebugCampMenuCameraItem>();
+		public IList<Black.Sequence.Action.Debug.DebugCampMenuCameraItem> campCameraItemList2_= new List<Black.Sequence.Action.Debug.DebugCampMenuCameraItem>();
+		public string commentJP_= string.Empty;
+		public string commentEng_= string.Empty;
 		
         
         new public static void SetupObjectType()

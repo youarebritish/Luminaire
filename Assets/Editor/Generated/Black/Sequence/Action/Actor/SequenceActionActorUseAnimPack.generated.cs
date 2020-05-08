@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin loaded_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor_;
 		public bool isAutoLoad_;
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public bool stopCurrentAnim_;
 		public int priorityType_;
 		

@@ -22,7 +22,7 @@ namespace Black.Sequence.Actor.AI.Vehicle
 		public float floatValue_;
 		public float floatKeepTimeValue_;
 		public float floatKeepSpeedValue_;
-		public IList<Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem> destList_;
+		public IList<Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem> destList_= new List<Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem>();
 		public bool isLoopValue_;
 		public int loopNumValue_;
 		public bool isStopEngineAtEnd_;

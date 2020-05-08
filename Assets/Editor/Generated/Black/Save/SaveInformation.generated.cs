@@ -9,7 +9,7 @@ namespace Black.Save
         private static PropertyContainer fieldProperties;
 		
 		public int SaveType;
-		public string AreaFilePath;
+		public string AreaFilePath= string.Empty;
 		public uint PlayerRestartPointID;
 		public SQEX.Luminous.Math.DoubleVector4 PlayerWorldPos;
 		public UnityEngine.Vector4 PlayerRotation;

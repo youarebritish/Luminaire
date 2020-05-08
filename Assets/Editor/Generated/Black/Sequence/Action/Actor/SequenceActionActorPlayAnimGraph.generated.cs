@@ -14,7 +14,7 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor_;
 		public bool playPreset_;
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public float blendTime_;
 		public float playbackRate_;
 		public bool isMirrored_;

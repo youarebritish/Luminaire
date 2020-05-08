@@ -8,20 +8,20 @@ namespace Black.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string animModel_;
-		public string animPack_;
-		public string animGraph_;
-		public string animClip_;
-		public string bnmData_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> clsnData_;
+		public string animModel_= string.Empty;
+		public string animPack_= string.Empty;
+		public string animGraph_= string.Empty;
+		public string animClip_= string.Empty;
+		public string bnmData_= string.Empty;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> clsnData_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		public int naviMeshUpdateType_;
 		public bool umbraIsGate_;
-		public string kineDriverData_;
-		public string hairData_;
-		public string hairWorksData_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> hairWorksDataList_;
-		public string hairWorksMaterial_;
-		public string hairWorksModelDirectPath_;
+		public string kineDriverData_= string.Empty;
+		public string hairData_= string.Empty;
+		public string hairWorksData_= string.Empty;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> hairWorksDataList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
+		public string hairWorksMaterial_= string.Empty;
+		public string hairWorksModelDirectPath_= string.Empty;
 		public uint interactionParamId_;
 		public uint interactionItemId_;
 		public bool interactionMaskOff_;

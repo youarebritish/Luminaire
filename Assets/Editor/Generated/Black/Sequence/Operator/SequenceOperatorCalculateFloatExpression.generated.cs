@@ -8,7 +8,7 @@ namespace Black.Sequence.Operator
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string expression_;
+		public string expression_= string.Empty;
 		public int variableNum_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin dynamicVarInputPin8_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin dynamicVarInputPin7_;

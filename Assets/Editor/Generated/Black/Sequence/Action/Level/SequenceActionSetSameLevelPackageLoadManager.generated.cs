@@ -18,9 +18,9 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin completed_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin completedUpper_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin completedLower_;
-		public string packagePath_;
-		public string campPackagePath_;
-		public IList<Black.Sequence.Action.Level.DungeonLevelItem> itemList_;
+		public string packagePath_= string.Empty;
+		public string campPackagePath_= string.Empty;
+		public IList<Black.Sequence.Action.Level.DungeonLevelItem> itemList_= new List<Black.Sequence.Action.Level.DungeonLevelItem>();
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin valueInitLevel_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin valueOffset_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin valueLevelOut_;

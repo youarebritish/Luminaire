@@ -18,8 +18,8 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin teamLeader_;
 		public uint teamParamID_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actors_;
-		public string teamName_;
-		public string teamType_;
+		public string teamName_= string.Empty;
+		public string teamType_= string.Empty;
 		public uint teamNameId_;
 		public uint teamTypeId_;
 		public bool bAutoTeamMerge_;

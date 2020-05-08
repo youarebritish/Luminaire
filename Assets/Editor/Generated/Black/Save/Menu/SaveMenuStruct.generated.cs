@@ -11,13 +11,13 @@ namespace Black.Save.Menu
 		public int version_;
 		public uint activeQuestId_;
 		public uint activeQuestDestId_;
-		public IList<uint> discoveredLocations_;
-		public IList<Black.Save.Menu.SaveMenuFootprint> footPrints_;
+		public IList<uint> discoveredLocations_= new List<uint>();
+		public IList<Black.Save.Menu.SaveMenuFootprint> footPrints_= new List<Black.Save.Menu.SaveMenuFootprint>();
 		public int userDestType_;
 		public uint userDestId_;
 		public SQEX.Luminous.Math.DoubleVector4 userDestLocation_;
 		public int visibleFlag_;
-		public IList<uint> battleItemOrderList_;
+		public IList<uint> battleItemOrderList_= new List<uint>();
 		
         
         new public static void SetupObjectType()

@@ -12,7 +12,7 @@ namespace Black.Sequence.Actor.AI
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inValueLabel_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin overrideSearchBase_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin execSearchOwner_;
-		public string searchLabel_;
+		public string searchLabel_= string.Empty;
 		
         
         new public static void SetupObjectType()

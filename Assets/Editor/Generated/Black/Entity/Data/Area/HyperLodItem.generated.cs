@@ -8,8 +8,8 @@ namespace Black.Entity.Data.Area
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Data.Area.MapLodItem> hyperLowItemList_;
-		public IList<Black.Entity.Data.Area.MapLodItem> lodItemList_;
+		public IList<Black.Entity.Data.Area.MapLodItem> hyperLowItemList_= new List<Black.Entity.Data.Area.MapLodItem>();
+		public IList<Black.Entity.Data.Area.MapLodItem> lodItemList_= new List<Black.Entity.Data.Area.MapLodItem>();
 		
         
         new public static void SetupObjectType()

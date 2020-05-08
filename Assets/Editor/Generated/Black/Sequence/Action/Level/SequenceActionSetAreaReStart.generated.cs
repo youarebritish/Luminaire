@@ -10,11 +10,11 @@ namespace Black.Sequence.Action.Level
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
-		public string restartPackage_;
+		public string restartPackage_= string.Empty;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin packagePathPin_;
 		public UnityEngine.Vector4 restartPosition_;
 		public uint restartFixId_;
-		public IList<Black.Entity.Data.Area.SetAreaReStartItem> packageList_;
+		public IList<Black.Entity.Data.Area.SetAreaReStartItem> packageList_= new List<Black.Entity.Data.Area.SetAreaReStartItem>();
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin valueRestartPosition_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin valueRestartRotation_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin valueRestartPoint_;

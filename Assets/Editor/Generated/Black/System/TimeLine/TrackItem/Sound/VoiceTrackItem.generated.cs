@@ -8,7 +8,7 @@ namespace Black.System.TimeLine.TrackItem.Sound
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public uint voiceLabel_;
 		public bool messageFlag_;
 		public int voiceLevel_;

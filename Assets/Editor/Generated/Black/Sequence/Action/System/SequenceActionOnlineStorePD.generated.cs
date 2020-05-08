@@ -13,7 +13,7 @@ namespace Black.Sequence.Action.System
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin purchase_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin cancel_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin error_;
-		public string productKey_;
+		public string productKey_= string.Empty;
 		
         
         new public static void SetupObjectType()

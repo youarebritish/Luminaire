@@ -9,7 +9,7 @@ namespace Black.Actor.Component.Material.ComponentData
         private static PropertyContainer fieldProperties;
 		
 		public int createComponentType_;
-		public IList<Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem> materials_;
+		public IList<Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem> materials_= new List<Black.Actor.Component.Material.ComponentData.BodyMaterialMaterialParamArrayItem>();
 		public float dirtyPowerByMoving_;
 		public float dirtyPowerByDownTrigger_;
 		public float dirtyPowerDuringRain_;

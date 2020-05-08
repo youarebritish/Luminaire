@@ -11,7 +11,7 @@ namespace Black.Sequence.Action.Sound
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin remove_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
-		public string preset_;
+		public string preset_= string.Empty;
 		public float fadeSec_;
 		public int groupLayer_;
 		

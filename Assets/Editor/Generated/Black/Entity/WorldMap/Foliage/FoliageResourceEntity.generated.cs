@@ -8,9 +8,9 @@ namespace Black.Entity.WorldMap.Foliage
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.WorldMap.Foliage.FoliageModelFilePathEntity> foliageModelFilePaths_;
-		public string decorationSetFilePath_;
-		public string decorationSetHighFilePath_;
+		public IList<Black.Entity.WorldMap.Foliage.FoliageModelFilePathEntity> foliageModelFilePaths_= new List<Black.Entity.WorldMap.Foliage.FoliageModelFilePathEntity>();
+		public string decorationSetFilePath_= string.Empty;
+		public string decorationSetHighFilePath_= string.Empty;
 		public float radius_;
 		public bool loadWhenFly_;
 		

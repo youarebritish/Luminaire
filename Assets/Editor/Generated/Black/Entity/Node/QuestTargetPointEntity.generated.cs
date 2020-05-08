@@ -16,7 +16,7 @@ namespace Black.Entity.Node
 		public uint questId_;
 		public uint questEntryId_;
 		public uint mapId_;
-		public string memo_;
+		public string memo_= string.Empty;
 		
         
         new public static void SetupObjectType()

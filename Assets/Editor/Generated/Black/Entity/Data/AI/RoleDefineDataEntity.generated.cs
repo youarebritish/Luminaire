@@ -8,7 +8,7 @@ namespace Black.Entity.Data.AI
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string name_;
+		public string name_= string.Empty;
 		public uint charaEntryId1_;
 		public uint charaEntryId2_;
 		public uint charaEntryId3_;

@@ -11,7 +11,7 @@ namespace Black.Sequence.Action.Level.Corps
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin corps_;
-		public string corpsName_;
+		public string corpsName_= string.Empty;
 		
         
         new public static void SetupObjectType()

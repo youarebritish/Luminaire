@@ -8,8 +8,8 @@ namespace SQEX.Ebony.Framework.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string sourcePath_;
-		public string name_;
+		public string sourcePath_= string.Empty;
+		public string name_= string.Empty;
 		public bool isTemplateTraySourceReference_;
 		public bool isShared_;
 		public bool startupLoad_;

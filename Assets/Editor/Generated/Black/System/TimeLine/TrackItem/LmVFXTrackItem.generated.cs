@@ -11,7 +11,7 @@ namespace Black.System.TimeLine.TrackItem
 		public UnityEngine.Vector4 position_;
 		public UnityEngine.Vector4 rotation_;
 		public UnityEngine.Vector4 scaling_;
-		public string vlinkPath_;
+		public string vlinkPath_= string.Empty;
 		
         
         new public static void SetupObjectType()

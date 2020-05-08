@@ -9,7 +9,7 @@ namespace Black.Entity.Node.Corps
         private static PropertyContainer fieldProperties;
 		
 		public uint jointId_;
-		public string reinforceLabel_;
+		public string reinforceLabel_= string.Empty;
 		public uint reinforcePointLabel_;
 		public bool isDebugDraw_;
 		

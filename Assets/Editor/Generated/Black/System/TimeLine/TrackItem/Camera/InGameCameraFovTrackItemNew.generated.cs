@@ -8,7 +8,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string fovId_;
+		public string fovId_= string.Empty;
 		public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovNew fovData_;
 		
         

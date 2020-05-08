@@ -14,8 +14,8 @@ namespace Black.Entity.Area
 		public int CellCountX_;
 		public int CellCountZ_;
 		public float LodDistance_;
-		public string mapIDFilePath_;
-		public string naviCurveFilePath_;
+		public string mapIDFilePath_= string.Empty;
+		public string naviCurveFilePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

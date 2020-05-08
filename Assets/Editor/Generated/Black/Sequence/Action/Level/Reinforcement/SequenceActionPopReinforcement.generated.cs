@@ -23,7 +23,7 @@ namespace Black.Sequence.Action.Level.Reinforcement
 		public float territoryRadius_;
 		public float territoryHeight_;
 		public float battleAreaMargin_;
-		public string bgmFilePath_;
+		public string bgmFilePath_= string.Empty;
 		public float genrateAngleFromCameraBehind_;
 		public float generateDistanceFromCameraMin_;
 		public float generateDistanceFromCameraMax_;

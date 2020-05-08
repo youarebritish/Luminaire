@@ -14,7 +14,7 @@ namespace Black.Entity.Area
 		public int CellCountZ_;
 		public float LodDistance_;
 		public int MapId_;
-		public IList<Black.Entity.Area.PackageLocationArrayItem> subMapShiftOffsets_;
+		public IList<Black.Entity.Area.PackageLocationArrayItem> subMapShiftOffsets_= new List<Black.Entity.Area.PackageLocationArrayItem>();
 		public UnityEngine.Vector4 AdjustPos_;
 		public bool isTitle_;
 		public int worldMapType_;

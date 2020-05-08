@@ -10,7 +10,7 @@ namespace Black.Entity.Vfx
 		
 		public float baseScaling_;
 		public bool enabled_;
-		public string vleafPath_;
+		public string vleafPath_= string.Empty;
 		public uint leafId_;
 		
         

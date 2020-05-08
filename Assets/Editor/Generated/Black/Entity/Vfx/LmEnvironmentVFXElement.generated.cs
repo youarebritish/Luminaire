@@ -8,12 +8,12 @@ namespace Black.Entity.Vfx
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string target_;
-		public string path_;
+		public string target_= string.Empty;
+		public string path_= string.Empty;
 		public float rate_;
-		public IList<Black.Entity.Parameter.ParameterInt> externalInt_;
-		public IList<Black.Entity.Parameter.ParameterFloat> externalFloat_;
-		public IList<Black.Entity.Parameter.ParameterVector> externalVector_;
+		public IList<Black.Entity.Parameter.ParameterInt> externalInt_= new List<Black.Entity.Parameter.ParameterInt>();
+		public IList<Black.Entity.Parameter.ParameterFloat> externalFloat_= new List<Black.Entity.Parameter.ParameterFloat>();
+		public IList<Black.Entity.Parameter.ParameterVector> externalVector_= new List<Black.Entity.Parameter.ParameterVector>();
 		
         
         new public static void SetupObjectType()

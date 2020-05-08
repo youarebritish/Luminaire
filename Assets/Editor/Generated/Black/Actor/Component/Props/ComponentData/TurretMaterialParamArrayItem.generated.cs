@@ -8,8 +8,8 @@ namespace Black.Actor.Component.Props.ComponentData
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string MaterialName;
-		public string ParamName;
+		public string MaterialName= string.Empty;
+		public string ParamName= string.Empty;
 		
         
         new public static void SetupObjectType()

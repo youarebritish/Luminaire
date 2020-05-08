@@ -13,10 +13,10 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin facialAniPathLoopPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin facialAniPathStartPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin target_;
-		public string aniPathStart_;
-		public string aniPathLoop_;
-		public string facialAniPathStart_;
-		public string facialAniPathLoop_;
+		public string aniPathStart_= string.Empty;
+		public string aniPathLoop_= string.Empty;
+		public string facialAniPathStart_= string.Empty;
+		public string facialAniPathLoop_= string.Empty;
 		public float loopTime_;
 		public float startBlendDuration_;
 		public float loopBlendDuration_;

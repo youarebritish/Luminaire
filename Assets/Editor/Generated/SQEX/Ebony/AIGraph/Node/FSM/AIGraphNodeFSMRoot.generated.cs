@@ -8,7 +8,7 @@ namespace SQEX.Ebony.AIGraph.Node.FSM
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMInterrupt> interruptNodes_;
+		public IList<SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMInterrupt> interruptNodes_= new List<SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMInterrupt>();
 		public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool blockTreeDebugLogs;
 		
         

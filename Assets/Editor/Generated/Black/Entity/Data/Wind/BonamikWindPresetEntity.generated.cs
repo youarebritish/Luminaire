@@ -10,25 +10,25 @@ namespace Black.Entity.Data.Wind
 		
 		public bool isEnable_;
 		public uint bnmwnd0Id;
-		public string bnmwnd0Path;
+		public string bnmwnd0Path= string.Empty;
 		public uint bnmwnd1Id;
-		public string bnmwnd1Path;
+		public string bnmwnd1Path= string.Empty;
 		public uint bnmwnd2Id;
-		public string bnmwnd2Path;
+		public string bnmwnd2Path= string.Empty;
 		public uint bnmwnd3Id;
-		public string bnmwnd3Path;
+		public string bnmwnd3Path= string.Empty;
 		public uint bnmwnd4Id;
-		public string bnmwnd4Path;
+		public string bnmwnd4Path= string.Empty;
 		public uint bnmwnd5Id;
-		public string bnmwnd5Path;
+		public string bnmwnd5Path= string.Empty;
 		public uint bnmwnd6Id;
-		public string bnmwnd6Path;
+		public string bnmwnd6Path= string.Empty;
 		public uint bnmwnd7Id;
-		public string bnmwnd7Path;
+		public string bnmwnd7Path= string.Empty;
 		public uint bnmwnd8Id;
-		public string bnmwnd8Path;
+		public string bnmwnd8Path= string.Empty;
 		public uint bnmwnd9Id;
-		public string bnmwnd9Path;
+		public string bnmwnd9Path= string.Empty;
 		
         
         new public static void SetupObjectType()

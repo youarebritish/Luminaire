@@ -9,10 +9,10 @@ namespace Black.Entity.Render
         private static PropertyContainer fieldProperties;
 		
 		public bool enabled_;
-		public string ripplePath_;
-		public string ripplePath1_;
-		public string ripplePath2_;
-		public string ripplePath3_;
+		public string ripplePath_= string.Empty;
+		public string ripplePath1_= string.Empty;
+		public string ripplePath2_= string.Empty;
+		public string ripplePath3_= string.Empty;
 		public float scaleHeight_;
 		
         

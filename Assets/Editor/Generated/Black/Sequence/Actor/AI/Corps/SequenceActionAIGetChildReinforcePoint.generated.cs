@@ -13,7 +13,7 @@ namespace Black.Sequence.Actor.AI.Corps
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin failure_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inActor_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outPoint_;
-		public string searchLabel_;
+		public string searchLabel_= string.Empty;
 		
         
         new public static void SetupObjectType()

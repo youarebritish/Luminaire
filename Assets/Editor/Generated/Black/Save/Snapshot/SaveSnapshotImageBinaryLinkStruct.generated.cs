@@ -9,7 +9,7 @@ namespace Black.Save.Snapshot
         private static PropertyContainer fieldProperties;
 		
 		public int id_;
-		public IList<uint> referenceSources_;
+		public IList<uint> referenceSources_= new List<uint>();
 		
         
         new public static void SetupObjectType()

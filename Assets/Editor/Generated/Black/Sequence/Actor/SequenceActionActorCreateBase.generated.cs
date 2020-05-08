@@ -15,7 +15,7 @@ namespace Black.Sequence.Actor
 		public float upperRayOffset;
 		public float lowerRayOffset;
 		public bool isSameActorRayCheckNG_;
-		public string baseActorName1_;
+		public string baseActorName1_= string.Empty;
 		public bool isHoldLODLevel_;
 		public bool deleteActorsAtDestroy_;
 		public bool setInactiveAtSpawn_;

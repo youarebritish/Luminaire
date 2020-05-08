@@ -8,7 +8,7 @@ namespace Black.Entity.Node
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string aniPath_;
+		public string aniPath_= string.Empty;
 		public uint motionId_;
 		public bool useRotateTrigger_;
 		public bool enableMotionYscale_;

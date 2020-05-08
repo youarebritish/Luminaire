@@ -8,12 +8,12 @@ namespace SQEX.Ebony.Framework.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Luminous.Core.Object.Object> loadedObjects_;
-		public IList<string> loadedObjectNames_;
-		public IList<string> loadedObjectPaths_;
+		public IList<Luminous.Core.Object.Object> loadedObjects_= new List<Luminous.Core.Object.Object>();
+		public IList<string> loadedObjectNames_= new List<string>();
+		public IList<string> loadedObjectPaths_= new List<string>();
 		public int sequenceUpdateOrderPreset_;
 		public short sequenceUpdateOrderDirect_;
-		public IList<SQEX.Ebony.Framework.Entity.EntityPackageSharedRefItem> entityPackageSharedChildPathList_;
+		public IList<SQEX.Ebony.Framework.Entity.EntityPackageSharedRefItem> entityPackageSharedChildPathList_= new List<SQEX.Ebony.Framework.Entity.EntityPackageSharedRefItem>();
 		public uint packageSearchLabelId_;
 		public bool bUmbraBakeTarget_;
 		public bool bForbidDuplicatedLoad_;

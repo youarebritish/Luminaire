@@ -9,13 +9,13 @@ namespace Black.Entity.Data.Area
         private static PropertyContainer fieldProperties;
 		
 		public UnityEngine.Vector4 areaStartPosition_;
-		public string memo_;
-		public string labelName_;
+		public string memo_= string.Empty;
+		public string labelName_= string.Empty;
 		public int valueType_;
 		public int labelValue_;
 		public float labelValueFloat_;
 		public bool labelValueBool_;
-		public string labelValueString_;
+		public string labelValueString_= string.Empty;
 		
         
         new public static void SetupObjectType()

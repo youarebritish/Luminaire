@@ -8,7 +8,7 @@ namespace Black.Entity.Data.Area
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public bool autoUnload_;
 		public float unloadMargin_;
 		

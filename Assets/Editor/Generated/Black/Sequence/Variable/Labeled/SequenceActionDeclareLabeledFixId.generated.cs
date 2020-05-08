@@ -11,7 +11,7 @@ namespace Black.Sequence.Variable.Labeled
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public int labelScope_;
-		public IList<Black.Sequence.Variable.Labeled.Struct.LabeledVariableData> data_;
+		public IList<Black.Sequence.Variable.Labeled.Struct.LabeledVariableData> data_= new List<Black.Sequence.Variable.Labeled.Struct.LabeledVariableData>();
 		
         
         new public static void SetupObjectType()

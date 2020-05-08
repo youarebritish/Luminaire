@@ -8,7 +8,7 @@ namespace Black.Entity.Sound
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Sound.SoundResourceMaterialKindItem> materialKindList_;
+		public IList<Black.Entity.Sound.SoundResourceMaterialKindItem> materialKindList_= new List<Black.Entity.Sound.SoundResourceMaterialKindItem>();
 		
         
         new public static void SetupObjectType()

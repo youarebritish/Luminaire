@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin show_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin hide_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
-		public string packagePath_;
+		public string packagePath_= string.Empty;
 		public bool keepHiddenAtMapLODInvisible_;
 		
         

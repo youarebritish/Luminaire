@@ -11,8 +11,8 @@ namespace Black.Sequence.Action.Debug
 		public uint sceneId_;
 		public int cameraScene0Num_;
 		public int cameraScene1Num_;
-		public string commentJP_;
-		public string commentEng_;
+		public string commentJP_= string.Empty;
+		public string commentEng_= string.Empty;
 		
         
         new public static void SetupObjectType()

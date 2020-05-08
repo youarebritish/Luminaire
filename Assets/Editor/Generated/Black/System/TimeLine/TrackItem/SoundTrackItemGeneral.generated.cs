@@ -8,11 +8,11 @@ namespace Black.System.TimeLine.TrackItem
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public int soundID_;
 		public uint soundFixID_;
 		public int soundType_;
-		public string filePath_;
+		public string filePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

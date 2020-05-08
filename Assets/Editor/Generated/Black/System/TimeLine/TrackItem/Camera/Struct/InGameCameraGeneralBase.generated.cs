@@ -10,7 +10,7 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 		
 		public int filterLevel_;
 		public uint seamlessGroupId_;
-		public string seamlessId_;
+		public string seamlessId_= string.Empty;
 		public int stopFilterType_;
 		public bool isEnableSwitchOtherCamera_;
 		public bool isEnableForceStopOtherCamera_;

@@ -12,14 +12,14 @@ namespace Black.Entity.Data.Physics
 		public int vehicleType_;
 		public float enginePeakTorque_;
 		public float engineMaxRotationSpeed_;
-		public IList<Black.Entity.Data.Physics.VehicleTorqueCurveDataItem> torqueCurve_;
+		public IList<Black.Entity.Data.Physics.VehicleTorqueCurveDataItem> torqueCurve_= new List<Black.Entity.Data.Physics.VehicleTorqueCurveDataItem>();
 		public float frontBrakeTorque_;
 		public float rearBrakeTorque_;
 		public float frontHandBrakeTorque_;
 		public float rearHandBrakeTorque_;
 		public float frontMaxSteer_;
 		public float rearMaxSteer_;
-		public IList<Black.Entity.Data.Physics.VehicleSteeringPerSpeedCurveDataItem> steerPerSpeedCurve_;
+		public IList<Black.Entity.Data.Physics.VehicleSteeringPerSpeedCurveDataItem> steerPerSpeedCurve_= new List<Black.Entity.Data.Physics.VehicleSteeringPerSpeedCurveDataItem>();
 		public float frontMaxSteerUTurn_;
 		public float rearMaxSteerUTurn_;
 		public float suspensionMaxCompression_;
@@ -33,7 +33,7 @@ namespace Black.Entity.Data.Physics
 		public float suspMaxDisplacement_;
 		public bool bNeedKineDriverUpdate_;
 		public int differentialType_;
-		public IList<Black.Entity.Data.Physics.VehicleGearDataItem> gearData_;
+		public IList<Black.Entity.Data.Physics.VehicleGearDataItem> gearData_= new List<Black.Entity.Data.Physics.VehicleGearDataItem>();
 		public float gearFinalRatio_;
 		public float gearSwitchTime_;
 		public float clutchStrength_;
@@ -182,7 +182,7 @@ namespace Black.Entity.Data.Physics
 		public float whileAvoidSpeed_;
 		public float maxDeltaMoveLane_;
 		public float shipPitchPower_;
-		public IList<Black.Entity.WaterExclusionBoxParameter> waterExclusionBoxParams_;
+		public IList<Black.Entity.WaterExclusionBoxParameter> waterExclusionBoxParams_= new List<Black.Entity.WaterExclusionBoxParameter>();
 		public float skiParamTorqueForSteering1_;
 		public float skiParamTorqueForSteering2_;
 		public bool isEnableFreeDrive_;

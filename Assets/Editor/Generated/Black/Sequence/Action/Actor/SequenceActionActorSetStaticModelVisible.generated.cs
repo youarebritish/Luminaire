@@ -11,7 +11,7 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin visiblePin_;
-		public string packagePath_;
+		public string packagePath_= string.Empty;
 		public bool visible_;
 		public int visibleType_;
 		

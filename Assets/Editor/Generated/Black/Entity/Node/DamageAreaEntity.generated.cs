@@ -10,7 +10,7 @@ namespace Black.Entity.Node
 		
 		public uint attackParamFixId_;
 		public int damageMode_;
-		public string groupName_;
+		public string groupName_= string.Empty;
 		
         
         new public static void SetupObjectType()

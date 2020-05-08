@@ -8,7 +8,7 @@ namespace Black.System.TimeLine.TrackItem
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public float totalBaseFrame_;
 		public bool isLoop_;
 		public float speed_;

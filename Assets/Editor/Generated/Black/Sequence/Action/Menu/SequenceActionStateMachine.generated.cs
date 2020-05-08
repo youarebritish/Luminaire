@@ -8,7 +8,7 @@ namespace Black.Sequence.Action.Menu
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string paramTablePath_;
+		public string paramTablePath_= string.Empty;
 		public uint stateMachineId_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin currentStateIdPin_;
 		

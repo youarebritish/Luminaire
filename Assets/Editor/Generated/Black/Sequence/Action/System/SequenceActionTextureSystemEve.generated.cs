@@ -17,8 +17,8 @@ namespace Black.Sequence.Action.System
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin outFinished_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inActor_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inInterval_;
-		public string materialName_;
-		public string textureName_;
+		public string materialName_= string.Empty;
+		public string textureName_= string.Empty;
 		public float interval_;
 		public int messageMin_;
 		public int messageMax_;

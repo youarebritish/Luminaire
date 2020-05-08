@@ -9,8 +9,8 @@ namespace Black.Sequence.Actor
         private static PropertyContainer fieldProperties;
 		
 		public bool isChangeCharCollision_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> charaRemoveColIDs_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> charaColIDs_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> charaRemoveColIDs_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> charaColIDs_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		
         
         new public static void SetupObjectType()

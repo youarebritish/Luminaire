@@ -8,7 +8,7 @@ namespace Black.Entity.Menu
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public int swfType_;
 		public int directionType_;
 		public float defaultRatio_;

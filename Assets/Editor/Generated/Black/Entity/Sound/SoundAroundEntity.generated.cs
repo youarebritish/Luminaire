@@ -11,7 +11,7 @@ namespace Black.Entity.Sound
 		public float fadeTime_;
 		public float fadeInTime_;
 		public float fadeOutTime_;
-		public string idxFilePath_;
+		public string idxFilePath_= string.Empty;
 		public float aroundRadius_;
 		public int measureFrame_;
 		public int peopleType_;

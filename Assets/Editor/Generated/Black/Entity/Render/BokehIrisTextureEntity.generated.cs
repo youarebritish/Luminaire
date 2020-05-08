@@ -9,7 +9,7 @@ namespace Black.Entity.Render
         private static PropertyContainer fieldProperties;
 		
 		public bool enabled_;
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

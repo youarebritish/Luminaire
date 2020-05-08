@@ -15,7 +15,7 @@ namespace Black.Sequence.Action.TimeLine.Actor
 		public bool isWarpZeroFrame_;
 		public bool isIgnoreBaseScale_;
 		public bool isResetPhysics_;
-		public string idleMotionSourcePath_;
+		public string idleMotionSourcePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

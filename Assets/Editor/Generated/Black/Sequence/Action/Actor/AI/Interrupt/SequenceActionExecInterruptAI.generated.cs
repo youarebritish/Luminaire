@@ -15,7 +15,7 @@ namespace Black.Sequence.Action.Actor.AI.Interrupt
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inProperties_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inTaskId_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inFilePath_;
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public uint taskId_;
 		
         

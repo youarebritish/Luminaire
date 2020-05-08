@@ -8,16 +8,16 @@ namespace Black.Save.Vehicle
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Save.Vehicle.SaveVehicleColorStruct> unlockedBodyColor_;
-		public IList<Black.Save.Vehicle.SaveVehicleColorStruct> unlockedInteriorColor_;
-		public IList<Black.Save.Vehicle.SaveVehicleColorStruct> unlockedTireColor_;
-		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedSetSticker_;
-		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedLeftSticker_;
-		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedRightSticker_;
-		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedTopSticker_;
-		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedFrontSticker_;
-		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedRearSticker_;
-		public IList<Black.Save.Vehicle.SaveVehiclePartsStruct> unlockedParts_;
+		public IList<Black.Save.Vehicle.SaveVehicleColorStruct> unlockedBodyColor_= new List<Black.Save.Vehicle.SaveVehicleColorStruct>();
+		public IList<Black.Save.Vehicle.SaveVehicleColorStruct> unlockedInteriorColor_= new List<Black.Save.Vehicle.SaveVehicleColorStruct>();
+		public IList<Black.Save.Vehicle.SaveVehicleColorStruct> unlockedTireColor_= new List<Black.Save.Vehicle.SaveVehicleColorStruct>();
+		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedSetSticker_= new List<Black.Save.Vehicle.SaveVehicleUnlockStruct>();
+		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedLeftSticker_= new List<Black.Save.Vehicle.SaveVehicleUnlockStruct>();
+		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedRightSticker_= new List<Black.Save.Vehicle.SaveVehicleUnlockStruct>();
+		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedTopSticker_= new List<Black.Save.Vehicle.SaveVehicleUnlockStruct>();
+		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedFrontSticker_= new List<Black.Save.Vehicle.SaveVehicleUnlockStruct>();
+		public IList<Black.Save.Vehicle.SaveVehicleUnlockStruct> unlockedRearSticker_= new List<Black.Save.Vehicle.SaveVehicleUnlockStruct>();
+		public IList<Black.Save.Vehicle.SaveVehiclePartsStruct> unlockedParts_= new List<Black.Save.Vehicle.SaveVehiclePartsStruct>();
 		public int lastUnlockedBodyColorNum_;
 		public int lastUnlockedInteriorColorNum_;
 		public int lastUnlockedTireColorNum_;

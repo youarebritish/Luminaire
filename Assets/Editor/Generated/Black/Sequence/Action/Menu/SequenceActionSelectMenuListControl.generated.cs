@@ -19,16 +19,16 @@ namespace Black.Sequence.Action.Menu
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin dynamicVarInputPin3_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin dynamicVarInputPin2_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin dynamicVarInputPin1_;
-		public string prefix1_;
-		public string prefix2_;
-		public string prefix3_;
-		public string prefix4_;
-		public string prefix5_;
-		public string prefix6_;
-		public string prefix7_;
-		public string prefix8_;
-		public string prefix9_;
-		public string prefix10_;
+		public string prefix1_= string.Empty;
+		public string prefix2_= string.Empty;
+		public string prefix3_= string.Empty;
+		public string prefix4_= string.Empty;
+		public string prefix5_= string.Empty;
+		public string prefix6_= string.Empty;
+		public string prefix7_= string.Empty;
+		public string prefix8_= string.Empty;
+		public string prefix9_= string.Empty;
+		public string prefix10_= string.Empty;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin cursorSwfPlayerEntityInput_;
 		
         

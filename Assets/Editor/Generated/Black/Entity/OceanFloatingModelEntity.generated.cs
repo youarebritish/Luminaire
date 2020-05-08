@@ -11,7 +11,7 @@ namespace Black.Entity
 		public bool followOceanSurface_;
 		public bool followOceanNormal_;
 		public float damping_;
-		public IList<Black.Entity.WaterExclusionBoxParameter> waterExclusionBoxParams_;
+		public IList<Black.Entity.WaterExclusionBoxParameter> waterExclusionBoxParams_= new List<Black.Entity.WaterExclusionBoxParameter>();
 		
         
         new public static void SetupObjectType()

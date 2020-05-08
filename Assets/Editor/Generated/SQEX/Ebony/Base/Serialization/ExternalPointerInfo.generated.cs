@@ -11,7 +11,7 @@ namespace SQEX.Ebony.Base.Serialization
 		public short protocol_;
 		public object pointerAddress_;
 		public object paramsBuffer_;
-		public IList<string> keys_;
+		public IList<string> keys_= new List<string>();
 		public bool isIntrusive_;
 		
         

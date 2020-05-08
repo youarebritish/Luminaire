@@ -9,7 +9,7 @@ namespace Black.Save.Snapshot
         private static PropertyContainer fieldProperties;
 		
 		public int id_;
-		public IList<uint> attributes_;
+		public IList<uint> attributes_= new List<uint>();
 		public long time_;
 		public uint photoLayerId_;
 		public SQEX.Luminous.Math.DoubleVector4 worldPosition_;

@@ -17,8 +17,8 @@ namespace Black.Sequence.Action.Menu
 		public int messageSpecificationType_;
 		public uint titleFixId_;
 		public uint infoFixId_;
-		public string titleString_;
-		public string infoString_;
+		public string titleString_= string.Empty;
+		public string infoString_= string.Empty;
 		
         
         new public static void SetupObjectType()

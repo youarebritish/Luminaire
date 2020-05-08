@@ -16,7 +16,7 @@ namespace Black.Entity.Node
 		public short cameraLightId_;
 		public short priorityLevel_;
 		public float transitionTime_;
-		public string memo_;
+		public string memo_= string.Empty;
 		
         
         new public static void SetupObjectType()

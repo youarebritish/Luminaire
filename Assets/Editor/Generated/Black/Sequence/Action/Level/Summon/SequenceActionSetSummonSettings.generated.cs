@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.Level.Summon
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public int summonId_;
 		public int direction_;
-		public string packagePath_;
+		public string packagePath_= string.Empty;
 		public uint attackId_;
 		
         

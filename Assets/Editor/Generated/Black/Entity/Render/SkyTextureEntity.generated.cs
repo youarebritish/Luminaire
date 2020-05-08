@@ -9,7 +9,7 @@ namespace Black.Entity.Render
         private static PropertyContainer fieldProperties;
 		
 		public bool enabled_;
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public float intensity_;
 		public float weight_;
 		public bool useIBL_;

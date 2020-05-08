@@ -10,8 +10,8 @@ namespace Black.Sequence.Event
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin error_;
-		public string labelName_;
-		public string labelNames_;
+		public string labelName_= string.Empty;
+		public string labelNames_= string.Empty;
 		public int value_;
 		public int condition_;
 		public bool suppressTriggerAtLoading_;

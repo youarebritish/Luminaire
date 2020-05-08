@@ -16,7 +16,7 @@ namespace Black.Entity.Data.Menu
 		public bool IsEnableTruncate;
 		public uint MessageFixId_;
 		public bool IsSetString_;
-		public string MessageString_;
+		public string MessageString_= string.Empty;
 		
         
         new public static void SetupObjectType()

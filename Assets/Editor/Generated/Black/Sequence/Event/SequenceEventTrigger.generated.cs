@@ -12,7 +12,7 @@ namespace Black.Sequence.Event
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin causedActor_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin handlerActor_;
 		public uint eventId_;
-		public string eventString_;
+		public string eventString_= string.Empty;
 		
         
         new public static void SetupObjectType()

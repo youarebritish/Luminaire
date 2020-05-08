@@ -23,7 +23,7 @@ namespace Black.Sequence.Actor
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outActor_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outRigidBody_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outAttackerActor_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> nameList_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> nameList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		
         
         new public static void SetupObjectType()

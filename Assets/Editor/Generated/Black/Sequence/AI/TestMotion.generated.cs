@@ -10,7 +10,7 @@ namespace Black.Sequence.AI
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor_;
-		public string outputData_;
+		public string outputData_= string.Empty;
 		public float speedFactor_;
 		public float sizeScale_;
 		public float playbackRate_;

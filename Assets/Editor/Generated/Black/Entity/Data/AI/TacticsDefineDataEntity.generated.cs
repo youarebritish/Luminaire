@@ -8,12 +8,12 @@ namespace Black.Entity.Data.AI
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string name_;
-		public string role1_;
+		public string name_= string.Empty;
+		public string role1_= string.Empty;
 		public int num1_;
-		public string role2_;
+		public string role2_= string.Empty;
 		public int num2_;
-		public string role3_;
+		public string role3_= string.Empty;
 		public int num3_;
 		
         

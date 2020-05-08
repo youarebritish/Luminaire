@@ -13,8 +13,8 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin baseActorPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin bestYawAnglePin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin bestScorePin_;
-		public IList<Black.Entity.Data.CharacterEntry.SummonDirectionShapecastParameters> parameterList_;
-		public IList<Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters> parameterRayList_;
+		public IList<Black.Entity.Data.CharacterEntry.SummonDirectionShapecastParameters> parameterList_= new List<Black.Entity.Data.CharacterEntry.SummonDirectionShapecastParameters>();
+		public IList<Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters> parameterRayList_= new List<Black.Entity.Data.CharacterEntry.SummonDirectionRaycastParameters>();
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin spawnPointPin_;
 		public int checkAngleNum_;
 		

@@ -9,7 +9,7 @@ namespace Black.Entity.Node
         private static PropertyContainer fieldProperties;
 		
 		public uint eventId_;
-		public string eventString_;
+		public string eventString_= string.Empty;
 		public UnityEngine.Vector4 scaling_;
 		public int touchTarget_;
 		public int count_;

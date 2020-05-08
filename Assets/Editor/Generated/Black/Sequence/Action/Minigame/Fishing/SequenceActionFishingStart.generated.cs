@@ -58,12 +58,12 @@ namespace Black.Sequence.Action.Minigame.Fishing
 		public int timeEveningStartHour_;
 		public int timeNightStartHour_;
 		public int fishSizeSmallAndMiddleThreshold_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial1FixidList_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial1_2FixidList_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial2FixidList_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial2_2FixidList_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial3_1FixidList_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> specialLureNotLostIdList_;
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial1FixidList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial1_2FixidList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial2FixidList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial2_2FixidList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> fishSizeSpecial3_1FixidList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> specialLureNotLostIdList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
 		public float scriptLineHpThreshold_;
 		public float castPartCameraHeight_;
 		public float castPartCameraDistance_;

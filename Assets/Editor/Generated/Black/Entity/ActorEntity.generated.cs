@@ -8,15 +8,15 @@ namespace Black.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string charaEntry_;
+		public string charaEntry_= string.Empty;
 		public bool setInactiveAtSpawn_;
 		public bool setFadeAtSpawn_;
 		public bool isHideInitialForScript_;
 		public bool isHideInitial_;
 		public float scaling_;
 		public uint overwriteParameterID_;
-		public string sourcePathAI_;
-		public string sourcePathAIGraph_;
+		public string sourcePathAI_= string.Empty;
+		public string sourcePathAIGraph_= string.Empty;
 		public int actorType_;
 		public uint overwriteInteractionParamId_;
 		

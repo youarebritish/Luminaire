@@ -10,7 +10,7 @@ namespace Black.Entity.Data
 		
 		public bool update_;
 		public float weatherTransitionTime_;
-		public string weatherFilePath_;
+		public string weatherFilePath_= string.Empty;
 		public bool reload_;
 		public uint defaultClimateId_;
 		

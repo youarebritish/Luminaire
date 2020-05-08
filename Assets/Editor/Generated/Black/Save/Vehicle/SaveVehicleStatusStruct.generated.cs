@@ -16,9 +16,9 @@ namespace Black.Save.Vehicle
 		public int hp_;
 		public int maxHp_;
 		public int roofState_;
-		public IList<Black.Save.Vehicle.SaveVehicleVisitedParkingStruct> visitedParkingList_;
+		public IList<Black.Save.Vehicle.SaveVehicleVisitedParkingStruct> visitedParkingList_= new List<Black.Save.Vehicle.SaveVehicleVisitedParkingStruct>();
 		public bool isFreeSelectDriveMode_;
-		public IList<Black.Save.Vehicle.SaveVehicleSpecStruct> specLevel_;
+		public IList<Black.Save.Vehicle.SaveVehicleSpecStruct> specLevel_= new List<Black.Save.Vehicle.SaveVehicleSpecStruct>();
 		public Black.Save.Vehicle.SaveVehicleLooksStruct looks_;
 		public bool isAirCraft_;
 		public uint albumId_;

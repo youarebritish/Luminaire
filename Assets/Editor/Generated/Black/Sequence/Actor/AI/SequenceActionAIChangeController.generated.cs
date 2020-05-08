@@ -13,8 +13,8 @@ namespace Black.Sequence.Actor.AI
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin error_;
 		public int controllerType_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inValueOwner_;
-		public string sourcePathAI_;
-		public string sourcePathSubAI_;
+		public string sourcePathAI_= string.Empty;
+		public string sourcePathSubAI_= string.Empty;
 		
         
         new public static void SetupObjectType()

@@ -19,11 +19,11 @@ namespace Black.Actor.Component.Props.ComponentData
 		public float overheatTime_;
 		public float recoverTime_;
 		public uint overheatVfx_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> playerAttackParamIDList;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> enemyAttackParamIDList;
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> playerAttackParamIDList= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> enemyAttackParamIDList= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
 		public uint shotMessageId_;
 		public uint shotEndMessageId_;
-		public IList<Black.Actor.Component.Props.ComponentData.TurretMaterialParamArrayItem> materialParams_;
+		public IList<Black.Actor.Component.Props.ComponentData.TurretMaterialParamArrayItem> materialParams_= new List<Black.Actor.Component.Props.ComponentData.TurretMaterialParamArrayItem>();
 		public uint cameraBaseJoint_;
 		public bool isCameraYawByJoint_;
 		

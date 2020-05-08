@@ -16,7 +16,7 @@ namespace Black.Sequence.Actor
 		public bool sound3Dflag_;
 		public bool soundBindflag_;
 		public float soundVolume_;
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

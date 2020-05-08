@@ -9,7 +9,7 @@ namespace Black.Save.Vehicle
         private static PropertyContainer fieldProperties;
 		
 		public uint stickerId_;
-		public string texturePath_;
+		public string texturePath_= string.Empty;
 		public float rotate_;
 		public float scale_;
 		public float trans_;

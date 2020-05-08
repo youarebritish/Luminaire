@@ -8,15 +8,15 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string name_;
+		public string name_= string.Empty;
 		public int trackType_;
 		public int groupType_;
 		public int trackDetailType_;
 		public int trackItemType_;
 		public bool isEnable_;
-		public string activatePin_;
-		public IList<SQEX.Ebony.Framework.TimeControl.TimeLine.TrackItem> trackItemList_;
-		public IList<SQEX.Ebony.Framework.Sequence.SequenceActivatableNode> nodes_;
+		public string activatePin_= string.Empty;
+		public IList<SQEX.Ebony.Framework.TimeControl.TimeLine.TrackItem> trackItemList_= new List<SQEX.Ebony.Framework.TimeControl.TimeLine.TrackItem>();
+		public IList<SQEX.Ebony.Framework.Sequence.SequenceActivatableNode> nodes_= new List<SQEX.Ebony.Framework.Sequence.SequenceActivatableNode>();
 		
         
         new public static void SetupObjectType()

@@ -19,21 +19,21 @@ namespace Black.Sequence.Action.Actor
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin dynamicTriggerOutputPin3_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin dynamicTriggerOutputPin2_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin dynamicTriggerOutputPin1_;
-		public string expression1;
+		public string expression1= string.Empty;
 		public bool display1_;
-		public string expression2;
+		public string expression2= string.Empty;
 		public bool display2_;
-		public string expression3;
+		public string expression3= string.Empty;
 		public bool display3_;
-		public string expression4;
+		public string expression4= string.Empty;
 		public bool display4_;
-		public string expression5;
+		public string expression5= string.Empty;
 		public bool display5_;
-		public string expression6;
+		public string expression6= string.Empty;
 		public bool display6_;
-		public string expression7;
+		public string expression7= string.Empty;
 		public bool display7_;
-		public string expression8;
+		public string expression8= string.Empty;
 		public bool display8_;
 		
         

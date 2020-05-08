@@ -14,7 +14,7 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin completed_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin error_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin prefabPathPin_;
-		public string prefabPath_;
+		public string prefabPath_= string.Empty;
 		public bool isRelese_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin positionPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin rotationPin_;

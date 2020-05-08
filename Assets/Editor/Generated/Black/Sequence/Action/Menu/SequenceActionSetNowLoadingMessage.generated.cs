@@ -10,7 +10,7 @@ namespace Black.Sequence.Action.Menu
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin setPin_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin outPin_;
-		public string bgSwfPath_;
+		public string bgSwfPath_= string.Empty;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin bgSwfPathPin_;
 		public uint titleId_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin titleIdPin_;

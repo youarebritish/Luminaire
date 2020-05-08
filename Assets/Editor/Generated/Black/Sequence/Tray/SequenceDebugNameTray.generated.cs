@@ -8,7 +8,7 @@ namespace Black.Sequence.Tray
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string debugName_;
+		public string debugName_= string.Empty;
 		
         
         new public static void SetupObjectType()

@@ -9,7 +9,7 @@ namespace Black.Save.Menu
         private static PropertyContainer fieldProperties;
 		
 		public uint id_;
-		public IList<uint> bitset_;
+		public IList<uint> bitset_= new List<uint>();
 		
         
         new public static void SetupObjectType()

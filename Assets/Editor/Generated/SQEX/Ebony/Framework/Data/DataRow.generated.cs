@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.Data
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.Framework.Data.DataCell> dataCellList_;
+		public IList<SQEX.Ebony.Framework.Data.DataCell> dataCellList_= new List<SQEX.Ebony.Framework.Data.DataCell>();
 		
         
         new public static void SetupObjectType()

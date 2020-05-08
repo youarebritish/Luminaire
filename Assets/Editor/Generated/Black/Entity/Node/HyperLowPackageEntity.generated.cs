@@ -8,7 +8,7 @@ namespace Black.Entity.Node
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Data.Area.HyperLodItem> packageItemList_;
+		public IList<Black.Entity.Data.Area.HyperLodItem> packageItemList_= new List<Black.Entity.Data.Area.HyperLodItem>();
 		
         
         new public static void SetupObjectType()

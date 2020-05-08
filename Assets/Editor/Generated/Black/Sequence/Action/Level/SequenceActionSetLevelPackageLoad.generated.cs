@@ -14,7 +14,7 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finish_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin completed_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin packagePathPin_;
-		public string packagePath_;
+		public string packagePath_= string.Empty;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin valueUniqueId_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin valueLoadPosition_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin positionTargetActor_;

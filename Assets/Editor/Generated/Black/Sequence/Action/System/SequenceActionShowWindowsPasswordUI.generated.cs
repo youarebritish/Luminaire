@@ -16,7 +16,7 @@ namespace Black.Sequence.Action.System
 		public bool disableUI_;
 		public uint titleId_;
 		public uint messageId_;
-		public string name_;
+		public string name_= string.Empty;
 		
         
         new public static void SetupObjectType()

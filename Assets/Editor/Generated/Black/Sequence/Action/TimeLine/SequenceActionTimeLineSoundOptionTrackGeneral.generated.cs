@@ -8,7 +8,7 @@ namespace Black.Sequence.Action.TimeLine
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string category_;
+		public string category_= string.Empty;
 		public float volume_;
 		public bool bDefaultChangable_;
 		public float defaultOverrideVolume_;

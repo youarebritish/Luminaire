@@ -8,8 +8,8 @@ namespace Black.Entity.Data
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string filePath_;
-		public string filePathOnlyPC_;
+		public string filePath_= string.Empty;
+		public string filePathOnlyPC_= string.Empty;
 		public bool isAutoLoad_;
 		public bool isEarcExternal_;
 		

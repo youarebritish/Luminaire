@@ -17,17 +17,17 @@ namespace Black.Sequence.Actor
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin spawnPointPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin createdActor_;
 		public int actoryType_;
-		public string CharaEntry_;
+		public string CharaEntry_= string.Empty;
 		public uint overwriteParamId_;
 		public int defaultAIControllerType_;
-		public string sourcePathAI_;
-		public string sourcePathAIGraph_;
+		public string sourcePathAI_= string.Empty;
+		public string sourcePathAIGraph_= string.Empty;
 		public uint overwriteInteractionParamId_;
 		public bool isOverwriteDefaultControllerType_;
-		public string sourcePathScheduleAI_;
-		public string sourcePathScheduleDefault_;
+		public string sourcePathScheduleAI_= string.Empty;
+		public string sourcePathScheduleDefault_= string.Empty;
 		public uint overrideAIParamId_;
-		public string sourcePathCommand_;
+		public string sourcePathCommand_= string.Empty;
 		public bool bAsync_;
 		
         

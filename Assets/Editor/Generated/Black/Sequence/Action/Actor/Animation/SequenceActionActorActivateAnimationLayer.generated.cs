@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.Actor.Animation
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin deactivate_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor_;
-		public string graphName_;
+		public string graphName_= string.Empty;
 		public float blendTime_;
 		public bool isMirrored_;
 		public uint layerId_;

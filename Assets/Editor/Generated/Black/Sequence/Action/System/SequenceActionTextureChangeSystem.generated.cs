@@ -22,11 +22,11 @@ namespace Black.Sequence.Action.System
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inCurrentFolder_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outLoadedPattern_;
 		public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outLoadedTextureIndex_;
-		public string materialName_;
-		public string textureName_;
+		public string materialName_= string.Empty;
+		public string textureName_= string.Empty;
 		public float interval_;
 		public int currentFolder_;
-		public IList<SQEX.Ebony.Framework.Utility.IntArrayItem> maxList_;
+		public IList<SQEX.Ebony.Framework.Utility.IntArrayItem> maxList_= new List<SQEX.Ebony.Framework.Utility.IntArrayItem>();
 		
         
         new public static void SetupObjectType()

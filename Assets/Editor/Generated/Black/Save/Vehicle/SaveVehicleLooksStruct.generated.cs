@@ -8,7 +8,7 @@ namespace Black.Save.Vehicle
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Save.Vehicle.SaveVehicleMaterialStruct> material_;
+		public IList<Black.Save.Vehicle.SaveVehicleMaterialStruct> material_= new List<Black.Save.Vehicle.SaveVehicleMaterialStruct>();
 		public uint colorId_;
 		public uint setStickerId_;
 		public Black.Save.Vehicle.SaveVehicleStickerStruct sticker_;

@@ -8,7 +8,7 @@ namespace Black.Entity.Data
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public int layoutCreateCharacterMin_;
 		public int layoutCreateCharacterMax_;
 		public float deleteActorDistance_;

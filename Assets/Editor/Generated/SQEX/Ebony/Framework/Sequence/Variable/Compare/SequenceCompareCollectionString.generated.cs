@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Compare
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareString> conditions_;
+		public IList<SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareString> conditions_= new List<SQEX.Ebony.Framework.Sequence.Variable.Compare.SequenceCompareString>();
 		
         
         new public static void SetupObjectType()

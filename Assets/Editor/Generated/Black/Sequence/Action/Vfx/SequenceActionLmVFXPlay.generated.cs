@@ -13,7 +13,7 @@ namespace Black.Sequence.Action.Vfx
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin normalStop_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin stop_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin fadeStop_;
-		public string updateList_;
+		public string updateList_= string.Empty;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin vfxEntityPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin attachActorPin_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin transPin_;

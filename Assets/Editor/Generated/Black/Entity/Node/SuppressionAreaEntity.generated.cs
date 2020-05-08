@@ -16,7 +16,7 @@ namespace Black.Entity.Node
 		public int status_;
 		public bool determineStatus_;
 		public int enemyToKill_;
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> battleAreaIdList_;
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> battleAreaIdList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
 		public UnityEngine.Vector4 scaling_;
 		
         

@@ -8,8 +8,8 @@ namespace Black.Entity.Data.CharacterEntry
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> drivingCarVlinkPathList;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> rideOnChocoboVlinkPathList;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> drivingCarVlinkPathList= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> rideOnChocoboVlinkPathList= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		
         
         new public static void SetupObjectType()

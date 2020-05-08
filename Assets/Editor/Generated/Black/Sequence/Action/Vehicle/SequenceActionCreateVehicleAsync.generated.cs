@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Vehicle
 		public bool waitEntryLoading_;
 		public uint bodyPatternId_;
 		public uint passengerDeployId_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> charaEntryList_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> charaEntryList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		public float distance_;
 		public float range_;
 		public bool isFrontOfBase_;
@@ -45,7 +45,7 @@ namespace Black.Sequence.Action.Vehicle
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inIsFrontOfBase_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inIsSameLane_;
 		public bool waitAction_;
-		public IList<Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem> destList_;
+		public IList<Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem> destList_= new List<Black.Sequence.Actor.AI.Vehicle.VehicleNavigationDestIdItem>();
 		public bool isLoopValue_;
 		public int loopNumValue_;
 		public bool isStopEngineAtEnd_;

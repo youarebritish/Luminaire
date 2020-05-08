@@ -12,9 +12,9 @@ namespace Black.Sequence.Render
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin interpolationTimePin_;
 		public float interpolationTime_;
-		public IList<Black.Entity.Material.MaterialParameterColor> materialParamColor_;
-		public IList<Black.Entity.Material.MaterialParameterValue1> materialParamValue1_;
-		public IList<Black.Entity.Material.MaterialParameterValue4> materialParamValue4_;
+		public IList<Black.Entity.Material.MaterialParameterColor> materialParamColor_= new List<Black.Entity.Material.MaterialParameterColor>();
+		public IList<Black.Entity.Material.MaterialParameterValue1> materialParamValue1_= new List<Black.Entity.Material.MaterialParameterValue1>();
+		public IList<Black.Entity.Material.MaterialParameterValue4> materialParamValue4_= new List<Black.Entity.Material.MaterialParameterValue4>();
 		
         
         new public static void SetupObjectType()

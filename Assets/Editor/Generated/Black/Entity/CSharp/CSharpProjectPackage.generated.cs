@@ -8,7 +8,7 @@ namespace Black.Entity.CSharp
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> CSharpReferencePathList;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem> CSharpReferencePathList= new List<Black.Entity.Data.CharacterEntry.CharacterEntryStringArrayItem>();
 		
         
         new public static void SetupObjectType()

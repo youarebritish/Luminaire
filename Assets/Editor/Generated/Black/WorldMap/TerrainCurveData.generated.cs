@@ -9,22 +9,22 @@ namespace Black.WorldMap
         private static PropertyContainer fieldProperties;
 		
 		public int ModelSetCount_;
-		public IList<char> ModelName_;
-		public IList<int> ModelIndex0_;
-		public IList<int> ModelIndex1_;
-		public IList<int> ModelIndex2_;
-		public IList<int> ModelIndex0Count_;
-		public IList<float> ModelLength0_;
-		public IList<float> ModelLength1_;
-		public IList<float> ModelLength2_;
-		public IList<float> OffsetX_;
-		public IList<float> OffsetY_;
-		public IList<bool> IsCollision_;
-		public IList<bool> IsTransForm_;
-		public IList<bool> IsStraight_;
-		public IList<bool> IsYRotationOnly_;
-		public IList<bool> IsForInstancing_;
-		public IList<int> ModelSelectRate0_;
+		public IList<char> ModelName_= new List<char>();
+		public IList<int> ModelIndex0_= new List<int>();
+		public IList<int> ModelIndex1_= new List<int>();
+		public IList<int> ModelIndex2_= new List<int>();
+		public IList<int> ModelIndex0Count_= new List<int>();
+		public IList<float> ModelLength0_= new List<float>();
+		public IList<float> ModelLength1_= new List<float>();
+		public IList<float> ModelLength2_= new List<float>();
+		public IList<float> OffsetX_= new List<float>();
+		public IList<float> OffsetY_= new List<float>();
+		public IList<bool> IsCollision_= new List<bool>();
+		public IList<bool> IsTransForm_= new List<bool>();
+		public IList<bool> IsStraight_= new List<bool>();
+		public IList<bool> IsYRotationOnly_= new List<bool>();
+		public IList<bool> IsForInstancing_= new List<bool>();
+		public IList<int> ModelSelectRate0_= new List<int>();
 		
         
         new public static void SetupObjectType()

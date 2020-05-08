@@ -8,7 +8,7 @@ namespace SQEX.Ebony.AIGraph.Node.BT.Composite
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat> weightList_;
+		public IList<SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat> weightList_= new List<SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat>();
 		
         
         new public static void SetupObjectType()

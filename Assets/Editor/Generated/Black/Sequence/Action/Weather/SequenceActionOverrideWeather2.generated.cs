@@ -13,7 +13,7 @@ namespace Black.Sequence.Action.Weather
 		public float weatherTransitionTime_;
 		public int overrideType_;
 		public int weatherType_;
-		public string weatherKey_;
+		public string weatherKey_= string.Empty;
 		public bool saveTarget_;
 		
         

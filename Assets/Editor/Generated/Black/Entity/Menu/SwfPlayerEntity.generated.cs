@@ -8,12 +8,12 @@ namespace Black.Entity.Menu
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string filePath_;
+		public string filePath_= string.Empty;
 		public bool isAbsoluteOffset_;
 		public bool isSetOffset_;
 		public UnityEngine.Vector4 offset_;
 		public bool isSetTextFieldConfig_;
-		public IList<Black.Entity.Data.Menu.SwfPlayerTextFieldConfigArrayItem> textFieldConfigList_;
+		public IList<Black.Entity.Data.Menu.SwfPlayerTextFieldConfigArrayItem> textFieldConfigList_= new List<Black.Entity.Data.Menu.SwfPlayerTextFieldConfigArrayItem>();
 		public bool isClearAlphaMask_;
 		public float clearAlphaMaskValue_;
 		public bool isStopWhileGamePause_;

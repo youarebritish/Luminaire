@@ -8,10 +8,10 @@ namespace Black.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string groupName1_;
-		public string groupName2_;
-		public string groupName3_;
-		public string groupName4_;
+		public string groupName1_= string.Empty;
+		public string groupName2_= string.Empty;
+		public string groupName3_= string.Empty;
+		public string groupName4_= string.Empty;
 		public UnityEngine.Vector4 width_;
 		public UnityEngine.Vector4 shadowWidth_;
 		public UnityEngine.Vector4 thinTipOffset_;

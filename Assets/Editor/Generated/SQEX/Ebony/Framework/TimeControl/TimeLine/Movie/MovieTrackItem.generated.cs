@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.TimeControl.TimeLine.Movie
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string sourcePath_;
+		public string sourcePath_= string.Empty;
 		public uint label_;
 		public int pathType_;
 		public int voiceMatching_;

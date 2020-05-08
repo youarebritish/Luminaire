@@ -9,7 +9,7 @@ namespace Black.Save.Quest
         private static PropertyContainer fieldProperties;
 		
 		public uint questId;
-		public IList<uint> progressHistoryList;
+		public IList<uint> progressHistoryList= new List<uint>();
 		public Black.Quest.Information.QuestSaveInformation.ConditionWork conditionWork;
 		public bool isEnableUpdateUIMark;
 		

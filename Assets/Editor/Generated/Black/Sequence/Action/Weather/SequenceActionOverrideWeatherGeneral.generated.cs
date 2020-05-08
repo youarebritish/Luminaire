@@ -12,10 +12,10 @@ namespace Black.Sequence.Action.Weather
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin inEnd_;
 		public float transitionTime_;
 		public float transitionTimeEnd_;
-		public IList<Black.Sequence.Action.Weather.WeatherParameterComponent> weatherParameterComponents_;
-		public IList<Black.Sequence.Action.Weather.ExposureParameterComponent> exposureParameterComponents_;
-		public IList<Black.Sequence.Action.Weather.PostEffectParameterComponent> postEffectParameterComponents_;
-		public IList<Black.Sequence.Action.Weather.CameraLightParameterComponent> cameraLightParameterComponents_;
+		public IList<Black.Sequence.Action.Weather.WeatherParameterComponent> weatherParameterComponents_= new List<Black.Sequence.Action.Weather.WeatherParameterComponent>();
+		public IList<Black.Sequence.Action.Weather.ExposureParameterComponent> exposureParameterComponents_= new List<Black.Sequence.Action.Weather.ExposureParameterComponent>();
+		public IList<Black.Sequence.Action.Weather.PostEffectParameterComponent> postEffectParameterComponents_= new List<Black.Sequence.Action.Weather.PostEffectParameterComponent>();
+		public IList<Black.Sequence.Action.Weather.CameraLightParameterComponent> cameraLightParameterComponents_= new List<Black.Sequence.Action.Weather.CameraLightParameterComponent>();
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		
         

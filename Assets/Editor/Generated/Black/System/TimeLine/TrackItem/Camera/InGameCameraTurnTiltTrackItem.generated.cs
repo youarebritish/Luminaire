@@ -8,8 +8,8 @@ namespace Black.System.TimeLine.TrackItem.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string tiltId_;
-		public string tiltOffsetId_;
+		public string tiltId_= string.Empty;
+		public string tiltOffsetId_= string.Empty;
 		public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt turnTiltData_;
 		public SQEX.Ebony.Framework.TimeControl.CurveList curveList_;
 		

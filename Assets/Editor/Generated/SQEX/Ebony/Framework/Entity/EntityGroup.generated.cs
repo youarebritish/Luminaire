@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.Framework.Entity.Entity> entities_;
+		public IList<SQEX.Ebony.Framework.Entity.Entity> entities_= new List<SQEX.Ebony.Framework.Entity.Entity>();
 		public bool hasTransform_;
 		public UnityEngine.Vector4 position_;
 		public UnityEngine.Vector4 rotation_;

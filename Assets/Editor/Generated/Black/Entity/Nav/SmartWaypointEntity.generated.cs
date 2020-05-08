@@ -8,7 +8,7 @@ namespace Black.Entity.Nav
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string sourceFileName_;
+		public string sourceFileName_= string.Empty;
 		
         
         new public static void SetupObjectType()

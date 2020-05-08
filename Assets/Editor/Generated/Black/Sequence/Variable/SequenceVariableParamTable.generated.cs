@@ -16,7 +16,7 @@ namespace Black.Sequence.Variable
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin variableElementId_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin variableTagId_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin variableTableId_;
-		public IList<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase> arguments_;
+		public IList<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase> arguments_= new List<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase>();
 		public bool specifyTable_;
 		
         

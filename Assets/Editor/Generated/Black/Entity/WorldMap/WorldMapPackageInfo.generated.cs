@@ -13,7 +13,7 @@ namespace Black.Entity.WorldMap
 		public int CellCountX_;
 		public int CellCountZ_;
 		public float LodDistance_;
-		public string mapIDFilePath_;
+		public string mapIDFilePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

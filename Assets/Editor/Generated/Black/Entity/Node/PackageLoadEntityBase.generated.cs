@@ -15,10 +15,10 @@ namespace Black.Entity.Node
 		public float depth_;
 		public float width_;
 		public float unloadMargin_;
-		public string groupName_;
+		public string groupName_= string.Empty;
 		public UnityEngine.Color areaColor_;
-		public string memo_;
-		public string loadDependentPackageName_;
+		public string memo_= string.Empty;
+		public string loadDependentPackageName_= string.Empty;
 		public bool isNotLoadedAtFlying_;
 		public float forceNowLoadingRatio_;
 		public bool invalidateInitForceLoadRadiusFlag_;

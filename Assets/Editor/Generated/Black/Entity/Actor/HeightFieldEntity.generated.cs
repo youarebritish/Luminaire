@@ -8,12 +8,12 @@ namespace Black.Entity.Actor
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string sourcePath_;
-		public string sourcePathHighSpec_;
-		public string materialPalettePath_;
-		public string heightMapPath_;
-		public string heightMapHighSpecPath_;
-		public string additionalDisplacementTextureFilePath_;
+		public string sourcePath_= string.Empty;
+		public string sourcePathHighSpec_= string.Empty;
+		public string materialPalettePath_= string.Empty;
+		public string heightMapPath_= string.Empty;
+		public string heightMapHighSpecPath_= string.Empty;
+		public string additionalDisplacementTextureFilePath_= string.Empty;
 		public float scaling_;
 		public bool visible_;
 		public bool forMulti_;
@@ -26,7 +26,7 @@ namespace Black.Entity.Actor
 		public int lodMeshCollision_;
 		public float normalPowerPerMeter_;
 		public bool isSea_;
-		public string seaHeightMapPath_;
+		public string seaHeightMapPath_= string.Empty;
 		
         
         new public static void SetupObjectType()

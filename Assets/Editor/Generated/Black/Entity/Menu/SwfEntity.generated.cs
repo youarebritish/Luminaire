@@ -8,7 +8,7 @@ namespace Black.Entity.Menu
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string swfEntry_;
+		public string swfEntry_= string.Empty;
 		public int drawType_;
 		public int drawLayer_;
 		public bool isAutoPlay_;

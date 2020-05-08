@@ -14,7 +14,7 @@ namespace Black.Sequence.Action.Sound
 		public int noiseType_;
 		public bool isWeather_;
 		public int ambType_;
-		public string plantFile_;
+		public string plantFile_= string.Empty;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin fadeIn_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin fadeOut_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin fadeZeroOne_;

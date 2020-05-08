@@ -8,7 +8,7 @@ namespace Black.Actor.Component.SpecialAnim.CordAnim
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> boneNames_;
+		public IList<SQEX.Ebony.Framework.Utility.FixidArrayItem> boneNames_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
 		public float spring_;
 		public float damping_;
 		public float parentAngularDamping_;

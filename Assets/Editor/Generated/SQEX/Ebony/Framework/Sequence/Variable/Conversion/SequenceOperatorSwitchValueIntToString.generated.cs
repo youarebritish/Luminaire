@@ -21,17 +21,17 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Conversion
 		public int condition9_;
 		public int condition10_;
 		public int condition11_;
-		public string resultValue1_;
-		public string resultValue2_;
-		public string resultValue3_;
-		public string resultValue4_;
-		public string resultValue5_;
-		public string resultValue6_;
-		public string resultValue7_;
-		public string resultValue8_;
-		public string resultValue9_;
-		public string resultValue10_;
-		public string resultValue11_;
+		public string resultValue1_= string.Empty;
+		public string resultValue2_= string.Empty;
+		public string resultValue3_= string.Empty;
+		public string resultValue4_= string.Empty;
+		public string resultValue5_= string.Empty;
+		public string resultValue6_= string.Empty;
+		public string resultValue7_= string.Empty;
+		public string resultValue8_= string.Empty;
+		public string resultValue9_= string.Empty;
+		public string resultValue10_= string.Empty;
+		public string resultValue11_= string.Empty;
 		
         
         new public static void SetupObjectType()

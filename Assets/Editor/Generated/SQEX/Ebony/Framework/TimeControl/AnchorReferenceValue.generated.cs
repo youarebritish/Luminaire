@@ -15,7 +15,7 @@ namespace SQEX.Ebony.Framework.TimeControl
 		public bool curveEnable_;
 		public float maxValue_;
 		public float minValue_;
-		public IList<SQEX.Ebony.Framework.TimeControl.AnchorPoint> anchorPoints_;
+		public IList<SQEX.Ebony.Framework.TimeControl.AnchorPoint> anchorPoints_= new List<SQEX.Ebony.Framework.TimeControl.AnchorPoint>();
 		
         
         new public static void SetupObjectType()

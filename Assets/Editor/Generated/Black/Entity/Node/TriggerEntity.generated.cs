@@ -9,7 +9,7 @@ namespace Black.Entity.Node
         private static PropertyContainer fieldProperties;
 		
 		public int eventType_;
-		public string groupName_;
+		public string groupName_= string.Empty;
 		public bool isNoCheckFirst_;
 		public bool isNoCheckAtUCOff_;
 		public bool isSetEventModeAtTouch_;

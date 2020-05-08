@@ -30,7 +30,7 @@ namespace Black.Sequence.Action.Menu
 		public bool disableCancelButton_;
 		public int dialogType_;
 		public uint captionTextId_;
-		public string captionTextDebug_;
+		public string captionTextDebug_= string.Empty;
 		public bool defaultSelectNo_;
 		public uint select01TextId_;
 		public uint select02TextId_;

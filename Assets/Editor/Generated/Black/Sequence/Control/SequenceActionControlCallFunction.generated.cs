@@ -9,7 +9,7 @@ namespace Black.Sequence.Control
         private static PropertyContainer fieldProperties;
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
-		public string label_;
+		public string label_= string.Empty;
 		public int argumentNum_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin dynamicVarInputPin8_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin dynamicVarInputPin7_;

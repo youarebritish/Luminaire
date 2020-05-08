@@ -13,7 +13,7 @@ namespace Black.Sequence.Actor
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inValue_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin inRigidBody_;
 		public bool transitionAll_;
-		public IList<Black.Entity.Data.CharacterEntry.RBTransitionEntry> nameList_;
+		public IList<Black.Entity.Data.CharacterEntry.RBTransitionEntry> nameList_= new List<Black.Entity.Data.CharacterEntry.RBTransitionEntry>();
 		public int transitionType_;
 		public int transitionNumber_;
 		public int bahaviorOnSleeping_;

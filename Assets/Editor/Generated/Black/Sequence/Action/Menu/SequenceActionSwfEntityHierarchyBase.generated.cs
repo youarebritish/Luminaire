@@ -9,7 +9,7 @@ namespace Black.Sequence.Action.Menu
         private static PropertyContainer fieldProperties;
 		
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin mcInstancePathPin_;
-		public string mcInstancePath_;
+		public string mcInstancePath_= string.Empty;
 		
         
         new public static void SetupObjectType()

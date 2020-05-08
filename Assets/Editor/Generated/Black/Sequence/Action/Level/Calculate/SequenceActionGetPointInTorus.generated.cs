@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.Level.Calculate
 		public bool isSphereCastUseOwnerRadius_;
 		public float sphereCastRadius_;
 		public int safetyCheckCountMax_;
-		public string checkActorName_;
+		public string checkActorName_= string.Empty;
 		public bool isEnableSpawnOnBG_;
 		public bool isEnableSpawnOnProps_;
 		public bool isEnableSpawnOnChara_;

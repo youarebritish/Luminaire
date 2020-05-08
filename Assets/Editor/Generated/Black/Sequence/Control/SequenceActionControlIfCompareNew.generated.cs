@@ -10,7 +10,7 @@ namespace Black.Sequence.Control
 		
 		public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin value_;
-		public IList<Black.Sequence.Control.Struct.ConditionCollectionData> data_;
+		public IList<Black.Sequence.Control.Struct.ConditionCollectionData> data_= new List<Black.Sequence.Control.Struct.ConditionCollectionData>();
 		
         
         new public static void SetupObjectType()

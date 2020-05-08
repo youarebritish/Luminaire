@@ -8,7 +8,7 @@ namespace SQEX.Ebony.Framework.Node
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string pinValueType_;
+		public string pinValueType_= string.Empty;
 		
         
         new public static void SetupObjectType()

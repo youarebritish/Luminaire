@@ -8,7 +8,7 @@ namespace Black.Sequence.Control
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public string label_;
+		public string label_= string.Empty;
 		
         
         new public static void SetupObjectType()

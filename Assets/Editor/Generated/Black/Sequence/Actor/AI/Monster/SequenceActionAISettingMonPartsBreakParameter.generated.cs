@@ -13,9 +13,9 @@ namespace Black.Sequence.Actor.AI.Monster
 		public SQEX.Ebony.Framework.Node.GraphVariableInputPin actor_;
 		public uint settingPartsID_;
 		public uint breakJoint_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> exclusionPartsIDList_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> linkBreakingPartsIDList_;
-		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> hitCollisions_;
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> exclusionPartsIDList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> linkBreakingPartsIDList_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
+		public IList<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem> hitCollisions_= new List<Black.Entity.Data.CharacterEntry.CharacterEntryFixidArrayItem>();
 		public uint visiblePartsId_;
 		public uint pushCollision_;
 		public float timeToEraseParts_;

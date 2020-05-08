@@ -13,7 +13,7 @@ namespace Black.Sequence.Action.Level
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin completed_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin released_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin release_passed_;
-		public string packagePath_;
+		public string packagePath_= string.Empty;
 		public bool toRelease_;
 		public bool forceRelease_;
 		

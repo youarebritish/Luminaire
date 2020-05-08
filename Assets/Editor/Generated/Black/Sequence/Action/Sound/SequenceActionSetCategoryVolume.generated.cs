@@ -15,7 +15,7 @@ namespace Black.Sequence.Action.Sound
 		public int menuControl_;
 		public float fadeSec_;
 		public float volume_;
-		public string category_;
+		public string category_= string.Empty;
 		public int directIndex_;
 		public bool propagateBgm_;
 		public bool propagateVoice_;

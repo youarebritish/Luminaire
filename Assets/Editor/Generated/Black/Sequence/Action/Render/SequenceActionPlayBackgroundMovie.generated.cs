@@ -13,7 +13,7 @@ namespace Black.Sequence.Action.Render
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin started_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin stoped_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finished_;
-		public string moviePath_;
+		public string moviePath_= string.Empty;
 		public bool loopPlay_;
 		public int textureWidth_;
 		public int textureHeight_;

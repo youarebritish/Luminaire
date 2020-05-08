@@ -8,8 +8,8 @@ namespace SQEX.Ebony.Framework.Sequence
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.Framework.Node.GraphPin> refInPorts_;
-		public IList<SQEX.Ebony.Framework.Node.GraphPin> refOutPorts_;
+		public IList<SQEX.Ebony.Framework.Node.GraphPin> refInPorts_= new List<SQEX.Ebony.Framework.Node.GraphPin>();
+		public IList<SQEX.Ebony.Framework.Node.GraphPin> refOutPorts_= new List<SQEX.Ebony.Framework.Node.GraphPin>();
 		
         
         new public static void SetupObjectType()

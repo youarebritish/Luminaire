@@ -12,7 +12,7 @@ namespace Black.Sequence.Action.System
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin succeeded_;
 		public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin failed_;
-		public string pageKey_;
+		public string pageKey_= string.Empty;
 		public int target_;
 		
         

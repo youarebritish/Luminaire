@@ -8,11 +8,11 @@ namespace SQEX.Ebony.AIGraph.Node
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeBase> invokeListOnActivate_;
-		public IList<SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeBase> invokeListOnDeactivate_;
-		public IList<SQEX.Ebony.AIGraph.Data.ConditionData> conditions_;
-		public string displayName_;
-		public string displayNameJP_;
+		public IList<SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeBase> invokeListOnActivate_= new List<SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeBase>();
+		public IList<SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeBase> invokeListOnDeactivate_= new List<SQEX.Ebony.AIGraph.Invoke.AIGraphInvokeBase>();
+		public IList<SQEX.Ebony.AIGraph.Data.ConditionData> conditions_= new List<SQEX.Ebony.AIGraph.Data.ConditionData>();
+		public string displayName_= string.Empty;
+		public string displayNameJP_= string.Empty;
 		
         
         new public static void SetupObjectType()
