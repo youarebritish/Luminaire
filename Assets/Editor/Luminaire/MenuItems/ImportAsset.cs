@@ -1,4 +1,4 @@
-﻿using Black.Entity.Actor;
+﻿using Luminaire.Entity;
 using SQEX.Ebony.Framework.Entity;
 using System.IO;
 using System.Text;
@@ -31,14 +31,6 @@ public static class ImportAsset
             return;
         }
 
-        // TODO refactor
-        SQEX.Luminous.Core.Object.Object.SetupObjectType();
-        SQEX.Ebony.Framework.Entity.Entity.SetupObjectType();
-        EntityGroup.SetupObjectType();
-        EntityPackageReference.SetupObjectType();
-        EntityPackage.SetupObjectType();
-        CharacterPackage.SetupObjectType();
-
         var fileContent = File.ReadAllBytes(assetPath);
         var loader = new EntityPackageXmlLoader();
         var package = loader.CreateEntityPackage(fileContent);
@@ -56,6 +48,7 @@ public static class ImportAsset
 
     private static string MakeDestinationPath(string assetPath, string gamePath)
     {
+        // TODO use the package's source path
         var stringBuilder = new StringBuilder();
         stringBuilder.Append("Assets/");
 

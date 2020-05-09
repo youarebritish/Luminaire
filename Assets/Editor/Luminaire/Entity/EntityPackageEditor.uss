@@ -1,0 +1,11 @@
+Label {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.the-uxml-listview {
+    /* Provide the list view with an explict height for every row
+    so it can calculate how many items to actually display */
+    --unity-item-height: 16;
+    height: 500px;
+}
