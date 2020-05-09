@@ -775,14 +775,14 @@ namespace SQEX.Ebony.Framework.Entity
                 this.UncheckedObjectIndices.Add(i);
             }
 
-            var elementsToRemove = from kvp in isCheckedTable
+            /*var elementsToRemove = from kvp in isCheckedTable
                                    where !kvp.Value
                                    select this.ObjectElementList[kvp.Key];
 
             foreach (var elementToRemove in elementsToRemove)
             {
                 this.ObjectElementList.Remove(elementToRemove);
-            }
+            }*/
         }
 
         /// <summary>

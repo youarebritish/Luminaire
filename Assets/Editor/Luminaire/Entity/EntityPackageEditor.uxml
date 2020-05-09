@@ -6,5 +6,5 @@
     xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
 >  
     <engine:ListView class="the-uxml-listview" />
-    <engine:Label text="nh11_000 (EntityPackageReference)" name="InspectedEntityLabel"/>
+    <engine:Label name="InspectedEntityLabel"/>
 </engine:UXML>

@@ -41,7 +41,7 @@ namespace Luminaire.MenuItems
 
             var packageAsset = ScriptableObject.CreateInstance<EntityPackageAsset>();
 
-            var destinationPath = MakeDestinationPath(package.sourcePath_);
+            var destinationPath = MakeDestinationPath(Path.GetFileName(assetPath), package.sourcePath_);
             Directory.CreateDirectory(destinationPath);
 
             AssetDatabase.CreateAsset(packageAsset, destinationPath);
@@ -50,6 +50,14 @@ namespace Luminaire.MenuItems
             packageAsset.Package = package;
         }
 
-        private static string MakeDestinationPath(string sourcePath) => $"{ImportPath}{sourcePath}.asset";
+        private static string MakeDestinationPath(string filename, string sourcePath)
+        {
+            if (string.IsNullOrEmpty(sourcePath))
+            {
+                return $"{ImportPath}{filename}.asset";
+            }
+
+            return $"{ImportPath}{sourcePath}.asset";
+        }
     }
 }

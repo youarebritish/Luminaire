@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Diagnostics;
+using System.Reflection;
 
 namespace SQEX.Luminous.Core.Object
 {
@@ -34,7 +35,7 @@ namespace SQEX.Luminous.Core.Object
                 {
                     return;
                 }
-                
+
                 field.SetValue(this, val);
             }
         }
@@ -42,7 +43,7 @@ namespace SQEX.Luminous.Core.Object
         public T GetPropertyValue<T>(Property property)
         {
             var name = property.Name;
-            var prop = this.GetType().GetProperty(name, BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.FlattenHierarchy);
+            var prop = this.GetType().GetField(name, BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.FlattenHierarchy);
             return (T)prop.GetValue(this);
         }
 
