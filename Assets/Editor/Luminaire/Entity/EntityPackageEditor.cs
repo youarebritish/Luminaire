@@ -10,9 +10,8 @@ namespace Luminaire.Entity
     public class EntityPackageEditor : Editor
     {
         private const string InspectedEntityLabelName = "InspectedEntityLabel";
-        private const string VisualTreePath = "Assets/Editor/Luminaire/Entity/EntityPackageEditor.uxml";
         private const string StylesheetPath = "Assets/Editor/Luminaire/Entity/EntityPackageEditor.uss";
-
+        private const string VisualTreePath = "Assets/Editor/Luminaire/Entity/EntityPackageEditor.uxml";
         [SerializeField]
         private VisualElement rootElement;
 
@@ -31,6 +30,15 @@ namespace Luminaire.Entity
             rootElement.Add(defaultInspector);
 
             return rootElement;
+        }
+
+        private static void ImportUxmlAndStylesheet(VisualElement rootElement)
+        {
+            var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>(VisualTreePath);
+            visualTree.CloneTree(rootElement);
+
+            var styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>(StylesheetPath);
+            rootElement.styleSheets.Add(styleSheet);
         }
 
         private static void InitializeEntityList(VisualElement rootElement, List<string> items)
@@ -56,16 +64,6 @@ namespace Luminaire.Entity
 
             return items;
         }
-
-        private static void ImportUxmlAndStylesheet(VisualElement rootElement)
-        {
-            var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>(VisualTreePath);
-            visualTree.CloneTree(rootElement);
-
-            var styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>(StylesheetPath);
-            rootElement.styleSheets.Add(styleSheet);
-        }
-
         private void DrawEntityInspector()
         {
             var listView = this.rootElement.Q<ListView>();
