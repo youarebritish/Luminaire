@@ -1,5 +1,6 @@
 using SQEX.Luminous.Core.Object;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace SQEX.Ebony.Framework.Entity
 {
@@ -8,7 +9,8 @@ namespace SQEX.Ebony.Framework.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		public IList<Luminous.Core.Object.Object> loadedObjects_= new List<Luminous.Core.Object.Object>();
+		[SerializeReference]
+		public List<Luminous.Core.Object.Object> loadedObjects_= new List<Luminous.Core.Object.Object>();
 		public IList<string> loadedObjectNames_= new List<string>();
 		public IList<string> loadedObjectPaths_= new List<string>();
 		public int sequenceUpdateOrderPreset_;

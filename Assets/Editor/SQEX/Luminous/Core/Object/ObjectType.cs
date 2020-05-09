@@ -44,6 +44,11 @@ namespace SQEX.Luminous.Core.Object
         /// <returns>The object type, or null if not found.</returns>
         public static ObjectType FindByFullName(string fullName)
         {
+            if (objectTypes.Count == 0)
+            {
+                Black.Main.BlackMain.Initialize();
+            }
+
             if (objectTypes.ContainsKey(fullName))
             {
                 return objectTypes[fullName];

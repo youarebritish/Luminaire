@@ -2,15 +2,15 @@
 
 namespace Black.Main
 {
-    [UnityEditor.InitializeOnLoad]
-    public class BlackMain
+    //[UnityEditor.InitializeOnLoad]
+    public static class BlackMain
     {
-        static BlackMain()
+        /*static BlackMain()
         {
             Initialize();
-        }
+        }*/
 
-        private static void Initialize()
+        public static void Initialize()
         {
             EntityModuleSetup.Setup();
         }
