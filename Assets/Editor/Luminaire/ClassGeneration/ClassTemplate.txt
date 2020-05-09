@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace {{ name_space }}
 {
-    public partial class {{ type }}{{ if base_type }} : {{ base_type }}{{ end }}
+    public partial class {{ type }}{{ if object_type.has_base_type }} : {{ base_type }}{{ end }}
     {
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
