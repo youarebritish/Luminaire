@@ -11,7 +11,8 @@ namespace SQEX.Ebony.Framework.Entity
 		
 		[SerializeReference]
 		public List<Luminous.Core.Object.Object> loadedObjects_= new List<Luminous.Core.Object.Object>();
-		public IList<string> loadedObjectNames_= new List<string>();
+		[SerializeReference]
+		public List<string> loadedObjectNames_ = new List<string>();
 		public IList<string> loadedObjectPaths_= new List<string>();
 		public int sequenceUpdateOrderPreset_;
 		public short sequenceUpdateOrderDirect_;

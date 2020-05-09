@@ -4,6 +4,7 @@
     xmlns:engine="UnityEngine.UIElements"
     xmlns:editor="UnityEditor.UIElements"
     xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
->
+>  
     <engine:ListView class="the-uxml-listview" />
+    <engine:Label text="nh11_000 (EntityPackageReference)" name="InspectedEntityLabel"/>
 </engine:UXML>
