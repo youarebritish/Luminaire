@@ -14,6 +14,7 @@
     {
         private const string OutputDirectory = "/Editor/Generated/";
         private const string GeneratedFileSuffix = ".generated.cs";
+        private const string SetupClassTypeName = "Black.Entity.EntityModuleSetup";
         private static readonly IReadOnlyCollection<string> TypesToSkip = new SortedSet<string>
         {
         "BaseObject",
@@ -262,23 +263,39 @@
 
             GenerateClasses(objectTypes, parsedClassTemplate);
 
-            // Generate EntityModuleSetup class
+            var typeNames = (from objectType in objectTypes
+                         select objectType.Name);
+            GenerateSetupClass(setupTemplate, typeNames);
+        }
+
+        private static void GenerateSetupClass(string setupTemplate, IEnumerable<string> types)
+        {
+            var setupCode = GenerateSetupClassCode(setupTemplate, types);
+            WriteOutput(setupCode, SetupClassTypeName);
+        }
+
+        private static void WriteOutput(string setupCode, string typeName)
+        {
+            var setupPath = MakeOutputPath(typeName);
+            Directory.CreateDirectory(Path.GetDirectoryName(setupPath));
+            File.WriteAllText(setupPath, setupCode);
+        }
+
+        private static string GenerateSetupClassCode(string setupTemplate, IEnumerable<string> types)
+        {
             var parsedSetupTemplate = Template.Parse(setupTemplate);
+            var context = CreateSetupTemplateContext(types);
+            return parsedSetupTemplate.Render(context);
+        }
 
-            var types = (from objectType in objectTypes
-                         select objectType.Name).ToArray();
-
+        private static TemplateContext CreateSetupTemplateContext(IEnumerable<string> types)
+        {
             var scriptObject = new ScriptObject();
             scriptObject.Import(new { types });
 
             var context = new TemplateContext { LoopLimit = 4000 };
             context.PushGlobal(scriptObject);
-
-            var setupCode = parsedSetupTemplate.Render(context);
-
-            var setupPath = MakeOutputPath("Black.Entity.EntityModuleSetup");
-            Directory.CreateDirectory(Path.GetDirectoryName(setupPath));
-            File.WriteAllText(setupPath, setupCode);
+            return context;
         }
 
         private static void GenerateClasses(IEnumerable<SerializedObjectType> objectTypes, Template parsedClassTemplate)
