@@ -263,8 +263,9 @@
 
             GenerateClasses(objectTypes, parsedClassTemplate);
 
-            var typeNames = (from objectType in objectTypes
-                         select objectType.Name);
+            var typeNames = from objectType in objectTypes
+                            select objectType.Name;
+
             GenerateSetupClass(setupTemplate, typeNames);
         }
 
@@ -274,11 +275,11 @@
             WriteOutput(setupCode, SetupClassTypeName);
         }
 
-        private static void WriteOutput(string setupCode, string typeName)
+        private static void WriteOutput(string code, string typeName)
         {
-            var setupPath = MakeOutputPath(typeName);
-            Directory.CreateDirectory(Path.GetDirectoryName(setupPath));
-            File.WriteAllText(setupPath, setupCode);
+            var path = MakeOutputPath(typeName);
+            Directory.CreateDirectory(Path.GetDirectoryName(path));
+            File.WriteAllText(path, code);
         }
 
         private static string GenerateSetupClassCode(string setupTemplate, IEnumerable<string> types)
@@ -295,42 +296,50 @@
 
             var context = new TemplateContext { LoopLimit = 4000 };
             context.PushGlobal(scriptObject);
+
             return context;
         }
 
         private static void GenerateClasses(IEnumerable<SerializedObjectType> objectTypes, Template parsedClassTemplate)
         {
-            foreach (var objectTypeData in objectTypes)
+            foreach (var (objectTypeData, typeTokens) in from objectTypeData in objectTypes
+                                                         let typeTokens = objectTypeData.Name.Split('.')
+                                                         select (objectTypeData, typeTokens))
             {
-                var typeTokens = objectTypeData.Name.Split('.');
+                // FIXME: Make it more clear that we're doing this to skip some problematic types
                 if (typeTokens.Length < 2)
                 {
                     continue;
                 }
 
-                var type = typeTokens[typeTokens.Length - 1];
-                var typeNamespace = string.Empty;
-                for (var i = 0; i < typeTokens.Length - 1; i++)
-                {
-                    typeNamespace += typeTokens[i];
-
-                    if (i != typeTokens.Length - 2)
-                    {
-                        typeNamespace += ".";
-                    }
-                }
-
+                // FIXME: Instead of this dumb hack, add a check for this in the template
                 if (string.IsNullOrEmpty(objectTypeData.BaseType))
                 {
                     objectTypeData.BaseType = null;
                 }
 
-                var result = parsedClassTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.BaseType, objectType = objectTypeData });
-                var filePath = MakeOutputPath(typeNamespace + "." + type);
+                var typeNamespace = ExtractNamespace(typeTokens);
+                var type = typeTokens[typeTokens.Length - 1];
 
-                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-                File.WriteAllText(filePath, result);
+                var result = parsedClassTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.BaseType, objectType = objectTypeData });
+                WriteOutput(result, typeNamespace + "." + type);
             }
+        }
+
+        private static string ExtractNamespace(string[] typeTokens)
+        {
+            var typeNamespace = string.Empty;
+            for (var i = 0; i < typeTokens.Length - 1; i++)
+            {
+                typeNamespace += typeTokens[i];
+
+                if (i != typeTokens.Length - 2)
+                {
+                    typeNamespace += ".";
+                }
+            }
+
+            return typeNamespace;
         }
 
         /// <summary>
