@@ -77,6 +77,11 @@
             GenerateSetupClass(setupTemplate, typeNames);
         }
 
+        /// <summary>
+        /// Create template context for the setup class.
+        /// </summary>
+        /// <param name="types">Names of the generated types.</param>
+        /// <returns>The template context.</returns>
         private static TemplateContext CreateSetupTemplateContext(IEnumerable<string> types)
         {
             var scriptObject = new ScriptObject();
@@ -88,6 +93,11 @@
             return context;
         }
 
+        /// <summary>
+        /// Parse the namespace from a fully qualified type name.
+        /// </summary>
+        /// <param name="typeTokens">The elements of the type name.</param>
+        /// <returns>The namespace.</returns>
         private static string ExtractNamespace(string[] typeTokens)
         {
             var typeNamespace = string.Empty;
@@ -104,6 +114,11 @@
             return typeNamespace;
         }
 
+        /// <summary>
+        /// Generate the C# classes for the given object types.
+        /// </summary>
+        /// <param name="objectTypes">The object types to convert to C# classes.</param>
+        /// <param name="parsedClassTemplate">The class template.</param>
         private static void GenerateClasses(IEnumerable<SerializedObjectType> objectTypes, Template parsedClassTemplate)
         {
             foreach (var (objectTypeData, typeTokens) in from objectTypeData in objectTypes
@@ -118,12 +133,23 @@
             }
         }
 
+        /// <summary>
+        /// Generate the setup class.
+        /// </summary>
+        /// <param name="setupTemplate">Setup class template.</param>
+        /// <param name="types">Names of all of the generated types.</param>
         private static void GenerateSetupClass(string setupTemplate, IEnumerable<string> types)
         {
             var setupCode = GenerateSetupClassCode(setupTemplate, types);
             WriteOutput(setupCode, SetupClassTypeName);
         }
 
+        /// <summary>
+        /// Generate the source code for the setup class.
+        /// </summary>
+        /// <param name="setupTemplate">Setup class template.</param>
+        /// <param name="types">Names of all of the generated types.</param>
+        /// <returns>Source code for the generated setup class.</returns>
         private static string GenerateSetupClassCode(string setupTemplate, IEnumerable<string> types)
         {
             var parsedSetupTemplate = Template.Parse(setupTemplate);
@@ -156,6 +182,11 @@
                    select type;
         }
 
+        /// <summary>
+        /// Write the generated C# code to file.
+        /// </summary>
+        /// <param name="code">The generated source code.</param>
+        /// <param name="typeName">Fully qualified type name of the generated class.</param>
         private static void WriteOutput(string code, string typeName)
         {
             var path = MakeOutputPath(typeName);
@@ -208,6 +239,9 @@
             [JsonProperty("attr_")]
             public byte Attr { get; set; }
 
+            /// <summary>
+            /// Initialization string.
+            /// </summary>
             public string Initialization
             {
                 get
@@ -234,6 +268,9 @@
             [JsonProperty("nameHash_")]
             public uint NameHash { get; set; }
 
+            /// <summary>
+            /// Validate C# name for the property.
+            /// </summary>
             public string NameValid
             {
                 get
@@ -318,33 +355,84 @@
                 return type;
             }
 
-            private string GetTargetTypeName() => this.PrimitiveType switch
+            private string GetTargetTypeName()
             {
-                PrimitiveType.ClassField => GetValidType(this.TypeName),
-                PrimitiveType.Int8 => "sbyte",
-                PrimitiveType.Int16 => "short",
-                PrimitiveType.Int32 => "int",
-                PrimitiveType.Int64 => "long",
-                PrimitiveType.UInt8 => "byte",
-                PrimitiveType.UInt16 => "ushort",
-                PrimitiveType.UInt32 => "uint",
-                PrimitiveType.UInt64 => "ulong",
-                PrimitiveType.Bool => "bool",
-                PrimitiveType.Float => "float",
-                PrimitiveType.Double => "double",
-                PrimitiveType.String => "string",
-                PrimitiveType.Pointer => GetValidType(this.TypeName),
-                PrimitiveType.Array => this.MakeArrayTargetTypeName(),
-                PrimitiveType.PointerArray => this.MakePointerArrayTargetTypeName(),
-                PrimitiveType.Fixid => "uint",
-                PrimitiveType.Vector4 => "UnityEngine.Vector4",
-                PrimitiveType.Color => "UnityEngine.Color",
-                PrimitiveType.Buffer => "object",
-                PrimitiveType.Enum => "int",// TODO
-                PrimitiveType.IntrusivePointerArray => this.MakeArrayTargetTypeName(),
-                PrimitiveType.DoubleVector4 => "SQEX.Luminous.Math.DoubleVector4",
-                _ => throw new NotImplementedException(),
-            };
+                switch (this.PrimitiveType)
+                {
+                    case PrimitiveType.ClassField:
+                        return GetValidType(this.TypeName);
+
+                    case PrimitiveType.Int8:
+                        return "sbyte";
+
+                    case PrimitiveType.Int16:
+                        return "short";
+
+                    case PrimitiveType.Int32:
+                        return "int";
+
+                    case PrimitiveType.Int64:
+                        return "long";
+
+                    case PrimitiveType.UInt8:
+                        return "byte";
+
+                    case PrimitiveType.UInt16:
+                        return "ushort";
+
+                    case PrimitiveType.UInt32:
+                        return "uint";
+
+                    case PrimitiveType.UInt64:
+                        return "ulong";
+
+                    case PrimitiveType.Bool:
+                        return "bool";
+
+                    case PrimitiveType.Float:
+                        return "float";
+
+                    case PrimitiveType.Double:
+                        return "double";
+
+                    case PrimitiveType.String:
+                        return "string";
+
+                    case PrimitiveType.Pointer:
+                        return GetValidType(this.TypeName);
+
+                    case PrimitiveType.Array:
+                        return this.MakeArrayTargetTypeName();
+
+                    case PrimitiveType.PointerArray:
+                        return this.MakePointerArrayTargetTypeName();
+
+                    case PrimitiveType.Fixid:
+                        return "uint";
+
+                    case PrimitiveType.Vector4:
+                        return "UnityEngine.Vector4";
+
+                    case PrimitiveType.Color:
+                        return "UnityEngine.Color";
+
+                    case PrimitiveType.Buffer:
+                        return "object";
+
+                    case PrimitiveType.Enum:
+                        // TODO
+                        return "int";
+
+                    case PrimitiveType.IntrusivePointerArray:
+                        return this.MakeArrayTargetTypeName();
+
+                    case PrimitiveType.DoubleVector4:
+                        return "SQEX.Luminous.Math.DoubleVector4";
+
+                    default:
+                        throw new NotImplementedException();
+                }
+            }
 
             private string MakeArrayTargetTypeName()
             {
