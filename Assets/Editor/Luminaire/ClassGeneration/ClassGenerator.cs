@@ -36,69 +36,91 @@
 
         private class SerializedObjectType
         {
-            public string name_ { get; set; }
-            public uint thistype { get; set; }
-            public string basetype { get; set; }
-            public ulong constructFunction_ { get; set; }
-            public ulong constructFunction2_ { get; set; }
-            public bool HasConstructor => this.constructFunction2_ != 0;
-            public ulong singletonFunction_ { get; set; }
-            public SerializedPropertyContainer propertyContainer_ { get; set; }
-            public uint functionCount_ { get; set; }
-            public int objectSize_ { get; set; }
+            [JsonProperty("name_")]
+            public string Name { get; set; }
+            [JsonProperty("thistype")]
+            public uint ThisType { get; set; }
+            [JsonProperty("basetype")]
+            public string BaseType { get; set; }
+            [JsonProperty("constructFunction_")]
+            public ulong ConstructFunction { get; set; }
+            [JsonProperty("constructFunction2_")]
+            public ulong ConstructFunction2 { get; set; }
+            public bool HasConstructor => this.ConstructFunction2 != 0;
+            [JsonProperty("singletonFunction_")]
+            public ulong SingletonFunction { get; set; }
+            [JsonProperty("propertyContainer_")]
+            public SerializedPropertyContainer PropertyContainer { get; set; }
+            [JsonProperty("functionCount_")]
+            public uint FunctionCount { get; set; }
+            [JsonProperty("objectSize_")]
+            public int ObjectSize { get; set; }
         }
 
         private class SerializedPropertyContainer
         {
-            public int nameHashCode_ { get; set; }
-            public int versionHashCode_ { get; set; }
-            public ushort allPropertiesClassFieldCount_ { get; set; }
-            public SerializedProperty[] myProperties_ { get; set; }
-            public SerializedProperty[] allProperties_ { get; set; }
+            [JsonProperty("nameHashCode_")]
+            public int NameHashCode { get; set; }
+            [JsonProperty("versionHashCode_")]
+            public int VersionHashCode { get; set; }
+            [JsonProperty("allPropertiesClassFieldCount_")]
+            public ushort AllPropertiesClassFieldCount { get; set; }
+            [JsonProperty("myProperties_")]
+            public SerializedProperty[] MyProperties { get; set; }
+            [JsonProperty("allProperties_")]
+            public SerializedProperty[] AllProperties { get; set; }
 
-            public IEnumerable<SerializedProperty> InheritedProperties => from property in this.allProperties_
-                                                                          where !this.myProperties_.Any(myProperty => myProperty.name_ == property.name_)
+            public IEnumerable<SerializedProperty> InheritedProperties => from property in this.AllProperties
+                                                                          where !this.MyProperties.Any(myProperty => myProperty.Name == property.Name)
                                                                           select property;
         }
 
         private class SerializedProperty
         {
-            public string name_ { get; set; }
+            [JsonProperty("name_")]
+            public string Name { get; set; }
             public string ValidName => this.GetNameValid();
-            public uint nameHash_ { get; set; }
-            public string typeName_ { get; set; }
-            public string targetTypeName => this.GetTargetTypeName();
-            public uint offset_ { get; set; }
-            public uint size_ { get; set; }
-            public ushort itemCount_ { get; set; }
-            public PrimitiveType primitiveType_ { get; set; }
-            public string PrimitiveTypeName => this.primitiveType_.ToString();
+            [JsonProperty("nameHash_")]
+            public uint NameHash { get; set; }
+            [JsonProperty("typeName_")]
+            public string TypeName { get; set; }
+            public string TargetTypeName => this.GetTargetTypeName();
+            [JsonProperty("offset_")]
+            public uint Offset { get; set; }
+            [JsonProperty("size_")]
+            public uint Size { get; set; }
+            [JsonProperty("itemCount_")]
+            public ushort ItemCount { get; set; }
+            [JsonProperty("primitiveType_")]
+            public PrimitiveType PrimitiveType { get; set; }
+            public string PrimitiveTypeName => this.PrimitiveType.ToString();
+
+            [JsonProperty("attr_")]
+            public byte attr { get; set; }
 
             public string Initialization
             {
                 get
                 {
-                    if (this.targetTypeName == "string")
+                    if (this.TargetTypeName == "string")
                     {
                         return "= string.Empty";
                     }
-                    else if (this.targetTypeName.StartsWith("IList<"))
+                    else if (this.TargetTypeName.StartsWith("IList<"))
                     {
-                        return "= new " + this.targetTypeName.Substring(1) + "()";
+                        return "= new " + this.TargetTypeName.Substring(1) + "()";
                     }
 
                     return string.Empty;
                 }
             }
 
-            public byte attr_ { get; set; }
-
             private string GetTargetTypeName()
             {
-                switch (this.primitiveType_)
+                switch (this.PrimitiveType)
                 {
                     case PrimitiveType.ClassField:
-                        return GetValidType(this.typeName_);
+                        return GetValidType(this.TypeName);
 
                     case PrimitiveType.Int8:
                         return "sbyte";
@@ -137,7 +159,7 @@
                         return "string";
 
                     case PrimitiveType.Pointer:
-                        return GetValidType(this.typeName_);
+                        return GetValidType(this.TypeName);
 
                     case PrimitiveType.Array:
                         return this.MakeArrayTargetTypeName();
@@ -180,9 +202,9 @@
 
             private string ParseArrayTargetTypeName()
             {
-                var tokens = this.typeName_.Split('<', ' ', ',', '>');
+                var tokens = this.TypeName.Split('<', ' ', ',', '>');
                 var innerType = tokens[tokens.Length - 3];
-                if (this.typeName_.Contains(","))
+                if (this.TypeName.Contains(","))
                 {
                     innerType = tokens[tokens.Length - 5];
                 }
@@ -198,9 +220,9 @@
 
             private string ParsePointerArrayTargetTypeName()
             {
-                var tokens = this.typeName_.Split('<', ' ', ',', '*', '>');
+                var tokens = this.TypeName.Split('<', ' ', ',', '*', '>');
                 var innerType = tokens[tokens.Length - 4];
-                if (this.typeName_.Contains(","))
+                if (this.TypeName.Contains(","))
                 {
                     innerType = tokens[tokens.Length - 6];
                 }
@@ -260,17 +282,17 @@
 
             public string GetNameValid()
             {
-                if (this.name_ == "in")
+                if (this.Name == "in")
                 {
                     return "@in";
                 }
-                else if (this.name_ == "out")
+                else if (this.Name == "out")
                 {
                     return "@out";
                 }
                 else
                 {
-                    return this.name_;
+                    return this.Name;
                 }
             }
         }
@@ -278,7 +300,7 @@
         public static void GenerateClasses(string schema, string classTemplate, string setupTemplate)
         {
             var objectTypes = from type in JsonConvert.DeserializeObject<SerializedObjectType[]>(schema)
-                              where !TypesToSkip.Contains(type.name_)
+                              where !TypesToSkip.Contains(type.Name)
                               select type;
 
             var parsedClassTemplate = Template.Parse(classTemplate);
@@ -287,7 +309,7 @@
             {
                 foreach (var objectTypeData in objectTypes)
                 {
-                    var typeTokens = objectTypeData.name_.Split('.');
+                    var typeTokens = objectTypeData.Name.Split('.');
                     if (typeTokens.Length < 2)
                     {
                         continue;
@@ -305,12 +327,12 @@
                         }
                     }
 
-                    if (string.IsNullOrEmpty(objectTypeData.basetype))
+                    if (string.IsNullOrEmpty(objectTypeData.BaseType))
                     {
-                        objectTypeData.basetype = null;
+                        objectTypeData.BaseType = null;
                     }
 
-                    var result = parsedClassTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.basetype, objectType = objectTypeData });
+                    var result = parsedClassTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.BaseType, objectType = objectTypeData });
                     var filePath = MakeOutputPath(typeNamespace + "." + type);
 
                     Directory.CreateDirectory(Path.GetDirectoryName(filePath));
@@ -322,7 +344,7 @@
             var parsedSetupTemplate = Template.Parse(setupTemplate);
 
             var types = (from objectType in objectTypes
-                         select objectType.name_).ToArray();
+                         select objectType.Name).ToArray();
 
             var scriptObject = new ScriptObject();
             scriptObject.Import(new { types });

@@ -8,7 +8,7 @@ namespace {{ name_space }}
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		{{ for property in object_type.property_container_.my_properties_ }}public {{ property.target_type_name }} {{ property.valid_name }}{{ property.initialization }};
+		{{ for property in object_type.property_container.my_properties }}public {{ property.target_type_name }} {{ property.valid_name }}{{ property.initialization }};
 		{{ end }}
         
         new public static void SetupObjectType()
@@ -21,7 +21,7 @@ namespace {{ name_space }}
             var dummy = new {{ type }}();
             var properties = dummy.GetFieldProperties();
 
-            ObjectType = new ObjectType("{{ object_type.name_ }}", 0, {{ object_type.name_ }}.ObjectType, {{ if object_type.has_constructor }}Construct{{ else }}null{{ end }}, properties, {{ object_type.function_count_ }}, {{ object_type.object_size_ }});
+            ObjectType = new ObjectType("{{ object_type.name }}", 0, {{ object_type.name }}.ObjectType, {{ if object_type.has_constructor }}Construct{{ else }}null{{ end }}, properties, {{ object_type.function_count }}, {{ object_type.object_size }});
         }
 		
         public {{ if base_type }}override{{ end }} ObjectType GetObjectType()
@@ -36,12 +36,12 @@ namespace {{ name_space }}
                 return fieldProperties;
             }
 
-            fieldProperties = new PropertyContainer("{{ object_type.name_ }}", {{ if base_type }}base.GetFieldProperties(){{ else }}null{{ end }}, {{ object_type.property_container_.name_hash_code_ }}, {{ object_type.property_container_.version_hash_code_ }});
+            fieldProperties = new PropertyContainer("{{ object_type.name }}", {{ if base_type }}base.GetFieldProperties(){{ else }}null{{ end }}, {{ object_type.property_container.name_hash_code }}, {{ object_type.property_container.version_hash_code }});
             
-			{{ for property in object_type.property_container_.inherited_properties }}fieldProperties.AddIndirectlyProperty(new Property("{{ property.valid_name }}", {{ property.name_hash_ }}, "{{ property.type_name_ }}", {{ property.offset_ }}, {{ property.size_ }}, {{ property.item_count_ }}, Property.PrimitiveType.{{ property.primitive_type_name }}, 0, (char){{ property.attr_ }}));
+			{{ for property in object_type.property_container.inherited_properties }}fieldProperties.AddIndirectlyProperty(new Property("{{ property.valid_name }}", {{ property.name_hash }}, "{{ property.type_name }}", {{ property.offset }}, {{ property.size_ }}, {{ property.item_count }}, Property.PrimitiveType.{{ property.primitive_type_name }}, 0, (char){{ property.attr }}));
 			{{ end }}
 			
-			{{ for property in object_type.property_container_.my_properties_ }}fieldProperties.AddProperty(new Property("{{ property.valid_name }}", {{ property.name_hash_ }}, "{{ property.type_name_ }}", {{ property.offset_ }}, {{ property.size_ }}, {{ property.item_count_ }}, Property.PrimitiveType.{{ property.primitive_type_name }}, 0, (char){{ property.attr_ }}));
+			{{ for property in object_type.property_container.my_properties }}fieldProperties.AddProperty(new Property("{{ property.valid_name }}", {{ property.name_hash }}, "{{ property.type_name }}", {{ property.offset }}, {{ property.size }}, {{ property.item_count }}, Property.PrimitiveType.{{ property.primitive_type_name }}, 0, (char){{ property.attr }}));
 			{{ end }}
 			
 			return fieldProperties;
