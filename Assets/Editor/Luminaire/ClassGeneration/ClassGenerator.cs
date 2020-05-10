@@ -28,6 +28,10 @@
         /// Name for the object setup class.
         /// </summary>
         private const string SetupClassTypeName = "Black.Entity.EntityModuleSetup";
+        /// <summary>
+        /// Current generator version.
+        /// </summary>
+        private const string Version = "0.1";
 
         /// <summary>
         /// Names of types to not generated, perhaps because they're problematic, manually implemented, or merely annoying.
@@ -128,7 +132,7 @@
                 var typeNamespace = ExtractNamespace(typeTokens);
                 var type = typeTokens[typeTokens.Length - 1];
 
-                var result = parsedClassTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.BaseType, objectType = objectTypeData });
+                var result = parsedClassTemplate.Render(new { nameSpace = typeNamespace, type, baseType = objectTypeData.BaseType, objectType = objectTypeData, Version });
                 WriteOutput(result, typeNamespace + "." + type);
             }
         }
@@ -250,9 +254,9 @@
                     {
                         return "= string.Empty";
                     }
-                    else if (this.TargetTypeName.StartsWith("IList<"))
+                    else if (this.TargetTypeName.StartsWith("List<"))
                     {
-                        return "= new " + this.TargetTypeName.Substring(1) + "()";
+                        return "= new " + this.TargetTypeName + "()";
                     }
 
                     return string.Empty;
