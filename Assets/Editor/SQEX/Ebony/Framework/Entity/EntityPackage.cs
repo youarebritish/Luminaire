@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace SQEX.Ebony.Framework.Entity
 {
-    [System.Serializable]
     public partial class EntityPackage : EntityPackageReference
     {
         public string simpleName_;

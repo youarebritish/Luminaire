@@ -1,6 +1,5 @@
 ﻿namespace SQEX.Luminous.Core.Object
 {
-    [System.Serializable]
     public partial class Object : BaseObject
     {/*
         public static ObjectType ObjectType { get; private set; }
