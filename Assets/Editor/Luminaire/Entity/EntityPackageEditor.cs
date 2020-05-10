@@ -1,8 +1,8 @@
+using SQEX.Ebony.Framework.Entity;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
-using System.Collections.Generic;
-using SQEX.Ebony.Framework.Entity;
 
 namespace Luminaire.Entity
 {
@@ -12,6 +12,7 @@ namespace Luminaire.Entity
         private const string InspectedEntityLabelName = "InspectedEntityLabel";
         private const string StylesheetPath = "Assets/Editor/Luminaire/Entity/EntityPackageEditor.uss";
         private const string VisualTreePath = "Assets/Editor/Luminaire/Entity/EntityPackageEditor.uxml";
+
         [SerializeField]
         private VisualElement rootElement;
 
@@ -26,8 +27,8 @@ namespace Luminaire.Entity
             var items = PopulateEntityList(package);
             InitializeEntityList(rootElement, items);
 
-            var defaultInspector = new IMGUIContainer(DrawEntityInspector);
-            rootElement.Add(defaultInspector);
+            var defaultInspector = this.rootElement.Q<IMGUIContainer>();
+            defaultInspector.onGUIHandler = DrawEntityInspector;
 
             return rootElement;
         }
@@ -64,6 +65,7 @@ namespace Luminaire.Entity
 
             return items;
         }
+
         private void DrawEntityInspector()
         {
             var listView = this.rootElement.Q<ListView>();
