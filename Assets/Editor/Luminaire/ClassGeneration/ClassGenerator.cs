@@ -305,6 +305,25 @@
             public string TypeName { get; set; }
 
             public string ValidName => this.NameValid;
+            public bool IsReferenceType
+            {
+                get
+                {
+                    switch (this.PrimitiveType)
+                    {
+                        case PrimitiveType.ClassField:
+                        case PrimitiveType.Pointer:
+                        case PrimitiveType.Array:
+                        case PrimitiveType.PointerArray:
+                        case PrimitiveType.Buffer:
+                        case PrimitiveType.IntrusivePointerArray:
+                            return true;
+                        default:
+                            return false;
+                    }
+                }
+            }
+
             private static string GetValidType(string type)
             {
                 if (type == "void")
@@ -437,13 +456,13 @@
             private string MakeArrayTargetTypeName()
             {
                 var innerType = this.ParseArrayTargetTypeName();
-                return "IList<" + innerType + ">";
+                return "List<" + innerType + ">";
             }
 
             private string MakePointerArrayTargetTypeName()
             {
                 var innerType = this.ParsePointerArrayTargetTypeName();
-                return "IList<" + innerType + ">";
+                return "List<" + innerType + ">";
             }
 
             private string ParseArrayTargetTypeName()
