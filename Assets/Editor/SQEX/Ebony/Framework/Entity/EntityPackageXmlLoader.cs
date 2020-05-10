@@ -1072,7 +1072,7 @@ namespace SQEX.Ebony.Framework.Entity
                 return null;
             }
 
-            return sourcePath;
+            //return sourcePath;
 
             // TODO Properly implement and debug
             if (parentPackage != null)

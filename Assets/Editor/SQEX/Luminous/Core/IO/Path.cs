@@ -12,10 +12,7 @@ namespace SQEX.Luminous.Core.IO
         /// <returns>The resolved path.</returns>
         public static string ResolveRelativePath(string baseFilePath, string targetFilePath)
         {
-            var baseFileDirectory = System.IO.Path.GetDirectoryName(baseFilePath);
-            var combinedPath = Combine(baseFileDirectory, targetFilePath);
-            // TODO canonicalize
-            return combinedPath;
+            return Path.Combine(baseFilePath, targetFilePath);
         }
 
         /// <summary>
