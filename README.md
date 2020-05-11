@@ -11,4 +11,4 @@ Once Luminaire is configured, you can import Entity Packages (.exml files) by go
 
 # Limitations
 * Entity Package exporting is yet to be implemented.
-* Many property types still aren't properly supported.
+* Some property types still aren't properly supported.
