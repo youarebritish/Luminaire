@@ -73,17 +73,12 @@ class MyCustomSettingsProvider : SettingsProvider
     [SettingsProvider]
     public static SettingsProvider CreateMyCustomSettingsProvider()
     {
-        if (IsSettingsAvailable())
+        var provider = new MyCustomSettingsProvider("Luminaire/", SettingsScope.User)
         {
-            var provider = new MyCustomSettingsProvider("Luminaire/", SettingsScope.User)
-            {
-                label = "FFXV",
-                keywords = GetSearchKeywordsFromGUIContentProperties<Styles>()
-            };
+            label = "FFXV",
+            keywords = GetSearchKeywordsFromGUIContentProperties<Styles>()
+        };
 
-            return provider;
-        }
-
-        return null;
+        return provider;
     }
 }
