@@ -3,82 +3,78 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-class LuminaireSettings : ScriptableObject
+namespace Luminaire
 {
-    public const string SettingsPath = "Assets/Editor/LuminaireSettings.asset";
-
-    [SerializeField]
-    public string GamePath = string.Empty;
-
-    internal static LuminaireSettings GetOrCreateSettings()
+    public class LuminaireSettings : ScriptableObject
     {
-        var settings = AssetDatabase.LoadAssetAtPath<LuminaireSettings>(SettingsPath);
-        if (settings == null)
+        public const string SettingsPath = "Assets/Editor/LuminaireSettings.asset";
+
+        [SerializeField]
+        public string GamePath = string.Empty;
+
+        public static SerializedObject SerializedInstance => new SerializedObject(Instance);
+
+        public static LuminaireSettings Instance
         {
-            settings = ScriptableObject.CreateInstance<LuminaireSettings>();
-            AssetDatabase.CreateAsset(settings, SettingsPath);
-            AssetDatabase.SaveAssets();
-        }
-
-        return settings;
-    }
-
-    internal static SerializedObject GetSerializedSettings()
-    {
-        return new SerializedObject(GetOrCreateSettings());
-    }
-}
-
-class MyCustomSettingsProvider : SettingsProvider
-{
-    private SerializedObject customSettings;
-
-    class Styles
-    {
-        public static GUIContent gamePath = new GUIContent("Game Path");
-    }
-
-    public MyCustomSettingsProvider(string path, SettingsScope scope = SettingsScope.User)
-        : base(path, scope) { }
-
-    public static bool IsSettingsAvailable()
-    {
-        return File.Exists(LuminaireSettings.SettingsPath);
-    }
-
-    public override void OnActivate(string searchContext, VisualElement rootElement)
-    {
-        customSettings = LuminaireSettings.GetSerializedSettings();
-    }
-
-    public override void OnGUI(string searchContext)
-    {
-        var pathProperty = customSettings.FindProperty("GamePath");
-
-        EditorGUILayout.BeginHorizontal();
-        EditorGUILayout.PropertyField(pathProperty, Styles.gamePath);
-        if (GUILayout.Button("Select"))
-        {
-            var path = EditorUtility.OpenFilePanel("Select game executable", string.Empty, "exe");
-            if (!string.IsNullOrEmpty(path))
+            get
             {
-                pathProperty.stringValue = path;
-                customSettings.ApplyModifiedProperties();
+                var settings = AssetDatabase.LoadAssetAtPath<LuminaireSettings>(SettingsPath);
+                if (settings == null)
+                {
+                    settings = ScriptableObject.CreateInstance<LuminaireSettings>();
+                    AssetDatabase.CreateAsset(settings, SettingsPath);
+                    AssetDatabase.SaveAssets();
+                }
+
+                return settings;
             }
         }
-
-        EditorGUILayout.EndHorizontal();
     }
 
-    [SettingsProvider]
-    public static SettingsProvider CreateMyCustomSettingsProvider()
+    public class LuminaireSettingsProvider : SettingsProvider
     {
-        var provider = new MyCustomSettingsProvider("Luminaire/", SettingsScope.User)
-        {
-            label = "FFXV",
-            keywords = GetSearchKeywordsFromGUIContentProperties<Styles>()
-        };
+        private SerializedObject customSettings;
 
-        return provider;
+        public LuminaireSettingsProvider(string path, SettingsScope scope = SettingsScope.Project)
+            : base(path, scope) { }
+
+        public static bool IsSettingsAvailable => File.Exists(LuminaireSettings.SettingsPath);
+
+        [SettingsProvider]
+        public static SettingsProvider CreateMyCustomSettingsProvider()
+        {
+            return new LuminaireSettingsProvider("Luminaire/", SettingsScope.Project)
+            {
+                label = "FFXV",
+                keywords = GetSearchKeywordsFromGUIContentProperties<Styles>()
+            };
+        }
+
+        public override void OnActivate(string searchContext, VisualElement rootElement) => customSettings = LuminaireSettings.SerializedInstance;
+
+        // TODO: Convert to UIElements
+        public override void OnGUI(string searchContext)
+        {
+            var pathProperty = customSettings.FindProperty("GamePath");
+
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.PropertyField(pathProperty, Styles.gamePath);
+            if (GUILayout.Button("Select"))
+            {
+                var path = EditorUtility.OpenFilePanel("Select game executable", string.Empty, "exe");
+                if (!string.IsNullOrEmpty(path))
+                {
+                    pathProperty.stringValue = path;
+                    customSettings.ApplyModifiedProperties();
+                }
+            }
+
+            EditorGUILayout.EndHorizontal();
+        }
+
+        class Styles
+        {
+            public static GUIContent gamePath = new GUIContent("Game Path");
+        }
     }
 }

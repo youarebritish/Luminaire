@@ -15,7 +15,7 @@ namespace Luminaire.MenuItems
         private static void OnImportAsset()
         {
             // TODO pull out into a utility function
-            var settings = AssetDatabase.LoadAssetAtPath<LuminaireSettings>(LuminaireSettings.SettingsPath);
+            var settings = LuminaireSettings.Instance;
             var gamePath = settings.GamePath;
             if (string.IsNullOrEmpty(gamePath))
             {
