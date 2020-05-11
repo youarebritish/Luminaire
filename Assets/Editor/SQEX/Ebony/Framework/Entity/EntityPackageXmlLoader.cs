@@ -353,7 +353,9 @@ namespace SQEX.Ebony.Framework.Entity
                 var child = element.GetElementByIndex(i);
                 if (child.GetAttributeByName("dynamic")?.ToBool() == true)
                 {
-                    // TODO
+                    var dynamicInstance = CreateDynamicBaseObject(child);
+                    this.ReadDynamicBaseObjectChildElement(obj, dynamicInstance, child);
+                    destinationArray.Add(dynamicInstance);
                     continue;
                 }
 
@@ -364,6 +366,35 @@ namespace SQEX.Ebony.Framework.Entity
                     destinationArray.Add(itemValue);
                 }
             }
+        }
+
+        private void ReadDynamicBaseObjectChildElement(BaseObject parentObject, BaseObject baseObject, Xmb2Element childElement)
+        {
+            foreach (var element in childElement.GetElements())
+            {
+                var name = element.Name;
+                var hashedName = Fnv1a.Fnv1a32(name, 2166136261); // ???
+                var type = baseObject.GetObjectType();
+                if (type == null)
+                {
+                    continue;
+                }
+
+                var property = type.PropertyContainer.FindByName(name);
+                if (property == null)
+                {
+                    continue;
+                }
+
+                this.ReadValue(baseObject, childElement, element, property, hashedName, baseObject);
+            }
+        }
+
+        private BaseObject CreateDynamicBaseObject(Xmb2Element childElement)
+        {
+            var typeName = childElement.GetAttributeByName("type").GetTextValue();
+            var type = ObjectType.FindByFullName(typeName);
+            return type.ConstructFunction2();
         }
 
         private bool ResolvePointer(Xmb2Element parentElement, Xmb2Element childElement, out object destination)
