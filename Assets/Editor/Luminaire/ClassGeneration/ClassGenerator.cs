@@ -250,13 +250,17 @@
             {
                 get
                 {
+                    if (this.PrimitiveType == PrimitiveType.ClassField)
+                    {
+                        return $"= new {this.TargetTypeName}()";
+                    }
                     if (this.TargetTypeName == "string")
                     {
                         return "= string.Empty";
                     }
                     else if (this.TargetTypeName.StartsWith("List<"))
                     {
-                        return "= new " + this.TargetTypeName + "()";
+                        return $"= new {this.TargetTypeName}()";
                     }
 
                     return string.Empty;
