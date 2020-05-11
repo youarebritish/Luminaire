@@ -319,14 +319,9 @@ namespace SQEX.Ebony.Framework.Entity
                     break;
                 case Property.PrimitiveType.PointerArray:
                 case Property.PrimitiveType.IntrusivePointerArray:
-                    // TODO abstract this out
-                    var IlistType = obj.GetType().GetField(property.Name, BindingFlags.Instance | BindingFlags.FlattenHierarchy | BindingFlags.Public).FieldType;
-                    var listInnerType = IlistType.GetTypeInfo().GenericTypeArguments[0];
-                    var listType = typeof(List<>).MakeGenericType(listInnerType);
-
-                    var listValue = value as IList;
-                    this.ReadPointerArray(obj, listType, element, out listValue);
-                    value = listValue;
+                    // GOTCHA: We don't want to create a new List, because other objects can reference the list before it's instantiated
+                    value = obj.GetPropertyValue<IList>(property);
+                    this.ReadPointerArray(obj, element, value as IList);
                     break;
                 default:
                     if (property.Type != Property.PrimitiveType.Array)
@@ -343,10 +338,8 @@ namespace SQEX.Ebony.Framework.Entity
             }
         }
 
-        private void ReadPointerArray(BaseObject obj, Type arrayType, Xmb2Element element, out IList destinationArray)
+        private void ReadPointerArray(BaseObject obj, Xmb2Element element, IList destinationArray)
         {
-            destinationArray = Activator.CreateInstance(arrayType) as IList;
-
             var itemCount = element.ElementCount;
             for(var i = 0; i < itemCount; i++)
             {
