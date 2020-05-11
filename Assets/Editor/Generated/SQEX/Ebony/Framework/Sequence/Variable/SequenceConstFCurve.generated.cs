@@ -18,7 +18,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin valuePin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin valuePin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		
         
         new public static void SetupObjectType()

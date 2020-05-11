@@ -18,15 +18,15 @@ namespace Black.Sequence.Actor.AI.Buddy
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin manualCheckPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin enableAutoCheckPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin disableAutoCheckPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin outPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin manualTruePin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin manualFalsePin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin autoTagInPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin autoTagOutPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin manualCheckPin_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin enableAutoCheckPin_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin disableAutoCheckPin_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin outPin_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin manualTruePin_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin manualFalsePin_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin autoTagInPin_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin autoTagOutPin_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		public bool isEnableAutoCheck_;
 		public int targetBuddy_;
 		public int checkMode_;

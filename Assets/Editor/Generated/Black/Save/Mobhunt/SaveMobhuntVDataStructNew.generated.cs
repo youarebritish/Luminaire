@@ -20,7 +20,7 @@ namespace Black.Save.Mobhunt
 		
 		public int id_;
 		public uint elementId_;
-		[UnityEngine.SerializeReference] public Black.Save.Mobhunt.SaveMobhuntPartsDataStruct partsDataArray_;
+		[UnityEngine.SerializeReference] public Black.Save.Mobhunt.SaveMobhuntPartsDataStruct partsDataArray_= new Black.Save.Mobhunt.SaveMobhuntPartsDataStruct();
 		
         
         new public static void SetupObjectType()

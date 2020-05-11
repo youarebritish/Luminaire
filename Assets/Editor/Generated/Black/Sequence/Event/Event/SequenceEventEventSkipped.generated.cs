@@ -19,7 +19,7 @@ namespace Black.Sequence.Event.Event
         private static PropertyContainer fieldProperties;
 		
 		public uint eventId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		
         
         new public static void SetupObjectType()

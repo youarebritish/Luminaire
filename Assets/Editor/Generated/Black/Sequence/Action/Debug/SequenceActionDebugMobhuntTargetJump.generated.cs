@@ -18,20 +18,20 @@ namespace Black.Sequence.Action.Debug
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin destinationValueId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin seedPointValueId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin finishIn_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin failedGetQuestId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin successedGetQuestId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin failedGetSeedPointId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin successedGetSeedPointId_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin destinationValueId_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin seedPointValueId_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin finishIn_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin failedGetQuestId_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin successedGetQuestId_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin failedGetSeedPointId_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin successedGetSeedPointId_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		public uint destinationEntryId_;
 		public uint seedPointFixid_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin questMarkerPosValue_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin questMarkerRadiusValue_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin seedPointValue_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin questMarkerPosValue_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin questMarkerRadiusValue_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin seedPointValue_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		
         
         new public static void SetupObjectType()

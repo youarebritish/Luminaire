@@ -18,12 +18,12 @@ namespace Black.Sequence.Quest
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin true_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin false_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin questIdPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin startProgressIdPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin endProgressIdPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin true_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin false_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin questIdPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin startProgressIdPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin endProgressIdPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public uint questId_;
 		public uint checkStartProgressId_;
 		public uint checkEndProgressId_;

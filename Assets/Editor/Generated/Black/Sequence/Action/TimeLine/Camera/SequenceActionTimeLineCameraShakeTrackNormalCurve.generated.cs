@@ -28,9 +28,9 @@ namespace Black.Sequence.Action.TimeLine.Camera
 		public int endAttenuationDistanceRandomFactorRangeMode_;
 		public bool enableRandomShakeTimeWidth_;
 		public bool enableRandomOffsetRollScale_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cameraActorPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin sourceActorPin_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.CameraShakeTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cameraActorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin sourceActorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.CameraShakeTrackItem masterTrackItem_= new Black.System.TimeLine.TrackItem.Camera.CameraShakeTrackItem();
 		
         
         new public static void SetupObjectType()

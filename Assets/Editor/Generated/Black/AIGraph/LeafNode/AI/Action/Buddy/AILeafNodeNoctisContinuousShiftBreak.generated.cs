@@ -18,12 +18,12 @@ namespace Black.AIGraph.LeafNode.AI.Action.Buddy
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum target_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool bCritical_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid messageNormal_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid messageFinish_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid messageNormalCRT_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid messageFinishCRT_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum target_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool bCritical_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid messageNormal_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid messageFinish_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid messageNormalCRT_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid messageFinishCRT_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
 		
         
         new public static void SetupObjectType()

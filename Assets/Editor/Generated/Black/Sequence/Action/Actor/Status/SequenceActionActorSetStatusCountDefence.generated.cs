@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Actor.Status
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin defencePin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin defencePin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int statusCount_;
 		public int defence_;
 		

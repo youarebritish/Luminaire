@@ -85,7 +85,7 @@ namespace Black.Save.Player
 		public float status_count_delta_time;
 		public sbyte status_count_record;
 		public int buff_registration_count;
-		[UnityEngine.SerializeReference] public Black.Save.Player.SaveBuffStruct buff;
+		[UnityEngine.SerializeReference] public Black.Save.Player.SaveBuffStruct buff= new Black.Save.Player.SaveBuffStruct();
 		public int buff_count;
 		public float buff_time;
 		public float start_buff_time;
@@ -106,12 +106,12 @@ namespace Black.Save.Player
 		public bool ring;
 		public bool ability_available;
 		public float dirty;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentStruct ability;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentMenuStruct ability_menu;
-		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponEquipmentStruct weapon;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveJobCommandEquipmentStruct job_command;
-		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponEquipmentStruct accessory;
-		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveClothEquipmentStruct cloth;
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentStruct ability= new Black.Save.Ability.SaveAbilityEquipmentStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentMenuStruct ability_menu= new Black.Save.Ability.SaveAbilityEquipmentMenuStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponEquipmentStruct weapon= new Black.Save.Equipment.SaveWeaponEquipmentStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveJobCommandEquipmentStruct job_command= new Black.Save.Ability.SaveJobCommandEquipmentStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponEquipmentStruct accessory= new Black.Save.Equipment.SaveWeaponEquipmentStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveClothEquipmentStruct cloth= new Black.Save.Equipment.SaveClothEquipmentStruct();
 		public int reserve1;
 		public int reserve2;
 		public int reserve3;

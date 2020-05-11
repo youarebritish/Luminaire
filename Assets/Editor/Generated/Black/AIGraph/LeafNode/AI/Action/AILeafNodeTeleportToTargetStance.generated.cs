@@ -18,8 +18,8 @@ namespace Black.AIGraph.LeafNode.AI.Action
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum targetSlotType;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool switchBGCollisionOff_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum targetSlotType= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool switchBGCollisionOff_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
 		
         
         new public static void SetupObjectType()

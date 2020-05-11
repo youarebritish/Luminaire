@@ -18,7 +18,7 @@ namespace Black.Save.Ability
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityCountOneStruct id;
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityCountOneStruct id= new Black.Save.Ability.SaveAbilityCountOneStruct();
 		
         
         new public static void SetupObjectType()

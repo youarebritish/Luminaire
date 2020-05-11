@@ -18,9 +18,9 @@ namespace Black.Sequence.Action.Vfx
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin mask_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin unmask_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin mask_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin unmask_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public bool radialBlur_;
 		
         

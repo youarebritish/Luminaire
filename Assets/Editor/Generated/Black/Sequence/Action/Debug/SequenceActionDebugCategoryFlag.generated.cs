@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Debug
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin succsessed_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin succsessed_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		public bool isConditionMission_;
 		public bool isConditionQuest_;
 		public bool isConditionDunsion_;

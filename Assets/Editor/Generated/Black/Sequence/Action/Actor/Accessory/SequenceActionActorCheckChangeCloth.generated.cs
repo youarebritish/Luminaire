@@ -18,9 +18,9 @@ namespace Black.Sequence.Action.Actor.Accessory
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin stopPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin changedPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin clothIDPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin stopPin_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin changedPin_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin clothIDPin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public int playerBankNumber_;
 		
         

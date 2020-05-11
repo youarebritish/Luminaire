@@ -18,8 +18,8 @@ namespace Black.Sequence.Action.Level.Team
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin teamActorIPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin actorListOPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin teamActorIPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin actorListOPin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		
         
         new public static void SetupObjectType()

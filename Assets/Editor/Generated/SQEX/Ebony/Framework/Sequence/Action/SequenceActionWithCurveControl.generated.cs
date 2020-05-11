@@ -18,7 +18,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_= new SQEX.Ebony.Framework.TimeControl.CurveList();
 		
         
         new public static void SetupObjectType()

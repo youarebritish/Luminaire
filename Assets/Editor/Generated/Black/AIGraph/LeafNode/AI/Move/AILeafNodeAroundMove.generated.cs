@@ -18,13 +18,13 @@ namespace Black.AIGraph.LeafNode.AI.Move
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum targetSlotType;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum aroundType_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat offsetNear_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat offsetFar_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat offsetAngleDeg_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat moveSpeed;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool ignoreRadiusForArrival;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum targetSlotType= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum aroundType_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat offsetNear_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat offsetFar_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat offsetAngleDeg_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat moveSpeed= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool ignoreRadiusForArrival= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
 		
         
         new public static void SetupObjectType()

@@ -21,7 +21,7 @@ namespace Black.Save.Config
 		public int highScore;
 		public bool cleared;
 		public bool played;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgFinalScore EpgScoreRanking;
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgFinalScore EpgScoreRanking= new Black.Save.Config.SaveEpgFinalScore();
 		
         
         new public static void SetupObjectType()

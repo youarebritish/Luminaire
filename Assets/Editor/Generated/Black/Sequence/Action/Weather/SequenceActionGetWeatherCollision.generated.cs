@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Weather
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin getWeatherID_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin getWeatherID_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public string weatherKey_= string.Empty;
 		
         

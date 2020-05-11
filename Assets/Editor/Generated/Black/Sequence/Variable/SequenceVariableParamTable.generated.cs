@@ -23,9 +23,9 @@ namespace Black.Sequence.Variable
 		public uint tagIdNoPrefix_;
 		public uint elementId_;
 		public uint elementIdNoPrefix_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin variableElementId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin variableTagId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin variableTableId_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin variableElementId_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin variableTagId_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin variableTableId_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		[UnityEngine.SerializeReference] public List<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase> arguments_= new List<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase>();
 		public bool specifyTable_;
 		

@@ -18,10 +18,10 @@ namespace Black.AIGraph.LeafNode.AI.Function
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid predicate_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum targetSlotType_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool add_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool removePrior_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid predicate_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum targetSlotType_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool add_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool removePrior_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
 		
         
         new public static void SetupObjectType()

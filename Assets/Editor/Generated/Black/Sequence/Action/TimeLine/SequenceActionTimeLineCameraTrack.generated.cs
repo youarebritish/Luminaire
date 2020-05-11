@@ -21,14 +21,14 @@ namespace Black.Sequence.Action.TimeLine
 		public bool pogFlag_;
 		public bool povFlag_;
 		public bool rollFlag_;
-		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn controlTurn_;
+		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn controlTurn_= new Black.Camera.Struct.CameraControlTurn();
 		public int useTypePogX_;
 		public int useTypePogY_;
 		public int useTypePogZ_;
 		public int useTypePovX_;
 		public int useTypePovY_;
 		public int useTypePovZ_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.TimeLine.CameraTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.TimeLine.CameraTrackItem masterTrackItem_= new SQEX.Ebony.Framework.TimeControl.TimeLine.CameraTrackItem();
 		
         
         new public static void SetupObjectType()

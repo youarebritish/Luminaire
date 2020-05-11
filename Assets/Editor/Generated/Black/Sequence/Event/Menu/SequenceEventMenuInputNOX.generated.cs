@@ -18,8 +18,8 @@ namespace Black.Sequence.Event.Menu
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin mapMenuPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin cameraLockPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin mapMenuPin_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin cameraLockPin_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		public bool mapMenuClearPad_;
 		public bool cameraLockClearPad_;
 		

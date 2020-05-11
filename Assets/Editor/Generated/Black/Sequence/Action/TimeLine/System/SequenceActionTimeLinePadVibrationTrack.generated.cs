@@ -18,8 +18,8 @@ namespace Black.Sequence.Action.TimeLine.System
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin receiverActorPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin sourceActorPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin receiverActorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin sourceActorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int vibrationLevel_;
 		public float powerLo_;
 		public float powerHi_;

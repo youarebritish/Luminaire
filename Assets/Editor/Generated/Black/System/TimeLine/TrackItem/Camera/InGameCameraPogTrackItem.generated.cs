@@ -22,7 +22,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
 		public string pogMatrixId_= string.Empty;
 		public string pogOffsetId_= string.Empty;
 		public string pogSignId_= string.Empty;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog pogData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog pogData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog();
 		
         
         new public static void SetupObjectType()

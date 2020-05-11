@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.TimeLine.Actor
 		public int moveFrameType;
 		public bool isRemoveRoll_;
 		public bool isKeepTiltZero_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.ActorMovementNewTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.ActorMovementNewTrackItem masterTrackItem_= new Black.System.TimeLine.TrackItem.ActorMovementNewTrackItem();
 		
         
         new public static void SetupObjectType()

@@ -18,12 +18,12 @@ namespace Black.AIGraph.LeafNode.Body.Move
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat MinTimeInVelocityInterpolation;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat MaxTimeInVelocityInterpolation;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat MaxCorrectionVelocity;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat TimeInTurning;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat Gravity;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt ThresholdDetectionFalling;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat MinTimeInVelocityInterpolation= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat MaxTimeInVelocityInterpolation= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat MaxCorrectionVelocity= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat TimeInTurning= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat Gravity= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt ThresholdDetectionFalling= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyInt();
 		
         
         new public static void SetupObjectType()

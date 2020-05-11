@@ -19,7 +19,7 @@ namespace Black.Save.Item
         private static PropertyContainer fieldProperties;
 		
 		public int magic_recipe_amount;
-		[UnityEngine.SerializeReference] public Black.Save.Item.SaveMagicRecipeStruct magic_recipe;
+		[UnityEngine.SerializeReference] public Black.Save.Item.SaveMagicRecipeStruct magic_recipe= new Black.Save.Item.SaveMagicRecipeStruct();
 		
         
         new public static void SetupObjectType()

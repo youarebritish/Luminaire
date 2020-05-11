@@ -20,8 +20,8 @@ namespace Black.Sequence.Action.Actor.Accessory
 		
 		public int playerBankNumber_;
 		public int attack_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin success_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin fail_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin success_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin fail_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		
         
         new public static void SetupObjectType()

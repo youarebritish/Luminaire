@@ -18,8 +18,8 @@ namespace Black.Save.Vehicle
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleStatusStruct2 status_;
-		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleScore scores_;
+		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleStatusStruct2 status_= new Black.Save.Vehicle.SaveVehicleStatusStruct2();
+		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleScore scores_= new Black.Save.Vehicle.SaveVehicleScore();
 		
         
         new public static void SetupObjectType()

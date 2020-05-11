@@ -20,7 +20,7 @@ namespace Black.Save.Ability
 		
 		public int ability_id;
 		public int ability_effect;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityCountOneStruct ability;
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityCountOneStruct ability= new Black.Save.Ability.SaveAbilityCountOneStruct();
 		public uint attack_id;
 		public int effect;
 		

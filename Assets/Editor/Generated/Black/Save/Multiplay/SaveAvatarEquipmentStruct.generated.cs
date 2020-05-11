@@ -18,8 +18,8 @@ namespace Black.Save.Multiplay
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponEquipmentStruct weapon;
-		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponEquipmentStruct accessory;
+		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponEquipmentStruct weapon= new Black.Save.Equipment.SaveWeaponEquipmentStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponEquipmentStruct accessory= new Black.Save.Equipment.SaveWeaponEquipmentStruct();
 		
         
         new public static void SetupObjectType()

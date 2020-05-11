@@ -18,9 +18,9 @@ namespace Black.AIGraph.LeafNode.AI.Function
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum assignType_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum targetSlotType;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString labelName_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum assignType_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum targetSlotType= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString labelName_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString();
 		
         
         new public static void SetupObjectType()

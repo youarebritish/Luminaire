@@ -24,7 +24,7 @@ namespace Black.Save.Summon
 		public sbyte day;
 		public sbyte hour;
 		public sbyte minute;
-		[UnityEngine.SerializeReference] public Black.Save.Summon.SaveSummonDataStruct summon;
+		[UnityEngine.SerializeReference] public Black.Save.Summon.SaveSummonDataStruct summon= new Black.Save.Summon.SaveSummonDataStruct();
 		
         
         new public static void SetupObjectType()

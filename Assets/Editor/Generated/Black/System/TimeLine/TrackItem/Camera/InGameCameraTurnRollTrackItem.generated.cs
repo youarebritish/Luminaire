@@ -20,8 +20,8 @@ namespace Black.System.TimeLine.TrackItem.Camera
 		
 		public string rollId_= string.Empty;
 		public string rollSignId_= string.Empty;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll turnRollData_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll turnRollData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_= new SQEX.Ebony.Framework.TimeControl.CurveList();
 		
         
         new public static void SetupObjectType()

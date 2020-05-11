@@ -18,8 +18,8 @@ namespace Black.AIGraph.LeafNode.AI.Function.Enemy
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool isJoinBattle;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum battleTargetSlotType;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool isJoinBattle= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum battleTargetSlotType= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum();
 		
         
         new public static void SetupObjectType()

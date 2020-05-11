@@ -18,7 +18,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurn turnData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurn turnData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurn();
 		
         
         new public static void SetupObjectType()

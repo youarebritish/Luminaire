@@ -18,10 +18,10 @@ namespace Black.AIGraph.LeafNode.Body.Function
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid attackID;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool isUseMessage;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool isUseRecoiling;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum recoilAimControlID_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid attackID= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool isUseMessage= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool isUseRecoiling= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum recoilAimControlID_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyEnum();
 		
         
         new public static void SetupObjectType()

@@ -18,7 +18,7 @@ namespace Black.AIGraph.LeafNode.AI.Move.Levia
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool limitTerritoryEnable_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool limitTerritoryEnable_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
 		
         
         new public static void SetupObjectType()

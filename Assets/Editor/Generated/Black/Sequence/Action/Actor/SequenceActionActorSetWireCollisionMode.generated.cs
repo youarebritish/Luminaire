@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Actor
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin enablePin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin enablePin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public bool enable_;
 		
         

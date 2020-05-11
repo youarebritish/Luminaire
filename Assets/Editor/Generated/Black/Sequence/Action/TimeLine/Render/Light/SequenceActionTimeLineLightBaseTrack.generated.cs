@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Render.Light
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData masterData_;
+		[UnityEngine.SerializeReference] public Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData masterData_= new Black.Sequence.Action.TimeLine.Render.Light.Struct.LightBaseData();
 		public bool isLightDisableWhenSkip_;
 		
         

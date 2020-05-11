@@ -18,8 +18,8 @@ namespace Black.Sequence.Variable.Minigame.Fishing
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin settings_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin debug_place_overwrite_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin settings_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin debug_place_overwrite_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
 		public uint placeId_;
 		public uint debugPlaceId_;
 		public bool bUseFishHabitatExtraSetting_;

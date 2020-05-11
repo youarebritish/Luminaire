@@ -20,8 +20,8 @@ namespace Black.System.TimeLine.TrackItem.Camera
 		
 		public string tiltId_= string.Empty;
 		public string tiltOffsetId_= string.Empty;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt turnTiltData_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt turnTiltData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_= new SQEX.Ebony.Framework.TimeControl.CurveList();
 		
         
         new public static void SetupObjectType()

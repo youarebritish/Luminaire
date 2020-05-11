@@ -18,8 +18,8 @@ namespace Black.Sequence.Action.Actor.AI.AIMode
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin speedRatePin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin target_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin speedRatePin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin target_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int movement_;
 		public float speedRate_;
 		public float timeout_;

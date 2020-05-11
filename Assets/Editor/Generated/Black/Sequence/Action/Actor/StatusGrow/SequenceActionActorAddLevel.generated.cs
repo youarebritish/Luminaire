@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.Actor.StatusGrow
 		
 		public int playerBankNumber_;
 		public int level_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin level_pin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin level_pin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		
         
         new public static void SetupObjectType()

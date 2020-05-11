@@ -37,15 +37,15 @@ namespace Black.Save.Multiplay
 		public uint Accessory;
 		public uint Eyelash;
 		public uint VoiceType;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor SkinColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor LipColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor EyeColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor HairColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor HairtipColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor BeardColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor BeardtipColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor EyebrowColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarScalar HairNuance;
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor SkinColor= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor LipColor= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor EyeColor= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor HairColor= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor HairtipColor= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor BeardColor= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor BeardtipColor= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor EyebrowColor= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarScalar HairNuance= new Black.Save.Multiplay.SaveAvatarScalar();
 		public uint FaceSticker;
 		public uint FacePaint;
 		public uint BodyPaint;
@@ -110,11 +110,11 @@ namespace Black.Save.Multiplay
 		public float GillsBottomWidth;
 		public float Gills_FR;
 		public float GillsTopWidth;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet TopsColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet BottomsColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet ShoesColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet GloveColor;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet WearColor;
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet TopsColor= new Black.Save.Multiplay.SaveAvatarColorSet();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet BottomsColor= new Black.Save.Multiplay.SaveAvatarColorSet();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet ShoesColor= new Black.Save.Multiplay.SaveAvatarColorSet();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet GloveColor= new Black.Save.Multiplay.SaveAvatarColorSet();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColorSet WearColor= new Black.Save.Multiplay.SaveAvatarColorSet();
 		
         
         new public static void SetupObjectType()

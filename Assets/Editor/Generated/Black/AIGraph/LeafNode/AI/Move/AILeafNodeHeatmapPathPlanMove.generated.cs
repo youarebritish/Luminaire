@@ -18,12 +18,12 @@ namespace Black.AIGraph.LeafNode.AI.Move
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat arrivalDistance;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat failedDistance;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat moveSpeed;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat heatHeuristicPower;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid heatMapFixid_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid TPSfixid;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat arrivalDistance= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat failedDistance= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat moveSpeed= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat heatHeuristicPower= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid heatMapFixid_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid TPSfixid= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
 		
         
         new public static void SetupObjectType()

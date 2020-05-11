@@ -28,8 +28,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 		public int seamlessInterpMode_;
 		public int seamlessInterpCloneReleaseMode_;
 		public float seamlessInterpCloneAutoReleaseTime_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraSeamlessClone seamlessCloneData_;
-		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn seamlessInterpCloneControlTurn_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraSeamlessClone seamlessCloneData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraSeamlessClone();
+		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn seamlessInterpCloneControlTurn_= new Black.Camera.Struct.CameraControlTurn();
 		public bool isUseDefaultAngleLimitTiltAtEventSeamless_;
 		public float seamlessInterpAngleLimitTiltMin_;
 		public float seamlessInterpAngleLimitTiltMax_;

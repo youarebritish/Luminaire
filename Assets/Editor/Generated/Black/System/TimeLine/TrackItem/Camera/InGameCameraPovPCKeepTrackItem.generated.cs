@@ -23,8 +23,8 @@ namespace Black.System.TimeLine.TrackItem.Camera
 		public string pogOffsetId_= string.Empty;
 		public string pogSignId_= string.Empty;
 		public string povDistanceId_= string.Empty;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog pogData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov povData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog pogData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov povData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov();
 		
         
         new public static void SetupObjectType()

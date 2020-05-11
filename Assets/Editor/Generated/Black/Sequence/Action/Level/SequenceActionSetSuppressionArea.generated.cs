@@ -18,10 +18,10 @@ namespace Black.Sequence.Action.Level
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin battleAreaPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin enemyListPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin battleAreaPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin enemyListPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int enemyToKill_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin enemyToKillPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin enemyToKillPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		[UnityEngine.SerializeReference] public List<SQEX.Ebony.Framework.Utility.FixidArrayItem> battleAreaIdList_= new List<SQEX.Ebony.Framework.Utility.FixidArrayItem>();
 		
         

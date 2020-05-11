@@ -18,12 +18,12 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin colIndexPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin rowIndexPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin rowValuePin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin cellValuePin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin colNumPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin rowNumPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin colIndexPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin rowIndexPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin rowValuePin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin cellValuePin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin colNumPin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin rowNumPin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public string gridName_= string.Empty;
 		public int windowWidth_;
 		public int windowHeight_;
@@ -55,7 +55,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
 		public string name8_= string.Empty;
 		public int type8_;
 		public int width8_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Data.DataTable dataTable_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Data.DataTable dataTable_= new SQEX.Ebony.Framework.Data.DataTable();
 		
         
         new public static void SetupObjectType()

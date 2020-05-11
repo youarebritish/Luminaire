@@ -18,7 +18,7 @@ namespace Black.AIGraph.LeafNode.Test
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat timeout_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat timeout_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFloat();
 		
         
         new public static void SetupObjectType()

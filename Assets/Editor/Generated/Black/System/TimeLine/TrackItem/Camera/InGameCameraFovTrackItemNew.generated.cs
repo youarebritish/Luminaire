@@ -19,7 +19,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
         private static PropertyContainer fieldProperties;
 		
 		public string fovId_= string.Empty;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovNew fovData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovNew fovData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovNew();
 		
         
         new public static void SetupObjectType()

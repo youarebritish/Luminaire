@@ -19,7 +19,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
         private static PropertyContainer fieldProperties;
 		
 		public int filterLevel_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFov masterFovData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFov masterFovData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFov();
 		
         
         new public static void SetupObjectType()

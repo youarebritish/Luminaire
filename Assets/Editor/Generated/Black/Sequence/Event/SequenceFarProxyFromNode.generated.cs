@@ -19,7 +19,7 @@ namespace Black.Sequence.Event
         private static PropertyContainer fieldProperties;
 		
 		public bool ToExecAtSameFrame_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
 		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.SequenceActivatableNode targetNodePointer_;
 		
         

@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public UnityEngine.Vector4 relativeOffset_;
 		public UnityEngine.Vector4 relativeRotation_;
 		public int charaRelativeIndex_;

@@ -52,7 +52,7 @@ namespace Black.Sequence.Action.Sample
 		[UnityEngine.SerializeReference] public List<string> primitiveStringList_= new List<string>();
 		[UnityEngine.SerializeReference] public List<UnityEngine.Vector4> primitiveVectorList_= new List<UnityEngine.Vector4>();
 		[UnityEngine.SerializeReference] public List<UnityEngine.Color> primitivecolorList_= new List<UnityEngine.Color>();
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.Light.LightBaseTrackItem struct1_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.Light.LightBaseTrackItem struct1_= new Black.System.TimeLine.TrackItem.Render.Light.LightBaseTrackItem();
 		public bool deprecatedTest_;
 		
         

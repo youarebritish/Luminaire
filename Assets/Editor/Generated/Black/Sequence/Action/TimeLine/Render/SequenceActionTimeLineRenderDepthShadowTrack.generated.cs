@@ -54,7 +54,7 @@ namespace Black.Sequence.Action.TimeLine.Render
 		public float rotY_;
 		public float rotZ_;
 		public int maxNumShadowedLights_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.DepthShadowTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.DepthShadowTrackItem masterTrackItem_= new Black.System.TimeLine.TrackItem.Render.DepthShadowTrackItem();
 		
         
         new public static void SetupObjectType()

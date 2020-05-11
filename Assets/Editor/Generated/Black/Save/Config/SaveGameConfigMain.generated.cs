@@ -18,8 +18,8 @@ namespace Black.Save.Config
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Luminous.GameFramework.Locale.LocaleCategory text_;
-		[UnityEngine.SerializeReference] public Luminous.GameFramework.Locale.LocaleCategory voice_;
+		[UnityEngine.SerializeReference] public Luminous.GameFramework.Locale.LocaleCategory text_= new Luminous.GameFramework.Locale.LocaleCategory();
+		[UnityEngine.SerializeReference] public Luminous.GameFramework.Locale.LocaleCategory voice_= new Luminous.GameFramework.Locale.LocaleCategory();
 		public int brightness_;
 		public int soundMode_;
 		public bool virticalCameraNormal_;

@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin relativeActorPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin relativeActorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int relativeActorScene_;
 		public bool isOverrideEnvironment4Event_;
 		public int charaRelativeIndex_;

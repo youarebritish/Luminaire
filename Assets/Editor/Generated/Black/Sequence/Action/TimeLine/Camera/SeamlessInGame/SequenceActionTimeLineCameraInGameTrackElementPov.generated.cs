@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov masterPovData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov masterPovData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov();
 		
         
         new public static void SetupObjectType()

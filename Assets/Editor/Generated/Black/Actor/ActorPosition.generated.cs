@@ -22,7 +22,7 @@ namespace Black.Actor
 		public SQEX.Luminous.Math.DoubleVector4 worldPosition_;
 		public UnityEngine.Vector4 rotation_;
 		public UnityEngine.Vector4 scaling_;
-		[UnityEngine.SerializeReference] public Black.Actor.Actor.ConstraintInfo constraintInfo_;
+		[UnityEngine.SerializeReference] public Black.Actor.Actor.ConstraintInfo constraintInfo_= new Black.Actor.Actor.ConstraintInfo();
 		
         
         new public static void SetupObjectType()

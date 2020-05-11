@@ -18,7 +18,7 @@ namespace Black.Sequence.Variable
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outValue_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outValue_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Entity.Entity entityPointer_;
 		public bool isSetTextFieldConfig_;
 		public bool isSetLabelSound_;

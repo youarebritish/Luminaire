@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.System
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outPinTotalScore_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outPinTotalScore_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public int stageType_;
 		
         

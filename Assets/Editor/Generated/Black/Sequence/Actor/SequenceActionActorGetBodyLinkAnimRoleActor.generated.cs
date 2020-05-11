@@ -18,7 +18,7 @@ namespace Black.Sequence.Actor
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin roleActorOPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin roleActorOPin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public uint linkAnimRoleId_;
 		
         

@@ -19,9 +19,9 @@ namespace Black.Save.Player
         private static PropertyContainer fieldProperties;
 		
 		public int gameVersion;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Base.Timer.TimeStamp startTime;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Base.Timer.TimeStamp endTime;
-		[UnityEngine.SerializeReference] public Black.Save.Player.SavePlayerStruct player;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Base.Timer.TimeStamp startTime= new SQEX.Ebony.Base.Timer.TimeStamp();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Base.Timer.TimeStamp endTime= new SQEX.Ebony.Base.Timer.TimeStamp();
+		[UnityEngine.SerializeReference] public Black.Save.Player.SavePlayerStruct player= new Black.Save.Player.SavePlayerStruct();
 		
         
         new public static void SetupObjectType()

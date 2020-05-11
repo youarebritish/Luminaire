@@ -19,13 +19,13 @@ namespace Black.Sequence.Action.Actor.Accessory
         private static PropertyContainer fieldProperties;
 		
 		public int playerBankNumber_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin Source_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin exp_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin Source_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin exp_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int addExp_;
 		public bool drawMenu_;
 		public bool randomPlayer_;
 		public bool partyPlayer_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin menu_finish_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin menu_finish_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		
         
         new public static void SetupObjectType()

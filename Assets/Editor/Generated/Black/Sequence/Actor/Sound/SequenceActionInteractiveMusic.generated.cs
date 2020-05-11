@@ -26,8 +26,8 @@ namespace Black.Sequence.Actor.Sound
 		public int interactiveUnit_;
 		public float fadeTime_;
 		public bool isReserve_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin interactiveSetmode_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin syncTo_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin interactiveSetmode_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin syncTo_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
 		
         
         new public static void SetupObjectType()

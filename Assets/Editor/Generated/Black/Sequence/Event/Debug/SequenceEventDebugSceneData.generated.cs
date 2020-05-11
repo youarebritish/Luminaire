@@ -23,8 +23,8 @@ namespace Black.Sequence.Event.Debug
 		public UnityEngine.Color stringColor_;
 		public bool Jump_;
 		public bool Line_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin in_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin out_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin in_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin out_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public string labelName_= string.Empty;
 		public uint labelFixId_;
 		

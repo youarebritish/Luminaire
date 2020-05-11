@@ -18,7 +18,7 @@ namespace SQEX.Ebony.Framework.Sequence.Action
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.TimeLine.TimeLine timeLine_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.TimeLine.TimeLine timeLine_= new SQEX.Ebony.Framework.TimeControl.TimeLine.TimeLine();
 		
         
         new public static void SetupObjectType()

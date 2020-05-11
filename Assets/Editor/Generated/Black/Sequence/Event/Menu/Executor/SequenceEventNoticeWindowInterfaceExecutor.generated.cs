@@ -19,7 +19,7 @@ namespace Black.Sequence.Event.Menu.Executor
         private static PropertyContainer fieldProperties;
 		
 		public uint areaId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin pitEnqueInfo;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin pitEnqueInfo= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
 		
         
         new public static void SetupObjectType()

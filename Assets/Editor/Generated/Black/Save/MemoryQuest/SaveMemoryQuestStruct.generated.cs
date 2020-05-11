@@ -22,7 +22,7 @@ namespace Black.Save.MemoryQuest
 		public bool isNowCurrent_;
 		public bool isReturnCaem_;
 		public bool isCanReturn_;
-		[UnityEngine.SerializeReference] public Black.Save.MemoryQuest.SaveMemoryQuestDataStruct memoryQuestData;
+		[UnityEngine.SerializeReference] public Black.Save.MemoryQuest.SaveMemoryQuestDataStruct memoryQuestData= new Black.Save.MemoryQuest.SaveMemoryQuestDataStruct();
 		
         
         new public static void SetupObjectType()

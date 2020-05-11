@@ -19,7 +19,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
         private static PropertyContainer fieldProperties;
 		
 		public bool fovFlag_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.TimeLine.CameraFovTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.TimeLine.CameraFovTrackItem masterTrackItem_= new SQEX.Ebony.Framework.TimeControl.TimeLine.CameraFovTrackItem();
 		
         
         new public static void SetupObjectType()

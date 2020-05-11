@@ -19,7 +19,7 @@ namespace Black.Sequence.Variable
         private static PropertyContainer fieldProperties;
 		
 		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Entity.Entity entityPointer_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin entity_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin entity_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		
         
         new public static void SetupObjectType()

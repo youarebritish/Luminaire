@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt masterTiltData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt masterTiltData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt();
 		
         
         new public static void SetupObjectType()

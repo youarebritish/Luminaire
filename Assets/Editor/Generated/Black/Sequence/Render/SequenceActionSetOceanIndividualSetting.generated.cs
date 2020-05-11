@@ -18,34 +18,34 @@ namespace Black.Sequence.Render
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin in_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		public int paramType_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin enableOceanPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin enableOceanPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public bool enableOcean_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin projectedGridCameraOffsetPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin projectedGridCameraOffsetPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float projectedGridCameraOffset_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin suppressionLerpStartRadiusPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin suppressionLerpStartRadiusPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float suppressionLerpStartRadius_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin suppressionLerpEndRadiusPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin suppressionLerpEndRadiusPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float suppressionLerpEndRadius_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin suppressionMinFactorPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin suppressionMinFactorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float suppressionMinFactor_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin drawableAABBScalePin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin drawableAABBScalePin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float drawableAABBScale_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin drawPriorityPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin drawPriorityPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int drawPriority_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin fftWindDirectionPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin fftWindDirectionPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float fftWindDirection_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin mipmapLodMinPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin mipmapLodMinPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float mipmapLodMin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin mipmapLodMaxPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin mipmapLodMaxPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float mipmapLodMax_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin mipmapLodBiasPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin mipmapLodBiasPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float mipmapLodBias_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin meshLodPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin meshLodPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int meshLod_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin fillHolePin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin fillHolePin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public bool fillHole_;
 		
         

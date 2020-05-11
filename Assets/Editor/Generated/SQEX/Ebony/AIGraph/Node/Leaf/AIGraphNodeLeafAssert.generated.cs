@@ -18,7 +18,7 @@ namespace SQEX.Ebony.AIGraph.Node.Leaf
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString text_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString text_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyString();
 		
         
         new public static void SetupObjectType()

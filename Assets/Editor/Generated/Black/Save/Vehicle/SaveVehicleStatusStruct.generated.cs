@@ -29,7 +29,7 @@ namespace Black.Save.Vehicle
 		[UnityEngine.SerializeReference] public List<Black.Save.Vehicle.SaveVehicleVisitedParkingStruct> visitedParkingList_= new List<Black.Save.Vehicle.SaveVehicleVisitedParkingStruct>();
 		public bool isFreeSelectDriveMode_;
 		[UnityEngine.SerializeReference] public List<Black.Save.Vehicle.SaveVehicleSpecStruct> specLevel_= new List<Black.Save.Vehicle.SaveVehicleSpecStruct>();
-		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleLooksStruct looks_;
+		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleLooksStruct looks_= new Black.Save.Vehicle.SaveVehicleLooksStruct();
 		public bool isAirCraft_;
 		public uint albumId_;
 		public uint musicId_;

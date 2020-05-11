@@ -18,9 +18,9 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin set_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin get_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin set_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin get_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
 		
         
         new public static void SetupObjectType()

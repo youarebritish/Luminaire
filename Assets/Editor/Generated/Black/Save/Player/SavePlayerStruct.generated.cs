@@ -23,19 +23,19 @@ namespace Black.Save.Player
 		public uint default_character_entry_id;
 		public sbyte name;
 		public uint name_id;
-		[UnityEngine.SerializeReference] public Black.Save.Player.SaveStatusStruct status;
-		[UnityEngine.SerializeReference] public Black.Save.Player.SavePlayerStatusStruct player_status;
+		[UnityEngine.SerializeReference] public Black.Save.Player.SaveStatusStruct status= new Black.Save.Player.SaveStatusStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Player.SavePlayerStatusStruct player_status= new Black.Save.Player.SavePlayerStatusStruct();
 		public int weapon_type;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityStruct ability;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityCountStruct ability_count;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEffectCountStruct ability_effect_count;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveEnchantCountStruct weapon_ability;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveJobCommandStruct job_command;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveInspirationStruct inspiration;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveInspirationCheckStruct inspiration_check;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveInspirationElementCheckStruct inspiration_element_check;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveSkillStruct skill;
-		[UnityEngine.SerializeReference] public Black.Save.Player.SavePlayerPositionStruct position;
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityStruct ability= new Black.Save.Ability.SaveAbilityStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityCountStruct ability_count= new Black.Save.Ability.SaveAbilityCountStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEffectCountStruct ability_effect_count= new Black.Save.Ability.SaveAbilityEffectCountStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveEnchantCountStruct weapon_ability= new Black.Save.Ability.SaveEnchantCountStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveJobCommandStruct job_command= new Black.Save.Ability.SaveJobCommandStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveInspirationStruct inspiration= new Black.Save.Ability.SaveInspirationStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveInspirationCheckStruct inspiration_check= new Black.Save.Ability.SaveInspirationCheckStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveInspirationElementCheckStruct inspiration_element_check= new Black.Save.Ability.SaveInspirationElementCheckStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveSkillStruct skill= new Black.Save.Ability.SaveSkillStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Player.SavePlayerPositionStruct position= new Black.Save.Player.SavePlayerPositionStruct();
 		
         
         new public static void SetupObjectType()

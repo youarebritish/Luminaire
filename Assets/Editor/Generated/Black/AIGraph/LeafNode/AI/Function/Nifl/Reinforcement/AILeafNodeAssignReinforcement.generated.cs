@@ -18,7 +18,7 @@ namespace Black.AIGraph.LeafNode.AI.Function.Nifl.Reinforcement
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid reinforceLabel;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid reinforceLabel= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
 		
         
         new public static void SetupObjectType()

@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.MiniGame.Fishing
 		
 		public int target_;
 		public int cellLength_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin valuePin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin valuePin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		
         
         new public static void SetupObjectType()

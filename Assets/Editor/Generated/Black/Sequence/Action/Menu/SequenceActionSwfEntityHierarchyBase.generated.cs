@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Menu
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin mcInstancePathPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin mcInstancePathPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public string mcInstancePath_= string.Empty;
 		
         

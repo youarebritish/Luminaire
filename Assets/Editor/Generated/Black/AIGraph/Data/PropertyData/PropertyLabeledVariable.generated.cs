@@ -24,7 +24,7 @@ namespace Black.AIGraph.Data.PropertyData
 		public int scope_;
 		public bool isCreateWhenNotFound_;
 		public bool useTimer_;
-		[UnityEngine.SerializeReference] public Black.System.Labeled.LabeledVariableManager.TimerType timerType_;
+		[UnityEngine.SerializeReference] public Black.System.Labeled.LabeledVariableManager.TimerType timerType_= new Black.System.Labeled.LabeledVariableManager.TimerType();
 		public float stopTimerValue_;
 		public bool bBindAnimationBlackBoard_;
 		public uint animationBlackBoardId_;

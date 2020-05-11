@@ -19,7 +19,7 @@ namespace Black.Save.Config
         private static PropertyContainer fieldProperties;
 		
 		public long bestScore;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpiFinalScore EpiScoreRanking;
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpiFinalScore EpiScoreRanking= new Black.Save.Config.SaveEpiFinalScore();
 		
         
         new public static void SetupObjectType()

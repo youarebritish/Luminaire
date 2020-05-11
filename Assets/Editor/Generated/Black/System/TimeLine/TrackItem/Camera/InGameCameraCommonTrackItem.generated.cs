@@ -19,7 +19,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
         private static PropertyContainer fieldProperties;
 		
 		public string relativeTargetId_= string.Empty;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCommon commonData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCommon commonData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCommon();
 		
         
         new public static void SetupObjectType()

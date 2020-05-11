@@ -19,7 +19,7 @@ namespace Black.Sequence.Action.TimeLine.Render.Light
         private static PropertyContainer fieldProperties;
 		
 		public bool isColorCurveEnable_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.Light.LightColorTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.Light.LightColorTrackItem masterTrackItem_= new Black.System.TimeLine.TrackItem.Render.Light.LightColorTrackItem();
 		
         
         new public static void SetupObjectType()

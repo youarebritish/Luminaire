@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Actor.Accessory
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin clothIdPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin clothIdPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int playerBankNumber_;
 		public uint clothId_;
 		public uint characterParamId_;

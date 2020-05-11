@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Entity.TransformEntity entityPointer_;
 		
         

@@ -28,7 +28,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
 		public UnityEngine.Vector4 relativeOffset_;
 		public UnityEngine.Vector4 relativeRotation_;
 		public bool isCheckCollision_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.CharaRelativeCameraCollision collisionOpt_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.CharaRelativeCameraCollision collisionOpt_= new Black.System.TimeLine.TrackItem.Camera.Struct.CharaRelativeCameraCollision();
 		
         
         new public static void SetupObjectType()

@@ -21,8 +21,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 		public bool isOverrideLockOnLayer_;
 		public bool isUseLockOnTurn_;
 		public bool isUseLockOnTurnTilt_;
-		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn controlTurn_;
-		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraAngleLimit angleLimit_;
+		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn controlTurn_= new Black.Camera.Struct.CameraControlTurn();
+		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraAngleLimit angleLimit_= new Black.Camera.Struct.CameraAngleLimit();
 		
         
         new public static void SetupObjectType()

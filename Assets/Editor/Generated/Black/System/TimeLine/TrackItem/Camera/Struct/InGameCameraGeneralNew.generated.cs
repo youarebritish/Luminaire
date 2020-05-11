@@ -18,8 +18,8 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralStart startData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralEnd endData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralStart startData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralStart();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralEnd endData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralEnd();
 		
         
         new public static void SetupObjectType()

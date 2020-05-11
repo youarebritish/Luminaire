@@ -18,7 +18,7 @@ namespace Black.AIGraph.Extend.Node.FSM
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid id;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid id= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyFixid();
 		public int nodeIndex_;
 		public int layer_;
 		

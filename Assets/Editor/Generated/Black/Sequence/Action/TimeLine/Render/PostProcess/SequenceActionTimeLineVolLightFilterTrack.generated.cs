@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Sequence.ScreenEffect.VolLightFilterSequenceData masterData_;
+		[UnityEngine.SerializeReference] public Black.Sequence.ScreenEffect.VolLightFilterSequenceData masterData_= new Black.Sequence.ScreenEffect.VolLightFilterSequenceData();
 		
         
         new public static void SetupObjectType()

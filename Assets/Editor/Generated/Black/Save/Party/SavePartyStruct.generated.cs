@@ -18,14 +18,14 @@ namespace Black.Save.Party
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Save.Party.SavePartyMemberStruct member;
-		[UnityEngine.SerializeReference] public Black.Save.Party.SaveJobStruct job;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityCountStruct ability_count;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEffectCountStruct ability_effect_count;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityInformationStruct ability_information;
-		[UnityEngine.SerializeReference] public Black.Save.Party.SavePartyDataStruct data;
-		[UnityEngine.SerializeReference] public Black.Save.Party.SaveSystemToggleStruct system_toggle;
-		[UnityEngine.SerializeReference] public Black.Save.Party.SaveTrophyStruct trophy;
+		[UnityEngine.SerializeReference] public Black.Save.Party.SavePartyMemberStruct member= new Black.Save.Party.SavePartyMemberStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Party.SaveJobStruct job= new Black.Save.Party.SaveJobStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityCountStruct ability_count= new Black.Save.Ability.SaveAbilityCountStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEffectCountStruct ability_effect_count= new Black.Save.Ability.SaveAbilityEffectCountStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityInformationStruct ability_information= new Black.Save.Ability.SaveAbilityInformationStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Party.SavePartyDataStruct data= new Black.Save.Party.SavePartyDataStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Party.SaveSystemToggleStruct system_toggle= new Black.Save.Party.SaveSystemToggleStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Party.SaveTrophyStruct trophy= new Black.Save.Party.SaveTrophyStruct();
 		
         
         new public static void SetupObjectType()

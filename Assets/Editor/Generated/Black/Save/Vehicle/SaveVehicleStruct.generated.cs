@@ -19,8 +19,8 @@ namespace Black.Save.Vehicle
         private static PropertyContainer fieldProperties;
 		
 		public int version_;
-		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleStatusStruct status_;
-		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleCustomizeStruct customize_;
+		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleStatusStruct status_= new Black.Save.Vehicle.SaveVehicleStatusStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleCustomizeStruct customize_= new Black.Save.Vehicle.SaveVehicleCustomizeStruct();
 		[UnityEngine.SerializeReference] public List<int> reserve_= new List<int>();
 		
         

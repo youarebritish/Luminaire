@@ -20,7 +20,7 @@ namespace Black.Save.Quest
 		
 		public uint questId;
 		[UnityEngine.SerializeReference] public List<uint> progressHistoryList= new List<uint>();
-		[UnityEngine.SerializeReference] public Black.Quest.Information.QuestSaveInformation.ConditionWork conditionWork;
+		[UnityEngine.SerializeReference] public Black.Quest.Information.QuestSaveInformation.ConditionWork conditionWork= new Black.Quest.Information.QuestSaveInformation.ConditionWork();
 		public bool isEnableUpdateUIMark;
 		
         

@@ -20,11 +20,11 @@ namespace Black.Save.Config
 		
 		public int useCharacter;
 		public int avatar_useNo;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveMultiplayerName avatar_name;
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveMultiplayerName avatar_name= new Black.Save.Config.SaveMultiplayerName();
 		public bool avatar_used;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarEquipmentStruct avatar_equipment;
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarEquipmentStruct avatar_equipment= new Black.Save.Multiplay.SaveAvatarEquipmentStruct();
 		public int story_index;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveMultiplayerColorHistory color_history;
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveMultiplayerColorHistory color_history= new Black.Save.Config.SaveMultiplayerColorHistory();
 		
         
         new public static void SetupObjectType()

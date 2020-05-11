@@ -19,9 +19,9 @@ namespace Black.Save.TimedQuest
         private static PropertyContainer fieldProperties;
 		
 		public int version;
-		[UnityEngine.SerializeReference] public Black.Save.TimedQuest.SaveTimedQuestTitleStruct title;
-		[UnityEngine.SerializeReference] public Black.Save.TimedQuest.SaveTimedQuestPointStruct point;
-		[UnityEngine.SerializeReference] public Black.Save.TimedQuest.SaveTimedQuestLabelStruct label;
+		[UnityEngine.SerializeReference] public Black.Save.TimedQuest.SaveTimedQuestTitleStruct title= new Black.Save.TimedQuest.SaveTimedQuestTitleStruct();
+		[UnityEngine.SerializeReference] public Black.Save.TimedQuest.SaveTimedQuestPointStruct point= new Black.Save.TimedQuest.SaveTimedQuestPointStruct();
+		[UnityEngine.SerializeReference] public Black.Save.TimedQuest.SaveTimedQuestLabelStruct label= new Black.Save.TimedQuest.SaveTimedQuestLabelStruct();
 		
         
         new public static void SetupObjectType()

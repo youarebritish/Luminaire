@@ -19,7 +19,7 @@ namespace Black.Save.Mobhunt
         private static PropertyContainer fieldProperties;
 		
 		public int version_;
-		[UnityEngine.SerializeReference] public Black.Save.Mobhunt.SaveMobhuntStruct mobhuntDinnerData;
+		[UnityEngine.SerializeReference] public Black.Save.Mobhunt.SaveMobhuntStruct mobhuntDinnerData= new Black.Save.Mobhunt.SaveMobhuntStruct();
 		public int killCount_;
 		public int killCount1_;
 		public int killCount2_;
@@ -27,7 +27,7 @@ namespace Black.Save.Mobhunt
 		public int rank_;
 		public int exp_;
 		public int currentDinnerQuestTargetId_;
-		[UnityEngine.SerializeReference] public Black.Save.Mobhunt.SaveMobhuntVDataStruct mobhuntVData;
+		[UnityEngine.SerializeReference] public Black.Save.Mobhunt.SaveMobhuntVDataStruct mobhuntVData= new Black.Save.Mobhunt.SaveMobhuntVDataStruct();
 		public bool isFistMobhuntClear_;
 		public bool isAdamanClear_;
 		

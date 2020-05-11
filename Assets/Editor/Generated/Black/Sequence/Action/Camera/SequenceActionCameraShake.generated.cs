@@ -18,12 +18,12 @@ namespace Black.Sequence.Action.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin enable_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin disable_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finished_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cameraActorPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin sourceActorPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin enable_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin disable_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin finished_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cameraActorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin sourceActorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public bool enableRandomShakeOffset_;
 		public int shakeRandomFactorRangeMode_;
 		public bool enableRandomRollZ_;
@@ -34,7 +34,7 @@ namespace Black.Sequence.Action.Camera
 		public int endAttenuationDistanceRandomFactorRangeMode_;
 		public float activeTime_;
 		public bool enableRandomShakeTimeWidth_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.CameraShakeNodeTrackItem shakeParameter_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.CameraShakeNodeTrackItem shakeParameter_= new Black.System.TimeLine.TrackItem.Camera.CameraShakeNodeTrackItem();
 		
         
         new public static void SetupObjectType()

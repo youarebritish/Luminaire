@@ -21,7 +21,7 @@ namespace Black.Save.Vehicle
 		[UnityEngine.SerializeReference] public List<Black.Save.Vehicle.SaveVehicleMaterialStruct> material_= new List<Black.Save.Vehicle.SaveVehicleMaterialStruct>();
 		public uint colorId_;
 		public uint setStickerId_;
-		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleStickerStruct sticker_;
+		[UnityEngine.SerializeReference] public Black.Save.Vehicle.SaveVehicleStickerStruct sticker_= new Black.Save.Vehicle.SaveVehicleStickerStruct();
 		public bool isUseSticker_;
 		
         

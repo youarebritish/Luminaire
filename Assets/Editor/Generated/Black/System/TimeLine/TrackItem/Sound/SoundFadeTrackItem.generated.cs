@@ -19,7 +19,7 @@ namespace Black.System.TimeLine.TrackItem.Sound
         private static PropertyContainer fieldProperties;
 		
 		public float volume_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_= new SQEX.Ebony.Framework.TimeControl.CurveList();
 		
         
         new public static void SetupObjectType()

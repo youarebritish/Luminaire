@@ -18,8 +18,8 @@ namespace Black.Sequence.Event.Labeled
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin reRegister_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin wakeUp_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin reRegister_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin wakeUp_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		public int prefixType_;
 		public uint labeledVarId_;
 		public uint globalLabelId_;

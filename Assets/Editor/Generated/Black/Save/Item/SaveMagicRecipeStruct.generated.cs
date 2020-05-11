@@ -28,7 +28,7 @@ namespace Black.Save.Item
 		public int power;
 		public uint effect;
 		public int effect_level;
-		[UnityEngine.SerializeReference] public Black.Save.Item.SaveMagicRecipeItemStruct item;
+		[UnityEngine.SerializeReference] public Black.Save.Item.SaveMagicRecipeItemStruct item= new Black.Save.Item.SaveMagicRecipeItemStruct();
 		
         
         new public static void SetupObjectType()

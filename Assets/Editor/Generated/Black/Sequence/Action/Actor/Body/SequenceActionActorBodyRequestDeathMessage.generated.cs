@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.Actor.Body
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actionDeathTypePin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin actionDeathTypePin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public bool checkDeath_;
 		public uint checkTag_;
 		public uint bodyConditionMessageId;

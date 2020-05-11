@@ -22,10 +22,10 @@ namespace Black.Save.Config
 		public sbyte ClearedMonth;
 		public short ClearedYear;
 		public long PlayTime;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgStageScore StageScore1;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgStageScore StageScore2;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgStageScore StageScore3;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgStageScore StageScore4;
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgStageScore StageScore1= new Black.Save.Config.SaveEpgStageScore();
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgStageScore StageScore2= new Black.Save.Config.SaveEpgStageScore();
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgStageScore StageScore3= new Black.Save.Config.SaveEpgStageScore();
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpgStageScore StageScore4= new Black.Save.Config.SaveEpgStageScore();
 		public bool IsCleared;
 		public int ItemScore;
 		public int TotalScore;

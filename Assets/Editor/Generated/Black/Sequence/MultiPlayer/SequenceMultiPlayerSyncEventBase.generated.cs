@@ -18,7 +18,7 @@ namespace Black.Sequence.MultiPlayer
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin wakeUp_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin wakeUp_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		public int options_;
 		public uint forCreateOnlyFixid_;
 		public bool isOutputLog_;

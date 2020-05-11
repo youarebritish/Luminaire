@@ -19,7 +19,7 @@ namespace Black.Sequence.Action.Actor.Status
         private static PropertyContainer fieldProperties;
 		
 		public int abilityType_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin abilityElemIdListPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin abilityElemIdListPin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		
         
         new public static void SetupObjectType()

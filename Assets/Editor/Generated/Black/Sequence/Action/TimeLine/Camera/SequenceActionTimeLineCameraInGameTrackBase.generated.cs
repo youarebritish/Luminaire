@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin turnDirectionPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin turnDirectionPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public bool isUseEndReserve_;
 		
         

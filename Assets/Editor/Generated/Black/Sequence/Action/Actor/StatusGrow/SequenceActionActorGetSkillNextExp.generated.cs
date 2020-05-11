@@ -19,7 +19,7 @@ namespace Black.Sequence.Action.Actor.StatusGrow
         private static PropertyContainer fieldProperties;
 		
 		public int playerBankNumber_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin int_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin int_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		
         
         new public static void SetupObjectType()

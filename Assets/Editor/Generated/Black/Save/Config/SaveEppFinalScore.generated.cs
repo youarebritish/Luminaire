@@ -24,7 +24,7 @@ namespace Black.Save.Config
 		public long PlayTime;
 		public long ResultTime;
 		public bool IsCleared;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEppStageScore StageScore;
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEppStageScore StageScore= new Black.Save.Config.SaveEppStageScore();
 		
         
         new public static void SetupObjectType()

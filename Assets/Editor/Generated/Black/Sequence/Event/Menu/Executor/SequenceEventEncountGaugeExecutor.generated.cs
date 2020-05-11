@@ -18,7 +18,7 @@ namespace Black.Sequence.Event.Menu.Executor
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin pin8_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin pin8_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float offTimeAfterEncount_;
 		public float posYRate_;
 		public float posXOffset_;

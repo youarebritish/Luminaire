@@ -20,7 +20,7 @@ namespace SQEX.Ebony.AIGraph.Tray
 		
 		[UnityEngine.SerializeReference] public List<SQEX.Ebony.AIGraph.Node.AIGraphNodeBase> nodes_= new List<SQEX.Ebony.AIGraph.Node.AIGraphNodeBase>();
 		[UnityEngine.SerializeReference] public List<SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBase> properties_= new List<SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBase>();
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool debug_BlockWarningRunningWithNoChildren_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool debug_BlockWarningRunningWithNoChildren_= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
 		
         
         new public static void SetupObjectType()

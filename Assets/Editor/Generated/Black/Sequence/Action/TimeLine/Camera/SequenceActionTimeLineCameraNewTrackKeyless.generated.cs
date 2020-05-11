@@ -22,8 +22,8 @@ namespace Black.Sequence.Action.TimeLine.Camera
 		public bool povFlag_;
 		public bool fovFlag_;
 		public bool rollFlag_;
-		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn controlTurn_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.CameraNewTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn controlTurn_= new Black.Camera.Struct.CameraControlTurn();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.CameraNewTrackItem masterTrackItem_= new Black.System.TimeLine.TrackItem.Camera.CameraNewTrackItem();
 		
         
         new public static void SetupObjectType()

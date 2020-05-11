@@ -18,27 +18,27 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin out_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data0_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data1_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data2_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data3_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data4_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data5_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data6_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data7_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data8_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data9_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data10_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data11_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data12_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data13_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data14_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data15_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data16_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data17_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data18_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data19_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin out_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data0_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data1_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data2_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data3_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data4_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data5_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data6_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data7_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data8_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data9_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data10_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data11_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data12_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data13_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data14_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data15_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data16_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data17_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data18_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData data19_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
 		
         
         new public static void SetupObjectType()

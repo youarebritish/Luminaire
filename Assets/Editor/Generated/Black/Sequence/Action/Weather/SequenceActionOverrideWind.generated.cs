@@ -18,19 +18,19 @@ namespace Black.Sequence.Action.Weather
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin inStart_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin inEnd_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin inStart_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin inEnd_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
 		public bool overrideCloudWind_;
 		public float cloudWindDirection_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cloudWindDirectionPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cloudWindDirectionPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float cloudWindSpeed_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cloudWindSpeedPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cloudWindSpeedPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float windMultiplier_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin windMultiplierPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin windMultiplierPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float speedMultiplier_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin speedMultiplierPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin speedMultiplierPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float windDirection_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin windDirectionPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin windDirectionPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public float transitionTime_;
 		public bool endOverrideOnUnloded_;
 		

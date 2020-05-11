@@ -23,7 +23,7 @@ namespace Black.Save.Fishing
 		[UnityEngine.SerializeReference] public List<Black.Save.Fishing.SaveFishingGetFishData> getFishList= new List<Black.Save.Fishing.SaveFishingGetFishData>();
 		public int lineInfoCount;
 		[UnityEngine.SerializeReference] public List<Black.Save.Fishing.SaveFishingLineData> lineInfoList= new List<Black.Save.Fishing.SaveFishingLineData>();
-		[UnityEngine.SerializeReference] public Black.Save.Fishing.SaveFishingEquipmentData selectEquipment;
+		[UnityEngine.SerializeReference] public Black.Save.Fishing.SaveFishingEquipmentData selectEquipment= new Black.Save.Fishing.SaveFishingEquipmentData();
 		
         
         new public static void SetupObjectType()

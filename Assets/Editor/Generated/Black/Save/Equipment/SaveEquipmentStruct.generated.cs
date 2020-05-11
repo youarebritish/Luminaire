@@ -18,10 +18,10 @@ namespace Black.Save.Equipment
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponStruct weapon;
-		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponStruct phantom_sword;
-		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponStruct accessory;
-		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveClothStruct cloth;
+		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponStruct weapon= new Black.Save.Equipment.SaveWeaponStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponStruct phantom_sword= new Black.Save.Equipment.SaveWeaponStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveWeaponStruct accessory= new Black.Save.Equipment.SaveWeaponStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Equipment.SaveClothStruct cloth= new Black.Save.Equipment.SaveClothStruct();
 		
         
         new public static void SetupObjectType()

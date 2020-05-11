@@ -22,7 +22,7 @@ namespace Black.Save.Party
 		public int save_bank_number;
 		public uint name_id;
 		public bool exist;
-		[UnityEngine.SerializeReference] public Black.Save.Party.SaveJobPlayerStruct player;
+		[UnityEngine.SerializeReference] public Black.Save.Party.SaveJobPlayerStruct player= new Black.Save.Party.SaveJobPlayerStruct();
 		
         
         new public static void SetupObjectType()

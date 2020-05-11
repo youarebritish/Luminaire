@@ -18,9 +18,9 @@ namespace Black.Save.Encyclopedia
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Save.Encyclopedia.SaveEncyclopediaEnemyDataStruct enemy;
-		[UnityEngine.SerializeReference] public Black.Save.Encyclopedia.SaveEncyclopediaCharacterDataStruct character;
-		[UnityEngine.SerializeReference] public Black.Save.Encyclopedia.SaveEncyclopediaArchiveDataStruct archive;
+		[UnityEngine.SerializeReference] public Black.Save.Encyclopedia.SaveEncyclopediaEnemyDataStruct enemy= new Black.Save.Encyclopedia.SaveEncyclopediaEnemyDataStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Encyclopedia.SaveEncyclopediaCharacterDataStruct character= new Black.Save.Encyclopedia.SaveEncyclopediaCharacterDataStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Encyclopedia.SaveEncyclopediaArchiveDataStruct archive= new Black.Save.Encyclopedia.SaveEncyclopediaArchiveDataStruct();
 		
         
         new public static void SetupObjectType()

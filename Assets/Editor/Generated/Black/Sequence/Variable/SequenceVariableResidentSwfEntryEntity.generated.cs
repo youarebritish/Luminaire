@@ -18,9 +18,9 @@ namespace Black.Sequence.Variable
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outValue_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin outValue_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public uint entitySearchLabelId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin inputEntity_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin inputEntity_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public string swfEntryPackagePath_= string.Empty;
 		
         

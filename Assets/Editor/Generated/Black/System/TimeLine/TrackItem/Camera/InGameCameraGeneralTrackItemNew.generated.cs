@@ -19,7 +19,7 @@ namespace Black.System.TimeLine.TrackItem.Camera
         private static PropertyContainer fieldProperties;
 		
 		public string lastViewKeepId_= string.Empty;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralNew generalData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralNew generalData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraGeneralNew();
 		
         
         new public static void SetupObjectType()

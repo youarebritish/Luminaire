@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Camera.SeamlessInGame
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog masterPogData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog masterPogData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog();
 		
         
         new public static void SetupObjectType()

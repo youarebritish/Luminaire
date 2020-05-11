@@ -18,7 +18,7 @@ namespace Black.Sequence.Event.Trigger
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin wakeUpPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin wakeUpPin_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		public uint eventId_;
 		[UnityEngine.SerializeReference] public List<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase> arguments_= new List<SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequencePrimitiveBase>();
 		

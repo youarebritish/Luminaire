@@ -38,7 +38,7 @@ namespace Black.Save.Player
 		public int reserve6;
 		public int reserve7;
 		public int reserve8;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Base.RTC.DateTime invincible_suits_date;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Base.RTC.DateTime invincible_suits_date= new SQEX.Ebony.Base.RTC.DateTime();
 		public int invincible_suits_count;
 		public int invincible_suits_time;
 		

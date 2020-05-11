@@ -18,7 +18,7 @@ namespace SQEX.Ebony.Framework.Sequence.Variable.Compare
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData value_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData value_= new SQEX.Ebony.Framework.Sequence.Variable.Primitive.SequenceFlexibleFixidData();
 		
         
         new public static void SetupObjectType()

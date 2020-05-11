@@ -18,13 +18,13 @@ namespace Black.Sequence.Action.Base
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin timerPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin timerPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int blendModeType_;
 		public float timer_;
 		public float speed_;
 		public float BlendExp;
 		public bool bLockOutgoing;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.AnchorPointList anchorPointList_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.AnchorPointList anchorPointList_= new SQEX.Ebony.Framework.TimeControl.AnchorPointList();
 		
         
         new public static void SetupObjectType()

@@ -19,7 +19,7 @@ namespace Black.Save.Dinner
         private static PropertyContainer fieldProperties;
 		
 		public uint foodRecordId;
-		[UnityEngine.SerializeReference] public Black.Save.Dinner.SaveDinnerRecipeStruct recipe;
+		[UnityEngine.SerializeReference] public Black.Save.Dinner.SaveDinnerRecipeStruct recipe= new Black.Save.Dinner.SaveDinnerRecipeStruct();
 		
         
         new public static void SetupObjectType()

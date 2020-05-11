@@ -19,7 +19,7 @@ namespace Black.Save.Mobhunt
         private static PropertyContainer fieldProperties;
 		
 		public int dinnerId_;
-		[UnityEngine.SerializeReference] public Black.Save.Mobhunt.SaveMobhuntDataStruct mobhuntData;
+		[UnityEngine.SerializeReference] public Black.Save.Mobhunt.SaveMobhuntDataStruct mobhuntData= new Black.Save.Mobhunt.SaveMobhuntDataStruct();
 		
         
         new public static void SetupObjectType()

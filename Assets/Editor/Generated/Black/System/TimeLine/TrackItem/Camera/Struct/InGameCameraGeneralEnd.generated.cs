@@ -26,10 +26,10 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 		public float backToNormalCameraTime2_;
 		public int backToNormalInterpBlendMode_;
 		public bool isUseCommonData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYawEnd turnYawData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTiltEnd turnTiltData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRollEnd turnRollData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovEnd fovData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYawEnd turnYawData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYawEnd();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTiltEnd turnTiltData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTiltEnd();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRollEnd turnRollData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRollEnd();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovEnd fovData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovEnd();
 		
         
         new public static void SetupObjectType()

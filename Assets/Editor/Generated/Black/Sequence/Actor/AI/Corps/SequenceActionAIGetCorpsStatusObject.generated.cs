@@ -18,7 +18,7 @@ namespace Black.Sequence.Actor.AI.Corps
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin object_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin object_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public int paramType_;
 		
         

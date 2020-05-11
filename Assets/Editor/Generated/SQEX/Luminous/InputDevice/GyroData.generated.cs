@@ -23,7 +23,7 @@ namespace SQEX.Luminous.InputDevice
 		public UnityEngine.Vector4 Position;
 		public UnityEngine.Vector4 Velocity;
 		public UnityEngine.Vector4 Acceleration;
-		[UnityEngine.SerializeReference] public UnityEngine.Vector4 Orientation;
+		[UnityEngine.SerializeReference] public UnityEngine.Vector4 Orientation= new UnityEngine.Vector4();
 		public UnityEngine.Vector4 AngularVelocity;
 		public UnityEngine.Vector4 AngularAcceleration;
 		

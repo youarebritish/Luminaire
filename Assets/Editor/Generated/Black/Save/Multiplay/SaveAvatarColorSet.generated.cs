@@ -18,21 +18,21 @@ namespace Black.Save.Multiplay
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color1;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color2;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color3;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color4;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color5;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color6;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color7;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color8;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color9;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color10;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color11;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color12;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color13;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color14;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color15;
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color1= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color2= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color3= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color4= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color5= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color6= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color7= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color8= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color9= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color10= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color11= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color12= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color13= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color14= new Black.Save.Multiplay.SaveAvatarColor();
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarColor Color15= new Black.Save.Multiplay.SaveAvatarColor();
 		
         
         new public static void SetupObjectType()

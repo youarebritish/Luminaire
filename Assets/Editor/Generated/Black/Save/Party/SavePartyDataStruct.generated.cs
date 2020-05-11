@@ -51,7 +51,7 @@ namespace Black.Save.Party
 		public int weather_type;
 		public int weather_index_command;
 		public int move_distance_type;
-		[UnityEngine.SerializeReference] public Black.Save.Party.SaveMoveDistanceStruct move;
+		[UnityEngine.SerializeReference] public Black.Save.Party.SaveMoveDistanceStruct move= new Black.Save.Party.SaveMoveDistanceStruct();
 		public int battle_result_rank;
 		public int battle_result_count;
 		public SQEX.Luminous.Math.DoubleVector4 camp_point_;

@@ -20,7 +20,7 @@ namespace Black.Sequence.Action.Menu
 		
 		public string paramTablePath_= string.Empty;
 		public uint stateMachineId_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin currentStateIdPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin currentStateIdPin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		
         
         new public static void SetupObjectType()

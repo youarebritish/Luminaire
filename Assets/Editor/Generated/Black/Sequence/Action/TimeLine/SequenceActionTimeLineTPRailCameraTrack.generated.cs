@@ -21,7 +21,7 @@ namespace Black.Sequence.Action.TimeLine
 		public float interpSpeedFromGameCamera_;
 		public bool isUseEachKeyRailValidAreaWidth_;
 		public float railValidAreaWidth_;
-		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn controlTurn_;
+		[UnityEngine.SerializeReference] public Black.Camera.Struct.CameraControlTurn controlTurn_= new Black.Camera.Struct.CameraControlTurn();
 		
         
         new public static void SetupObjectType()

@@ -20,7 +20,7 @@ namespace Black.Save.Chocobo
 		
 		public sbyte name_;
 		public int flag_;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveChocoboDataStruct multiChocoboData_;
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveChocoboDataStruct multiChocoboData_= new Black.Save.Multiplay.SaveChocoboDataStruct();
 		public bool effectedEntitlement_;
 		
         

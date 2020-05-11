@@ -21,7 +21,7 @@ namespace Black.System.TimeLine.TrackItem
 		public float blendRate_;
 		public float startInterpTime_;
 		public float endInterpTime_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_= new SQEX.Ebony.Framework.TimeControl.CurveList();
 		
         
         new public static void SetupObjectType()

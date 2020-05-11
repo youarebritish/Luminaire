@@ -18,7 +18,7 @@ namespace Black.AI.Ambient
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin locationEntity_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin locationEntity_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public bool enable_;
 		public bool killkillkill_;
 		

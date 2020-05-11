@@ -19,7 +19,7 @@ namespace Black.Save.Multiplay
         private static PropertyContainer fieldProperties;
 		
 		public int version;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarDataStruct avatar;
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SaveAvatarDataStruct avatar= new Black.Save.Multiplay.SaveAvatarDataStruct();
 		
         
         new public static void SetupObjectType()

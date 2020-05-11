@@ -20,7 +20,7 @@ namespace Black.Save.Config
 		
 		public bool cleared;
 		public bool played;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEppScoreRanking EppScoreBoard;
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEppScoreRanking EppScoreBoard= new Black.Save.Config.SaveEppScoreRanking();
 		
         
         new public static void SetupObjectType()

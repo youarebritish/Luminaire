@@ -19,7 +19,7 @@ namespace SQEX.Luminous.InputDevice
         private static PropertyContainer fieldProperties;
 		
 		public int delta_;
-		[UnityEngine.SerializeReference] public SQEX.Luminous.InputDevice.PadDataSet dataSet_;
+		[UnityEngine.SerializeReference] public SQEX.Luminous.InputDevice.PadDataSet dataSet_= new SQEX.Luminous.InputDevice.PadDataSet();
 		
         
         new public static void SetupObjectType()

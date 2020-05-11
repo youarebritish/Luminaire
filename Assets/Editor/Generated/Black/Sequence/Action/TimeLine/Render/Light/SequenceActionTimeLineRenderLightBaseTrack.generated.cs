@@ -26,7 +26,7 @@ namespace Black.Sequence.Action.TimeLine.Render.Light
 		public bool shadowSlopeBiasFlag_;
 		public bool shadowZBiasFlag_;
 		public bool shadowPowerFlag_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.Light.LightBaseTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.Light.LightBaseTrackItem masterTrackItem_= new Black.System.TimeLine.TrackItem.Render.Light.LightBaseTrackItem();
 		
         
         new public static void SetupObjectType()

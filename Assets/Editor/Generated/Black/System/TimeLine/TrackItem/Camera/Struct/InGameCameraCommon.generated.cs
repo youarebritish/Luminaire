@@ -21,7 +21,7 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 		public int mode;
 		public int startEndBlendMode_;
 		public bool isCheckCollision_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCollision collisionData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCollision collisionData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCollision();
 		public bool isEnableCancelWhenPCFrameOut_;
 		public bool isEnableCancelWhenTerribleCollieded_;
 		public bool isCutChangeOrder;

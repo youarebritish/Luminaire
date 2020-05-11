@@ -24,7 +24,7 @@ namespace Black.Sequence.Action.TimeLine.Actor.DamageMask
 		public float radius_;
 		public float power_;
 		public float concentration_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin damageSpherePosPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin damageSpherePosPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		
         
         new public static void SetupObjectType()

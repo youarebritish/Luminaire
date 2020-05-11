@@ -21,8 +21,8 @@ namespace Black.System.TimeLine.TrackItem.Camera
 		public string yawId_= string.Empty;
 		public string yawOffsetId_= string.Empty;
 		public string yawSignId_= string.Empty;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYaw turnYawData_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYaw turnYawData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYaw();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.CurveList curveList_= new SQEX.Ebony.Framework.TimeControl.CurveList();
 		
         
         new public static void SetupObjectType()

@@ -18,10 +18,10 @@ namespace SQEX.Ebony.Framework.Sequence.Variable
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin timePin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin isEndPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin timePin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin isEndPin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public float time_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.AnchorPointList anchorPointList_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.TimeControl.AnchorPointList anchorPointList_= new SQEX.Ebony.Framework.TimeControl.AnchorPointList();
 		
         
         new public static void SetupObjectType()

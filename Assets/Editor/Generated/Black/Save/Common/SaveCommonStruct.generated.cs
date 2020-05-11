@@ -23,8 +23,8 @@ namespace Black.Save.Common
 		public int reserved_;
 		public long reserved2_;
 		public int noxScore_;
-		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SavePlantMapDataStruct plantMapData_;
-		[UnityEngine.SerializeReference] public Black.Save.Common.SaveEpiScore ignis_;
+		[UnityEngine.SerializeReference] public Black.Save.Multiplay.SavePlantMapDataStruct plantMapData_= new Black.Save.Multiplay.SavePlantMapDataStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Common.SaveEpiScore ignis_= new Black.Save.Common.SaveEpiScore();
 		
         
         new public static void SetupObjectType()

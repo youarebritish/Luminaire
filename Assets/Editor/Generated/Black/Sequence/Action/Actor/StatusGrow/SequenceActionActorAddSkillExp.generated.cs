@@ -19,11 +19,11 @@ namespace Black.Sequence.Action.Actor.StatusGrow
         private static PropertyContainer fieldProperties;
 		
 		public int playerBankNumber_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin addSkillExpPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin addSkillExpPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public int addSkillExp_;
 		public bool drawMenu_;
 		public bool randomPlayer_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin menu_finish_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin menu_finish_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		
         
         new public static void SetupObjectType()

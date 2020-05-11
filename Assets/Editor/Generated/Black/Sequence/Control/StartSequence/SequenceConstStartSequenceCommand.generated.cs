@@ -18,7 +18,7 @@ namespace Black.Sequence.Control.StartSequence
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin commandPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableOutputPin commandPin_= new SQEX.Ebony.Framework.Node.GraphVariableOutputPin();
 		public uint commandId_;
 		public float value_;
 		

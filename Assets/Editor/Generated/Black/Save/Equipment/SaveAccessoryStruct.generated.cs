@@ -29,7 +29,7 @@ namespace Black.Save.Equipment
 		public int vitality;
 		public int critical;
 		public int recover_mp;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentStruct ability;
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentStruct ability= new Black.Save.Ability.SaveAbilityEquipmentStruct();
 		
         
         new public static void SetupObjectType()

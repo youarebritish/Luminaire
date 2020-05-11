@@ -21,7 +21,7 @@ namespace Black.Sequence.Variable.Labeled
 		public int labelScope_;
 		public bool isCreateWhenNotFound_;
 		public bool useTimer_;
-		[UnityEngine.SerializeReference] public Black.System.Labeled.LabeledVariableManager.TimerType timerType_;
+		[UnityEngine.SerializeReference] public Black.System.Labeled.LabeledVariableManager.TimerType timerType_= new Black.System.Labeled.LabeledVariableManager.TimerType();
 		public float stopTimerValue_;
 		
         

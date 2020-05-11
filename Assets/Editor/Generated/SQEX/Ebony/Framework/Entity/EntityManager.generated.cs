@@ -18,7 +18,7 @@ namespace SQEX.Ebony.Framework.Entity
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public object updateEvent_;
+		[UnityEngine.SerializeReference] public object updateEvent_= new object();
 		
         
         new public static void SetupObjectType()

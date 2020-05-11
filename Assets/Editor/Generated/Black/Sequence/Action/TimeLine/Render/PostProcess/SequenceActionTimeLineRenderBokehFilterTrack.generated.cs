@@ -27,7 +27,7 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
 		public bool maxCoCSizeFarFlag_;
 		public bool initialEnergyScaleFlag_;
 		public bool switchOverFlag_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.BokehFilterTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.BokehFilterTrackItem masterTrackItem_= new Black.System.TimeLine.TrackItem.BokehFilterTrackItem();
 		
         
         new public static void SetupObjectType()

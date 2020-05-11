@@ -32,8 +32,8 @@ namespace Black.Save.Equipment
 		public int critical;
 		public int recover_mp;
 		public int slot;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentStruct ability;
-		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentStruct resident_ability;
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentStruct ability= new Black.Save.Ability.SaveAbilityEquipmentStruct();
+		[UnityEngine.SerializeReference] public Black.Save.Ability.SaveAbilityEquipmentStruct resident_ability= new Black.Save.Ability.SaveAbilityEquipmentStruct();
 		public int status_adjust;
 		public int remodel_fail_count;
 		

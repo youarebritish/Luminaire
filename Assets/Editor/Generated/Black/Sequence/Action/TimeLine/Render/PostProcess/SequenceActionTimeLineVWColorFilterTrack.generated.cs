@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Render.PostProcess
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.PostProcess.VWColorFilterTrackItem masterTrackItem_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.PostProcess.VWColorFilterTrackItem masterTrackItem_= new Black.System.TimeLine.TrackItem.Render.PostProcess.VWColorFilterTrackItem();
 		public bool propSceneEvFlag_;
 		public bool propUserEvFlag_;
 		public bool propGMFlag_;

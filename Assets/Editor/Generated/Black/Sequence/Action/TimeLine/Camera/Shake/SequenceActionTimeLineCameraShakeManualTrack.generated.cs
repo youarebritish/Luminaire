@@ -18,8 +18,8 @@ namespace Black.Sequence.Action.TimeLine.Camera.Shake
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cameraActorPin_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin sourceActorPin_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin cameraActorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphVariableInputPin sourceActorPin_= new SQEX.Ebony.Framework.Node.GraphVariableInputPin();
 		public bool isUsePogShakeOffset_;
 		public UnityEngine.Vector4 shakeOffset_;
 		public UnityEngine.Vector4 pogShakeOffset_;

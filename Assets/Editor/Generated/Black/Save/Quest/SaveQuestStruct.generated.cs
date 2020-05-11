@@ -18,7 +18,7 @@ namespace Black.Save.Quest
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.Save.Quest.SaveQuestDataStruct quest_data;
+		[UnityEngine.SerializeReference] public Black.Save.Quest.SaveQuestDataStruct quest_data= new Black.Save.Quest.SaveQuestDataStruct();
 		
         
         new public static void SetupObjectType()

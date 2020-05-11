@@ -18,13 +18,13 @@ namespace Black.System.TimeLine.TrackItem.Camera
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCommon commonData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog pogData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov povData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurn turnData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYaw turnYawData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt turnTiltData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll turnRollData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCommon commonData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraCommon();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog pogData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPog();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov povData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPov();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurn turnData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurn();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYaw turnYawData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYaw();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt turnTiltData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTilt();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll turnRollData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRoll();
 		
         
         new public static void SetupObjectType()

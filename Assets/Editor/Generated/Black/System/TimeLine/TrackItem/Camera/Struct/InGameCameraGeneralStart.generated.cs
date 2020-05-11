@@ -24,12 +24,12 @@ namespace Black.System.TimeLine.TrackItem.Camera.Struct
 		public float interpTime_;
 		public int interpBlendMode_;
 		public bool isUseCommonData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPogStart pogData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPogStart povData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYawStart turnYawData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTiltStart turnTiltData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRollStart turnRollData_;
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovStartNew fovData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPogStart pogData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPogStart();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPogStart povData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraPogStart();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYawStart turnYawData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnYawStart();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTiltStart turnTiltData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnTiltStart();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRollStart turnRollData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraTurnRollStart();
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovStartNew fovData_= new Black.System.TimeLine.TrackItem.Camera.Struct.InGameCameraFovStartNew();
 		
         
         new public static void SetupObjectType()

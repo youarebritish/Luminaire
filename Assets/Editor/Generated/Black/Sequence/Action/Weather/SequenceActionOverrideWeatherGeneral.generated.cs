@@ -18,15 +18,15 @@ namespace Black.Sequence.Action.Weather
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin inStart_;
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin inEnd_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin inStart_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerInputPin inEnd_= new SQEX.Ebony.Framework.Node.GraphTriggerInputPin();
 		public float transitionTime_;
 		public float transitionTimeEnd_;
 		[UnityEngine.SerializeReference] public List<Black.Sequence.Action.Weather.WeatherParameterComponent> weatherParameterComponents_= new List<Black.Sequence.Action.Weather.WeatherParameterComponent>();
 		[UnityEngine.SerializeReference] public List<Black.Sequence.Action.Weather.ExposureParameterComponent> exposureParameterComponents_= new List<Black.Sequence.Action.Weather.ExposureParameterComponent>();
 		[UnityEngine.SerializeReference] public List<Black.Sequence.Action.Weather.PostEffectParameterComponent> postEffectParameterComponents_= new List<Black.Sequence.Action.Weather.PostEffectParameterComponent>();
 		[UnityEngine.SerializeReference] public List<Black.Sequence.Action.Weather.CameraLightParameterComponent> cameraLightParameterComponents_= new List<Black.Sequence.Action.Weather.CameraLightParameterComponent>();
-		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.Framework.Node.GraphTriggerOutputPin out_= new SQEX.Ebony.Framework.Node.GraphTriggerOutputPin();
 		
         
         new public static void SetupObjectType()

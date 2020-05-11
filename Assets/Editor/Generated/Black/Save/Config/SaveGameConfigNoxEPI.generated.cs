@@ -21,7 +21,7 @@ namespace Black.Save.Config
 		public bool cleared;
 		public bool played;
 		public int HiScore;
-		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpiScoreRanking EpiScoreBoard;
+		[UnityEngine.SerializeReference] public Black.Save.Config.SaveEpiScoreRanking EpiScoreBoard= new Black.Save.Config.SaveEpiScoreRanking();
 		public bool cleared_if;
 		
         

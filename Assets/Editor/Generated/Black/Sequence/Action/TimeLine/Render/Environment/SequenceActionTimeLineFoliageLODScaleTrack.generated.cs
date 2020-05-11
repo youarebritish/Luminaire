@@ -18,7 +18,7 @@ namespace Black.Sequence.Action.TimeLine.Render.Environment
         new public static ObjectType ObjectType { get; private set; }
         private static PropertyContainer fieldProperties;
 		
-		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.Environment.Struct.InGameFoliageLODScale lodScaleData_;
+		[UnityEngine.SerializeReference] public Black.System.TimeLine.TrackItem.Render.Environment.Struct.InGameFoliageLODScale lodScaleData_= new Black.System.TimeLine.TrackItem.Render.Environment.Struct.InGameFoliageLODScale();
 		
         
         new public static void SetupObjectType()

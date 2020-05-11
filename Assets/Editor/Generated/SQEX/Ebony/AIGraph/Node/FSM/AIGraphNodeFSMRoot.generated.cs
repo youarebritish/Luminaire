@@ -19,7 +19,7 @@ namespace SQEX.Ebony.AIGraph.Node.FSM
         private static PropertyContainer fieldProperties;
 		
 		[UnityEngine.SerializeReference] public List<SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMInterrupt> interruptNodes_= new List<SQEX.Ebony.AIGraph.Node.FSM.AIGraphNodeFSMInterrupt>();
-		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool blockTreeDebugLogs;
+		[UnityEngine.SerializeReference] public SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool blockTreeDebugLogs= new SQEX.Ebony.AIGraph.Data.PropertyData.PropertyBool();
 		
         
         new public static void SetupObjectType()
