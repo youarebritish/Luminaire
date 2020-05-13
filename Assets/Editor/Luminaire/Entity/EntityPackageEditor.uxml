@@ -4,8 +4,14 @@
     xmlns:engine="UnityEngine.UIElements"
     xmlns:editor="UnityEditor.UIElements"
     xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
->  
-    <engine:ListView class="the-uxml-listview" />
-    <engine:Label name="InspectedEntityLabel"/>
+>
+    <editor:Toolbar>
+      <editor:ToolbarButton text="Add Entity"/>
+      <editor:ToolbarButton text="Export"/>
+      <editor:ToolbarSpacer class="spacer"/>
+      <editor:ToolbarSearchField/>
+    </editor:Toolbar>
+    <engine:ListView class="the-uxml-listview"/>
+    <engine:Label name="InspectedEntityLabel" class="inspected-entity-label"/>
     <engine:IMGUIContainer />
 </engine:UXML>

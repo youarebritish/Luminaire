@@ -3,9 +3,18 @@ Label {
     color: rgb(0, 0, 0);
 }
 
+.spacer {
+    flex-grow: 1.0
+}
+
 .the-uxml-listview {
     /* Provide the list view with an explict height for every row
     so it can calculate how many items to actually display */
     --unity-item-height: 16;
     height: 250px;
+    margin-left: 32px;
+}
+
+.inspected-entity-label {
+    -unity-font-style: bold;
 }
