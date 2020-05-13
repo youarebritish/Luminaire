@@ -7,6 +7,7 @@ namespace Luminaire.Entity
     /// </summary>
     public class EntityPackageAsset : ScriptableObject
     {
+        [SerializeReference]
         public SQEX.Ebony.Framework.Entity.EntityPackage Package;
     }
 }
