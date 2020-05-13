@@ -18,3 +18,15 @@ Label {
 .inspected-entity-label {
     -unity-font-style: bold;
 }
+
+.add-entity-button {
+    margin-left: 8px;
+    width: 18px;
+    height: 18px;
+    background-image: resource("Toolbar Plus");
+    align-self: center;
+    border-left-width: 0;
+border-top-width: 0;
+border-right-width: 0;
+border-bottom-width: 0;
+}

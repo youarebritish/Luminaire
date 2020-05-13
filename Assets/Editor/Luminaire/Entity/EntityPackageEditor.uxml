@@ -6,8 +6,7 @@
     xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
 >
     <editor:Toolbar>
-      <editor:ToolbarButton text="Add Entity"/>
-      <editor:ToolbarButton text="Export"/>
+      <editor:ToolbarButton class="add-entity-button"/>
       <editor:ToolbarSpacer class="spacer"/>
       <editor:ToolbarSearchField/>
     </editor:Toolbar>
