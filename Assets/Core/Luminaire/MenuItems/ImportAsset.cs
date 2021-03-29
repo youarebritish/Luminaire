@@ -46,9 +46,17 @@ namespace Luminaire.MenuItems
 
             SceneGenerator(Path.GetFileName(assetPath), saveScenePath);
 
+            Debug.Log("Path.GetFileName(assetPath): " + Path.GetFileName(assetPath));
+
             for (var i = 0; i < package.loadedObjects_.Count; i++)
             {
                 var newGameObject = new GameObject(package.loadedObjectNames_[i]);
+
+                if (i == 0) //object 0
+                {
+                    var componentSceneManager = newGameObject.AddComponent<LuminousSceneManager>();
+                }
+
                 var component = newGameObject.AddComponent<LuminousObject>();
                 component.Entity = package.loadedObjects_[i];
                 component.Entity.SetupGameObject(newGameObject);
@@ -67,19 +75,8 @@ namespace Luminaire.MenuItems
 
         private static void SceneGenerator(string packageName, string saveScenePath)
         {
-            //var packageName = package.name_;
-
-            //Scene newScene = SceneManager.CreateScene(packageName);
-            //InvalidOperationException: This can only be used during play mode, please use EditorSceneManager.NewScene() instead.
-            //SceneManager.LoadScene(packageName, LoadSceneMode.Single);
-            //InvalidOperationException: This can only be used during play mode, please use EditorSceneManager.OpenScene() instead.
-
-            var newScene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
-            
+            var newScene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);            
             EditorSceneManager.SaveScene(newScene, saveScenePath);
-            //EditorSceneManager.OpenScene(packageName);
-
-
         }
 
         private static string MakeDestinationPath(string filename, string sourcePath)

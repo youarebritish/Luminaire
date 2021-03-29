@@ -22,8 +22,7 @@ namespace Black.Entity
         {
             base.SetupGameObject(gameObject);
 
-
-            Debug.Log(CsSystem.IO.Path.ChangeExtension(this.sourcePath_ + ".fbx", null));
+            //Debug.Log(CsSystem.IO.Path.ChangeExtension(this.sourcePath_ + ".fbx", null));
             var meshObj = Resources.Load(CsSystem.IO.Path.ChangeExtension(this.sourcePath_ + ".fbx", null), typeof(GameObject)) as GameObject;
             var meshInstance = UnityEngine.Object.Instantiate(meshObj, gameObject.transform) as GameObject;
 
