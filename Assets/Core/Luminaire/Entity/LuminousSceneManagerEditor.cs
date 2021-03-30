@@ -4,15 +4,20 @@ using UnityEngine;
 using UnityEditor;
 
 
-[CustomEditor(typeof(LuminousSceneManager))]
-public class LuminousSceneManagerEditor : Editor
+namespace SQEX.Luminous.Core.Object
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(LuminousSceneManager))]
+    public class LuminousSceneManagerEditor : Editor
     {
-        LuminousSceneManager myScript = (LuminousSceneManager)target;
-        if (GUILayout.Button("Export"))
+        public override void OnInspectorGUI()
         {
+            LuminousSceneManager myScript = (LuminousSceneManager)target;
 
+            if (GUILayout.Button("Export"))
+            {
+                //myScript.ManagerObject.TestDebug();
+                myScript.TestDbjectType();
+            }
         }
     }
 }

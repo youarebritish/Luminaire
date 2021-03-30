@@ -46,7 +46,7 @@ namespace Luminaire.MenuItems
 
             SceneGenerator(Path.GetFileName(assetPath), saveScenePath);
 
-            Debug.Log("Path.GetFileName(assetPath): " + Path.GetFileName(assetPath));
+            //Debug.Log("Path.GetFileName(assetPath): " + Path.GetFileName(assetPath));
 
             for (var i = 0; i < package.loadedObjects_.Count; i++)
             {

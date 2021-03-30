@@ -34,13 +34,13 @@
 
         public string Name { get; }
         private uint NameHash { get; }
-        private string TypeName { get; }
+        public string TypeName { get; }
         private uint Offset { get; }
         private uint Size { get; }
         private ushort ItemCount { get; }
         public PrimitiveType Type { get; }
         private PrimitiveType ItemPrimitiveType { get; }
-        private char Attr { get; }
+        public char Attr { get; }
 
         public Property(string name, uint nameHash, string typeName, uint offset, uint size, ushort itemCount, PrimitiveType type, PrimitiveType itemPrimitiveType, char attr)
         {

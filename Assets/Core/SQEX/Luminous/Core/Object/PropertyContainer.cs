@@ -10,7 +10,7 @@ namespace SQEX.Luminous.Core.Object
         private ushort AllPropertiesClassFieldCount { get; set; }
         private PropertyContainer Parent { get; }
         private IList<Property> MyProperties { get; } = new List<Property>();
-        private IList<Property> AllProperties { get; } = new List<Property>();
+        public IList<Property> AllProperties { get; } = new List<Property>();
 
         public PropertyContainer(string name, PropertyContainer parent, int nameHashCode, int versionHashCode)
         {

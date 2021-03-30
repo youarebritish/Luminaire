@@ -6,18 +6,18 @@ namespace SQEX.Luminous.Core.Object
 {
     public class ObjectType
     {
-        private string Name { get; }
-        private uint ThisType { get; }
-        private ObjectType BaseType { get; }
+        public string Name { get; }
+        public uint ThisType { get; }
+        public ObjectType BaseType { get; }
         public Func<BaseObject> ConstructFunction2 { get; }
         public PropertyContainer PropertyContainer { get; }
-        private uint FunctionCount { get; }
-        private int ObjectSize { get; }
+        public uint FunctionCount { get; }
+        public int ObjectSize { get; }
 
         /// <summary>
         /// All registered object types.
         /// </summary>
-        private static IDictionary<string, ObjectType> objectTypes = new Dictionary<string, ObjectType>();
+        public static IDictionary<string, ObjectType> objectTypes = new Dictionary<string, ObjectType>();
 
         public ObjectType(string name, uint thisType, ObjectType baseType, Func<BaseObject> constructFunction2, PropertyContainer propertyContainer, uint functionCount, int objectSize)
         {

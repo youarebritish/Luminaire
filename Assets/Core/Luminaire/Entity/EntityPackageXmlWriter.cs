@@ -57,7 +57,7 @@ namespace Luminaire.Entity
             var result = new XElement("object");
             result.SetAttributeValue("objectIndex", objInfo.ObjectIndex);
             result.SetAttributeValue("checked", objInfo.Checked);
-            //result.SetAttributeValue("type", obj.GetObjectType().Name); //error CS0122: 'ObjectType.Name' is inaccessible due to its protection level
+            result.SetAttributeValue("type", obj.GetObjectType().Name); 
             result.SetAttributeValue("path", objInfo.Path);
             result.SetAttributeValue("name", objInfo.Name);
 
